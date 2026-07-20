@@ -1,61 +1,58 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>续页｜故事从评论区继续</title>
-  <meta name="description" content="按文件夹收藏的原创故事与连载续篇。无需登录，打开链接直接阅读。">
-  <meta property="og:title" content="故事在评论区停下，在这里继续。">
-  <meta property="og:description" content="打开续页故事档案馆，找到你正在追的下一章。">
+  <title>Story Archive — Every Story Has a File</title>
+  <meta name="description" content="An independent bilingual story archive. Browse English stories by folder or switch to Simplified Chinese.">
+  <meta property="og:title" content="Story Archive — The story continues here">
+  <meta property="og:description" content="Open a story file and continue reading in English or Simplified Chinese.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://henryzwow-byte.github.io/xuye-story-archive/og.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="home">
-  <div class="top-note">新故事每晚 21:00 入库 <span>·</span> 从 Facebook 来？续集就在这里</div>
+  <div class="top-note" data-i18n="topNote">Seven stories from the private archive are now available.</div>
   <header class="site-header shell">
-    <a class="brand" href="./" aria-label="续页首页"><span class="brand-mark"><i></i></span><span><b>续页</b><small>STORY ARCHIVE</small></span></a>
-    <nav><a href="#library">故事库</a><a href="#new">本周上新</a><a href="info.html?page=about">关于</a></nav>
-    <a class="outline-button" href="#library">打开档案库 ↗</a>
+    <a class="brand" href="./" aria-label="Story Archive home"><span class="brand-mark"><i></i></span><span><b>STORY ARCHIVE</b><small>THE CONTINUATION LIBRARY</small></span></a>
+    <nav><a href="#library" data-i18n="navLibrary">Library</a><a href="#new" data-i18n="navNew">All files</a><a class="info-link" href="info.html?page=about" data-i18n="navAbout">About</a></nav>
+    <div class="header-actions"><div class="lang-switch" aria-label="Language"></div><a class="outline-button" href="#library" data-i18n="openArchive">Open archive →</a></div>
   </header>
 
   <main>
     <section class="hero shell">
       <div class="hero-copy">
         <div class="kicker"><span></span> THE STORY CONTINUES HERE</div>
-        <h1>故事在评论区停下，<br><em>在这里继续。</em></h1>
-        <p>每一个没讲完的秘密，都有自己的档案编号。按文件夹寻找，或直接输入你记得的关键词。</p>
+        <h1 data-i18n-html="heroTitle">Every story has a file.<br><em>Open the one you came for.</em></h1>
+        <p data-i18n="heroBody">A clean, searchable library for complete stories. Read in English by default or switch the entire site to Simplified Chinese.</p>
         <form class="search" id="search-form" role="search">
           <span aria-hidden="true">⌕</span>
-          <label class="sr-only" for="story-search">搜索故事</label>
-          <input id="story-search" placeholder="输入标题、线索或档案号…" autocomplete="off">
-          <button>查找档案</button>
+          <label class="sr-only" for="story-search" data-i18n="searchLabel">Search stories</label>
+          <input id="story-search" placeholder="Search title, category or file number…" autocomplete="off">
+          <button data-i18n="searchButton">Find a file</button>
         </form>
-        <div class="stats"><div><strong>1,284</strong><span>篇故事档案</span></div><div><strong>46</strong><span>个连载系列</span></div><div><strong>每周 3 次</strong><span>稳定更新</span></div></div>
+        <div class="stats"><div><strong id="story-total">7</strong><span data-i18n="storyFiles">story files</span></div><div><strong id="category-total">3</strong><span data-i18n="collections">collections</span></div><div><strong>EN / 中文</strong><span data-i18n="bilingual">bilingual reading</span></div></div>
       </div>
-      <a class="feature-paper" href="story.html?slug=red-shoes">
-        <div class="paper-meta"><span>档案 #A-0719</span><span>今日热门</span></div>
-        <div class="paper-number">07</div>
-        <div class="paper-copy"><small>悬疑 · 第 8 章</small><h2>凌晨三点，门外<br>又响起了敲门声</h2><p>我搬进这栋旧公寓的第七天，门外出现了一双从未见过的红色高跟鞋……</p><b>继续阅读 <i>→</i></b></div>
-      </a>
+      <a class="feature-paper" id="featured-story" href="story.html?slug=the-broken-home"></a>
     </section>
 
-    <div class="trust"><div class="shell"><span>✓ 无需登录，直接阅读</span><span>✓ 手机阅读优化</span><span>✓ 每个故事独立链接</span><span>✓ 分类与搜索快速定位</span></div></div>
+    <div class="trust"><div class="shell"><span data-i18n="trustOne">✓ No sign-in required</span><span data-i18n="trustTwo">✓ Mobile reading optimized</span><span data-i18n="trustThree">✓ One shareable link per story</span><span data-i18n="trustFour">✓ English and Simplified Chinese</span></div></div>
 
     <section class="library shell" id="library">
-      <aside class="folders"><div class="section-label">档案目录</div><h2>故事文件夹</h2><div id="folder-list" class="folder-list"></div><blockquote><small>ARCHIVE NOTE 024</small>“每一个故事，都值得一个被找到的结局。”</blockquote></aside>
+      <aside class="folders"><div class="section-label" data-i18n="archiveDirectory">ARCHIVE DIRECTORY</div><h2 data-i18n="storyFolders">Story folders</h2><div id="folder-list" class="folder-list"></div><blockquote><small>ARCHIVE NOTE 001</small><span data-i18n="archiveQuote">“A story deserves an ending people can find.”</span></blockquote></aside>
       <div class="story-index" id="new">
-        <div class="index-head"><div><div class="section-label">OPEN FILES</div><h2 id="active-title">全部故事</h2><p id="result-count"></p></div><label>排序 <select id="sort-select"><option value="popular">最多阅读</option><option value="newest">最近更新</option></select></label></div>
-        <div class="ad-slot"><span>ADVERTISEMENT</span><p>广告展示位 · 970 × 90</p></div>
+        <div class="index-head"><div><div class="section-label">OPEN FILES</div><h2 id="active-title">All Stories</h2><p id="result-count"></p></div><label><span data-i18n="sortLabel">Sort</span> <select id="sort-select"><option value="file" data-i18n="sortFile">File number</option><option value="title" data-i18n="sortTitle">Title</option></select></label></div>
+        <div class="ad-slot"><span>ADVERTISEMENT</span><p data-i18n="adLeaderboard">Leaderboard ad space · 970 × 90</p></div>
         <div class="story-grid" id="story-grid"></div>
-        <div class="empty" id="empty-state" hidden><b>⌕</b><h3>没有找到这份档案</h3><p>换个关键词，或打开其他文件夹看看。</p></div>
+        <div class="empty" id="empty-state" hidden><b>⌕</b><h3 data-i18n="emptyTitle">No matching file</h3><p data-i18n="emptyBody">Try another keyword or open a different folder.</p></div>
       </div>
     </section>
 
-    <section class="newsletter"><div class="shell"><div><div class="section-label light">NEW CHAPTER ALERT</div><h2>不让任何一个结局<br>消失在信息流里。</h2></div><form id="newsletter-form"><p>订阅新章节提醒，每周最多两封，没有无关内容。</p><div><input type="email" required placeholder="你的电子邮箱"><button>订阅更新</button></div><small id="newsletter-note">演示版本暂不收集邮箱，接入邮件服务后启用。</small></form></div></section>
+    <section class="newsletter"><div class="shell"><div><div class="section-label light">ARCHIVE STATUS</div><h2 data-i18n-html="statusTitle">Your seven Word stories<br>are now organized here.</h2></div><div class="archive-status"><p data-i18n="statusBody">This free static site does not collect personal data. New stories can be added by replacing the story data file.</p><a href="#library" data-i18n="browseAll">Browse all stories</a></div></div></section>
   </main>
 
-  <footer class="site-footer shell"><a class="brand" href="./"><span class="brand-mark"><i></i></span><span><b>续页</b><small>STORY ARCHIVE</small></span></a><p>原创故事与连载续篇的数字档案馆。</p><nav><a href="info.html?page=about">关于我们</a><a href="info.html?page=privacy">隐私政策</a><a href="info.html?page=terms">使用条款</a><a href="info.html?page=contact">广告合作</a></nav><small>© 2026 续页故事库</small></footer>
+  <footer class="site-footer shell"><a class="brand" href="./"><span class="brand-mark"><i></i></span><span><b>STORY ARCHIVE</b><small>THE CONTINUATION LIBRARY</small></span></a><p data-i18n="footerText">An independent archive for fictional stories and serial continuations.</p><nav><a class="info-link" href="info.html?page=about" data-i18n="footerAbout">About</a><a class="info-link" href="info.html?page=privacy" data-i18n="footerPrivacy">Privacy</a><a class="info-link" href="info.html?page=terms" data-i18n="footerTerms">Terms</a><a class="info-link" href="info.html?page=contact" data-i18n="footerAds">Advertising</a></nav><small>© 2026 Story Archive</small></footer>
+  <script src="stories-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,40 +1,238 @@
-const categories=[
-  {name:"全部故事",count:1284,code:"ALL"},{name:"悬疑迷局",count:326,code:"SUS"},{name:"都市情感",count:284,code:"ROM"},{name:"家庭真相",count:217,code:"FAM"},{name:"奇闻异事",count:193,code:"ODD"},{name:"科幻未来",count:146,code:"SCI"},{name:"治愈短篇",count:118,code:"LIT"}
-];
+const stories = Array.isArray(window.STORY_ARCHIVE) ? window.STORY_ARCHIVE : [];
 
-const stories=[
-  {slug:"red-shoes",title:"凌晨三点，门外又响起了敲门声",category:"悬疑迷局",chapter:"第 8 章",glyph:"⌑",tone:"rust",summary:"那双红色高跟鞋再次出现，而这一次，鞋尖正对着我的门。",tags:["公寓","反转","连载"],date:"2026-07-19",dateLabel:"昨日更新",reads:86400,readsLabel:"8.6万",content:["第三次敲门声落下时，我没有动。手机屏幕停在监控画面上，走廊空无一人，只有那双红色高跟鞋安静地摆在门垫中央。","我把声音调到最大。电流杂音里，有人贴着摄像头低声数数：七、六、五……那是我母亲的声音。她已经去世十二年了。","门把手缓缓转动。我这才想起，搬进来第一天，房东给过我两把钥匙。其中一把，此刻正从门缝下被人轻轻推了进来。钥匙上缠着一张褪色的住院腕带，名字是我的，日期却是明天。","我后退一步，撞翻了玄关的纸箱。箱底露出一张旧报纸：十二年前，本楼七层发生火灾，唯一失踪的女孩穿着红色高跟鞋。照片上的女孩不是别人——正是我每天在镜子里看到的脸。"]},
-  {slug:"empty-seat",title:"婚礼上，父亲身边的空位",category:"家庭真相",chapter:"完结篇",glyph:"Ⅱ",tone:"gold",summary:"婚礼开始前，父亲坚持为一个不存在的人留了座位。",tags:["亲情","婚礼","催泪"],date:"2026-07-18",dateLabel:"2 天前",reads:72100,readsLabel:"7.2万",content:["司仪第三次问起那个空位时，父亲只是把椅子擦得更干净。他说，等一个迟到了二十六年的人。","仪式开始，酒店门被推开。进来的女人与我有一双一模一样的眼睛，手里捧着我婴儿时期丢失的银锁。","父亲终于告诉我，那不是客人，而是把我带到这个世界上的人。二十六年前，她为了让我能活下来，签下了放弃治疗的同意书。","那张空椅子从来不是留给亡者。它留给的是一个父亲不敢忘记、却也不敢在女儿最幸福的日子里说出口的真相。"]},
-  {slug:"last-message",title:"前任去世后，我收到他的第 37 条短信",category:"都市情感",chapter:"第 5 章",glyph:"37",tone:"blue",summary:"号码早已注销，但每逢周五，短信仍会准时到达。",tags:["旧爱","短信","秘密"],date:"2026-07-20",dateLabel:"刚刚更新",reads:69800,readsLabel:"6.9万",content:["第 37 条短信只有一句：别去我们第一次见面的咖啡馆。我盯着时间——周五，下午四点零七分，和前面三十六条一模一样。","我还是去了。店已经关门，玻璃上贴着招租告示，里面却亮着一盏属于我们旧座位的灯。","桌上放着一部黑色手机。屏幕里存着三十七封定时邮件，最后一封的收件人不是我，而是一个我从未听过的名字。","身后的门铃突然响了。一个小女孩站在雨里，抬头问我：你就是爸爸每年都会写信的那位阿姨吗？"]},
-  {slug:"elevator-thirteen",title:"电梯里不存在的第十三层",category:"奇闻异事",chapter:"第 3 章",glyph:"13",tone:"violet",summary:"按钮只有十二层，可午夜后，显示屏总会多出一个数字。",tags:["电梯","午夜","规则"],date:"2026-07-16",dateLabel:"4 天前",reads:57300,readsLabel:"5.7万",content:["物业说这栋楼从来没有十三层。可那晚十二点后，电梯没有停在我按下的九楼，而是继续上升。","显示屏跳出鲜红的 13。门开后，走廊和我家那层一模一样，只是每扇门上都贴着明天的日期。","1306 的门虚掩着。我从门缝看见自己坐在餐桌边，正在给现在的我写一张纸条：无论听到谁叫你的名字，都别回头。","就在这时，身后的电梯门关上了。黑暗里，一个和我声音完全相同的人轻轻说：你终于回来了。"]},
-  {slug:"memory-shop",title:"我在旧货市场买到一段陌生记忆",category:"科幻未来",chapter:"第 12 章",glyph:"∞",tone:"teal",summary:"售价二十元的芯片里，藏着一场尚未发生的告别。",tags:["记忆","未来","循环"],date:"2026-07-17",dateLabel:"3 天前",reads:49200,readsLabel:"4.9万",content:["摊主说那是一枚坏掉的音乐芯片。我把它接入旧播放器，听见的却是自己的哭声。","记忆里，我站在一座被海水淹没的城市，和一个看不清脸的人告别。远处钟楼显示的年份，是三年后。","芯片末尾有一串坐标。我找到那里时，只看见一间尚未开业的记忆商店，橱窗海报上印着我的照片。","店主从暗处走出来，把二十元放回我手里：这段记忆不是你买走的，是三年后的你寄回来，拜托我今天交给你的。"]},
-  {slug:"window-light",title:"对面那盏永远为我亮着的灯",category:"治愈短篇",chapter:"短篇",glyph:"✦",tone:"cream",summary:"失眠的第 100 天，我终于敲响了对面那扇门。",tags:["失眠","陌生人","温暖"],date:"2026-07-15",dateLabel:"5 天前",reads:44600,readsLabel:"4.4万",content:["搬来后，我每晚都看见对面窗台亮着一盏橘色小灯。它从不熄灭，像在陪我熬过每一个睡不着的夜。","第一百天，我带着一袋橘子去敲门。开门的是位白发老人，他身后并没有灯，只有一面镜子。","老人笑着指向我的窗户：孩子，亮着灯的一直是你家。我只是每天坐在这里，让你知道世界上还有人醒着。","那晚我第一次关掉灯。清晨醒来时，门把手上挂着一张纸条：以后想说话，就来敲门。"]},
-  {slug:"roommate",title:"合租室友从来不在镜子里出现",category:"悬疑迷局",chapter:"第 6 章",glyph:"◐",tone:"ink",summary:"直到我翻到入住合同，才发现签名栏一直只有我。",tags:["合租","镜子","身份"],date:"2026-07-14",dateLabel:"6 天前",reads:39800,readsLabel:"3.9万",content:["林夏搬进来两个月，我从未在镜子里见过她。起初我以为只是角度，直到她站在我身后替我梳头。","镜子里只有一把悬在空中的木梳。我猛地回头，她却像往常一样问我晚饭吃什么。","我冲去中介翻合同。纸上只有我的签名，紧急联系人一栏却写着林夏的电话。拨过去后，接电话的是我自己。","电话里的声音说：千万别让她知道你已经想起来了。三年前死在这间房里的人，根本不是林夏。"]},
-  {slug:"rainy-platform",title:"雨夜末班车，没有终点站",category:"奇闻异事",chapter:"第 4 章",glyph:"↟",tone:"green",summary:"车票背面写着一条规则：途中无论看见谁，都不要下车。",tags:["末班车","规则","归途"],date:"2026-07-13",dateLabel:"一周前",reads:35200,readsLabel:"3.5万",content:["末班车开出十分钟后，我发现车窗外还是同一个站台。雨里站着的人越来越多，他们都没有撑伞。","售票员递给我一张没有终点的车票，背面写着：不要回应敲窗的人，尤其当那个人是你自己。","第三圈，我看见十九岁的自己站在雨里。他抱着那只早就走丢的狗，拼命朝我挥手。","车门打开了一条缝。售票员低声问我：你要回到过去，还是带着遗憾回家？"]}
-];
-
-const infoPages={
-  about:{title:"关于续页",intro:"续页是一座为移动端阅读设计的原创故事档案馆。",sections:[["我们在做什么","我们把散落在信息流里的连载故事整理成清晰、可搜索、可直接分享的独立档案。每篇故事都有固定链接，读者无需注册即可阅读。"],["内容原则","所有故事应获得合法发布授权，并清楚区分原创、授权转载与广告内容。我们不发布仇恨、欺诈、露骨成人内容或侵犯他人版权的作品。"],["更新节奏","故事库计划每周更新三次。具体时间会显示在首页与每篇档案的更新信息中。"]]},
-  privacy:{title:"隐私政策",intro:"最后更新：2026 年 7 月 20 日",sections:[["我们收集的信息","当前静态演示站不保存订阅邮箱，也没有账号系统。正式启用数据服务后，本政策会同步更新。"],["Cookie 与广告","为了保存阅读偏好、统计访问效果并展示相关广告，未来可能使用 Cookie 或类似技术。第三方广告服务商也可能按其隐私政策处理设备与访问数据。"],["你的选择","你可以在浏览器中限制 Cookie、取消订阅，或联系我们申请访问、更正或删除相关信息。"],["数据安全","我们采用合理措施保护数据，但互联网传输无法保证绝对安全。"]]},
-  terms:{title:"使用条款",intro:"访问续页即表示你同意遵守以下基本规则。",sections:[["内容版权","除非另有标注，本站排版、品牌元素与原创故事受版权保护。未经授权，不得批量复制、镜像、改编或用于商业分发。"],["合理使用","你可以分享本站公开页面链接，也可以在法律允许的范围内引用少量内容并注明出处。"],["广告与外部链接","广告会以明确标识与正文区分。外部网站由其运营方负责。"],["免责声明","故事内容仅供文学阅读。我们会努力保持页面准确可用，但不保证服务永不中断。"]]},
-  contact:{title:"联系与广告合作",intro:"欢迎原创投稿、版权合作与品牌广告咨询。",sections:[["广告合作","首页、故事正文与侧栏均预留标准广告位。正式投放前会确认素材规格、展示周期、跳转目标与内容合规要求。"],["内容合作","投稿请附作品简介、完整样稿、版权声明与可联系邮箱。请勿提交未经授权的转载内容。"],["联系我们","当前演示站尚未绑定正式业务邮箱。上线前请将此处替换为你的品牌邮箱。"]]}
+const copy = {
+  en: {
+    topNote: "Seven stories from the private archive are now available.",
+    navLibrary: "Library", navNew: "All files", navAbout: "About", openArchive: "Open archive →",
+    heroTitle: "Every story has a file.<br><em>Open the one you came for.</em>",
+    heroBody: "A clean, searchable library for complete stories. Read in English by default or switch the entire site to Simplified Chinese.",
+    searchLabel: "Search stories", searchPlaceholder: "Search title, category or file number…", searchButton: "Find a file",
+    storyFiles: "story files", collections: "collections", bilingual: "bilingual reading",
+    trustOne: "✓ No sign-in required", trustTwo: "✓ Mobile reading optimized", trustThree: "✓ One shareable link per story", trustFour: "✓ English and Simplified Chinese",
+    archiveDirectory: "ARCHIVE DIRECTORY", storyFolders: "Story folders", archiveQuote: "“A story deserves an ending people can find.”",
+    sortLabel: "Sort", sortFile: "File number", sortTitle: "Title", adLeaderboard: "Leaderboard ad space · 970 × 90",
+    emptyTitle: "No matching file", emptyBody: "Try another keyword or open a different folder.",
+    statusTitle: "Your seven Word stories<br>are now organized here.",
+    statusBody: "This free static site does not collect personal data. New stories can be added by replacing the story data file.", browseAll: "Browse all stories",
+    footerText: "An independent archive for fictional stories and serial continuations.", footerAbout: "About", footerPrivacy: "Privacy", footerTerms: "Terms", footerAds: "Advertising",
+    allStories: "All Stories", matched: "matching files", file: "FILE", complete: "COMPLETE", openFile: "Open file", imported: "Imported from Word", chapters: "sections",
+    featured: "FEATURED FILE", readStory: "Read the full story", backLibrary: "← Back to library", archive: "Story Archive",
+    fictionNotice: "FICTION / CONTENT NOTICE", updated: "Archive file", readingTime: "Estimated reading", minutes: "min",
+    adStory: "Story-page ad space · 728 × 90", adInline: "In-article ad space · responsive", adSide: "Sidebar ad space · 300 × 600",
+    currentFile: "CURRENT FILE", fileComplete: "FILE COMPLETE", endMessage: "You have reached the end of this story.", moreStories: "Explore more stories"
+  },
+  zh: {
+    topNote: "你本地故事会文件夹中的 7 篇故事现已全部入库。",
+    navLibrary: "故事库", navNew: "全部文件", navAbout: "关于", openArchive: "打开档案库 →",
+    heroTitle: "每一个故事，都有一份档案。<br><em>打开你正在寻找的那一篇。</em>",
+    heroBody: "一个清晰、可搜索的完整故事库。网站默认显示英文，也可以一键切换为简体中文。",
+    searchLabel: "搜索故事", searchPlaceholder: "搜索标题、分类或档案编号……", searchButton: "查找档案",
+    storyFiles: "篇故事档案", collections: "个故事分类", bilingual: "英中双语阅读",
+    trustOne: "✓ 无需登录", trustTwo: "✓ 手机阅读优化", trustThree: "✓ 每篇故事独立链接", trustFour: "✓ 英文与简体中文切换",
+    archiveDirectory: "档案目录", storyFolders: "故事文件夹", archiveQuote: "“每一个故事，都值得一个能被找到的结局。”",
+    sortLabel: "排序", sortFile: "档案编号", sortTitle: "标题", adLeaderboard: "横幅广告位 · 970 × 90",
+    emptyTitle: "没有匹配的档案", emptyBody: "换一个关键词，或打开其他文件夹。",
+    statusTitle: "你的 7 篇 Word 故事<br>已经整理到这里。",
+    statusBody: "这个免费静态网站不收集个人资料。以后添加新故事，只需替换故事数据文件。", browseAll: "浏览全部故事",
+    footerText: "用于虚构故事与连载续篇的独立数字档案馆。", footerAbout: "关于", footerPrivacy: "隐私", footerTerms: "条款", footerAds: "广告合作",
+    allStories: "全部故事", matched: "份匹配档案", file: "档案", complete: "已完结", openFile: "打开档案", imported: "来自 Word 文件", chapters: "个章节",
+    featured: "推荐档案", readStory: "阅读全文", backLibrary: "← 返回故事库", archive: "故事档案库",
+    fictionNotice: "虚构作品 / 内容提示", updated: "档案编号", readingTime: "预计阅读", minutes: "分钟",
+    adStory: "故事页广告位 · 728 × 90", adInline: "文中广告位 · 自适应", adSide: "侧栏广告位 · 300 × 600",
+    currentFile: "当前档案", fileComplete: "档案完结", endMessage: "你已经读完这篇故事。", moreStories: "查看更多故事"
+  }
 };
 
-function storyCard(story,index){return `<article class="story-card"><div class="cover tone-${story.tone}"><span>${String(index+1).padStart(2,"0")}</span><span class="category">${story.category}</span><div class="glyph">${story.glyph}</div><span class="chapter">${story.chapter}</span></div><div class="card-body"><div class="card-meta"><span>${story.dateLabel}</span><span>${story.readsLabel} 阅读</span></div><h3><a href="story.html?slug=${story.slug}">${story.title}</a></h3><p>${story.summary}</p><div class="tags">${story.tags.slice(0,2).map(tag=>`<span>#${tag}</span>`).join("")}</div><a class="read-link" href="story.html?slug=${story.slug}"><span>打开档案</span><b>→</b></a></div></article>`}
+const params = new URLSearchParams(location.search);
+const storedLanguage = (() => { try { return localStorage.getItem("story-language"); } catch { return null; } })();
+const lang = params.get("lang") === "zh" || (params.get("lang") !== "en" && storedLanguage === "zh") ? "zh" : "en";
+const t = (key) => copy[lang][key] || copy.en[key] || key;
+const local = (value) => value && typeof value === "object" ? (value[lang] || value.en || value.zh || "") : (value || "");
+const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[character]));
 
-function initHome(){
-  let active="全部故事",query="",sort="popular";
-  const folderList=document.querySelector("#folder-list"),grid=document.querySelector("#story-grid"),count=document.querySelector("#result-count"),title=document.querySelector("#active-title"),empty=document.querySelector("#empty-state");
-  function renderFolders(){folderList.innerHTML=categories.map(c=>`<button class="folder ${c.name===active?"active":""}" data-category="${c.name}"><span class="folder-icon"></span><span><b>${c.name}</b><small>${c.count} 篇</small></span><i>${c.code}</i></button>`).join("");folderList.querySelectorAll("button").forEach(button=>button.addEventListener("click",()=>{active=button.dataset.category;render()}))}
-  function render(){let items=stories.filter(s=>(active==="全部故事"||s.category===active)&&[s.title,s.summary,s.category,...s.tags].join(" ").toLowerCase().includes(query.toLowerCase()));items.sort((a,b)=>sort==="newest"?b.date.localeCompare(a.date):b.reads-a.reads);title.textContent=active;count.textContent=`${items.length} 份匹配档案`;grid.innerHTML=items.map(storyCard).join("");empty.hidden=items.length!==0;renderFolders()}
-  document.querySelector("#story-search").addEventListener("input",event=>{query=event.target.value.trim();render()});document.querySelector("#search-form").addEventListener("submit",event=>{event.preventDefault();document.querySelector("#library").scrollIntoView({behavior:"smooth"})});document.querySelector("#sort-select").addEventListener("change",event=>{sort=event.target.value;render()});document.querySelector("#newsletter-form").addEventListener("submit",event=>{event.preventDefault();document.querySelector("#newsletter-note").textContent="这是免费演示站，当前不会保存你的邮箱。"});render();
+document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+
+function localizedHref(href) {
+  if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("http")) return href;
+  const [beforeHash, hash = ""] = href.split("#");
+  const url = new URL(beforeHash, location.href);
+  url.searchParams.set("lang", lang);
+  return `${url.pathname.split("/").pop() || "./"}${url.search}${hash ? `#${hash}` : ""}`;
 }
 
-function initStory(){
-  const slug=new URLSearchParams(location.search).get("slug")||"red-shoes",story=stories.find(s=>s.slug===slug)||stories[0];document.title=`${story.title}｜续页故事库`;
-  document.querySelector("#reader").innerHTML=`<article class="reader-main"><nav class="breadcrumb"><a href="./">故事库</a><span>/</span><span>${story.category}</span><span>/</span><b>${story.chapter}</b></nav><header class="article-head"><div class="article-label"><span>档案已开启</span><i>FILE / ${story.slug.toUpperCase()}</i></div><h1>${story.title}</h1><p>${story.summary}</p><div class="article-stats"><span>更新于 ${story.date}</span><span>${story.readsLabel} 次阅读</span><span>预计阅读 4 分钟</span></div></header><div class="ad-slot reader-ad"><span>ADVERTISEMENT</span><p>广告展示位 · 728 × 90</p></div><div class="prose"><p class="dropcap">${story.content[0]}</p>${story.content.slice(1,3).map(p=>`<p>${p}</p>`).join("")}<div class="ad-slot mid-ad"><span>ADVERTISEMENT</span><p>文章内广告位 · 自适应</p></div>${story.content.slice(3).map(p=>`<p>${p}</p>`).join("")}</div><div class="chapter-end"><span>TO BE CONTINUED</span><h2>本章完</h2><p>下一章正在整理入库。收藏本页，或回到故事库发现更多故事。</p><a href="./">返回故事库</a></div></article><aside class="reader-side"><div class="reading-card"><span>当前档案</span><strong>${story.chapter}</strong><p>${story.category}</p></div><div class="ad-slot tall-ad"><span>ADVERTISEMENT</span><p>广告展示位<br>300 × 600</p></div></aside>`;
+function setLanguage(nextLanguage) {
+  try { localStorage.setItem("story-language", nextLanguage); } catch {}
+  const url = new URL(location.href);
+  url.searchParams.set("lang", nextLanguage);
+  location.href = url.toString();
 }
 
-function initInfo(){const key=new URLSearchParams(location.search).get("page")||"about",page=infoPages[key]||infoPages.about;document.title=`${page.title}｜续页故事库`;document.querySelector("#info-content").innerHTML=`<div class="section-label">PUBLIC DOCUMENT</div><h1>${page.title}</h1><p class="intro">${page.intro}</p>${page.sections.map(([title,text])=>`<section><h2>${title}</h2><p>${text}</p></section>`).join("")}`}
+function initLanguageControls() {
+  document.querySelectorAll(".lang-switch").forEach((container) => {
+    container.innerHTML = `<button type="button" class="${lang === "en" ? "active" : ""}" data-language="en">English</button><button type="button" class="${lang === "zh" ? "active" : ""}" data-language="zh">简体中文</button>`;
+    container.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.language)));
+  });
+}
 
-const page=document.body.dataset.page;if(page==="home")initHome();if(page==="story")initStory();if(page==="info")initInfo();
+function translateStaticPage() {
+  document.querySelectorAll("[data-i18n]").forEach((element) => { element.textContent = t(element.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-html]").forEach((element) => { element.innerHTML = t(element.dataset.i18nHtml); });
+  const search = document.querySelector("#story-search");
+  if (search) search.placeholder = t("searchPlaceholder");
+  document.querySelectorAll("a.info-link, a.home-link").forEach((link) => { link.href = localizedHref(link.getAttribute("href")); });
+}
+
+function storyUrl(story) {
+  return `story.html?slug=${encodeURIComponent(story.slug)}&lang=${lang}`;
+}
+
+function categoryKey(story) {
+  return story.category.en;
+}
+
+function chapterCount(story) {
+  const headings = story.content[lang].filter((paragraph) => paragraph.startsWith("## ")).length;
+  return headings || 1;
+}
+
+function readingMinutes(story) {
+  const text = story.content[lang].join(" ");
+  const units = lang === "zh" ? text.replace(/\s/g, "").length : text.trim().split(/\s+/).length;
+  return Math.max(2, Math.ceil(units / (lang === "zh" ? 420 : 220)));
+}
+
+function storyCard(story, index) {
+  return `<article class="story-card">
+    <div class="cover tone-${esc(story.tone)}"><span>${String(index + 1).padStart(2, "0")}</span><span class="category">${esc(local(story.category))}</span><div class="glyph">${esc(story.glyph)}</div><span class="chapter">${esc(t("complete"))}</span></div>
+    <div class="card-body"><div class="card-meta"><span>${esc(story.fileNo)}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span></div><h3><a href="${storyUrl(story)}">${esc(local(story.title))}</a></h3><p>${esc(local(story.summary))}</p><div class="tags"><span>#${esc(local(story.category))}</span><span>#${esc(t("imported"))}</span></div><a class="read-link" href="${storyUrl(story)}"><span>${esc(t("openFile"))}</span><b>→</b></a></div>
+  </article>`;
+}
+
+function renderFeatured(story) {
+  const featured = document.querySelector("#featured-story");
+  if (!featured || !story) return;
+  featured.href = storyUrl(story);
+  featured.innerHTML = `<div class="paper-meta"><span>${esc(t("file"))} #${esc(story.fileNo)}</span><span>${esc(t("featured"))}</span></div><div class="paper-number">01</div><div class="paper-copy"><small>${esc(local(story.category))} · ${esc(t("complete"))}</small><h2>${esc(local(story.title))}</h2><p>${esc(local(story.summary))}</p><b>${esc(t("readStory"))} <i>→</i></b></div>`;
+}
+
+function initHome() {
+  let active = "all";
+  let query = "";
+  let sort = "file";
+  const folderList = document.querySelector("#folder-list");
+  const grid = document.querySelector("#story-grid");
+  const count = document.querySelector("#result-count");
+  const title = document.querySelector("#active-title");
+  const empty = document.querySelector("#empty-state");
+  const categoryMap = new Map();
+  stories.forEach((story) => {
+    const key = categoryKey(story);
+    if (!categoryMap.has(key)) categoryMap.set(key, { label: story.category, count: 0 });
+    categoryMap.get(key).count += 1;
+  });
+  const categories = [{ key: "all", label: { en: "All Stories", zh: "全部故事" }, count: stories.length }, ...Array.from(categoryMap, ([key, value]) => ({ key, ...value }))];
+  document.querySelector("#story-total").textContent = stories.length;
+  document.querySelector("#category-total").textContent = categoryMap.size;
+  renderFeatured(stories[0]);
+
+  function renderFolders() {
+    folderList.innerHTML = categories.map((category, index) => `<button class="folder ${category.key === active ? "active" : ""}" data-category="${esc(category.key)}"><span class="folder-icon"></span><span><b>${esc(local(category.label))}</b><small>${category.count} ${esc(lang === "zh" ? "篇" : "files")}</small></span><i>${category.key === "all" ? "ALL" : `0${index}`}</i></button>`).join("");
+    folderList.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => { active = button.dataset.category; render(); }));
+  }
+
+  function render() {
+    let items = stories.filter((story) => {
+      const categoryMatch = active === "all" || categoryKey(story) === active;
+      const haystack = [story.fileNo, story.title.en, story.title.zh, story.summary.en, story.summary.zh, story.category.en, story.category.zh].join(" ").toLowerCase();
+      return categoryMatch && haystack.includes(query.toLowerCase());
+    });
+    items.sort((a, b) => sort === "title" ? local(a.title).localeCompare(local(b.title), lang === "zh" ? "zh-CN" : "en") : a.fileNo.localeCompare(b.fileNo));
+    const activeCategory = categories.find((category) => category.key === active) || categories[0];
+    title.textContent = local(activeCategory.label);
+    count.textContent = `${items.length} ${t("matched")}`;
+    grid.innerHTML = items.map(storyCard).join("");
+    empty.hidden = items.length !== 0;
+    renderFolders();
+  }
+
+  document.querySelector("#story-search").addEventListener("input", (event) => { query = event.target.value.trim(); render(); });
+  document.querySelector("#search-form").addEventListener("submit", (event) => { event.preventDefault(); document.querySelector("#library").scrollIntoView({ behavior: "smooth" }); });
+  document.querySelector("#sort-select").addEventListener("change", (event) => { sort = event.target.value; render(); });
+  render();
+}
+
+function proseHtml(story) {
+  let paragraphIndex = 0;
+  return story.content[lang].map((paragraph) => {
+    if (paragraph.startsWith("## ")) return `<h2>${esc(paragraph.slice(3))}</h2>`;
+    paragraphIndex += 1;
+    const paragraphHtml = `<p class="${paragraphIndex === 1 ? "dropcap" : ""}">${esc(paragraph)}</p>`;
+    return paragraphIndex === 7 ? `${paragraphHtml}<div class="ad-slot mid-ad"><span>ADVERTISEMENT</span><p>${esc(t("adInline"))}</p></div>` : paragraphHtml;
+  }).join("");
+}
+
+function initStory() {
+  const slug = params.get("slug") || stories[0]?.slug;
+  const story = stories.find((item) => item.slug === slug) || stories[0];
+  const reader = document.querySelector("#reader");
+  if (!story) {
+    reader.innerHTML = `<p>${esc(t("emptyTitle"))}</p>`;
+    return;
+  }
+  document.title = `${local(story.title)} — Story Archive`;
+  const description = document.querySelector('meta[name="description"]');
+  if (description) description.content = local(story.summary);
+  reader.innerHTML = `<article class="reader-main"><nav class="breadcrumb"><a href="./?lang=${lang}">${esc(t("archive"))}</a><span>/</span><span>${esc(local(story.category))}</span><span>/</span><b>${esc(story.fileNo)}</b></nav><header class="article-head"><div class="article-label"><span>${esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("updated"))}: ${esc(story.fileNo)}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div><div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header><div class="ad-slot reader-ad"><span>ADVERTISEMENT</span><p>${esc(t("adStory"))}</p></div><div class="prose">${proseHtml(story)}</div><div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="./?lang=${lang}">${esc(t("moreStories"))}</a></div></article><aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(local(story.category))}</p></div><div class="ad-slot tall-ad"><span>ADVERTISEMENT</span><p>${esc(t("adSide"))}</p></div></aside>`;
+}
+
+const infoPages = {
+  about: {
+    title: { en: "About Story Archive", zh: "关于故事档案库" },
+    intro: { en: "Story Archive is a bilingual library designed for direct, mobile-friendly reading.", zh: "故事档案库是一座为直接分享和手机阅读设计的双语故事库。" },
+    sections: [
+      [{ en: "What this site does", zh: "这个网站做什么" }, { en: "The archive turns locally owned Word manuscripts into searchable, shareable story pages. Every story has a stable link and can be read without registration.", zh: "本网站把本地拥有的 Word 故事整理成可搜索、可分享的独立页面。每篇故事都有固定链接，无需注册即可阅读。" }],
+      [{ en: "Language", zh: "语言" }, { en: "English is the default. Readers can switch the interface, titles and story text to Simplified Chinese at any time.", zh: "网站默认显示英文。读者可以随时把界面、标题和故事正文切换为简体中文。" }],
+      [{ en: "Editorial status", zh: "内容说明" }, { en: "All stories are presented as fiction. Content notices appear on individual files where mature themes are present.", zh: "全部故事均以虚构作品发布。涉及成人或敏感主题时，故事页会显示内容提示。" }]
+    ]
+  },
+  privacy: {
+    title: { en: "Privacy Policy", zh: "隐私政策" },
+    intro: { en: "Last updated: July 20, 2026", zh: "最后更新：2026 年 7 月 20 日" },
+    sections: [
+      [{ en: "Current data collection", zh: "当前数据收集" }, { en: "This static website has no account system, comment form or email database. A language preference may be stored in your browser so the selected language remains active.", zh: "这个静态网站没有账号、评论或邮件数据库。浏览器可能会保存语言偏好，以便下次继续显示所选语言。" }],
+      [{ en: "Cookies and advertising", zh: "Cookie 与广告" }, { en: "If advertising or analytics services are added later, those providers may use cookies or similar technologies under their own privacy policies. This policy will be updated before those services are enabled.", zh: "未来接入广告或访问分析服务时，服务商可能依据其隐私政策使用 Cookie 或类似技术。正式启用前，本政策会同步更新。" }],
+      [{ en: "Your choices", zh: "你的选择" }, { en: "You can clear local website data or restrict cookies in your browser at any time.", zh: "你可以随时在浏览器中清除本地网站数据或限制 Cookie。" }]
+    ]
+  },
+  terms: {
+    title: { en: "Terms of Use", zh: "使用条款" },
+    intro: { en: "By visiting Story Archive, you agree to these basic conditions.", zh: "访问故事档案库，即表示你同意以下基本条件。" },
+    sections: [
+      [{ en: "Copyright", zh: "内容版权" }, { en: "Unless otherwise stated, the site design, branding and story texts are protected by copyright. Sharing public page links is permitted; copying or commercially redistributing full stories without permission is not.", zh: "除非另有说明，网站设计、品牌元素和故事正文均受版权保护。可以分享公开页面链接，未经许可不得复制或商业分发全文。" }],
+      [{ en: "Fiction notice", zh: "虚构声明" }, { en: "Stories are fictional literary works. Names, organizations, agencies and events should not be treated as factual reporting or legal advice.", zh: "故事属于虚构文学作品，文中人物、组织、机构和事件不应被视为真实报道或法律建议。" }],
+      [{ en: "Advertising", zh: "广告" }, { en: "Advertising areas are visually separated from editorial content. External destinations are controlled by their respective operators.", zh: "广告区域会与故事正文明确区分。外部链接目标由各自运营方负责。" }]
+    ]
+  },
+  contact: {
+    title: { en: "Advertising & Editorial Contact", zh: "广告与内容合作" },
+    intro: { en: "The site layout includes standard placements for future advertising.", zh: "网站布局已经预留常见广告展示位置。" },
+    sections: [
+      [{ en: "Advertising placements", zh: "广告位置" }, { en: "The home page, story pages and reading sidebar include clearly labeled responsive ad spaces. Final formats depend on the selected advertising provider and its content review.", zh: "首页、故事正文和阅读侧栏都预留了带有明确标识的响应式广告位。最终格式取决于广告服务商及其内容审核。" }],
+      [{ en: "Before applying", zh: "申请广告前" }, { en: "Add a real business email and confirm that you hold publication rights for every story. Advertising approval is decided by the provider and is not guaranteed by the presence of ad slots.", zh: "请先添加真实业务邮箱，并确认拥有每篇故事的发布权。广告位本身不代表一定通过广告平台审核，最终决定权属于广告服务商。" }]
+    ]
+  }
+};
+
+function initInfo() {
+  const key = params.get("page") || "about";
+  const page = infoPages[key] || infoPages.about;
+  document.title = `${local(page.title)} — Story Archive`;
+  document.querySelector("#info-content").innerHTML = `<div class="section-label">PUBLIC DOCUMENT</div><h1>${esc(local(page.title))}</h1><p class="intro">${esc(local(page.intro))}</p>${page.sections.map(([heading, text]) => `<section><h2>${esc(local(heading))}</h2><p>${esc(local(text))}</p></section>`).join("")}`;
+}
+
+initLanguageControls();
+translateStaticPage();
+const page = document.body.dataset.page;
+if (page === "home") initHome();
+if (page === "story") initStory();
+if (page === "info") initInfo();
