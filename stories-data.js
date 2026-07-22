@@ -2,6 +2,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "the-broken-home",
     fileNo: "A-001",
+    cover: "assets/covers/A-001-the-broken-home.webp",
     title: { en: "The Broken Home", zh: "家宴上的囚徒" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -76,6 +77,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "cleaning-house",
     fileNo: "A-003",
+    cover: "assets/covers/A-003-cleaning-house.webp",
     title: { en: "Cleaning House", zh: "清理门户" },
     category: { en: "Justice & Reckoning", zh: "正义审判" },
     summary: {
@@ -130,6 +132,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "judgment-from-a-wheelchair",
     fileNo: "A-004",
+    cover: "assets/covers/A-004-judgment-from-a-wheelchair.webp",
     title: { en: "Judgment from a Wheelchair", zh: "轮椅上的审判" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -194,6 +197,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "a-fathers-final-dignity",
     fileNo: "A-005",
+    cover: "assets/covers/A-005-a-fathers-final-dignity.webp",
     title: { en: "A Father’s Final Dignity", zh: "亲爹最后的尊严" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -264,6 +268,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "the-last-watchman",
     fileNo: "A-002",
+    cover: "assets/covers/A-002-the-last-watchman.webp",
     title: { en: "The Last Watchman", zh: "最后的守夜人" },
     category: { en: "Justice & Reckoning", zh: "正义审判" },
     summary: {
@@ -328,6 +333,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "the-logic-of-a-beast-in-the-mire",
     fileNo: "A-006",
+    cover: "assets/covers/A-006-carter-estate.webp",
     title: { en: "The Reckoning at Carter Estate", zh: "庄园里的审判" },
     category: { en: "Corporate Justice", zh: "职场正义" },
     summary: {
@@ -392,6 +398,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "the-viper-in-the-nest",
     fileNo: "A-007",
+    cover: "assets/covers/A-007-the-viper-in-the-nest.webp",
     title: { en: "The Viper in the Nest", zh: "温床上的毒蛇" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -464,6 +471,7 @@ window.STORY_ARCHIVE = [
   {
     slug: "the-tattered-toy-in-the-rain",
     fileNo: "A-008",
+    cover: "assets/covers/A-008-the-tattered-toy-in-the-rain.webp",
     title: { en: "The Tattered Toy in the Rain", zh: "雨夜里的破烂玩偶" },
     category: { en: "Lost & Found", zh: "失而复得" },
     summary: {

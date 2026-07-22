@@ -102,8 +102,12 @@ function readingMinutes(story) {
 }
 
 function storyCard(story, index) {
+  const coverNumber = String(story.fileNo || index + 1).replace(/\D/g, "").slice(-2).padStart(2, "0");
+  const coverMedia = story.cover
+    ? `<img src="${esc(story.cover)}" alt="" width="960" height="640" loading="lazy" decoding="async">`
+    : `<div class="glyph">${esc(story.glyph)}</div>`;
   return `<article class="story-card">
-    <div class="cover tone-${esc(story.tone)}"><span>${String(index + 1).padStart(2, "0")}</span><span class="category">${esc(local(story.category))}</span><div class="glyph">${esc(story.glyph)}</div><span class="chapter">${esc(t("complete"))}</span></div>
+    <a class="cover tone-${esc(story.tone)}" href="${storyUrl(story)}" aria-label="${esc(local(story.title))}">${coverMedia}<span>${coverNumber}</span><span class="category">${esc(local(story.category))}</span><span class="chapter">${esc(t("complete"))}</span></a>
     <div class="card-body"><div class="card-meta"><span>${esc(story.fileNo)}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span></div><h3><a href="${storyUrl(story)}">${esc(local(story.title))}</a></h3><p>${esc(local(story.summary))}</p><div class="tags"><span>#${esc(local(story.category))}</span><span>#${esc(t("imported"))}</span></div><a class="read-link" href="${storyUrl(story)}"><span>${esc(t("openFile"))}</span><b>→</b></a></div>
   </article>`;
 }
