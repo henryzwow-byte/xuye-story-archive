@@ -9,7 +9,7 @@
   <meta property="og:description" content="Open a story file and continue reading in English or Simplified Chinese.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://henryzwow-byte.github.io/xuye-story-archive/og.png">
-  <link rel="stylesheet" href="styles.css?v=20260722-covers-1">
+  <link rel="stylesheet" href="styles.css?v=20260722-carousel-1">
 </head>
 <body data-page="home">
   <div class="top-note" data-i18n="topNote">Eight stories from the private archive are now available.</div>
@@ -33,7 +33,12 @@
         </form>
         <div class="stats"><div><strong id="story-total">8</strong><span data-i18n="storyFiles">story files</span></div><div><strong id="category-total">4</strong><span data-i18n="collections">collections</span></div><div><strong>EN / 中文</strong><span data-i18n="bilingual">bilingual reading</span></div></div>
       </div>
-      <a class="feature-paper" id="featured-story" href="story-the-broken-home.html?lang=en"></a>
+      <div class="feature-carousel" id="featured-carousel" role="region" aria-roledescription="carousel" tabindex="0">
+        <a class="feature-paper" id="featured-story" href="story-the-broken-home.html?lang=en"></a>
+        <button class="carousel-control carousel-prev" id="featured-prev" type="button" aria-controls="featured-story">←</button>
+        <button class="carousel-control carousel-next" id="featured-next" type="button" aria-controls="featured-story">→</button>
+        <div class="carousel-footer"><div class="carousel-dots" id="featured-dots"></div><span class="carousel-status" id="featured-status" aria-live="polite">01 / 08</span></div>
+      </div>
     </section>
 
     <div class="trust"><div class="shell"><span data-i18n="trustOne">✓ No sign-in required</span><span data-i18n="trustTwo">✓ Mobile reading optimized</span><span data-i18n="trustThree">✓ One shareable link per story</span><span data-i18n="trustFour">✓ English and Simplified Chinese</span></div></div>
@@ -52,7 +57,7 @@
   </main>
 
   <footer class="site-footer shell"><a class="brand" href="./"><span class="brand-mark"><i></i></span><span><b>STORY ARCHIVE</b><small>THE CONTINUATION LIBRARY</small></span></a><p data-i18n="footerText">An independent archive for fictional stories and serial continuations.</p><nav><a class="info-link" href="info.html?page=about" data-i18n="footerAbout">About</a><a class="info-link" href="info.html?page=privacy" data-i18n="footerPrivacy">Privacy</a><a class="info-link" href="info.html?page=terms" data-i18n="footerTerms">Terms</a><a class="info-link" href="info.html?page=contact" data-i18n="footerAds">Advertising</a></nav><small>© 2026 Story Archive</small></footer>
-  <script src="stories-data.js?v=20260722-covers-1"></script>
-  <script src="app.js?v=20260722-covers-1"></script>
+  <script src="stories-data.js?v=20260722-carousel-1"></script>
+  <script src="app.js?v=20260722-carousel-1"></script>
 </body>
 </html>

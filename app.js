@@ -16,7 +16,7 @@ const copy = {
     statusBody: "This free static site does not collect personal data. New stories can be added by replacing the story data file.", browseAll: "Browse all stories",
     footerText: "An independent archive for fictional stories and serial continuations.", footerAbout: "About", footerPrivacy: "Privacy", footerTerms: "Terms", footerAds: "Advertising",
     allStories: "All Stories", matched: "matching files", file: "FILE", complete: "COMPLETE", openFile: "Open file", imported: "Imported from Word", chapters: "sections",
-    featured: "FEATURED FILE", readStory: "Read the full story", backLibrary: "← Back to library", archive: "Story Archive",
+    featured: "FEATURED FILE", readStory: "Read the full story", previousStory: "Previous story", nextStory: "Next story", carouselLabel: "Featured stories", storyPosition: "Story", backLibrary: "← Back to library", archive: "Story Archive",
     fictionNotice: "FICTION / CONTENT NOTICE", updated: "Archive file", readingTime: "Estimated reading", minutes: "min",
     adStory: "Story-page ad space · 728 × 90", adInline: "In-article ad space · responsive", adSide: "Sidebar ad space · 300 × 600",
     currentFile: "CURRENT FILE", fileComplete: "FILE COMPLETE", endMessage: "You have reached the end of this story.", moreStories: "Explore more stories"
@@ -36,7 +36,7 @@ const copy = {
     statusBody: "这个免费静态网站不收集个人资料。以后添加新故事，只需替换故事数据文件。", browseAll: "浏览全部故事",
     footerText: "用于虚构故事与连载续篇的独立数字档案馆。", footerAbout: "关于", footerPrivacy: "隐私", footerTerms: "条款", footerAds: "广告合作",
     allStories: "全部故事", matched: "份匹配档案", file: "档案", complete: "已完结", openFile: "打开档案", imported: "来自 Word 文件", chapters: "个章节",
-    featured: "推荐档案", readStory: "阅读全文", backLibrary: "← 返回故事库", archive: "故事档案库",
+    featured: "推荐档案", readStory: "阅读全文", previousStory: "上一篇故事", nextStory: "下一篇故事", carouselLabel: "推荐故事", storyPosition: "故事", backLibrary: "← 返回故事库", archive: "故事档案库",
     fictionNotice: "虚构作品 / 内容提示", updated: "档案编号", readingTime: "预计阅读", minutes: "分钟",
     adStory: "故事页广告位 · 728 × 90", adInline: "文中广告位 · 自适应", adSide: "侧栏广告位 · 300 × 600",
     currentFile: "当前档案", fileComplete: "档案完结", endMessage: "你已经读完这篇故事。", moreStories: "查看更多故事"
@@ -112,11 +112,71 @@ function storyCard(story, index) {
   </article>`;
 }
 
-function renderFeatured(story) {
+function renderFeatured(story, index = 0) {
   const featured = document.querySelector("#featured-story");
   if (!featured || !story) return;
+  const displayNumber = String(story.fileNo || index + 1).replace(/\D/g, "").slice(-2).padStart(2, "0");
   featured.href = storyUrl(story);
-  featured.innerHTML = `<div class="paper-meta"><span>${esc(t("file"))} #${esc(story.fileNo)}</span><span>${esc(t("featured"))}</span></div><div class="paper-number">01</div><div class="paper-copy"><small>${esc(local(story.category))} · ${esc(t("complete"))}</small><h2>${esc(local(story.title))}</h2><p>${esc(local(story.summary))}</p><b>${esc(t("readStory"))} <i>→</i></b></div>`;
+  featured.innerHTML = `<div class="paper-meta"><span>${esc(t("file"))} #${esc(story.fileNo)}</span><span>${esc(t("featured"))}</span></div><div class="paper-number">${displayNumber}</div><div class="paper-copy"><small>${esc(local(story.category))} · ${esc(t("complete"))}</small><h2>${esc(local(story.title))}</h2><p>${esc(local(story.summary))}</p><b>${esc(t("readStory"))} <i>→</i></b></div>`;
+}
+
+function initFeaturedCarousel() {
+  const carousel = document.querySelector("#featured-carousel");
+  const featured = document.querySelector("#featured-story");
+  const previous = document.querySelector("#featured-prev");
+  const next = document.querySelector("#featured-next");
+  const dots = document.querySelector("#featured-dots");
+  const status = document.querySelector("#featured-status");
+  if (!carousel || !featured || !previous || !next || !dots || !status || !stories.length) return;
+
+  let activeIndex = 0;
+  let touchStart = null;
+  let suppressClick = false;
+
+  carousel.setAttribute("aria-label", t("carouselLabel"));
+  previous.setAttribute("aria-label", t("previousStory"));
+  next.setAttribute("aria-label", t("nextStory"));
+
+  function updateDots() {
+    dots.innerHTML = stories.map((story, index) => `<button type="button" class="carousel-dot ${index === activeIndex ? "active" : ""}" data-index="${index}" aria-label="${esc(`${t("storyPosition")} ${index + 1}: ${local(story.title)}`)}" aria-current="${index === activeIndex ? "true" : "false"}"></button>`).join("");
+    dots.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => showStory(Number(button.dataset.index), Number(button.dataset.index) < activeIndex ? "previous" : "next")));
+  }
+
+  function showStory(nextIndex, direction = "next") {
+    activeIndex = (nextIndex + stories.length) % stories.length;
+    featured.classList.remove("slide-from-left", "slide-from-right");
+    void featured.offsetWidth;
+    featured.classList.add(direction === "previous" ? "slide-from-left" : "slide-from-right");
+    renderFeatured(stories[activeIndex], activeIndex);
+    status.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(stories.length).padStart(2, "0")}`;
+    updateDots();
+  }
+
+  previous.addEventListener("click", () => showStory(activeIndex - 1, "previous"));
+  next.addEventListener("click", () => showStory(activeIndex + 1, "next"));
+  carousel.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") { event.preventDefault(); showStory(activeIndex - 1, "previous"); }
+    if (event.key === "ArrowRight") { event.preventDefault(); showStory(activeIndex + 1, "next"); }
+  });
+  carousel.addEventListener("touchstart", (event) => {
+    const touch = event.changedTouches[0];
+    touchStart = { x: touch.clientX, y: touch.clientY };
+  }, { passive: true });
+  carousel.addEventListener("touchend", (event) => {
+    if (!touchStart) return;
+    const touch = event.changedTouches[0];
+    const deltaX = touch.clientX - touchStart.x;
+    const deltaY = touch.clientY - touchStart.y;
+    touchStart = null;
+    if (Math.abs(deltaX) < 48 || Math.abs(deltaX) <= Math.abs(deltaY) * 1.2) return;
+    suppressClick = true;
+    showStory(activeIndex + (deltaX < 0 ? 1 : -1), deltaX < 0 ? "next" : "previous");
+    window.setTimeout(() => { suppressClick = false; }, 350);
+  }, { passive: true });
+  featured.addEventListener("click", (event) => { if (suppressClick) event.preventDefault(); });
+  featured.addEventListener("animationend", () => featured.classList.remove("slide-from-left", "slide-from-right"));
+
+  showStory(0);
 }
 
 function initHome() {
@@ -137,7 +197,7 @@ function initHome() {
   const categories = [{ key: "all", label: { en: "All Stories", zh: "全部故事" }, count: stories.length }, ...Array.from(categoryMap, ([key, value]) => ({ key, ...value }))];
   document.querySelector("#story-total").textContent = stories.length;
   document.querySelector("#category-total").textContent = categoryMap.size;
-  renderFeatured(stories[0]);
+  initFeaturedCarousel();
 
   function renderFolders() {
     folderList.innerHTML = categories.map((category, index) => `<button class="folder ${category.key === active ? "active" : ""}" data-category="${esc(category.key)}"><span class="folder-icon"></span><span><b>${esc(local(category.label))}</b><small>${category.count} ${esc(lang === "zh" ? "篇" : "files")}</small></span><i>${category.key === "all" ? "ALL" : `0${index}`}</i></button>`).join("");
