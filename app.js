@@ -21,7 +21,8 @@ const copy = {
     adStory: "Story-page ad space · 728 × 90", adInline: "In-article ad space · responsive", adSide: "Sidebar ad space · 300 × 600",
     currentFile: "CURRENT FILE", storyIllustration: "Story illustration", fileComplete: "FILE COMPLETE", endMessage: "You have reached the end of this story.", moreStories: "Explore more stories",
     published: "Published", newFile: "NEW FILE", shareStory: "SHARE THIS FILE", shareFacebook: "Share on Facebook", copyLink: "Copy link", copied: "Link copied",
-    resumeTitle: "Continue where you left off?", resumePosition: "Your last reading position", continueReading: "Continue reading", startOver: "Start from the beginning", readingProgress: "Reading progress"
+    resumeTitle: "Continue where you left off?", resumePosition: "Your last reading position", continueReading: "Continue reading", startOver: "Start from the beginning", readingProgress: "Reading progress",
+    progressBlessing: "PEACE TO YOUR FAMILY", progressDestination: "May all you cherish be safe", progressComplete: "The final page — may all you cherish be safe."
   },
   zh: {
     topNote: "你本地故事会文件夹中的 8 篇故事现已全部入库。",
@@ -43,7 +44,8 @@ const copy = {
     adStory: "故事页广告位 · 728 × 90", adInline: "文中广告位 · 自适应", adSide: "侧栏广告位 · 300 × 600",
     currentFile: "当前档案", storyIllustration: "故事插图", fileComplete: "档案完结", endMessage: "你已经读完这篇故事。", moreStories: "查看更多故事",
     published: "发布日期", newFile: "新入库", shareStory: "分享这份档案", shareFacebook: "分享到 Facebook", copyLink: "复制链接", copied: "链接已复制",
-    resumeTitle: "继续上次阅读？", resumePosition: "上次读到", continueReading: "继续阅读", startOver: "从头开始", readingProgress: "阅读进度"
+    resumeTitle: "继续上次阅读？", resumePosition: "上次读到", continueReading: "继续阅读", startOver: "从头开始", readingProgress: "阅读进度",
+    progressBlessing: "愿家人安康", progressDestination: "愿你所念皆安，所行皆坦", progressComplete: "故事已至终章，愿你所念皆安，所行皆坦。"
   }
 };
 
@@ -346,8 +348,13 @@ function initReadingExperience(story) {
   progress.setAttribute("aria-valuemin", "0");
   progress.setAttribute("aria-valuemax", "100");
   progress.setAttribute("aria-valuenow", "0");
-  progress.innerHTML = "<span></span>";
+  progress.innerHTML = `<div class="reading-progress-copy" aria-hidden="true"><span class="reading-progress-blessing">${esc(t("progressBlessing"))}</span><span class="reading-progress-destination">${esc(t("progressDestination"))}</span></div><div class="reading-progress-track" aria-hidden="true"><span class="reading-progress-fill"></span><span class="reading-progress-checkpoint"></span><span class="reading-progress-figure"><i class="figure-head"></i><i class="figure-body"></i><i class="figure-arm"></i><i class="figure-leg figure-leg-one"></i><i class="figure-leg figure-leg-two"></i></span><span class="reading-progress-goal"></span></div><div class="reading-progress-complete" aria-live="polite"></div>`;
   document.body.prepend(progress);
+  document.documentElement.classList.add("reading-journey-active");
+
+  const progressFill = progress.querySelector(".reading-progress-fill");
+  const progressFigure = progress.querySelector(".reading-progress-figure");
+  const progressComplete = progress.querySelector(".reading-progress-complete");
 
   const key = `story-reading-${story.slug}`;
   let saved = null;
@@ -374,8 +381,13 @@ function initReadingExperience(story) {
   function update(save = true) {
     const ratio = currentRatio();
     const percent = Math.round(ratio * 100);
-    progress.firstElementChild.style.width = `${percent}%`;
+    progressFill.style.width = `${percent}%`;
+    progressFigure.style.left = `${Math.max(1, Math.min(99, percent))}%`;
+    const complete = ratio >= 0.98;
+    progress.classList.toggle("is-complete", complete);
+    progressComplete.textContent = complete ? t("progressComplete") : "";
     progress.setAttribute("aria-valuenow", String(percent));
+    progress.setAttribute("aria-valuetext", `${percent}% · ${complete ? t("progressComplete") : t("progressBlessing")}`);
     if (save && Date.now() - lastStoredAt > 450) {
       lastStoredAt = Date.now();
       try {
