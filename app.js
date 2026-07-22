@@ -7,8 +7,8 @@ const copy = {
     heroTitle: "Some stories never truly end.<br><em>They are only waiting to be opened again.</em>",
     heroBody: "A clean, searchable library for complete stories. Read in English by default or switch the entire site to Simplified Chinese.",
     searchLabel: "Search stories", searchPlaceholder: "Search title, category or file number…", searchButton: "Find a file",
-    storyFiles: "story files", collections: "collections", bilingual: "bilingual reading",
-    trustOne: "✓ No sign-in required", trustTwo: "✓ Mobile reading optimized", trustThree: "✓ One shareable link per story", trustFour: "✓ English and Simplified Chinese",
+    storyFiles: "story files", collections: "collections", globalAccess: "GLOBAL", bilingual: "worldwide language access",
+    trustOne: "✓ No sign-in required", trustTwo: "✓ Mobile reading optimized", trustThree: "✓ One shareable link per story", trustFour: "✓ Global automatic translation",
     archiveDirectory: "ARCHIVE DIRECTORY", storyFolders: "Story folders", archiveQuote: "“A story deserves an ending people can find.”",
     sortLabel: "Sort", sortFile: "File number", sortTitle: "Title", adLeaderboard: "Leaderboard ad space · 970 × 90",
     emptyTitle: "No matching file", emptyBody: "Try another keyword or open a different folder.",
@@ -22,7 +22,8 @@ const copy = {
     currentFile: "CURRENT FILE", storyIllustration: "Story illustration", fileComplete: "FILE COMPLETE", endMessage: "You have reached the end of this story.", moreStories: "Explore more stories",
     published: "Published", newFile: "NEW FILE", shareStory: "SHARE THIS FILE", shareFacebook: "Share on Facebook", copyLink: "Copy link", copied: "Link copied",
     resumeTitle: "Continue where you left off?", resumePosition: "Your last reading position", continueReading: "Continue reading", startOver: "Start from the beginning", readingProgress: "Reading progress",
-    progressBlessing: "PEACE TO YOUR FAMILY", progressDestination: "May all you cherish be safe", progressComplete: "The final page — may all you cherish be safe."
+    progressBlessing: "PEACE TO YOUR FAMILY", progressDestination: "May all you cherish be safe", progressComplete: "The final page — may all you cherish be safe.",
+    languageWorld: "WORLD EDITION", chooseLanguage: "Choose a language", searchLanguages: "Search languages…", deviceLanguage: "Use device language", closeLanguages: "Close language menu", translationNote: "Automatic translation · English and 中文 are editorial editions"
   },
   zh: {
     topNote: "你本地故事会文件夹中的 8 篇故事现已全部入库。",
@@ -30,8 +31,8 @@ const copy = {
     heroTitle: "有些故事，从未真正结束。<br><em>它们只是在等待，再次被翻开。</em>",
     heroBody: "一个清晰、可搜索的完整故事库。网站默认显示英文，也可以一键切换为简体中文。",
     searchLabel: "搜索故事", searchPlaceholder: "搜索标题、分类或档案编号……", searchButton: "查找档案",
-    storyFiles: "篇故事档案", collections: "个故事分类", bilingual: "英中双语阅读",
-    trustOne: "✓ 无需登录", trustTwo: "✓ 手机阅读优化", trustThree: "✓ 每篇故事独立链接", trustFour: "✓ 英文与简体中文切换",
+    storyFiles: "篇故事档案", collections: "个故事分类", globalAccess: "全球语言", bilingual: "全球语言阅读",
+    trustOne: "✓ 无需登录", trustTwo: "✓ 手机阅读优化", trustThree: "✓ 每篇故事独立链接", trustFour: "✓ 全球语言自动翻译",
     archiveDirectory: "档案目录", storyFolders: "故事文件夹", archiveQuote: "“每一个故事，都值得一个能被找到的结局。”",
     sortLabel: "排序", sortFile: "档案编号", sortTitle: "标题", adLeaderboard: "横幅广告位 · 970 × 90",
     emptyTitle: "没有匹配的档案", emptyBody: "换一个关键词，或打开其他文件夹。",
@@ -45,7 +46,8 @@ const copy = {
     currentFile: "当前档案", storyIllustration: "故事插图", fileComplete: "档案完结", endMessage: "你已经读完这篇故事。", moreStories: "查看更多故事",
     published: "发布日期", newFile: "新入库", shareStory: "分享这份档案", shareFacebook: "分享到 Facebook", copyLink: "复制链接", copied: "链接已复制",
     resumeTitle: "继续上次阅读？", resumePosition: "上次读到", continueReading: "继续阅读", startOver: "从头开始", readingProgress: "阅读进度",
-    progressBlessing: "愿家人安康", progressDestination: "愿你所念皆安，所行皆坦", progressComplete: "故事已至终章，愿你所念皆安，所行皆坦。"
+    progressBlessing: "愿家人安康", progressDestination: "愿你所念皆安，所行皆坦", progressComplete: "故事已至终章，愿你所念皆安，所行皆坦。",
+    languageWorld: "世界语言版本", chooseLanguage: "选择语言", searchLanguages: "搜索语言……", deviceLanguage: "使用设备语言", closeLanguages: "关闭语言菜单", translationNote: "自动翻译 · 英文和中文为站内正式版本"
   }
 };
 
@@ -107,11 +109,45 @@ function openGlobalTranslation(languageCode) {
 
 function initLanguageControls() {
   document.querySelectorAll(".lang-switch").forEach((container) => {
-    const options = globalLanguages.map(([code, label]) => `<option value="${esc(code)}">${esc(label)}</option>`).join("");
-    container.innerHTML = `<button type="button" class="${lang === "en" ? "active" : ""}" data-language="en">English</button><button type="button" class="${lang === "zh" ? "active" : ""}" data-language="zh">简体中文</button><label class="global-language-picker" title="Translate into any language"><span aria-hidden="true">🌐</span><select aria-label="Translate into any language"><option value="" selected disabled>All languages</option>${options}</select></label>`;
-    container.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.language)));
-    const picker = container.querySelector("select");
-    picker.addEventListener("change", () => { if (picker.value) openGlobalTranslation(picker.value); });
+    const languageButtons = globalLanguages.filter(([code]) => code !== "device").map(([code, label]) => `<button type="button" class="global-language-option" data-global-language="${esc(code)}" role="option"><span>${esc(label)}</span><small>${esc(code.toUpperCase())}</small></button>`).join("");
+    container.innerHTML = `<button type="button" class="${lang === "en" ? "active" : ""}" data-language="en">English</button><button type="button" class="${lang === "zh" ? "active" : ""}" data-language="zh">简体中文</button><div class="global-language-picker"><button type="button" class="global-language-trigger" aria-haspopup="dialog" aria-expanded="false" aria-label="${esc(t("chooseLanguage"))}"><span aria-hidden="true">◎</span><b>ALL</b></button><div class="global-language-panel" role="dialog" aria-label="${esc(t("chooseLanguage"))}" hidden><div class="global-language-head"><div><small>${esc(t("languageWorld"))}</small><strong>${esc(t("chooseLanguage"))}</strong></div><button type="button" class="global-language-close" aria-label="${esc(t("closeLanguages"))}">×</button></div><label class="global-language-search"><span aria-hidden="true">⌕</span><input type="search" autocomplete="off" placeholder="${esc(t("searchLanguages"))}" aria-label="${esc(t("searchLanguages"))}"></label><button type="button" class="global-language-device" data-global-language="device"><span>◎</span><strong>${esc(t("deviceLanguage"))}</strong><i>→</i></button><div class="global-language-list" role="listbox">${languageButtons}</div><p class="global-language-note">${esc(t("translationNote"))}</p></div></div>`;
+
+    container.querySelectorAll("[data-language]").forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.language)));
+    const trigger = container.querySelector(".global-language-trigger");
+    const panel = container.querySelector(".global-language-panel");
+    const search = container.querySelector(".global-language-search input");
+    const closeButton = container.querySelector(".global-language-close");
+    const options = [...container.querySelectorAll(".global-language-option")];
+    const closePanel = () => {
+      panel.hidden = true;
+      trigger.setAttribute("aria-expanded", "false");
+      search.value = "";
+      options.forEach((button) => { button.hidden = false; });
+    };
+    const openPanel = () => {
+      panel.hidden = false;
+      trigger.setAttribute("aria-expanded", "true");
+      requestAnimationFrame(() => search.focus());
+    };
+
+    trigger.addEventListener("click", (event) => {
+      event.stopPropagation();
+      if (panel.hidden) openPanel(); else closePanel();
+    });
+    closeButton.addEventListener("click", closePanel);
+    panel.addEventListener("click", (event) => event.stopPropagation());
+    container.querySelectorAll("[data-global-language]").forEach((button) => button.addEventListener("click", () => openGlobalTranslation(button.dataset.globalLanguage)));
+    search.addEventListener("input", () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      options.forEach((button) => { button.hidden = Boolean(query) && !button.textContent.toLocaleLowerCase().includes(query); });
+    });
+    document.addEventListener("click", closePanel);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !panel.hidden) {
+        closePanel();
+        trigger.focus();
+      }
+    });
   });
 }
 
