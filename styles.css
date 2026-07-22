@@ -57,3 +57,7 @@
   .reading-progress-blessing,.reading-progress-destination{font-size:7px}
   .reading-progress-blessing:before{margin-right:4px}
 }
+
+/* Global language access */
+.global-language-picker{position:relative;width:51px;min-height:29px;display:grid;place-items:center;border-left:1px solid #d4cec1;color:var(--rust);cursor:pointer}.global-language-picker span{display:flex;align-items:center;gap:4px;font:12px/1 sans-serif}.global-language-picker span:after{content:"ALL";color:#777b76;font:700 7px/1 "Courier New",monospace;letter-spacing:.08em}.global-language-picker select{position:absolute;inset:0;width:100%;height:100%;margin:0;border:0;opacity:0;cursor:pointer}.global-language-picker:focus-within{outline:2px solid var(--rust);outline-offset:2px}.global-language-picker:hover{background:#eee8dc}.lang-switch:has(.global-language-picker){align-items:stretch}
+@media(max-width:700px){.global-language-picker{width:31px;min-height:27px}.global-language-picker span{font-size:12px}.global-language-picker span:after{display:none}}

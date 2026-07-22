@@ -56,6 +56,22 @@ const t = (key) => copy[lang][key] || copy.en[key] || key;
 const local = (value) => value && typeof value === "object" ? (value[lang] || value.en || value.zh || "") : (value || "");
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[character]));
 
+const globalLanguages = [
+  ["device", "◎ Device language / 设备语言"], ["es", "Español"], ["fr", "Français"], ["de", "Deutsch"], ["pt", "Português"],
+  ["ar", "العربية"], ["hi", "हिन्दी"], ["bn", "বাংলা"], ["ur", "اردو"], ["id", "Bahasa Indonesia"], ["ms", "Bahasa Melayu"],
+  ["ja", "日本語"], ["ko", "한국어"], ["ru", "Русский"], ["tr", "Türkçe"], ["it", "Italiano"], ["vi", "Tiếng Việt"], ["th", "ไทย"],
+  ["pl", "Polski"], ["nl", "Nederlands"], ["uk", "Українська"], ["fa", "فارسی"], ["he", "עברית"], ["el", "Ελληνικά"],
+  ["ro", "Română"], ["cs", "Čeština"], ["hu", "Magyar"], ["sv", "Svenska"], ["da", "Dansk"], ["no", "Norsk"], ["fi", "Suomi"],
+  ["fil", "Filipino"], ["sw", "Kiswahili"], ["am", "አማርኛ"], ["ha", "Hausa"], ["yo", "Yorùbá"], ["zu", "isiZulu"], ["af", "Afrikaans"],
+  ["ta", "தமிழ்"], ["te", "తెలుగు"], ["mr", "मराठी"], ["gu", "ગુજરાતી"], ["pa", "ਪੰਜਾਬੀ"], ["kn", "ಕನ್ನಡ"], ["ml", "മലയാളം"],
+  ["ne", "नेपाली"], ["si", "සිංහල"], ["my", "မြန်မာ"], ["km", "ខ្មែរ"], ["lo", "ລາວ"], ["mn", "Монгол"],
+  ["kk", "Қазақша"], ["uz", "O‘zbekcha"], ["az", "Azərbaycanca"], ["ka", "ქართული"], ["hy", "Հայերեն"],
+  ["sq", "Shqip"], ["bs", "Bosanski"], ["bg", "Български"], ["hr", "Hrvatski"], ["sr", "Српски"], ["sk", "Slovenčina"],
+  ["sl", "Slovenščina"], ["lt", "Lietuvių"], ["lv", "Latviešu"], ["et", "Eesti"], ["is", "Íslenska"], ["ga", "Gaeilge"],
+  ["cy", "Cymraeg"], ["eu", "Euskara"], ["ca", "Català"], ["gl", "Galego"], ["mt", "Malti"], ["ht", "Kreyòl ayisyen"],
+  ["zh-TW", "繁體中文"]
+];
+
 document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
 
 function localizedHref(href) {
@@ -73,10 +89,29 @@ function setLanguage(nextLanguage) {
   location.href = url.toString();
 }
 
+function openGlobalTranslation(languageCode) {
+  let target = languageCode;
+  if (target === "device") target = (navigator.languages?.[0] || navigator.language || "en").trim();
+  const normalized = target.toLowerCase();
+  if (normalized === "en" || normalized.startsWith("en-")) { setLanguage("en"); return; }
+  if (normalized === "zh" || normalized === "zh-cn" || normalized.startsWith("zh-hans")) { setLanguage("zh"); return; }
+
+  const sourceUrl = new URL(location.href);
+  sourceUrl.searchParams.set("lang", lang);
+  const translatorUrl = new URL("https://translate.google.com/translate");
+  translatorUrl.searchParams.set("sl", lang === "zh" ? "zh-CN" : "en");
+  translatorUrl.searchParams.set("tl", target);
+  translatorUrl.searchParams.set("u", sourceUrl.href);
+  location.href = translatorUrl.href;
+}
+
 function initLanguageControls() {
   document.querySelectorAll(".lang-switch").forEach((container) => {
-    container.innerHTML = `<button type="button" class="${lang === "en" ? "active" : ""}" data-language="en">English</button><button type="button" class="${lang === "zh" ? "active" : ""}" data-language="zh">简体中文</button>`;
+    const options = globalLanguages.map(([code, label]) => `<option value="${esc(code)}">${esc(label)}</option>`).join("");
+    container.innerHTML = `<button type="button" class="${lang === "en" ? "active" : ""}" data-language="en">English</button><button type="button" class="${lang === "zh" ? "active" : ""}" data-language="zh">简体中文</button><label class="global-language-picker" title="Translate into any language"><span aria-hidden="true">🌐</span><select aria-label="Translate into any language"><option value="" selected disabled>All languages</option>${options}</select></label>`;
     container.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.language)));
+    const picker = container.querySelector("select");
+    picker.addEventListener("change", () => { if (picker.value) openGlobalTranslation(picker.value); });
   });
 }
 
