@@ -4,7 +4,7 @@ const copy = {
   en: {
     topNote: "Eight stories from the private archive are now available.",
     navLibrary: "Library", navNew: "All files", navAbout: "About", openArchive: "Open archive →",
-    heroTitle: "Every story has a file.<br><em>Open the one you came for.</em>",
+    heroTitle: "Some stories never truly end.<br><em>They are only waiting to be opened again.</em>",
     heroBody: "A clean, searchable library for complete stories. Read in English by default or switch the entire site to Simplified Chinese.",
     searchLabel: "Search stories", searchPlaceholder: "Search title, category or file number…", searchButton: "Find a file",
     storyFiles: "story files", collections: "collections", bilingual: "bilingual reading",
@@ -26,7 +26,7 @@ const copy = {
   zh: {
     topNote: "你本地故事会文件夹中的 8 篇故事现已全部入库。",
     navLibrary: "故事库", navNew: "全部文件", navAbout: "关于", openArchive: "打开档案库 →",
-    heroTitle: "每一个故事，都有一份档案。<br><em>打开你正在寻找的那一篇。</em>",
+    heroTitle: "有些故事，从未真正结束。<br><em>它们只是在等待，再次被翻开。</em>",
     heroBody: "一个清晰、可搜索的完整故事库。网站默认显示英文，也可以一键切换为简体中文。",
     searchLabel: "搜索故事", searchPlaceholder: "搜索标题、分类或档案编号……", searchButton: "查找档案",
     storyFiles: "篇故事档案", collections: "个故事分类", bilingual: "英中双语阅读",
