@@ -51,6 +51,65 @@ const copy = {
   }
 };
 
+Object.assign(copy.en, {
+  topNote: "The public archive is open to readers everywhere.",
+  navLibrary: "Library", navNew: "Latest", openArchive: "Open the public archive →",
+  heroBody: "A public collection of complete fiction, designed for calm reading and available to readers around the world.",
+  curated: "EDITOR'S SELECTION", curatedTitle: "Selected from the archive", curatedBody: "A considered entry point into the collection.",
+  latest: "LATEST RELEASES", latestTitle: "Newly filed stories", latestBody: "The most recent additions, presented in publication order.",
+  categories: "BROWSE BY THEME", categoriesTitle: "Find a story by atmosphere", categoriesBody: "Move through the archive by theme, then continue wherever curiosity leads.",
+  viewAll: "View all stories", openCollection: "Open collection", publicLibrary: "PUBLIC LIBRARY", libraryTitle: "Every story, one open archive.",
+  libraryIntro: "Search every file, explore themes and tags, or let the archive choose your next story.", randomStory: "Open a random story",
+  tabAll: "All stories", tabLatest: "Latest", tabEditors: "Editor's picks", tabPopular: "Popular", tabWeekly: "Most read this week", tabSaved: "Saved", tabHistory: "Reading history",
+  popularLocalNote: "Ranked by reading activity on this device. Global audience rankings are measured in the analytics dashboard.",
+  savedEmpty: "No saved stories yet.", historyEmpty: "Your reading history will appear here.", analyticsEmpty: "No reading activity has been recorded on this device yet.",
+  tagsTitle: "Tags", authorTitle: "Archive editor", authorName: "Story Archive Editorial Desk", authorBio: "An editorial desk dedicated to complete fictional stories, careful presentation and reader-friendly access.", viewAuthor: "View author page",
+  standalone: "Standalone story", relatedLabel: "CONTINUE READING", relatedTitle: "Three stories to open next", bookmark: "Save story", bookmarked: "Saved", removeBookmark: "Remove from saved",
+  viewIllustration: "View illustration", closeIllustration: "Close illustration", categoryLabel: "Category", tagLabel: "Tag", clearFilters: "Clear filters", filterResults: "filtered stories",
+  homeSearchHint: "Search opens the complete public library.", publishedStories: "published stories", byAuthor: "By", seriesLabel: "Series", historyProgress: "read",
+  seriesTitle: "Series & chapters", standaloneStories: "Standalone stories", noSeriesYet: "Series collections will appear here when connected stories are published.",
+  analyticsConsole: "OWNER ANALYTICS", analyticsTitle: "Audience measurement console", analyticsIntro: "This page verifies the event system on this browser. Connect GA4 to see aggregate worldwide results, country, device and Facebook campaign reports.", analyticsConnected: "Worldwide analytics connected", analyticsNotConnected: "Worldwide analytics is ready but not connected", analyticsSetup: "Add your GA4 Measurement ID in analytics-config.js to start global reporting.", localPreview: "This-browser preview", totalViews: "Story visits", totalCompletions: "Completed readings", totalShares: "Share clicks", avgTime: "Average active time", seconds: "sec", illustrationCtr: "Illustration CTR", filePerformance: "Story performance", sourcePerformance: "Traffic source / campaign", globalReport: "Open Google Analytics", analyticsFootnote: "Local figures are visible only in this browser and are not a substitute for global reporting.",
+  privacyAnalyticsTitle: "Audience measurement", privacyAnalyticsText: "When audience measurement is enabled, Story Archive may record page views, referral source, approximate country, language, device type, reading milestones, active reading time, illustration interactions and share-button clicks. No story text, form data or directly identifying information is collected. Analytics remains off until the site owner adds a valid measurement ID and the reader grants consent where required."
+});
+
+Object.assign(copy.zh, {
+  topNote: "公开故事档案馆现已向世界各地的读者开放。",
+  navLibrary: "故事库", navNew: "最新发布", openArchive: "打开公开故事库 →",
+  heroBody: "一座面向所有人的完整虚构故事档案馆，为安静阅读而设计，也可通过世界语言功能服务全球读者。",
+  curated: "编辑精选", curatedTitle: "从档案馆中精心选出", curatedBody: "以克制而清晰的方式，进入这座故事馆。",
+  latest: "最新发布", latestTitle: "新近归档的故事", latestBody: "按照发布日期，查看最近加入档案馆的作品。",
+  categories: "按主题浏览", categoriesTitle: "循着氛围，找到下一篇故事", categoriesBody: "从主题进入档案馆，让好奇心带你继续阅读。",
+  viewAll: "查看全部故事", openCollection: "打开分类", publicLibrary: "公开故事库", libraryTitle: "每一篇故事，都在同一座开放档案馆里。",
+  libraryIntro: "搜索全部档案，探索主题与标签，或让故事馆替你选择下一篇。", randomStory: "随机打开一篇",
+  tabAll: "全部故事", tabLatest: "最新发布", tabEditors: "编辑精选", tabPopular: "热门故事", tabWeekly: "本周最多阅读", tabSaved: "本地收藏", tabHistory: "阅读历史",
+  popularLocalNote: "本页按这台设备的阅读活动排序；全球读者排名会在数据分析后台统计。",
+  savedEmpty: "还没有收藏故事。", historyEmpty: "你的阅读历史会显示在这里。", analyticsEmpty: "这台设备暂时还没有阅读记录。",
+  tagsTitle: "故事标签", authorTitle: "档案编辑", authorName: "故事档案编辑部", authorBio: "专注于完整虚构故事、克制呈现与友好阅读体验的编辑团队。", viewAuthor: "查看作者页",
+  standalone: "独立故事", relatedLabel: "继续阅读", relatedTitle: "接下来可以打开的三篇故事", bookmark: "收藏故事", bookmarked: "已收藏", removeBookmark: "取消收藏",
+  viewIllustration: "查看插图", closeIllustration: "关闭插图", categoryLabel: "分类", tagLabel: "标签", clearFilters: "清除筛选", filterResults: "篇筛选结果",
+  homeSearchHint: "搜索将在完整公开故事库中进行。", publishedStories: "篇已发布故事", byAuthor: "作者", seriesLabel: "系列", historyProgress: "已读",
+  seriesTitle: "系列与章节", standaloneStories: "独立故事", noSeriesYet: "当有关联的连载故事发布后，系列会自动显示在这里。",
+  analyticsConsole: "站长数据分析", analyticsTitle: "读者数据分析控制台", analyticsIntro: "本页用于验证这台浏览器上的事件采集。接入 GA4 后，可查看全球汇总数据、国家、设备与 Facebook 帖子引流报告。", analyticsConnected: "全球统计已经连接", analyticsNotConnected: "全球统计代码已就绪，但尚未连接", analyticsSetup: "请在 analytics-config.js 中填写 GA4 统计编号，即可开始全球统计。", localPreview: "本浏览器数据预览", totalViews: "故事访问", totalCompletions: "完成阅读", totalShares: "分享点击", avgTime: "平均有效阅读", seconds: "秒", illustrationCtr: "插图点击率", filePerformance: "单篇故事表现", sourcePerformance: "引流来源 / 帖子活动", globalReport: "打开 Google Analytics", analyticsFootnote: "本地数据只存在于这台浏览器中，不能替代全球汇总报表。",
+  privacyAnalyticsTitle: "访问数据分析", privacyAnalyticsText: "启用访问分析后，故事档案馆可能记录页面访问、引流来源、读者的大致国家、语言、设备类型、25%/50%/75%/100% 阅读节点、有效阅读时长、插图互动和分享按钮点击。系统不收集故事正文、表单内容或可直接识别个人身份的信息。站长未填写有效统计编号，或在需要同意的地区读者未授权前，分析功能不会启用。"
+});
+
+const editorialPicks = new Set(["the-broken-home", "the-logic-of-a-beast-in-the-mire", "the-tattered-toy-in-the-rain"]);
+const archiveAuthor = { en: "Story Archive Editorial Desk", zh: "故事档案编辑部" };
+const tagDictionary = {
+  "Family Betrayal": { en: ["Family", "Betrayal", "Reckoning"], zh: ["家庭", "背叛", "反击"] },
+  "Justice & Reckoning": { en: ["Justice", "Dignity", "Reckoning"], zh: ["正义", "尊严", "审判"] },
+  "Corporate Justice": { en: ["Corporate", "Evidence", "Justice"], zh: ["职场", "证据", "正义"] },
+  "Lost & Found": { en: ["Family", "Hope", "Reunion"], zh: ["亲情", "希望", "重逢"] }
+};
+
+stories.forEach((story) => {
+  story.author ||= archiveAuthor;
+  story.tags ||= tagDictionary[story.category?.en] || { en: [story.category?.en || "Story"], zh: [story.category?.zh || "故事"] };
+  story.editorPick = story.editorPick ?? editorialPicks.has(story.slug);
+  story.series ||= null;
+  story.chapter ||= null;
+});
+
 const params = new URLSearchParams(location.search);
 const storedLanguage = (() => { try { return localStorage.getItem("story-language"); } catch { return null; } })();
 const lang = params.get("lang") === "zh" || (params.get("lang") !== "en" && storedLanguage === "zh") ? "zh" : "en";
@@ -156,7 +215,7 @@ function translateStaticPage() {
   document.querySelectorAll("[data-i18n-html]").forEach((element) => { element.innerHTML = t(element.dataset.i18nHtml); });
   const search = document.querySelector("#story-search");
   if (search) search.placeholder = t("searchPlaceholder");
-  document.querySelectorAll("a.info-link, a.home-link").forEach((link) => { link.href = localizedHref(link.getAttribute("href")); });
+  document.querySelectorAll("a.info-link, a.home-link, a.localized-link").forEach((link) => { link.href = localizedHref(link.getAttribute("href")); });
 }
 
 function storyUrl(story) {
@@ -194,14 +253,49 @@ function shareCopy(story, field) {
   return local(story.share?.[field]) || (field === "title" ? local(story.title) : local(story.summary));
 }
 
+function storyTags(story) {
+  const value = story.tags?.[lang] || story.tags?.en || [];
+  return Array.isArray(value) ? value : [];
+}
+
+function readStorage(key, fallback) {
+  try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); } catch { return fallback; }
+}
+
+function writeStorage(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch {}
+}
+
+function bookmarkSlugs() {
+  const value = readStorage("story-bookmarks-v1", []);
+  return Array.isArray(value) ? value : [];
+}
+
+function readingHistory() {
+  const value = readStorage("story-history-v1", []);
+  return Array.isArray(value) ? value : [];
+}
+
+function categoryUrl(story) {
+  return `library.html?lang=${lang}&category=${encodeURIComponent(categoryKey(story))}`;
+}
+
+function tagUrl(tag) {
+  return `library.html?lang=${lang}&tag=${encodeURIComponent(tag)}`;
+}
+
 function storyCard(story, index) {
   const coverNumber = String(story.fileNo || index + 1).replace(/\D/g, "").slice(-2).padStart(2, "0");
   const coverMedia = story.cover
     ? `<img src="${esc(story.cover)}" alt="" width="960" height="640" loading="lazy" decoding="async">`
     : `<div class="glyph">${esc(story.glyph)}</div>`;
-  return `<article class="story-card">
-    <a class="cover tone-${esc(story.tone)}" href="${storyUrl(story)}" aria-label="${esc(local(story.title))}">${coverMedia}<span>${coverNumber}</span><span class="category">${esc(local(story.category))}</span><span class="chapter">${esc(t("complete"))}</span>${story.isNew ? `<span class="new-file-badge">${esc(t("newFile"))}</span>` : ""}</a>
-    <div class="card-body"><div class="card-meta"><span>${esc(story.fileNo)}</span><span>${esc(formatDate(story.published))}</span><span>${readingMinutes(story)} ${esc(t("minutes"))}</span></div><h3><a href="${storyUrl(story)}">${esc(local(story.title))}</a></h3><p>${esc(local(story.summary))}</p><div class="tags"><span>#${esc(local(story.category))}</span><span>#${esc(t("imported"))}</span></div><a class="read-link" href="${storyUrl(story)}"><span>${esc(t("openFile"))}</span><b>→</b></a></div>
+  const tags = storyTags(story).slice(0, 2).map((tag) => `<a href="${tagUrl(tag)}">#${esc(tag)}</a>`).join("");
+  const history = readingHistory().find((item) => item.slug === story.slug);
+  const historyBadge = history?.ratio > 0.02 ? `<span class="history-badge">${Math.round(history.ratio * 100)}% ${esc(t("historyProgress"))}</span>` : "";
+  const savedBadge = bookmarkSlugs().includes(story.slug) ? `<span class="saved-badge" title="${esc(t("bookmarked"))}">◆</span>` : "";
+  return `<article class="story-card" data-story-card="${esc(story.slug)}">
+    <a class="cover tone-${esc(story.tone)}" href="${storyUrl(story)}" data-story-link="cover" data-story-slug="${esc(story.slug)}" aria-label="${esc(local(story.title))}">${coverMedia}<span>${coverNumber}</span><span class="category">${esc(local(story.category))}</span><span class="chapter">${esc(t("complete"))}</span>${story.isNew ? `<span class="new-file-badge">${esc(t("newFile"))}</span>` : ""}</a>
+    <div class="card-body"><div class="card-meta"><span>${esc(story.fileNo)}</span><span>${esc(formatDate(story.published))}</span><span>${readingMinutes(story)} ${esc(t("minutes"))}</span>${historyBadge}${savedBadge}</div><h3><a href="${storyUrl(story)}" data-story-link="title" data-story-slug="${esc(story.slug)}">${esc(local(story.title))}</a></h3><p>${esc(local(story.summary))}</p><div class="tags"><a href="${categoryUrl(story)}">#${esc(local(story.category))}</a>${tags}</div><a class="read-link" href="${storyUrl(story)}" data-story-link="open_file" data-story-slug="${esc(story.slug)}"><span>${esc(t("openFile"))}</span><b>→</b></a></div>
   </article>`;
 }
 
@@ -275,14 +369,51 @@ function initFeaturedCarousel() {
 }
 
 function initHome() {
-  let active = "all";
-  let query = "";
+  const categoryMap = new Map();
+  stories.forEach((story) => {
+    const key = categoryKey(story);
+    if (!categoryMap.has(key)) categoryMap.set(key, { label: story.category, count: 0 });
+    categoryMap.get(key).count += 1;
+  });
+  document.querySelector("#story-total").textContent = stories.length;
+  document.querySelector("#category-total").textContent = categoryMap.size;
+  const topNote = document.querySelector('[data-i18n="topNote"]');
+  const archiveCountTotal = document.querySelector("#archive-count-total");
+  if (topNote) topNote.textContent = t("topNote");
+  if (archiveCountTotal) archiveCountTotal.textContent = String(stories.length).padStart(2, "0");
+  initFeaturedCarousel();
+  const curatedGrid = document.querySelector("#home-curated-grid");
+  const latestGrid = document.querySelector("#home-latest-grid");
+  const categoryGrid = document.querySelector("#home-category-grid");
+  if (curatedGrid) curatedGrid.innerHTML = stories.filter((story) => story.editorPick).slice(0, 3).map(storyCard).join("");
+  if (latestGrid) latestGrid.innerHTML = [...stories].sort((a, b) => b.published.localeCompare(a.published) || b.fileNo.localeCompare(a.fileNo)).slice(0, 3).map(storyCard).join("");
+  if (categoryGrid) categoryGrid.innerHTML = Array.from(categoryMap, ([key, value], index) => `<a class="theme-card theme-${(index % 4) + 1}" href="library.html?lang=${lang}&category=${encodeURIComponent(key)}"><span>${String(index + 1).padStart(2, "0")}</span><h3>${esc(local(value.label))}</h3><p>${value.count} ${esc(t("publishedStories"))}</p><b>${esc(t("openCollection"))} →</b></a>`).join("");
+  const form = document.querySelector("#search-form");
+  if (form) form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const query = document.querySelector("#story-search")?.value.trim() || "";
+    const target = new URL("library.html", location.href);
+    target.searchParams.set("lang", lang);
+    if (query) target.searchParams.set("q", query);
+    window.StoryAnalytics?.track("archive_search", { query_length: query.length, search_origin: "home" });
+    location.href = target.href;
+  });
+}
+
+function initLibrary() {
+  document.title = `${t("navLibrary")} — Story Archive`;
+  let activeTab = params.get("view") || "all";
+  let query = params.get("q") || "";
+  let activeCategory = params.get("category") || "all";
+  let activeTag = params.get("tag") || "";
   let sort = "file";
-  const folderList = document.querySelector("#folder-list");
   const grid = document.querySelector("#story-grid");
   const count = document.querySelector("#result-count");
-  const title = document.querySelector("#active-title");
   const empty = document.querySelector("#empty-state");
+  const search = document.querySelector("#story-search");
+  const folders = document.querySelector("#folder-list");
+  const tabs = document.querySelector("#library-tabs");
+  const note = document.querySelector("#library-context-note");
   const categoryMap = new Map();
   stories.forEach((story) => {
     const key = categoryKey(story);
@@ -290,38 +421,117 @@ function initHome() {
     categoryMap.get(key).count += 1;
   });
   const categories = [{ key: "all", label: { en: "All Stories", zh: "全部故事" }, count: stories.length }, ...Array.from(categoryMap, ([key, value]) => ({ key, ...value }))];
-  document.querySelector("#story-total").textContent = stories.length;
-  document.querySelector("#category-total").textContent = categoryMap.size;
-  const topNote = document.querySelector('[data-i18n="topNote"]');
-  const archiveCountTotal = document.querySelector("#archive-count-total");
-  if (topNote) topNote.textContent = lang === "zh" ? `你本地故事会文件夹中的 ${stories.length} 篇故事现已全部入库。` : `${stories.length} stories from the private archive are now available.`;
-  if (archiveCountTotal) archiveCountTotal.textContent = String(stories.length).padStart(2, "0");
-  initFeaturedCarousel();
+  if (search) search.value = query;
+
+  function activityFor(story) {
+    return window.StoryAnalytics?.getLocal?.().stories?.[story.slug] || {};
+  }
 
   function renderFolders() {
-    folderList.innerHTML = categories.map((category, index) => `<button class="folder ${category.key === active ? "active" : ""}" data-category="${esc(category.key)}"><span class="folder-icon"></span><span><b>${esc(local(category.label))}</b><small>${category.count} ${esc(lang === "zh" ? "篇" : "files")}</small></span><i>${category.key === "all" ? "ALL" : `0${index}`}</i></button>`).join("");
-    folderList.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => { active = button.dataset.category; render(); }));
+    folders.innerHTML = categories.map((category, index) => `<button class="folder ${category.key === activeCategory ? "active" : ""}" data-category="${esc(category.key)}"><span class="folder-icon"></span><span><b>${esc(local(category.label))}</b><small>${category.count} ${esc(lang === "zh" ? "篇" : "files")}</small></span><i>${category.key === "all" ? "ALL" : String(index).padStart(2, "0")}</i></button>`).join("");
+    folders.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => { activeCategory = button.dataset.category; activeTag = ""; activeTab = "all"; render(); }));
+  }
+
+  function renderTabs() {
+    tabs.querySelectorAll("button").forEach((button) => {
+      const selected = button.dataset.view === activeTab;
+      button.classList.toggle("active", selected);
+      button.setAttribute("aria-selected", String(selected));
+    });
   }
 
   function render() {
+    const saved = new Set(bookmarkSlugs());
+    const history = readingHistory();
+    const historyMap = new Map(history.map((item) => [item.slug, item]));
     let items = stories.filter((story) => {
-      const categoryMatch = active === "all" || categoryKey(story) === active;
-      const haystack = [story.fileNo, story.title.en, story.title.zh, story.summary.en, story.summary.zh, story.category.en, story.category.zh].join(" ").toLowerCase();
-      return categoryMatch && haystack.includes(query.toLowerCase());
+      const categoryMatch = activeCategory === "all" || categoryKey(story) === activeCategory;
+      const allStoryTags = [...(story.tags?.en || []), ...(story.tags?.zh || [])];
+      const tagMatch = !activeTag || allStoryTags.some((tag) => tag.toLocaleLowerCase() === activeTag.toLocaleLowerCase());
+      const haystack = [story.fileNo, story.title.en, story.title.zh, story.summary.en, story.summary.zh, story.category.en, story.category.zh, ...(story.tags?.en || []), ...(story.tags?.zh || [])].join(" ").toLocaleLowerCase();
+      return categoryMatch && tagMatch && haystack.includes(query.toLocaleLowerCase());
     });
-    items.sort((a, b) => sort === "title" ? local(a.title).localeCompare(local(b.title), lang === "zh" ? "zh-CN" : "en") : a.fileNo.localeCompare(b.fileNo));
-    const activeCategory = categories.find((category) => category.key === active) || categories[0];
-    title.textContent = local(activeCategory.label);
-    count.textContent = `${items.length} ${t("matched")}`;
+    if (activeTab === "latest") items.sort((a, b) => b.published.localeCompare(a.published) || b.fileNo.localeCompare(a.fileNo));
+    else if (activeTab === "editors") items = items.filter((story) => story.editorPick);
+    else if (activeTab === "saved") items = items.filter((story) => saved.has(story.slug));
+    else if (activeTab === "history") items = items.filter((story) => historyMap.has(story.slug)).sort((a, b) => String(historyMap.get(b.slug)?.updatedAt || "").localeCompare(String(historyMap.get(a.slug)?.updatedAt || "")));
+    else if (activeTab === "popular") items.sort((a, b) => (activityFor(b).views || 0) - (activityFor(a).views || 0) || Number(b.editorPick) - Number(a.editorPick));
+    else if (activeTab === "weekly") {
+      const weekAgo = Date.now() - 7 * 86400000;
+      items = items.filter((story) => historyMap.has(story.slug) && new Date(historyMap.get(story.slug).updatedAt).getTime() >= weekAgo).sort((a, b) => String(historyMap.get(b.slug)?.updatedAt || "").localeCompare(String(historyMap.get(a.slug)?.updatedAt || "")));
+    } else items.sort((a, b) => sort === "title" ? local(a.title).localeCompare(local(b.title), lang === "zh" ? "zh-CN" : "en") : a.fileNo.localeCompare(b.fileNo));
+    const emptyMessage = activeTab === "saved" ? t("savedEmpty") : activeTab === "history" || activeTab === "weekly" ? t("historyEmpty") : t("emptyBody");
     grid.innerHTML = items.map(storyCard).join("");
     empty.hidden = items.length !== 0;
+    empty.querySelector("p").textContent = emptyMessage;
+    count.textContent = `${items.length} ${t("filterResults")}`;
+    note.textContent = activeTab === "popular" || activeTab === "weekly" ? t("popularLocalNote") : activeTag ? `${t("tagLabel")}: ${activeTag}` : activeCategory !== "all" ? `${t("categoryLabel")}: ${local(categories.find((category) => category.key === activeCategory)?.label)}` : "";
     renderFolders();
+    renderTabs();
   }
 
-  document.querySelector("#story-search").addEventListener("input", (event) => { query = event.target.value.trim(); render(); });
-  document.querySelector("#search-form").addEventListener("submit", (event) => { event.preventDefault(); document.querySelector("#library").scrollIntoView({ behavior: "smooth" }); });
-  document.querySelector("#sort-select").addEventListener("change", (event) => { sort = event.target.value; render(); });
+  tabs.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => { activeTab = button.dataset.view; activeCategory = "all"; activeTag = ""; render(); }));
+  search.addEventListener("input", () => { query = search.value.trim(); render(); });
+  document.querySelector("#library-search-form").addEventListener("submit", (event) => { event.preventDefault(); window.StoryAnalytics?.track("archive_search", { query_length: query.length, search_origin: "library" }); render(); });
+  document.querySelector("#sort-select").addEventListener("change", (event) => { sort = event.target.value; activeTab = "all"; render(); });
+  document.querySelector("#random-story").addEventListener("click", () => {
+    const story = stories[Math.floor(Math.random() * stories.length)];
+    window.StoryAnalytics?.track("random_story", { story_slug: story.slug });
+    location.href = storyUrl(story);
+  });
+  const tagCloud = document.querySelector("#tag-cloud");
+  const allTags = [...new Set(stories.flatMap(storyTags))].sort((a, b) => a.localeCompare(b, lang === "zh" ? "zh-CN" : "en"));
+  tagCloud.innerHTML = allTags.map((tag) => `<a href="${tagUrl(tag)}" class="${activeTag.toLocaleLowerCase() === tag.toLocaleLowerCase() ? "active" : ""}">#${esc(tag)}</a>`).join("");
+  const seriesPanel = document.querySelector("#series-panel");
+  if (seriesPanel) {
+    const seriesGroups = new Map();
+    stories.filter((story) => story.series).forEach((story) => {
+      const key = local(story.series);
+      seriesGroups.set(key, (seriesGroups.get(key) || 0) + 1);
+    });
+    seriesPanel.innerHTML = seriesGroups.size
+      ? [...seriesGroups].map(([label, total]) => `<span><b>${esc(label)}</b><small>${total} ${esc(t("chapters"))}</small></span>`).join("")
+      : `<span><b>${stories.length} ${esc(t("standaloneStories"))}</b><small>${esc(t("noSeriesYet"))}</small></span>`;
+  }
   render();
+}
+
+function initAuthor() {
+  document.title = `${t("authorName")} — Story Archive`;
+  document.querySelector("#author-name").textContent = t("authorName");
+  document.querySelector("#author-bio").textContent = t("authorBio");
+  document.querySelector("#author-count").textContent = `${stories.length} ${t("publishedStories")}`;
+  document.querySelector("#author-story-grid").innerHTML = [...stories].sort((a, b) => a.fileNo.localeCompare(b.fileNo)).map(storyCard).join("");
+}
+
+function initAnalyticsDashboard() {
+  const data = window.StoryAnalytics?.getLocal?.() || {};
+  const storyMetrics = data.stories || {};
+  const totals = Object.values(storyMetrics).reduce((sum, metric) => ({
+    views: sum.views + (metric.views || 0),
+    completions: sum.completions + (metric.milestones?.["100"] || 0),
+    shares: sum.shares + (metric.shareClicks || 0),
+    illustration: sum.illustration + (metric.illustrationClicks || 0),
+    activeSeconds: sum.activeSeconds + (metric.activeSeconds || 0)
+  }), { views: 0, completions: 0, shares: 0, illustration: 0, activeSeconds: 0 });
+  const averageTime = totals.views ? Math.round(totals.activeSeconds / totals.views) : 0;
+  const illustrationCtr = totals.views ? `${(totals.illustration / totals.views * 100).toFixed(1)}%` : "0%";
+  const state = document.querySelector("#analytics-state");
+  state.classList.toggle("connected", Boolean(window.StoryAnalytics?.enabled));
+  state.innerHTML = `<span>${window.StoryAnalytics?.enabled ? "●" : "○"}</span><div><b>${esc(window.StoryAnalytics?.enabled ? t("analyticsConnected") : t("analyticsNotConnected"))}</b><p>${esc(t("analyticsSetup"))}</p></div>`;
+  document.querySelector("#analytics-cards").innerHTML = [
+    [t("totalViews"), totals.views], [t("totalCompletions"), totals.completions], [t("totalShares"), totals.shares], [t("avgTime"), `${averageTime} ${t("seconds")}`], [t("illustrationCtr"), illustrationCtr]
+  ].map(([label, value]) => `<div><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join("");
+  document.querySelector("#analytics-table-body").innerHTML = stories.map((story) => {
+    const metric = storyMetrics[story.slug] || {};
+    const views = metric.views || 0;
+    const ctr = views ? `${((metric.illustrationClicks || 0) / views * 100).toFixed(1)}%` : "0%";
+    const avg = views ? Math.round((metric.activeSeconds || 0) / views) : 0;
+    return `<tr><td>${esc(story.fileNo)}</td><td><a href="${storyUrl(story)}">${esc(local(story.title))}</a></td><td>${views}</td><td>${metric.milestones?.["25"] || 0}</td><td>${metric.milestones?.["50"] || 0}</td><td>${metric.milestones?.["75"] || 0}</td><td>${metric.milestones?.["100"] || 0}</td><td>${avg}s</td><td>${ctr}</td><td>${metric.shareClicks || 0}</td></tr>`;
+  }).join("");
+  const sources = Object.entries(data.sources || {}).sort((a, b) => b[1] - a[1]);
+  const campaigns = Object.entries(data.campaigns || {}).sort((a, b) => b[1] - a[1]);
+  document.querySelector("#analytics-sources").innerHTML = [...sources.map(([label, value]) => [label, value, "source"]), ...campaigns.map(([label, value]) => [label, value, "campaign"])].map(([label, value, kind]) => `<li><span>${esc(label)}</span><small>${esc(kind)}</small><b>${value}</b></li>`).join("") || `<li><span>${esc(t("analyticsEmpty"))}</span></li>`;
 }
 
 function proseHtml(story) {
@@ -380,10 +590,17 @@ function initShareActions(story) {
   const shareUrl = new URL(`story-${story.slug}.html`, location.href);
   shareUrl.searchParams.set("lang", lang);
   if (facebook) facebook.addEventListener("click", () => {
-    const target = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl.href)}`;
+    window.StoryAnalytics?.track("share_click", { story_slug: story.slug, file_no: story.fileNo, method: "facebook" });
+    const facebookUrl = new URL(shareUrl.href);
+    facebookUrl.searchParams.set("utm_source", "facebook");
+    facebookUrl.searchParams.set("utm_medium", "social");
+    facebookUrl.searchParams.set("utm_campaign", story.slug);
+    facebookUrl.searchParams.set("utm_content", "story_share_button");
+    const target = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(facebookUrl.href)}`;
     window.open(target, "facebook-share", "popup=yes,width=690,height=620,noopener,noreferrer");
   });
   if (copyButton) copyButton.addEventListener("click", async () => {
+    window.StoryAnalytics?.track("share_click", { story_slug: story.slug, file_no: story.fileNo, method: "copy_link" });
     try {
       if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(shareUrl.href);
       else {
@@ -402,6 +619,53 @@ function initShareActions(story) {
     } catch {
       window.prompt(t("copyLink"), shareUrl.href);
     }
+  });
+}
+
+function updateReadingHistory(story, ratio = 0) {
+  const history = readingHistory().filter((item) => item.slug !== story.slug);
+  history.unshift({ slug: story.slug, ratio: Math.max(0, Math.min(1, ratio)), updatedAt: new Date().toISOString() });
+  writeStorage("story-history-v1", history.slice(0, 40));
+}
+
+function initBookmark(story) {
+  const button = document.querySelector("#bookmark-story");
+  if (!button) return;
+  function render() {
+    const saved = bookmarkSlugs().includes(story.slug);
+    button.classList.toggle("active", saved);
+    button.setAttribute("aria-pressed", String(saved));
+    button.innerHTML = `<span aria-hidden="true">${saved ? "◆" : "◇"}</span> ${esc(saved ? t("bookmarked") : t("bookmark"))}`;
+    button.title = saved ? t("removeBookmark") : t("bookmark");
+  }
+  button.addEventListener("click", () => {
+    const saved = bookmarkSlugs();
+    const exists = saved.includes(story.slug);
+    writeStorage("story-bookmarks-v1", exists ? saved.filter((slug) => slug !== story.slug) : [story.slug, ...saved]);
+    window.StoryAnalytics?.track("bookmark_toggle", { story_slug: story.slug, file_no: story.fileNo, state: exists ? "removed" : "saved" });
+    render();
+  });
+  render();
+}
+
+function initIllustrationViewer(story) {
+  const button = document.querySelector("#view-story-illustration");
+  if (!button || !story.cover) return;
+  button.addEventListener("click", () => {
+    window.StoryAnalytics?.track("illustration_click", { story_slug: story.slug, file_no: story.fileNo, placement: "story_header" });
+    const viewer = document.createElement("div");
+    viewer.className = "illustration-viewer";
+    viewer.setAttribute("role", "dialog");
+    viewer.setAttribute("aria-modal", "true");
+    viewer.setAttribute("aria-label", `${local(story.title)} — ${t("storyIllustration")}`);
+    viewer.innerHTML = `<button type="button" aria-label="${esc(t("closeIllustration"))}">×</button><figure><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}"><figcaption>${esc(local(story.title))} · ${esc(story.fileNo)}</figcaption></figure>`;
+    const close = () => { viewer.remove(); document.documentElement.classList.remove("viewer-open"); };
+    viewer.querySelector("button").addEventListener("click", close);
+    viewer.addEventListener("click", (event) => { if (event.target === viewer) close(); });
+    document.addEventListener("keydown", function escape(event) { if (event.key === "Escape") { close(); document.removeEventListener("keydown", escape); } });
+    document.body.appendChild(viewer);
+    document.documentElement.classList.add("viewer-open");
+    viewer.querySelector("button").focus();
   });
 }
 
@@ -449,6 +713,11 @@ function initReadingExperience(story) {
 
   let ticking = false;
   let lastStoredAt = 0;
+  const reached = new Set();
+  const milestones = [25, 50, 75, 100];
+  const startedAt = Date.now();
+  let visibleStartedAt = document.hidden ? 0 : Date.now();
+  let activeMilliseconds = 0;
   function update(save = true) {
     const ratio = currentRatio();
     const percent = Math.round(ratio * 100);
@@ -459,12 +728,20 @@ function initReadingExperience(story) {
     progressComplete.textContent = complete ? t("progressComplete") : "";
     progress.setAttribute("aria-valuenow", String(percent));
     progress.setAttribute("aria-valuetext", `${percent}% · ${complete ? t("progressComplete") : t("progressBlessing")}`);
+    const milestonePercent = complete ? 100 : percent;
+    milestones.forEach((milestone) => {
+      if (milestonePercent >= milestone && !reached.has(milestone)) {
+        reached.add(milestone);
+        window.StoryAnalytics?.track("reading_milestone", { story_slug: story.slug, file_no: story.fileNo, percent: milestone });
+      }
+    });
     if (save && Date.now() - lastStoredAt > 450) {
       lastStoredAt = Date.now();
       try {
         if (ratio >= 0.98) localStorage.removeItem(key);
         else if (ratio > 0.025) localStorage.setItem(key, JSON.stringify({ ratio, updatedAt: new Date().toISOString() }));
       } catch {}
+      updateReadingHistory(story, ratio);
     }
     ticking = false;
   }
@@ -477,7 +754,16 @@ function initReadingExperience(story) {
     }
   }, { passive: true });
   window.addEventListener("resize", () => update(false), { passive: true });
-  window.addEventListener("pagehide", () => update(true));
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden && visibleStartedAt) { activeMilliseconds += Date.now() - visibleStartedAt; visibleStartedAt = 0; }
+    else if (!document.hidden && !visibleStartedAt) visibleStartedAt = Date.now();
+  });
+  window.addEventListener("pagehide", () => {
+    update(true);
+    if (visibleStartedAt) activeMilliseconds += Date.now() - visibleStartedAt;
+    const activeSeconds = Math.max(1, Math.round(activeMilliseconds / 1000));
+    window.StoryAnalytics?.track("reading_time", { story_slug: story.slug, file_no: story.fileNo, active_seconds: activeSeconds, elapsed_seconds: Math.round((Date.now() - startedAt) / 1000), completion_percent: Math.round(currentRatio() * 100) });
+  });
 
   if (continueButton) continueButton.addEventListener("click", () => {
     const ratio = saved?.ratio || 0;
@@ -505,21 +791,29 @@ function initStory() {
   }
   document.title = `${local(story.title)} — Story Archive`;
   updateDocumentMetadata(story);
-  const storyIllustration = story.cover ? `<figure class="story-illustration"><div class="story-illustration-image"><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}" width="960" height="640" loading="eager" decoding="async" fetchpriority="high"><div class="story-illustration-overlay"><span>${esc(t("file"))} ${esc(story.fileNo)} · ${esc(local(story.category))}</span><blockquote>${esc(shareCopy(story, "description"))}</blockquote></div></div><figcaption><span>${esc(t("storyIllustration"))}</span><b>${esc(formatDate(story.published))} · ${esc(story.fileNo)}</b></figcaption></figure>` : "";
+  const storyIllustration = story.cover ? `<figure class="story-illustration"><button type="button" class="story-illustration-image" id="view-story-illustration" aria-label="${esc(t("viewIllustration"))}"><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}" width="960" height="640" loading="eager" decoding="async" fetchpriority="high"><div class="story-illustration-overlay"><span>${esc(t("file"))} ${esc(story.fileNo)} · ${esc(local(story.category))}</span><blockquote>${esc(shareCopy(story, "description"))}</blockquote><b>${esc(t("viewIllustration"))} ↗</b></div></button><figcaption><span>${esc(t("storyIllustration"))}</span><b>${esc(formatDate(story.published))} · ${esc(story.fileNo)}</b></figcaption></figure>` : "";
   const resumePrompt = `<aside class="resume-reading" id="resume-reading" hidden><div><b>${esc(t("resumeTitle"))}</b><span>${esc(t("resumePosition"))}: <strong data-resume-percent>0%</strong></span></div><div><button type="button" id="continue-reading">${esc(t("continueReading"))}</button><button type="button" class="text-button" id="restart-reading">${esc(t("startOver"))}</button></div></aside>`;
-  const shareActions = `<div class="story-share"><span>${esc(t("shareStory"))}</span><div><button type="button" id="share-facebook">f&nbsp; ${esc(t("shareFacebook"))}</button><button type="button" id="copy-story-link">↗&nbsp; ${esc(t("copyLink"))}</button></div></div>`;
-  reader.innerHTML = `<article class="reader-main"><nav class="breadcrumb"><a href="./?lang=${lang}">${esc(t("archive"))}</a><span>/</span><span>${esc(local(story.category))}</span><span>/</span><b>${esc(story.fileNo)}</b></nav><header class="article-head"><div class="article-label"><span>${story.isNew ? esc(t("newFile")) : esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("published"))}: ${esc(formatDate(story.published))}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div><div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>${resumePrompt}${storyIllustration}${shareActions}<div class="ad-slot reader-ad"><span>ADVERTISEMENT</span><p>${esc(t("adStory"))}</p></div><div class="prose">${proseHtml(story)}</div><div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="./?lang=${lang}">${esc(t("moreStories"))}</a></div></article><aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(local(story.category))}</p></div><div class="ad-slot tall-ad"><span>ADVERTISEMENT</span><p>${esc(t("adSide"))}</p></div></aside>`;
+  const shareActions = `<div class="story-share"><span>${esc(t("shareStory"))}</span><div><button type="button" id="bookmark-story" class="bookmark-story" aria-pressed="false"></button><button type="button" id="share-facebook">f&nbsp; ${esc(t("shareFacebook"))}</button><button type="button" id="copy-story-link">↗&nbsp; ${esc(t("copyLink"))}</button></div></div>`;
+  const related = [...stories].filter((item) => item.slug !== story.slug).sort((a, b) => Number(categoryKey(b) === categoryKey(story)) - Number(categoryKey(a) === categoryKey(story)) || Number(b.editorPick) - Number(a.editorPick) || a.fileNo.localeCompare(b.fileNo)).slice(0, 3);
+  const relatedHtml = `<section class="related-stories"><div class="section-label">${esc(t("relatedLabel"))}</div><div class="related-head"><h2>${esc(t("relatedTitle"))}</h2><a href="library.html?lang=${lang}">${esc(t("viewAll"))} →</a></div><div class="story-grid">${related.map(storyCard).join("")}</div></section>`;
+  const tags = storyTags(story).map((tag) => `<a href="${tagUrl(tag)}">#${esc(tag)}</a>`).join("");
+  const storyMeta = `<div class="story-taxonomy"><span>${esc(t("byAuthor"))} <a href="author.html?lang=${lang}">${esc(local(story.author))}</a></span><span>${esc(t("seriesLabel"))}: ${esc(story.series ? local(story.series) : t("standalone"))}</span><div>${tags}</div></div>`;
+  reader.innerHTML = `<article class="reader-main"><nav class="breadcrumb"><a href="library.html?lang=${lang}">${esc(t("archive"))}</a><span>/</span><a href="${categoryUrl(story)}">${esc(local(story.category))}</a><span>/</span><b>${esc(story.fileNo)}</b></nav><header class="article-head"><div class="article-label"><span>${story.isNew ? esc(t("newFile")) : esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("published"))}: ${esc(formatDate(story.published))}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div>${storyMeta}<div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>${resumePrompt}${storyIllustration}${shareActions}<div class="ad-slot reader-ad"><span>ADVERTISEMENT</span><p>${esc(t("adStory"))}</p></div><div class="prose">${proseHtml(story)}</div><div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="library.html?lang=${lang}">${esc(t("moreStories"))}</a></div>${relatedHtml}</article><aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(local(story.category))}</p></div><div class="ad-slot tall-ad"><span>ADVERTISEMENT</span><p>${esc(t("adSide"))}</p></div></aside>`;
+  updateReadingHistory(story, readStorage(`story-reading-${story.slug}`, {}).ratio || 0);
+  window.StoryAnalytics?.track("story_view", { story_slug: story.slug, file_no: story.fileNo, story_title: local(story.title), story_category: local(story.category), editor_pick: Boolean(story.editorPick) });
   initShareActions(story);
+  initBookmark(story);
+  initIllustrationViewer(story);
   initReadingExperience(story);
 }
 
 const infoPages = {
   about: {
     title: { en: "About Story Archive", zh: "关于故事档案库" },
-    intro: { en: "Story Archive is a bilingual library designed for direct, mobile-friendly reading.", zh: "故事档案库是一座为直接分享和手机阅读设计的双语故事库。" },
+    intro: { en: "Story Archive is a public, worldwide-language library designed for direct, mobile-friendly reading.", zh: "故事档案库是一座公开、支持世界语言并为直接分享与手机阅读设计的故事馆。" },
     sections: [
       [{ en: "What this site does", zh: "这个网站做什么" }, { en: "The archive turns locally owned Word manuscripts into searchable, shareable story pages. Every story has a stable link and can be read without registration.", zh: "本网站把本地拥有的 Word 故事整理成可搜索、可分享的独立页面。每篇故事都有固定链接，无需注册即可阅读。" }],
-      [{ en: "Language", zh: "语言" }, { en: "English is the default. Readers can switch the interface, titles and story text to Simplified Chinese at any time.", zh: "网站默认显示英文。读者可以随时把界面、标题和故事正文切换为简体中文。" }],
+      [{ en: "Language", zh: "语言" }, { en: "English and Simplified Chinese are editorial editions. The worldwide-language menu can automatically translate the complete public site for other readers.", zh: "英文与简体中文是站内编辑版本；世界语言菜单可以为其他地区读者自动翻译整个公开网站。" }],
       [{ en: "Editorial status", zh: "内容说明" }, { en: "All stories are presented as fiction. Content notices appear on individual files where mature themes are present.", zh: "全部故事均以虚构作品发布。涉及成人或敏感主题时，故事页会显示内容提示。" }]
     ]
   },
@@ -527,8 +821,9 @@ const infoPages = {
     title: { en: "Privacy Policy", zh: "隐私政策" },
     intro: { en: "Last updated: July 20, 2026", zh: "最后更新：2026 年 7 月 20 日" },
     sections: [
-      [{ en: "Current data collection", zh: "当前数据收集" }, { en: "This static website has no account system, comment form or email database. Language preference and per-story reading position are stored only in your browser so you can return to the same language and continue reading. They are not sent to Story Archive.", zh: "这个静态网站没有账号、评论或邮件数据库。语言偏好与每篇故事的阅读位置只保存在你的浏览器中，用于下次继续显示所选语言和恢复阅读；这些数据不会发送给故事档案库。" }],
-      [{ en: "Cookies and advertising", zh: "Cookie 与广告" }, { en: "If advertising or analytics services are added later, those providers may use cookies or similar technologies under their own privacy policies. This policy will be updated before those services are enabled.", zh: "未来接入广告或访问分析服务时，服务商可能依据其隐私政策使用 Cookie 或类似技术。正式启用前，本政策会同步更新。" }],
+      [{ en: "Local reading data", zh: "本地阅读数据" }, { en: "This static website has no account, comment form or email database. Language, bookmarks, reading history and per-story reading position are stored in your browser so you can return to them. They are not synchronized across devices.", zh: "这个静态网站没有账号、评论或邮件数据库。语言偏好、收藏、阅读历史和每篇故事的阅读位置保存在你的浏览器中，方便下次继续使用；这些内容不会跨设备同步。" }],
+      [{ en: copy.en.privacyAnalyticsTitle, zh: copy.zh.privacyAnalyticsTitle }, { en: copy.en.privacyAnalyticsText, zh: copy.zh.privacyAnalyticsText }],
+      [{ en: "Cookies and advertising", zh: "Cookie 与广告" }, { en: "Advertising and analytics providers may use cookies or similar technologies under their own privacy policies. Where consent is required, analytics loads only after the reader chooses to allow it.", zh: "广告和访问分析服务商可能依据其隐私政策使用 Cookie 或类似技术。在法律要求取得同意的地区，只有读者主动允许后才会加载统计服务。" }],
       [{ en: "Your choices", zh: "你的选择" }, { en: "You can clear local website data or restrict cookies in your browser at any time.", zh: "你可以随时在浏览器中清除本地网站数据或限制 Cookie。" }]
     ]
   },
@@ -560,7 +855,15 @@ function initInfo() {
 
 initLanguageControls();
 translateStaticPage();
+document.addEventListener("click", (event) => {
+  const link = event.target.closest?.("[data-story-link]");
+  if (!link) return;
+  window.StoryAnalytics?.track("story_card_click", { story_slug: link.dataset.storySlug || "", placement: link.dataset.storyLink || "unknown", page_type: document.body.dataset.page || "unknown" });
+});
 const page = document.body.dataset.page;
 if (page === "home") initHome();
+if (page === "library") initLibrary();
 if (page === "story") initStory();
 if (page === "info") initInfo();
+if (page === "author") initAuthor();
+if (page === "analytics") initAnalyticsDashboard();

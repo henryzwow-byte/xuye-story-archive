@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Public Story Library — Story Archive</title>
+  <meta name="description" content="Search and explore every complete fictional story in the public Story Archive.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://henryzwow-byte.github.io/xuye-story-archive/library.html">
+  <meta property="og:title" content="Public Story Library — Story Archive"><meta property="og:description" content="Search stories, browse themes and tags, or open a random file."><meta property="og:type" content="website"><meta property="og:url" content="https://henryzwow-byte.github.io/xuye-story-archive/library.html"><meta property="og:image" content="https://henryzwow-byte.github.io/xuye-story-archive/og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Public Story Library","url":"https://henryzwow-byte.github.io/xuye-story-archive/library.html","isPartOf":{"@type":"WebSite","name":"Story Archive","url":"https://henryzwow-byte.github.io/xuye-story-archive/"}}</script>
+  <link rel="stylesheet" href="styles.css?v=20260722-public-discovery-1">
+</head>
+<body data-page="library">
+  <div class="top-note" data-i18n="topNote">The public archive is open to readers everywhere.</div>
+  <header class="site-header shell"><a class="brand" href="./"><span class="brand-mark"><i></i></span><span><b>STORY ARCHIVE</b><small>THE CONTINUATION LIBRARY</small></span></a><nav><a class="localized-link" href="library.html" data-i18n="navLibrary">Library</a><a class="localized-link" href="library.html?view=latest" data-i18n="navNew">Latest</a><a class="localized-link" href="author.html" data-i18n="authorTitle">Archive editor</a><a class="info-link" href="info.html?page=about" data-i18n="navAbout">About</a></nav><div class="header-actions"><div class="lang-switch" aria-label="Language"></div><a class="outline-button home-link" href="./">Home →</a></div></header>
+  <main>
+    <section class="library-hero shell"><div><div class="section-label" data-i18n="publicLibrary">PUBLIC LIBRARY</div><h1 data-i18n="libraryTitle">Every story, one open archive.</h1><p data-i18n="libraryIntro">Search every file, explore themes and tags, or let the archive choose your next story.</p></div><button type="button" id="random-story" class="random-story"><span>↝</span><b data-i18n="randomStory">Open a random story</b></button></section>
+    <section class="library-tools shell">
+      <form class="search" id="library-search-form" role="search"><span aria-hidden="true">⌕</span><label class="sr-only" for="story-search" data-i18n="searchLabel">Search stories</label><input id="story-search" placeholder="Search title, category, tag or file number…" autocomplete="off"><button data-i18n="searchButton">Find a file</button></form>
+      <div class="library-tabs" id="library-tabs" role="tablist"><button type="button" data-view="all" data-i18n="tabAll">All stories</button><button type="button" data-view="latest" data-i18n="tabLatest">Latest</button><button type="button" data-view="editors" data-i18n="tabEditors">Editor's picks</button><button type="button" data-view="popular" data-i18n="tabPopular">Popular</button><button type="button" data-view="weekly" data-i18n="tabWeekly">Most read this week</button><button type="button" data-view="saved" data-i18n="tabSaved">Saved</button><button type="button" data-view="history" data-i18n="tabHistory">Reading history</button></div>
+    </section>
+    <section class="library shell public-library-layout">
+      <aside class="folders"><div class="section-label" data-i18n="archiveDirectory">ARCHIVE DIRECTORY</div><h2 data-i18n="storyFolders">Story folders</h2><div id="folder-list" class="folder-list"></div><div class="tag-panel"><div class="section-label" data-i18n="tagsTitle">Tags</div><div class="tag-cloud" id="tag-cloud"></div></div><div class="series-panel"><div class="section-label" data-i18n="seriesTitle">Series & chapters</div><div id="series-panel"></div></div><a class="author-mini localized-link" href="author.html"><small data-i18n="authorTitle">Archive editor</small><b data-i18n="authorName">Story Archive Editorial Desk</b><span data-i18n="viewAuthor">View author page</span></a></aside>
+      <div class="story-index"><div class="index-head"><div><div class="section-label">OPEN FILES</div><h2 data-i18n="allStories">All Stories</h2><p id="result-count"></p></div><label><span data-i18n="sortLabel">Sort</span> <select id="sort-select"><option value="file" data-i18n="sortFile">File number</option><option value="title" data-i18n="sortTitle">Title</option></select></label></div><p class="library-context-note" id="library-context-note"></p><div class="ad-slot"><span>ADVERTISEMENT</span><p data-i18n="adLeaderboard">Leaderboard ad space · 970 × 90</p></div><div class="story-grid" id="story-grid"></div><div class="empty" id="empty-state" hidden><b>⌕</b><h3 data-i18n="emptyTitle">No matching file</h3><p data-i18n="emptyBody">Try another keyword or open a different folder.</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer shell"><a class="brand" href="./"><span class="brand-mark"><i></i></span><span><b>STORY ARCHIVE</b><small>THE CONTINUATION LIBRARY</small></span></a><p data-i18n="footerText">An independent archive for fictional stories and serial continuations.</p><nav><a class="info-link" href="info.html?page=about" data-i18n="footerAbout">About</a><a class="info-link" href="info.html?page=privacy" data-i18n="footerPrivacy">Privacy</a><a class="info-link" href="info.html?page=terms" data-i18n="footerTerms">Terms</a><a class="info-link" href="info.html?page=contact" data-i18n="footerAds">Advertising</a></nav><small>© 2026 Story Archive</small></footer>
+  <script src="analytics-config.js?v=20260722-public-discovery-1"></script><script src="analytics.js?v=20260722-public-discovery-1"></script><script src="stories-data.js?v=20260722-public-discovery-1"></script><script src="app.js?v=20260722-public-discovery-1"></script>
+</body>
+</html>

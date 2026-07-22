@@ -3,26 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Story Archive — Every Story Has a File</title>
+  <title>Story Archive — A Public Library of Complete Fiction</title>
   <meta name="description" content="An independent story archive with worldwide language access.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://henryzwow-byte.github.io/xuye-story-archive/">
   <meta property="og:title" content="Story Archive — The story continues here">
-  <meta property="og:description" content="Open a story file and continue reading in English or Simplified Chinese.">
+  <meta property="og:description" content="Open complete fictional stories in the public archive, with worldwide language access.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://henryzwow-byte.github.io/xuye-story-archive/">
   <meta property="og:image" content="https://henryzwow-byte.github.io/xuye-story-archive/og.png">
   <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Story Archive"><meta property="og:locale" content="en_US">
-  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Story Archive — The story continues here"><meta name="twitter:description" content="Open a story file and continue reading in English or Simplified Chinese."><meta name="twitter:image" content="https://henryzwow-byte.github.io/xuye-story-archive/og.png">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Story Archive — The story continues here"><meta name="twitter:description" content="Open complete fictional stories in the public archive, with worldwide language access."><meta name="twitter:image" content="https://henryzwow-byte.github.io/xuye-story-archive/og.png">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Story Archive","alternateName":"The Continuation Library","url":"https://henryzwow-byte.github.io/xuye-story-archive/","description":"An independent archive of complete fictional stories with worldwide language access."}</script>
-  <link rel="stylesheet" href="styles.css?v=20260722-language-panel-1">
+  <link rel="stylesheet" href="styles.css?v=20260722-public-discovery-1">
 </head>
 <body data-page="home">
-  <div class="top-note" data-i18n="topNote">Eight stories from the private archive are now available.</div>
+  <div class="top-note" data-i18n="topNote">The public archive is open to readers everywhere.</div>
   <header class="site-header shell">
     <a class="brand" href="./" aria-label="Story Archive home"><span class="brand-mark"><i></i></span><span><b>STORY ARCHIVE</b><small>THE CONTINUATION LIBRARY</small></span></a>
-    <nav><a href="#library" data-i18n="navLibrary">Library</a><a href="#new" data-i18n="navNew">All files</a><a class="info-link" href="info.html?page=about" data-i18n="navAbout">About</a></nav>
-    <div class="header-actions"><div class="lang-switch" aria-label="Language"></div><a class="outline-button" href="#library" data-i18n="openArchive">Open archive →</a></div>
+    <nav><a class="localized-link" href="library.html" data-i18n="navLibrary">Library</a><a href="#latest" data-i18n="navNew">Latest</a><a href="#categories" data-i18n="categories">Categories</a><a class="info-link" href="info.html?page=about" data-i18n="navAbout">About</a></nav>
+    <div class="header-actions"><div class="lang-switch" aria-label="Language"></div><a class="outline-button localized-link" href="library.html" data-i18n="openArchive">Open the public archive →</a></div>
   </header>
 
   <main>
@@ -30,7 +30,7 @@
       <div class="hero-copy">
         <div class="kicker"><span></span> THE STORY CONTINUES HERE</div>
         <h1 data-i18n-html="heroTitle">Some stories never truly end.<br><em>They are only waiting to be opened again.</em></h1>
-        <p data-i18n="heroBody">A clean, searchable library for complete stories. Read in English by default or switch the entire site to Simplified Chinese.</p>
+        <p data-i18n="heroBody">A public collection of complete fiction, designed for calm reading and available to readers around the world.</p>
         <form class="search" id="search-form" role="search">
           <span aria-hidden="true">⌕</span>
           <label class="sr-only" for="story-search" data-i18n="searchLabel">Search stories</label>
@@ -49,14 +49,18 @@
 
     <div class="trust"><div class="shell"><span data-i18n="trustOne">✓ No sign-in required</span><span data-i18n="trustTwo">✓ Mobile reading optimized</span><span data-i18n="trustThree">✓ One shareable link per story</span><span data-i18n="trustFour">✓ English and Simplified Chinese</span></div></div>
 
-    <section class="library shell" id="library">
-      <aside class="folders"><div class="section-label" data-i18n="archiveDirectory">ARCHIVE DIRECTORY</div><h2 data-i18n="storyFolders">Story folders</h2><div id="folder-list" class="folder-list"></div><blockquote><small>ARCHIVE NOTE 001</small><span data-i18n="archiveQuote">“A story deserves an ending people can find.”</span></blockquote></aside>
-      <div class="story-index" id="new">
-        <div class="index-head"><div><div class="section-label">OPEN FILES</div><h2 id="active-title">All Stories</h2><p id="result-count"></p></div><label><span data-i18n="sortLabel">Sort</span> <select id="sort-select"><option value="file" data-i18n="sortFile">File number</option><option value="title" data-i18n="sortTitle">Title</option></select></label></div>
-        <div class="ad-slot"><span>ADVERTISEMENT</span><p data-i18n="adLeaderboard">Leaderboard ad space · 970 × 90</p></div>
-        <div class="story-grid" id="story-grid"></div>
-        <div class="empty" id="empty-state" hidden><b>⌕</b><h3 data-i18n="emptyTitle">No matching file</h3><p data-i18n="emptyBody">Try another keyword or open a different folder.</p></div>
-      </div>
+    <section class="home-discovery shell" id="curated">
+      <div class="discovery-heading"><div><div class="section-label" data-i18n="curated">EDITOR'S SELECTION</div><h2 data-i18n="curatedTitle">Selected from the archive</h2><p data-i18n="curatedBody">A considered entry point into the collection.</p></div><a class="localized-link" href="library.html?view=editors" data-i18n="viewAll">View all stories</a></div>
+      <div class="story-grid home-three-grid" id="home-curated-grid"></div>
+    </section>
+
+    <section class="home-discovery home-discovery-muted" id="latest">
+      <div class="shell"><div class="discovery-heading"><div><div class="section-label" data-i18n="latest">LATEST RELEASES</div><h2 data-i18n="latestTitle">Newly filed stories</h2><p data-i18n="latestBody">The most recent additions, presented in publication order.</p></div><a class="localized-link" href="library.html?view=latest" data-i18n="viewAll">View all stories</a></div><div class="story-grid home-three-grid" id="home-latest-grid"></div></div>
+    </section>
+
+    <section class="home-discovery shell" id="categories">
+      <div class="discovery-heading"><div><div class="section-label" data-i18n="categories">BROWSE BY THEME</div><h2 data-i18n="categoriesTitle">Find a story by atmosphere</h2><p data-i18n="categoriesBody">Move through the archive by theme, then continue wherever curiosity leads.</p></div><a class="localized-link" href="library.html" data-i18n="openArchive">Open the public archive →</a></div>
+      <div class="theme-grid" id="home-category-grid"></div>
     </section>
 
     <section class="archive-count-band" aria-label="Archive story count">
@@ -69,7 +73,9 @@
   </main>
 
   <footer class="site-footer shell"><a class="brand" href="./"><span class="brand-mark"><i></i></span><span><b>STORY ARCHIVE</b><small>THE CONTINUATION LIBRARY</small></span></a><p data-i18n="footerText">An independent archive for fictional stories and serial continuations.</p><nav><a class="info-link" href="info.html?page=about" data-i18n="footerAbout">About</a><a class="info-link" href="info.html?page=privacy" data-i18n="footerPrivacy">Privacy</a><a class="info-link" href="info.html?page=terms" data-i18n="footerTerms">Terms</a><a class="info-link" href="info.html?page=contact" data-i18n="footerAds">Advertising</a></nav><small>© 2026 Story Archive</small></footer>
-  <script src="stories-data.js?v=20260722-upgrade-1"></script>
-  <script src="app.js?v=20260722-language-panel-1"></script>
+  <script src="analytics-config.js?v=20260722-public-discovery-1"></script>
+  <script src="analytics.js?v=20260722-public-discovery-1"></script>
+  <script src="stories-data.js?v=20260722-public-discovery-1"></script>
+  <script src="app.js?v=20260722-public-discovery-1"></script>
 </body>
 </html>
