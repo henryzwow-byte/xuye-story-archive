@@ -2,7 +2,7 @@ const stories = Array.isArray(window.STORY_ARCHIVE) ? window.STORY_ARCHIVE : [];
 
 const copy = {
   en: {
-    topNote: "Seven stories from the private archive are now available.",
+    topNote: "Eight stories from the private archive are now available.",
     navLibrary: "Library", navNew: "All files", navAbout: "About", openArchive: "Open archive →",
     heroTitle: "Every story has a file.<br><em>Open the one you came for.</em>",
     heroBody: "A clean, searchable library for complete stories. Read in English by default or switch the entire site to Simplified Chinese.",
@@ -12,7 +12,7 @@ const copy = {
     archiveDirectory: "ARCHIVE DIRECTORY", storyFolders: "Story folders", archiveQuote: "“A story deserves an ending people can find.”",
     sortLabel: "Sort", sortFile: "File number", sortTitle: "Title", adLeaderboard: "Leaderboard ad space · 970 × 90",
     emptyTitle: "No matching file", emptyBody: "Try another keyword or open a different folder.",
-    statusTitle: "Your seven Word stories<br>are now organized here.",
+    statusTitle: "Your eight Word stories<br>are now organized here.",
     statusBody: "This free static site does not collect personal data. New stories can be added by replacing the story data file.", browseAll: "Browse all stories",
     footerText: "An independent archive for fictional stories and serial continuations.", footerAbout: "About", footerPrivacy: "Privacy", footerTerms: "Terms", footerAds: "Advertising",
     allStories: "All Stories", matched: "matching files", file: "FILE", complete: "COMPLETE", openFile: "Open file", imported: "Imported from Word", chapters: "sections",
@@ -22,7 +22,7 @@ const copy = {
     currentFile: "CURRENT FILE", fileComplete: "FILE COMPLETE", endMessage: "You have reached the end of this story.", moreStories: "Explore more stories"
   },
   zh: {
-    topNote: "你本地故事会文件夹中的 7 篇故事现已全部入库。",
+    topNote: "你本地故事会文件夹中的 8 篇故事现已全部入库。",
     navLibrary: "故事库", navNew: "全部文件", navAbout: "关于", openArchive: "打开档案库 →",
     heroTitle: "每一个故事，都有一份档案。<br><em>打开你正在寻找的那一篇。</em>",
     heroBody: "一个清晰、可搜索的完整故事库。网站默认显示英文，也可以一键切换为简体中文。",
@@ -32,7 +32,7 @@ const copy = {
     archiveDirectory: "档案目录", storyFolders: "故事文件夹", archiveQuote: "“每一个故事，都值得一个能被找到的结局。”",
     sortLabel: "排序", sortFile: "档案编号", sortTitle: "标题", adLeaderboard: "横幅广告位 · 970 × 90",
     emptyTitle: "没有匹配的档案", emptyBody: "换一个关键词，或打开其他文件夹。",
-    statusTitle: "你的 7 篇 Word 故事<br>已经整理到这里。",
+    statusTitle: "你的 8 篇 Word 故事<br>已经整理到这里。",
     statusBody: "这个免费静态网站不收集个人资料。以后添加新故事，只需替换故事数据文件。", browseAll: "浏览全部故事",
     footerText: "用于虚构故事与连载续篇的独立数字档案馆。", footerAbout: "关于", footerPrivacy: "隐私", footerTerms: "条款", footerAds: "广告合作",
     allStories: "全部故事", matched: "份匹配档案", file: "档案", complete: "已完结", openFile: "打开档案", imported: "来自 Word 文件", chapters: "个章节",
@@ -83,7 +83,7 @@ function translateStaticPage() {
 }
 
 function storyUrl(story) {
-  return `story.html?slug=${encodeURIComponent(story.slug)}&lang=${lang}`;
+  return `story-${encodeURIComponent(story.slug)}.html?lang=${lang}`;
 }
 
 function categoryKey(story) {
@@ -172,7 +172,7 @@ function proseHtml(story) {
 }
 
 function initStory() {
-  const slug = params.get("slug") || stories[0]?.slug;
+  const slug = document.body.dataset.slug || params.get("slug") || stories[0]?.slug;
   const story = stories.find((item) => item.slug === slug) || stories[0];
   const reader = document.querySelector("#reader");
   if (!story) {
