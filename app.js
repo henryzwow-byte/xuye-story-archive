@@ -127,7 +127,8 @@ function initFeaturedCarousel() {
   const next = document.querySelector("#featured-next");
   const dots = document.querySelector("#featured-dots");
   const status = document.querySelector("#featured-status");
-  if (!carousel || !featured || !previous || !next || !dots || !status || !stories.length) return;
+  const featuredStories = [...stories].sort((first, second) => first.fileNo.localeCompare(second.fileNo));
+  if (!carousel || !featured || !previous || !next || !dots || !status || !featuredStories.length) return;
 
   let activeIndex = 0;
   let touchStart = null;
@@ -138,17 +139,17 @@ function initFeaturedCarousel() {
   next.setAttribute("aria-label", t("nextStory"));
 
   function updateDots() {
-    dots.innerHTML = stories.map((story, index) => `<button type="button" class="carousel-dot ${index === activeIndex ? "active" : ""}" data-index="${index}" aria-label="${esc(`${t("storyPosition")} ${index + 1}: ${local(story.title)}`)}" aria-current="${index === activeIndex ? "true" : "false"}"></button>`).join("");
+    dots.innerHTML = featuredStories.map((story, index) => `<button type="button" class="carousel-dot ${index === activeIndex ? "active" : ""}" data-index="${index}" aria-label="${esc(`${t("storyPosition")} ${index + 1}: ${local(story.title)}`)}" aria-current="${index === activeIndex ? "true" : "false"}"></button>`).join("");
     dots.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => showStory(Number(button.dataset.index), Number(button.dataset.index) < activeIndex ? "previous" : "next")));
   }
 
   function showStory(nextIndex, direction = "next") {
-    activeIndex = (nextIndex + stories.length) % stories.length;
+    activeIndex = (nextIndex + featuredStories.length) % featuredStories.length;
     featured.classList.remove("slide-from-left", "slide-from-right");
     void featured.offsetWidth;
     featured.classList.add(direction === "previous" ? "slide-from-left" : "slide-from-right");
-    renderFeatured(stories[activeIndex], activeIndex);
-    status.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(stories.length).padStart(2, "0")}`;
+    renderFeatured(featuredStories[activeIndex], activeIndex);
+    status.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(featuredStories.length).padStart(2, "0")}`;
     updateDots();
   }
 
