@@ -19,7 +19,9 @@ const copy = {
     featured: "FEATURED FILE", readStory: "Read the full story", previousStory: "Previous story", nextStory: "Next story", carouselLabel: "Featured stories", storyPosition: "Story", backLibrary: "← Back to library", archive: "Story Archive",
     fictionNotice: "FICTION / CONTENT NOTICE", updated: "Archive file", readingTime: "Estimated reading", minutes: "min",
     adStory: "Story-page ad space · 728 × 90", adInline: "In-article ad space · responsive", adSide: "Sidebar ad space · 300 × 600",
-    currentFile: "CURRENT FILE", storyIllustration: "Story illustration", fileComplete: "FILE COMPLETE", endMessage: "You have reached the end of this story.", moreStories: "Explore more stories"
+    currentFile: "CURRENT FILE", storyIllustration: "Story illustration", fileComplete: "FILE COMPLETE", endMessage: "You have reached the end of this story.", moreStories: "Explore more stories",
+    published: "Published", newFile: "NEW FILE", shareStory: "SHARE THIS FILE", shareFacebook: "Share on Facebook", copyLink: "Copy link", copied: "Link copied",
+    resumeTitle: "Continue where you left off?", resumePosition: "Your last reading position", continueReading: "Continue reading", startOver: "Start from the beginning", readingProgress: "Reading progress"
   },
   zh: {
     topNote: "你本地故事会文件夹中的 8 篇故事现已全部入库。",
@@ -39,7 +41,9 @@ const copy = {
     featured: "推荐档案", readStory: "阅读全文", previousStory: "上一篇故事", nextStory: "下一篇故事", carouselLabel: "推荐故事", storyPosition: "故事", backLibrary: "← 返回故事库", archive: "故事档案库",
     fictionNotice: "虚构作品 / 内容提示", updated: "档案编号", readingTime: "预计阅读", minutes: "分钟",
     adStory: "故事页广告位 · 728 × 90", adInline: "文中广告位 · 自适应", adSide: "侧栏广告位 · 300 × 600",
-    currentFile: "当前档案", storyIllustration: "故事插图", fileComplete: "档案完结", endMessage: "你已经读完这篇故事。", moreStories: "查看更多故事"
+    currentFile: "当前档案", storyIllustration: "故事插图", fileComplete: "档案完结", endMessage: "你已经读完这篇故事。", moreStories: "查看更多故事",
+    published: "发布日期", newFile: "新入库", shareStory: "分享这份档案", shareFacebook: "分享到 Facebook", copyLink: "复制链接", copied: "链接已复制",
+    resumeTitle: "继续上次阅读？", resumePosition: "上次读到", continueReading: "继续阅读", startOver: "从头开始", readingProgress: "阅读进度"
   }
 };
 
@@ -101,14 +105,30 @@ function readingMinutes(story) {
   return Math.max(2, Math.ceil(units / (lang === "zh" ? 420 : 220)));
 }
 
+function formatDate(value) {
+  if (!value) return "";
+  const date = new Date(`${value}T12:00:00`);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat(lang === "zh" ? "zh-CN" : "en-US", { year: "numeric", month: "short", day: "numeric" }).format(date);
+}
+
+function socialImageUrl(story) {
+  const coverName = String(story.cover || "").split("/").pop().replace(/\.webp$/i, ".jpg");
+  return new URL(`assets/social/${coverName}`, location.href).href;
+}
+
+function shareCopy(story, field) {
+  return local(story.share?.[field]) || (field === "title" ? local(story.title) : local(story.summary));
+}
+
 function storyCard(story, index) {
   const coverNumber = String(story.fileNo || index + 1).replace(/\D/g, "").slice(-2).padStart(2, "0");
   const coverMedia = story.cover
     ? `<img src="${esc(story.cover)}" alt="" width="960" height="640" loading="lazy" decoding="async">`
     : `<div class="glyph">${esc(story.glyph)}</div>`;
   return `<article class="story-card">
-    <a class="cover tone-${esc(story.tone)}" href="${storyUrl(story)}" aria-label="${esc(local(story.title))}">${coverMedia}<span>${coverNumber}</span><span class="category">${esc(local(story.category))}</span><span class="chapter">${esc(t("complete"))}</span></a>
-    <div class="card-body"><div class="card-meta"><span>${esc(story.fileNo)}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span></div><h3><a href="${storyUrl(story)}">${esc(local(story.title))}</a></h3><p>${esc(local(story.summary))}</p><div class="tags"><span>#${esc(local(story.category))}</span><span>#${esc(t("imported"))}</span></div><a class="read-link" href="${storyUrl(story)}"><span>${esc(t("openFile"))}</span><b>→</b></a></div>
+    <a class="cover tone-${esc(story.tone)}" href="${storyUrl(story)}" aria-label="${esc(local(story.title))}">${coverMedia}<span>${coverNumber}</span><span class="category">${esc(local(story.category))}</span><span class="chapter">${esc(t("complete"))}</span>${story.isNew ? `<span class="new-file-badge">${esc(t("newFile"))}</span>` : ""}</a>
+    <div class="card-body"><div class="card-meta"><span>${esc(story.fileNo)}</span><span>${esc(formatDate(story.published))}</span><span>${readingMinutes(story)} ${esc(t("minutes"))}</span></div><h3><a href="${storyUrl(story)}">${esc(local(story.title))}</a></h3><p>${esc(local(story.summary))}</p><div class="tags"><span>#${esc(local(story.category))}</span><span>#${esc(t("imported"))}</span></div><a class="read-link" href="${storyUrl(story)}"><span>${esc(t("openFile"))}</span><b>→</b></a></div>
   </article>`;
 }
 
@@ -117,7 +137,8 @@ function renderFeatured(story, index = 0) {
   if (!featured || !story) return;
   const displayNumber = String(story.fileNo || index + 1).replace(/\D/g, "").slice(-2).padStart(2, "0");
   featured.href = storyUrl(story);
-  featured.innerHTML = `<div class="paper-meta"><span>${esc(t("file"))} #${esc(story.fileNo)}</span><span>${esc(t("featured"))}</span></div><div class="paper-number">${displayNumber}</div><div class="paper-copy"><small>${esc(local(story.category))} · ${esc(t("complete"))}</small><h2>${esc(local(story.title))}</h2><p>${esc(local(story.summary))}</p><b>${esc(t("readStory"))} <i>→</i></b></div>`;
+  featured.classList.toggle("has-art", Boolean(story.cover));
+  featured.innerHTML = `${story.cover ? `<div class="paper-image"><img src="${esc(story.cover)}" alt="" width="960" height="640" decoding="async"><span></span></div>` : ""}<div class="paper-meta"><span>${esc(t("file"))} #${esc(story.fileNo)}</span><span>${story.isNew ? esc(t("newFile")) : esc(t("featured"))}</span></div><div class="paper-number">${displayNumber}</div><div class="paper-copy"><small>${esc(local(story.category))} · ${esc(formatDate(story.published))} · ${esc(t("complete"))}</small><h2>${esc(local(story.title))}</h2><p>${esc(local(story.summary))}</p><b>${esc(t("readStory"))} <i>→</i></b></div>`;
 }
 
 function initFeaturedCarousel() {
@@ -198,6 +219,10 @@ function initHome() {
   const categories = [{ key: "all", label: { en: "All Stories", zh: "全部故事" }, count: stories.length }, ...Array.from(categoryMap, ([key, value]) => ({ key, ...value }))];
   document.querySelector("#story-total").textContent = stories.length;
   document.querySelector("#category-total").textContent = categoryMap.size;
+  const topNote = document.querySelector('[data-i18n="topNote"]');
+  const statusTitle = document.querySelector('[data-i18n-html="statusTitle"]');
+  if (topNote) topNote.textContent = lang === "zh" ? `你本地故事会文件夹中的 ${stories.length} 篇故事现已全部入库。` : `${stories.length} stories from the private archive are now available.`;
+  if (statusTitle) statusTitle.innerHTML = lang === "zh" ? `你的 ${stories.length} 篇 Word 故事<br>已经整理到这里。` : `Your ${stories.length} Word stories<br>are now organized here.`;
   initFeaturedCarousel();
 
   function renderFolders() {
@@ -236,6 +261,157 @@ function proseHtml(story) {
   }).join("");
 }
 
+function updateDocumentMetadata(story) {
+  const canonicalUrl = new URL(`story-${story.slug}.html`, location.href).href;
+  const setters = [
+    ['meta[name="description"]', local(story.summary)],
+    ['meta[property="og:title"]', shareCopy(story, "title")],
+    ['meta[property="og:description"]', shareCopy(story, "description")],
+    ['meta[property="og:url"]', canonicalUrl],
+    ['meta[property="og:image"]', socialImageUrl(story)],
+    ['meta[property="og:locale"]', lang === "zh" ? "zh_CN" : "en_US"],
+    ['meta[name="twitter:title"]', shareCopy(story, "title")],
+    ['meta[name="twitter:description"]', shareCopy(story, "description")],
+    ['meta[name="twitter:image"]', socialImageUrl(story)]
+  ];
+  setters.forEach(([selector, value]) => {
+    const element = document.querySelector(selector);
+    if (element && value) element.content = value;
+  });
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: local(story.title),
+    description: local(story.summary),
+    image: [socialImageUrl(story)],
+    datePublished: story.published,
+    dateModified: story.modified || "2026-07-22",
+    inLanguage: lang === "zh" ? "zh-CN" : "en",
+    articleSection: local(story.category),
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
+    author: { "@type": "Organization", name: "Story Archive", url: new URL("./", location.href).href }
+  };
+  let schema = document.querySelector("#story-structured-data");
+  if (!schema) {
+    schema = document.createElement("script");
+    schema.type = "application/ld+json";
+    schema.id = "story-structured-data";
+    document.head.appendChild(schema);
+  }
+  schema.textContent = JSON.stringify(structuredData).replace(/</g, "\\u003c");
+}
+
+function initShareActions(story) {
+  const facebook = document.querySelector("#share-facebook");
+  const copyButton = document.querySelector("#copy-story-link");
+  const shareUrl = new URL(`story-${story.slug}.html`, location.href);
+  shareUrl.searchParams.set("lang", lang);
+  if (facebook) facebook.addEventListener("click", () => {
+    const target = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl.href)}`;
+    window.open(target, "facebook-share", "popup=yes,width=690,height=620,noopener,noreferrer");
+  });
+  if (copyButton) copyButton.addEventListener("click", async () => {
+    try {
+      if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(shareUrl.href);
+      else {
+        const field = document.createElement("textarea");
+        field.value = shareUrl.href;
+        field.setAttribute("readonly", "");
+        field.style.position = "fixed";
+        field.style.opacity = "0";
+        document.body.appendChild(field);
+        field.select();
+        document.execCommand("copy");
+        field.remove();
+      }
+      copyButton.textContent = t("copied");
+      window.setTimeout(() => { copyButton.textContent = t("copyLink"); }, 1800);
+    } catch {
+      window.prompt(t("copyLink"), shareUrl.href);
+    }
+  });
+}
+
+function initReadingExperience(story) {
+  const prose = document.querySelector(".prose");
+  const prompt = document.querySelector("#resume-reading");
+  const continueButton = document.querySelector("#continue-reading");
+  const restartButton = document.querySelector("#restart-reading");
+  if (!prose) return;
+
+  const progress = document.createElement("div");
+  progress.className = "reading-progress";
+  progress.setAttribute("role", "progressbar");
+  progress.setAttribute("aria-label", t("readingProgress"));
+  progress.setAttribute("aria-valuemin", "0");
+  progress.setAttribute("aria-valuemax", "100");
+  progress.setAttribute("aria-valuenow", "0");
+  progress.innerHTML = "<span></span>";
+  document.body.prepend(progress);
+
+  const key = `story-reading-${story.slug}`;
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem(key) || "null"); } catch {}
+  if (prompt && saved?.ratio > 0.04 && saved.ratio < 0.97) {
+    prompt.hidden = false;
+    const percentage = prompt.querySelector("[data-resume-percent]");
+    if (percentage) percentage.textContent = `${Math.round(saved.ratio * 100)}%`;
+  }
+
+  function measurements() {
+    const top = prose.getBoundingClientRect().top + window.scrollY;
+    const bottom = top + prose.offsetHeight;
+    return { top, range: Math.max(1, bottom - top - window.innerHeight * 0.55) };
+  }
+
+  function currentRatio() {
+    const { top, range } = measurements();
+    return Math.max(0, Math.min(1, (window.scrollY - top + window.innerHeight * 0.14) / range));
+  }
+
+  let ticking = false;
+  let lastStoredAt = 0;
+  function update(save = true) {
+    const ratio = currentRatio();
+    const percent = Math.round(ratio * 100);
+    progress.firstElementChild.style.width = `${percent}%`;
+    progress.setAttribute("aria-valuenow", String(percent));
+    if (save && Date.now() - lastStoredAt > 450) {
+      lastStoredAt = Date.now();
+      try {
+        if (ratio >= 0.98) localStorage.removeItem(key);
+        else if (ratio > 0.025) localStorage.setItem(key, JSON.stringify({ ratio, updatedAt: new Date().toISOString() }));
+      } catch {}
+    }
+    ticking = false;
+  }
+
+  window.addEventListener("scroll", () => {
+    if (prompt && !prompt.hidden && Math.abs(window.scrollY) > 90) prompt.hidden = true;
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(() => update(true));
+    }
+  }, { passive: true });
+  window.addEventListener("resize", () => update(false), { passive: true });
+  window.addEventListener("pagehide", () => update(true));
+
+  if (continueButton) continueButton.addEventListener("click", () => {
+    const ratio = saved?.ratio || 0;
+    if (prompt) prompt.hidden = true;
+    window.setTimeout(() => {
+      const { top, range } = measurements();
+      window.scrollTo({ top: top + ratio * range, behavior: "smooth" });
+    }, 20);
+  });
+  if (restartButton) restartButton.addEventListener("click", () => {
+    try { localStorage.removeItem(key); } catch {}
+    if (prompt) prompt.hidden = true;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  update(false);
+}
+
 function initStory() {
   const slug = document.body.dataset.slug || params.get("slug") || stories[0]?.slug;
   const story = stories.find((item) => item.slug === slug) || stories[0];
@@ -245,10 +421,13 @@ function initStory() {
     return;
   }
   document.title = `${local(story.title)} — Story Archive`;
-  const description = document.querySelector('meta[name="description"]');
-  if (description) description.content = local(story.summary);
-  const storyIllustration = story.cover ? `<figure class="story-illustration"><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}" width="960" height="640" loading="eager" decoding="async" fetchpriority="high"><figcaption><span>${esc(t("storyIllustration"))}</span><b>${esc(story.fileNo)}</b></figcaption></figure>` : "";
-  reader.innerHTML = `<article class="reader-main"><nav class="breadcrumb"><a href="./?lang=${lang}">${esc(t("archive"))}</a><span>/</span><span>${esc(local(story.category))}</span><span>/</span><b>${esc(story.fileNo)}</b></nav><header class="article-head"><div class="article-label"><span>${esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("updated"))}: ${esc(story.fileNo)}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div><div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>${storyIllustration}<div class="ad-slot reader-ad"><span>ADVERTISEMENT</span><p>${esc(t("adStory"))}</p></div><div class="prose">${proseHtml(story)}</div><div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="./?lang=${lang}">${esc(t("moreStories"))}</a></div></article><aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(local(story.category))}</p></div><div class="ad-slot tall-ad"><span>ADVERTISEMENT</span><p>${esc(t("adSide"))}</p></div></aside>`;
+  updateDocumentMetadata(story);
+  const storyIllustration = story.cover ? `<figure class="story-illustration"><div class="story-illustration-image"><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}" width="960" height="640" loading="eager" decoding="async" fetchpriority="high"><div class="story-illustration-overlay"><span>${esc(t("file"))} ${esc(story.fileNo)} · ${esc(local(story.category))}</span><blockquote>${esc(shareCopy(story, "description"))}</blockquote></div></div><figcaption><span>${esc(t("storyIllustration"))}</span><b>${esc(formatDate(story.published))} · ${esc(story.fileNo)}</b></figcaption></figure>` : "";
+  const resumePrompt = `<aside class="resume-reading" id="resume-reading" hidden><div><b>${esc(t("resumeTitle"))}</b><span>${esc(t("resumePosition"))}: <strong data-resume-percent>0%</strong></span></div><div><button type="button" id="continue-reading">${esc(t("continueReading"))}</button><button type="button" class="text-button" id="restart-reading">${esc(t("startOver"))}</button></div></aside>`;
+  const shareActions = `<div class="story-share"><span>${esc(t("shareStory"))}</span><div><button type="button" id="share-facebook">f&nbsp; ${esc(t("shareFacebook"))}</button><button type="button" id="copy-story-link">↗&nbsp; ${esc(t("copyLink"))}</button></div></div>`;
+  reader.innerHTML = `<article class="reader-main"><nav class="breadcrumb"><a href="./?lang=${lang}">${esc(t("archive"))}</a><span>/</span><span>${esc(local(story.category))}</span><span>/</span><b>${esc(story.fileNo)}</b></nav><header class="article-head"><div class="article-label"><span>${story.isNew ? esc(t("newFile")) : esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("published"))}: ${esc(formatDate(story.published))}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div><div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>${resumePrompt}${storyIllustration}${shareActions}<div class="ad-slot reader-ad"><span>ADVERTISEMENT</span><p>${esc(t("adStory"))}</p></div><div class="prose">${proseHtml(story)}</div><div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="./?lang=${lang}">${esc(t("moreStories"))}</a></div></article><aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(local(story.category))}</p></div><div class="ad-slot tall-ad"><span>ADVERTISEMENT</span><p>${esc(t("adSide"))}</p></div></aside>`;
+  initShareActions(story);
+  initReadingExperience(story);
 }
 
 const infoPages = {
@@ -265,7 +444,7 @@ const infoPages = {
     title: { en: "Privacy Policy", zh: "隐私政策" },
     intro: { en: "Last updated: July 20, 2026", zh: "最后更新：2026 年 7 月 20 日" },
     sections: [
-      [{ en: "Current data collection", zh: "当前数据收集" }, { en: "This static website has no account system, comment form or email database. A language preference may be stored in your browser so the selected language remains active.", zh: "这个静态网站没有账号、评论或邮件数据库。浏览器可能会保存语言偏好，以便下次继续显示所选语言。" }],
+      [{ en: "Current data collection", zh: "当前数据收集" }, { en: "This static website has no account system, comment form or email database. Language preference and per-story reading position are stored only in your browser so you can return to the same language and continue reading. They are not sent to Story Archive.", zh: "这个静态网站没有账号、评论或邮件数据库。语言偏好与每篇故事的阅读位置只保存在你的浏览器中，用于下次继续显示所选语言和恢复阅读；这些数据不会发送给故事档案库。" }],
       [{ en: "Cookies and advertising", zh: "Cookie 与广告" }, { en: "If advertising or analytics services are added later, those providers may use cookies or similar technologies under their own privacy policies. This policy will be updated before those services are enabled.", zh: "未来接入广告或访问分析服务时，服务商可能依据其隐私政策使用 Cookie 或类似技术。正式启用前，本政策会同步更新。" }],
       [{ en: "Your choices", zh: "你的选择" }, { en: "You can clear local website data or restrict cookies in your browser at any time.", zh: "你可以随时在浏览器中清除本地网站数据或限制 Cookie。" }]
     ]

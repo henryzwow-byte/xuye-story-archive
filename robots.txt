@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://henryzwow-byte.github.io/xuye-story-archive/sitemap.xml

@@ -3,6 +3,13 @@ window.STORY_ARCHIVE = [
     slug: "the-broken-home",
     fileNo: "A-001",
     cover: "assets/covers/A-001-the-broken-home.webp",
+    published: "2026-07-20",
+    modified: "2026-07-22",
+    isNew: false,
+    share: {
+      title: { en: "They Asked Her to Sign at Dinner—Then She Opened the File", zh: "他们在家宴上逼她签字，直到她打开那份档案" },
+      description: { en: "Hours after leaving the hospital, Eva walked into a family ambush. The documents in her hands changed every seat at the table.", zh: "刚离开医院，伊芙就走进一场家族围攻；她手里的文件，让整张餐桌的局势彻底逆转。" }
+    },
     title: { en: "The Broken Home", zh: "家宴上的囚徒" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -78,6 +85,13 @@ window.STORY_ARCHIVE = [
     slug: "cleaning-house",
     fileNo: "A-003",
     cover: "assets/covers/A-003-cleaning-house.webp",
+    published: "2026-07-20",
+    modified: "2026-07-22",
+    isNew: false,
+    share: {
+      title: { en: "The Heir They Erased Returned With the Ledger", zh: "被家族抹去的继承人，带着账本回来了" },
+      description: { en: "They thought three years of silence meant surrender. Then the missing heir opened the ledger that recorded everything.", zh: "他们以为三年的沉默等于认输，直到那位被排斥的继承人打开记录一切的账本。" }
+    },
     title: { en: "Cleaning House", zh: "清理门户" },
     category: { en: "Justice & Reckoning", zh: "正义审判" },
     summary: {
@@ -133,6 +147,13 @@ window.STORY_ARCHIVE = [
     slug: "judgment-from-a-wheelchair",
     fileNo: "A-004",
     cover: "assets/covers/A-004-judgment-from-a-wheelchair.webp",
+    published: "2026-07-20",
+    modified: "2026-07-22",
+    isNew: false,
+    share: {
+      title: { en: "He Stayed Silent in His Wheelchair—While Every Word Was Recorded", zh: "他坐在轮椅上沉默，而他们的每句话都被录了下来" },
+      description: { en: "His father and wife planned to steal the estate in front of him. They never noticed the evidence building behind the screen.", zh: "父亲和妻子当着他的面密谋侵吞遗产，却没发现屏幕后面的证据正在一条条累积。" }
+    },
     title: { en: "Judgment from a Wheelchair", zh: "轮椅上的审判" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -198,6 +219,13 @@ window.STORY_ARCHIVE = [
     slug: "a-fathers-final-dignity",
     fileNo: "A-005",
     cover: "assets/covers/A-005-a-fathers-final-dignity.webp",
+    published: "2026-07-20",
+    modified: "2026-07-22",
+    isNew: false,
+    share: {
+      title: { en: "Outside His Hospital Room, a Hidden Clause Changed Everything", zh: "病房门外，一条隐藏条款改变了一切" },
+      description: { en: "While Layla fought to save her father, someone else moved to take his company. A sealed file in the corridor stopped the plan.", zh: "蕾拉为抢救父亲奔走时，有人正准备夺走他的公司；走廊里的一份密封文件阻止了这场计划。" }
+    },
     title: { en: "A Father’s Final Dignity", zh: "亲爹最后的尊严" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -269,6 +297,13 @@ window.STORY_ARCHIVE = [
     slug: "the-last-watchman",
     fileNo: "A-002",
     cover: "assets/covers/A-002-the-last-watchman.webp",
+    published: "2026-07-20",
+    modified: "2026-07-22",
+    isNew: false,
+    share: {
+      title: { en: "They Mocked the Old Man in the Rain—Then They Saw His Medal", zh: "他们在雨中嘲弄老人，直到看见他手里的勋章" },
+      description: { en: "A confused old man became someone’s street entertainment. The medal in his hand told a story no one expected.", zh: "一位神志不清的老人被当成街头笑料，而他手里的勋章揭开了一段无人预料的往事。" }
+    },
     title: { en: "The Last Watchman", zh: "最后的守夜人" },
     category: { en: "Justice & Reckoning", zh: "正义审判" },
     summary: {
@@ -334,6 +369,13 @@ window.STORY_ARCHIVE = [
     slug: "the-logic-of-a-beast-in-the-mire",
     fileNo: "A-006",
     cover: "assets/covers/A-006-carter-estate.webp",
+    published: "2026-07-20",
+    modified: "2026-07-22",
+    isNew: false,
+    share: {
+      title: { en: "The Quiet Guest at the Gala Was There to End an Empire", zh: "酒会上那位安静的客人，是来终结一个商业帝国的" },
+      description: { en: "The tycoon humiliated Marcus before the entire room. Then the quiet guest raised his credentials and the doors opened behind him.", zh: "富豪当众羞辱马库斯，随后这位安静的客人举起证件，身后的大门同时打开。" }
+    },
     title: { en: "The Reckoning at Carter Estate", zh: "庄园里的审判" },
     category: { en: "Corporate Justice", zh: "职场正义" },
     summary: {
@@ -399,6 +441,13 @@ window.STORY_ARCHIVE = [
     slug: "the-viper-in-the-nest",
     fileNo: "A-007",
     cover: "assets/covers/A-007-the-viper-in-the-nest.webp",
+    published: "2026-07-20",
+    modified: "2026-07-22",
+    isNew: false,
+    share: {
+      title: { en: "She Saved Every Message—Until They Came for Her Home", zh: "她保存了每一条消息，直到他们来夺她的家" },
+      description: { en: "Inside her own house, a pregnant woman watched a secret life take shape. She stayed quiet only long enough to secure the proof.", zh: "怀孕的她看着一段秘密关系在自己家里成形；她保持沉默，只为把证据完整保存下来。" }
+    },
     title: { en: "The Viper in the Nest", zh: "温床上的毒蛇" },
     category: { en: "Family Betrayal", zh: "家庭背叛" },
     summary: {
@@ -472,6 +521,13 @@ window.STORY_ARCHIVE = [
     slug: "the-tattered-toy-in-the-rain",
     fileNo: "A-008",
     cover: "assets/covers/A-008-the-tattered-toy-in-the-rain.webp",
+    published: "2026-07-22",
+    modified: "2026-07-22",
+    isNew: true,
+    share: {
+      title: { en: "A Torn Teddy Bear in the Rain Led a Family to the Truth", zh: "雨里的一只破旧玩偶，把一个家庭带到了真相面前" },
+      description: { en: "A ten-year-old girl waited outside in the storm while a birthday glowed behind the glass. One geotagged post finally led her family to the door.", zh: "十岁女孩在暴雨中守着一只旧玩偶，玻璃窗内却正在庆祝生日；一条定位动态终于把家人带到门前。" }
+    },
     title: { en: "The Tattered Toy in the Rain", zh: "雨夜里的破烂玩偶" },
     category: { en: "Lost & Found", zh: "失而复得" },
     summary: {
