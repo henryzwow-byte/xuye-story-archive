@@ -725,7 +725,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-009-she-saw-every-secret.webp",
     "published": "2026-07-23",
     "modified": "2026-07-23",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "They Framed the Deaf Cleaner—Then She Raised One Tablet",
@@ -864,6 +864,112 @@ window.STORY_ARCHIVE = [
         "今天下午，我给一批新入职的员工进行培训。课程结束时，一名年轻的客房服务员在纸条上写下一个问题，递给我：“莉娜协调员，那天面对那么多人的指责，您为什么一点都不害怕？”",
         "我看着那张纸，拿起记号笔，在白板上写下最后一句话：",
         "“沉默从来不是认罪。真正让谎言崩塌的，从来不是更大的声音，而是那些被认真保存下来的事实。”"
+      ]
+    }
+  },
+  {
+    "slug": "the-boy-who-saved-the-billionaires-son",
+    "fileNo": "A-010",
+    "cover": "assets/covers/A-010-the-boy-who-saved-the-billionaires-son.webp",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Doctors Declared the Baby Dead—Then a Homeless Boy Touched His Heart",
+        "zh": "医生已经宣布婴儿死亡，直到流浪男孩把手放在他的心口"
+      },
+      "description": {
+        "en": "Ethan came only to return a billionaire’s wallet. One impossible heartbeat exposed the photograph—and the family secret—hidden inside it.",
+        "zh": "伊桑只是来归还首富的钱包；一次不可能出现的心跳，却让钱包里的照片和一个家族秘密同时曝光。"
+      }
+    },
+    "title": {
+      "en": "The Homeless Boy Who Saved the Billionaire’s Only Son",
+      "zh": "那个救了首富独子命的乞丐男孩"
+    },
+    "category": {
+      "en": "Family Betrayal",
+      "zh": "家庭背叛"
+    },
+    "summary": {
+      "en": "A ten-year-old homeless boy returns a billionaire’s lost wallet and revives the man’s infant son—only to expose a secret medical program that destroyed his own mother.",
+      "zh": "十岁流浪男孩为归还首富遗失的钱包闯入医院，并救活了首富的独子；这个奇迹也揭开了一个曾毁掉他母亲的秘密医学计划。"
+    },
+    "warning": {
+      "en": "Fiction with supernatural elements. Contains an infant medical crisis, child homelessness, blood, coercive medical experimentation and family trauma.",
+      "zh": "含超自然元素的虚构故事。包含婴儿病危、儿童流浪、流血、强迫医学实验与家庭创伤情节。"
+    },
+    "tone": "gold",
+    "glyph": "TH",
+    "content": {
+      "en": [
+        "## Chapter One: A Heartbeat Stolen Back from Death",
+        "The baby had already been declared dead. In the highest-level pediatric VIP room at Carter Hospital, the line on the cardiac monitor had become perfectly flat. Cold. Silent. No pulse. No breath. No cry. Only the low, hopeless hum of life-support machines remained, as though they were saying goodbye to a life that had barely begun. Eight of the country’s finest pediatric specialists surrounded the bed. No one spoke. No one dared meet another’s eyes. Their faces carried the pain doctors wear when modern medicine has exhausted every answer and failure must be accepted.",
+        "Noah Carter lay on the spotless white bed. He was only eight months old, his tiny body wrapped in a blanket so clean it was almost glaring. His face was unnaturally peaceful—the heartbreaking stillness no infant should possess. Beside the bed, William Carter gripped the metal rail until his knuckles whitened. He was one of the most powerful men in the city, perhaps in the entire country: owner of countless companies, controller of a vast charitable foundation, a man whose signature could buy a skyscraper, fund a medical system or shake a financial market.",
+        "But before this motionless child, William was nothing. He had no power. He was no longer untouchable, no longer the billionaire who could command the world. He was only a desperate father watching his entire world collapse. “Time of death...” an elderly specialist whispered, his voice trembling, but he could not finish the sentence. William did not cry, rage or strike the wall. He only stared at Noah, as if one blink would allow the terrible truth to swallow him whole.",
+        "William’s wife, Celeste Carter, sat quietly against the wall. She still carried the polished grace of a society matron. Her face was pale, but her makeup remained perfect and not a strand of hair was out of place. Her hands were folded in her lap, her eyes fixed on the bed. Everyone in the room pitied William’s grief. Yet when Ethan Reed appeared in the doorway like a ghost, he alone noticed what was wrong: Celeste shed no tears. Her body did not tremble. She did not clutch her chest like a mother shattered by despair. There was nothing.",
+        "Ethan should never have been there. He was ten, painfully thin and smaller than other children his age. Rain had plastered his hair to his forehead. His clothes were muddy and carried the smell of the streets. Holes had worn through the toes of his shoes. He clutched a battered woven sack filled with the empty bottles he had collected that morning—his only hope of earning food. Inside his torn jacket was a black leather wallet. It belonged to William Carter.",
+        "Hours earlier, Ethan had found it on a rain-soaked street where a black car had sped away. It held thick stacks of cards, important identity documents and more cash than he had ever seen in his life. He thought of his grandfather Walter’s terrible nighttime coughing, their empty rice jar, and the roof that leaked whenever it rained. The money could buy food, medicine and new shoes. It might even pay months of overdue rent. But then he heard Walter’s voice in his mind: “Ethan, no matter how hungry you are, what belongs to someone else is never yours.”",
+        "So Ethan had walked through the rain to the private hospital to return the wallet. He did not know how he reached the heavily guarded VIP floor. Like a wary alley cat, he slipped past the nurses’ desk, climbed a hidden emergency stairwell and crossed a corridor where no child collecting bottles was ever meant to appear. Then he saw the baby.",
+        "Ethan froze in the doorway. Something inside him tightened—not curiosity or fear, but a deep, painful pull, like an invisible cord dragging his heart toward the bed. He looked at the flat monitor and then at the child. “He hasn’t gone yet,” he said, softly but with startling clarity. A doctor whirled around. “What did you say?” Ethan stepped into the room. “I said he hasn’t gone yet.”",
+        "The room’s grief instantly turned into outrage and disbelief. A bodyguard appeared and seized Ethan by the arm. “How did this little beggar get in here?” someone shouted. “Get him out!” Ethan struggled. “Let me go! Listen to me!” But he did not look at the furious doctors or the threatening guard. His eyes stayed fixed on Noah, because he could feel him.",
+        "The sensation was very faint, like a spark buried at the bottom of dark water, like a door almost shut but still open by a single crack. The guard pulled harder. Ethan twisted free like an eel and threw himself toward the bed. “Don’t let him near the patient!” a nurse screamed as a doctor reached out to stop him. Too late. Ethan’s small, mud-stained hand had already pressed against the baby’s cold chest.",
+        "The room erupted. “Don’t touch him!” “Security!” “Pull him away!” Yet William Carter did not move. The expression on the ten-year-old’s face stopped him. It was not the arrogance of a prankster or the frenzy of a madman. It was fear—deep fear—mixed with a willingness to sacrifice that no child his age should have known.",
+        "Ethan closed his eyes, and Walter’s warning echoed again, harsher and heavier this time: “Never try to call back someone who has already left, unless you are prepared to pay the price.” Ethan had never been able to explain what he could do. When he was very young, he touched a fledgling that had fallen from a tree and died. The bird came alive and flew away, while Ethan burned with fever for two days and nearly died. Another time, when Walter was dangerously ill, Ethan held his hand through the night. By morning Walter’s fever was gone, but Ethan’s nose had bled across the floor.",
+        "Walter had told him that his mother, Marina, possessed a similar gift. Whenever Ethan asked more, his grandfather closed his mouth in pain. Now, facing Noah, Ethan felt that invisible door again. It was nearly closed. He leaned down to the infant’s tiny ear and whispered as if speaking to a soul: “Come back.”",
+        "Three seconds passed. Nothing happened. The monitor remained a dead line. The doctors stood frozen. Celeste slowly rose from her chair, her gaze cold. William held his breath. Then the miracle came. Noah’s little finger curled. The movement was tiny, almost nothing, but it happened. A nurse covered her mouth as tears spilled from her eyes. “My God...”",
+        "Beep. The monitor gave one clear electronic tone, then another. A faint ripple appeared on the screen, followed by a second. A fragile rhythm, weak but undeniably real—an impossible miracle. Noah gasped and released a thin, broken moan, as if every breath tore through him.",
+        "The entire room came back to life. Doctors rushed the bed. Nurses shouted instructions. Someone adjusted the tube; someone checked the pulse; someone began to sob. William stumbled backward, pale and shaking. His son was breathing. The infant pronounced dead only minutes earlier was alive.",
+        "Ethan stepped backward once, then again. The room spun and his vision blurred. Warmth ran beneath his nose. He touched it and saw blood slipping over his lip. His worn sack fell to the floor. William’s wallet dropped from his pocket, struck the ground and opened. An old photograph slid from a hidden compartment.",
+        "Still trembling, William bent to retrieve the wallet and photograph. The instant he saw the woman in the picture, his whole body locked. He no longer looked at Noah or at Ethan, who was close to collapsing. He stared at the young woman with dark hair and sorrowful eyes. A gentle smile touched her lips, the kind someone forces when trying to comfort another person. In a voice barely audible, William breathed a name: “Marina...”",
+        "Ethan lifted his head despite the dizziness. “You... knew my mother?” The room fell silent again—not with death, but with the weight of a terrible secret long buried. Celeste saw the photograph, and for the first time a crack appeared in her flawless composure. She did not look surprised. She looked deeply afraid.",
+        "William turned on the bloodied boy. “Your mother was Marina Reed?” Ethan bit his pale lip. “Yes.” William swallowed. “What is your name?” “Ethan. Ethan Reed.” The surname was a rusted key forced into a door that had been sealed for years. Celeste closed her eyes in pain, as if a monster buried underground had just awakened.",
+        "Before William could ask another question, a roar came from the corridor. “Ethan!” An old man forced open the door. He was drenched by rain and gasping for air, leaning on a battered cane. Yet the fury in his eyes could have burned a man to ash. “Grandpa,” Ethan called weakly. Walter Reed crossed the room and crushed the boy against his chest so tightly Ethan cried out.",
+        "Walter spun toward William. “Years ago, I warned your people—never, ever touch this child again!” William frowned in confusion. “Our people?” Then Walter saw Celeste. Rage and fear twisted together on his face. “You...” he growled. Celeste’s mouth curved by the smallest degree, forming a cold, chilling smile. “Hello, Walter. I always wondered how long you could keep him hidden.”",
+        "William looked from his wife to the furious old man and finally to Ethan’s blood-streaked face. “Will someone tell me what is happening?” Walter planted himself in front of Ethan like a wall. “Ask your good wife. Ask her what the Horizon Project really was.” The head of pediatrics went white at the name. William saw it. “What is the Horizon Project?”",
+        "At first, no one answered. Only Noah’s monitor beeped weakly and steadily, as if the miraculous revival had opened a gate far darker than death. Celeste drew a breath and recovered her calm. “It was only an early medical-research division of our group.” Walter gave a raw, hateful laugh. “Liar. It was a prison built with white walls.” Ethan looked at him, trembling. “Grandpa, what did it have to do with my mother?” Walter closed his eyes. For the first time, Ethan understood that the old man was not angry. He was in despair.",
+        "“Your mother had the gift too, Ethan.” The walls seemed to close around him. “Like me?” Walter nodded slowly. “Hers was weaker, but she could do it. She could draw pain out of small animals, and sometimes out of people. A feverish child would cool beneath her touch. An injured person’s convulsions would stop.” He looked at the dried blood beneath Ethan’s nose. “But every time she used it, a piece of her life was taken away.”",
+        "William wheeled on Celeste. “What did you do to her?” Walter answered first, his voice full of grief. “When Marina was seventeen, a doctor from the Carter Foundation found her. They promised protection, treatment and enough money to save our family. I was blind enough to believe them. They took her into the Horizon Project.” Celeste replied coldly, “She signed the consent form herself.” Walter struck the floor with his cane. “She was a terrified poor girl!” “She was a volunteer,” Celeste insisted. “She was a victim!” Walter roared.",
+        "Ethan stood motionless. His mother—the woman he knew only from an old photograph and fragments of Walter’s memories—was no longer merely a memory. She had been used like a tool, just as the people in the room were now looking at Ethan as if he were a newer, more perfect instrument.",
+        "“What happened to her?” William demanded, fear entering his voice. Walter stared at Celeste. “They forced her to use that gift again and again.” Celeste avoided William’s gaze. “After she gave birth to Ethan, her body failed.” “No!” Walter’s voice tore apart. “You did it. You vampires drained her life away.”",
+        "At that moment, the lights flickered once, then twice. A low electrical hum traveled through the walls. With a click, the door closed by itself—the sound of an electronic lock being forced from outside. Celeste stepped backward. This time, her fear was not directed at Ethan, but at something far worse.",
+        "Static cracked through the ceiling speaker. Then an old man’s voice filled the room: dry, calm and touched with a chilling amusement. “Celeste, the Reed family’s little stray has arrived, and you did not think to notify me?” William froze, the last color leaving his face. “Father...” Ethan stared at him. “Father?” William looked up at the speaker as though he had seen a ghost. “My father died years ago.”",
+        "The voice answered evenly: “Clinically speaking, I have died several times. But if you mean permanently, well... that day is still a long way off.” Walter pulled Ethan close like an old wolf guarding its cub. Celeste went so pale she seemed to forget to breathe. In that instant, Ethan understood: the monster who had destroyed his family and now wanted him was not in the room at all. He had been watching from the darkness the entire time."
+      ],
+      "zh": [
+        "## 第一章：从死神手里抢回来的心跳",
+        "婴儿已经被宣布死亡了。在卡特医院最高级别的儿科 VIP 病房里，心电监护仪上的线条已经成了一条毫无起伏的直线。冰冷。死寂。没有脉搏。没有呼吸。没有啼哭。只有几台生命维持仪器发出沉闷而绝望的运转声，仿佛在为这个幼小的生命做最后的告别。八位国内顶尖的儿科专家围在病床前。没有人说话。没有人敢看彼此的眼睛。他们的脸上都带着那种医生特有的、在现代医学彻底束手无策时，只能被迫接受失败的痛苦表情。",
+        "那张洁白的小床上，躺着诺亚·卡特。他才八个月大。小小的身体裹在一条干净得近乎刺眼的毯子里。他的小脸异常平静，平静得让人心碎——那不是一个婴儿该有的安详。病床旁，威廉·卡特双手死死抓着金属床栏，骨节泛白。他是这座城市，甚至是全国最有权势的男人之一。坐拥无数企业，掌控着庞大的慈善基金。他是一个只需要签个字，就能买下整栋摩天大楼、资助整个医疗系统，甚至让金融市场震荡的男人。",
+        "但此刻，在这个一动不动的婴儿面前，他什么也不是。他没有权势。他不再不可侵犯。他不是那个呼风唤雨的首富。他只是一个眼睁睁看着自己整个世界崩塌的、绝望的父亲。“宣告死亡时间……”一位老专家声音颤抖地低语。这句话没有说完，似乎连他自己都不敢将这个残酷的事实完全说出口。威廉没有哭，没有歇斯底里，也没有愤怒地砸墙。他只是死死盯着诺亚，仿佛只要他一眨眼，这个可怕的现实就会彻底吞噬他。",
+        "靠墙的地方，威廉的妻子塞莱丝特·卡特静静地坐在一张椅子上。她依然保持着豪门阔太的优雅。脸色苍白，但妆容精致，头发一丝不乱。她双手交叠放在腿上，目光同样锁定在病床上。病房里所有的人都在同情威廉的丧子之痛。但当伊桑·里德像个幽灵般出现在病房门口时，他是唯一一个察觉到异样的人。塞莱丝特没有流泪，一滴也没有。她的身体没有丝毫颤抖。她甚至没有像一个绝望的母亲那样痛苦地捂住胸口。什么都没有。",
+        "伊桑本不该出现在这里。他只有十岁，瘦小得可怜，看上去比同龄人小得多。他额前贴着被雨水打湿的头发，衣服上沾满了泥泞，散发着街头流浪儿特有的气息。他脚上的那双鞋，鞋头早就磨破了洞。他的手里紧紧攥着一个破旧的蛇皮袋，里面装着今天早上捡来的空瓶子，那是他换取食物的全部希望。而在他那件破旧夹克的口袋里，揣着一个黑色真皮钱包。那是威廉·卡特的钱包。",
+        "几个小时前，他在一条湿漉漉的街道上捡到了它，就在一辆黑色轿车飞速驶离的地方。钱包里有一叠厚厚的卡片、重要的身份文件，还有比伊桑这辈子见过的所有钱加起来还要多的现金。那一刻，他想到了爷爷沃尔特夜里那撕心裂肺的咳嗽声，想到了家里空空如也的米缸，想到了每次下雨都会漏水的屋顶。有了这些钱，他们就能买吃的、买药，他还能买一双新鞋，甚至能还清拖欠了几个月的房租。但是，爷爷的声音在他脑海中响起：“伊桑，无论多饿，别人的东西，永远不是你的。”",
+        "于是，他冒着雨一路走到了这家贵族医院，想要把钱包还给失主。他自己都不知道是怎么摸到这层戒备森严的 VIP 病房的。他像只警觉的野猫，避开了前台的护士，从隐蔽的安全通道爬了上来，穿过了一条本不该有捡破烂小孩出现的走廊。然后，他看到了那个婴儿。",
+        "伊桑僵在门口。他感觉到体内某种东西猛地紧绷起来。那不是好奇，也不是害怕。那是一种深沉而痛苦的拉扯感，就像一根看不见的线，死死地将他的心脏拽向那张病床。他看了看那条毫无波动的监护仪，又看了看那个婴儿。然后，他开口了，声音不大，却异常清晰：“他还没走。”一位医生猛地转过头：“你说什么？”伊桑向前迈了一步，走进病房：“我说，他还没走。”",
+        "病房里的气氛瞬间变了。不再只是死寂的悲伤，而是一种被冒犯的愤怒和荒谬。一名保镖不知从哪里冒出来，一把揪住伊桑的胳膊。“这小叫花子是怎么进来的！”“赶紧把他弄出去！”有人厉声呵斥。伊桑拼命挣扎：“放开我！你们听我说！”但伊桑没有看那些愤怒的医生，也没有看那个凶神恶煞的保镖。他的眼睛死死盯着诺亚。因为，他能感觉到他。",
+        "那种感觉非常微弱，就像是被深埋在黑暗水底的一点点微光，就像是一扇即将关上、却还留着一条细缝的门。保镖用力拖拽他。伊桑像一条泥鳅一样扭动身体，猛地挣脱了保镖的手，不顾一切地冲向病床。“别让他靠近病人！”一名护士尖叫起来。一位医生伸出手试图拦住他。但太迟了。伊桑那只沾满泥污的小手，已经按在了婴儿冰冷的心口上。",
+        "整个病房瞬间炸开了锅。“别碰他！”“保安！”“把他拉开！”但威廉·卡特却没有动。这个十岁男孩脸上的表情，让他愣住了。那不是恶作剧的狂妄，也不是疯子的癫狂。那是恐惧，深深的恐惧。但在那种恐惧之中，又夹杂着一种属于这个年纪的孩子绝不该有的、决绝的牺牲感。",
+        "伊桑闭上了眼睛。爷爷沃尔特的声音再次在脑海中回荡。这一次，声音更加严厉，更加沉重：“永远不要试图把已经离开的人叫回来，除非，你做好了付出代价的准备。”伊桑不知道该怎么解释他能做的事。他从来都无法解释。很小的时候，他曾经摸过一只从树上掉下来、已经摔死的幼鸟。那只鸟活了过来，重新飞上了天，而他却发了两天的高烧，差点死掉。还有一次，爷爷发了可怕的高烧，他紧紧握着爷爷的手，第二天一早爷爷退烧了，而伊桑却流了一地的鼻血。",
+        "爷爷告诉他，他的妈妈玛丽娜也有类似的能力。但每次伊桑想多问几句，爷爷都会痛苦地闭上嘴，不愿再说。现在，面对着诺亚，伊桑再次感觉到了那扇无形的门。它快要关上了，马上就要消失了。他俯下身，把嘴唇凑到婴儿小小的耳边，轻声呼唤，仿佛在对着灵魂低语：“回来。”",
+        "三秒钟过去了。什么也没发生。监护仪依然是一条死寂的直线。医生们僵在原地。塞莱丝特慢慢从椅子上站了起来，眼神冰冷。威廉甚至屏住了呼吸。然后，奇迹发生了。诺亚的小手指微微蜷缩了一下。那动作很小，微乎其微，但它真真切切地发生了。一名护士死死捂住嘴巴，眼泪夺眶而出：“我的上帝啊……”",
+        "“滴——”监护仪发出了一声清脆的电子音。只有一声。接着，又是一声。屏幕上出现了一道微弱的波纹，然后是第二道。一个微弱的节奏，脆弱，却又无比真实。一个不可能的奇迹。诺亚倒抽了一口气，发出了一声细若游丝、破碎的呻吟，仿佛每一次呼吸都在撕裂他。",
+        "整个病房瞬间复活了。医生们疯狂地扑向病床。护士们大声呼喊着指令。有人在调整插管，有人在检查脉搏，有人激动得大哭起来。威廉·卡特猛地倒退了一步。他脸色苍白，浑身颤抖。他的儿子在呼吸。那个几分钟前刚刚被宣告死亡的婴儿，活了。",
+        "伊桑也往后退了一步，接着是第二步。他感觉整个病房都在旋转，视线开始模糊。他觉得鼻子下面一阵温热，下意识地伸手摸了摸。是血。一道鲜红的血迹顺着他的嘴唇滑落。他手里的破麻袋掉在了地上。一直揣在口袋里的威廉的钱包也掉了出来，摔在地上，散开了。一张旧照片从钱包夹层里滑落。",
+        "威廉依然在颤抖。他弯下腰，捡起了钱包和那张照片。当他看清照片的那一瞬间，整个身体像被冻住了一样。他没有看刚被救活的诺亚，也没有看摇摇欲坠的伊桑。他死死盯着照片上的女人。那是一个有着深色头发、眼神忧郁的年轻女人。她嘴角挂着一抹温柔的微笑，那种微笑，像是为了安慰某人而强挤出来的。威廉用一种几乎听不见的声音，颤抖着念出了一个名字：“玛丽娜……”",
+        "伊桑猛地抬起头，虽然头晕目眩，但他还是听清了：“你……认识我妈妈？”病房再次陷入了死寂。但这一次，这死寂不属于死亡。它属于一个被深埋的、可怕的秘密。塞莱丝特看到了那张照片。她那张完美无瑕、始终保持优雅的脸庞，第一次出现了裂痕。她看起来并不惊讶。她看起来，是深深的恐惧。",
+        "威廉转过头，死死盯着那个流着鼻血的流浪男孩：“你妈妈……是玛丽娜·里德？”伊桑咬紧发白的嘴唇：“是。”威廉艰难地咽了一口唾沫：“你叫什么名字？”“伊桑。伊桑·里德。”“里德”这个姓氏，就像一把生锈的钥匙，强行插入了这间病房里那道被封锁多年的暗门。塞莱丝特痛苦地闭上了眼睛，仿佛有什么在地下埋藏多年的怪物刚刚苏醒。",
+        "还没等威廉开口追问，走廊里突然传来一声怒吼：“伊桑！”一个老人强行撞开病房的门，闯了进来。他浑身被雨水浇透，大口大口喘着粗气，拄着一根破旧的拐杖。但那双眼睛里燃烧的怒火，却是一种能把人烧成灰烬的力量。“爷爷！”伊桑虚弱地喊了一声。沃尔特·里德穿过病房，一把将伊桑紧紧抱在怀里，力气大得让伊桑忍不住痛呼。",
+        "老人猛地转过身，死死盯着威廉·卡特：“很多年前，我就警告过你们的人！永远、永远不要再碰这个孩子！”威廉皱起眉头，满脸困惑：“我们的人？”沃尔特看到了塞莱丝特。他脸上的表情瞬间扭曲，愤怒和恐惧同时交织。“是你……”老人咬牙切齿地低吼。塞莱丝特的嘴角扯出一抹极度微小的弧度，一个冰冷的、令人毛骨悚然的微笑。“你好啊，沃尔特。我一直很好奇，你到底能把他藏多久。”",
+        "威廉看了看自己的妻子，又看了看那个愤怒的老人，最后把目光落在满脸是血的伊桑身上。“谁能告诉我，这到底是怎么回事？”威廉的声音冷若冰霜。沃尔特像一堵墙一样，死死挡在伊桑面前：“问问你的好妻子吧，问问她那个‘地平线计划’到底是什么！”站在病床旁的儿科主任听到这个名字，脸色瞬间变得煞白。威廉注意到了医生的反应：“什么是‘地平线计划’？”",
+        "一开始，没有人回答。只有诺亚的监护仪发出微弱而规律的“滴、滴”声。这声音在病房里回荡，仿佛在提醒所有人：这场奇迹般的复活，打开了一扇比死亡还要黑暗得多的地狱之门。塞莱丝特深吸了一口气，恢复了往日的冷静：“那只是我们集团早期的一个医学研究部门。”沃尔特发出一声凄厉而充满恨意的冷笑：“放屁！那是一个用白墙砌成的地狱牢笼！”伊桑抬头看着爷爷，声音颤抖：“爷爷，这跟我妈妈有什么关系？”沃尔特痛苦地闭上了眼睛。伊桑第一次发现，爷爷此刻不是在愤怒。他是在绝望。",
+        "“你妈妈，也拥有这种天赋，伊桑。”伊桑感觉病房的墙壁正在向他挤压过来：“像我一样？”沃尔特点了点头，动作迟缓：“她比你弱一些。但她能做到。她能吸收小动物的痛苦，有时候也能吸收人的。只要她碰一下发烧的孩子，孩子就会退烧。受伤的人也会停止抽搐。”他看了一眼伊桑鼻子下面干涸的血迹，“但是，每一次她这么做，她生命的一部分就会被抽走。”",
+        "威廉猛地转头盯着塞莱丝特：“你们对她做了什么？！”沃尔特抢先回答了，声音里满是血泪：“玛丽娜十七岁的时候，卡特基金会的一个医生找到了她。他们许诺给她保护，给她治疗，给我们家一大笔钱。我真是瞎了眼，我竟然相信了他们！他们把她带进了‘地平线计划’。”塞莱丝特冷冷地辩解：“是她自己签了同意书的。”沃尔特愤怒地用拐杖猛敲地面：“她只是一个被吓坏的穷女孩！”“她是个志愿者。”塞莱丝特依然冷酷。“她是个受害者！”沃尔特怒吼。",
+        "伊桑呆立在原地，无法动弹。他的妈妈，那个他只能通过一张旧照片和爷爷零星的回忆去拼凑的女人，现在不再仅仅是一个回忆了。她曾被当成工具一样利用。就像现在，他们看着他，就像看着一件更完美的工具。",
+        "“她到底怎么了？”威廉追问，声音里带着一丝恐惧。沃尔特死死盯着塞莱丝特：“他们逼她一次又一次地使用那种天赋。”塞莱丝特避开了威廉的目光：“她生下伊桑后，身体机能衰竭了。”“不！”沃尔特的声音仿佛被撕裂了，“是你们！是你们这群吸血鬼，把她活活抽干了！”",
+        "就在这时，病房里的灯光突然闪烁了一下，一下，又一下。墙壁里传来一阵低沉的电流嗡嗡声。“咔哒”一声，病房的门自动关上了。那是电子锁从外面被强制锁死的声音。塞莱丝特猛地后退一步。这一次，她脸上的恐惧不再是对着伊桑，而是对着某个更可怕的存在。",
+        "病房天花板上的广播扬声器发出一阵刺耳的电流声。紧接着，一个苍老男人的声音在整个病房里回荡。干瘪，平静，甚至带着一丝令人毛骨悚然的戏谑：“塞莱丝特，里德家的那个小崽子来了，你居然不通知我？”威廉僵住了，脸上最后一丝血色也褪去了：“父亲……”伊桑茫然地看着威廉：“父亲？”威廉仰起头，死死盯着扬声器，仿佛看到了鬼魂：“我父亲……早就死了。”",
+        "那个声音平静地回应：“从临床医学上来说，我确实死过几次。但要说永久地咽气，呵呵，还早得很呢。”沃尔特将伊桑死死护在怀里，如同护崽的老狼。塞莱丝特脸色煞白，甚至忘记了呼吸。那一刻，伊桑明白了。那个毁了他家庭、现在又盯上他的恶魔，根本不在这个病房里。他一直都在暗处，注视着这一切。"
       ]
     }
   }
