@@ -1,29 +1,41 @@
 window.STORY_ARCHIVE = [
   {
-    slug: "the-broken-home",
-    fileNo: "A-001",
-    cover: "assets/covers/A-001-the-broken-home.webp",
-    published: "2026-07-20",
-    modified: "2026-07-22",
-    isNew: false,
-    share: {
-      title: { en: "They Asked Her to Sign at Dinner—Then She Opened the File", zh: "他们在家宴上逼她签字，直到她打开那份档案" },
-      description: { en: "Hours after leaving the hospital, Eva walked into a family ambush. The documents in her hands changed every seat at the table.", zh: "刚离开医院，伊芙就走进一场家族围攻；她手里的文件，让整张餐桌的局势彻底逆转。" }
+    "slug": "the-broken-home",
+    "fileNo": "A-001",
+    "cover": "assets/covers/A-001-the-broken-home.webp",
+    "published": "2026-07-20",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "They Asked Her to Sign at Dinner—Then She Opened the File",
+        "zh": "他们在家宴上逼她签字，直到她打开那份档案"
+      },
+      "description": {
+        "en": "Hours after leaving the hospital, Eva walked into a family ambush. The documents in her hands changed every seat at the table.",
+        "zh": "刚离开医院，伊芙就走进一场家族围攻；她手里的文件，让整张餐桌的局势彻底逆转。"
+      }
     },
-    title: { en: "The Broken Home", zh: "家宴上的囚徒" },
-    category: { en: "Family Betrayal", zh: "家庭背叛" },
-    summary: {
-      en: "Hours after leaving the hospital, Eva is pressured to sign away her marriage at a family banquet—until she reveals the documents that can bring the entire dynasty down.",
-      zh: "刚离开医院的伊芙被带到家宴上逼迫离婚，直到她拿出足以让整个家族崩塌的文件。"
+    "title": {
+      "en": "The Broken Home",
+      "zh": "家宴上的囚徒"
     },
-    warning: {
-      en: "Fiction. Contains family conflict, coercion and medical distress.",
-      zh: "虚构故事。包含家庭冲突、胁迫与医疗困境。"
+    "category": {
+      "en": "Family Betrayal",
+      "zh": "家庭背叛"
     },
-    tone: "rust",
-    glyph: "BH",
-    content: {
-      en: [
+    "summary": {
+      "en": "Hours after leaving the hospital, Eva is pressured to sign away her marriage at a family banquet—until she reveals the documents that can bring the entire dynasty down.",
+      "zh": "刚离开医院的伊芙被带到家宴上逼迫离婚，直到她拿出足以让整个家族崩塌的文件。"
+    },
+    "warning": {
+      "en": "Fiction. Contains family conflict, coercion and medical distress.",
+      "zh": "虚构故事。包含家庭冲突、胁迫与医疗困境。"
+    },
+    "tone": "rust",
+    "glyph": "BH",
+    "content": {
+      "en": [
         "## Chapter One: The Banquet",
         "“Sign the divorce papers. After what happened at the hospital, you no longer have a place at our family’s table.”",
         "At the center of a lavish banquet attended by more than a hundred family members and executives, Eva’s mother-in-law placed a stamped hospital report in front of her. Eva had left the hospital only hours earlier and was still weak.",
@@ -51,7 +63,7 @@ window.STORY_ARCHIVE = [
         "Half an hour later, the court sealed the front gate. Thomas’s mother collapsed under the weight of the debt. Thomas lost the company, the house and every privilege he had taken for granted. Millions in personal liabilities would follow him for the rest of his life.",
         "— End —"
       ],
-      zh: [
+      "zh": [
         "## 第一章：家宴上的囚徒",
         "“把离婚协议签了。医院发生那件事以后，你已经不适合继续留在我们家的宴席上。”",
         "在上百名家族成员和公司高管齐聚的宴会上，婆婆把一份盖着红印的医院报告放到伊芙面前。伊芙刚离开医院几个小时，身体仍然十分虚弱。",
@@ -82,30 +94,126 @@ window.STORY_ARCHIVE = [
     }
   },
   {
-    slug: "cleaning-house",
-    fileNo: "A-003",
-    cover: "assets/covers/A-003-cleaning-house.webp",
-    published: "2026-07-20",
-    modified: "2026-07-22",
-    isNew: false,
-    share: {
-      title: { en: "The Heir They Erased Returned With the Ledger", zh: "被家族抹去的继承人，带着账本回来了" },
-      description: { en: "They thought three years of silence meant surrender. Then the missing heir opened the ledger that recorded everything.", zh: "他们以为三年的沉默等于认输，直到那位被排斥的继承人打开记录一切的账本。" }
+    "slug": "the-last-watchman",
+    "fileNo": "A-002",
+    "cover": "assets/covers/A-002-the-last-watchman.webp",
+    "published": "2026-07-20",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "They Mocked the Old Man in the Rain—Then They Saw His Medal",
+        "zh": "他们在雨中嘲弄老人，直到看见他手里的勋章"
+      },
+      "description": {
+        "en": "A confused old man became someone’s street entertainment. The medal in his hand told a story no one expected.",
+        "zh": "一位神志不清的老人被当成街头笑料，而他手里的勋章揭开了一段无人预料的往事。"
+      }
     },
-    title: { en: "Cleaning House", zh: "清理门户" },
-    category: { en: "Justice & Reckoning", zh: "正义审判" },
-    summary: {
-      en: "A young heir pushed to the edge of his own family waits three years to reveal the ledger that proves who stole his inheritance and dismantled his father’s company.",
-      zh: "一个被家族排斥的年轻继承人隐忍三年，终于拿出证明遗产被盗、父亲公司被侵吞的完整账目。"
+    "title": {
+      "en": "The Last Watchman",
+      "zh": "最后的守夜人"
     },
-    warning: {
-      en: "Fiction. Contains guardianship abuse, coercion and family conflict.",
-      zh: "虚构故事。包含监护权滥用、胁迫与家庭冲突。"
+    "category": {
+      "en": "Justice & Reckoning",
+      "zh": "正义审判"
     },
-    tone: "gold",
-    glyph: "CH",
-    content: {
-      en: [
+    "summary": {
+      "en": "A confused old man in a wheelchair is harassed for entertainment, but the medal in his hand carries the weight of a lifetime of public service.",
+      "zh": "一位坐在轮椅上的失智老人遭到街头骚扰，而他手中的勋章承载着一生的公共贡献。"
+    },
+    "warning": {
+      "en": "Fiction. Contains harassment and mistreatment of an older adult.",
+      "zh": "虚构故事。包含对老年人的骚扰与不当对待。"
+    },
+    "tone": "blue",
+    "glyph": "LW",
+    "content": {
+      "en": [
+        "## Chapter One: A Cruel Performance",
+        "No one would have guessed that the retired scientist sitting quietly in a wheelchair had once helped design one of the nation’s most important defense systems.",
+        "I watched a group of young men laugh as they blocked my path and filmed me. My wife was gone, and my only son had died while serving on a national project. On this unfamiliar street, no one knew who I was.",
+        "They moved my wheelchair away from the sidewalk, hid my lunch and mocked my confusion for a livestream. My coat was pulled open, but my hand never released the National Service Medal I carried as a reminder of an earlier life.",
+        "They uploaded the performance for clicks, treating my distress as entertainment.",
+        "They could not understand that the older man they dismissed had once spoken codes capable of placing the nation’s strategic shield on alert. Now I was trapped inside a confused body, trying to hold on to the memory of that life.",
+        "## Chapter Two: The Price of Crossing the Line",
+        "On Tuesday afternoon, their leader took my last hamburger and ordered the others to remove the old coat that still carried a classified identification plate.",
+        "A new neighbor, Mrs. Mary, saw everything. She called the police. “Please, some young men are harassing an older man. He seems confused and needs help. You have to come now.”",
+        "The first officers treated the incident as routine. Then an experienced sergeant pulled open my torn coat and saw the code engraved on the identity plate. One search of that number could place the entire federal security service on its highest alert.",
+        "## Chapter Three: The Reckoning",
+        "The sergeant’s face went white. He could barely speak as he called his superiors.",
+        "Less than ten minutes later, several official vehicles arrived and the officers secured the block.",
+        "The young men were still showing off their recordings when officers separated them from me. Then they watched a senior official stand before the dazed old man in the wheelchair and deliver a formal salute.",
+        "The commanding officer knelt beside me, straightened my collar and faced the group. “The man you humiliated devoted his life to public service. The freedom you enjoy depends on people whose names you may never know.”",
+        "## Chapter Four: The Last Dignity",
+        "The group was taken away for questioning, and the case was referred to the appropriate court. Their future would be decided through due process.",
+        "I was quietly returned to a secure medical center. Still lost inside fragments of memory, I pointed at the stars and told a guard, “We must calculate the angle correctly, or the Mars rover will miss its landing.”",
+        "Behind me, the general straightened his back and saluted once more.",
+        "Some lights do not fade with time. Those who stamp on the final ember may discover that the darkness remembers exactly who they are.",
+        "— End —"
+      ],
+      "zh": [
+        "## 第一章：残酷的表演",
+        "谁能想到，安静坐在轮椅上的退休科学家，曾参与设计国家重要的防御系统。",
+        "我看着几个年轻人挡住去路，举着手机取笑我。老伴已经离开，唯一的儿子也在国家项目中因公去世。在这条陌生街道上，没人知道我是谁。",
+        "他们把我的轮椅推离人行道，藏起午餐，还把我的困惑当作直播笑料。外套被拉开时，我仍紧握着那枚国家服务勋章，努力记住自己曾经的人生。",
+        "他们把这场表演发到社交媒体上博取点击，把一个老人的不安当成娱乐。",
+        "他们不会理解，被轻视的老人曾用一个代号让国家战略防线进入戒备。如今我被困在混乱的记忆里，只想守住过去留下的一点尊严。",
+        "## 第二章：越界的代价",
+        "周二下午，领头的年轻人拿走我仅剩的汉堡，又招呼同伴取下那件缝着绝密铭牌的旧外套。",
+        "新搬来的邻居玛丽太太看见了一切。她拨通报警电话：“那几个年轻人在骚扰一位老人。他看起来有些困惑，需要帮助。请你们马上过来。”",
+        "警察起初没有当回事，直到一名经验丰富的警长扯开旧外套，看见内侧刻着高密级代号的身份铭牌。那个编码一经查询，足以让整个联邦调查系统进入最高戒备。",
+        "## 第三章：迟来的制止",
+        "警长脸色惨白，立刻向上级紧急汇报。",
+        "不到十分钟，几辆公务车辆赶到，执法人员迅速控制现场。",
+        "几个年轻人还在展示偷拍视频，就被警员与我分开。他们看着一位只在新闻里出现过的高级官员走到轮椅前，郑重敬礼。",
+        "带队官员蹲在我身旁，替我理好衣领，再对年轻人说：“这位老人把一生献给了公共事业。你们享受的自由，来自许多从未留下姓名的人。”",
+        "## 第四章：最后的尊严",
+        "几名年轻人被带走接受调查，案件将依法交给法院处理。",
+        "我被秘密接回军事禁区内的特级疗养院，依旧糊涂地指着窗外星空对守卫说：“角度要算准，不然火星车落不下去。”",
+        "将军站在我身后，再次挺直脊梁向我敬礼。",
+        "世上总有一些光，不会因岁月流逝而暗淡。尊重他人，也是在守护我们共同生活的世界。",
+        "—— 全文完 ——"
+      ]
+    }
+  },
+  {
+    "slug": "cleaning-house",
+    "fileNo": "A-003",
+    "cover": "assets/covers/A-003-cleaning-house.webp",
+    "published": "2026-07-20",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Heir They Erased Returned With the Ledger",
+        "zh": "被家族抹去的继承人，带着账本回来了"
+      },
+      "description": {
+        "en": "They thought three years of silence meant surrender. Then the missing heir opened the ledger that recorded everything.",
+        "zh": "他们以为三年的沉默等于认输，直到那位被排斥的继承人打开记录一切的账本。"
+      }
+    },
+    "title": {
+      "en": "Cleaning House",
+      "zh": "清理门户"
+    },
+    "category": {
+      "en": "Justice & Reckoning",
+      "zh": "正义审判"
+    },
+    "summary": {
+      "en": "A young heir pushed to the edge of his own family waits three years to reveal the ledger that proves who stole his inheritance and dismantled his father’s company.",
+      "zh": "一个被家族排斥的年轻继承人隐忍三年，终于拿出证明遗产被盗、父亲公司被侵吞的完整账目。"
+    },
+    "warning": {
+      "en": "Fiction. Contains guardianship abuse, coercion and family conflict.",
+      "zh": "虚构故事。包含监护权滥用、胁迫与家庭冲突。"
+    },
+    "tone": "gold",
+    "glyph": "CH",
+    "content": {
+      "en": [
         "I stood beside the dining table while my uncle deliberately kept the final chair empty, making it clear that I was not welcome in my own family home.",
         "Above me, his family of three drank the wine my father had loved. Tonight it was their victory bottle, opened to celebrate removing me from my own inheritance.",
         "“Call me Dad,” my uncle said with a cold smile. “Do that and perhaps I will let you remain at this table. Your father is no longer here to protect your place.”",
@@ -123,7 +231,7 @@ window.STORY_ARCHIVE = [
         "Dignity does not need to be argued for. Once you become the author of the rules, everyone who stood on your head eventually begs you to move your foot.",
         "— End —"
       ],
-      zh: [
+      "zh": [
         "我站在餐桌旁，姑父故意让最后一把椅子空着，明摆着告诉所有人：在这个家里没有我的位置。",
         "餐桌上，他们一家三口正在享用红酒。那是父亲生前最爱的一款，如今却成了姑父庆祝把我踢出遗产继承权的庆功酒。",
         "“叫我一声爸。”姑父带着冷笑说，“你肯配合，我或许还能让你留在这张桌子旁。你父亲已经不在，没人能替你保住位置。”",
@@ -144,30 +252,42 @@ window.STORY_ARCHIVE = [
     }
   },
   {
-    slug: "judgment-from-a-wheelchair",
-    fileNo: "A-004",
-    cover: "assets/covers/A-004-judgment-from-a-wheelchair.webp",
-    published: "2026-07-20",
-    modified: "2026-07-22",
-    isNew: false,
-    share: {
-      title: { en: "He Stayed Silent in His Wheelchair—While Every Word Was Recorded", zh: "他坐在轮椅上沉默，而他们的每句话都被录了下来" },
-      description: { en: "His father and wife planned to steal the estate in front of him. They never noticed the evidence building behind the screen.", zh: "父亲和妻子当着他的面密谋侵吞遗产，却没发现屏幕后面的证据正在一条条累积。" }
+    "slug": "judgment-from-a-wheelchair",
+    "fileNo": "A-004",
+    "cover": "assets/covers/A-004-judgment-from-a-wheelchair.webp",
+    "published": "2026-07-20",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "He Stayed Silent in His Wheelchair—While Every Word Was Recorded",
+        "zh": "他坐在轮椅上沉默，而他们的每句话都被录了下来"
+      },
+      "description": {
+        "en": "His father and wife planned to steal the estate in front of him. They never noticed the evidence building behind the screen.",
+        "zh": "父亲和妻子当着他的面密谋侵吞遗产，却没发现屏幕后面的证据正在一条条累积。"
+      }
     },
-    title: { en: "Judgment from a Wheelchair", zh: "轮椅上的审判" },
-    category: { en: "Family Betrayal", zh: "家庭背叛" },
-    summary: {
-      en: "A disabled heir watches his father and wife plan to steal his mother’s estate, unaware that every word has already been recorded.",
-      zh: "一名残障继承人看着父亲与妻子密谋侵吞母亲的遗产，而他们不知道每一句话都已被录下。"
+    "title": {
+      "en": "Judgment from a Wheelchair",
+      "zh": "轮椅上的审判"
     },
-    warning: {
-      en: "Fiction. Contains family betrayal, coercion and financial abuse.",
-      zh: "虚构故事。包含家庭背叛、胁迫与财产侵害情节。"
+    "category": {
+      "en": "Family Betrayal",
+      "zh": "家庭背叛"
     },
-    tone: "violet",
-    glyph: "JW",
-    content: {
-      en: [
+    "summary": {
+      "en": "A disabled heir watches his father and wife plan to steal his mother’s estate, unaware that every word has already been recorded.",
+      "zh": "一名残障继承人看着父亲与妻子密谋侵吞母亲的遗产，而他们不知道每一句话都已被录下。"
+    },
+    "warning": {
+      "en": "Fiction. Contains family betrayal, coercion and financial abuse.",
+      "zh": "虚构故事。包含家庭背叛、胁迫与财产侵害情节。"
+    },
+    "tone": "violet",
+    "glyph": "JW",
+    "content": {
+      "en": [
         "## Chapter One: The Man in the Wheelchair",
         "I sat in my wheelchair and listened as my wife praised my father’s latest business plan. Their sudden alliance told me that I had become the obstacle they intended to remove.",
         "After my mother died, the family rotted from its roots. Because I could barely walk, no one treated me as if I mattered. What they did not know was that the entire estate had been my mother’s private property and had been left to me. My father believed he was merely holding it temporarily.",
@@ -190,7 +310,7 @@ window.STORY_ARCHIVE = [
         "Dignity is not a gift from someone else. Sometimes it returns only when the people who tried to destroy you finally face judgment.",
         "— End —"
       ],
-      zh: [
+      "zh": [
         "## 第一章：坐轮椅的看客",
         "我坐在轮椅上，听妻子称赞父亲最新的商业计划。他们突然变得亲密，让我明白：我已经成了他们想要排除的障碍。",
         "母亲过世后，这个家像烂了根的树。我连路都走不稳，家里没人把我当回事。其实这偌大的家产全是母亲生前留给我的私产，只是没有对外公开，父亲一直以为自己只是替我保管。",
@@ -216,30 +336,42 @@ window.STORY_ARCHIVE = [
     }
   },
   {
-    slug: "a-fathers-final-dignity",
-    fileNo: "A-005",
-    cover: "assets/covers/A-005-a-fathers-final-dignity.webp",
-    published: "2026-07-20",
-    modified: "2026-07-22",
-    isNew: false,
-    share: {
-      title: { en: "Outside His Hospital Room, a Hidden Clause Changed Everything", zh: "病房门外，一条隐藏条款改变了一切" },
-      description: { en: "While Layla fought to save her father, someone else moved to take his company. A sealed file in the corridor stopped the plan.", zh: "蕾拉为抢救父亲奔走时，有人正准备夺走他的公司；走廊里的一份密封文件阻止了这场计划。" }
+    "slug": "a-fathers-final-dignity",
+    "fileNo": "A-005",
+    "cover": "assets/covers/A-005-a-fathers-final-dignity.webp",
+    "published": "2026-07-20",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "Outside His Hospital Room, a Hidden Clause Changed Everything",
+        "zh": "病房门外，一条隐藏条款改变了一切"
+      },
+      "description": {
+        "en": "While Layla fought to save her father, someone else moved to take his company. A sealed file in the corridor stopped the plan.",
+        "zh": "蕾拉为抢救父亲奔走时，有人正准备夺走他的公司；走廊里的一份密封文件阻止了这场计划。"
+      }
     },
-    title: { en: "A Father’s Final Dignity", zh: "亲爹最后的尊严" },
-    category: { en: "Family Betrayal", zh: "家庭背叛" },
-    summary: {
-      en: "Layla begs doctors to save her father while her stepmother steals his company—until a secret trust clause turns the hospital corridor into a courtroom.",
-      zh: "蕾拉在医院哀求医生救父，后妈却趁机侵吞公司；一条秘密信托条款让病房走廊变成审判现场。"
+    "title": {
+      "en": "A Father’s Final Dignity",
+      "zh": "亲爹最后的尊严"
     },
-    warning: {
-      en: "Fiction. Contains medical coercion and attempted financial abuse.",
-      zh: "虚构故事。包含医疗胁迫与财产侵害情节。"
+    "category": {
+      "en": "Family Betrayal",
+      "zh": "家庭背叛"
     },
-    tone: "teal",
-    glyph: "FD",
-    content: {
-      en: [
+    "summary": {
+      "en": "Layla begs doctors to save her father while her stepmother steals his company—until a secret trust clause turns the hospital corridor into a courtroom.",
+      "zh": "蕾拉在医院哀求医生救父，后妈却趁机侵吞公司；一条秘密信托条款让病房走廊变成审判现场。"
+    },
+    "warning": {
+      "en": "Fiction. Contains medical coercion and attempted financial abuse.",
+      "zh": "虚构故事。包含医疗胁迫与财产侵害情节。"
+    },
+    "tone": "teal",
+    "glyph": "FD",
+    "content": {
+      "en": [
         "## Chapter One: The Calculation at His Bedside",
         "“Doctor, please reconnect my father’s ventilator. I will find the money today—I promise.”",
         "Beside a cold bench in the ICU corridor, Layla asked the physician to review the case. Before he could answer, her stepmother handed him a voluntary withdrawal-of-treatment form.",
@@ -265,7 +397,7 @@ window.STORY_ARCHIVE = [
         "Within half an hour, authorities restricted access to Anna’s disputed assets. The empire she had tried to seize was now subject to debt recovery and prosecution, all because of the records she had created herself.",
         "— End —"
       ],
-      zh: [
+      "zh": [
         "## 第一章：病床前的算计",
         "“医生，我求求你，把我爸爸的呼吸机接回去！医药费我今天一定会凑齐！”",
         "在ICU长廊冰冷的长椅旁，蕾拉请求值班医生重新审查父亲的情况。医生还没说话，后妈便递来一份自愿放弃治疗同意书。",
@@ -294,102 +426,42 @@ window.STORY_ARCHIVE = [
     }
   },
   {
-    slug: "the-last-watchman",
-    fileNo: "A-002",
-    cover: "assets/covers/A-002-the-last-watchman.webp",
-    published: "2026-07-20",
-    modified: "2026-07-22",
-    isNew: false,
-    share: {
-      title: { en: "They Mocked the Old Man in the Rain—Then They Saw His Medal", zh: "他们在雨中嘲弄老人，直到看见他手里的勋章" },
-      description: { en: "A confused old man became someone’s street entertainment. The medal in his hand told a story no one expected.", zh: "一位神志不清的老人被当成街头笑料，而他手里的勋章揭开了一段无人预料的往事。" }
+    "slug": "the-logic-of-a-beast-in-the-mire",
+    "fileNo": "A-006",
+    "cover": "assets/covers/A-006-carter-estate.webp",
+    "published": "2026-07-20",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Quiet Guest at the Gala Was There to End an Empire",
+        "zh": "酒会上那位安静的客人，是来终结一个商业帝国的"
+      },
+      "description": {
+        "en": "The tycoon humiliated Marcus before the entire room. Then the quiet guest raised his credentials and the doors opened behind him.",
+        "zh": "富豪当众羞辱马库斯，随后这位安静的客人举起证件，身后的大门同时打开。"
+      }
     },
-    title: { en: "The Last Watchman", zh: "最后的守夜人" },
-    category: { en: "Justice & Reckoning", zh: "正义审判" },
-    summary: {
-      en: "A confused old man in a wheelchair is harassed for entertainment, but the medal in his hand carries the weight of a lifetime of public service.",
-      zh: "一位坐在轮椅上的失智老人遭到街头骚扰，而他手中的勋章承载着一生的公共贡献。"
+    "title": {
+      "en": "The Reckoning at Carter Estate",
+      "zh": "庄园里的审判"
     },
-    warning: {
-      en: "Fiction. Contains harassment and mistreatment of an older adult.",
-      zh: "虚构故事。包含对老年人的骚扰与不当对待。"
+    "category": {
+      "en": "Corporate Justice",
+      "zh": "职场正义"
     },
-    tone: "blue",
-    glyph: "LW",
-    content: {
-      en: [
-        "## Chapter One: A Cruel Performance",
-        "No one would have guessed that the retired scientist sitting quietly in a wheelchair had once helped design one of the nation’s most important defense systems.",
-        "I watched a group of young men laugh as they blocked my path and filmed me. My wife was gone, and my only son had died while serving on a national project. On this unfamiliar street, no one knew who I was.",
-        "They moved my wheelchair away from the sidewalk, hid my lunch and mocked my confusion for a livestream. My coat was pulled open, but my hand never released the National Service Medal I carried as a reminder of an earlier life.",
-        "They uploaded the performance for clicks, treating my distress as entertainment.",
-        "They could not understand that the older man they dismissed had once spoken codes capable of placing the nation’s strategic shield on alert. Now I was trapped inside a confused body, trying to hold on to the memory of that life.",
-        "## Chapter Two: The Price of Crossing the Line",
-        "On Tuesday afternoon, their leader took my last hamburger and ordered the others to remove the old coat that still carried a classified identification plate.",
-        "A new neighbor, Mrs. Mary, saw everything. She called the police. “Please, some young men are harassing an older man. He seems confused and needs help. You have to come now.”",
-        "The first officers treated the incident as routine. Then an experienced sergeant pulled open my torn coat and saw the code engraved on the identity plate. One search of that number could place the entire federal security service on its highest alert.",
-        "## Chapter Three: The Reckoning",
-        "The sergeant’s face went white. He could barely speak as he called his superiors.",
-        "Less than ten minutes later, several official vehicles arrived and the officers secured the block.",
-        "The young men were still showing off their recordings when officers separated them from me. Then they watched a senior official stand before the dazed old man in the wheelchair and deliver a formal salute.",
-        "The commanding officer knelt beside me, straightened my collar and faced the group. “The man you humiliated devoted his life to public service. The freedom you enjoy depends on people whose names you may never know.”",
-        "## Chapter Four: The Last Dignity",
-        "The group was taken away for questioning, and the case was referred to the appropriate court. Their future would be decided through due process.",
-        "I was quietly returned to a secure medical center. Still lost inside fragments of memory, I pointed at the stars and told a guard, “We must calculate the angle correctly, or the Mars rover will miss its landing.”",
-        "Behind me, the general straightened his back and saluted once more.",
-        "Some lights do not fade with time. Those who stamp on the final ember may discover that the darkness remembers exactly who they are.",
-        "— End —"
-      ],
-      zh: [
-        "## 第一章：残酷的表演",
-        "谁能想到，安静坐在轮椅上的退休科学家，曾参与设计国家重要的防御系统。",
-        "我看着几个年轻人挡住去路，举着手机取笑我。老伴已经离开，唯一的儿子也在国家项目中因公去世。在这条陌生街道上，没人知道我是谁。",
-        "他们把我的轮椅推离人行道，藏起午餐，还把我的困惑当作直播笑料。外套被拉开时，我仍紧握着那枚国家服务勋章，努力记住自己曾经的人生。",
-        "他们把这场表演发到社交媒体上博取点击，把一个老人的不安当成娱乐。",
-        "他们不会理解，被轻视的老人曾用一个代号让国家战略防线进入戒备。如今我被困在混乱的记忆里，只想守住过去留下的一点尊严。",
-        "## 第二章：越界的代价",
-        "周二下午，领头的年轻人拿走我仅剩的汉堡，又招呼同伴取下那件缝着绝密铭牌的旧外套。",
-        "新搬来的邻居玛丽太太看见了一切。她拨通报警电话：“那几个年轻人在骚扰一位老人。他看起来有些困惑，需要帮助。请你们马上过来。”",
-        "警察起初没有当回事，直到一名经验丰富的警长扯开旧外套，看见内侧刻着高密级代号的身份铭牌。那个编码一经查询，足以让整个联邦调查系统进入最高戒备。",
-        "## 第三章：迟来的制止",
-        "警长脸色惨白，立刻向上级紧急汇报。",
-        "不到十分钟，几辆公务车辆赶到，执法人员迅速控制现场。",
-        "几个年轻人还在展示偷拍视频，就被警员与我分开。他们看着一位只在新闻里出现过的高级官员走到轮椅前，郑重敬礼。",
-        "带队官员蹲在我身旁，替我理好衣领，再对年轻人说：“这位老人把一生献给了公共事业。你们享受的自由，来自许多从未留下姓名的人。”",
-        "## 第四章：最后的尊严",
-        "几名年轻人被带走接受调查，案件将依法交给法院处理。",
-        "我被秘密接回军事禁区内的特级疗养院，依旧糊涂地指着窗外星空对守卫说：“角度要算准，不然火星车落不下去。”",
-        "将军站在我身后，再次挺直脊梁向我敬礼。",
-        "世上总有一些光，不会因岁月流逝而暗淡。尊重他人，也是在守护我们共同生活的世界。",
-        "—— 全文完 ——"
-      ]
-    }
-  },
-  {
-    slug: "the-logic-of-a-beast-in-the-mire",
-    fileNo: "A-006",
-    cover: "assets/covers/A-006-carter-estate.webp",
-    published: "2026-07-20",
-    modified: "2026-07-22",
-    isNew: false,
-    share: {
-      title: { en: "The Quiet Guest at the Gala Was There to End an Empire", zh: "酒会上那位安静的客人，是来终结一个商业帝国的" },
-      description: { en: "The tycoon humiliated Marcus before the entire room. Then the quiet guest raised his credentials and the doors opened behind him.", zh: "富豪当众羞辱马库斯，随后这位安静的客人举起证件，身后的大门同时打开。" }
+    "summary": {
+      "en": "A powerful tycoon publicly humiliates Marcus, unaware that the quiet guest is the investigator who has spent three years documenting his illegal empire.",
+      "zh": "一名强势富豪当众羞辱马库斯，却不知道这位安静的来宾正是调查其非法商业帝国三年的调查官。"
     },
-    title: { en: "The Reckoning at Carter Estate", zh: "庄园里的审判" },
-    category: { en: "Corporate Justice", zh: "职场正义" },
-    summary: {
-      en: "A powerful tycoon publicly humiliates Marcus, unaware that the quiet guest is the investigator who has spent three years documenting his illegal empire.",
-      zh: "一名强势富豪当众羞辱马库斯，却不知道这位安静的来宾正是调查其非法商业帝国三年的调查官。"
+    "warning": {
+      "en": "Fiction. Contains workplace discrimination, coercion and financial crime.",
+      "zh": "虚构故事。包含职场歧视、胁迫与金融犯罪情节。"
     },
-    warning: {
-      en: "Fiction. Contains workplace discrimination, coercion and financial crime.",
-      zh: "虚构故事。包含职场歧视、胁迫与金融犯罪情节。"
-    },
-    tone: "ink",
-    glyph: "MJ",
-    content: {
-      en: [
+    "tone": "ink",
+    "glyph": "MJ",
+    "content": {
+      "en": [
         "“Who allowed an ordinary contractor into my private reception?” Carter demanded as every guest turned toward Marcus.",
         "To Carter, humiliation was another way to display power. He ordered security to remove Marcus’s invitation and made him stand alone beside the champagne table while the guests watched.",
         "Carter waved a check. “Sign a statement saying the audit found nothing, and I may let your consulting company work in this city again. Refuse, and I will make sure no client hires you.”",
@@ -412,7 +484,7 @@ window.STORY_ARCHIVE = [
         "Dignity does not depend on wealth or status. It belongs to people who refuse to let intimidation define their place in the world.",
         "— End —"
       ],
-      zh: [
+      "zh": [
         "“谁允许一个普通承包商进入我的私人酒会？”卡特厉声质问，所有宾客都转头看向马库斯。",
         "在卡特眼里，公开羞辱只是展示权力的另一种方式。他命令保安收走马库斯的邀请函，让他独自站在香槟桌旁接受围观。",
         "卡特挥着支票说：“签一份审计没有发现问题的声明，我或许还能让你的咨询公司继续在这座城市营业。拒绝的话，我会让所有客户都远离你。”",
@@ -438,30 +510,42 @@ window.STORY_ARCHIVE = [
     }
   },
   {
-    slug: "the-viper-in-the-nest",
-    fileNo: "A-007",
-    cover: "assets/covers/A-007-the-viper-in-the-nest.webp",
-    published: "2026-07-20",
-    modified: "2026-07-22",
-    isNew: false,
-    share: {
-      title: { en: "She Saved Every Message—Until They Came for Her Home", zh: "她保存了每一条消息，直到他们来夺她的家" },
-      description: { en: "Inside her own house, a pregnant woman watched a secret life take shape. She stayed quiet only long enough to secure the proof.", zh: "怀孕的她看着一段秘密关系在自己家里成形；她保持沉默，只为把证据完整保存下来。" }
+    "slug": "the-viper-in-the-nest",
+    "fileNo": "A-007",
+    "cover": "assets/covers/A-007-the-viper-in-the-nest.webp",
+    "published": "2026-07-20",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "She Saved Every Message—Until They Came for Her Home",
+        "zh": "她保存了每一条消息，直到他们来夺她的家"
+      },
+      "description": {
+        "en": "Inside her own house, a pregnant woman watched a secret life take shape. She stayed quiet only long enough to secure the proof.",
+        "zh": "怀孕的她看着一段秘密关系在自己家里成形；她保持沉默，只为把证据完整保存下来。"
+      }
     },
-    title: { en: "The Viper in the Nest", zh: "温床上的毒蛇" },
-    category: { en: "Family Betrayal", zh: "家庭背叛" },
-    summary: {
-      en: "A pregnant woman watches her husband and sister build a secret life inside her home, quietly saving every message until the day they demand her property.",
-      zh: "一名孕妇看着丈夫和妹妹在自己家里构筑秘密关系，默默保存证据，等待他们逼她交出财产的那一天。"
+    "title": {
+      "en": "The Viper in the Nest",
+      "zh": "温床上的毒蛇"
     },
-    warning: {
-      en: "Fiction. Contains infidelity, coercion and financial abuse.",
-      zh: "虚构故事。包含婚内背叛、胁迫与财产侵害情节。"
+    "category": {
+      "en": "Family Betrayal",
+      "zh": "家庭背叛"
     },
-    tone: "green",
-    glyph: "VN",
-    content: {
-      en: [
+    "summary": {
+      "en": "A pregnant woman watches her husband and sister build a secret life inside her home, quietly saving every message until the day they demand her property.",
+      "zh": "一名孕妇看着丈夫和妹妹在自己家里构筑秘密关系，默默保存证据，等待他们逼她交出财产的那一天。"
+    },
+    "warning": {
+      "en": "Fiction. Contains infidelity, coercion and financial abuse.",
+      "zh": "虚构故事。包含婚内背叛、胁迫与财产侵害情节。"
+    },
+    "tone": "green",
+    "glyph": "VN",
+    "content": {
+      "en": [
         "## Chapter One: The Viper in the Nest",
         "Pregnancy made me sleep deeply. Every night after I drifted off, the man beside me rose quietly, crossed the hallway and opened my sister’s bedroom door.",
         "They believed their arrangement was invisible. At dinner, my sister peeled shrimp for me; in the bathroom, she showed my husband the curve of her own pregnant belly. Together they built a net inside my family. He moved assets while she prepared to take control after giving birth. Their final plan was to label me with postpartum depression, send me to a facility and throw me out of my own home.",
@@ -488,7 +572,7 @@ window.STORY_ARCHIVE = [
         "Dignity is not proved by birth or status. It is reclaimed when cruelty no longer controls the door to your own home.",
         "— End —"
       ],
-      zh: [
+      "zh": [
         "## 第一章：温床上的毒蛇",
         "我睡得很沉，因为这是怀孕后的常态。每晚在我睡着后，枕边的男人都会轻手轻脚起身，穿过走廊，推开妹妹房间的门。",
         "他们以为这场地下交易天衣无缝。餐桌上，妹妹会贴心地为我剥虾，转头却在洗手间向我丈夫炫耀她已经显怀的肚子。他们在我的家庭里编织捕网：丈夫转移资产，妹妹准备在生产后夺取家庭主权，最后再以产后抑郁为由将我送进疗养院。",
@@ -518,30 +602,42 @@ window.STORY_ARCHIVE = [
     }
   },
   {
-    slug: "the-tattered-toy-in-the-rain",
-    fileNo: "A-008",
-    cover: "assets/covers/A-008-the-tattered-toy-in-the-rain.webp",
-    published: "2026-07-22",
-    modified: "2026-07-22",
-    isNew: true,
-    share: {
-      title: { en: "A Torn Teddy Bear in the Rain Led a Family to the Truth", zh: "雨里的一只破旧玩偶，把一个家庭带到了真相面前" },
-      description: { en: "A ten-year-old girl waited outside in the storm while a birthday glowed behind the glass. One geotagged post finally led her family to the door.", zh: "十岁女孩在暴雨中守着一只旧玩偶，玻璃窗内却正在庆祝生日；一条定位动态终于把家人带到门前。" }
+    "slug": "the-tattered-toy-in-the-rain",
+    "fileNo": "A-008",
+    "cover": "assets/covers/A-008-the-tattered-toy-in-the-rain.webp",
+    "published": "2026-07-22",
+    "modified": "2026-07-22",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "A Torn Teddy Bear in the Rain Led a Family to the Truth",
+        "zh": "雨里的一只破旧玩偶，把一个家庭带到了真相面前"
+      },
+      "description": {
+        "en": "A ten-year-old girl waited outside in the storm while a birthday glowed behind the glass. One geotagged post finally led her family to the door.",
+        "zh": "十岁女孩在暴雨中守着一只旧玩偶，玻璃窗内却正在庆祝生日；一条定位动态终于把家人带到门前。"
+      }
     },
-    title: { en: "The Tattered Toy in the Rain", zh: "雨夜里的破烂玩偶" },
-    category: { en: "Lost & Found", zh: "失而复得" },
-    summary: {
-      en: "A ten-year-old girl shelters outside the restaurant where someone else is celebrating her birthday, until a geotagged post leads the family searching for her straight to the door.",
-      zh: "十岁女孩躲在一家餐厅外避雨，窗内却有人冒用她的生日庆祝；一条带定位的动态，让寻找她多日的家人终于来到门前。"
+    "title": {
+      "en": "The Tattered Toy in the Rain",
+      "zh": "雨夜里的破烂玩偶"
     },
-    warning: {
-      en: "Fiction. Contains child abandonment, bullying and family loss.",
-      zh: "虚构故事。包含儿童被遗弃、欺凌与亲人离世情节。"
+    "category": {
+      "en": "Lost & Found",
+      "zh": "失而复得"
     },
-    tone: "cream",
-    glyph: "RT",
-    content: {
-      en: [
+    "summary": {
+      "en": "A ten-year-old girl shelters outside the restaurant where someone else is celebrating her birthday, until a geotagged post leads the family searching for her straight to the door.",
+      "zh": "十岁女孩躲在一家餐厅外避雨，窗内却有人冒用她的生日庆祝；一条带定位的动态，让寻找她多日的家人终于来到门前。"
+    },
+    "warning": {
+      "en": "Fiction. Contains child abandonment, bullying and family loss.",
+      "zh": "虚构故事。包含儿童被遗弃、欺凌与亲人离世情节。"
+    },
+    "tone": "cream",
+    "glyph": "RT",
+    "content": {
+      "en": [
         "## Chapter One: A Birthday Taken Away",
         "Today was my tenth birthday, and the third day since my stepmother, Mary, had sent me away from home.",
         "Cold rain slipped through the holes in my plastic shoes. I held a worn teddy bear against my chest—the only keepsake my mother had left me.",
@@ -581,7 +677,7 @@ window.STORY_ARCHIVE = [
         "Months later, I held the cleaned and repaired teddy bear beside a bright window. The rain had not erased my name. It had carried the final clue to the people who were looking for me.",
         "— End —"
       ],
-      zh: [
+      "zh": [
         "## 第一章：被拿走的生日",
         "今天是我十岁生日，也是继母玛丽让我离开家的第三天。",
         "冰冷雨水从塑料鞋的破洞里灌进来。我紧紧抱着一只旧毛绒熊——那是亲生母亲留给我的唯一纪念。",
@@ -620,6 +716,154 @@ window.STORY_ARCHIVE = [
         "外公没有要求我立刻忘记过去。他为我安排医疗照护和心理咨询，也给了我一个安静的房间，等我愿意主动开口。",
         "几个月后，我抱着清洗、缝补好的毛绒熊坐在明亮的窗边。那场雨没有冲走我的名字，反而把最后一条线索送到了寻找我的人手里。",
         "—— 全文完 ——"
+      ]
+    }
+  },
+  {
+    "slug": "she-saw-every-secret",
+    "fileNo": "A-009",
+    "cover": "assets/covers/A-009-she-saw-every-secret.webp",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "They Framed the Deaf Cleaner—Then She Raised One Tablet",
+        "zh": "他们栽赃失聪清洁工，直到她举起一块平板"
+      },
+      "description": {
+        "en": "A necklace appeared in Lena’s apron before five hundred wedding guests. The reflection in one glass wall exposed who put it there—and a missing $20 million.",
+        "zh": "五百名婚礼宾客面前，项链从莉娜的围裙里被搜出；玻璃墙上的一处倒影，却指向了栽赃者和失踪的两千万美元。"
+      }
+    },
+    "title": {
+      "en": "She Couldn’t Hear, Yet She Saw Every Secret",
+      "zh": "她听不见，却看见了所有秘密"
+    },
+    "category": {
+      "en": "Justice & Reckoning",
+      "zh": "正义与清算"
+    },
+    "summary": {
+      "en": "A deaf hotel cleaner is framed for theft at a wedding banquet. Reflections, access logs and payment records reveal that the planted necklace hides a far larger charity-fund conspiracy.",
+      "zh": "一名失聪的酒店清洁工在婚礼晚宴上被栽赃偷窃；玻璃倒影、门禁与付款记录，揭开了假项链背后更大的慈善资金侵吞阴谋。"
+    },
+    "warning": {
+      "en": "Fiction. Contains false accusation, financial fraud, ableist humiliation and arrest.",
+      "zh": "虚构故事。包含栽赃指控、金融诈骗、针对残障人士的羞辱与逮捕情节。"
+    },
+    "tone": "blue",
+    "glyph": "SC",
+    "content": {
+      "en": [
+        "## Chapter One: The Thief at the Wedding",
+        "When the diamond necklace was pulled from the deepest pocket of my apron, all five hundred guests in the ballroom turned to look at me.",
+        "I could not hear their gasps or curses. But I understood what every face was saying—thief.",
+        "It was the charity banquet held before Emily’s wedding vows. Her family foundation was supposed to announce a public grant of twenty million dollars for medical programs serving children with disabilities. My name is Lena, and I was only an ordinary room attendant at this five-star hotel. Now two security officers stood on either side of me, gripping my wrists.",
+        "Emily’s brother, Marcus, stood in front of me. He ran the foundation’s daily operations and was also a charity influencer with more than two million followers. His greatest talent was presenting himself on camera as the embodiment of kindness and justice. Now he held the family heirloom—supposedly worth three million dollars—in his right hand and a livestreaming phone in his left. The lens was almost pressed against my face.",
+        "“This is truly heartbreaking,” I read from his lips. “We gave this disabled employee a respectable job, but poverty clouded her judgment. She abused her position and tried to steal my sister’s dowry.”",
+        "The hotel manager stood nearby, repeatedly bowing and apologizing to Emily’s family. He neither stopped Marcus’s livestream nor arranged written communication for me. He simply treated me as guilty. Emily looked at me. Doubt flickered in her eyes, but she finally turned away and chose to believe her brother.",
+        "Marcus brought the phone even closer. In his script, I was the perfect scapegoat: a low-level employee who could not hear and could not immediately defend herself in fluent speech. “You cannot even manage a complete apology, can you?” His mouth curled into a cruel smile.",
+        "I did not struggle or cry. I looked at the head of security and made the gesture for writing. After a moment’s hesitation, he told the officer beside me to release my right hand.",
+        "I took my work tablet from my uniform pocket, typed one sentence, and held it high enough for Marcus and the ballroom screens to see: [Open the behind-the-scenes video you posted five minutes ago. Enlarge the glass wall in the upper-right corner.]",
+        "## Chapter Two: A Theory Tested",
+        "Marcus froze for an instant, then laughed with contempt. He refused.",
+        "But he had forgotten that comments from his livestream were being displayed on the ballroom screens. Among the three hundred thousand viewers, people had already followed my instruction and reopened the clip he posted five minutes earlier. Within seconds, the comments filled with the same demand: “Look at the glass.” “Zoom in on the upper right.”",
+        "Emily shot to her feet. Gathering her wedding dress, she went to the control desk and picked up a microphone. “Put up the video my brother just posted,” she said, glancing at my tablet. “Enlarge the glass wall.”",
+        "Marcus reached out to stop them, but it was too late. The video filled the screens, and the floor-to-ceiling glass in its upper-right corner was magnified again and again. In the reflection, I had my back to the cart as I bent to arrange towels on the lowest shelf. Marcus stood just beyond the camera’s direct view. The next second, he took a necklace from inside his jacket and slipped it into the apron pocket hanging from the side of my cart. The whole movement lasted less than two seconds. There was no misunderstanding and no trick of the angle. He had planted it himself.",
+        "Emily walked to Marcus, took the necklace from his rigid hand, and opened the clasp. “The real heirloom has our family crest and an individual serial number engraved inside the lock.” She turned the clasp toward the screen. There was nothing there. “You prepared a fake necklace and chose the person you would frame in advance.”",
+        "Marcus tried to operate his phone and delete the clip, but the comments were already announcing that viewers had saved recordings.",
+        "My suspected jewelry theft had been disproved, but this was not over. I quickly typed two more lines on the tablet: [The fake necklace was not the only thing you placed near me.] [A few minutes ago, the hotel manager touched my cart while he was alone.]",
+        "I pointed to the service-corridor camera and typed: [Check the footage.]",
+        "The head of security looked up sharply. At the control desk, he retrieved the service-corridor recording. The screen clearly showed the hotel manager approaching my cart alone at 2:31 p.m. He looked around, pulled open the bottom drawer and hid a black object beneath a stack of trash bags.",
+        "The hotel manager’s face drained of color. Wearing gloves, the head of security opened the drawer of the cart still parked at the scene. Beneath unused trash bags, he found a black electronic token.",
+        "Richard, the foundation’s finance director, had been standing behind Marcus. The moment he saw the token, he looked away.",
+        "A middle-aged man in a gray suit stepped out from the back of the crowd. He asked the security chief to seal the token in a transparent evidence bag, then checked its serial number. “This is the spare payment token registered for use in tonight’s temporary finance office,” he said. “Under the foundation’s security policy, it should be locked in the finance safe—not inside Lena’s cart.”",
+        "The man was an independent legal auditor retained by the foundation’s board to verify the twenty-million-dollar charitable grant.",
+        "## Chapter Three: One Approval, One Confirmation",
+        "“That still does not prove that any irregular payment occurred in the finance office,” Richard said at last. He stared at me, trying to remain composed.",
+        "I removed a small encrypted device bearing the hotel emblem from my collar. It was a work recorder issued by the compliance department. Employees had to wear one when cleaning restricted areas. Its recordings were encrypted; employees could not edit them, and only the head of security could extract the files.",
+        "The recording from 2:15 to 2:20 p.m. appeared on the screen. I was cleaning the temporary finance office. The computer showed several supplier payments awaiting confirmation, all payable to the same company: Starlight Wedding Florals. The total was twenty million dollars. When I finished cleaning, left the room and locked the door at 2:20, every payment was still awaiting final confirmation.",
+        "The auditor took a red-flagged supplier review from his briefcase. “Starlight Wedding Florals was classified as a high-risk supplier last week.” He looked at Richard. “It was incorporated less than three months ago, conducts no real business, and is registered to an empty apartment owned by one of Mr. Richard’s relatives.”",
+        "Richard opened his mouth to object, but the auditor stopped him. “This afternoon, the company received several unusually divided transfers at the same time, triggering the bank’s fraud controls. The money was automatically suspended before final settlement.” He turned to the hotel’s security chief. “Please retrieve the original finance-office access log from after 2:20 p.m.”",
+        "After the security chief authenticated his identity, one entry appeared on the screen: 2:25 p.m.—Richard’s personal access card entered the temporary finance office.",
+        "The auditor then displayed two bank authorization logs. First: 2:23 p.m., Marcus approved the supplier payments using the executive director’s account. Second: 2:25 p.m., the spare payment token completed the second authorization and submitted the transfers for final settlement.",
+        "“One approval, one confirmation.” The auditor looked from Marcus to Richard. “The spare token is not tied to an individual name. After Lena was detained, you planned to alter the hotel’s access logs, use the manager’s false testimony and point to the token ‘found’ in her cart, assigning the second authorization entirely to her. Unfortunately for you, the bank preserved the first approval, and the hotel preserved the access record from the moment of the second authorization. No one can place this money on Lena.”",
+        "## Chapter Four: A Livestreamed Collapse",
+        "Richard no longer looked at me. His eyes went first to the hotel manager, then quickly to the side door leading toward the server room.",
+        "“This is not what you promised when you took the money!” he shouted, his mouth opening wide and the veins in his neck standing out.",
+        "Several guests stepped backward. The livestream captions on the large screen began transcribing every word: “Contact the server room now.” “Cut the power.” “Delete every access-log mirror and surveillance backup from tonight!”",
+        "The livestreaming phone was still in Marcus’s hand, less than two meters from Richard. The stream had never stopped, and the microphone was still recording.",
+        "The auditor glanced at the comments racing across the screen. “Thank you, Mr. Richard.” He straightened his papers. “The order you just gave has been preserved in full by the hotel’s broadcast system and the livestreaming platform. The many recordings made by viewers will make it impossible for you to pretend this never happened. And when the bank’s controls raised the alarm ten minutes ago, the foundation’s legal team contacted the financial-crimes unit. They are already on their way.”",
+        "The head of security immediately spoke into his radio. “Begin electronic-evidence preservation. Post officers at the server-room entrance. No one is to touch the servers or backup devices without written authorization from investigators.”",
+        "Marcus stared down at his phone as the viewer count kept climbing. He had intended to destroy me with this broadcast. Instead, it preserved footage of him planting the necklace and recorded his accomplice ordering the destruction of evidence. His fingers opened, and the phone fell onto the carpet. “Emily, let me explain...”",
+        "Emily removed her veil and did not move toward him. She turned to the guests. “Tonight’s charity banquet is over, and so is the wedding ceremony that was to follow. Preserve every original livestream file.” She handed her own phone to the auditor. “I will give investigators all foundation and family account records. I will protect no one.”",
+        "Fifteen minutes later, financial-crime investigators and local police arrived at the hotel. They separated Marcus, Richard and the hotel manager, and legally seized their phones, computers and work devices. Marcus and Richard were arrested on suspicion of conspiracy to commit fraud, fabrication of evidence and obstruction. The hotel manager was also taken away for questioning. He bowed to no one this time.",
+        "## Epilogue: The Weight of Facts",
+        "Ten months later, the court handed down its judgment.",
+        "Confronted with overwhelming evidence, all three defendants signed plea agreements. Evidence presented in court showed a disguised payment of three hundred thousand dollars between a consulting company controlled by Richard and the hotel manager’s private account. Recovered internal messages also proved that, after I was detained, the manager intended to give police a false statement.",
+        "Starlight Wedding Florals was not the first false supplier to receive money. Over the previous two years, Marcus and Richard had moved 6.4 million dollars through multiple shell vendors. The twenty million dollars on the wedding day was meant to be their final—and largest—operation.",
+        "Marcus was sentenced to twelve years in prison for conspiracy to commit fraud, fabrication of evidence and obstruction. Richard received fifteen years for financial fraud, money laundering and ordering the destruction of electronic evidence. The hotel manager received six years for accepting a bribe, helping fabricate evidence and obstructing justice.",
+        "Because the bank suspended settlement in time, the twenty million dollars never left the foundation’s account. The board selected Emily as interim director. She ensured that the entire sum went to the medical programs for children with disabilities, as originally intended. Months later, she married her fiancé, who had never been involved in the foundation, in a small ceremony without livestreaming or commercial sponsors. She also used her personal wealth to establish an accessible-employment fund.",
+        "I was cleared of every allegation. The hotel and the foundation formally apologized and paid compensation. I did not leave the hotel. It funded my professional training. After six months of study in accessible communication, employee grievances and safety compliance, I became the hotel’s first Accessibility Communication and Safety Grievance Coordinator.",
+        "This afternoon, I trained a group of newly hired employees. At the end of the session, a young room attendant wrote a question on a note and handed it to me: “Coordinator Lena, with so many people accusing you that day, why were you not afraid?”",
+        "I looked at the note, picked up a marker and wrote one final sentence on the whiteboard:",
+        "“Silence is never a confession. What brings a lie down is not a louder voice, but the facts that someone took care to preserve.”"
+      ],
+      "zh": [
+        "## 第一章：婚礼上的小偷",
+        "那条钻石项链从我围裙最深处被搜出来时，宴会厅里的五百名宾客同时看向了我。",
+        "我听不见他们的惊呼和咒骂。但我看懂了每一张脸上的意思——小偷。",
+        "今天是艾米丽婚礼宣誓仪式开始前的慈善晚宴。仪式前夕，她的家族基金会原计划宣布向残障儿童医疗项目公开拨款两千万美元。而我叫莉娜，只是这家五星级酒店客房部的一名普通清洁工。此刻，两名安保人员一左一右站在我身边，死死扣住了我的手腕。",
+        "艾米丽的哥哥马库斯正站在我面前。他不仅掌握着基金会的日常运营，还是一名拥有两百多万粉丝的“慈善网红”。他最擅长的事，就是站在镜头前，把自己包装成善良与正义的化身。现在，他的右手捏着那条号称价值三百万美元的家族传家宝，左手举着正在直播的手机。镜头几乎贴到了我的脸上。",
+        "“……真是令人痛心。”我看懂了他的嘴型，“我们给了这个残疾员工一份体面的工作，但贫穷蒙蔽了她的理智。她利用职务之便，试图偷走我妹妹的嫁妆。”",
+        "酒店经理站在旁边，不断向艾米丽一家鞠躬道歉。他没有阻止马库斯直播，也没有为我安排文字沟通，而是默认我已经有罪。艾米丽看了我一眼。她的目光里闪过一丝迟疑，但最后还是偏过头，选择相信自己的哥哥。",
+        "马库斯把手机举得更近。在他的剧本里，我是最完美的替罪羊：一个底层员工，一个听不见声音、无法立刻用流利口语替自己辩解的人。“你连一句完整的道歉都说不出来，是吗？”他嘴角向上扬起，带着恶意的嘲讽。",
+        "我没有挣扎，也没有流泪。我只是看向安保主管，做了一个需要写字的手势。安保主管犹豫片刻，示意下属松开我的右手。",
+        "我从制服口袋里拿出工作平板，在屏幕上敲下一行字，高高举起，确保马库斯和宴会厅大屏幕都能看清：【打开你五分钟前发布的花絮，把画面右上角的玻璃墙放大。】",
+        "## 第二章：推测与验证",
+        "马库斯愣了一下。随后，他轻蔑地笑了。他没有照做。",
+        "但他忘了，直播的评论区正同步显示在宴会厅的大屏幕上。三十万名在线观众中，已经有人按照我的提示，重新打开了他五分钟前发布的那条花絮。几秒钟后，评论开始被同一句话刷屏：“Look at the glass.”“放大右上角。”",
+        "艾米丽猛地站起身。她提着婚纱走到控制台前，拿起麦克风：“导播，把我哥哥刚才发布的视频放到大屏幕上。”她看了一眼平板上的文字，“放大玻璃墙。”",
+        "马库斯立即伸手试图阻止。但已经来不及了。视频被投上大屏幕，画面右上角的落地玻璃被不断放大。玻璃反光中，我正背对推车，俯身整理最底层的毛巾。马库斯站在摄像机拍不到的侧面。下一秒，他从西装内袋里取出一条项链，迅速塞进了挂在清洁车侧面的围裙口袋。整个动作不到两秒。没有误会，没有角度问题，那是他亲手放进去的。",
+        "艾米丽走到马库斯面前，从他僵硬的手中拿过项链，翻开卡扣。“真正的传家宝在锁扣内侧刻有家族徽章和独立编号。”她将卡扣朝向大屏幕，里面什么都没有。“你提前做好了假项链，也提前选好了要栽赃的人。”",
+        "马库斯伸手去操作手机，试图删除花絮，但评论区已经充满录屏的提示。",
+        "我的珠宝盗窃嫌疑已经洗清。但整件事还没有结束。我在平板上迅速打下两行字：【假项链不是你们唯一放在我身边的东西。】【几分钟前，酒店经理单独碰过我的推车。】",
+        "我指向服务走廊的摄像头：【查监控。】",
+        "安保主管忽然抬起头。他走到控制台，调出了服务走廊的监控。大屏幕上清晰地显示：下午 14:31，酒店经理独自来到我的清洁车旁。他先看了一眼周围，随后拉开最底层抽屉，将一个黑色物件塞进垃圾袋下方。",
+        "酒店经理的脸瞬间失去了血色。安保主管戴上手套，拉开那辆停在现场的推车抽屉。在一叠尚未使用的垃圾袋下面，他找到了一枚黑色电子令牌。",
+        "一直站在马库斯身后的基金会财务总监理查德，看到令牌后，立即移开了目光。",
+        "人群后方，一名穿灰色西装的中年男人走了出来。他示意安保主管将令牌放入透明证物袋，然后核对上面的序列号。“这是今晚临时财务室登记使用的备用付款令牌。”他说，“按照基金会的安全规定，它现在应该锁在财务保险柜里，而不是出现在莉娜的清洁车中。”",
+        "这位中年男人，是基金会董事会聘请的独立法务审计师，负责核验今晚的两千万美元慈善拨款。",
+        "## 第三章：一个批准，一个确认",
+        "“这仍然证明不了财务室发生过异常付款。”理查德终于站出来。他盯着我，努力维持镇定。",
+        "我从领口摘下一个带有酒店徽标的加密设备。这是酒店合规部配发的工作记录仪。员工进入特殊区域清洁时必须佩戴，录像由设备加密保存，员工无法自行编辑，只有安保主管能提取。",
+        "下午 14:15 至 14:20 的录像被投上大屏幕。画面中，我正在打扫临时财务室。桌面的电脑屏幕停留在数笔待确认的供应商付款页面，收款方都是同一家公司：“繁星婚礼花艺”。总金额两千万美元。当我 14:20 完成清洁、离开房间并锁门时，所有付款仍处于等待最终确认状态。",
+        "审计师从公文包里取出一份标红的供应商审查文件。“繁星婚礼花艺上周已经被我们列为高风险供应商。”他看向理查德，“它成立不到三个月，没有真实业务。注册地址是理查德先生亲属名下的一套空置公寓。”",
+        "理查德张开嘴试图辩解，审计师抬手阻止了他。“今天下午，这家公司同时收到多笔异常拆分汇款，触发了银行风控系统。资金在最终结算前已被自动暂停。”他转向酒店安保主管，“请调取下午两点二十分以后的财务室原始门禁记录。”",
+        "安保主管完成身份核验，一条记录出现在屏幕上：14:25——理查德专属门禁卡进入临时财务室。",
+        "审计师随后将银行的两条授权日志投上大屏幕。第一条：14:23，马库斯使用执行董事账户批准供应商付款。第二条：14:25，备用付款令牌完成第二道授权，提交最终结算。",
+        "“一个批准，一个确认。”审计师看着马库斯和理查德，“备用令牌不绑定单独姓名。所以你们准备在莉娜被扣留后，修改酒店门禁记录，再利用经理的假证词和这枚被‘搜出’的令牌，把第二道授权完美地推到她身上。可惜，银行保留了第一道批准记录，酒店也保留了第二道授权发生时的门禁记录。谁也无法把这笔钱推给莉娜。”",
+        "## 第四章：直播里的自毁",
+        "理查德没有再看我。他的目光先落在酒店经理身上，又迅速移向通往机房的侧门。",
+        "“你拿钱的时候，不是这样答应的！”他的嘴张得很大，颈侧青筋绷起。",
+        "周围几名宾客同时后退。大屏幕上的直播自动字幕，开始同步显示他的每一个字：“马上联系机房。”“切断电源。”“删除今晚所有门禁镜像和监控备份！”",
+        "直播手机还在马库斯手里。距离理查德不到两米。直播没有关闭，麦克风也一直在收音。",
+        "审计师看了一眼正在疯狂滚动的评论区。“谢谢你，理查德先生。”审计师整理了一下文件，“刚才的命令，已经被酒店导播系统和直播平台完整保存。至于现场观众的大量录屏，它们会让你再也无法假装这件事没有发生过。另外，十分钟前银行风控触发警报时，基金会法务已经联系金融犯罪调查组。他们正在赶来的路上。”",
+        "安保主管立即通过对讲机下达指令：“启动电子证据保全程序。安排人员守住机房入口。没有调查人员的书面授权，任何人不得接触服务器和备份设备。”",
+        "马库斯低头看着自己的手机，屏幕上仍然显示着不断增加的观看人数。他原本想用这场直播摧毁我。现在，直播留下了他栽赃项链的录像，也记录了同谋试图毁灭证据的指令。他松开手，手机落在地毯上。“艾米丽，你听我解释……”",
+        "艾米丽摘下头纱，没有走向他。她转身面对现场宾客：“中止今晚的慈善晚宴，也中止接下来的婚礼仪式。请导播保存所有直播原件。”她又将自己的手机交给审计师，“我会向调查人员提供基金会和家族账户的全部资料。绝不包庇。”",
+        "十五分钟后，金融犯罪调查人员和当地警员抵达酒店。他们将马库斯、理查德和酒店经理分开控制，依法扣押三人的手机、电脑和工作设备。马库斯与理查德随后因涉嫌共谋诈骗、伪造证据和妨碍调查被逮捕。酒店经理也被带走讯问，他没有再向任何人鞠躬。",
+        "## 尾声：事实的重量",
+        "十个月后，案件完成宣判。",
+        "在绝对的铁证面前，三名被告先后签署了认罪协议。法庭出示的证据显示，理查德控制的一家咨询公司与酒店经理的私人账户之间，存在一笔三十万美元的伪装付款。恢复后的内部通信记录也证实，酒店经理原本准备在我被扣留后，向警方提供虚假证词。",
+        "此外，“繁星婚礼花艺”并不是第一次收款。过去两年，马库斯和理查德已经通过多家虚假供应商转移了六百四十万美元。婚礼当天的两千万，是他们企图进行的最后一次、也是规模最大的一次行动。",
+        "马库斯因共谋诈骗、伪造证据和妨碍调查，被判处十二年监禁。理查德因金融欺诈、洗钱和指挥毁灭电子证据，被判处十五年监禁。酒店经理因收受贿赂、协助伪造证据和妨碍司法，被判处六年监禁。",
+        "由于银行及时暂停结算，那两千万美元从未真正离开基金会账户。艾米丽被董事会推选为临时负责人。她确保这笔资金按照原定用途，全部拨付给了残障儿童医疗项目。几个月后，她与未参与基金会事务的未婚夫举行了一场没有直播、没有商业赞助的小型婚礼。同时，她以个人财产设立了一项无障碍职业基金。",
+        "我洗清了全部嫌疑。酒店和基金会向我正式道歉，并支付了赔偿。我没有离开酒店。酒店承担了我的专业培训费用。完成为期半年的无障碍沟通、员工申诉与安全合规培训后，我成为了酒店第一任“员工无障碍沟通与安全申诉协调员”。",
+        "今天下午，我给一批新入职的员工进行培训。课程结束时，一名年轻的客房服务员在纸条上写下一个问题，递给我：“莉娜协调员，那天面对那么多人的指责，您为什么一点都不害怕？”",
+        "我看着那张纸，拿起记号笔，在白板上写下最后一句话：",
+        "“沉默从来不是认罪。真正让谎言崩塌的，从来不是更大的声音，而是那些被认真保存下来的事实。”"
       ]
     }
   }
