@@ -15,6 +15,26 @@ measurement ID is blank.
 The consent banner appears automatically after activation. Analytics is loaded
 only after consent where consent is required.
 
+## Create a different link for each Facebook post
+
+Open `analytics.html`, scroll to **Facebook Link Builder**, select the story and
+give the post a unique label such as `page-a-post-01`. The generated URL already
+contains `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.
+
+Use a different post label for every Facebook post. After GA4 is connected,
+compare `traffic_campaign` and `traffic_content` to see which post brings the
+most readers and completions.
+
+## Advertising and business contact
+
+`analytics-config.js` also contains `STORY_SITE_CONFIG`:
+
+- Keep `adsEnabled` set to `false` until an advertising provider approves the
+  site and real ad code is installed. Empty ad placeholders stay hidden.
+- Add the public business email to `businessEmail`. It will appear on the
+  advertising and editorial contact page.
+- Do not set `adsEnabled` to `true` merely to show placeholders.
+
 ## Reports and events
 
 - Story visits: `story_view`, grouped by `story_slug` and `file_no`.

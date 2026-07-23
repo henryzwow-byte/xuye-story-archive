@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Story Archive">
+  <rect width="64" height="64" rx="10" fill="#202b29"/>
+  <path d="M12 19h16l5 6h19v27H12z" fill="#b84f35"/>
+  <path d="M17 29h28v17H17z" fill="none" stroke="#fff" stroke-width="2.5" transform="rotate(-3 31 37.5)"/>
+</svg>

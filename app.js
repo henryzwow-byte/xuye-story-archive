@@ -1,4 +1,6 @@
 const stories = Array.isArray(window.STORY_ARCHIVE) ? window.STORY_ARCHIVE : [];
+const siteConfig = window.STORY_SITE_CONFIG || {};
+if (siteConfig.adsEnabled === true) document.body.classList.add("ads-enabled");
 
 const copy = {
   en: {
@@ -60,7 +62,7 @@ Object.assign(copy.en, {
   categories: "BROWSE BY THEME", categoriesTitle: "Find a story by atmosphere", categoriesBody: "Move through the archive by theme, then continue wherever curiosity leads.",
   viewAll: "View all stories", openCollection: "Open collection", publicLibrary: "PUBLIC LIBRARY", libraryTitle: "Every story, one open archive.",
   libraryIntro: "Search every file, explore themes and tags, or let the archive choose your next story.", randomStory: "Open a random story",
-  tabAll: "All stories", tabLatest: "Latest", tabEditors: "Editor's picks", tabPopular: "Popular", tabWeekly: "Most read this week", tabSaved: "Saved", tabHistory: "Reading history",
+  tabAll: "All stories", tabLatest: "Latest", tabEditors: "Editor's picks", tabPopular: "Popular on this device", tabWeekly: "Read this week on this device", tabSaved: "Saved", tabHistory: "Reading history",
   popularLocalNote: "Ranked by reading activity on this device. Global audience rankings are measured in the analytics dashboard.",
   savedEmpty: "No saved stories yet.", historyEmpty: "Your reading history will appear here.", analyticsEmpty: "No reading activity has been recorded on this device yet.",
   tagsTitle: "Tags", authorTitle: "Archive editor", authorName: "Story Archive Editorial Desk", authorBio: "An editorial desk dedicated to complete fictional stories, careful presentation and reader-friendly access.", viewAuthor: "View author page",
@@ -68,8 +70,11 @@ Object.assign(copy.en, {
   viewIllustration: "View illustration", closeIllustration: "Close illustration", categoryLabel: "Category", tagLabel: "Tag", clearFilters: "Clear filters", filterResults: "filtered stories",
   homeSearchHint: "Search opens the complete public library.", publishedStories: "published stories", byAuthor: "By", seriesLabel: "Series", historyProgress: "read",
   seriesTitle: "Series & chapters", standaloneStories: "Standalone stories", noSeriesYet: "Series collections will appear here when connected stories are published.",
-  analyticsConsole: "OWNER ANALYTICS", analyticsTitle: "Audience measurement console", analyticsIntro: "This page verifies the event system on this browser. Connect GA4 to see aggregate worldwide results, country, device and Facebook campaign reports.", analyticsConnected: "Worldwide analytics connected", analyticsNotConnected: "Worldwide analytics is ready but not connected", analyticsSetup: "Add your GA4 Measurement ID in analytics-config.js to start global reporting.", localPreview: "This-browser preview", totalViews: "Story visits", totalCompletions: "Completed readings", totalShares: "Share clicks", avgTime: "Average active time", seconds: "sec", illustrationCtr: "Illustration CTR", filePerformance: "Story performance", sourcePerformance: "Traffic source / campaign", globalReport: "Open Google Analytics", analyticsFootnote: "Local figures are visible only in this browser and are not a substitute for global reporting.",
-  privacyAnalyticsTitle: "Audience measurement", privacyAnalyticsText: "When audience measurement is enabled, Story Archive may record page views, referral source, approximate country, language, device type, reading milestones, active reading time, illustration interactions and share-button clicks. No story text, form data or directly identifying information is collected. Analytics remains off until the site owner adds a valid measurement ID and the reader grants consent where required."
+  analyticsConsole: "OWNER ANALYTICS", analyticsTitle: "Audience measurement console", analyticsIntro: "This page verifies the event system on this browser. Connect GA4 to see aggregate worldwide results, country, device and Facebook campaign reports.", analyticsConnected: "Worldwide analytics connected", analyticsNotConnected: "Worldwide analytics is ready but not connected", analyticsSetup: "Add your GA4 Measurement ID in analytics-config.js to start global reporting.", analyticsActive: "GA4 is active. Open Google Analytics for worldwide country, device, campaign and completion reports.", localPreview: "This-browser preview", totalViews: "Story visits", totalCompletions: "Completed readings", totalShares: "Share clicks", avgTime: "Average active time", seconds: "sec", illustrationCtr: "Illustration CTR", filePerformance: "Story performance", sourcePerformance: "Traffic source / campaign", globalReport: "Open Google Analytics", analyticsFootnote: "Local figures are visible only in this browser and are not a substitute for global reporting.",
+  privacyAnalyticsTitle: "Audience measurement", privacyAnalyticsText: "When audience measurement is enabled, Story Archive may record page views, referral source, approximate country, language, device type, reading milestones, active reading time, illustration interactions and share-button clicks. No story text, form data or directly identifying information is collected. Analytics remains off until the site owner adds a valid measurement ID and the reader grants consent where required.",
+  businessContact: "Business contact", businessContactPending: "A public business email will be added before advertising is enabled.", advertisingInactive: "Advertising is not currently active. Empty placements stay hidden until an approved provider is connected.",
+  linkBuilderLabel: "FACEBOOK LINK BUILDER", linkBuilderTitle: "Create a trackable story link", linkBuilderIntro: "Give each Facebook post a short unique label so its traffic can be compared after GA4 is connected.", linkBuilderStory: "Story", linkBuilderCampaign: "Campaign", linkBuilderPost: "Post label", linkBuilderGenerate: "Generate link", linkBuilderCopy: "Copy generated link", linkBuilderCopied: "Tracking link copied",
+  notFoundTitle: "This file is not in the archive.", notFoundBody: "The address may be incomplete, or the story may have moved to another shelf.", notFoundLibrary: "Open the story library", notFoundHome: "Return home"
 });
 
 Object.assign(copy.zh, {
@@ -81,7 +86,7 @@ Object.assign(copy.zh, {
   categories: "按主题浏览", categoriesTitle: "循着氛围，找到下一篇故事", categoriesBody: "从主题进入档案馆，让好奇心带你继续阅读。",
   viewAll: "查看全部故事", openCollection: "打开分类", publicLibrary: "公开故事库", libraryTitle: "每一篇故事，都在同一座开放档案馆里。",
   libraryIntro: "搜索全部档案，探索主题与标签，或让故事馆替你选择下一篇。", randomStory: "随机打开一篇",
-  tabAll: "全部故事", tabLatest: "最新发布", tabEditors: "编辑精选", tabPopular: "热门故事", tabWeekly: "本周最多阅读", tabSaved: "本地收藏", tabHistory: "阅读历史",
+  tabAll: "全部故事", tabLatest: "最新发布", tabEditors: "编辑精选", tabPopular: "本机热门", tabWeekly: "本机本周阅读", tabSaved: "本地收藏", tabHistory: "阅读历史",
   popularLocalNote: "本页按这台设备的阅读活动排序；全球读者排名会在数据分析后台统计。",
   savedEmpty: "还没有收藏故事。", historyEmpty: "你的阅读历史会显示在这里。", analyticsEmpty: "这台设备暂时还没有阅读记录。",
   tagsTitle: "故事标签", authorTitle: "档案编辑", authorName: "故事档案编辑部", authorBio: "专注于完整虚构故事、克制呈现与友好阅读体验的编辑团队。", viewAuthor: "查看作者页",
@@ -89,8 +94,11 @@ Object.assign(copy.zh, {
   viewIllustration: "查看插图", closeIllustration: "关闭插图", categoryLabel: "分类", tagLabel: "标签", clearFilters: "清除筛选", filterResults: "篇筛选结果",
   homeSearchHint: "搜索将在完整公开故事库中进行。", publishedStories: "篇已发布故事", byAuthor: "作者", seriesLabel: "系列", historyProgress: "已读",
   seriesTitle: "系列与章节", standaloneStories: "独立故事", noSeriesYet: "当有关联的连载故事发布后，系列会自动显示在这里。",
-  analyticsConsole: "站长数据分析", analyticsTitle: "读者数据分析控制台", analyticsIntro: "本页用于验证这台浏览器上的事件采集。接入 GA4 后，可查看全球汇总数据、国家、设备与 Facebook 帖子引流报告。", analyticsConnected: "全球统计已经连接", analyticsNotConnected: "全球统计代码已就绪，但尚未连接", analyticsSetup: "请在 analytics-config.js 中填写 GA4 统计编号，即可开始全球统计。", localPreview: "本浏览器数据预览", totalViews: "故事访问", totalCompletions: "完成阅读", totalShares: "分享点击", avgTime: "平均有效阅读", seconds: "秒", illustrationCtr: "插图点击率", filePerformance: "单篇故事表现", sourcePerformance: "引流来源 / 帖子活动", globalReport: "打开 Google Analytics", analyticsFootnote: "本地数据只存在于这台浏览器中，不能替代全球汇总报表。",
-  privacyAnalyticsTitle: "访问数据分析", privacyAnalyticsText: "启用访问分析后，故事档案馆可能记录页面访问、引流来源、读者的大致国家、语言、设备类型、25%/50%/75%/100% 阅读节点、有效阅读时长、插图互动和分享按钮点击。系统不收集故事正文、表单内容或可直接识别个人身份的信息。站长未填写有效统计编号，或在需要同意的地区读者未授权前，分析功能不会启用。"
+  analyticsConsole: "站长数据分析", analyticsTitle: "读者数据分析控制台", analyticsIntro: "本页用于验证这台浏览器上的事件采集。接入 GA4 后，可查看全球汇总数据、国家、设备与 Facebook 帖子引流报告。", analyticsConnected: "全球统计已经连接", analyticsNotConnected: "全球统计代码已就绪，但尚未连接", analyticsSetup: "请在 analytics-config.js 中填写 GA4 统计编号，即可开始全球统计。", analyticsActive: "GA4 已启用；请前往 Google Analytics 查看全球国家、设备、活动与完读报告。", localPreview: "本浏览器数据预览", totalViews: "故事访问", totalCompletions: "完成阅读", totalShares: "分享点击", avgTime: "平均有效阅读", seconds: "秒", illustrationCtr: "插图点击率", filePerformance: "单篇故事表现", sourcePerformance: "引流来源 / 帖子活动", globalReport: "打开 Google Analytics", analyticsFootnote: "本地数据只存在于这台浏览器中，不能替代全球汇总报表。",
+  privacyAnalyticsTitle: "访问数据分析", privacyAnalyticsText: "启用访问分析后，故事档案馆可能记录页面访问、引流来源、读者的大致国家、语言、设备类型、25%/50%/75%/100% 阅读节点、有效阅读时长、插图互动和分享按钮点击。系统不收集故事正文、表单内容或可直接识别个人身份的信息。站长未填写有效统计编号，或在需要同意的地区读者未授权前，分析功能不会启用。",
+  businessContact: "业务联系", businessContactPending: "广告正式启用前，这里会公布真实的业务邮箱。", advertisingInactive: "广告目前尚未启用；在通过平台审核并接入正式广告前，空广告位不会向读者显示。",
+  linkBuilderLabel: "FACEBOOK 链接工具", linkBuilderTitle: "生成可追踪的故事链接", linkBuilderIntro: "为每一条 Facebook 帖子填写不同的简短标签，接通 GA4 后就能比较各帖子的引流效果。", linkBuilderStory: "故事", linkBuilderCampaign: "活动名称", linkBuilderPost: "帖子标签", linkBuilderGenerate: "生成链接", linkBuilderCopy: "复制生成的链接", linkBuilderCopied: "追踪链接已复制",
+  notFoundTitle: "这份档案不在故事库中。", notFoundBody: "链接可能不完整，或者故事已经被移到另一层书架。", notFoundLibrary: "打开故事库", notFoundHome: "返回首页"
 });
 
 const editorialPicks = new Set(["the-broken-home", "the-logic-of-a-beast-in-the-mire", "the-tattered-toy-in-the-rain"]);
@@ -402,7 +410,8 @@ function initHome() {
 
 function initLibrary() {
   document.title = `${t("navLibrary")} — Story Archive`;
-  let activeTab = params.get("view") || "all";
+  const viewTitleKeys = { all: "allStories", latest: "tabLatest", editors: "tabEditors", popular: "tabPopular", weekly: "tabWeekly", saved: "tabSaved", history: "tabHistory" };
+  let activeTab = viewTitleKeys[params.get("view")] ? params.get("view") : "all";
   let query = params.get("q") || "";
   let activeCategory = params.get("category") || "all";
   let activeTag = params.get("tag") || "";
@@ -414,6 +423,7 @@ function initLibrary() {
   const folders = document.querySelector("#folder-list");
   const tabs = document.querySelector("#library-tabs");
   const note = document.querySelector("#library-context-note");
+  const viewTitle = document.querySelector("#library-view-title");
   const categoryMap = new Map();
   stories.forEach((story) => {
     const key = categoryKey(story);
@@ -435,8 +445,13 @@ function initLibrary() {
   function renderTabs() {
     tabs.querySelectorAll("button").forEach((button) => {
       const selected = button.dataset.view === activeTab;
+      button.id = `library-tab-${button.dataset.view}`;
+      button.setAttribute("role", "tab");
+      button.setAttribute("aria-controls", "story-grid");
       button.classList.toggle("active", selected);
       button.setAttribute("aria-selected", String(selected));
+      button.setAttribute("tabindex", selected ? "0" : "-1");
+      if (selected) grid.setAttribute("aria-labelledby", button.id);
     });
   }
 
@@ -465,12 +480,22 @@ function initLibrary() {
     empty.hidden = items.length !== 0;
     empty.querySelector("p").textContent = emptyMessage;
     count.textContent = `${items.length} ${t("filterResults")}`;
+    viewTitle.textContent = activeTag ? `#${activeTag}` : activeCategory !== "all" ? local(categories.find((category) => category.key === activeCategory)?.label) : t(viewTitleKeys[activeTab]);
     note.textContent = activeTab === "popular" || activeTab === "weekly" ? t("popularLocalNote") : activeTag ? `${t("tagLabel")}: ${activeTag}` : activeCategory !== "all" ? `${t("categoryLabel")}: ${local(categories.find((category) => category.key === activeCategory)?.label)}` : "";
     renderFolders();
     renderTabs();
   }
 
   tabs.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => { activeTab = button.dataset.view; activeCategory = "all"; activeTag = ""; render(); }));
+  tabs.addEventListener("keydown", (event) => {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    const buttons = [...tabs.querySelectorAll("button")];
+    const current = Math.max(0, buttons.indexOf(document.activeElement));
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? buttons.length - 1 : (current + (event.key === 'ArrowRight' ? 1 : -1) + buttons.length) % buttons.length;
+    event.preventDefault();
+    buttons[next].focus();
+    buttons[next].click();
+  });
   search.addEventListener("input", () => { query = search.value.trim(); render(); });
   document.querySelector("#library-search-form").addEventListener("submit", (event) => { event.preventDefault(); window.StoryAnalytics?.track("archive_search", { query_length: query.length, search_origin: "library" }); render(); });
   document.querySelector("#sort-select").addEventListener("change", (event) => { sort = event.target.value; activeTab = "all"; render(); });
@@ -518,7 +543,7 @@ function initAnalyticsDashboard() {
   const illustrationCtr = totals.views ? `${(totals.illustration / totals.views * 100).toFixed(1)}%` : "0%";
   const state = document.querySelector("#analytics-state");
   state.classList.toggle("connected", Boolean(window.StoryAnalytics?.enabled));
-  state.innerHTML = `<span>${window.StoryAnalytics?.enabled ? "●" : "○"}</span><div><b>${esc(window.StoryAnalytics?.enabled ? t("analyticsConnected") : t("analyticsNotConnected"))}</b><p>${esc(t("analyticsSetup"))}</p></div>`;
+  state.innerHTML = `<span>${window.StoryAnalytics?.enabled ? "●" : "○"}</span><div><b>${esc(window.StoryAnalytics?.enabled ? t("analyticsConnected") : t("analyticsNotConnected"))}</b><p>${esc(window.StoryAnalytics?.enabled ? t("analyticsActive") : t("analyticsSetup"))}</p></div>`;
   document.querySelector("#analytics-cards").innerHTML = [
     [t("totalViews"), totals.views], [t("totalCompletions"), totals.completions], [t("totalShares"), totals.shares], [t("avgTime"), `${averageTime} ${t("seconds")}`], [t("illustrationCtr"), illustrationCtr]
   ].map(([label, value]) => `<div><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join("");
@@ -532,6 +557,32 @@ function initAnalyticsDashboard() {
   const sources = Object.entries(data.sources || {}).sort((a, b) => b[1] - a[1]);
   const campaigns = Object.entries(data.campaigns || {}).sort((a, b) => b[1] - a[1]);
   document.querySelector("#analytics-sources").innerHTML = [...sources.map(([label, value]) => [label, value, "source"]), ...campaigns.map(([label, value]) => [label, value, "campaign"])].map(([label, value, kind]) => `<li><span>${esc(label)}</span><small>${esc(kind)}</small><b>${value}</b></li>`).join("") || `<li><span>${esc(t("analyticsEmpty"))}</span></li>`;
+  const storySelect = document.querySelector("#utm-story");
+  const builderForm = document.querySelector("#utm-builder-form");
+  const outputWrap = document.querySelector("#utm-output");
+  const output = document.querySelector("#utm-link");
+  storySelect.innerHTML = [...stories].sort((a, b) => a.fileNo.localeCompare(b.fileNo)).map((story) => `<option value="${esc(story.slug)}">${esc(story.fileNo)} — ${esc(local(story.title))}</option>`).join("");
+  const cleanUtm = (value, fallback) => String(value || "").trim().replace(/\s+/g, "-").slice(0, 60) || fallback;
+  builderForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const story = stories.find((item) => item.slug === storySelect.value) || stories[0];
+    if (!story) return;
+    const url = new URL(`story-${story.slug}.html`, location.href);
+    url.searchParams.set("lang", lang);
+    url.searchParams.set("utm_source", "facebook");
+    url.searchParams.set("utm_medium", "social");
+    url.searchParams.set("utm_campaign", cleanUtm(document.querySelector("#utm-campaign").value, story.slug));
+    url.searchParams.set("utm_content", cleanUtm(document.querySelector("#utm-post").value, "post-01"));
+    output.value = url.href;
+    outputWrap.hidden = false;
+    window.StoryAnalytics?.track("tracking_link_generated", { story_slug: story.slug });
+  });
+  document.querySelector("#copy-utm-link").addEventListener("click", async (event) => {
+    if (!output.value) return;
+    try { await navigator.clipboard.writeText(output.value); }
+    catch { output.select(); document.execCommand("copy"); }
+    event.currentTarget.textContent = t("linkBuilderCopied");
+  });
 }
 
 function proseHtml(story) {
@@ -819,11 +870,11 @@ const infoPages = {
   },
   privacy: {
     title: { en: "Privacy Policy", zh: "隐私政策" },
-    intro: { en: "Last updated: July 20, 2026", zh: "最后更新：2026 年 7 月 20 日" },
+    intro: { en: "Last updated: July 23, 2026", zh: "最后更新：2026 年 7 月 23 日" },
     sections: [
       [{ en: "Local reading data", zh: "本地阅读数据" }, { en: "This static website has no account, comment form or email database. Language, bookmarks, reading history and per-story reading position are stored in your browser so you can return to them. They are not synchronized across devices.", zh: "这个静态网站没有账号、评论或邮件数据库。语言偏好、收藏、阅读历史和每篇故事的阅读位置保存在你的浏览器中，方便下次继续使用；这些内容不会跨设备同步。" }],
       [{ en: copy.en.privacyAnalyticsTitle, zh: copy.zh.privacyAnalyticsTitle }, { en: copy.en.privacyAnalyticsText, zh: copy.zh.privacyAnalyticsText }],
-      [{ en: "Cookies and advertising", zh: "Cookie 与广告" }, { en: "Advertising and analytics providers may use cookies or similar technologies under their own privacy policies. Where consent is required, analytics loads only after the reader chooses to allow it.", zh: "广告和访问分析服务商可能依据其隐私政策使用 Cookie 或类似技术。在法律要求取得同意的地区，只有读者主动允许后才会加载统计服务。" }],
+      [{ en: "Cookies and advertising", zh: "Cookie 与广告" }, { en: "Advertising is currently disabled. If Google or another provider is enabled later, third-party vendors may use cookies to measure or personalize advertising under their own policies. Readers can manage personalized advertising at https://adssettings.google.com. Where consent is required, analytics or advertising services load only after the reader makes a choice.", zh: "广告目前尚未启用。未来如接入 Google 或其他广告服务商，第三方可能依据其隐私政策使用 Cookie 衡量或个性化广告。读者可前往 https://adssettings.google.com 管理个性化广告。在法律要求取得同意的地区，只有读者作出选择后才会加载相关统计或广告服务。" }],
       [{ en: "Your choices", zh: "你的选择" }, { en: "You can clear local website data or restrict cookies in your browser at any time.", zh: "你可以随时在浏览器中清除本地网站数据或限制 Cookie。" }]
     ]
   },
@@ -838,19 +889,22 @@ const infoPages = {
   },
   contact: {
     title: { en: "Advertising & Editorial Contact", zh: "广告与内容合作" },
-    intro: { en: "The site layout includes standard placements for future advertising.", zh: "网站布局已经预留常见广告展示位置。" },
+    intro: { en: "Advertising is not currently active. Editorial and future business enquiries will use the public contact listed on this page.", zh: "广告目前尚未启用。内容与未来商业合作将统一使用本页公布的业务联系方式。" },
     sections: [
-      [{ en: "Advertising placements", zh: "广告位置" }, { en: "The home page, story pages and reading sidebar include clearly labeled responsive ad spaces. Final formats depend on the selected advertising provider and its content review.", zh: "首页、故事正文和阅读侧栏都预留了带有明确标识的响应式广告位。最终格式取决于广告服务商及其内容审核。" }],
-      [{ en: "Before applying", zh: "申请广告前" }, { en: "Add a real business email and confirm that you hold publication rights for every story. Advertising approval is decided by the provider and is not guaranteed by the presence of ad slots.", zh: "请先添加真实业务邮箱，并确认拥有每篇故事的发布权。广告位本身不代表一定通过广告平台审核，最终决定权属于广告服务商。" }]
+      [{ en: "Advertising status", zh: "广告状态" }, { en: copy.en.advertisingInactive, zh: copy.zh.advertisingInactive }],
+      [{ en: "Publication rights", zh: "发布权说明" }, { en: "Stories are presented as fictional editorial works. Advertising will only be enabled after publication rights, provider approval and privacy requirements have been confirmed.", zh: "本站故事均以虚构编辑作品形式发布。只有在确认作品发布权、广告平台审核结果及隐私要求后，才会正式启用广告。" }]
     ]
   }
 };
 
 function initInfo() {
-  const key = params.get("page") || "about";
+  const key = document.body.dataset.infoKey || params.get("page") || "about";
   const page = infoPages[key] || infoPages.about;
+  const configuredEmail = String(siteConfig.businessEmail || "").trim();
+  const businessEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(configuredEmail) ? configuredEmail : "";
+  const contactPanel = key === "contact" ? `<aside class="business-contact"><span>${esc(t("businessContact"))}</span>${businessEmail ? `<a href="mailto:${esc(businessEmail)}">${esc(businessEmail)}</a>` : `<strong>${esc(t("businessContactPending"))}</strong>`}</aside>` : "";
   document.title = `${local(page.title)} — Story Archive`;
-  document.querySelector("#info-content").innerHTML = `<div class="section-label">PUBLIC DOCUMENT</div><h1>${esc(local(page.title))}</h1><p class="intro">${esc(local(page.intro))}</p>${page.sections.map(([heading, text]) => `<section><h2>${esc(local(heading))}</h2><p>${esc(local(text))}</p></section>`).join("")}`;
+  document.querySelector("#info-content").innerHTML = `<div class="section-label">PUBLIC DOCUMENT</div><h1>${esc(local(page.title))}</h1><p class="intro">${esc(local(page.intro))}</p>${contactPanel}${page.sections.map(([heading, text]) => `<section><h2>${esc(local(heading))}</h2><p>${esc(local(text))}</p></section>`).join("")}`;
 }
 
 initLanguageControls();

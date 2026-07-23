@@ -1,0 +1,12 @@
+{
+  "name": "Story Archive",
+  "short_name": "Stories",
+  "description": "A public archive of complete fictional stories.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f1e9",
+  "theme_color": "#202b29",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
