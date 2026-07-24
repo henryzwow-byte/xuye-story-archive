@@ -2,7 +2,9 @@
   "use strict";
 
   const config = window.STORY_ANALYTICS_CONFIG || {};
+  const siteConfig = window.STORY_SITE_CONFIG || {};
   const measurementId = /^G-[A-Z0-9]+$/i.test(config.measurementId || "") ? config.measurementId : "";
+  const advertisingConfigured = siteConfig.adsEnabled === true && /^ca-pub-\d+$/.test(siteConfig.publisherId || "");
   const localKey = "story-analytics-local-v1";
   const consentKey = "story-analytics-consent-v1";
   const pending = [];
@@ -113,10 +115,12 @@
       pending.splice(0).forEach(([name, payload]) => window.gtag?.("event", name, payload));
       track("analytics_consent", { choice: "granted" });
     } else pending.length = 0;
+    window.dispatchEvent(new CustomEvent("story-consent-updated", { detail: { granted: Boolean(value) } }));
   }
 
   function showConsent() {
-    if (!measurementId || config.consentRequired === false) return;
+    const consentNeeded = (Boolean(measurementId) && config.consentRequired !== false) || (advertisingConfigured && siteConfig.adConsentRequired !== false);
+    if (!consentNeeded) return;
     let saved = null;
     try { saved = localStorage.getItem(consentKey); } catch {}
     if (saved) {
@@ -127,7 +131,7 @@
     const banner = document.createElement("aside");
     banner.className = "analytics-consent";
     banner.setAttribute("aria-label", zh ? "访问数据设置" : "Audience measurement settings");
-    banner.innerHTML = `<div><strong>${zh ? "帮助我们改善阅读体验" : "Help us improve the reading experience"}</strong><p>${zh ? "经你同意后，我们会以汇总方式统计访问来源、设备类型和阅读进度，不收集可直接识别身份的信息。" : "With your permission, we measure referral source, device type and reading progress in aggregate. We do not collect directly identifying information."}</p></div><div><button type="button" data-consent="no">${zh ? "暂不" : "Not now"}</button><button type="button" data-consent="yes">${zh ? "允许统计" : "Allow analytics"}</button></div>`;
+    banner.innerHTML = `<div><strong>${zh ? "管理统计与广告设置" : "Manage analytics and advertising"}</strong><p>${zh ? "经你同意后，我们会以汇总方式统计访问来源、设备类型和阅读进度；正式接入广告服务后，也会按隐私政策加载广告。不收集故事正文或可直接识别身份的信息。" : "With your permission, we measure referral source, device type and reading progress in aggregate and, once an advertising provider is connected, load advertising under the privacy policy. We do not collect story text or directly identifying information."}</p></div><div><button type="button" data-consent="no">${zh ? "暂不" : "Not now"}</button><button type="button" data-consent="yes">${zh ? "允许" : "Allow"}</button></div>`;
     document.body.appendChild(banner);
     banner.querySelector('[data-consent="no"]').addEventListener("click", () => consent(false));
     banner.querySelector('[data-consent="yes"]').addEventListener("click", () => consent(true));
