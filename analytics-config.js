@@ -34,6 +34,8 @@ window.STORY_SITE_CONFIG = {
     storyTop: "",
     storyInline: "",
     storySidebar: "",
+    railLeft: "",
+    railRight: "",
     authorTop: "",
     authorInfeed: "",
     infoInline: "",

@@ -197,3 +197,47 @@ body.ad-layout-enabled .ad-slot{display:grid}
 .utm-builder{margin-top:52px;padding:26px;border:1px solid #c6bfb3;background:#fff9ee;box-shadow:7px 8px 0 #ddd5c8}.utm-builder h2{margin:9px 0 8px;font:500 28px Georgia,"Noto Serif SC",serif}.utm-builder>p{max-width:720px;margin:0 0 22px;color:#747873;font-size:10px;line-height:1.7}.utm-builder-fields{display:grid;grid-template-columns:1.2fr 1fr 1fr auto;align-items:end;gap:10px}.utm-builder label{display:grid;gap:7px;color:#767a75;font-size:8px;font-weight:800;letter-spacing:.08em}.utm-builder input,.utm-builder select{height:42px;min-width:0;padding:0 11px;border:1px solid #c7c0b4;background:#fffdf8;color:var(--ink);font-size:10px}.utm-builder button{height:42px;padding:0 16px;border:1px solid var(--ink);background:var(--ink);color:#fff;font-size:9px;font-weight:800;cursor:pointer}.utm-builder button:hover{border-color:var(--rust);background:var(--rust)}.utm-output{display:grid;grid-template-columns:1fr auto;gap:9px;margin-top:12px}.utm-output input{font:9px "Courier New",monospace}.utm-output[hidden]{display:none}
 @media(max-width:900px){.utm-builder-fields{grid-template-columns:1fr 1fr}.utm-builder-fields button{width:100%}}
 @media(max-width:700px){.business-contact{padding:18px}.business-contact a,.business-contact strong{font-size:17px}.not-found{min-height:540px;grid-template-columns:1fr;align-content:center;gap:20px;padding-block:55px}.not-found-number{font-size:90px}.not-found h1{font-size:43px}.not-found-actions{align-items:stretch;flex-direction:column}.not-found-actions a{text-align:center}.utm-builder{padding:20px 17px}.utm-builder-fields{grid-template-columns:1fr}.utm-output{grid-template-columns:1fr}.utm-output button{width:100%}}
+
+/* Wide-screen advertising rails and paced long-form placements.
+   Rails live entirely outside the 1180px editorial canvas and never cover copy. */
+.ad-rail{display:none}
+
+@media(min-width:1540px){
+  .ad-rail-host{position:relative}
+  .ad-rail{
+    position:absolute;
+    top:0;
+    bottom:0;
+    display:block;
+    width:clamp(150px,calc((100vw - 1180px)/2 - 14px),188px);
+    pointer-events:none
+  }
+  .ad-rail-left{right:calc(100% + 14px)}
+  .ad-rail-right{left:calc(100% + 14px)}
+  .ad-rail>.ad-rail-slot{
+    position:sticky;
+    top:88px;
+    width:100%;
+    min-height:min(540px,calc(100vh - 116px));
+    margin:0;
+    padding:22px 13px;
+    pointer-events:auto;
+    border-color:#c7beb0a6;
+    background:
+      linear-gradient(160deg,#fffaf1de,#eee6d9c9),
+      repeating-linear-gradient(0deg,transparent 0,transparent 63px,#9d958812 64px);
+    box-shadow:0 13px 34px #302a2014
+  }
+  .ad-rail>.ad-rail-slot:after{top:50%;right:0;bottom:auto;left:0;width:auto;height:1px}
+  .ad-rail .ad-slot-house{gap:10px}
+  .ad-rail .ad-slot-house>span{font-size:6px;letter-spacing:.2em}
+  .ad-rail .ad-slot-house>strong{max-width:130px;font-size:15px;line-height:1.55}
+  .ad-rail .ad-slot-house>small{display:none}
+  .ad-rail .ad-slot-house>a{margin-top:8px;font-size:7px}
+  .reader.ad-rail-host>.reader-side>.ad-slot{display:none}
+}
+
+@media(max-width:700px){
+  .prose>.mid-ad-secondary{display:none!important}
+  .prose>.mid-ad-primary{margin-block:42px}
+}

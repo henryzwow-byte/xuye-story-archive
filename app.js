@@ -131,7 +131,9 @@ const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
 const adPublisherId = /^ca-pub-\d+$/.test(String(siteConfig.publisherId || "").trim()) ? String(siteConfig.publisherId).trim() : "";
 
 function adSlot(slotKey, format = "responsive", extraClass = "") {
-  const providerSlot = /^\d+$/.test(String(siteConfig.adSlots?.[slotKey] || "").trim()) ? String(siteConfig.adSlots[slotKey]).trim() : "";
+  const fallbackSlotKey = slotKey.replace(/-\d+$/, "");
+  const configuredSlot = String(siteConfig.adSlots?.[slotKey] || siteConfig.adSlots?.[fallbackSlotKey] || "").trim();
+  const providerSlot = /^\d+$/.test(configuredSlot) ? configuredSlot : "";
   const providerReady = siteConfig.adsEnabled === true && siteConfig.adProvider === "adsense" && adPublisherId && providerSlot;
   const className = ["ad-slot", `ad-${format}`, extraClass].filter(Boolean).join(" ");
   const providerData = providerReady ? ` data-provider-slot="${esc(providerSlot)}"` : "";
@@ -207,6 +209,17 @@ function cardsWithAd(items, slotKey, after = 6) {
   }).join("");
 }
 
+function initDesktopAdRails(pageType) {
+  if (!["story", "library"].includes(pageType) || !window.matchMedia("(min-width: 1540px)").matches) return;
+  const host = pageType === "story" ? document.querySelector("#reader") : document.querySelector(".public-library-layout");
+  if (!host || host.querySelector(".ad-rail")) return;
+  host.classList.add("ad-rail-host");
+  const rail = pageType === "story"
+    ? `<div class="ad-rail ad-rail-right" aria-hidden="false">${adSlot("railRight", "skyscraper", "ad-rail-slot")}</div>`
+    : `<div class="ad-rail ad-rail-left" aria-hidden="false">${adSlot("railLeft", "skyscraper", "ad-rail-slot")}</div>`;
+  host.insertAdjacentHTML("beforeend", rail);
+}
+
 function initPageAdvertising(pageType) {
   if (siteConfig.adLayoutEnabled === false) return;
   if (pageType === "home") {
@@ -227,6 +240,7 @@ function initPageAdvertising(pageType) {
   if (pageType === "story") document.querySelector("#reader")?.setAttribute("data-ad-plan", "reader");
   if (pageType === "analytics") insertAdAfter(document.querySelector(".analytics-state"), "analyticsTop", "leaderboard");
   if (pageType === "not-found") insertAdAfter(document.querySelector(".not-found"), "notFoundFooter", "compact", "page-ad");
+  initDesktopAdRails(pageType);
   activateProviderAds();
   initAdMeasurement();
 }
@@ -696,12 +710,23 @@ function initAnalyticsDashboard() {
 }
 
 function proseHtml(story) {
+  const content = story.content[lang];
+  const paragraphTotal = content.filter((paragraph) => !paragraph.startsWith("## ")).length;
+  const desiredBreaks = paragraphTotal < 12 ? 0 : Math.min(8, Math.max(1, Math.round(paragraphTotal / 80)));
+  const breakPoints = new Map();
+  for (let index = 1; index <= desiredBreaks; index += 1) {
+    const target = Math.round((paragraphTotal * index) / (desiredBreaks + 1));
+    if (target >= 7 && target <= paragraphTotal - 5) breakPoints.set(target, breakPoints.size + 1);
+  }
   let paragraphIndex = 0;
-  return story.content[lang].map((paragraph) => {
+  return content.map((paragraph) => {
     if (paragraph.startsWith("## ")) return `<h2>${esc(paragraph.slice(3))}</h2>`;
     paragraphIndex += 1;
     const paragraphHtml = `<p class="${paragraphIndex === 1 ? "dropcap" : ""}">${esc(paragraph)}</p>`;
-    return paragraphIndex === 7 ? `${paragraphHtml}${adSlot("storyInline", "inarticle", "mid-ad")}` : paragraphHtml;
+    const breakNumber = breakPoints.get(paragraphIndex);
+    if (!breakNumber) return paragraphHtml;
+    const mobilePriority = breakNumber % 2 === 0 ? "mid-ad-secondary" : "mid-ad-primary";
+    return `${paragraphHtml}${adSlot(`storyInline-${breakNumber}`, "inarticle", `mid-ad ${mobilePriority}`)}`;
   }).join("");
 }
 
