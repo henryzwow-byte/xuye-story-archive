@@ -214,6 +214,15 @@ body.ad-layout-enabled .ad-slot{display:grid}
 .story-index>.ad-slot{margin-top:0}
 .reader-ad{margin:30px 0 54px}
 .prose>.ad-slot{max-width:none;margin:48px 0;padding:26px}
+.prose>.story-inline-ad{
+  min-height:154px;
+  margin:46px 0 50px;
+  border-color:#c4bcaf;
+  background:
+    linear-gradient(105deg,#fffaf1f2,#eee7dac9),
+    repeating-linear-gradient(90deg,transparent 0,transparent 70px,#9d958815 71px);
+  box-shadow:0 12px 30px #302a2012
+}
 .reader-side>.ad-slot{margin:26px 0 0}
 .library-sidebar-ad{min-height:560px;margin:30px 0 0}
 .info>.ad-slot,.author-page>.ad-slot,.analytics-page>.ad-slot{margin:42px 0}
@@ -256,6 +265,12 @@ body.ad-layout-enabled .ad-slot{display:grid}
   .grid-ad{margin:2px 0 8px}
   .reader-ad{margin:24px 0 38px}
   .prose>.ad-slot{margin:38px 0;padding:22px 14px}
+  .prose>.story-inline-ad{
+    min-height:118px;
+    margin:34px 0 38px;
+    padding:18px 13px;
+    box-shadow:0 8px 20px #302a200f
+  }
   .reader-side>.ad-slot{display:none!important}
   .info>.ad-slot,.author-page>.ad-slot,.analytics-page>.ad-slot{margin:32px 0}
 }
@@ -304,6 +319,7 @@ body.ad-layout-enabled .ad-slot{display:grid}
 }
 
 @media(max-width:700px){
-  .prose>.mid-ad-secondary{display:none!important}
-  .prose>.mid-ad-primary{margin-block:42px}
+  .prose>.story-inline-ad .ad-slot-house>small{
+    max-width:310px
+  }
 }

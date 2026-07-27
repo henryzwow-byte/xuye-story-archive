@@ -761,11 +761,17 @@ function initAnalyticsDashboard() {
 
 function proseHtml(story, content = story.content[lang]) {
   const paragraphTotal = content.filter((paragraph) => !paragraph.startsWith("## ")).length;
-  const desiredBreaks = paragraphTotal < 10 ? 0 : Math.min(3, Math.max(1, Math.round(paragraphTotal / 80)));
+  const firstBreakAfter = 4;
+  const paragraphsBetweenAds = 8;
+  const paragraphsAfterLastAd = 3;
+  const maximumBreaks = 12;
   const breakPoints = new Map();
-  for (let index = 1; index <= desiredBreaks; index += 1) {
-    const target = Math.round((paragraphTotal * index) / (desiredBreaks + 1));
-    if (target >= 4 && target <= paragraphTotal - 3) breakPoints.set(target, breakPoints.size + 1);
+  for (
+    let target = firstBreakAfter;
+    target <= paragraphTotal - paragraphsAfterLastAd && breakPoints.size < maximumBreaks;
+    target += paragraphsBetweenAds
+  ) {
+    breakPoints.set(target, breakPoints.size + 1);
   }
   let paragraphIndex = 0;
   return content.map((paragraph) => {
@@ -774,8 +780,7 @@ function proseHtml(story, content = story.content[lang]) {
     const paragraphHtml = `<p class="${paragraphIndex === 1 ? "dropcap" : ""}">${esc(paragraph)}</p>`;
     const breakNumber = breakPoints.get(paragraphIndex);
     if (!breakNumber) return paragraphHtml;
-    const mobilePriority = breakNumber % 2 === 0 ? "mid-ad-secondary" : "mid-ad-primary";
-    return `${paragraphHtml}${adSlot(`storyInline-${breakNumber}`, "inarticle", `mid-ad ${mobilePriority}`)}`;
+    return `${paragraphHtml}${adSlot(`storyInline-${breakNumber}`, "inarticle", "mid-ad story-inline-ad")}`;
   }).join("");
 }
 
