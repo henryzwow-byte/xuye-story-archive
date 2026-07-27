@@ -30,6 +30,7 @@ window.STORY_SITE_CONFIG = {
     homeDiscovery: "",
     libraryTop: "",
     libraryInfeed: "",
+    librarySidebar: "",
     libraryFooter: "",
     storyTop: "",
     storyInline: "",

@@ -231,6 +231,10 @@ function initPageAdvertising(pageType) {
   if (pageType === "library") {
     const legacySlot = document.querySelector(".story-index > .ad-slot:not([data-ad-slot])");
     if (legacySlot) legacySlot.outerHTML = adSlot("libraryTop", "leaderboard");
+    const librarySidebar = document.querySelector(".public-library-layout > .folders");
+    if (librarySidebar && !librarySidebar.querySelector('[data-ad-slot="librarySidebar"]')) {
+      librarySidebar.insertAdjacentHTML("beforeend", adSlot("librarySidebar", "vertical", "library-sidebar-ad"));
+    }
     insertAdAfter(document.querySelector(".public-library-layout"), "libraryFooter", "responsive", "page-ad");
   }
   if (pageType === "author") insertAdAfter(document.querySelector(".author-profile"), "authorTop", "leaderboard");
