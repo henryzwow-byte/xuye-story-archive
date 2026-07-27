@@ -18,7 +18,7 @@ const copy = {
     statusTitle: "Your eight Word stories<br>are now organized here.",
     statusBody: "This free static site does not collect personal data. New stories can be added by replacing the story data file.", browseAll: "Browse all stories", archiveCount: "STORIES", archiveCountQuote: "When stories are kept, time finds its echo.",
     footerText: "An independent archive for fictional stories and serial continuations.", footerAbout: "About", footerPrivacy: "Privacy", footerTerms: "Terms", footerAds: "Advertising",
-    allStories: "All Stories", matched: "matching files", file: "FILE", complete: "COMPLETE", openFile: "Open file", imported: "Imported from Word", chapters: "sections",
+    allStories: "All Stories", matched: "matching files", file: "FILE", complete: "COMPLETE", openFile: "Open file", imported: "Imported from Word", chapters: "chapters",
     featured: "FEATURED FILE", readStory: "Read the full story", previousStory: "Previous story", nextStory: "Next story", carouselLabel: "Featured stories", storyPosition: "Story", backLibrary: "← Back to library", archive: "Story Archive",
     fictionNotice: "FICTION / CONTENT NOTICE", updated: "Archive file", readingTime: "Estimated reading", minutes: "min",
     adStory: "Story-page ad space · 728 × 90", adInline: "In-article ad space · responsive", adSide: "Sidebar ad space · 300 × 600",
@@ -76,7 +76,8 @@ Object.assign(copy.en, {
   businessContact: "Business contact", businessContactPending: "A public business email will be added before advertising is enabled.", advertisingInactive: "Advertising inventory is now reserved across the site. No third-party advertising is delivered until an approved provider and valid account details are connected.",
   advertisement: "ADVERTISEMENT", adHouseTitle: "A quiet space for a future partner", adHouseBody: "Clearly separated from the story, with no pop-ups, autoplay or interruption.", adPartner: "Advertising information",
   linkBuilderLabel: "FACEBOOK LINK BUILDER", linkBuilderTitle: "Create a trackable story link", linkBuilderIntro: "Give each Facebook post a short unique label so its traffic can be compared after GA4 is connected.", linkBuilderStory: "Story", linkBuilderCampaign: "Campaign", linkBuilderPost: "Post label", linkBuilderGenerate: "Generate link", linkBuilderCopy: "Copy generated link", linkBuilderCopied: "Tracking link copied",
-  notFoundTitle: "This file is not in the archive.", notFoundBody: "The address may be incomplete, or the story may have moved to another shelf.", notFoundLibrary: "Open the story library", notFoundHome: "Return home"
+  notFoundTitle: "This file is not in the archive.", notFoundBody: "The address may be incomplete, or the story may have moved to another shelf.", notFoundLibrary: "Open the story library", notFoundHome: "Return home",
+  chapterLabel: "CHAPTER", chapterOf: "of", chapterNavigation: "Story chapters", chooseChapter: "Choose a chapter", previousChapter: "Previous chapter", nextChapter: "Next chapter", continueChapter: "Continue to the next chapter", fullStory: "Full story", chapterComplete: "CHAPTER COMPLETE", chapterEndMessage: "This chapter is complete. Continue when you are ready.", chapterReadingTime: "This chapter", finalChapter: "FINAL CHAPTER", chapterProgressComplete: "This chapter is complete — the next page is ready."
 });
 
 Object.assign(copy.zh, {
@@ -101,7 +102,8 @@ Object.assign(copy.zh, {
   businessContact: "业务联系", businessContactPending: "广告正式启用前，这里会公布真实的业务邮箱。", advertisingInactive: "全站广告位已经预留。只有在通过平台审核并接入有效广告账户后，才会向读者加载第三方广告。",
   advertisement: "广告", adHouseTitle: "为未来合作伙伴保留的一席之地", adHouseBody: "与故事内容清晰分隔，不弹窗、不自动播放，也不中断阅读。", adPartner: "广告合作说明",
   linkBuilderLabel: "FACEBOOK 链接工具", linkBuilderTitle: "生成可追踪的故事链接", linkBuilderIntro: "为每一条 Facebook 帖子填写不同的简短标签，接通 GA4 后就能比较各帖子的引流效果。", linkBuilderStory: "故事", linkBuilderCampaign: "活动名称", linkBuilderPost: "帖子标签", linkBuilderGenerate: "生成链接", linkBuilderCopy: "复制生成的链接", linkBuilderCopied: "追踪链接已复制",
-  notFoundTitle: "这份档案不在故事库中。", notFoundBody: "链接可能不完整，或者故事已经被移到另一层书架。", notFoundLibrary: "打开故事库", notFoundHome: "返回首页"
+  notFoundTitle: "这份档案不在故事库中。", notFoundBody: "链接可能不完整，或者故事已经被移到另一层书架。", notFoundLibrary: "打开故事库", notFoundHome: "返回首页",
+  chapterLabel: "章节", chapterOf: "共", chapterNavigation: "故事章节", chooseChapter: "选择章节", previousChapter: "上一章", nextChapter: "下一章", continueChapter: "翻到下一章", fullStory: "全文", chapterComplete: "本章读完", chapterEndMessage: "这一章已经读完，准备好后继续下一章。", chapterReadingTime: "本章阅读", finalChapter: "最终章", chapterProgressComplete: "本章已读完，下一页已经为你准备好。"
 });
 
 const editorialPicks = new Set(["the-broken-home", "the-logic-of-a-beast-in-the-mire", "the-tattered-toy-in-the-rain"]);
@@ -346,23 +348,67 @@ function translateStaticPage() {
   document.querySelectorAll("a.info-link, a.home-link, a.localized-link").forEach((link) => { link.href = localizedHref(link.getAttribute("href")); });
 }
 
+function chapterUrl(story, chapterIndex = 0, preserveTracking = false) {
+  const query = new URLSearchParams();
+  query.set("lang", lang);
+  query.set("chapter", String(chapterIndex + 1));
+  if (preserveTracking) {
+    params.forEach((value, key) => {
+      if (key.startsWith("utm_")) query.set(key, value);
+    });
+  }
+  return `story-${encodeURIComponent(story.slug)}.html?${query.toString()}`;
+}
+
 function storyUrl(story) {
-  return `story-${encodeURIComponent(story.slug)}.html?lang=${lang}`;
+  return chapterUrl(story, 0);
 }
 
 function categoryKey(story) {
   return story.category.en;
 }
 
+function inferredChapterTitle(chapters, index, targetLanguage) {
+  if (chapters.length === 1) return targetLanguage === "zh" ? copy.zh.fullStory : copy.en.fullStory;
+  const nextTitle = chapters[index + 1]?.title || "";
+  if (index === 0 && targetLanguage === "zh" && /第二部分/.test(nextTitle)) return "第一章 — 第一部分";
+  if (index === 0 && targetLanguage === "en" && /Part (Two|2)/i.test(nextTitle)) return "Chapter One — Part One";
+  return targetLanguage === "zh" ? `第 ${index + 1} 章` : `Chapter ${index + 1}`;
+}
+
+function storyChapters(story, targetLanguage = lang) {
+  const content = story.content?.[targetLanguage] || story.content?.en || story.content?.zh || [];
+  const chapters = [];
+  let current = null;
+  content.forEach((paragraph) => {
+    if (paragraph.startsWith("## ")) {
+      if (current && (current.title || current.paragraphs.length)) chapters.push(current);
+      current = { title: paragraph.slice(3).trim(), paragraphs: [] };
+      return;
+    }
+    if (!current) current = { title: "", paragraphs: [] };
+    current.paragraphs.push(paragraph);
+  });
+  if (current && (current.title || current.paragraphs.length)) chapters.push(current);
+  if (!chapters.length) chapters.push({ title: "", paragraphs: [] });
+  return chapters.map((chapter, index) => ({
+    title: chapter.title || inferredChapterTitle(chapters, index, targetLanguage),
+    paragraphs: chapter.paragraphs
+  }));
+}
+
 function chapterCount(story) {
-  const headings = story.content[lang].filter((paragraph) => paragraph.startsWith("## ")).length;
-  return headings || 1;
+  return storyChapters(story).length;
+}
+
+function readingMinutesForContent(content, targetLanguage = lang) {
+  const text = content.join(" ");
+  const units = targetLanguage === "zh" ? text.replace(/\s/g, "").length : text.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(units / (targetLanguage === "zh" ? 420 : 220)));
 }
 
 function readingMinutes(story) {
-  const text = story.content[lang].join(" ");
-  const units = lang === "zh" ? text.replace(/\s/g, "").length : text.trim().split(/\s+/).length;
-  return Math.max(2, Math.ceil(units / (lang === "zh" ? 420 : 220)));
+  return readingMinutesForContent(story.content[lang]);
 }
 
 function formatDate(value) {
@@ -709,14 +755,13 @@ function initAnalyticsDashboard() {
   });
 }
 
-function proseHtml(story) {
-  const content = story.content[lang];
+function proseHtml(story, content = story.content[lang]) {
   const paragraphTotal = content.filter((paragraph) => !paragraph.startsWith("## ")).length;
-  const desiredBreaks = paragraphTotal < 12 ? 0 : Math.min(8, Math.max(1, Math.round(paragraphTotal / 80)));
+  const desiredBreaks = paragraphTotal < 10 ? 0 : Math.min(3, Math.max(1, Math.round(paragraphTotal / 80)));
   const breakPoints = new Map();
   for (let index = 1; index <= desiredBreaks; index += 1) {
     const target = Math.round((paragraphTotal * index) / (desiredBreaks + 1));
-    if (target >= 7 && target <= paragraphTotal - 5) breakPoints.set(target, breakPoints.size + 1);
+    if (target >= 4 && target <= paragraphTotal - 3) breakPoints.set(target, breakPoints.size + 1);
   }
   let paragraphIndex = 0;
   return content.map((paragraph) => {
@@ -730,16 +775,17 @@ function proseHtml(story) {
   }).join("");
 }
 
-function updateDocumentMetadata(story) {
-  const canonicalUrl = new URL(`story-${story.slug}.html`, location.href).href;
+function updateDocumentMetadata(story, chapter, chapterIndex, totalChapters) {
+  const canonicalUrl = new URL(chapterUrl(story, chapterIndex), location.href).href;
+  const pageTitle = totalChapters > 1 ? `${chapter.title} — ${local(story.title)}` : local(story.title);
   const setters = [
     ['meta[name="description"]', local(story.summary)],
-    ['meta[property="og:title"]', shareCopy(story, "title")],
+    ['meta[property="og:title"]', pageTitle],
     ['meta[property="og:description"]', shareCopy(story, "description")],
     ['meta[property="og:url"]', canonicalUrl],
     ['meta[property="og:image"]', socialImageUrl(story)],
     ['meta[property="og:locale"]', lang === "zh" ? "zh_CN" : "en_US"],
-    ['meta[name="twitter:title"]', shareCopy(story, "title")],
+    ['meta[name="twitter:title"]', pageTitle],
     ['meta[name="twitter:description"]', shareCopy(story, "description")],
     ['meta[name="twitter:image"]', socialImageUrl(story)]
   ];
@@ -747,16 +793,20 @@ function updateDocumentMetadata(story) {
     const element = document.querySelector(selector);
     if (element && value) element.content = value;
   });
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.href = canonicalUrl;
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: local(story.title),
+    headline: pageTitle,
     description: local(story.summary),
     image: [socialImageUrl(story)],
     datePublished: story.published,
     dateModified: story.modified || "2026-07-22",
     inLanguage: lang === "zh" ? "zh-CN" : "en",
     articleSection: local(story.category),
+    position: chapterIndex + 1,
+    isPartOf: { "@type": "CreativeWork", name: local(story.title) },
     mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
     author: { "@type": "Organization", name: "Story Archive", url: new URL("./", location.href).href }
   };
@@ -768,15 +818,29 @@ function updateDocumentMetadata(story) {
     document.head.appendChild(schema);
   }
   schema.textContent = JSON.stringify(structuredData).replace(/</g, "\\u003c");
+  [["prev", chapterIndex - 1], ["next", chapterIndex + 1]].forEach(([relation, index]) => {
+    let link = document.querySelector(`link[rel="${relation}"]`);
+    if (index < 0 || index >= totalChapters) {
+      link?.remove();
+      return;
+    }
+    if (!link) {
+      link = document.createElement("link");
+      link.rel = relation;
+      document.head.appendChild(link);
+    }
+    link.href = new URL(chapterUrl(story, index), location.href).href;
+  });
 }
 
-function initShareActions(story) {
+function initShareActions(story, chapterIndex) {
   const facebook = document.querySelector("#share-facebook");
   const copyButton = document.querySelector("#copy-story-link");
   const shareUrl = new URL(`story-${story.slug}.html`, location.href);
   shareUrl.searchParams.set("lang", lang);
+  shareUrl.searchParams.set("chapter", String(chapterIndex + 1));
   if (facebook) facebook.addEventListener("click", () => {
-    window.StoryAnalytics?.track("share_click", { story_slug: story.slug, file_no: story.fileNo, method: "facebook" });
+    window.StoryAnalytics?.track("share_click", { story_slug: story.slug, file_no: story.fileNo, chapter_number: chapterIndex + 1, method: "facebook" });
     const facebookUrl = new URL(shareUrl.href);
     facebookUrl.searchParams.set("utm_source", "facebook");
     facebookUrl.searchParams.set("utm_medium", "social");
@@ -786,7 +850,7 @@ function initShareActions(story) {
     window.open(target, "facebook-share", "popup=yes,width=690,height=620,noopener,noreferrer");
   });
   if (copyButton) copyButton.addEventListener("click", async () => {
-    window.StoryAnalytics?.track("share_click", { story_slug: story.slug, file_no: story.fileNo, method: "copy_link" });
+    window.StoryAnalytics?.track("share_click", { story_slug: story.slug, file_no: story.fileNo, chapter_number: chapterIndex + 1, method: "copy_link" });
     try {
       if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(shareUrl.href);
       else {
@@ -808,9 +872,18 @@ function initShareActions(story) {
   });
 }
 
-function updateReadingHistory(story, ratio = 0) {
-  const history = readingHistory().filter((item) => item.slug !== story.slug);
-  history.unshift({ slug: story.slug, ratio: Math.max(0, Math.min(1, ratio)), updatedAt: new Date().toISOString() });
+function updateReadingHistory(story, ratio = 0, chapterIndex = 0, totalChapters = 1) {
+  const allHistory = readingHistory();
+  const previous = allHistory.find((item) => item.slug === story.slug);
+  const history = allHistory.filter((item) => item.slug !== story.slug);
+  const normalizedRatio = Math.max(0, Math.min(1, ratio));
+  history.unshift({
+    slug: story.slug,
+    ratio: Math.max(Number(previous?.ratio) || 0, normalizedRatio),
+    chapter: Math.max(1, Math.min(totalChapters, chapterIndex + 1)),
+    totalChapters,
+    updatedAt: new Date().toISOString()
+  });
   writeStorage("story-history-v1", history.slice(0, 40));
 }
 
@@ -855,7 +928,7 @@ function initIllustrationViewer(story) {
   });
 }
 
-function initReadingExperience(story) {
+function initReadingExperience(story, chapterIndex, totalChapters) {
   const prose = document.querySelector(".prose");
   const prompt = document.querySelector("#resume-reading");
   const continueButton = document.querySelector("#continue-reading");
@@ -877,7 +950,7 @@ function initReadingExperience(story) {
   const progressFigure = progress.querySelector(".reading-progress-figure");
   const progressComplete = progress.querySelector(".reading-progress-complete");
 
-  const key = `story-reading-${story.slug}`;
+  const key = `story-reading-${story.slug}-chapter-${chapterIndex + 1}`;
   let saved = null;
   try { saved = JSON.parse(localStorage.getItem(key) || "null"); } catch {}
   if (prompt && saved?.ratio > 0.04 && saved.ratio < 0.97) {
@@ -911,14 +984,14 @@ function initReadingExperience(story) {
     progressFigure.style.left = `${Math.max(1, Math.min(99, percent))}%`;
     const complete = ratio >= 0.98;
     progress.classList.toggle("is-complete", complete);
-    progressComplete.textContent = complete ? t("progressComplete") : "";
+    progressComplete.textContent = complete ? (chapterIndex === totalChapters - 1 ? t("progressComplete") : t("chapterProgressComplete")) : "";
     progress.setAttribute("aria-valuenow", String(percent));
     progress.setAttribute("aria-valuetext", `${percent}% · ${complete ? t("progressComplete") : t("progressBlessing")}`);
     const milestonePercent = complete ? 100 : percent;
     milestones.forEach((milestone) => {
       if (milestonePercent >= milestone && !reached.has(milestone)) {
         reached.add(milestone);
-        window.StoryAnalytics?.track("reading_milestone", { story_slug: story.slug, file_no: story.fileNo, percent: milestone });
+        window.StoryAnalytics?.track("reading_milestone", { story_slug: story.slug, file_no: story.fileNo, chapter_number: chapterIndex + 1, chapter_count: totalChapters, percent: milestone });
       }
     });
     if (save && Date.now() - lastStoredAt > 450) {
@@ -927,7 +1000,7 @@ function initReadingExperience(story) {
         if (ratio >= 0.98) localStorage.removeItem(key);
         else if (ratio > 0.025) localStorage.setItem(key, JSON.stringify({ ratio, updatedAt: new Date().toISOString() }));
       } catch {}
-      updateReadingHistory(story, ratio);
+      updateReadingHistory(story, (chapterIndex + ratio) / totalChapters, chapterIndex, totalChapters);
     }
     ticking = false;
   }
@@ -948,7 +1021,7 @@ function initReadingExperience(story) {
     update(true);
     if (visibleStartedAt) activeMilliseconds += Date.now() - visibleStartedAt;
     const activeSeconds = Math.max(1, Math.round(activeMilliseconds / 1000));
-    window.StoryAnalytics?.track("reading_time", { story_slug: story.slug, file_no: story.fileNo, active_seconds: activeSeconds, elapsed_seconds: Math.round((Date.now() - startedAt) / 1000), completion_percent: Math.round(currentRatio() * 100) });
+    window.StoryAnalytics?.track("reading_time", { story_slug: story.slug, file_no: story.fileNo, chapter_number: chapterIndex + 1, chapter_count: totalChapters, active_seconds: activeSeconds, elapsed_seconds: Math.round((Date.now() - startedAt) / 1000), completion_percent: Math.round(currentRatio() * 100) });
   });
 
   if (continueButton) continueButton.addEventListener("click", () => {
@@ -967,6 +1040,36 @@ function initReadingExperience(story) {
   update(false);
 }
 
+function chapterNavigationHtml(story, chapters, chapterIndex, placement) {
+  const total = chapters.length;
+  const current = chapters[chapterIndex];
+  const progress = Math.round(((chapterIndex + 1) / total) * 100);
+  const options = chapters.map((chapter, index) => `<option value="${esc(chapterUrl(story, index, true))}" ${index === chapterIndex ? "selected" : ""}>${String(index + 1).padStart(2, "0")} · ${esc(chapter.title)}</option>`).join("");
+  const previous = chapterIndex > 0
+    ? `<a class="chapter-turn-link chapter-turn-previous" href="${esc(chapterUrl(story, chapterIndex - 1, true))}"><span>← ${esc(t("previousChapter"))}</span><b>${esc(chapters[chapterIndex - 1].title)}</b></a>`
+    : `<span class="chapter-turn-link chapter-turn-previous is-disabled" aria-hidden="true"><span>← ${esc(t("previousChapter"))}</span><b>—</b></span>`;
+  const next = chapterIndex < total - 1
+    ? `<a class="chapter-turn-link chapter-turn-next" href="${esc(chapterUrl(story, chapterIndex + 1, true))}"><span>${esc(t("nextChapter"))} →</span><b>${esc(chapters[chapterIndex + 1].title)}</b></a>`
+    : `<span class="chapter-turn-link chapter-turn-next is-disabled" aria-hidden="true"><span>${esc(t("nextChapter"))} →</span><b>—</b></span>`;
+  return `<nav class="chapter-navigation chapter-navigation-${esc(placement)}" aria-label="${esc(t("chapterNavigation"))}">
+    <div class="chapter-navigation-head">
+      <div class="chapter-position"><span>${esc(chapterIndex === total - 1 ? t("finalChapter") : t("chapterLabel"))}</span><strong>${String(chapterIndex + 1).padStart(2, "0")} <i>/ ${String(total).padStart(2, "0")}</i></strong></div>
+      <label class="chapter-select-label"><span>${esc(t("chooseChapter"))}</span><select class="chapter-select" aria-label="${esc(t("chooseChapter"))}">${options}</select></label>
+    </div>
+    <div class="chapter-navigation-track" aria-hidden="true"><i style="width:${progress}%"></i></div>
+    <div class="chapter-turn">${previous}${next}</div>
+    <span class="sr-only">${esc(current.title)}</span>
+  </nav>`;
+}
+
+function initChapterNavigation() {
+  document.querySelectorAll(".chapter-select").forEach((select) => {
+    select.addEventListener("change", () => {
+      if (select.value) location.href = select.value;
+    });
+  });
+}
+
 function initStory() {
   const slug = document.body.dataset.slug || params.get("slug") || stories[0]?.slug;
   const story = stories.find((item) => item.slug === slug) || stories[0];
@@ -975,22 +1078,49 @@ function initStory() {
     reader.innerHTML = `<p>${esc(t("emptyTitle"))}</p>`;
     return;
   }
-  document.title = `${local(story.title)} — Story Archive`;
-  updateDocumentMetadata(story);
-  const storyIllustration = story.cover ? `<figure class="story-illustration"><button type="button" class="story-illustration-image" id="view-story-illustration" aria-label="${esc(t("viewIllustration"))}"><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}" width="960" height="640" loading="eager" decoding="async" fetchpriority="high"><div class="story-illustration-overlay"><span>${esc(t("file"))} ${esc(story.fileNo)} · ${esc(local(story.category))}</span><blockquote>${esc(shareCopy(story, "description"))}</blockquote><b>${esc(t("viewIllustration"))} ↗</b></div></button><figcaption><span>${esc(t("storyIllustration"))}</span><b>${esc(formatDate(story.published))} · ${esc(story.fileNo)}</b></figcaption></figure>` : "";
+  const chapters = storyChapters(story);
+  const requestedChapter = Number.parseInt(params.get("chapter") || "1", 10);
+  const chapterIndex = Math.max(0, Math.min(chapters.length - 1, Number.isFinite(requestedChapter) ? requestedChapter - 1 : 0));
+  const chapter = chapters[chapterIndex];
+  if (params.get("chapter") !== String(chapterIndex + 1)) {
+    const normalizedUrl = new URL(location.href);
+    normalizedUrl.searchParams.set("chapter", String(chapterIndex + 1));
+    history.replaceState({}, "", normalizedUrl);
+  }
+  const isFirstChapter = chapterIndex === 0;
+  const isFinalChapter = chapterIndex === chapters.length - 1;
+  document.title = `${chapters.length > 1 ? `${chapter.title} — ` : ""}${local(story.title)} — Story Archive`;
+  updateDocumentMetadata(story, chapter, chapterIndex, chapters.length);
+  const storyIllustration = isFirstChapter && story.cover ? `<figure class="story-illustration"><button type="button" class="story-illustration-image" id="view-story-illustration" aria-label="${esc(t("viewIllustration"))}"><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}" width="960" height="640" loading="eager" decoding="async" fetchpriority="high"><div class="story-illustration-overlay"><span>${esc(t("file"))} ${esc(story.fileNo)} · ${esc(local(story.category))}</span><blockquote>${esc(shareCopy(story, "description"))}</blockquote><b>${esc(t("viewIllustration"))} ↗</b></div></button><figcaption><span>${esc(t("storyIllustration"))}</span><b>${esc(formatDate(story.published))} · ${esc(story.fileNo)}</b></figcaption></figure>` : "";
   const resumePrompt = `<aside class="resume-reading" id="resume-reading" hidden><div><b>${esc(t("resumeTitle"))}</b><span>${esc(t("resumePosition"))}: <strong data-resume-percent>0%</strong></span></div><div><button type="button" id="continue-reading">${esc(t("continueReading"))}</button><button type="button" class="text-button" id="restart-reading">${esc(t("startOver"))}</button></div></aside>`;
   const shareActions = `<div class="story-share"><span>${esc(t("shareStory"))}</span><div><button type="button" id="bookmark-story" class="bookmark-story" aria-pressed="false"></button><button type="button" id="share-facebook">f&nbsp; ${esc(t("shareFacebook"))}</button><button type="button" id="copy-story-link">↗&nbsp; ${esc(t("copyLink"))}</button></div></div>`;
   const related = [...stories].filter((item) => item.slug !== story.slug).sort((a, b) => Number(categoryKey(b) === categoryKey(story)) - Number(categoryKey(a) === categoryKey(story)) || Number(b.editorPick) - Number(a.editorPick) || a.fileNo.localeCompare(b.fileNo)).slice(0, 3);
   const relatedHtml = `<section class="related-stories"><div class="section-label">${esc(t("relatedLabel"))}</div><div class="related-head"><h2>${esc(t("relatedTitle"))}</h2><a href="library.html?lang=${lang}">${esc(t("viewAll"))} →</a></div><div class="story-grid">${related.map(storyCard).join("")}</div></section>`;
   const tags = storyTags(story).map((tag) => `<a href="${tagUrl(tag)}">#${esc(tag)}</a>`).join("");
   const storyMeta = `<div class="story-taxonomy"><span>${esc(t("byAuthor"))} <a href="author.html?lang=${lang}">${esc(local(story.author))}</a></span><span>${esc(t("seriesLabel"))}: ${esc(story.series ? local(story.series) : t("standalone"))}</span><div>${tags}</div></div>`;
-  reader.innerHTML = `<article class="reader-main"><nav class="breadcrumb"><a href="library.html?lang=${lang}">${esc(t("archive"))}</a><span>/</span><a href="${categoryUrl(story)}">${esc(local(story.category))}</a><span>/</span><b>${esc(story.fileNo)}</b></nav><header class="article-head"><div class="article-label"><span>${story.isNew ? esc(t("newFile")) : esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("published"))}: ${esc(formatDate(story.published))}</span><span>${chapterCount(story)} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div>${storyMeta}<div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>${resumePrompt}${storyIllustration}${shareActions}${adSlot("storyTop", "leaderboard", "reader-ad")}<div class="prose">${proseHtml(story)}</div><div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="library.html?lang=${lang}">${esc(t("moreStories"))}</a></div>${relatedHtml}</article><aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(local(story.category))}</p></div>${adSlot("storySidebar", "vertical", "tall-ad")}</aside>`;
-  updateReadingHistory(story, readStorage(`story-reading-${story.slug}`, {}).ratio || 0);
-  window.StoryAnalytics?.track("story_view", { story_slug: story.slug, file_no: story.fileNo, story_title: local(story.title), story_category: local(story.category), editor_pick: Boolean(story.editorPick) });
-  initShareActions(story);
+  const topNavigation = chapterNavigationHtml(story, chapters, chapterIndex, "top");
+  const bottomNavigation = chapterNavigationHtml(story, chapters, chapterIndex, "bottom");
+  const chapterFinish = isFinalChapter
+    ? `<div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="library.html?lang=${lang}">${esc(t("moreStories"))}</a></div>`
+    : `<div class="chapter-end chapter-continue"><span>${esc(t("chapterComplete"))}</span><h2>${esc(chapters[chapterIndex + 1].title)}</h2><p>${esc(t("chapterEndMessage"))}</p><a href="${esc(chapterUrl(story, chapterIndex + 1, true))}">${esc(t("continueChapter"))} →</a></div>`;
+  reader.innerHTML = `<article class="reader-main">
+    <nav class="breadcrumb"><a href="library.html?lang=${lang}">${esc(t("archive"))}</a><span>/</span><a href="${categoryUrl(story)}">${esc(local(story.category))}</a><span>/</span><b>${esc(story.fileNo)}</b><span>/</span><b>${String(chapterIndex + 1).padStart(2, "0")}</b></nav>
+    <header class="article-head ${isFirstChapter ? "" : "article-head-continuation"}"><div class="article-label"><span>${story.isNew ? esc(t("newFile")) : esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("published"))}: ${esc(formatDate(story.published))}</span><span>${chapters.length} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div>${storyMeta}<div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>
+    ${resumePrompt}${storyIllustration}${shareActions}${topNavigation}
+    <header class="chapter-page-head"><span>${esc(t("chapterLabel"))} ${String(chapterIndex + 1).padStart(2, "0")} / ${String(chapters.length).padStart(2, "0")}</span><h2>${esc(chapter.title)}</h2><p>${esc(t("chapterReadingTime"))} · ${readingMinutesForContent(chapter.paragraphs)} ${esc(t("minutes"))}</p></header>
+    ${adSlot("storyTop", "leaderboard", "reader-ad")}
+    <div class="prose">${proseHtml(story, chapter.paragraphs)}</div>
+    ${bottomNavigation}${chapterFinish}${isFinalChapter ? relatedHtml : ""}
+  </article>
+  <aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(t("chapterLabel"))} ${chapterIndex + 1} / ${chapters.length}<br>${esc(chapter.title)}</p></div>${adSlot("storySidebar", "vertical", "tall-ad")}</aside>`;
+  const savedChapter = readStorage(`story-reading-${story.slug}-chapter-${chapterIndex + 1}`, {});
+  updateReadingHistory(story, (chapterIndex + (savedChapter.ratio || 0)) / chapters.length, chapterIndex, chapters.length);
+  window.StoryAnalytics?.track("story_view", { story_slug: story.slug, file_no: story.fileNo, story_title: local(story.title), story_category: local(story.category), chapter_number: chapterIndex + 1, chapter_count: chapters.length, chapter_title: chapter.title, editor_pick: Boolean(story.editorPick) });
+  initShareActions(story, chapterIndex);
   initBookmark(story);
   initIllustrationViewer(story);
-  initReadingExperience(story);
+  initChapterNavigation();
+  initReadingExperience(story, chapterIndex, chapters.length);
 }
 
 const infoPages = {

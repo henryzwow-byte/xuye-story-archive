@@ -86,6 +86,60 @@
 @media(max-width:900px){.analytics-cards{grid-template-columns:repeat(3,1fr)}.analytics-source-section ul{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.analytics-page{padding-top:42px}.analytics-state{align-items:flex-start}.analytics-section-head{align-items:flex-start;flex-direction:column;gap:16px}.analytics-cards{grid-template-columns:1fr 1fr}.analytics-source-section ul{grid-template-columns:1fr}}
 @media(max-width:700px){body[data-page="author"] .site-header,body[data-page="analytics"] .site-header{position:relative;height:auto;min-height:110px;padding:14px 0 42px}body[data-page="author"] .header-actions .back,body[data-page="analytics"] .header-actions .back{position:absolute;right:0;bottom:0;left:0;display:block;padding:10px 0;border-top:1px solid var(--line);font-size:10px;text-align:left}}
+
+/* Chapter pagination */
+.article-head-continuation{padding-bottom:8px}
+.chapter-navigation{margin:28px 0 38px;border:1px solid #c9c2b5;background:linear-gradient(135deg,#fbf7ed 0%,#f0eadf 100%);box-shadow:7px 8px 0 #d9d2c5}
+.chapter-navigation-head{display:flex;align-items:flex-end;justify-content:space-between;gap:28px;padding:20px 22px 17px}
+.chapter-position{display:grid;gap:6px}
+.chapter-position>span,.chapter-select-label>span{color:var(--rust);font:700 8px/1 "Courier New",monospace;letter-spacing:.15em;text-transform:uppercase}
+.chapter-position strong{color:var(--ink);font:500 27px/1 Georgia,"Noto Serif SC",serif}
+.chapter-position strong i{color:#8a8d88;font:400 11px/1 "Courier New",monospace;letter-spacing:.08em}
+.chapter-select-label{min-width:min(360px,56%);display:grid;gap:7px}
+.chapter-select{width:100%;height:42px;padding:0 38px 0 12px;border:1px solid #bdb6aa;border-radius:0;background:#fffaf1;color:var(--ink);font:500 12px/1.3 Georgia,"Noto Serif SC",serif;cursor:pointer}
+.chapter-select:focus{outline:2px solid #c55438;outline-offset:2px}
+.chapter-navigation-track{height:3px;background:#d8d0c3}
+.chapter-navigation-track i{display:block;height:100%;background:linear-gradient(90deg,#963d2c,var(--rust));transition:width .25s ease}
+.chapter-turn{display:grid;grid-template-columns:1fr 1fr}
+.chapter-turn-link{min-width:0;min-height:76px;display:flex;flex-direction:column;justify-content:center;gap:7px;padding:15px 22px;color:var(--ink);transition:background .2s ease,color .2s ease}
+.chapter-turn-link+ .chapter-turn-link{border-left:1px solid #d1c9bc}
+.chapter-turn-link>span{color:var(--rust);font:700 8px/1 "Courier New",monospace;letter-spacing:.1em;text-transform:uppercase}
+.chapter-turn-link>b{overflow:hidden;font:500 14px/1.35 Georgia,"Noto Serif SC",serif;text-overflow:ellipsis;white-space:nowrap}
+.chapter-turn-next{text-align:right;align-items:flex-end}
+a.chapter-turn-link:hover{background:var(--ink);color:#fff}
+a.chapter-turn-link:hover>span{color:#e49b82}
+.chapter-turn-link.is-disabled{opacity:.34}
+.chapter-navigation-bottom{margin-top:64px}
+.chapter-page-head{position:relative;margin:50px 0 28px;padding:0 0 22px;border-bottom:1px solid var(--line)}
+.chapter-page-head:before{content:"";position:absolute;bottom:-1px;left:0;width:72px;height:2px;background:var(--rust)}
+.chapter-page-head>span{color:var(--rust);font:700 8px/1 "Courier New",monospace;letter-spacing:.17em;text-transform:uppercase}
+.chapter-page-head h2{max-width:760px;margin:12px 0 10px;font:500 clamp(30px,4vw,46px)/1.18 Georgia,"Noto Serif SC",serif}
+.chapter-page-head p{margin:0;color:#858984;font:8px/1.5 "Courier New",monospace;letter-spacing:.1em;text-transform:uppercase}
+.chapter-page-head+.reader-ad{margin-top:0}
+.chapter-continue{background:#eee7da}
+.chapter-continue>span{color:var(--rust)}
+.chapter-continue>a{display:inline-block;margin-top:5px}
+
+@media(max-width:700px){
+  .article-head-continuation{padding-top:25px}
+  .chapter-navigation{margin:22px 0 32px;box-shadow:5px 6px 0 #d9d2c5}
+  .chapter-navigation-head{align-items:stretch;flex-direction:column;gap:16px;padding:17px 16px 15px}
+  .chapter-position{grid-template-columns:1fr auto;align-items:end}
+  .chapter-position strong{font-size:23px}
+  .chapter-select-label{min-width:0;width:100%}
+  .chapter-select{height:46px;font-size:13px}
+  .chapter-turn-link{min-height:84px;padding:13px 14px}
+  .chapter-turn-link>b{display:-webkit-box;overflow:hidden;font-size:12px;white-space:normal;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+  .chapter-navigation-bottom{margin-top:48px}
+  .chapter-page-head{margin:38px 0 22px}
+  .chapter-page-head h2{font-size:30px;line-height:1.24}
+}
+
+@media(max-width:390px){
+  .chapter-turn{grid-template-columns:1fr}
+  .chapter-turn-link+ .chapter-turn-link{border-top:1px solid #d1c9bc;border-left:0}
+  .chapter-turn-link.is-disabled{display:none}
+}
 @media(max-width:360px){.theme-grid{grid-template-columns:1fr}.analytics-cards{grid-template-columns:1fr}}
 
 /* Sitewide advertising inventory
