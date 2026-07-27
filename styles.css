@@ -219,7 +219,6 @@ body.ad-layout-enabled .ad-slot{display:grid}
 .info>.ad-slot,.author-page>.ad-slot,.analytics-page>.ad-slot{margin:42px 0}
 
 @media(min-width:981px){
-  .library-sidebar-ad,.reader-side>.ad-slot{position:sticky;top:52px}
   .reader-side>.ad-slot{min-height:520px}
 }
 
@@ -276,8 +275,6 @@ body.ad-layout-enabled .ad-slot{display:grid}
   .ad-rail-left{right:calc(100% + 14px)}
   .ad-rail-right{left:calc(100% + 14px)}
   .ad-rail>.ad-rail-slot{
-    position:sticky;
-    top:88px;
     width:100%;
     min-height:min(540px,calc(100vh - 116px));
     margin:0;
