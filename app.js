@@ -1104,7 +1104,7 @@ function initStory() {
   const storyMeta = `<div class="story-taxonomy"><span>${esc(t("byAuthor"))} <a href="author.html?lang=${lang}">${esc(local(story.author))}</a></span><span>${esc(t("seriesLabel"))}: ${esc(story.series ? local(story.series) : t("standalone"))}</span><div>${tags}</div></div>`;
   const topNavigation = chapterNavigationHtml(story, chapters, chapterIndex, "top");
   const bottomNavigation = chapterNavigationHtml(story, chapters, chapterIndex, "bottom");
-  const additionalSidebarAdCount = Math.min(6, Math.max(0, Math.ceil((chapter.paragraphs.length - 5) / 16)));
+  const additionalSidebarAdCount = Math.min(6, Math.max(2, Math.ceil((chapter.paragraphs.length - 5) / 16)));
   const sidebarAds = [
     adSlot("storySidebar", "vertical", "tall-ad story-sidebar-ad-primary"),
     ...Array.from({ length: additionalSidebarAdCount }, (_, index) => adSlot(`storySidebar-${index + 2}`, "vertical", "tall-ad story-sidebar-ad-secondary"))
