@@ -1104,6 +1104,11 @@ function initStory() {
   const storyMeta = `<div class="story-taxonomy"><span>${esc(t("byAuthor"))} <a href="author.html?lang=${lang}">${esc(local(story.author))}</a></span><span>${esc(t("seriesLabel"))}: ${esc(story.series ? local(story.series) : t("standalone"))}</span><div>${tags}</div></div>`;
   const topNavigation = chapterNavigationHtml(story, chapters, chapterIndex, "top");
   const bottomNavigation = chapterNavigationHtml(story, chapters, chapterIndex, "bottom");
+  const additionalSidebarAdCount = Math.min(6, Math.max(0, Math.ceil((chapter.paragraphs.length - 5) / 16)));
+  const sidebarAds = [
+    adSlot("storySidebar", "vertical", "tall-ad story-sidebar-ad-primary"),
+    ...Array.from({ length: additionalSidebarAdCount }, (_, index) => adSlot(`storySidebar-${index + 2}`, "vertical", "tall-ad story-sidebar-ad-secondary"))
+  ].join("");
   const chapterFinish = isFinalChapter
     ? `<div class="chapter-end"><span>${esc(t("fileComplete"))}</span><h2>${esc(local(story.title))}</h2><p>${esc(t("endMessage"))}</p><a href="library.html?lang=${lang}">${esc(t("moreStories"))}</a></div>`
     : `<div class="chapter-end chapter-continue"><span>${esc(t("chapterComplete"))}</span><h2>${esc(chapters[chapterIndex + 1].title)}</h2><p>${esc(t("chapterEndMessage"))}</p><a href="${esc(chapterUrl(story, chapterIndex + 1, true))}">${esc(t("continueChapter"))} →</a></div>`;
@@ -1116,7 +1121,7 @@ function initStory() {
     <div class="prose">${proseHtml(story, chapter.paragraphs)}</div>
     ${bottomNavigation}${chapterFinish}${isFinalChapter ? relatedHtml : ""}
   </article>
-  <aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(t("chapterLabel"))} ${chapterIndex + 1} / ${chapters.length}<br>${esc(chapter.title)}</p></div>${adSlot("storySidebar", "vertical", "tall-ad")}</aside>`;
+  <aside class="reader-side"><div class="reading-card"><span>${esc(t("currentFile"))}</span><strong>${esc(story.fileNo)}</strong><p>${esc(t("chapterLabel"))} ${chapterIndex + 1} / ${chapters.length}<br>${esc(chapter.title)}</p></div>${sidebarAds}</aside>`;
   const savedChapter = readStorage(`story-reading-${story.slug}-chapter-${chapterIndex + 1}`, {});
   updateReadingHistory(story, (chapterIndex + (savedChapter.ratio || 0)) / chapters.length, chapterIndex, chapters.length);
   window.StoryAnalytics?.track("story_view", { story_slug: story.slug, file_no: story.fileNo, story_title: local(story.title), story_category: local(story.category), chapter_number: chapterIndex + 1, chapter_count: chapters.length, chapter_title: chapter.title, editor_pick: Boolean(story.editorPick) });
