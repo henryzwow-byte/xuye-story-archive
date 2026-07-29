@@ -5,7 +5,7 @@ if (siteConfig.adsEnabled === true) document.body.classList.add("ads-enabled");
 
 const copy = {
   en: {
-    topNote: "Eight stories from the private archive are now available.",
+    topNote: "The complete story archive is now available.",
     navLibrary: "Library", navNew: "All files", navAbout: "About", openArchive: "Open archive →",
     heroTitle: "Some stories never truly end.<br><em>They are only waiting to be opened again.</em>",
     heroBody: "A clean, searchable library for complete stories. Read in English by default or switch the entire site to Simplified Chinese.",
@@ -15,7 +15,7 @@ const copy = {
     archiveDirectory: "ARCHIVE DIRECTORY", storyFolders: "Story folders", archiveQuote: "“A story deserves an ending people can find.”",
     sortLabel: "Sort", sortFile: "File number", sortTitle: "Title", adLeaderboard: "Leaderboard ad space · 970 × 90",
     emptyTitle: "No matching file", emptyBody: "Try another keyword or open a different folder.",
-    statusTitle: "Your eight Word stories<br>are now organized here.",
+    statusTitle: "The complete story collection<br>is organized here.",
     statusBody: "This free static site does not collect personal data. New stories can be added by replacing the story data file.", browseAll: "Browse all stories", archiveCount: "STORIES", archiveCountQuote: "When stories are kept, time finds its echo.",
     footerText: "An independent archive for fictional stories and serial continuations.", footerAbout: "About", footerPrivacy: "Privacy", footerTerms: "Terms", footerAds: "Advertising",
     allStories: "All Stories", matched: "matching files", file: "FILE", complete: "COMPLETE", openFile: "Open file", imported: "Imported from Word", chapters: "chapters",
@@ -29,7 +29,7 @@ const copy = {
     languageWorld: "WORLD EDITION", chooseLanguage: "Choose a language", searchLanguages: "Search languages…", deviceLanguage: "Use device language", closeLanguages: "Close language menu", translationNote: "Automatic translation · English and 中文 are editorial editions"
   },
   zh: {
-    topNote: "你本地故事会文件夹中的 8 篇故事现已全部入库。",
+    topNote: "完整故事档案现已全部入库。",
     navLibrary: "故事库", navNew: "全部文件", navAbout: "关于", openArchive: "打开档案库 →",
     heroTitle: "有些故事，从未真正结束。<br><em>它们只是在等待，再次被翻开。</em>",
     heroBody: "一个清晰、可搜索的完整故事库。网站默认显示英文，也可以一键切换为简体中文。",
@@ -39,7 +39,7 @@ const copy = {
     archiveDirectory: "档案目录", storyFolders: "故事文件夹", archiveQuote: "“每一个故事，都值得一个能被找到的结局。”",
     sortLabel: "排序", sortFile: "档案编号", sortTitle: "标题", adLeaderboard: "横幅广告位 · 970 × 90",
     emptyTitle: "没有匹配的档案", emptyBody: "换一个关键词，或打开其他文件夹。",
-    statusTitle: "你的 8 篇 Word 故事<br>已经整理到这里。",
+    statusTitle: "完整故事合集<br>已经整理到这里。",
     statusBody: "这个免费静态网站不收集个人资料。以后添加新故事，只需替换故事数据文件。", browseAll: "浏览全部故事", archiveCount: "篇故事", archiveCountQuote: "故事被珍藏，时间便有了回声。",
     footerText: "用于虚构故事与连载续篇的独立数字档案馆。", footerAbout: "关于", footerPrivacy: "隐私", footerTerms: "条款", footerAds: "广告合作",
     allStories: "全部故事", matched: "份匹配档案", file: "档案", complete: "已完结", openFile: "打开档案", imported: "来自 Word 文件", chapters: "个章节",
