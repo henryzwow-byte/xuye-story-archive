@@ -1,10 +1,15 @@
 /*
- * Add a GA4 Measurement ID (for example G-XXXXXXXXXX) to enable worldwide,
- * aggregate reporting. With an empty ID, no analytics request is sent.
+ * Audience measurement providers.
+ *
+ * Add a GA4 Measurement ID (for example G-XXXXXXXXXX) and/or a numeric Meta
+ * Pixel ID after those properties have been created. Empty IDs keep each
+ * provider completely disabled: no provider script, cookie or request loads.
  */
 window.STORY_ANALYTICS_CONFIG = {
   measurementId: "",
+  metaPixelId: "",
   consentRequired: true,
+  marketingConsentRequired: true,
   debug: false
 };
 
