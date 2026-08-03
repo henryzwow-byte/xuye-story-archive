@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260803-quality-seo-2";
+window.STORY_ARCHIVE_VERSION = "20260803-quality-seo-3";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -40,7 +40,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 661,
+      "en": 678,
       "zh": 1103
     }
   },
@@ -84,7 +84,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 862,
+      "en": 886,
       "zh": 1475
     }
   },
@@ -128,7 +128,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 709,
+      "en": 728,
       "zh": 1234
     }
   },
@@ -172,7 +172,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 827,
+      "en": 847,
       "zh": 1447
     }
   },
@@ -216,7 +216,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 754,
+      "en": 775,
       "zh": 1360
     }
   },
@@ -260,7 +260,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 790,
+      "en": 807,
       "zh": 1431
     }
   },
@@ -304,7 +304,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 733,
+      "en": 751,
       "zh": 1261
     }
   },
@@ -348,7 +348,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 947,
+      "en": 971,
       "zh": 1618
     }
   },
@@ -392,7 +392,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 2081,
+      "en": 2114,
       "zh": 3814
     }
   },
@@ -436,7 +436,7 @@ window.STORY_ARCHIVE = [
       "zh": 1
     },
     "readingUnits": {
-      "en": 2180,
+      "en": 2196,
       "zh": 4901
     }
   },
@@ -480,7 +480,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 1990,
+      "en": 2069,
       "zh": 3713
     }
   },
@@ -524,7 +524,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 2326,
+      "en": 2404,
       "zh": 4200
     }
   },
@@ -568,7 +568,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 2197,
+      "en": 2264,
       "zh": 3851
     }
   },
@@ -612,7 +612,7 @@ window.STORY_ARCHIVE = [
       "zh": 8
     },
     "readingUnits": {
-      "en": 3675,
+      "en": 3735,
       "zh": 11650
     }
   },
@@ -656,7 +656,7 @@ window.STORY_ARCHIVE = [
       "zh": 17
     },
     "readingUnits": {
-      "en": 26628,
+      "en": 26725,
       "zh": 53522
     }
   },
@@ -700,7 +700,7 @@ window.STORY_ARCHIVE = [
       "zh": 16
     },
     "readingUnits": {
-      "en": 27349,
+      "en": 27475,
       "zh": 51697
     }
   },
@@ -744,7 +744,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 7514,
+      "en": 7560,
       "zh": 13958
     }
   },
@@ -788,7 +788,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 4344,
+      "en": 4373,
       "zh": 7957
     }
   },
@@ -832,7 +832,7 @@ window.STORY_ARCHIVE = [
       "zh": 15
     },
     "readingUnits": {
-      "en": 17474,
+      "en": 17542,
       "zh": 32715
     }
   },
@@ -876,7 +876,7 @@ window.STORY_ARCHIVE = [
       "zh": 15
     },
     "readingUnits": {
-      "en": 7786,
+      "en": 7885,
       "zh": 15289
     }
   },
@@ -920,7 +920,7 @@ window.STORY_ARCHIVE = [
       "zh": 15
     },
     "readingUnits": {
-      "en": 5236,
+      "en": 5347,
       "zh": 10059
     }
   },
@@ -964,7 +964,7 @@ window.STORY_ARCHIVE = [
       "zh": 12
     },
     "readingUnits": {
-      "en": 12824,
+      "en": 12940,
       "zh": 23759
     }
   },
@@ -1008,7 +1008,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8026,
+      "en": 8089,
       "zh": 15667
     }
   },
@@ -1052,7 +1052,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7709,
+      "en": 7785,
       "zh": 14691
     }
   },
@@ -1108,7 +1108,7 @@ window.STORY_ARCHIVE = [
       "zh": 2
     },
     "readingUnits": {
-      "en": 1956,
+      "en": 1967,
       "zh": 3683
     }
   },
@@ -1164,7 +1164,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 2025,
+      "en": 2055,
       "zh": 3919
     }
   },
@@ -1220,7 +1220,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 2149,
+      "en": 2184,
       "zh": 4022
     }
   },
@@ -1276,7 +1276,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 1995,
+      "en": 2036,
       "zh": 3564
     }
   },
@@ -1320,7 +1320,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 943,
+      "en": 976,
       "zh": 1800
     }
   },
@@ -1364,7 +1364,7 @@ window.STORY_ARCHIVE = [
       "zh": 11
     },
     "readingUnits": {
-      "en": 10498,
+      "en": 10604,
       "zh": 20539
     }
   },
@@ -1408,7 +1408,7 @@ window.STORY_ARCHIVE = [
       "zh": 11
     },
     "readingUnits": {
-      "en": 8927,
+      "en": 9007,
       "zh": 16339
     }
   },
@@ -1452,7 +1452,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8405,
+      "en": 8465,
       "zh": 15668
     }
   },
@@ -1496,7 +1496,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8572,
+      "en": 8639,
       "zh": 16061
     }
   },
@@ -1540,7 +1540,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 6632,
+      "en": 6681,
       "zh": 12387
     }
   },
@@ -1584,7 +1584,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7954,
+      "en": 8014,
       "zh": 15068
     }
   },
@@ -1628,7 +1628,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7246,
+      "en": 7309,
       "zh": 13519
     }
   },
@@ -1672,7 +1672,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6272,
+      "en": 6323,
       "zh": 11704
     }
   },
@@ -1716,7 +1716,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8710,
+      "en": 8742,
       "zh": 16013
     }
   },
@@ -1760,7 +1760,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8419,
+      "en": 8521,
       "zh": 15602
     }
   },
@@ -1804,7 +1804,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 5592,
+      "en": 5634,
       "zh": 10946
     }
   },
@@ -1848,7 +1848,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5827,
+      "en": 5878,
       "zh": 11252
     }
   },
@@ -1892,7 +1892,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 5401,
+      "en": 5437,
       "zh": 10002
     }
   },
@@ -1936,7 +1936,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7770,
+      "en": 7836,
       "zh": 14647
     }
   },
@@ -1980,7 +1980,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 869,
+      "en": 899,
       "zh": 1711
     }
   },
@@ -2024,7 +2024,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 779,
+      "en": 815,
       "zh": 1555
     }
   },
@@ -2068,7 +2068,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6739,
+      "en": 6781,
       "zh": 12541
     }
   },
@@ -2112,7 +2112,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7726,
+      "en": 7798,
       "zh": 14195
     }
   },
@@ -2156,7 +2156,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 756,
+      "en": 796,
       "zh": 1537
     }
   },
@@ -2200,7 +2200,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7711,
+      "en": 7764,
       "zh": 14803
     }
   },
@@ -2244,7 +2244,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 727,
+      "en": 757,
       "zh": 1401
     }
   },
@@ -2288,7 +2288,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6676,
+      "en": 6727,
       "zh": 12456
     }
   },
@@ -2332,7 +2332,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5644,
+      "en": 5686,
       "zh": 10825
     }
   },
@@ -2376,7 +2376,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 806,
+      "en": 839,
       "zh": 1560
     }
   },
@@ -2420,7 +2420,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6459,
+      "en": 6524,
       "zh": 11606
     }
   },
@@ -2464,7 +2464,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7413,
+      "en": 7485,
       "zh": 13194
     }
   },
@@ -2508,7 +2508,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7052,
+      "en": 7105,
       "zh": 13063
     }
   },
@@ -2552,7 +2552,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6692,
+      "en": 6724,
       "zh": 12404
     }
   },
@@ -2596,7 +2596,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6838,
+      "en": 6895,
       "zh": 13163
     }
   },
@@ -2640,7 +2640,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6129,
+      "en": 6153,
       "zh": 11708
     }
   },
@@ -2684,7 +2684,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6883,
+      "en": 6950,
       "zh": 12953
     }
   },
@@ -2728,7 +2728,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 766,
+      "en": 802,
       "zh": 1500
     }
   },
@@ -2772,7 +2772,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 773,
+      "en": 806,
       "zh": 1488
     }
   },
@@ -2816,7 +2816,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6263,
+      "en": 6317,
       "zh": 11682
     }
   },
@@ -2860,7 +2860,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6651,
+      "en": 6681,
       "zh": 12711
     }
   },
@@ -2904,7 +2904,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6677,
+      "en": 6739,
       "zh": 12685
     }
   },
@@ -2944,12 +2944,12 @@ window.STORY_ARCHIVE = [
     "tone": "cream",
     "glyph": "PC",
     "chapterCount": {
-      "en": 4,
-      "zh": 4
+      "en": 3,
+      "zh": 3
     },
     "readingUnits": {
-      "en": 2377,
-      "zh": 4522
+      "en": 2415,
+      "zh": 4533
     }
   },
   {
@@ -2992,7 +2992,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5429,
+      "en": 5482,
       "zh": 10132
     }
   },
@@ -3036,7 +3036,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5268,
+      "en": 5343,
       "zh": 9825
     }
   },
@@ -3080,7 +3080,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5378,
+      "en": 5443,
       "zh": 10105
     }
   },
@@ -3124,7 +3124,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5379,
+      "en": 5437,
       "zh": 9497
     }
   },
@@ -3168,7 +3168,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 4474,
+      "en": 4528,
       "zh": 8625
     }
   },
@@ -3212,7 +3212,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5458,
+      "en": 5514,
       "zh": 10125
     }
   },
@@ -3256,7 +3256,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 4464,
+      "en": 4502,
       "zh": 8121
     }
   },
@@ -3300,7 +3300,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 7473,
+      "en": 7531,
       "zh": 14233
     }
   },
@@ -3344,7 +3344,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 5856,
+      "en": 5904,
       "zh": 10733
     }
   },
@@ -3388,7 +3388,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 6464,
+      "en": 6502,
       "zh": 12569
     }
   },
@@ -3432,7 +3432,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 6976,
+      "en": 7031,
       "zh": 13051
     }
   },
@@ -3476,7 +3476,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 4954,
+      "en": 4989,
       "zh": 9694
     }
   },
@@ -3520,7 +3520,7 @@ window.STORY_ARCHIVE = [
       "zh": 2
     },
     "readingUnits": {
-      "en": 2508,
+      "en": 2538,
       "zh": 4330
     }
   },
@@ -3564,7 +3564,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 4620,
+      "en": 4696,
       "zh": 8919
     }
   },
@@ -3608,7 +3608,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 3497,
+      "en": 3552,
       "zh": 6804
     }
   },
@@ -3652,7 +3652,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 3703,
+      "en": 3751,
       "zh": 7148
     }
   },
@@ -3696,7 +3696,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 4394,
+      "en": 4431,
       "zh": 8232
     }
   },
@@ -3740,7 +3740,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 3994,
+      "en": 4025,
       "zh": 7484
     }
   }
