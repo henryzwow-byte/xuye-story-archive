@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260803-quality-seo";
+window.STORY_ARCHIVE_VERSION = "20260803-quality-seo-2";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
