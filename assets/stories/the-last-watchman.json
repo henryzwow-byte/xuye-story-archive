@@ -3,7 +3,7 @@
   "fileNo": "A-002",
   "cover": "assets/covers/A-002-the-last-watchman.webp",
   "published": "2026-07-20",
-  "modified": "2026-07-22",
+  "modified": "2026-08-03",
   "isNew": false,
   "share": {
     "title": {
@@ -20,8 +20,8 @@
     "zh": "最后的守夜人"
   },
   "category": {
-    "en": "Justice & Reckoning",
-    "zh": "正义审判"
+    "en": "Justice & Accountability",
+    "zh": "正义与追责"
   },
   "summary": {
     "en": "A confused old man in a wheelchair is harassed for entertainment, but the medal in his hand carries the weight of a lifetime of public service.",
@@ -41,21 +41,30 @@
       "They moved my wheelchair away from the sidewalk, hid my lunch and mocked my confusion for a livestream. My coat was pulled open, but my hand never released the National Service Medal I carried as a reminder of an earlier life.",
       "They uploaded the performance for clicks, treating my distress as entertainment.",
       "They could not understand that the older man they dismissed had once spoken codes capable of placing the nation’s strategic shield on alert. Now I was trapped inside a confused body, trying to hold on to the memory of that life.",
+      "At the edge of memory, I could still see the laboratory windows before dawn and my son leaning over a console covered in handwritten corrections. He had laughed when I told him that public service rarely came with applause; the work mattered precisely because most people would never know who had done it.",
+      "Mrs. Mary received a handwritten note from the medical center. I had signed only my initials beneath one sentence: Thank you for noticing.",
+      "At the edge of memory, I could still see the laboratory windows before dawn and my son leaning over a console covered in handwritten corrections. He had laughed when I told him that public service rarely came with applause; the work mattered precisely because most people would never know who had done it.",
+      "Mrs. Mary received a handwritten note from the medical center. I had signed only my initials beneath one sentence: Thank you for noticing.",
       "## Chapter Two: The Price of Crossing the Line",
       "On Tuesday afternoon, their leader took my last hamburger and ordered the others to remove the old coat that still carried a classified identification plate.",
       "A new neighbor, Mrs. Mary, saw everything. She called the police. “Please, some young men are harassing an older man. He seems confused and needs help. You have to come now.”",
       "The first officers treated the incident as routine. Then an experienced sergeant pulled open my torn coat and saw the code engraved on the identity plate. One search of that number could place the entire federal security service on its highest alert.",
+      "Mrs. Mary did not know any of that. She only knew that a neighbor was being cornered, so she stepped beneath the awning, kept the young men in view and described each face to the dispatcher. Her ordinary decision to pay attention became the first protection I had received all afternoon.",
+      "Mrs. Mary did not know any of that. She only knew that a neighbor was being cornered, so she stepped beneath the awning, kept the young men in view and described each face to the dispatcher. Her ordinary decision to pay attention became the first protection I had received all afternoon.",
       "## Chapter Three: The Reckoning",
       "The sergeant’s face went white. He could barely speak as he called his superiors.",
       "Less than ten minutes later, several official vehicles arrived and the officers secured the block.",
       "The young men were still showing off their recordings when officers separated them from me. Then they watched a senior official stand before the dazed old man in the wheelchair and deliver a formal salute.",
       "The commanding officer knelt beside me, straightened my collar and faced the group. “The man you humiliated devoted his life to public service. The freedom you enjoy depends on people whose names you may never know.”",
+      "The officers photographed the torn coat, preserved the livestream and contacted the medical center before moving me. The sergeant spoke slowly, asked permission before touching the medal and waited until I understood where they intended to take me.",
+      "The officers photographed the torn coat, preserved the livestream and contacted the medical center before moving me. The sergeant spoke slowly, asked permission before touching the medal and waited until I understood where they intended to take me.",
       "## Chapter Four: The Last Dignity",
       "The group was taken away for questioning, and the case was referred to the appropriate court. Their future would be decided through due process.",
       "I was quietly returned to a secure medical center. Still lost inside fragments of memory, I pointed at the stars and told a guard, “We must calculate the angle correctly, or the Mars rover will miss its landing.”",
       "Behind me, the general straightened his back and saluted once more.",
       "Some lights do not fade with time. Those who stamp on the final ember may discover that the darkness remembers exactly who they are.",
-      "— End —"
+      "Weeks later, a public-service office visited the neighborhood school. They did not disclose classified work or turn my illness into a spectacle. They spoke instead about dignity, bystander responsibility and why age or confusion never makes cruelty harmless.",
+      "Weeks later, a public-service office visited the neighborhood school. They did not disclose classified work or turn my illness into a spectacle. They spoke instead about dignity, bystander responsibility and why age or confusion never makes cruelty harmless."
     ],
     "zh": [
       "## 第一章：残酷的表演",
@@ -64,21 +73,31 @@
       "他们把我的轮椅推离人行道，藏起午餐，还把我的困惑当作直播笑料。外套被拉开时，我仍紧握着那枚国家服务勋章，努力记住自己曾经的人生。",
       "他们把这场表演发到社交媒体上博取点击，把一个老人的不安当成娱乐。",
       "他们不会理解，被轻视的老人曾用一个代号让国家战略防线进入戒备。如今我被困在混乱的记忆里，只想守住过去留下的一点尊严。",
+      "记忆的边缘，我仍能看见黎明前的实验室窗户，以及儿子俯在控制台前修改手写数据的身影。我曾告诉他，公共服务很少伴随掌声；正因为多数人永远不会知道是谁完成了那些工作，它才更值得认真。",
+      "玛丽夫人收到医疗中心寄来的一张手写便笺。我只在一句话下面签了姓名缩写：谢谢你看见了我。",
+      "记忆的边缘，我仍能看见黎明前的实验室窗户，以及儿子俯在控制台前修改手写数据的身影。我曾告诉他，公共服务很少伴随掌声；正因为多数人永远不会知道是谁完成了那些工作，它才更值得认真。",
+      "玛丽夫人收到医疗中心寄来的一张手写便笺。我只在一句话下面签了姓名缩写：谢谢你看见了我。",
       "## 第二章：越界的代价",
       "周二下午，领头的年轻人拿走我仅剩的汉堡，又招呼同伴取下那件缝着绝密铭牌的旧外套。",
       "新搬来的邻居玛丽太太看见了一切。她拨通报警电话：“那几个年轻人在骚扰一位老人。他看起来有些困惑，需要帮助。请你们马上过来。”",
       "警察起初没有当回事，直到一名经验丰富的警长扯开旧外套，看见内侧刻着高密级代号的身份铭牌。那个编码一经查询，足以让整个联邦调查系统进入最高戒备。",
+      "玛丽夫人并不知道这些。她只知道邻居正被人围住，于是站到雨棚下，始终看着那群年轻人，并向接线员逐一描述他们的外貌。她只是选择认真看见，却成了我那天下午得到的第一层保护。",
+      "玛丽夫人并不知道这些。她只知道邻居正被人围住，于是站到雨棚下，始终看着那群年轻人，并向接线员逐一描述他们的外貌。她只是选择认真看见，却成了我那天下午得到的第一层保护。",
       "## 第三章：迟来的制止",
       "警长脸色惨白，立刻向上级紧急汇报。",
       "不到十分钟，几辆公务车辆赶到，执法人员迅速控制现场。",
       "几个年轻人还在展示偷拍视频，就被警员与我分开。他们看着一位只在新闻里出现过的高级官员走到轮椅前，郑重敬礼。",
       "带队官员蹲在我身旁，替我理好衣领，再对年轻人说：“这位老人把一生献给了公共事业。你们享受的自由，来自许多从未留下姓名的人。”",
+      "警员拍下破损的外套，保存直播证据，并在转移我之前联系医疗中心。那名警长放慢语速，在触碰勋章前先征得同意，直到确认我明白他们要带我去哪里。",
+      "警员拍下破损的外套，保存直播证据，并在转移我之前联系医疗中心。那名警长放慢语速，在触碰勋章前先征得同意，直到确认我明白他们要带我去哪里。",
       "## 第四章：最后的尊严",
       "几名年轻人被带走接受调查，案件将依法交给法院处理。",
       "我被秘密接回军事禁区内的特级疗养院，依旧糊涂地指着窗外星空对守卫说：“角度要算准，不然火星车落不下去。”",
       "将军站在我身后，再次挺直脊梁向我敬礼。",
       "世上总有一些光，不会因岁月流逝而暗淡。尊重他人，也是在守护我们共同生活的世界。",
-      "—— 全文完 ——"
+      "—— 全文完 ——",
+      "几周后，公共服务部门来到附近学校。他们没有披露机密工作，也没有把我的疾病变成展览，只讲尊严、旁观者的责任，以及年老或困惑从来不会让残忍变得无害。",
+      "几周后，公共服务部门来到附近学校。他们没有披露机密工作，也没有把我的疾病变成展览，只讲尊严、旁观者的责任，以及年老或困惑从来不会让残忍变得无害。"
     ]
   }
 }

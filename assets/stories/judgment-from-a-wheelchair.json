@@ -3,7 +3,7 @@
   "fileNo": "A-004",
   "cover": "assets/covers/A-004-judgment-from-a-wheelchair.webp",
   "published": "2026-07-20",
-  "modified": "2026-07-22",
+  "modified": "2026-08-03",
   "isNew": false,
   "share": {
     "title": {
@@ -20,8 +20,8 @@
     "zh": "轮椅上的审判"
   },
   "category": {
-    "en": "Family Betrayal",
-    "zh": "家庭背叛"
+    "en": "Family & Inheritance",
+    "zh": "家庭与继承"
   },
   "summary": {
     "en": "A disabled heir watches his father and wife plan to steal his mother’s estate, unaware that every word has already been recorded.",
@@ -40,6 +40,10 @@
       "After my mother died, the family rotted from its roots. Because I could barely walk, no one treated me as if I mattered. What they did not know was that the entire estate had been my mother’s private property and had been left to me. My father believed he was merely holding it temporarily.",
       "My father wanted permanent control of the company, while my wife wanted the estate. Under my roof they pretended to care while planning to have me declared incapable and move everything my mother had left into accounts they controlled.",
       "They believed a disabled man would never be heard. But the miniature device inside my wheelchair’s armrest recorded every meeting in the study and every plan to remove my legal rights. Each extra day of greed added another page to the case against them.",
+      "My mother had anticipated more than theft. Her will required independent medical reviews and prohibited any relative who benefited from a finding of incapacity from choosing the physician. My father and wife had quietly ignored both safeguards; the dates on their private messages proved it.",
+      "The estate did not become peaceful overnight. Auditors occupied the study, boxes filled the corridor and every account had to be rebuilt. But the first board meeting held under my authority began with an accessible entrance and minutes that no one could alter in secret.",
+      "My mother had anticipated more than theft. Her will required independent medical reviews and prohibited any relative who benefited from a finding of incapacity from choosing the physician. My father and wife had quietly ignored both safeguards; the dates on their private messages proved it.",
+      "The estate did not become peaceful overnight. Auditors occupied the study, boxes filled the corridor and every account had to be rebuilt. But the first board meeting held under my authority began with an accessible entrance and minutes that no one could alter in secret.",
       "## Chapter Two: The Last Supper",
       "My father’s birthday banquet was the day they planned to cast me out.",
       "Standing beside my wife, he performed for the relatives. “My son’s health makes business difficult. From now on, my daughter-in-law will manage the family company for him.”",
@@ -48,6 +52,8 @@
       "“If we are discussing the estate, let us first see how this devoted wife and loving father planned to divide property that was never theirs.”",
       "The screen showed their secret meetings in the study. Their voices discussed an edited medical assessment, forged corporate resolutions and plans to move my inheritance into overseas accounts. Beside the recordings appeared my mother’s notarized will.",
       "The hall became absolutely still. My father’s wineglass shattered on the floor.",
+      "I had not recorded them for entertainment. Each file was logged by counsel, copied to an encrypted archive and reviewed against the jurisdiction’s consent rules before the banquet. The screen showed only evidence the investigators had already lawfully secured.",
+      "I had not recorded them for entertainment. Each file was logged by counsel, copied to an encrypted archive and reviewed against the jurisdiction’s consent rules before the banquet. The screen showed only evidence the investigators had already lawfully secured.",
       "## Chapter Three: Judgment at the Gates",
       "He rushed toward my chair, but investigators entered before he could reach me. My wife saw the transfer records, together with the clause declaring me the sole heir, and realized that their plan had failed.",
       "“You pretended to be helpless so you could trap me!” my father shouted. Against the evidence and the notarized will, however, he had no legal defense.",
@@ -55,7 +61,8 @@
       "Authorities escorted them away. The disputed assets were frozen and returned to me, and both of them faced a formal prosecution.",
       "I rolled out of the decaying house alone. Sunlight touched my face, and for the first time I could breathe freely. From that day forward, the house was clean.",
       "Dignity is not a gift from someone else. Sometimes it returns only when the people who tried to destroy you finally face judgment.",
-      "— End —"
+      "After the officers left, the household staff gathered in the kitchen. Several had been pressured to sign false statements about my condition. I gave them contact information for independent counsel and promised that no one would lose a job for telling the truth.",
+      "After the officers left, the household staff gathered in the kitchen. Several had been pressured to sign false statements about my condition. I gave them contact information for independent counsel and promised that no one would lose a job for telling the truth."
     ],
     "zh": [
       "## 第一章：坐轮椅的看客",
@@ -63,6 +70,10 @@
       "母亲过世后，这个家像烂了根的树。我连路都走不稳，家里没人把我当回事。其实这偌大的家产全是母亲生前留给我的私产，只是没有对外公开，父亲一直以为自己只是替我保管。",
       "父亲想永久控制公司，妻子则想拿到遗产。他们在屋檐下假装关心我，背地里却计划让我被认定为没有管理能力，再把母亲留下的资产转进他们控制的账户。",
       "他们以为残障人士不会被听见。可轮椅扶手里的微型设备，清楚记录了他们在书房里的每次会面，以及剥夺我法律权利的计划。他们每多贪一天，案件里就多一页证据。",
+      "母亲防备的不只是盗窃。遗嘱要求由独立医生复核行为能力，并禁止任何能从“无行为能力”结论中获利的亲属选择医生。父亲和妻子悄悄绕过了两道保障，他们私下消息中的日期就是证据。",
+      "庄园没有在一夜之间恢复平静。审计人员占满书房，走廊堆着证据箱，每一笔账都要重新核对。但由我主持的第一次董事会，从无障碍入口和无法被秘密篡改的会议记录开始。",
+      "母亲防备的不只是盗窃。遗嘱要求由独立医生复核行为能力，并禁止任何能从“无行为能力”结论中获利的亲属选择医生。父亲和妻子悄悄绕过了两道保障，他们私下消息中的日期就是证据。",
+      "庄园没有在一夜之间恢复平静。审计人员占满书房，走廊堆着证据箱，每一笔账都要重新核对。但由我主持的第一次董事会，从无障碍入口和无法被秘密篡改的会议记录开始。",
       "## 第二章：最后的晚餐",
       "父亲生日宴当天，是他们准备把我扫地出门的日子。",
       "父亲站在妻子身旁，当着亲戚宣布：“我儿身体不便，以后家里的生意就交给儿媳打理。”",
@@ -71,6 +82,8 @@
       "“既然要谈家产，不如先看看这位贤惠儿媳和好父亲，准备怎么瓜分本该属于我的遗产。”",
       "屏幕亮起，画面里是他们在书房里的秘密会面，还有伪造医疗评估、修改公司决议并把遗产转到海外账户的录音，以及母亲当年立下的遗嘱公证书。",
       "整个大厅鸦雀无声，只剩父亲的红酒杯摔在地上。",
+      "我录下那些谈话并不是为了取乐。每份文件都由律师登记，复制进加密档案，并在宴会前按照当地取证规则审查。屏幕上播放的，都是调查人员已经依法保全的证据。",
+      "我录下那些谈话并不是为了取乐。每份文件都由律师登记，复制进加密档案，并在宴会前按照当地取证规则审查。屏幕上播放的，都是调查人员已经依法保全的证据。",
       "## 第三章：门前的审判",
       "父亲冲过来想抢走遥控器，但调查人员在他靠近前便进入会场。妻子看见资产转移记录，以及写明家产仅由我继承的遗嘱，终于明白计划已经失败。",
       "“你居然一直在收集证据？”父亲叫喊着。可在完整记录和公证遗嘱面前，他没有任何法律辩解。",
@@ -78,7 +91,9 @@
       "调查人员把他们带走。争议资产被冻结并归还给我，两人将面对正式起诉。",
       "我独自滑着轮椅走出那栋烂房子。阳光照在身上，我第一次觉得呼吸如此顺畅。从今天起，这个家终于干净了。",
       "尊严不是靠谁给的。把那些想害你的人送上审判席，才能真正拿回来。",
-      "—— 全文完 ——"
+      "—— 全文完 ——",
+      "警员离开后，宅邸员工聚在厨房里。几个人曾被逼迫签署关于我身体状况的虚假声明。我给他们独立律师的联系方式，并保证不会有人因为说出真相失去工作。",
+      "警员离开后，宅邸员工聚在厨房里。几个人曾被逼迫签署关于我身体状况的虚假声明。我给他们独立律师的联系方式，并保证不会有人因为说出真相失去工作。"
     ]
   }
 }

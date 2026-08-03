@@ -16,16 +16,16 @@ window.STORY_ANALYTICS_CONFIG = {
 /*
  * Public site and advertising settings.
  *
- * adLayoutEnabled keeps the carefully positioned advertising inventory visible
- * while the site is waiting for provider approval. Real third-party requests
- * are never sent until adsEnabled is true and valid provider IDs are supplied.
+ * Keep adLayoutEnabled false during editorial and advertising review. Turn it
+ * on only when real inventory is ready; empty house placements should not be
+ * shown to first-time readers.
  *
  * For Google AdSense, add the ca-pub ID and the numeric slot ID for each
  * placement after approval. A missing slot remains a calm, clearly labelled
  * house placement instead of leaving a broken blank area.
  */
 window.STORY_SITE_CONFIG = {
-  adLayoutEnabled: true,
+  adLayoutEnabled: false,
   adsEnabled: false,
   adProvider: "adsense",
   publisherId: "",
@@ -49,5 +49,6 @@ window.STORY_SITE_CONFIG = {
     analyticsTop: "",
     notFoundFooter: ""
   },
-  businessEmail: ""
+  businessEmail: "",
+  businessContactUrl: "https://github.com/henryzwow-byte/xuye-story-archive/issues/new"
 };

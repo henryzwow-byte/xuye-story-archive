@@ -1,6 +1,6 @@
 const stories = Array.isArray(window.STORY_ARCHIVE) ? window.STORY_ARCHIVE : [];
 const siteConfig = window.STORY_SITE_CONFIG || {};
-if (siteConfig.adLayoutEnabled !== false) document.body.classList.add("ad-layout-enabled");
+if (siteConfig.adLayoutEnabled === true) document.body.classList.add("ad-layout-enabled");
 if (siteConfig.adsEnabled === true) document.body.classList.add("ads-enabled");
 
 const copy = {
@@ -14,7 +14,7 @@ const copy = {
     trustOne: "✓ No sign-in required", trustTwo: "✓ Mobile reading optimized", trustThree: "✓ One shareable link per story", trustFour: "✓ Global automatic translation",
     archiveDirectory: "ARCHIVE DIRECTORY", storyFolders: "Story folders", archiveQuote: "“A story deserves an ending people can find.”",
     sortLabel: "Sort", sortFile: "File number", sortTitle: "Title", adLeaderboard: "Leaderboard ad space · 970 × 90",
-    emptyTitle: "No matching file", emptyBody: "Try another keyword or open a different folder.",
+    emptyTitle: "No stories found", emptyBody: "Try another title, theme or file number.",
     statusTitle: "The complete story collection<br>is organized here.",
     statusBody: "This free static site does not collect personal data. New stories can be added by replacing the story data file.", browseAll: "Browse all stories", archiveCount: "STORIES", archiveCountQuote: "When stories are kept, time finds its echo.",
     footerText: "An independent archive for fictional stories and serial continuations.", footerAbout: "About", footerPrivacy: "Privacy", footerTerms: "Terms", footerAds: "Advertising",
@@ -38,7 +38,7 @@ const copy = {
     trustOne: "✓ 无需登录", trustTwo: "✓ 手机阅读优化", trustThree: "✓ 每篇故事独立链接", trustFour: "✓ 全球语言自动翻译",
     archiveDirectory: "档案目录", storyFolders: "故事文件夹", archiveQuote: "“每一个故事，都值得一个能被找到的结局。”",
     sortLabel: "排序", sortFile: "档案编号", sortTitle: "标题", adLeaderboard: "横幅广告位 · 970 × 90",
-    emptyTitle: "没有匹配的档案", emptyBody: "换一个关键词，或打开其他文件夹。",
+    emptyTitle: "没有找到故事", emptyBody: "换一个标题、主题或档案编号再试试。",
     statusTitle: "完整故事合集<br>已经整理到这里。",
     statusBody: "这个免费静态网站不收集个人资料。以后添加新故事，只需替换故事数据文件。", browseAll: "浏览全部故事", archiveCount: "篇故事", archiveCountQuote: "故事被珍藏，时间便有了回声。",
     footerText: "用于虚构故事与连载续篇的独立数字档案馆。", footerAbout: "关于", footerPrivacy: "隐私", footerTerms: "条款", footerAds: "广告合作",
@@ -74,6 +74,7 @@ Object.assign(copy.en, {
   analyticsConsole: "OWNER ANALYTICS", analyticsTitle: "Audience measurement console", analyticsIntro: "This page verifies the event system on this browser. Connect GA4 and Meta Pixel to measure worldwide readership and Facebook campaign performance.", analyticsConnected: "External audience measurement connected", analyticsNotConnected: "GA4 and Meta Pixel are ready but not connected", analyticsSetup: "Add a GA4 Measurement ID and/or Meta Pixel ID in analytics-config.js. Empty IDs send no external data.", analyticsActive: "At least one provider is configured. Reader consent still controls whether its script and events are sent.", localPreview: "This-browser preview", totalViews: "Story visits", totalCompletions: "Completed readings", totalShares: "Share clicks", avgTime: "Average active time", seconds: "sec", illustrationCtr: "Illustration CTR", filePerformance: "Story performance", sourcePerformance: "Traffic source / campaign", globalReport: "Open Google Analytics", analyticsFootnote: "Local figures are visible only in this browser and are not a substitute for global reporting.",
   privacyAnalyticsTitle: "Audience measurement", privacyAnalyticsText: "When enabled with the reader's permission, GA4 may measure page views, approximate country, language, device, referral source, reading milestones, active time, illustration interactions and shares. Meta Pixel may measure PageView, ViewContent and limited custom reading events for Facebook and Instagram campaign attribution. Story text, names, email addresses and form contents are never sent. Each provider stays off until a valid public ID is added and the corresponding consent is granted.",
   businessContact: "Business contact", businessContactPending: "A public business email will be added before advertising is enabled.", advertisingInactive: "Advertising inventory is now reserved across the site. No third-party advertising is delivered until an approved provider and valid account details are connected.",
+  publicContactForm: "Open the public contact form",
   advertisement: "ADVERTISEMENT", adHouseTitle: "A quiet space for a future partner", adHouseBody: "Clearly separated from the story, with no pop-ups, autoplay or interruption.", adPartner: "Advertising information",
   linkBuilderLabel: "FACEBOOK LINK BUILDER", linkBuilderTitle: "Create a trackable story link", linkBuilderIntro: "Give each Facebook post a short unique label so its traffic can be compared after GA4 is connected.", linkBuilderStory: "Story", linkBuilderCampaign: "Campaign", linkBuilderPost: "Post label", linkBuilderGenerate: "Generate link", linkBuilderCopy: "Copy generated link", linkBuilderCopied: "Tracking link copied",
   notFoundTitle: "This file is not in the archive.", notFoundBody: "The address may be incomplete, or the story may have moved to another shelf.", notFoundLibrary: "Open the story library", notFoundHome: "Return home",
@@ -101,6 +102,7 @@ Object.assign(copy.zh, {
   analyticsConsole: "站长数据分析", analyticsTitle: "读者数据分析控制台", analyticsIntro: "本页用于验证这台浏览器上的事件采集。接入 GA4 与 Meta Pixel 后，可统计全球阅读表现和 Facebook 帖子引流效果。", analyticsConnected: "外部读者统计已连接", analyticsNotConnected: "GA4 与 Meta Pixel 代码已就绪，但尚未连接", analyticsSetup: "在 analytics-config.js 中填写 GA4 编号或 Meta Pixel ID 即可连接；ID 留空时不会向外发送数据。", analyticsActive: "至少一个统计平台已配置；是否加载及发送事件仍由读者的隐私选择决定。", localPreview: "本浏览器数据预览", totalViews: "故事访问", totalCompletions: "完成阅读", totalShares: "分享点击", avgTime: "平均有效阅读", seconds: "秒", illustrationCtr: "插图点击率", filePerformance: "单篇故事表现", sourcePerformance: "引流来源 / 帖子活动", globalReport: "打开 Google Analytics", analyticsFootnote: "本地数据只存在于这台浏览器中，不能替代全球汇总报表。",
   privacyAnalyticsTitle: "访问数据分析", privacyAnalyticsText: "在读者同意后，GA4 可统计页面访问、大致国家、语言、设备、引流来源、阅读进度、有效阅读时长、插图互动和分享；Meta Pixel 可统计 PageView、ViewContent 及少量阅读事件，用于衡量 Facebook 与 Instagram 引流。系统不会发送故事正文、姓名、电子邮箱或表单内容。只有填写有效公开 ID 且读者同意相应用途后，对应平台才会启用。",
   businessContact: "业务联系", businessContactPending: "广告正式启用前，这里会公布真实的业务邮箱。", advertisingInactive: "全站广告位已经预留。只有在通过平台审核并接入有效广告账户后，才会向读者加载第三方广告。",
+  publicContactForm: "打开公开联系表单",
   advertisement: "广告", adHouseTitle: "为未来合作伙伴保留的一席之地", adHouseBody: "与故事内容清晰分隔，不弹窗、不自动播放，也不中断阅读。", adPartner: "广告合作说明",
   linkBuilderLabel: "FACEBOOK 链接工具", linkBuilderTitle: "生成可追踪的故事链接", linkBuilderIntro: "为每一条 Facebook 帖子填写不同的简短标签，接通 GA4 后就能比较各帖子的引流效果。", linkBuilderStory: "故事", linkBuilderCampaign: "活动名称", linkBuilderPost: "帖子标签", linkBuilderGenerate: "生成链接", linkBuilderCopy: "复制生成的链接", linkBuilderCopied: "追踪链接已复制",
   notFoundTitle: "这份档案不在故事库中。", notFoundBody: "链接可能不完整，或者故事已经被移到另一层书架。", notFoundLibrary: "打开故事库", notFoundHome: "返回首页",
@@ -618,6 +620,22 @@ function initLibrary() {
   const categories = [{ key: "all", label: { en: "All Stories", zh: "全部故事" }, count: stories.length }, ...Array.from(categoryMap, ([key, value]) => ({ key, ...value }))];
   if (search) search.value = query;
 
+  const initialSaved = new Set(bookmarkSlugs());
+  const initialHistory = readingHistory();
+  const initialMetrics = window.StoryAnalytics?.getLocal?.().stories || {};
+  const weekAgo = Date.now() - 7 * 86400000;
+  const localViews = Object.values(initialMetrics).reduce((total, metric) => total + (Number(metric?.views) || 0), 0);
+  const availableLocalViews = {
+    popular: localViews > 0,
+    weekly: initialHistory.some((item) => new Date(item.updatedAt).getTime() >= weekAgo),
+    saved: initialSaved.size > 0,
+    history: initialHistory.length > 0
+  };
+  tabs.querySelectorAll("button").forEach((button) => {
+    if (button.dataset.view in availableLocalViews) button.hidden = !availableLocalViews[button.dataset.view];
+  });
+  if (activeTab in availableLocalViews && !availableLocalViews[activeTab]) activeTab = "all";
+
   function activityFor(story) {
     return window.StoryAnalytics?.getLocal?.().stories?.[story.slug] || {};
   }
@@ -628,7 +646,7 @@ function initLibrary() {
   }
 
   function renderTabs() {
-    tabs.querySelectorAll("button").forEach((button) => {
+    tabs.querySelectorAll("button:not([hidden])").forEach((button) => {
       const selected = button.dataset.view === activeTab;
       button.id = `library-tab-${button.dataset.view}`;
       button.setAttribute("role", "tab");
@@ -664,6 +682,7 @@ function initLibrary() {
     const visibleItems = items.slice(0, visibleCount);
     grid.innerHTML = cardsWithAd(visibleItems, "libraryInfeed");
     empty.hidden = items.length !== 0;
+    empty.querySelector("h3").textContent = activeTab === "saved" ? t("savedEmpty") : activeTab === "history" || activeTab === "weekly" ? t("historyEmpty") : t("emptyTitle");
     empty.querySelector("p").textContent = emptyMessage;
     count.textContent = `${t("showingStories")} ${visibleItems.length} / ${items.length}`;
     if (loadMore) {
@@ -683,7 +702,7 @@ function initLibrary() {
   tabs.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => { activeTab = button.dataset.view; activeCategory = "all"; activeTag = ""; visibleCount = pageSize; render(); }));
   tabs.addEventListener("keydown", (event) => {
     if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
-    const buttons = [...tabs.querySelectorAll("button")];
+    const buttons = [...tabs.querySelectorAll("button:not([hidden])")];
     const current = Math.max(0, buttons.indexOf(document.activeElement));
     const next = event.key === 'Home' ? 0 : event.key === 'End' ? buttons.length - 1 : (current + (event.key === 'ArrowRight' ? 1 : -1) + buttons.length) % buttons.length;
     event.preventDefault();
@@ -1210,7 +1229,14 @@ function initInfo() {
   const page = infoPages[key] || infoPages.about;
   const configuredEmail = String(siteConfig.businessEmail || "").trim();
   const businessEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(configuredEmail) ? configuredEmail : "";
-  const contactPanel = key === "contact" ? `<aside class="business-contact"><span>${esc(t("businessContact"))}</span>${businessEmail ? `<a href="mailto:${esc(businessEmail)}">${esc(businessEmail)}</a>` : `<strong>${esc(t("businessContactPending"))}</strong>`}</aside>` : "";
+  const configuredContactUrl = String(siteConfig.businessContactUrl || "").trim();
+  const businessContactUrl = /^https:\/\//i.test(configuredContactUrl) ? configuredContactUrl : "";
+  const contactMethod = businessEmail
+    ? `<a href="mailto:${esc(businessEmail)}">${esc(businessEmail)}</a>`
+    : businessContactUrl
+      ? `<a href="${esc(businessContactUrl)}" target="_blank" rel="noopener noreferrer">${esc(t("publicContactForm"))} ↗</a><small>${esc(t("businessContactPending"))}</small>`
+      : `<strong>${esc(t("businessContactPending"))}</strong>`;
+  const contactPanel = key === "contact" ? `<aside class="business-contact"><span>${esc(t("businessContact"))}</span>${contactMethod}</aside>` : "";
   document.title = `${local(page.title)} — Story Archive`;
   document.querySelector("#info-content").innerHTML = `<div class="section-label">PUBLIC DOCUMENT</div><h1>${esc(local(page.title))}</h1><p class="intro">${esc(local(page.intro))}</p>${contactPanel}${page.sections.map(([heading, text]) => `<section><h2>${esc(local(heading))}</h2><p>${esc(local(text))}</p></section>`).join("")}`;
 }
@@ -1249,5 +1275,5 @@ async function bootstrap() {
 bootstrap().catch((error) => {
   console.error(error);
   const reader = document.querySelector("#reader");
-  if (reader) reader.innerHTML = `<section class="story-load-error"><h1>${esc(lang === "zh" ? "故事暂时无法载入" : "This story could not be loaded")}</h1><p>${esc(lang === "zh" ? "请刷新页面，或返回故事库选择其他故事。" : "Refresh this page or return to the library and choose another story.")}</p><a href="library.html?lang=${lang}">${esc(t("backLibrary"))}</a></section>`;
+  if (reader && !reader.querySelector("[data-static-story]")) reader.innerHTML = `<section class="story-load-error"><h1>${esc(lang === "zh" ? "故事暂时无法载入" : "This story could not be loaded")}</h1><p>${esc(lang === "zh" ? "请刷新页面，或返回故事库选择其他故事。" : "Refresh this page or return to the library and choose another story.")}</p><a href="library.html?lang=${lang}">${esc(t("backLibrary"))}</a></section>`;
 });

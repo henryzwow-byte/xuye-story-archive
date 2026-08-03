@@ -3,7 +3,7 @@
   "fileNo": "A-003",
   "cover": "assets/covers/A-003-cleaning-house.webp",
   "published": "2026-07-20",
-  "modified": "2026-07-22",
+  "modified": "2026-08-03",
   "isNew": false,
   "share": {
     "title": {
@@ -20,8 +20,8 @@
     "zh": "清理门户"
   },
   "category": {
-    "en": "Justice & Reckoning",
-    "zh": "正义审判"
+    "en": "Justice & Accountability",
+    "zh": "正义与追责"
   },
   "summary": {
     "en": "A young heir pushed to the edge of his own family waits three years to reveal the ledger that proves who stole his inheritance and dismantled his father’s company.",
@@ -35,40 +35,63 @@
   "glyph": "CH",
   "content": {
     "en": [
+      "## Chapter One: The Empty Chair",
       "I stood beside the dining table while my uncle deliberately kept the final chair empty, making it clear that I was not welcome in my own family home.",
       "Above me, his family of three drank the wine my father had loved. Tonight it was their victory bottle, opened to celebrate removing me from my own inheritance.",
       "“Call me Dad,” my uncle said with a cold smile. “Do that and perhaps I will let you remain at this table. Your father is no longer here to protect your place.”",
       "I stared back without tears. Since the court placed me in their care, I had been treated like an unwanted guest. My aunt cut her food with perfect elegance and never once looked at me.",
       "“When your mother left, you became our responsibility,” she said. “And those assets your father left? We consider them payment for everything we have done.”",
+      "The empty chair had belonged to my father. My uncle kept it visible because every meal was meant to teach me that memory, property and belonging were privileges he could ration.",
+      "I said nothing, but I recorded the date of the conversation in a small notebook. It joined bank notices, board minutes and copies of letters my uncle believed had disappeared.",
+      "## Chapter Two: The Camera in the Study",
       "At last I ran into the rain. I became ill at an intersection, and the police returned me to their house. When the door closed, my uncle opened a drawer, removed a camera and led me into his study for what he called a ‘formal assessment.’",
       "He wanted a recording that could be edited to make me appear incapable of managing my affairs. With it, he planned to challenge my inheritance claim.",
       "Before he could aim the camera, the study door opened. The company’s former finance director entered with two lawyers. He ignored my uncle, placed his jacket over my shoulders and faced me.",
       "“Young master, every account now balances,” he said. “From your grandfather’s generation to the scheme that removed your father from his own company, every movement of money is documented in this encrypted archive.”",
       "I stood, walked to the camera and pressed Delete. Then I turned toward the couple whose faces had gone gray.",
       "“Which one of us did you say had no place here?”",
+      "The finance director, Mr. Vale, had resigned rather than certify the first altered account. For three years he had preserved originals in an independent archive and waited until I was old enough to instruct counsel myself.",
+      "The lawyers placed a preservation notice on the desk before my uncle could touch the camera or computer. No one shouted. The quiet procedure frightened him more than any threat could have done.",
+      "I gave a statement with a youth advocate present. The police did not return me to the same house that night.",
+      "## Chapter Three: An Account of My Own",
       "For three years I had moved quietly through the company’s records, documenting every account they used against me. I never needed revenge. I simply placed their decisions before the law.",
       "When the final liquidation agreement was placed before my uncle, court seals went onto the villa that had once confined me. I watched him sign while his wife asked me to leave them a small allowance.",
       "I entered the car and started the engine. In the mirror, they stood in the middle of an empty street, no longer able to control my life.",
       "Dignity does not need to be argued for. Once you become the author of the rules, everyone who stood on your head eventually begs you to move your foot.",
-      "— End —"
+      "The court appointed an independent administrator while auditors traced every transfer. Some assets were recovered quickly; others took months. The process was less cinematic than the dinner, but far more important.",
+      "I asked that the staff be paid before any distribution to me. They had kept the company operating while adults used it as a private account.",
+      "When I eventually entered the boardroom, my father’s photograph still hung beside the clock. I did not take his chair. I chose the empty one across from it and opened the first audited report.",
+      "Cleaning house did not mean erasing everyone who had failed me. It meant building records, rules and doors that could no longer be controlled by a single frightened family."
     ],
     "zh": [
+      "## 第一章：空着的椅子",
       "我站在餐桌旁，姑父故意让最后一把椅子空着，明摆着告诉所有人：在这个家里没有我的位置。",
       "餐桌上，他们一家三口正在享用红酒。那是父亲生前最爱的一款，如今却成了姑父庆祝把我踢出遗产继承权的庆功酒。",
       "“叫我一声爸。”姑父带着冷笑说，“你肯配合，我或许还能让你留在这张桌子旁。你父亲已经不在，没人能替你保住位置。”",
       "我没有流泪。法院把我交给他们照顾之后，我便成了这个家里不受欢迎的客人。姑姑优雅地切着食物，始终不肯看我一眼。",
       "“你母亲离开后，我们承担了你的生活。”她说，“至于你父亲留下的资产，就当作这些年的补偿。”",
+      "那把空椅子原本属于父亲。叔叔故意让它一直空着，因为每一顿饭都要提醒我：记忆、财产和归属感，都是他可以随意分配的特权。",
+      "我没有争辩，只在小笔记本里记下谈话日期。那里已经保存着银行通知、董事会记录，以及叔叔以为早已消失的信件副本。",
+      "## 第二章：书房里的摄像机",
       "我跑进雨里，在路口病倒，又被警察送回他们家。门关上后，姑父从抽屉里拿出摄像机，把我带进书房，声称要做一次‘正式评估’。",
       "他想剪辑一段让我看起来没有能力管理个人事务的录像，再借此挑战我的继承资格。",
       "镜头还没打开，书房门便被推开。公司曾经的老财务总监带着两名律师走了进来。他没有理会姑父，只把外套披在我的肩上。",
       "“少爷，账目全部对齐了。”老人说，“从你爷爷那一代，到你父亲被排挤出公司的过程，所有资金流转都记录在这个加密档案里。”",
       "我站起来，走到摄像机前按下删除键，再看向那对终于意识到计划失败的夫妻。",
       "“你们刚才说，谁没有资格留在这里？”",
+      "前财务主管瓦尔先生拒绝为第一份被篡改的账目背书，因此辞职。三年来，他把原始文件保存在独立档案中，只等我长大到能够亲自委托律师。",
+      "律师先在书桌上放下证据保全通知，不给叔叔触碰摄像机和电脑的机会。没有人吼叫，这种安静而正式的程序比任何威胁都更让他害怕。",
+      "我在未成年人权益支持人员陪同下完成陈述。那天晚上，警方没有再把我送回同一栋房子。",
+      "## 第三章：属于我的账目",
       "三年来，我一直安静地整理公司记录，记下他们对每个账户做过的决定。我不需要报复，只需要把证据交给法律。",
       "最后一份资产清算协议放到姑父面前时，曾限制我自由的别墅被贴上法院封条。我看着他在协议上签字，他的妻子则请求保留一小笔生活费用。",
       "我坐进车里发动引擎。倒车镜里，他们站在空荡荡的街道中央，再也无法支配我的人生。",
       "尊严不需要靠争吵证明。当你学会用规则保护自己，曾经支配你的人就无法再决定你的位置。",
-      "—— 全文完 ——"
+      "—— 全文完 ——",
+      "法院任命独立管理人，审计人员逐笔追查转账。有些资产很快追回，另一些则花了几个月。这个过程没有晚餐上的对峙那么戏剧化，却重要得多。",
+      "我要求在向我分配资产前先补齐员工工资。大人把公司当成私人账户时，是他们维持着真正的经营。",
+      "后来我走进董事会，父亲的照片仍挂在时钟旁。我没有坐他的椅子，而是选择对面那把空椅，翻开第一份经过审计的报告。",
+      "清理门户不意味着抹掉所有辜负过我的人，而是建立任何一个恐惧的家族都无法独自操控的记录、规则和出口。"
     ]
   }
 }

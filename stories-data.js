@@ -1,11 +1,11 @@
-window.STORY_ARCHIVE_VERSION = "20260803-split-data";
+window.STORY_ARCHIVE_VERSION = "20260803-quality-seo";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
     "fileNo": "A-001",
     "cover": "assets/covers/A-001-the-broken-home.webp",
     "published": "2026-07-20",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -22,8 +22,8 @@ window.STORY_ARCHIVE = [
       "zh": "家宴上的囚徒"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Hours after leaving the hospital, Eva is pressured to sign away her marriage at a family banquet—until she reveals the documents that can bring the entire dynasty down.",
@@ -40,7 +40,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 681,
+      "en": 661,
       "zh": 1103
     }
   },
@@ -49,7 +49,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-002",
     "cover": "assets/covers/A-002-the-last-watchman.webp",
     "published": "2026-07-20",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -66,8 +66,8 @@ window.STORY_ARCHIVE = [
       "zh": "最后的守夜人"
     },
     "category": {
-      "en": "Justice & Reckoning",
-      "zh": "正义审判"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "A confused old man in a wheelchair is harassed for entertainment, but the medal in his hand carries the weight of a lifetime of public service.",
@@ -84,8 +84,8 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 485,
-      "zh": 767
+      "en": 862,
+      "zh": 1475
     }
   },
   {
@@ -93,7 +93,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-003",
     "cover": "assets/covers/A-003-cleaning-house.webp",
     "published": "2026-07-20",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -110,8 +110,8 @@ window.STORY_ARCHIVE = [
       "zh": "清理门户"
     },
     "category": {
-      "en": "Justice & Reckoning",
-      "zh": "正义审判"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "A young heir pushed to the edge of his own family waits three years to reveal the ledger that proves who stole his inheritance and dismantled his father’s company.",
@@ -124,12 +124,12 @@ window.STORY_ARCHIVE = [
     "tone": "gold",
     "glyph": "CH",
     "chapterCount": {
-      "en": 1,
-      "zh": 1
+      "en": 3,
+      "zh": 3
     },
     "readingUnits": {
-      "en": 441,
-      "zh": 712
+      "en": 709,
+      "zh": 1234
     }
   },
   {
@@ -137,7 +137,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-004",
     "cover": "assets/covers/A-004-judgment-from-a-wheelchair.webp",
     "published": "2026-07-20",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -154,8 +154,8 @@ window.STORY_ARCHIVE = [
       "zh": "轮椅上的审判"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "A disabled heir watches his father and wife plan to steal his mother’s estate, unaware that every word has already been recorded.",
@@ -172,8 +172,8 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 507,
-      "zh": 839
+      "en": 827,
+      "zh": 1447
     }
   },
   {
@@ -181,7 +181,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-005",
     "cover": "assets/covers/A-005-a-fathers-final-dignity.webp",
     "published": "2026-07-20",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -198,8 +198,8 @@ window.STORY_ARCHIVE = [
       "zh": "亲爹最后的尊严"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Layla begs doctors to save her father while her stepmother steals his company—until a secret trust clause turns the hospital corridor into a courtroom.",
@@ -216,8 +216,8 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 574,
-      "zh": 1004
+      "en": 754,
+      "zh": 1360
     }
   },
   {
@@ -225,7 +225,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-006",
     "cover": "assets/covers/A-006-carter-estate.webp",
     "published": "2026-07-20",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -242,8 +242,8 @@ window.STORY_ARCHIVE = [
       "zh": "庄园里的审判"
     },
     "category": {
-      "en": "Corporate Justice",
-      "zh": "职场正义"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "A powerful tycoon publicly humiliates Marcus, unaware that the quiet guest is the investigator who has spent three years documenting his illegal empire.",
@@ -256,12 +256,12 @@ window.STORY_ARCHIVE = [
     "tone": "ink",
     "glyph": "MJ",
     "chapterCount": {
-      "en": 2,
-      "zh": 2
+      "en": 3,
+      "zh": 3
     },
     "readingUnits": {
-      "en": 459,
-      "zh": 818
+      "en": 790,
+      "zh": 1431
     }
   },
   {
@@ -269,7 +269,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-007",
     "cover": "assets/covers/A-007-the-viper-in-the-nest.webp",
     "published": "2026-07-20",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -286,8 +286,8 @@ window.STORY_ARCHIVE = [
       "zh": "温床上的毒蛇"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "A pregnant woman watches her husband and sister build a secret life inside her home, quietly saving every message until the day they demand her property.",
@@ -304,8 +304,8 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 551,
-      "zh": 933
+      "en": 733,
+      "zh": 1261
     }
   },
   {
@@ -313,7 +313,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-008",
     "cover": "assets/covers/A-008-the-tattered-toy-in-the-rain.webp",
     "published": "2026-07-22",
-    "modified": "2026-07-22",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -330,8 +330,8 @@ window.STORY_ARCHIVE = [
       "zh": "雨夜里的破烂玩偶"
     },
     "category": {
-      "en": "Lost & Found",
-      "zh": "失而复得"
+      "en": "Recovery & Dignity",
+      "zh": "疗愈与尊严"
     },
     "summary": {
       "en": "A ten-year-old girl shelters outside the restaurant where someone else is celebrating her birthday, until a geotagged post leads the family searching for her straight to the door.",
@@ -348,8 +348,8 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 971,
-      "zh": 1617
+      "en": 947,
+      "zh": 1618
     }
   },
   {
@@ -357,7 +357,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-009",
     "cover": "assets/covers/A-009-she-saw-every-secret.webp",
     "published": "2026-07-23",
-    "modified": "2026-07-23",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -365,7 +365,7 @@ window.STORY_ARCHIVE = [
         "zh": "他们栽赃失聪清洁工，直到她举起一块平板"
       },
       "description": {
-        "en": "A necklace appeared in Lena’s apron before five hundred wedding guests. The reflection in one glass wall exposed who put it there—and a missing $20 million.",
+        "en": "A necklace appeared in Lena’s apron before five hundred wedding guests. The reflection in one glass wall exposed who put it there—and a missing $20…",
         "zh": "五百名婚礼宾客面前，项链从莉娜的围裙里被搜出；玻璃墙上的一处倒影，却指向了栽赃者和失踪的两千万美元。"
       }
     },
@@ -374,8 +374,8 @@ window.STORY_ARCHIVE = [
       "zh": "她听不见，却看见了所有秘密"
     },
     "category": {
-      "en": "Justice & Reckoning",
-      "zh": "正义与清算"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "A deaf hotel cleaner is framed for theft at a wedding banquet. Reflections, access logs and payment records reveal that the planted necklace hides a far larger charity-fund conspiracy.",
@@ -392,8 +392,8 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 2092,
-      "zh": 3813
+      "en": 2081,
+      "zh": 3814
     }
   },
   {
@@ -401,11 +401,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-010",
     "cover": "assets/covers/A-010-the-boy-who-saved-the-billionaires-son.webp",
     "published": "2026-07-23",
-    "modified": "2026-07-23",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Doctors Declared the Baby Dead—Then a Homeless Boy Touched His Heart",
+        "en": "The Homeless Boy Who Saved the Billionaire’s Only Son",
         "zh": "医生已经宣布婴儿死亡，直到流浪男孩把手放在他的心口"
       },
       "description": {
@@ -418,8 +418,8 @@ window.STORY_ARCHIVE = [
       "zh": "那个救了首富独子命的乞丐男孩"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "A ten-year-old homeless boy returns a billionaire’s lost wallet and revives the man’s infant son—only to expose a secret medical program that destroyed his own mother.",
@@ -436,7 +436,7 @@ window.STORY_ARCHIVE = [
       "zh": 1
     },
     "readingUnits": {
-      "en": 2178,
+      "en": 2180,
       "zh": 4901
     }
   },
@@ -445,11 +445,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-011",
     "cover": "assets/covers/A-011-the-billionaires-son-saw-his-double-in-manhattan.webp",
     "published": "2026-07-23",
-    "modified": "2026-07-23",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "A Billionaire's Son Saw a Homeless Boy with His Exact Face—Then Opened the Locket",
+        "en": "The Billionaire's Son Saw His Double on a Manhattan Street",
         "zh": "首富之子在街头看见和自己一模一样的流浪少年，随后打开了那只吊坠盒"
       },
       "description": {
@@ -462,8 +462,8 @@ window.STORY_ARCHIVE = [
       "zh": "首富儿子在曼哈顿街头，看见了另一个自己"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "A billionaire's son meets a homeless boy with his exact face and uncovers a twin brother erased from the family record, then exploited by a celebrated children's charity.",
@@ -480,7 +480,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 2053,
+      "en": 1990,
       "zh": 3713
     }
   },
@@ -489,11 +489,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-012",
     "cover": "assets/covers/A-012-the-secret-beneath-the-white-sheet.webp",
     "published": "2026-07-24",
-    "modified": "2026-07-24",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Lifted the White Sheet over His Pregnant Wife—and Exposed His Mother's Five-Billion-Dollar Plot",
+        "en": "The Secret Beneath the White Sheet",
         "zh": "他掀开孕妻身上的白色被单，揭开了母亲价值五十亿美元的阴谋"
       },
       "description": {
@@ -506,8 +506,8 @@ window.STORY_ARCHIVE = [
       "zh": "白色被单下的秘密"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "When Alexander lifts the hospital sheet covering his pregnant wife, he uncovers a campaign of abuse, forged medical evidence and a five-billion-dollar family trust plot.",
@@ -524,7 +524,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 2367,
+      "en": 2326,
       "zh": 4200
     }
   },
@@ -533,11 +533,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-013",
     "cover": "assets/covers/A-013-what-milo-guarded-to-the-end.webp",
     "published": "2026-07-24",
-    "modified": "2026-07-24",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "At His Owner's Funeral, a Dying Dog Tore a Priest's Sleeve—and Revealed What He Had Stolen",
+        "en": "What Milo Guarded to the End",
         "zh": "主人葬礼上，濒死老犬撕开神父衣袖，揭出了他偷走的遗物"
       },
       "description": {
@@ -550,8 +550,8 @@ window.STORY_ARCHIVE = [
       "zh": "米洛最后守住的东西"
     },
     "category": {
-      "en": "Loyalty & Legacy",
-      "zh": "忠诚与尊严"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "At his owner's rain-soaked funeral, a dying golden retriever turns on the new priest and exposes the stolen keepsake—and the quiet dignity—he has spent his last strength protecting.",
@@ -568,7 +568,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 2258,
+      "en": 2197,
       "zh": 3851
     }
   },
@@ -581,11 +581,11 @@ window.STORY_ARCHIVE = [
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Slapped the Man Who Stole His Mother's Gold Watch—Then the Old Ledger Opened",
+        "en": "The Mercer Dinner: An Old Lie Returned in Gold",
         "zh": "他掌掴了偷走母亲金表的男人，随后那本旧账簿被打开了"
       },
       "description": {
-        "en": "For eighteen years, Daniel believed Henry Vale was a thief. At the Mercer dinner, the watch returned with a ledger, two recordings and a truth capable of taking the whole estate.",
+        "en": "For eighteen years, Daniel believed Henry Vale was a thief. At the Mercer dinner, the watch returned with a ledger, two recordings and a truth capable of…",
         "zh": "十八年来，Daniel 一直认定 Henry Vale 是个窃贼。默瑟晚宴上，金表与账簿、两段录音一同归来，而真相足以夺走整座庄园。"
       }
     },
@@ -594,8 +594,8 @@ window.STORY_ARCHIVE = [
       "zh": "默瑟晚宴：披金而归的旧谎言"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "At a glittering Mercer family dinner, Daniel publicly strikes the man blamed for stealing his mother's gold watch—only to learn that the returned heirloom carries eighteen years of evidence against his father, his family and himself.",
@@ -612,7 +612,7 @@ window.STORY_ARCHIVE = [
       "zh": 8
     },
     "readingUnits": {
-      "en": 3719,
+      "en": 3675,
       "zh": 11650
     }
   },
@@ -621,15 +621,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-015",
     "cover": "assets/covers/A-015-the-heir-accused-the-trustee.webp",
     "published": "2026-07-24",
-    "modified": "2026-07-24",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "His Father Was Still Speaking When the Heir Accused the Family Trustee",
+        "en": "Before His Father Finished Speaking, the Heir Accused the Trustee",
         "zh": "父亲仍在致辞，继承人却当众剑指家族受托人"
       },
       "description": {
-        "en": "One sealed envelope, one disputed signature and two hundred witnesses turn an elegant engagement gala into a fight over who has been controlling the family all along.",
+        "en": "One sealed envelope, one disputed signature and two hundred witnesses turn an elegant engagement gala into a fight over who has been controlling the…",
         "zh": "一个封口信封、一处存疑签名和两百名宾客，让华丽订婚晚宴变成了一场关于谁在暗中控制整个家族的较量。"
       }
     },
@@ -638,8 +638,8 @@ window.STORY_ARCHIVE = [
       "zh": "父亲话音未落，继承人便剑指受托人"
     },
     "category": {
-      "en": "Inheritance & Trust",
-      "zh": "继承与信托"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "At a rooftop engagement gala, Adrian publicly accuses the family's longtime trustee of swapping a signed succession agreement. The sealed documents soon expose forged pages, hidden triggers and a system built to decide his future without him.",
@@ -656,8 +656,8 @@ window.STORY_ARCHIVE = [
       "zh": 17
     },
     "readingUnits": {
-      "en": 26716,
-      "zh": 53615
+      "en": 26628,
+      "zh": 53522
     }
   },
   {
@@ -669,11 +669,11 @@ window.STORY_ARCHIVE = [
     "isNew": false,
     "share": {
       "title": {
-        "en": "Daniel Mercer Returned to the Old House—and Found Every Lie Waiting for Him",
+        "en": "The Night Daniel Mercer Returned Before the Lies Devoured the…",
         "zh": "丹尼尔·默瑟回到老宅，发现所有谎言都在等他"
       },
       "description": {
-        "en": "A fired flare gun, a burned trust amendment and four people with different versions of the truth turn one storm-darkened night into the reckoning Howard Vale left behind.",
+        "en": "A fired flare gun, a burned trust amendment and four people with different versions of the truth turn one storm-darkened night into the reckoning Howard…",
         "zh": "一把已经击发的信号枪、一张烧焦的信托修正案，以及四个各执一词的人，让暴风雨后的那个夜晚变成霍华德·维尔留下的最终清算。"
       }
     },
@@ -682,8 +682,8 @@ window.STORY_ARCHIVE = [
       "zh": "在谎言彻底吞噬老宅前，丹尼尔·默瑟归来的那个夜晚"
     },
     "category": {
-      "en": "Inheritance & Deception",
-      "zh": "继承与欺骗"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "On the storm-darkened night Daniel Mercer returns to Marlowe Estate, a discharged flare gun and a burned trust amendment force four members of a broken household to reveal what each of them hid after Howard’s death.",
@@ -700,8 +700,8 @@ window.STORY_ARCHIVE = [
       "zh": 16
     },
     "readingUnits": {
-      "en": 27439,
-      "zh": 51783
+      "en": 27349,
+      "zh": 51697
     }
   },
   {
@@ -709,15 +709,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-017",
     "cover": "assets/covers/A-017-the-night-evelyn-vale-left-her-marriage.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Evelyn Left Her Anniversary Dinner—and Quietly Took Back Every Door He Thought He Owned",
+        "en": "No One Knew Why She Left: The Night Evelyn Vale Walked Away…",
         "zh": "伊芙琳离开周年晚宴，并悄然收回他自以为拥有的一切"
       },
       "description": {
-        "en": "One slap ends the silence. As Evelyn freezes access to her estate, a suspicious trust document and missing artwork reveal that her marriage concealed more than cruelty.",
+        "en": "One slap ends the silence. As Evelyn freezes access to her estate, a suspicious trust document and missing artwork reveal that her marriage concealed…",
         "zh": "一记耳光终结了沉默。伊芙琳冻结庄园权限后，可疑的信托文件与失踪的艺术品，让这段婚姻里更深的秘密浮出水面。"
       }
     },
@@ -726,8 +726,8 @@ window.STORY_ARCHIVE = [
       "zh": "无人知晓她为何离开：伊芙琳·韦尔诀别婚姻之夜"
     },
     "category": {
-      "en": "Marriage & Reckoning",
-      "zh": "婚姻与清算"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "After refusing to surrender control of her estate, Evelyn Vale leaves an anniversary dinner, documents her husband's violence and begins uncovering the financial scheme hidden inside their marriage.",
@@ -744,8 +744,8 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 7546,
-      "zh": 13980
+      "en": 7514,
+      "zh": 13958
     }
   },
   {
@@ -753,11 +753,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-018",
     "cover": "assets/covers/A-018-after-the-gilded-frame-fell.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "The Gilded Frame Fell at the Gala—Then Clara Refused to Stay Silent",
+        "en": "After the Gilded Frame Fell: The Final Judgment in High Society",
         "zh": "金色画框在晚宴上坠落，而克拉拉决定不再沉默"
       },
       "description": {
@@ -770,8 +770,8 @@ window.STORY_ARCHIVE = [
       "zh": "金框坠落之后：名利场上的最终审判"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "When a gilded frame injures seven-year-old Mia during a society gala, Clara refuses to let her powerful husband rewrite what happened and begins the difficult first steps toward safety.",
@@ -788,7 +788,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 4371,
+      "en": 4344,
       "zh": 7957
     }
   },
@@ -797,11 +797,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-019",
     "cover": "assets/covers/A-019-daughter-kneeling-in-the-storm.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "She Found Her Daughter Kneeling in the Rain—Then the Mansion Door Fell",
+        "en": "My Daughter Knelt in the Storm—So I Kicked Open the Doors of…",
         "zh": "她发现女儿跪在暴雨中，随后一脚踹开了豪宅大门"
       },
       "description": {
@@ -814,8 +814,8 @@ window.STORY_ARCHIVE = [
       "zh": "暴雨中下跪的女儿，被我一脚踹开了豪门"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Eleanor finds her daughter Chloe kneeling in a storm as punishment outside the Sterling estate. She carries her inside, confronts the family that controlled her and begins dismantling the power they used to keep Chloe afraid.",
@@ -832,8 +832,8 @@ window.STORY_ARCHIVE = [
       "zh": 15
     },
     "readingUnits": {
-      "en": 17528,
-      "zh": 32721
+      "en": 17474,
+      "zh": 32715
     }
   },
   {
@@ -841,7 +841,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-020",
     "cover": "assets/covers/A-020-the-necklace-box-that-shook-the-royal-court.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -849,7 +849,7 @@ window.STORY_ARCHIVE = [
         "zh": "王室嘲笑这个穷母亲，直到她打开了那个项链盒"
       },
       "description": {
-        "en": "One silver box turns a glittering royal gala into a reckoning twenty years in the making.",
+        "en": "Clara enters a royal gala carrying her infant and the necklace box left behind by the missing Arthur. Ridiculed as an intruder, she uncovers a buried…",
         "zh": "一个银色项链盒，让华丽的王室晚宴变成了一场迟到二十年的清算。"
       }
     },
@@ -858,8 +858,8 @@ window.STORY_ARCHIVE = [
       "zh": "王室群嘲的穷母亲，凭一个项链盒掀翻了整个权贵圈"
     },
     "category": {
-      "en": "Royal Secrets",
-      "zh": "王室秘闻"
+      "en": "Secrets & Deception",
+      "zh": "秘密与骗局"
     },
     "summary": {
       "en": "Clara enters a royal gala carrying her infant and the necklace box left behind by the missing Arthur. Ridiculed as an intruder, she uncovers a buried name, a vanished prince and a conspiracy powerful families spent twenty years protecting.",
@@ -876,8 +876,8 @@ window.STORY_ARCHIVE = [
       "zh": 15
     },
     "readingUnits": {
-      "en": 7904,
-      "zh": 15290
+      "en": 7786,
+      "zh": 15289
     }
   },
   {
@@ -885,7 +885,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-021",
     "cover": "assets/covers/A-021-the-wedding-video-that-cleared-her-daughter.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -902,8 +902,8 @@ window.STORY_ARCHIVE = [
       "zh": "哥哥在豪门婚礼上栽赃我八岁的女儿，一段监控录像让全场死寂"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Emma brings eight-year-old Lucy to her brother Kevin's lavish wedding as the ring bearer. When the rings disappear, Kevin accuses the child—but hotel security footage exposes a calculated scheme involving fraud, a hidden affair and the inheritance he stole from his sister.",
@@ -920,8 +920,8 @@ window.STORY_ARCHIVE = [
       "zh": 15
     },
     "readingUnits": {
-      "en": 5354,
-      "zh": 10065
+      "en": 5236,
+      "zh": 10059
     }
   },
   {
@@ -929,7 +929,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-022",
     "cover": "assets/covers/A-022-the-motorcade-that-came-for-her-in-the-winter-night.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -946,8 +946,8 @@ window.STORY_ARCHIVE = [
       "zh": "丈夫将我剥光扔进冰冷的冬夜，半小时后，劳斯莱斯车队在巷口停下"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "After five years of control and humiliation, Sophia is assaulted and abandoned in a freezing Manhattan alley by the family she tried to please. One desperate phone call brings her back to the Sterling empire she once left—and gives her the power to rebuild her life and hold her abusers accountable.",
@@ -964,8 +964,8 @@ window.STORY_ARCHIVE = [
       "zh": 12
     },
     "readingUnits": {
-      "en": 12918,
-      "zh": 23760
+      "en": 12824,
+      "zh": 23759
     }
   },
   {
@@ -973,7 +973,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-023",
     "cover": "assets/covers/A-023-the-belt-at-my-fathers-sixtieth-birthday.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -990,8 +990,8 @@ window.STORY_ARCHIVE = [
       "zh": "我父亲在六十大寿上举起了皮带"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "At Ernesto's sixtieth birthday party, his three-year-old granddaughter Camila is rushed to the hospital after he swings a belt and she strikes the kitchen floor. As relatives close ranks and try to erase the evidence, Camila's mother chooses her child's safety over family loyalty—and forces the truth into court.",
@@ -1008,7 +1008,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8067,
+      "en": 8026,
       "zh": 15667
     }
   },
@@ -1017,7 +1017,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-024",
     "cover": "assets/covers/A-024-the-hospital-he-controlled-until-her-mother-called.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -1025,7 +1025,7 @@ window.STORY_ARCHIVE = [
         "zh": "他以为医院属于自己，直到她的母亲冻结了他的权力"
       },
       "description": {
-        "en": "A hospital director believed every chart, operating room and board member answered to him. One trust clause—and the records he tried to control—turned the institution against him.",
+        "en": "A hospital director believed every chart, operating room and board member answered to him. One trust clause—and the records he tried to control—turned…",
         "zh": "一名医院院长以为病历、手术室和董事会都听命于他；一条信托条款，以及那些他企图掌控的记录，却让整座医院转身审判了他。"
       }
     },
@@ -1034,8 +1034,8 @@ window.STORY_ARCHIVE = [
       "zh": "他掌控了整座医院——直到她的母亲打通了那一通电话"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "At thirty-eight weeks pregnant, Chloe shows her mother Eleanor boot-shaped bruises and reveals that her husband, celebrated hospital director Julian Thorne, has threatened to make sure she never wakes from a scheduled cesarean. Eleanor invokes the maternal-care trust's emergency clause, freezes his authority and preserves the records that expose domestic abuse, reproductive coercion and a wider medical conspiracy.",
@@ -1052,7 +1052,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7760,
+      "en": 7709,
       "zh": 14691
     }
   },
@@ -1061,11 +1061,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-025",
     "cover": "assets/covers/A-025-at-midnight-the-sapphire-comb-began-telling-different-stories.jpg",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "The Sapphire Comb Vanished—Then the Security Camera Told a Different Story",
+        "en": "At Midnight, the Sapphire Comb Began Telling Different Stories",
         "zh": "蓝宝石发梳失踪后，监控录像讲出了另一套真相"
       },
       "description": {
@@ -1078,8 +1078,8 @@ window.STORY_ARCHIVE = [
       "zh": "午夜时分，蓝宝石发梳讲出了不同的故事"
     },
     "category": {
-      "en": "Justice & Reckoning",
-      "zh": "正义审判"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "At a museum gala, assistant registrar Mara Lin is accused of stealing the Moonwake Comb. Security footage exposes the person who planted the box, but a missing repair mark reveals that the recovered jewel is a replica—and that every witness is protecting a different secret.",
@@ -1108,7 +1108,7 @@ window.STORY_ARCHIVE = [
       "zh": 2
     },
     "readingUnits": {
-      "en": 1961,
+      "en": 1956,
       "zh": 3683
     }
   },
@@ -1117,15 +1117,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-026",
     "cover": "assets/covers/A-026-northstar-seven.jpg",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Her Brother Mocked Her Call Sign—Then the Harbor Club Rose to Its Feet",
+        "en": "When She Said “Northstar Seven,” the Harbor Club Fell Silent",
         "zh": "弟弟拿她的呼号开玩笑，随后整个港湾俱乐部都站了起来"
       },
       "description": {
-        "en": "At her younger brother's promotion party, Mina Park speaks a call sign her family has ignored for eleven years. One dropped mug reveals who in the room remembers the storm.",
+        "en": "At her younger brother's promotion party, Mina Park speaks a call sign her family has ignored for eleven years. One dropped mug reveals who in the room…",
         "zh": "在弟弟的晋升聚会上，朴敏娜说出了一个被家人忽视十一年的呼号。一只坠地的杯子，让所有人知道谁还记得那场风暴。"
       }
     },
@@ -1134,8 +1134,8 @@ window.STORY_ARCHIVE = [
       "zh": "她说出“北星七号”后，港湾俱乐部陷入沉默"
     },
     "category": {
-      "en": "Family & Courage",
-      "zh": "家庭与勇气"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Mina Park attends her half-brother Rafael's promotion party expecting nothing more difficult than a family toast. When he turns her old rescue call sign into a joke, a veteran officer recognizes it as the voice that guided six people home through the Greywater Gale. The public revelation matters less than what follows: a brother learning to listen, a mother confronting the story she preferred, and Mina deciding which memories she is finally willing to carry in daylight.",
@@ -1164,7 +1164,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 2044,
+      "en": 2025,
       "zh": 3919
     }
   },
@@ -1173,11 +1173,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-027",
     "cover": "assets/covers/A-027-fountain-ledger.jpg",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "His Fiancée Called His Mother Cheap—Then the Glasshouse Fountain Went Silent",
+        "en": "When the Glasshouse Fountain Went Silent, He Finally Read His…",
         "zh": "未婚妻嘲笑母亲寒酸，随后整座玻璃花房安静了"
       },
       "description": {
@@ -1190,8 +1190,8 @@ window.STORY_ARCHIVE = [
       "zh": "玻璃花房喷泉静下来的那一刻，他终于读懂母亲的旧账本"
     },
     "category": {
-      "en": "Family & Accountability",
-      "zh": "家庭与担当"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Mei Lin arrives at her son's engagement gala wearing a repaired green jacket and carrying the yellow ledger from the years when his clean-energy company survived on her night-shift wages. His fiancée, Tessa Bellamy, treats both as stains on a carefully designed future. When Mei is pushed into the conservatory fountain, the recordings expose more than an assault: they open an audit into a charitable foundation, a promised equity grant and the habits Jonah has excused in the name of love. Repair begins only when he stops treating consequences as revenge and starts changing who gets heard before someone falls.",
@@ -1220,7 +1220,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 2174,
+      "en": 2149,
       "zh": 4022
     }
   },
@@ -1229,7 +1229,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-028",
     "cover": "assets/covers/A-028-half-braid-map.jpg",
     "published": "2026-07-27",
-    "modified": "2026-07-27",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -1237,7 +1237,7 @@ window.STORY_ARCHIVE = [
         "zh": "他们在答辩前剪断她的发辫，她仍带着那张地图走进会场"
       },
       "description": {
-        "en": "Nadia Okafor walks into her doctoral defense with uneven braids, a cloud recording and the environmental map a donor family spent twenty-six years trying to erase.",
+        "en": "Nadia Okafor walks into her doctoral defense with uneven braids, a cloud recording and the environmental map a donor family spent twenty-six years trying…",
         "zh": "娜迪娅·奥卡福带着参差的发辫、云端录音，以及一个捐助人家族试图抹去二十六年的环境地图，走进博士答辩室。"
       }
     },
@@ -1246,8 +1246,8 @@ window.STORY_ARCHIVE = [
       "zh": "她带着被剪断的发辫走进答辩室，也带着一张他们再也抹不掉的地图"
     },
     "category": {
-      "en": "Justice & Knowledge",
-      "zh": "正义与求知"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "Urban-planning researcher Nadia Okafor discovers that a donor-funded redevelopment map concealed the same lead-contamination data her late mother tried to protect decades earlier. Her husband knew the family history; his mother, a celebrated university benefactor, needs Nadia's final case study gone before the defense. A forced haircut is meant to make Nadia look unstable. Instead, the rehearsal recording, a retired technician's field box and a thesis built on traceable evidence expose how private money redrew a city's risks—and how silence inside a marriage helped it happen.",
@@ -1276,7 +1276,7 @@ window.STORY_ARCHIVE = [
       "zh": 3
     },
     "readingUnits": {
-      "en": 2018,
+      "en": 1995,
       "zh": 3564
     }
   },
@@ -1285,15 +1285,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-029",
     "cover": "assets/covers/A-029-the-museum-finally-understood-who-its-doors-were-for.webp",
     "published": "2026-07-27",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "The Museum Planned to Close Its Free Door—Until an Assistant Curator Found the Original Deed",
+        "en": "The Museum Finally Understood Who Its Doors Were Meant to Welcome",
         "zh": "博物馆准备封掉免费入口，直到助理策展人找出最初的赠与契约"
       },
       "description": {
-        "en": "The donors wanted a private wing. The neighborhood had a century-old promise in writing.",
+        "en": "Assistant curator Nora Bennett discovers that a celebrated museum expansion will quietly seal its free east entrance and move a neighborhood collection…",
         "zh": "捐赠者想要一座私人展馆，而社区手中有一份延续百年的书面承诺。"
       }
     },
@@ -1302,8 +1302,8 @@ window.STORY_ARCHIVE = [
       "zh": "博物馆终于明白，它的大门究竟是为谁而开"
     },
     "category": {
-      "en": "Public Trust & Memory",
-      "zh": "公共信托与记忆"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "Assistant curator Nora Bennett discovers that a celebrated museum expansion will quietly seal its free east entrance and move a neighborhood collection into private storage. A handwritten deed, schoolchildren's catalog cards and the testimony of a retired conservator force the trustees to decide whether a museum is a monument to donors or a home for the public memory entrusted to it.",
@@ -1320,7 +1320,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 976,
+      "en": 943,
       "zh": 1800
     }
   },
@@ -1329,15 +1329,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-030",
     "cover": "assets/covers/A-030-the-call-that-silenced-the-citys-brightest-hall.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "She Was Slapped for Refusing to Hide a Property Transfer—Then She Made One Call",
+        "en": "The Call That Silenced the City's Brightest Hall Forever",
         "zh": "她因拒绝掩盖财产转移被当众掌掴，随后只打了一通电话"
       },
       "description": {
-        "en": "One forbidden call turned a glittering charity hall silent. What followed exposed the message, the missing audio and the power structure the museum had protected.",
+        "en": "One forbidden call turned a glittering charity hall silent. What followed exposed the message, the missing audio and the power structure the museum had…",
         "zh": "一通被禁止拨出的电话让慈善大厅瞬间沉寂；随之浮出水面的，是威胁短信、失踪音频，以及博物馆长期保护的权力结构。"
       }
     },
@@ -1346,8 +1346,8 @@ window.STORY_ARCHIVE = [
       "zh": "让这座城市最亮的大厅永远沉寂的电话"
     },
     "category": {
-      "en": "Justice & Reckoning",
-      "zh": "正义审判"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "After heiress Victoria Vale slaps museum assistant Nora Bennett for refusing to conceal a fraudulent property transfer, Nora makes one forbidden call before the city's elite. The story then returns to the raised hand, the hidden audio note and the institutional pressure that force an independent review of the family, the foundation and the public trust behind its glittering hall.",
@@ -1364,8 +1364,8 @@ window.STORY_ARCHIVE = [
       "zh": 11
     },
     "readingUnits": {
-      "en": 10586,
-      "zh": 20540
+      "en": 10498,
+      "zh": 20539
     }
   },
   {
@@ -1373,7 +1373,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-031",
     "cover": "assets/covers/A-031-my-new-husband-tried-to-control-me-with-a-belt.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -1381,7 +1381,7 @@ window.STORY_ARCHIVE = [
         "zh": "蜜月刚结束，丈夫便解下皮带要教她“做妻子”"
       },
       "description": {
-        "en": "He thought fear would make Maya sign away her inheritance. Instead, she pressed record—and uncovered the identity and warehouse secret behind their marriage.",
+        "en": "He thought fear would make Maya sign away her inheritance. Instead, she pressed record—and uncovered the identity and warehouse secret behind their…",
         "zh": "他以为恐惧会迫使玛雅交出继承权；她却按下录音键，并揭开婚姻背后的假身份与仓库秘密。"
       }
     },
@@ -1390,8 +1390,8 @@ window.STORY_ARCHIVE = [
       "zh": "新婚丈夫用皮带控制我"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "The morning after her honeymoon, Maya Bennett watches her new husband unbuckle a belt and announce that he will teach her how to be a proper wife. A recording, a police call and her late father's sealed instructions reveal that the threatened assault is tied to a false identity, a forged trust plan and a hidden warehouse her husband's family has been trying to reach for years.",
@@ -1408,8 +1408,8 @@ window.STORY_ARCHIVE = [
       "zh": 11
     },
     "readingUnits": {
-      "en": 9014,
-      "zh": 16340
+      "en": 8927,
+      "zh": 16339
     }
   },
   {
@@ -1417,7 +1417,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-032",
     "cover": "assets/covers/A-032-my-father-pinned-me-against-the-kitchen-wall.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -1425,7 +1425,7 @@ window.STORY_ARCHIVE = [
         "zh": "父亲将我按在墙上，而手机录下了全部真相"
       },
       "description": {
-        "en": "Claire's family wanted the money reserved for her cancer surgery. One recording exposed the violence, the stolen identity and the emergency they had hidden for years.",
+        "en": "Claire's family wanted the money reserved for her cancer surgery. One recording exposed the violence, the stolen identity and the emergency they had…",
         "zh": "家人盯上了克莱尔为癌症手术保留的钱；一段录音揭开暴力、身份盗用，以及被掩盖多年的真正危机。"
       }
     },
@@ -1434,8 +1434,8 @@ window.STORY_ARCHIVE = [
       "zh": "父亲将我按在厨房墙上"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Twenty-nine-year-old Claire is fighting cancer when her father pins her against the kitchen wall and tries to force her to sign away the sixty-five thousand dollars reserved for surgery. Her phone recording and a financial investigation expose years of family coercion, identity theft and the gambling crisis they had always expected her to absorb.",
@@ -1452,7 +1452,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8448,
+      "en": 8405,
       "zh": 15668
     }
   },
@@ -1461,15 +1461,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-033",
     "cover": "assets/covers/A-033-betrayal-in-the-closet.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "She Came Home with an Ultrasound Photo—Then a Hand Moved in the Closet",
+        "en": "Betrayal in the Closet",
         "zh": "她带着B超照片回家，却看见衣柜里伸出一只手"
       },
       "description": {
-        "en": "Rachel's husband believed her silence meant he was safe. It actually gave her time to uncover six visits, preserve the evidence and protect the daughter waiting to be born.",
+        "en": "Rachel's husband believed her silence meant he was safe. It actually gave her time to uncover six visits, preserve the evidence and protect the daughter…",
         "zh": "丈夫以为瑞秋的沉默代表他逃过一劫；其实那让她有时间揭开六次造访、保存证据并保护即将出生的女儿。"
       }
     },
@@ -1478,8 +1478,8 @@ window.STORY_ARCHIVE = [
       "zh": "衣柜里的背叛"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Twenty-two weeks pregnant, Rachel returns from an ultrasound appointment carrying the first clear image of her daughter. In her own bedroom she discovers her husband Damon and her best friend Claire, whose hand reaches from behind the coats in the closet. Rachel's silence is not surrender: it gives her time to preserve evidence, protect her unborn child and uncover six carefully concealed visits.",
@@ -1496,8 +1496,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8660,
-      "zh": 16054
+      "en": 8572,
+      "zh": 16061
     }
   },
   {
@@ -1505,11 +1505,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-034",
     "cover": "assets/covers/A-034-breath-in-the-basement.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Left Her in a Basement with Three Broken Ribs—Then Her Father Answered",
+        "en": "Breath in the Basement",
         "zh": "丈夫把她打断三根肋骨关进地下室，父亲却接通了电话"
       },
       "description": {
@@ -1522,8 +1522,8 @@ window.STORY_ARCHIVE = [
       "zh": "地下室的呼吸"
     },
     "category": {
-      "en": "Marriage & Reckoning",
-      "zh": "婚姻与清算"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "Locked in a basement with three broken ribs, Claire Moretti Hale uses a shattered phone to call her father, the feared logistics magnate Vincent Moretti. He arrives with police, medics and lawyers instead of gunmen, and the rescue exposes a calculated scheme by Claire's husband and his family to declare her unstable and seize her trust. To become free, Claire must confront both her husband's violence and the control her father once mistook for protection.",
@@ -1540,7 +1540,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 6680,
+      "en": 6632,
       "zh": 12387
     }
   },
@@ -1549,7 +1549,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-035",
     "cover": "assets/covers/A-035-the-wig-and-the-ledger.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -1557,7 +1557,7 @@ window.STORY_ARCHIVE = [
         "zh": "婆婆在婚礼上扯掉新娘的假发，随后一本账本揭开了真正原因"
       },
       "description": {
-        "en": "The wedding humiliation looked like cruelty over a hidden illness. In truth, it was a calculated attempt to silence the accountant who had found a charity fraud.",
+        "en": "The wedding humiliation looked like cruelty over a hidden illness. In truth, it was a calculated attempt to silence the accountant who had found a…",
         "zh": "婚礼上的羞辱看似针对一场被隐瞒的疾病，实际上却是一场精心策划的灭口行动：有人想让发现慈善基金欺诈的会计师失去公信力。"
       }
     },
@@ -1566,8 +1566,8 @@ window.STORY_ARCHIVE = [
       "zh": "假发与账本"
     },
     "category": {
-      "en": "Resilience & Justice",
-      "zh": "韧性与正义"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "At her wedding, a forensic accountant recovering from lymphoma is publicly humiliated when her future mother-in-law tears away her wig. But the spectacle was never only about illness: it was meant to destroy the bride's credibility before she could expose a charity fraud hidden in the Mercer family's accounts. With her partner Ethan beside her, she follows the ledger from a ruined ceremony to a courtroom—and learns that survival is more than keeping a secret.",
@@ -1584,7 +1584,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8003,
+      "en": 7954,
       "zh": 15068
     }
   },
@@ -1593,15 +1593,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-036",
     "cover": "assets/covers/A-036-winter-sun-and-reckoning.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Her Mother Shoved Her at the Baby Shower—Then the Bank Transfer Exposed the Plot",
+        "en": "Winter Sun and Reckoning",
         "zh": "母亲在婴儿派对上把她推倒，一笔银行转账随后揭开了阴谋"
       },
       "description": {
-        "en": "The fall sent Natalie into premature labor. Security footage and a hidden payment revealed that the attack was part of a plan to control her marriage, company and future.",
+        "en": "The fall sent Natalie into premature labor. Security footage and a hidden payment revealed that the attack was part of a plan to control her marriage…",
         "zh": "娜塔莉因这次摔倒而早产；监控录像和一笔隐秘转账证明，这场袭击是控制她的婚姻、公司与未来的阴谋之一。"
       }
     },
@@ -1610,8 +1610,8 @@ window.STORY_ARCHIVE = [
       "zh": "深冬的暖阳与复仇"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "At Natalie's baby shower, her own mother shoves her through a pair of doors, triggering a medical emergency and the premature birth of her daughter. What first looks like a vicious family outburst is soon exposed as a paid conspiracy: her mother and mother-in-law planned to exploit the crisis, seize control of the marriage and rewrite the family's finances. With her husband Grant beside her, Natalie follows the security footage and bank transfers toward a reckoning—and builds a safer meaning of family for her child.",
@@ -1628,7 +1628,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7292,
+      "en": 7246,
       "zh": 13519
     }
   },
@@ -1637,7 +1637,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-037",
     "cover": "assets/covers/A-037-the-red-box-beneath-the-abyss.webp",
     "published": "2026-07-28",
-    "modified": "2026-07-28",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -1645,7 +1645,7 @@ window.STORY_ARCHIVE = [
         "zh": "他把她锁进地下室，红盒子里的唯一号码让一切逆转"
       },
       "description": {
-        "en": "Brandon took her phone and left her injured behind a locked door. The emergency phone her father had hidden in a red velvet box became the first piece of evidence in a much larger reckoning.",
+        "en": "Brandon took her phone and left her injured behind a locked door. The emergency phone her father had hidden in a red velvet box became the first piece of…",
         "zh": "布兰顿夺走她的手机，把受伤的她留在反锁的地下室里；父亲藏在红丝绒盒中的紧急电话，随后成为更大清算中的第一份证据。"
       }
     },
@@ -1654,8 +1654,8 @@ window.STORY_ARCHIVE = [
       "zh": "深渊之下的红盒子"
     },
     "category": {
-      "en": "Marriage & Reckoning",
-      "zh": "婚姻与清算"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "After a nurse comes home early and discovers her husband's betrayal, Brandon pushes her down the basement stairs, takes her phone and locks the door. Badly injured and cut off from help, she remembers the prepaid phone hidden in a red velvet box—a wedding gift from her father, Salvatore Moretti, with a single emergency number. The call brings rescuers, but she insists that the fight proceed on her terms. Recordings, altered documents and nearly fourteen million dollars in loans made with her forged signature turn a private act of violence into a public reckoning over coercion, fraud and the right to choose her own future.",
@@ -1672,7 +1672,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6319,
+      "en": 6272,
       "zh": 11704
     }
   },
@@ -1681,15 +1681,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-038",
     "cover": "assets/covers/A-038-the-girl-who-walked-out-of-the-woods.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Her Seven-Year-Old Walked Out of the Woods Carrying Her Baby Brother",
+        "en": "The Girl Who Walked Out of the Woods",
         "zh": "七岁女儿抱着幼弟走出树林，母亲才知道家人隐瞒了什么"
       },
       "description": {
-        "en": "Maisie crossed the woods barefoot with a dangerously overheated toddler in her arms. The church cameras and a two-hour silence revealed why she had been forced to run.",
+        "en": "Maisie crossed the woods barefoot with a dangerously overheated toddler in her arms. The church cameras and a two-hour silence revealed why she had been…",
         "zh": "麦茜赤脚穿过树林，怀里抱着因高温而陷入危险的弟弟；教堂监控和长达两小时的沉默，揭开了她被迫逃跑的原因。"
       }
     },
@@ -1698,8 +1698,8 @@ window.STORY_ARCHIVE = [
       "zh": "走出森林的女孩"
     },
     "category": {
-      "en": "Family & Survival",
-      "zh": "家庭与求生"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "After a punishing hospital shift, nurse Sarah Whitaker returns home to see her seven-year-old daughter Maisie emerge barefoot from the woods, carrying her feverish little brother Theo. Their grandmother Joanne had left both children inside a hot car while she disappeared into a church office, and their cognitively impaired grandfather Curtis then tried to take Theo. Maisie fled through a broken fence and hid in the woods until she could carry her brother home. Church surveillance, phone records and GPS data expose the two-hour silence that followed, forcing Sarah to choose her children's safety over family reputation and to build a life where courage no longer has to fall on a child's shoulders.",
@@ -1716,7 +1716,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8731,
+      "en": 8710,
       "zh": 16013
     }
   },
@@ -1725,15 +1725,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-039",
     "cover": "assets/covers/A-039-the-beggar-who-was-not-welcome-at-the-wedding.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "They Sprayed the “Beggar” at the Wedding—Then Learned Who Owned the Estate",
+        "en": "The Beggar Who Wasn't Welcome at the Wedding",
         "zh": "婚礼上众人用水管羞辱“乞丐”，随后才知道庄园真正属于谁"
       },
       "description": {
-        "en": "Vanessa expected applause when she drenched an old woman outside the wedding. The hidden camera in Eleanor's bag captured the cruelty—and the files behind it.",
+        "en": "Vanessa expected applause when she drenched an old woman outside the wedding. The hidden camera in Eleanor's bag captured the cruelty—and the files…",
         "zh": "凡妮莎在婚礼外把老妇人浇得浑身湿透，以为会赢得满堂喝彩；埃莉诺包里的隐藏摄像头，却拍下了这份残忍以及背后的文件秘密。"
       }
     },
@@ -1742,8 +1742,8 @@ window.STORY_ARCHIVE = [
       "zh": "乞丐不配参加这里的婚礼"
     },
     "category": {
-      "en": "Dignity & Justice",
-      "zh": "尊严与正义"
+      "en": "Recovery & Dignity",
+      "zh": "疗愈与尊严"
     },
     "summary": {
       "en": "At a lavish pre-wedding garden party, Vanessa Mitchell turns a hose on a drenched older woman and laughs when guests call the stranger a beggar. The woman is Eleanor Carter, founder of the hospitality empire paying nearly everyone at the estate—and she came in disguise after months of complaints about cruelty, coercive contracts and unsafe construction tied to Vanessa's family. A hidden recording, compromised surveillance, procurement files and the testimony of workers expose a scheme larger than one public humiliation. Eleanor must then decide how to pursue justice without turning wealth into its own excuse for cruelty, while her grandson Ethan confronts the loyalty that kept him from seeing what was in front of him.",
@@ -1760,8 +1760,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 8477,
-      "zh": 15597
+      "en": 8419,
+      "zh": 15602
     }
   },
   {
@@ -1769,7 +1769,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-040",
     "cover": "assets/covers/A-040-four-seconds-of-breath.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -1786,8 +1786,8 @@ window.STORY_ARCHIVE = [
       "zh": "四秒钟的呼吸"
     },
     "category": {
-      "en": "Survival & Justice",
-      "zh": "生存与正义"
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
     },
     "summary": {
       "en": "Retired rescue veteran Thomas Avery receives a four-second call from his daughter Emily and hears enough to know she is in danger. He reaches her penthouse to find her feverish, drugged and trapped while her husband Preston and mother-in-law Lorraine stage a psychiatric breakdown meant to strip her of control over a valuable medical patent trust. A deputy's careful investigation, a hidden archive left by Emily's mother and the testimony of a doctor who never examined her expose a calculated scheme of coercion, fraud and attempted erasure. Father and daughter must then carry the truth into court without letting rage distort the evidence that can finally set her free.",
@@ -1804,7 +1804,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 5630,
+      "en": 5592,
       "zh": 10946
     }
   },
@@ -1813,15 +1813,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-041",
     "cover": "assets/covers/A-041-the-secret-behind-the-lock.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Her Mother-in-Law Knew the Door Code—She Did Not Know What Was Locked in the Desk",
+        "en": "The Secret Behind the Lock",
         "zh": "婆婆知道她家的门锁密码，却不知道书桌里锁着什么"
       },
       "description": {
-        "en": "Three days into her marriage, Emily was burned in her own home. The red folder her husband tried to reach would turn one act of cruelty into a case neither he nor his mother could escape.",
+        "en": "Three days into her marriage, Emily was burned in her own home. The red folder her husband tried to reach would turn one act of cruelty into a case…",
         "zh": "新婚第三天，艾米莉在自己的家中被滚烫炖菜灼伤。丈夫拼命想夺走的红色文件夹，让一场暴行变成了他和母亲都无法逃脱的案件。"
       }
     },
@@ -1830,8 +1830,8 @@ window.STORY_ARCHIVE = [
       "zh": "锁芯背后的秘密"
     },
     "category": {
-      "en": "Marriage & Reckoning",
-      "zh": "婚姻与清算"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "Three days after marrying Evan Whitmore, Emily Carter hears her apartment lock open and watches her mother-in-law Rebecca walk in as though the home already belongs to her. The invasion turns into a scalding assault, while Evan refuses to call for help and tries to seize the evidence hidden in Emily's locked desk. A red folder prepared before the wedding exposes forged signatures, financial schemes and a pattern of coercive control that reached back through Evan's family. With attorney Nora Vale and another former fiancée willing to testify, Emily carries the case into court and fights to reclaim not only her property, but the right to decide who may enter her life.",
@@ -1848,8 +1848,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6041,
-      "zh": 11119
+      "en": 5827,
+      "zh": 11252
     }
   },
   {
@@ -1857,15 +1857,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-042",
     "cover": "assets/covers/A-042-the-smokeless-ledger.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Her Father Wept Beside the Burn Unit—But His Cuffs Were Still Clean",
+        "en": "The Smokeless Ledger",
         "zh": "父亲在烧伤病房旁痛哭，可他的袖口依旧一尘不染"
       },
       "description": {
-        "en": "Claire said the smoke had erased her memory. The ledger her mother left behind would prove she remembered enough to expose the fire, the fraud and the man who expected to inherit the silence.",
+        "en": "Claire said the smoke had erased her memory. The ledger her mother left behind would prove she remembered enough to expose the fire, the fraud and the…",
         "zh": "克莱尔声称浓烟抹去了自己的记忆。母亲留下的对账单却将证明，她记得的已经足够揭开大火、骗局，以及那个以为沉默也能被继承的男人。"
       }
     },
@@ -1874,8 +1874,8 @@ window.STORY_ARCHIVE = [
       "zh": "无烟的对账单"
     },
     "category": {
-      "en": "Crime & Reckoning",
-      "zh": "罪案与清算"
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
     },
     "summary": {
       "en": "Claire Moretti wakes in a burn unit after a fire kills her mother and leaves her father weeping beside the bed with immaculate cuffs. Pretending that smoke erased her memory, the forensic accountant quietly joins Detective Lena Ortiz and her partner Julian Price to follow the records her mother hid before her death. Insurance amendments, secret payments and a Northline risk file reveal that the blaze was not an accident, but the final move in a financial conspiracy. Claire must turn the ledger into testimony before her father destroys the last evidence and rewrites the family tragedy as his own rescue story.",
@@ -1892,7 +1892,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 5430,
+      "en": 5401,
       "zh": 10002
     }
   },
@@ -1901,15 +1901,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-043",
     "cover": "assets/covers/A-043-the-twenty-minute-drive.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "His Son Whispered “Come Home”—and Every Red Light Became a Locked Door",
+        "en": "The Twenty-Minute Drive",
         "zh": "儿子低声说“回家吧”，此后每一盏红灯都像一道上锁的门"
       },
       "description": {
-        "en": "A frightened four-year-old makes one call from a locked room. His father's twenty-minute drive will expose what happened inside the house—and what real strength demands afterward.",
+        "en": "A frightened four-year-old makes one call from a locked room. His father's twenty-minute drive will expose what happened inside the house—and what real…",
         "zh": "一个受惊的四岁孩子从上锁的房间里拨出求救电话。父亲那段二十分钟的车程，将揭开这栋房子里的真相，也让所有人看见真正的强大意味着什么。"
       }
     },
@@ -1918,8 +1918,8 @@ window.STORY_ARCHIVE = [
       "zh": "二十分钟的路程"
     },
     "category": {
-      "en": "Family Courage",
-      "zh": "家庭勇气"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "A four-year-old boy calls his father from a locked room and whispers one plea: come home. The ordinary twenty-minute drive becomes a race through rain and traffic as evidence of violence inside the family home begins to surface. With the help of the boy's uncle, police and medical staff, a father must protect his son, confront the adults who failed him and prove that strength is measured not by the power to strike, but by the courage to stop harm and rebuild safety.",
@@ -1936,7 +1936,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7816,
+      "en": 7770,
       "zh": 14647
     }
   },
@@ -1945,15 +1945,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-044",
     "cover": "assets/covers/A-044-broken-ribs-and-the-kingsley-empire.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Eight Steel Ribs Were Cracked Beneath the Kingsley Terminal—The Company Wanted Paint",
+        "en": "Broken Ribs and the Kingsley Empire",
         "zh": "金斯利总站下八根钢肋已经开裂，公司却只想重新刷漆"
       },
       "description": {
-        "en": "An engineer refused to sign a beautiful lie before opening day.",
+        "en": "Structural engineer Lena Ortiz discovers eight fractured steel ribs beneath the Kingsley railway terminal weeks before its grand reopening. When…",
         "zh": "重新开放前，一名工程师拒绝为一座美丽的谎言签字。"
       }
     },
@@ -1962,8 +1962,8 @@ window.STORY_ARCHIVE = [
       "zh": "破碎的肋骨与金斯利帝国"
     },
     "category": {
-      "en": "Engineering & Accountability",
-      "zh": "工程与责任"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "Structural engineer Lena Ortiz discovers eight fractured steel ribs beneath the Kingsley railway terminal weeks before its grand reopening. When executives pressure her to approve cosmetic repairs, inspection photographs, altered calculations and a night test expose a corporate cover-up. Saving the landmark means confronting the empire that built it without turning the public into collateral.",
@@ -1980,7 +1980,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 899,
+      "en": 869,
       "zh": 1711
     }
   },
@@ -1989,15 +1989,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-045",
     "cover": "assets/covers/A-045-the-slap-and-the-ledger-at-graduation.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "She Was Slapped at Graduation for Refusing to Sign—Then the Ledger Reached the Podium",
+        "en": "The Slap and the Ledger at Graduation",
         "zh": "她因拒绝签字在毕业典礼上被掌掴，随后那本账簿被送上讲台"
       },
       "description": {
-        "en": "The missing grades were not mistakes. They were prices.",
+        "en": "At Bellweather Academy's graduation, registrar Mara Ellis refuses to certify diplomas bought through a secret donor program. A public slap cannot silence…",
         "zh": "那些消失的成绩不是失误，而是被标好了价格。"
       }
     },
@@ -2006,8 +2006,8 @@ window.STORY_ARCHIVE = [
       "zh": "毕业典礼上的耳光与账单"
     },
     "category": {
-      "en": "Education & Integrity",
-      "zh": "教育与诚信"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "At Bellweather Academy's graduation, registrar Mara Ellis refuses to certify diplomas bought through a secret donor program. A public slap cannot silence her; a handwritten ledger, altered transcripts and the testimony of students expose a pay-to-pass system that traded academic trust for gifts.",
@@ -2024,7 +2024,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 814,
+      "en": 779,
       "zh": 1555
     }
   },
@@ -2033,7 +2033,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-046",
     "cover": "assets/covers/A-046-the-cold-morning.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -2050,8 +2050,8 @@ window.STORY_ARCHIVE = [
       "zh": "冷藏的早晨"
     },
     "category": {
-      "en": "Domestic Reckoning",
-      "zh": "家庭清算"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "After years of financial control and quiet intimidation, Lily begins preserving the recordings and records that can finally expose the family system built around her husband.",
@@ -2068,8 +2068,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7106,
-      "zh": 13074
+      "en": 6739,
+      "zh": 12541
     }
   },
   {
@@ -2077,7 +2077,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-047",
     "cover": "assets/covers/A-047-the-perfect-husbands-deadly-menu.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -2085,7 +2085,7 @@ window.STORY_ARCHIVE = [
         "zh": "完美丈夫替她准备了午餐，也差点终结一切"
       },
       "description": {
-        "en": "The menu looked thoughtful. The evidence hidden behind it told a very different story.",
+        "en": "A carefully prepared lunch sends a pregnant executive into crisis, exposing a polished husband’s hidden plan and a trail of evidence that reaches far…",
         "zh": "这份菜单看似体贴，藏在背后的证据却讲述了完全不同的真相。"
       }
     },
@@ -2094,8 +2094,8 @@ window.STORY_ARCHIVE = [
       "zh": "完美丈夫的致命菜单"
     },
     "category": {
-      "en": "Corporate Justice",
-      "zh": "企业正义"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "A carefully prepared lunch sends a pregnant executive into crisis, exposing a polished husband’s hidden plan and a trail of evidence that reaches far beyond their marriage.",
@@ -2112,7 +2112,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7776,
+      "en": 7726,
       "zh": 14195
     }
   },
@@ -2121,15 +2121,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-048",
     "cover": "assets/covers/A-048-chicken-soup-with-thorns.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Her Soup Notebook Looked Like Recipes—Until the Tenants Read the Marks in the Margins",
+        "en": "Chicken Soup with Thorns",
         "zh": "她的汤谱看起来只是食谱，直到租户读懂页边那些记号"
       },
       "description": {
-        "en": "Every bowl followed a route. Every mark recorded money someone hoped the neighborhood would forget.",
+        "en": "Community cook Claire Reynolds notices coded marks in an elderly neighbor's soup notebook that match illegal fees charged to tenants. As deliveries…",
         "zh": "每碗汤都有路线，每个记号都记录着有人希望社区忘掉的一笔钱。"
       }
     },
@@ -2138,8 +2138,8 @@ window.STORY_ARCHIVE = [
       "zh": "带刺的鸡汤"
     },
     "category": {
-      "en": "Community & Justice",
-      "zh": "社区与正义"
+      "en": "Community & Service",
+      "zh": "社区与守护"
     },
     "summary": {
       "en": "Community cook Claire Reynolds notices coded marks in an elderly neighbor's soup notebook that match illegal fees charged to tenants. As deliveries reveal a pattern of wage theft and predatory loans, a recipe passed through generations becomes the map that helps residents recover their homes and dignity.",
@@ -2156,7 +2156,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 793,
+      "en": 756,
       "zh": 1537
     }
   },
@@ -2165,7 +2165,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-049",
     "cover": "assets/covers/A-049-the-wedding-wig-and-the-poisoned-plot.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -2182,8 +2182,8 @@ window.STORY_ARCHIVE = [
       "zh": "婚礼上的假发与毒局"
     },
     "category": {
-      "en": "Justice & Recovery",
-      "zh": "正义与重生"
+      "en": "Recovery & Dignity",
+      "zh": "疗愈与尊严"
     },
     "summary": {
       "en": "When a bride undergoing cancer treatment is humiliated at her own wedding, the cruelty exposes a deeper scheme involving stolen funds, false loyalties and a family prepared to fight back.",
@@ -2200,7 +2200,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7739,
+      "en": 7711,
       "zh": 14803
     }
   },
@@ -2209,15 +2209,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-050",
     "cover": "assets/covers/A-050-mirror-betrayal.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "The Smart Mirror Reflected Perfection—Its Test Report Told a Different Story",
+        "en": "Mirror Betrayal",
         "zh": "智能镜映出完美生活，检测报告却讲述了另一个故事"
       },
       "description": {
-        "en": "She designed the safety system. Someone had replaced her failure data with a beautiful reflection.",
+        "en": "Quality engineer Maya Cole discovers that the smart mirrors launched by her fiancé's company conceal overheating batteries behind flawless reflections.…",
         "zh": "安全系统由她设计，却有人用漂亮的表象替换了全部失败数据。"
       }
     },
@@ -2226,8 +2226,8 @@ window.STORY_ARCHIVE = [
       "zh": "镜面背叛"
     },
     "category": {
-      "en": "Product Safety & Truth",
-      "zh": "产品安全与真相"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "Quality engineer Maya Cole discovers that the smart mirrors launched by her fiancé's company conceal overheating batteries behind flawless reflections. When altered test reports and staged demonstrations threaten homes and hotels, she must choose between a wedding built on appearances and the evidence that can stop a preventable disaster.",
@@ -2244,7 +2244,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 757,
+      "en": 727,
       "zh": 1401
     }
   },
@@ -2253,7 +2253,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-051",
     "cover": "assets/covers/A-051-the-bloodstained-diploma.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -2270,8 +2270,8 @@ window.STORY_ARCHIVE = [
       "zh": "带血的毕业证书"
     },
     "category": {
-      "en": "Family Reckoning",
-      "zh": "家庭清算"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "A graduation meant to celebrate years of sacrifice becomes a public assault. The young woman refuses to leave in silence: she produces the paper trail behind her missing college fund and forces the family that shamed her to answer before the same crowd that witnessed the blow.",
@@ -2288,8 +2288,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7070,
-      "zh": 13028
+      "en": 6676,
+      "zh": 12456
     }
   },
   {
@@ -2297,11 +2297,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-052",
     "cover": "assets/covers/A-052-hot-soup-outside-the-gate.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "She Brought Hot Soup to the Gate—Then Discovered the Life He Had Hidden",
+        "en": "Hot Soup Outside the Gate",
         "zh": "她把热汤送到大门外，却发现了他一直隐瞒的另一种生活"
       },
       "description": {
@@ -2314,8 +2314,8 @@ window.STORY_ARCHIVE = [
       "zh": "大门外的热汤"
     },
     "category": {
-      "en": "Family Reckoning",
-      "zh": "家庭清算"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Claire arrives with homemade soup and her child, expecting a simple family visit. Instead, a closed gate and a hidden meeting reveal another life, missing money and a betrayal protected by rank and reputation. What began as an act of care becomes the evidence that forces every card onto the table.",
@@ -2332,7 +2332,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5690,
+      "en": 5644,
       "zh": 10825
     }
   },
@@ -2341,15 +2341,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-053",
     "cover": "assets/covers/A-053-he-always-comes.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Had Never Missed a Hearing—The One Empty Chair Exposed an Entire Care Network",
+        "en": "He Always Comes",
         "zh": "他从未缺席过听证，那一次空着的椅子却揭开了整个照护网络"
       },
       "description": {
-        "en": "A teenager knew one promise by heart: he always comes.",
+        "en": "Fifteen-year-old Eli has learned not to trust promises, except for one: public defender David Hale always comes to his foster-care hearings. When David…",
         "zh": "少年只把一个承诺记在心里：他总是会来。"
       }
     },
@@ -2358,8 +2358,8 @@ window.STORY_ARCHIVE = [
       "zh": "他总是会来"
     },
     "category": {
-      "en": "Chosen Family & Courage",
-      "zh": "选择的家人与勇气"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Fifteen-year-old Eli has learned not to trust promises, except for one: public defender David Hale always comes to his foster-care hearings. When David misses a crucial morning, a delayed train, altered case notes and a hidden billing scheme reveal why. Their reunion becomes a test of chosen family, patient advocacy and the systems adults are supposed to protect.",
@@ -2376,7 +2376,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 839,
+      "en": 806,
       "zh": 1560
     }
   },
@@ -2385,11 +2385,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-054",
     "cover": "assets/covers/A-054-the-heir-who-refused-to-pay.webp",
     "published": "2026-07-29",
-    "modified": "2026-07-29",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "They Left Her Broken on the Marble—Then the Hidden Heir Took Back the Empire",
+        "en": "The Heir Who Refused to Pay",
         "zh": "他们把她打倒在大理石地面上，隐藏的继承人随后夺回整个帝国"
       },
       "description": {
@@ -2402,8 +2402,8 @@ window.STORY_ARCHIVE = [
       "zh": "不买账的继承人"
     },
     "category": {
-      "en": "Power & Reckoning",
-      "zh": "权力与清算"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "Claire Bennett appears to be a powerless wife trapped inside a wealthy household. After Nathan orders a brutal attack and his mistress assumes the family fortune is already hers, Claire reveals the name she concealed, the money that saved his company and the empire capable of taking everything back. Her recovery becomes a corporate and legal reckoning—and the final refusal to keep pretending she is small.",
@@ -2420,8 +2420,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6516,
-      "zh": 11605
+      "en": 6459,
+      "zh": 11606
     }
   },
   {
@@ -2429,11 +2429,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-055",
     "cover": "assets/covers/A-055-the-glowing-screen.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "The Screen Was Still Glowing—and Its Files Could Bring Down an Empire",
+        "en": "The Glowing Screen",
         "zh": "屏幕仍然亮着，而里面的文件足以推翻一个帝国"
       },
       "description": {
@@ -2446,8 +2446,8 @@ window.STORY_ARCHIVE = [
       "zh": "亮着的屏幕"
     },
     "category": {
-      "en": "Courage & Justice",
-      "zh": "勇气与正义"
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
     },
     "summary": {
       "en": "In the middle of a violent storm, a badly injured Emma reaches the home of her mother, a veteran homicide detective, carrying the flash drive her husband Tyler will do anything to recover. The files hidden behind his polished public image expose domestic abuse, surveillance, bribery and obstruction—and turn one desperate call for help into a reckoning for an empire built on fear.",
@@ -2464,8 +2464,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7473,
-      "zh": 13187
+      "en": 7413,
+      "zh": 13194
     }
   },
   {
@@ -2473,7 +2473,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-056",
     "cover": "assets/covers/A-056-the-white-robe-came-off.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -2490,8 +2490,8 @@ window.STORY_ARCHIVE = [
       "zh": "褪下的白袍"
     },
     "category": {
-      "en": "Courage & Justice",
-      "zh": "勇气与正义"
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
     },
     "summary": {
       "en": "At her eighteenth-birthday party, Maya's twin sister turns a microphone and a white robe into a public weapon. Instead of hiding the scars she has carried since childhood, Maya reveals the evidence behind a fire, a family cover-up and twelve years of silence—and forces everyone present to answer one question: who really started it?",
@@ -2508,7 +2508,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 7105,
+      "en": 7052,
       "zh": 13063
     }
   },
@@ -2517,15 +2517,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-057",
     "cover": "assets/covers/A-057-the-breakfast-that-wasnt-his.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Thought Breakfast Meant Forgiveness—Then He Saw Who Was Sitting at the Table",
+        "en": "The Breakfast That Wasn't His",
         "zh": "他以为这顿早餐代表原谅，直到看见餐桌旁坐着谁"
       },
       "description": {
-        "en": "After her son strikes her and tries to borrow against her home, a mother turns one carefully prepared breakfast into the first step of a complete reckoning.",
+        "en": "After her son strikes her and tries to borrow against her home, a mother turns one carefully prepared breakfast into the first step of a complete…",
         "zh": "儿子掌掴母亲并企图抵押她的房子后，她把一顿精心准备的早餐变成了彻底清算的第一步。"
       }
     },
@@ -2534,8 +2534,8 @@ window.STORY_ARCHIVE = [
       "zh": "不属于他的早餐"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "After her adult son slaps her for refusing to hand over forty thousand dollars, Margaret prepares breakfast and invites her brother Michael to the table. What Ethan mistakes for another surrender becomes the beginning of frozen loans, exposed forgeries and a mother's fight to reclaim her home, her money and the right to decide who may enter her life.",
@@ -2552,7 +2552,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6724,
+      "en": 6692,
       "zh": 12404
     }
   },
@@ -2561,11 +2561,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-058",
     "cover": "assets/covers/A-058-never-underestimate-her.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Dismissed the Knitting Grandmother—Until She Came Through the Locked Door",
+        "en": "Never Underestimate Her",
         "zh": "他轻视那个织毛衣的外婆，直到她穿过那扇上锁的门"
       },
       "description": {
@@ -2578,8 +2578,8 @@ window.STORY_ARCHIVE = [
       "zh": "她，不可轻视"
     },
     "category": {
-      "en": "Courage & Rescue",
-      "zh": "勇气与营救"
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
     },
     "summary": {
       "en": "To everyone in Maple Grove, sixty-five-year-old Emma Parker is a gentle grandmother who bakes bread and knits blankets. When her daughter disappears behind a locked basement door, Emma reveals the discipline, memory and quiet courage that her arrogant son-in-law never imagined she possessed.",
@@ -2596,7 +2596,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6881,
+      "en": 6838,
       "zh": 13163
     }
   },
@@ -2605,11 +2605,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-059",
     "cover": "assets/covers/A-059-shattered-porcelain-and-the-reckoning.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Smashed a Dinner Plate Across Her Face—Then She Opened the Safe",
+        "en": "Shattered Porcelain and the Reckoning",
         "zh": "他用餐盘砸伤她的脸，随后她打开了保险箱"
       },
       "description": {
@@ -2622,8 +2622,8 @@ window.STORY_ARCHIVE = [
       "zh": "碎瓷与清算"
     },
     "category": {
-      "en": "Marriage & Reckoning",
-      "zh": "婚姻与清算"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "At a formal family dinner, architect Elena refuses to surrender the apartment she owns. Her husband smashes a plate across her face, believing public violence will force her to comply. Instead, the broken porcelain becomes the first piece of evidence in a financial, familial and legal reckoning.",
@@ -2640,8 +2640,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6220,
-      "zh": 11760
+      "en": 6129,
+      "zh": 11708
     }
   },
   {
@@ -2649,7 +2649,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-060",
     "cover": "assets/covers/A-060-vanished-into-the-meal.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -2666,8 +2666,8 @@ window.STORY_ARCHIVE = [
       "zh": "消失在饭菜里"
     },
     "category": {
-      "en": "Military Justice",
-      "zh": "军中正义"
+      "en": "Community & Service",
+      "zh": "社区与守护"
     },
     "summary": {
       "en": "A feared sergeant rules the base dining hall through humiliation and threats, certain that every witness will keep looking down. A badge, preserved files and a camera hidden in plain sight give the soldiers living under his shadow a way to make the room speak.",
@@ -2684,7 +2684,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6933,
+      "en": 6883,
       "zh": 12953
     }
   },
@@ -2693,15 +2693,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-061",
     "cover": "assets/covers/A-061-the-wounded-ring.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "A Damaged Wedding Ring Carried Numbers No One Was Supposed to Find",
+        "en": "The Wounded Ring",
         "zh": "一枚受损婚戒里藏着本不该被发现的编号"
       },
       "description": {
-        "en": "The repair was old. The inventory trail was older—and it led to a museum wall.",
+        "en": "Jewelry restorer Elise Navarro receives a damaged wedding ring from a refugee family and discovers inventory numbers engraved beneath an old repair. The…",
         "zh": "修补痕迹已经很旧，而编号背后的线索更久远，最终指向博物馆的一面墙。"
       }
     },
@@ -2710,8 +2710,8 @@ window.STORY_ARCHIVE = [
       "zh": "带伤的戒指"
     },
     "category": {
-      "en": "Memory & Restitution",
-      "zh": "记忆与归还"
+      "en": "Recovery & Dignity",
+      "zh": "疗愈与尊严"
     },
     "summary": {
       "en": "Jewelry restorer Elise Navarro receives a damaged wedding ring from a refugee family and discovers inventory numbers engraved beneath an old repair. The markings lead to art and heirlooms displaced during wartime, forcing an auction house, a museum and the descendants of two families to confront ownership, memory and restitution without turning grief into spectacle.",
@@ -2728,7 +2728,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 802,
+      "en": 766,
       "zh": 1500
     }
   },
@@ -2737,15 +2737,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-062",
     "cover": "assets/covers/A-062-the-northern-compass.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-31",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "The Old Compass Was Three Degrees Wrong—The Official Map Was Wrong on Purpose",
+        "en": "The Northern Compass",
         "zh": "旧指南针偏了三度，而官方地图却是被故意画错的"
       },
       "description": {
-        "en": "One crooked needle led a cartographer to a boundary someone had paid to move.",
+        "en": "Cartographer Mara Quinn inherits a brass compass that consistently points three degrees west of north. Its apparent flaw leads to altered survey lines…",
         "zh": "一根偏斜的指针，把制图师带到一条被人花钱移动的边界。"
       }
     },
@@ -2754,8 +2754,8 @@ window.STORY_ARCHIVE = [
       "zh": "北纬的指南针"
     },
     "category": {
-      "en": "Land & Stewardship",
-      "zh": "土地与守护"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Cartographer Mara Quinn inherits a brass compass that consistently points three degrees west of north. Its apparent flaw leads to altered survey lines, an illegal timber concession and the erased testimony of a mountain community. Correcting the map requires more than exposing fraud; it requires returning authority to the people whose land the map was supposed to describe.",
@@ -2772,7 +2772,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 809,
+      "en": 773,
       "zh": 1488
     }
   },
@@ -2781,11 +2781,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-063",
     "cover": "assets/covers/A-063-thirty-slaps-and-a-mansion.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "His Son Hit Him Thirty Times—Then the Mansion Disappeared From Under Him",
+        "en": "Thirty Slaps and a Mansion",
         "zh": "儿子掌掴他三十次后，脚下的豪宅也随之消失"
       },
       "description": {
@@ -2798,8 +2798,8 @@ window.STORY_ARCHIVE = [
       "zh": "三十记耳光与一座豪宅"
     },
     "category": {
-      "en": "Family Reckoning",
-      "zh": "家庭清算"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "After his adult son Ryan strikes him thirty times at a birthday gathering, sixty-eight-year-old builder Leonard Mercer stops making excuses. Surveillance footage, forged loan documents and a long-prepared audit turn the mansion Ryan flaunts as his own into the centerpiece of a reckoning over abuse, fraud and a father's misplaced protection.",
@@ -2816,8 +2816,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6309,
-      "zh": 11657
+      "en": 6263,
+      "zh": 11682
     }
   },
   {
@@ -2825,11 +2825,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-064",
     "cover": "assets/covers/A-064-the-blue-signal-light.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Five Taps Sent the SOS—And Exposed the Betrayal Inside Her Command",
+        "en": "The Blue Signal Light",
         "zh": "五次按键发出求救信号，也揭开了指挥体系内部的背叛"
       },
       "description": {
@@ -2842,8 +2842,8 @@ window.STORY_ARCHIVE = [
       "zh": "蓝色信号灯"
     },
     "category": {
-      "en": "Secrets & Justice",
-      "zh": "秘密与正义"
+      "en": "Secrets & Deception",
+      "zh": "秘密与骗局"
     },
     "summary": {
       "en": "After naval officer Ava Monroe triggers a five-tap SOS during an attack in her kitchen, her late father's brass compass opens a trail through a planted envelope, encrypted files and a compromised military operation. The evidence forces her to question the mentor she suspected, the friend she trusted and the official story of her father's death.",
@@ -2860,7 +2860,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6687,
+      "en": 6651,
       "zh": 12711
     }
   },
@@ -2869,7 +2869,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-065",
     "cover": "assets/covers/A-065-the-scorched-ring-finger.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -2886,8 +2886,8 @@ window.STORY_ARCHIVE = [
       "zh": "灼烧的无名指"
     },
     "category": {
-      "en": "Coercion & Justice",
-      "zh": "胁迫与正义"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "When an architect refuses the wealthy husband chosen by her parents, they deliberately burn the hand meant to wear her true fiancé's ring. A recorder hidden in her bag, a forensic nurse and the cases of two earlier women expose a coercive marriage scheme built on injury, silence and financial fraud.",
@@ -2904,7 +2904,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 6730,
+      "en": 6677,
       "zh": 12685
     }
   },
@@ -2913,11 +2913,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-066",
     "cover": "assets/covers/A-066-the-price-of-broken-porcelain.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "They Smashed a Plate Across Her Face—Then the Orphan's Missing Trust Came to Light",
+        "en": "The Price of Broken Porcelain",
         "zh": "他们用盘子砸伤她后，孤儿失踪的信托金浮出水面"
       },
       "description": {
@@ -2930,8 +2930,8 @@ window.STORY_ARCHIVE = [
       "zh": "碎瓷的代价"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "After Mackenzie refuses to guarantee a suspicious family loan, Mrs. Gable smashes a plate across her face at an orphaned child's birthday party. Her attorney Naomi traces the documents from identity theft to a looted trust fund, exposing relatives who used a celebration to conceal what they had stolen from two children.",
@@ -2948,7 +2948,7 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 2408,
+      "en": 2377,
       "zh": 4522
     }
   },
@@ -2957,11 +2957,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-067",
     "cover": "assets/covers/A-067-the-marriages-trump-card.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Slapped His Bride on the Second Morning—Then Her Hidden Company Froze His Empire",
+        "en": "The Marriage's Trump Card",
         "zh": "婚后第二天他掌掴新娘，随后她的隐秘公司冻结了他的帝国"
       },
       "description": {
@@ -2974,8 +2974,8 @@ window.STORY_ARCHIVE = [
       "zh": "婚姻的底牌"
     },
     "category": {
-      "en": "Power & Reckoning",
-      "zh": "权力与清算"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "On the second morning of her marriage, Serena Vale's new husband slaps her in front of his family. He does not know that Serena's private holding company owns the debt, property and financial lifelines behind his family's empire—or that the agreement he signed can freeze them the moment he becomes violent.",
@@ -2992,8 +2992,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5474,
-      "zh": 10126
+      "en": 5429,
+      "zh": 10132
     }
   },
   {
@@ -3001,7 +3001,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-068",
     "cover": "assets/covers/A-068-the-ranchers-last-card.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3018,8 +3018,8 @@ window.STORY_ARCHIVE = [
       "zh": "原野的底牌"
     },
     "category": {
-      "en": "Family Reckoning",
-      "zh": "家庭清算"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "At his daughter Avery's wedding, rancher Clifford Wellington is left bleeding by the groom who has spent months probing the family's land, water and mineral rights. An old Ranger, a trail of records and Avery's own testimony turn a scheme to seize the ranch into a public reckoning.",
@@ -3036,7 +3036,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5323,
+      "en": 5268,
       "zh": 9825
     }
   },
@@ -3045,7 +3045,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-069",
     "cover": "assets/covers/A-069-just-in-case.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3062,8 +3062,8 @@ window.STORY_ARCHIVE = [
       "zh": "以防万一"
     },
     "category": {
-      "en": "Protection & Justice",
-      "zh": "守护与正义"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "Only thirty-six hours after Hannah gives birth to Grace, her husband locks the hospital room, grips her throat and demands signatures. He thinks her hard-of-hearing mechanic uncle is powerless, but Ray has spent a lifetime preparing for the moment his family might need proof, protection and a way out.",
@@ -3080,7 +3080,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5428,
+      "en": 5378,
       "zh": 10105
     }
   },
@@ -3089,7 +3089,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-070",
     "cover": "assets/covers/A-070-the-name-on-the-deed.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3106,8 +3106,8 @@ window.STORY_ARCHIVE = [
       "zh": "房产证上的名字"
     },
     "category": {
-      "en": "Property & Boundaries",
-      "zh": "财产与边界"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Laura's family mocks the online business that has quietly paid their taxes, repairs and bills. When her favored sister returns with a doctor husband and tries to drive Laura out of the family home, one old deed reveals who truly owns the house—and who has merely been allowed to live there.",
@@ -3124,7 +3124,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5424,
+      "en": 5379,
       "zh": 9497
     }
   },
@@ -3133,7 +3133,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-071",
     "cover": "assets/covers/A-071-the-stand-in-who-toppled-her-ex-husbands-empire.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3150,8 +3150,8 @@ window.STORY_ARCHIVE = [
       "zh": "豪门替身：我亲手覆灭了前夫的帝国"
     },
     "category": {
-      "en": "Corporate Reckoning",
-      "zh": "豪门清算"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "Audrey Vale is treated as a poor, disposable wife until her mother-in-law sends her down a marble staircase for refusing to surrender control of family assets. The dynasty that mistook her restraint for weakness soon discovers whose money, contracts and voting power actually built the empire.",
@@ -3168,8 +3168,8 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 4527,
-      "zh": 8622
+      "en": 4474,
+      "zh": 8625
     }
   },
   {
@@ -3177,11 +3177,11 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-072",
     "cover": "assets/covers/A-072-encrypted-evidence.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Nearly Killed Her for a Password—But the Evidence Had Already Escaped",
+        "en": "Encrypted Evidence",
         "zh": "他为一个密码险些杀死她，可证据早已脱离掌控"
       },
       "description": {
@@ -3194,8 +3194,8 @@ window.STORY_ARCHIVE = [
       "zh": "加密的证据"
     },
     "category": {
-      "en": "Corporate Justice",
-      "zh": "企业正义"
+      "en": "Corporate & Public Trust",
+      "zh": "商业与公共责任"
     },
     "summary": {
       "en": "Natalie wakes in an emergency room after her husband Ethan attacks her and demands the password to a hidden archive. What he does not know is that her encrypted financial records, voting control and automatic backups have already placed the evidence beyond his reach—and in the hands of people ready to act.",
@@ -3212,7 +3212,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 5511,
+      "en": 5458,
       "zh": 10125
     }
   },
@@ -3221,7 +3221,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-073",
     "cover": "assets/covers/A-073-the-ledger-from-the-abyss.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3238,8 +3238,8 @@ window.STORY_ARCHIVE = [
       "zh": "深渊的账本"
     },
     "category": {
-      "en": "Family Betrayal",
-      "zh": "家庭背叛"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Eight months pregnant, Maya is pushed into a pool after her husband steals the birth fund she saved for their child. A hidden ledger, financial evidence and a survivor who refuses to stay silent turn a family celebration into a fight for her daughter, her future and the truth.",
@@ -3256,7 +3256,7 @@ window.STORY_ARCHIVE = [
       "zh": 7
     },
     "readingUnits": {
-      "en": 4496,
+      "en": 4464,
       "zh": 8121
     }
   },
@@ -3265,7 +3265,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-074",
     "cover": "assets/covers/A-074-the-final-account.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3273,7 +3273,7 @@ window.STORY_ARCHIVE = [
         "zh": "儿子为婚礼回家，也带来了最后一笔账"
       },
       "description": {
-        "en": "A devoted couple confronts the true cost of years spent confusing love with endless sacrifice.",
+        "en": "Daniel returns home before his wedding with an expensive plan and a fiancée who measures his parents by their money. As demands, insults and old…",
         "zh": "一对付出一生的夫妻，终于直面那些把爱误认成无尽牺牲所付出的代价。"
       }
     },
@@ -3282,8 +3282,8 @@ window.STORY_ARCHIVE = [
       "zh": "最后一笔账"
     },
     "category": {
-      "en": "Family Reckoning",
-      "zh": "家庭清算"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Daniel returns home before his wedding with an expensive plan and a fiancée who measures his parents by their money. As demands, insults and old sacrifices surface, Thomas and Margaret must decide whether love means paying one more bill—or finally closing the account.",
@@ -3300,7 +3300,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 7509,
+      "en": 7473,
       "zh": 14233
     }
   },
@@ -3309,7 +3309,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-075",
     "cover": "assets/covers/A-075-the-truth-in-the-recording.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3326,8 +3326,8 @@ window.STORY_ARCHIVE = [
       "zh": "录音里的真相"
     },
     "category": {
-      "en": "Dignity & Justice",
-      "zh": "尊严与正义"
+      "en": "Recovery & Dignity",
+      "zh": "疗愈与尊严"
     },
     "summary": {
       "en": "While her husband is deployed, his family invades the home she owns, assaults her and accuses her of marrying for money. They believe no one will challenge their version of events—until a recording preserves every threat, insult and lie.",
@@ -3344,8 +3344,8 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 7010,
-      "zh": 12811
+      "en": 5856,
+      "zh": 10733
     }
   },
   {
@@ -3353,7 +3353,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-076",
     "cover": "assets/covers/A-076-the-key-that-crossed-the-line.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3361,7 +3361,7 @@ window.STORY_ARCHIVE = [
         "zh": "他们把备用钥匙当成了夺走木屋的许可"
       },
       "description": {
-        "en": "A widow draws a clear line when family members mistake hospitality for ownership.",
+        "en": "Margaret’s lakeside cabin holds four decades of marriage, grief and memory. When her daughter-in-law treats a spare key as permission to occupy, remodel…",
         "zh": "当家人把好客误认为所有权，一名寡居女性终于划下不可逾越的界线。"
       }
     },
@@ -3370,8 +3370,8 @@ window.STORY_ARCHIVE = [
       "zh": "越界的钥匙"
     },
     "category": {
-      "en": "Family Boundaries",
-      "zh": "家庭边界"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Margaret’s lakeside cabin holds four decades of marriage, grief and memory. When her daughter-in-law treats a spare key as permission to occupy, remodel and claim the property, Margaret must defend more than a house—she must defend the boundary everyone assumed she would never enforce.",
@@ -3388,7 +3388,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 6505,
+      "en": 6464,
       "zh": 12569
     }
   },
@@ -3397,15 +3397,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-077",
     "cover": "assets/covers/A-077-the-sapphires-testimony.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "The Sapphire on a Server’s Neck Should Have Been Buried With His Wife",
+        "en": "The Sapphire’s Testimony",
         "zh": "女服务员颈间的蓝宝石，本该随他的亡妻一同下葬"
       },
       "description": {
-        "en": "A familiar jewel leads a grieving man toward the evidence hidden inside his own empire.",
+        "en": "Two years after Elena’s death, Vincent sees her sapphire pendant around a frightened server’s neck at a private dinner. The jewel opens a trail of…",
         "zh": "一件熟悉的珠宝，把沉浸哀伤的男人引向藏在自己帝国深处的证据。"
       }
     },
@@ -3414,8 +3414,8 @@ window.STORY_ARCHIVE = [
       "zh": "蓝宝石的证词"
     },
     "category": {
-      "en": "Secrets & Reckoning",
-      "zh": "秘密与清算"
+      "en": "Secrets & Deception",
+      "zh": "秘密与骗局"
     },
     "summary": {
       "en": "Two years after Elena’s death, Vincent sees her sapphire pendant around a frightened server’s neck at a private dinner. The jewel opens a trail of recordings, hidden rooms and buried records that challenges the loyal adviser who has controlled Vincent’s empire through grief.",
@@ -3432,8 +3432,8 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 7038,
-      "zh": 13055
+      "en": 6976,
+      "zh": 13051
     }
   },
   {
@@ -3441,7 +3441,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-078",
     "cover": "assets/covers/A-078-the-testimony-of-marble.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3458,8 +3458,8 @@ window.STORY_ARCHIVE = [
       "zh": "大理石的证词"
     },
     "category": {
-      "en": "Family Secrets",
-      "zh": "家庭秘密"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Pregnant Elena is told she has no place in the family home, and a confrontation on the polished marble floor leaves every relative clinging to a different version of events. Reflections, a red recording light and a carefully preserved timeline force the house itself to testify.",
@@ -3476,8 +3476,8 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 4990,
-      "zh": 9689
+      "en": 4954,
+      "zh": 9694
     }
   },
   {
@@ -3485,7 +3485,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-079",
     "cover": "assets/covers/A-079-when-the-red-ribbon-fell.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3493,7 +3493,7 @@ window.STORY_ARCHIVE = [
         "zh": "她走进新娘套房，却把红丝带永远留在了那里"
       },
       "description": {
-        "en": "A bride refuses to let betrayal turn her wedding day into a life sentence.",
+        "en": "Minutes before the ceremony, a bride walks away from the room where the truth about her fiancé has finally surfaced. The burgundy ribbon she leaves…",
         "zh": "一名新娘拒绝让背叛把婚礼变成她余生的牢笼。"
       }
     },
@@ -3502,8 +3502,8 @@ window.STORY_ARCHIVE = [
       "zh": "红丝带落地之时"
     },
     "category": {
-      "en": "Betrayal & Dignity",
-      "zh": "背叛与尊严"
+      "en": "Recovery & Dignity",
+      "zh": "疗愈与尊严"
     },
     "summary": {
       "en": "Minutes before the ceremony, a bride walks away from the room where the truth about her fiancé has finally surfaced. The burgundy ribbon she leaves behind becomes the quiet marker between public humiliation and the life she chooses to reclaim.",
@@ -3520,8 +3520,8 @@ window.STORY_ARCHIVE = [
       "zh": 2
     },
     "readingUnits": {
-      "en": 2551,
-      "zh": 4354
+      "en": 2508,
+      "zh": 4330
     }
   },
   {
@@ -3529,15 +3529,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-080",
     "cover": "assets/covers/A-080-the-cost-of-the-golden-house.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "Her Daughter-in-Law Ordered Her Into the Basement—In Her Own House",
+        "en": "The Cost of the Golden House",
         "zh": "儿媳命令她搬进地下室，却忘了房子究竟属于谁"
       },
       "description": {
-        "en": "A widow stops financing the people who mistook her generosity for weakness.",
+        "en": "Brenda orders her widowed mother-in-law Margaret out of the master bedroom in the house Margaret owns and supports. When Margaret finally withdraws the…",
         "zh": "一名寡居女性不再供养那些把她的慷慨误认为软弱的人。"
       }
     },
@@ -3546,8 +3546,8 @@ window.STORY_ARCHIVE = [
       "zh": "黄金屋的代价"
     },
     "category": {
-      "en": "Family Reckoning",
-      "zh": "家庭清算"
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
     },
     "summary": {
       "en": "Brenda orders her widowed mother-in-law Margaret out of the master bedroom in the house Margaret owns and supports. When Margaret finally withdraws the money, cards and protection that made the couple’s luxury possible, entitlement meets the price it never expected to pay.",
@@ -3564,7 +3564,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 4664,
+      "en": 4620,
       "zh": 8919
     }
   },
@@ -3573,7 +3573,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-081",
     "cover": "assets/covers/A-081-the-queen-returns-to-the-vesper-room.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3590,8 +3590,8 @@ window.STORY_ARCHIVE = [
       "zh": "暮色俱乐部：女王的归来"
     },
     "category": {
-      "en": "Power & Reckoning",
-      "zh": "权力与清算"
+      "en": "Justice & Accountability",
+      "zh": "正义与追责"
     },
     "summary": {
       "en": "Ava enters the city’s most exclusive club without diamonds, an entourage or a famous name on display. The guests decide she does not belong—unaware that the rules, the building and the inheritance behind the Vesper Room are all tied to her family.",
@@ -3608,7 +3608,7 @@ window.STORY_ARCHIVE = [
       "zh": 6
     },
     "readingUnits": {
-      "en": 3550,
+      "en": 3497,
       "zh": 6804
     }
   },
@@ -3617,7 +3617,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-082",
     "cover": "assets/covers/A-082-a-lifetime-signed-away.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
@@ -3625,7 +3625,7 @@ window.STORY_ARCHIVE = [
         "zh": "她出院四小时后，他要终结四十六年的婚姻"
       },
       "description": {
-        "en": "A husband brings papers and a younger lover; his wife brings the record he never knew she kept.",
+        "en": "Four hours after Eleanor leaves the hospital, her husband of forty-six years announces that she is too old for his future and displays another woman…",
         "zh": "丈夫带来文件和年轻情人，妻子则拿出了一份他从不知道存在的记录。"
       }
     },
@@ -3634,8 +3634,8 @@ window.STORY_ARCHIVE = [
       "zh": "签字画押的余生"
     },
     "category": {
-      "en": "Marriage & Reckoning",
-      "zh": "婚姻与清算"
+      "en": "Marriage & Boundaries",
+      "zh": "婚姻与边界"
     },
     "summary": {
       "en": "Four hours after Eleanor leaves the hospital, her husband of forty-six years announces that she is too old for his future and displays another woman wearing her mother’s pearls. He expects a tired wife to sign quietly—without realizing how carefully she has documented the life he is trying to erase.",
@@ -3652,7 +3652,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 3742,
+      "en": 3703,
       "zh": 7148
     }
   },
@@ -3661,15 +3661,15 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-083",
     "cover": "assets/covers/A-083-the-brides-black-belt.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": false,
     "share": {
       "title": {
-        "en": "He Brought a Whip to the Wedding Night—He Never Asked About Her Black Belt",
+        "en": "The Bride’s Black Belt",
         "zh": "他把皮鞭带进新婚夜，却从未问过新娘的黑带"
       },
       "description": {
-        "en": "A groom’s rulebook meets the bride he failed to investigate.",
+        "en": "Before the wedding night has even ended, Adrian produces a whip and a handwritten rulebook for his new wife. He believes the woman in the silk gown is…",
         "zh": "新郎的妻子守则，遇上了那个他从未真正调查过的新娘。"
       }
     },
@@ -3678,8 +3678,8 @@ window.STORY_ARCHIVE = [
       "zh": "新娘的黑带"
     },
     "category": {
-      "en": "Survival & Justice",
-      "zh": "反击与正义"
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
     },
     "summary": {
       "en": "Before the wedding night has even ended, Adrian produces a whip and a handwritten rulebook for his new wife. He believes the woman in the silk gown is trapped by marriage; he never investigated the discipline, training and evidence she brought into the room.",
@@ -3696,7 +3696,7 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 4424,
+      "en": 4394,
       "zh": 8232
     }
   },
@@ -3705,7 +3705,7 @@ window.STORY_ARCHIVE = [
     "fileNo": "A-084",
     "cover": "assets/covers/A-084-the-heartbeat-beneath-the-coffin.webp",
     "published": "2026-07-30",
-    "modified": "2026-07-30",
+    "modified": "2026-08-03",
     "isNew": true,
     "share": {
       "title": {
@@ -3713,7 +3713,7 @@ window.STORY_ARCHIVE = [
         "zh": "他回家参加怀孕妻子的葬礼，却摸到了一次心跳"
       },
       "description": {
-        "en": "A grieving husband notices the one sign everyone else was determined to ignore.",
+        "en": "After eighteen months abroad, a husband returns to find his pregnant wife laid inside a coffin and his family already mourning. One impossible breath, a…",
         "zh": "沉浸悲痛的丈夫，发现了所有人都决意忽略的那一个生命迹象。"
       }
     },
@@ -3722,8 +3722,8 @@ window.STORY_ARCHIVE = [
       "zh": "棺木之下的心跳"
     },
     "category": {
-      "en": "Secrets & Survival",
-      "zh": "秘密与生还"
+      "en": "Secrets & Deception",
+      "zh": "秘密与骗局"
     },
     "summary": {
       "en": "After eighteen months abroad, a husband returns to find his pregnant wife laid inside a coffin and his family already mourning. One impossible breath, a pulse that should not exist and a trail of sedatives and audit files reveal that the funeral is not the end of the story—it is the crime scene.",
@@ -3740,8 +3740,8 @@ window.STORY_ARCHIVE = [
       "zh": 5
     },
     "readingUnits": {
-      "en": 4022,
-      "zh": 7476
+      "en": 3994,
+      "zh": 7484
     }
   }
 ];
