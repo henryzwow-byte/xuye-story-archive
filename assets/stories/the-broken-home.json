@@ -1,0 +1,94 @@
+{
+  "slug": "the-broken-home",
+  "fileNo": "A-001",
+  "cover": "assets/covers/A-001-the-broken-home.webp",
+  "published": "2026-07-20",
+  "modified": "2026-07-22",
+  "isNew": false,
+  "share": {
+    "title": {
+      "en": "They Asked Her to Sign at Dinner—Then She Opened the File",
+      "zh": "他们在家宴上逼她签字，直到她打开那份档案"
+    },
+    "description": {
+      "en": "Hours after leaving the hospital, Eva walked into a family ambush. The documents in her hands changed every seat at the table.",
+      "zh": "刚离开医院，伊芙就走进一场家族围攻；她手里的文件，让整张餐桌的局势彻底逆转。"
+    }
+  },
+  "title": {
+    "en": "The Broken Home",
+    "zh": "家宴上的囚徒"
+  },
+  "category": {
+    "en": "Family Betrayal",
+    "zh": "家庭背叛"
+  },
+  "summary": {
+    "en": "Hours after leaving the hospital, Eva is pressured to sign away her marriage at a family banquet—until she reveals the documents that can bring the entire dynasty down.",
+    "zh": "刚离开医院的伊芙被带到家宴上逼迫离婚，直到她拿出足以让整个家族崩塌的文件。"
+  },
+  "warning": {
+    "en": "Fiction. Contains family conflict, coercion and medical distress.",
+    "zh": "虚构故事。包含家庭冲突、胁迫与医疗困境。"
+  },
+  "tone": "rust",
+  "glyph": "BH",
+  "content": {
+    "en": [
+      "## Chapter One: The Banquet",
+      "“Sign the divorce papers. After what happened at the hospital, you no longer have a place at our family’s table.”",
+      "At the center of a lavish banquet attended by more than a hundred family members and executives, Eva’s mother-in-law placed a stamped hospital report in front of her. Eva had left the hospital only hours earlier and was still weak.",
+      "“Mom… I went through a medical emergency this morning. You brought your son’s new partner here and now you are forcing me out in front of the whole family?” Eva steadied herself against a chair, still weak from the hospital.",
+      "The husband she had loved for seven years did not even look up. Sitting beside his new partner, Thomas calmly cut his steak. “If my mother tells you to sign, then sign. Take the divorce and leave.”",
+      "His mother snatched the papers from Eva’s hand. Around the table, relatives and executives who had always pretended to be kind watched without lifting a hand. A few even laughed.",
+      "“This is your last day here,” the older woman said. “Guards, escort her out.”",
+      "Eva remained calm. She pulled three stamped bank demand notices and a receipt from the tax authority out of her bag. Then she looked directly at Thomas.",
+      "“You seem to have forgotten that the mansion, the Rolls-Royce and every guarantee behind your company’s listing are in my name. I faced the hardest morning of my life, and now you want me to sign away my marriage at this table. Fine. We can face the consequences together.”",
+      "## Chapter Two: The Only Card Left",
+      "The room went silent. Thomas’s silver pen slipped from his hand. He reached for the papers and read the official stamps, finally understanding what the evidence meant.",
+      "“No. This cannot be real. When did you revoke the guarantees? And this tax audit…”",
+      "His mother still did not understand. “Why are you afraid of her? The company is listed. We are rich now.”",
+      "“Be quiet!” Thomas screamed. “Every bridge loan for the listing was secured against this house and my shares. The house is in Eva’s name. Every primary loan and personal guarantee depends on her credit.”",
+      "Holding the edge of the table, Eva rose inch by inch. It hurt, but she stood with more dignity than anyone else in the room.",
+      "“You moved marital assets, broke our marriage agreement and interfered with my medical care. Did you truly think I knew nothing? I stayed silent because I hoped our family could still be repaired. This morning’s emergency ended that hope.”",
+      "## Chapter Three: Nothing Left",
+      "Eva put her phone on speaker. The chief legal officer of the city’s largest commercial bank answered.",
+      "“Ms. Eva, following the divorce petition and evidence of malicious transfer of marital property that you submitted one hour ago, we have applied for pretrial asset preservation. Because you withdrew your joint personal guarantee, the company’s credit facility was automatically suspended five minutes ago.”",
+      "Phones began chiming around the room. The notices all said the same thing: the controlling shareholder was suspected of fraud and serious marital misconduct; company accounts were frozen, the listing was halted, and liquidation proceedings were beginning.",
+      "The relatives and executives who had mocked Eva suddenly turned on Thomas. Their own money was trapped. “You have ruined us!” one shouted. “Why did you provoke her?” cried another.",
+      "Thomas rushed toward Eva. “I was wrong. My mother pressured me. Please restore the guarantee.” He reached for the papers she had placed on the table.",
+      "Thomas’s new partner saw the plan collapse and quietly left the room.",
+      "Eva never looked back. Wrapped in a thin hospital gown and accompanied by police officers and her lawyers, she walked out of the mansion that had held seven years of her pain.",
+      "Half an hour later, the court sealed the front gate. Thomas’s mother collapsed under the weight of the debt. Thomas lost the company, the house and every privilege he had taken for granted. Millions in personal liabilities would follow him for the rest of his life.",
+      "— End —"
+    ],
+    "zh": [
+      "## 第一章：家宴上的囚徒",
+      "“把离婚协议签了。医院发生那件事以后，你已经不适合继续留在我们家的宴席上。”",
+      "在上百名家族成员和公司高管齐聚的宴会上，婆婆把一份盖着红印的医院报告放到伊芙面前。伊芙刚离开医院几个小时，身体仍然十分虚弱。",
+      "“妈……我今天早上刚经历了一场医疗意外。你为了让另一个女人进入这个家，竟然当着全家族的面逼我离开？”伊芙扶住椅背，身体仍然十分虚弱。",
+      "她爱了七年的丈夫托马斯坐在新伴侣身边，连头都不抬：“我妈让你签你就签。签了字，离开这里。”",
+      "婆婆从伊芙手中夺走协议书。周围平日和蔼的亲戚和集团高管无人阻拦，甚至有人发出刺耳的笑声。",
+      "“你今天必须离开。保镖，把她带出去！”",
+      "伊芙保持平静，从包里拿出三份盖章的银行催缴通知书和一份税务部门的回执，直视丈夫和婆婆。",
+      "“托马斯，你忘了这栋豪宅、劳斯莱斯，还有你公司上市的所有担保人，写的都是我的名字。我刚经历人生最艰难的早晨，你们就在桌上逼我离婚。那我们现在就一起面对后果吧。”",
+      "## 第二章：底层的底牌",
+      "全场安静下来。托马斯手里的银色钢笔掉在地上。他拿起单据，看清官方印章后，终于明白这些证据意味着什么。",
+      "“不……这不可能！你什么时候撤销了担保？还有这个税务审计……”",
+      "婆婆仍不理解：“儿子，你怕她干什么？公司都上市了，我们现在有钱了。”",
+      "“妈，你闭嘴！”托马斯绝望地咆哮，“公司上市的所有过桥资金，全用这栋房子和我的股份抵押。而房子写的是伊芙的名字，所有主贷人和信用担保都靠她的个人信用！”",
+      "伊芙扶着桌角，一寸一寸、极其艰难却无比尊严地站起来。",
+      "“你转移资产、违反婚姻承诺，还干预我的医疗安排。你真以为我什么都不知道？我沉默，是因为希望这个家庭还有修复的可能。今天早上的意外，让这份希望结束了。”",
+      "## 第三章：一无所有",
+      "伊芙拿出手机，当着全场亲戚和高管按下免提。电话那头是本地最大商业银行的首席法务代表。",
+      "“伊芙女士，根据您一小时前提交的离婚诉讼及婚内财产恶意转移证明，我们已向法院申请诉前财产保全。由于您撤销了对托马斯先生公司的个人连带担保，公司的信用额度已在五分钟前自动熔断。”",
+      "全场手机疯狂响起：大股东涉嫌欺诈，公司账户被冻结，上市程序中止，并将进入全面清算。",
+      "原本冷眼旁观的亲戚和高管发现自己的投资也受影响，纷纷要求托马斯解释。",
+      "托马斯慌忙冲过来：“我错了，是我妈逼我的！求你把担保拿回来！”他伸手想夺回桌上的文件。",
+      "托马斯的新伴侣看见计划失败，安静地离开了宴会厅。",
+      "伊芙没有再看他们。她裹紧单薄的医院外套，在警察和律师陪同下，一步一步走出这栋留下太多痛苦回忆的别墅。",
+      "半小时后，法院封条贴上别墅大门。相关资产进入司法清算；托马斯不仅失去公司控制权，还将面对数千万个人债务。",
+      "—— 全文完 ——"
+    ]
+  }
+}

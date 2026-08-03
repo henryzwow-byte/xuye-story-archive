@@ -1,0 +1,30 @@
+{
+  "campaign": "Story Archive — calm traffic creative",
+  "created": "2026-08-03",
+  "purpose": "A non-graphic alternative for Facebook and Instagram traffic campaigns.",
+  "files": [
+    {
+      "path": "story-archive-calm-landscape-1200x630.jpg",
+      "width": 1200,
+      "height": 630,
+      "use": "Facebook link post and shared-link preview"
+    },
+    {
+      "path": "story-archive-calm-square-1080x1080.jpg",
+      "width": 1080,
+      "height": 1080,
+      "use": "Facebook and Instagram square feed"
+    },
+    {
+      "path": "story-archive-calm-portrait-1080x1350.jpg",
+      "width": 1080,
+      "height": 1350,
+      "use": "Facebook and Instagram mobile feed"
+    }
+  ],
+  "creativeRules": {
+    "show": ["archives", "documents", "keys", "lamps", "doors", "quiet suspense"],
+    "avoid": ["blood", "injuries", "weapons", "physical assault", "distressed children", "corpses", "graphic medical scenes"],
+    "copy": "Describe the specific story honestly; do not promise outcomes or use sensational personal-attribute claims."
+  }
+}

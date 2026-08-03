@@ -1,0 +1,90 @@
+{
+  "slug": "a-fathers-final-dignity",
+  "fileNo": "A-005",
+  "cover": "assets/covers/A-005-a-fathers-final-dignity.webp",
+  "published": "2026-07-20",
+  "modified": "2026-07-22",
+  "isNew": false,
+  "share": {
+    "title": {
+      "en": "Outside His Hospital Room, a Hidden Clause Changed Everything",
+      "zh": "病房门外，一条隐藏条款改变了一切"
+    },
+    "description": {
+      "en": "While Layla fought to save her father, someone else moved to take his company. A sealed file in the corridor stopped the plan.",
+      "zh": "蕾拉为抢救父亲奔走时，有人正准备夺走他的公司；走廊里的一份密封文件阻止了这场计划。"
+    }
+  },
+  "title": {
+    "en": "A Father’s Final Dignity",
+    "zh": "亲爹最后的尊严"
+  },
+  "category": {
+    "en": "Family Betrayal",
+    "zh": "家庭背叛"
+  },
+  "summary": {
+    "en": "Layla begs doctors to save her father while her stepmother steals his company—until a secret trust clause turns the hospital corridor into a courtroom.",
+    "zh": "蕾拉在医院哀求医生救父，后妈却趁机侵吞公司；一条秘密信托条款让病房走廊变成审判现场。"
+  },
+  "warning": {
+    "en": "Fiction. Contains medical coercion and attempted financial abuse.",
+    "zh": "虚构故事。包含医疗胁迫与财产侵害情节。"
+  },
+  "tone": "teal",
+  "glyph": "FD",
+  "content": {
+    "en": [
+      "## Chapter One: The Calculation at His Bedside",
+      "“Doctor, please reconnect my father’s ventilator. I will find the money today—I promise.”",
+      "Beside a cold bench in the ICU corridor, Layla asked the physician to review the case. Before he could answer, her stepmother handed him a voluntary withdrawal-of-treatment form.",
+      "“Stop pretending to be a devoted daughter,” said her stepmother, Anna, wrapped in expensive fur. “I am his legal spouse. I signed the order to stop treatment two hours ago.”",
+      "Layla stared at the trembling fingerprint on the form. “He could still speak yesterday. He wanted to live. You stopped paying so your lover could take control of his company.”",
+      "The tall man behind Anna—both a major shareholder and her secret partner—took the medical checks Layla had gathered and pushed them aside.",
+      "“Anna and I control the company now. His shares and the trust your grandfather left you were reorganized five minutes ago. You cannot afford a legal fight, so how do you plan to stop us?”",
+      "Directors and relatives lined the corridor, looking down at their phones and pretending not to witness the theft. Anna took her partner’s arm. “The decision is final. We are leaving.”",
+      "Layla stood, wiped away her tears and removed an encrypted drive from her bag. It played a recording of Anna and her lover plotting to replace the will and end her father’s treatment. In her other hand was an official order opening an international money-laundering investigation.",
+      "“Anna, you forgot the trust’s absolute protection clause. If the original beneficiary is subjected to an abnormal withdrawal of medical care, the trust automatically becomes a litigation fund and liquidates every asset held by the people responsible.”",
+      "## Chapter Two: The Secret Clause",
+      "The corridor fell silent except for the recorded voices. At the phrase ‘international money-laundering investigation,’ the lover’s face darkened. His cigar cutter hit the floor and his hands began to shake.",
+      "“How did you get that recording? The trustees told us the fund was frozen.”",
+      "Anna reached for the drive. “Do not listen to her. The company belongs to us.”",
+      "Her partner stepped away from her. “That trust was designed to expose this exact scheme. Once the abnormal-withdrawal clause is triggered, it calls back every bridge loan made to the company and sends all evidence of our asset transfers directly to the tax authority.”",
+      "Layla watched their alliance collapse, then pressed Send All on her phone.",
+      "## Chapter Three: Total Liquidation",
+      "Within seconds, every director’s phone filled with notices from banks and the commercial court. Because the controlling parties were suspected of criminal money laundering, company accounts had been frozen and liquidation had begun.",
+      "The directors who had watched in silence surrounded Anna and her lover. Their own assets were now at risk, and their convenient loyalty vanished.",
+      "Anna crawled toward Layla. “My daughter, I lost my mind. I will pay for your father’s care. I will call the best specialists. Please withdraw the investigation.”",
+      "Her partner ran for the elevator. When the doors opened, federal tax investigators and police officers were already waiting to question him.",
+      "Layla turned and entered the ICU. Under the new court order, her father was transferred to the city’s best medical team for protective care.",
+      "Within half an hour, authorities restricted access to Anna’s disputed assets. The empire she had tried to seize was now subject to debt recovery and prosecution, all because of the records she had created herself.",
+      "— End —"
+    ],
+    "zh": [
+      "## 第一章：病床前的算计",
+      "“医生，我求求你，把我爸爸的呼吸机接回去！医药费我今天一定会凑齐！”",
+      "在ICU长廊冰冷的长椅旁，蕾拉请求值班医生重新审查父亲的情况。医生还没说话，后妈便递来一份自愿放弃治疗同意书。",
+      "“别演孝女了。我是你爸的法定配偶，两小时前已经签字停药。”后妈安娜穿着昂贵皮草，居高临下地看着她。",
+      "蕾拉看着同意书上父亲颤抖变形的指印：“他昨天还能说话，明明想活下去。你为了让情人接管公司，故意断掉他的医药费！”",
+      "后妈身后的男人既是公司大股东，也是她的秘密合伙人。他拿起蕾拉准备好的医疗费支票，随手推到一旁。",
+      "“公司现在由我和安娜说了算。他的股份和你外公留下的信托，五分钟前已经完成重组。你承担不起一场诉讼，拿什么阻止我们？”",
+      "几位董事和亲戚低头看手机，假装没看见这场掠夺。安娜挽着合伙人的手臂转身：“决定已经做完，我们走。”",
+      "蕾拉站起来擦干眼泪，从背包拿出正在播放录音的加密U盘，以及税务总局的跨国洗钱调查令。录音里清楚传出后妈和情人偷换遗嘱、给父亲停药的密谋。",
+      "“安娜，你忘了外公设立的信托有一条绝对保护条款。只要原始受益人遭遇非正常医疗放弃，信托就会自动变成诉讼基金，全面清盘责任人名下的资产。”",
+      "## 第二章：秘密条款的威力",
+      "长廊瞬间安静，只剩录音里贪婪的对话。情人听到跨国洗钱调查令，脸色铁青，手里的雪茄剪掉在地上。",
+      "“你怎么会有录音？信托的绝对保护条款……那群老家伙不是说资金早就冻结了吗？”",
+      "安娜试图抢夺U盘：“别听她吓唬人！公司是我们的！”",
+      "合伙人立刻与安娜拉开距离：“那个信托就是为了揭露这种计划。一旦触发条款，信托会收回所有过桥资金，把资产转移证据送给税务局。”",
+      "蕾拉看着他们的联盟瞬间瓦解，按下手机的群发键。",
+      "## 第三章：绝对清盘",
+      "几秒内，董事和亲戚的手机疯狂闪烁。商业法庭和银行通知显示：公司核心控股方涉嫌刑事犯罪及恶意洗钱，全部流水账户被冻结，进入破产清算。",
+      "原本冷眼旁观的董事利益受损，瞬间将安娜和情人围在中间。",
+      "安娜爬向蕾拉：“亲闺女，我鬼迷心窍！我出你爸爸的医药费，马上联系最好的专家，求你撤回调查令！”",
+      "合伙人急忙走向电梯。电梯门一开，联邦税务稽查员和警察已经等在那里，要求他配合调查。",
+      "蕾拉推开ICU大门。在司法介入下，父亲被紧急转入全市最好的医疗团队接受保护性救治。",
+      "半小时后，后妈和合伙人的争议资产被依法限制处置。他们试图侵吞的公司进入债务追偿和司法程序，而所有后果都来自他们亲手留下的记录。",
+      "—— 全文完 ——"
+    ]
+  }
+}

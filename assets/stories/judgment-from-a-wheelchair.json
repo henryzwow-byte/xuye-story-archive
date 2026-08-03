@@ -1,0 +1,84 @@
+{
+  "slug": "judgment-from-a-wheelchair",
+  "fileNo": "A-004",
+  "cover": "assets/covers/A-004-judgment-from-a-wheelchair.webp",
+  "published": "2026-07-20",
+  "modified": "2026-07-22",
+  "isNew": false,
+  "share": {
+    "title": {
+      "en": "He Stayed Silent in His Wheelchair—While Every Word Was Recorded",
+      "zh": "他坐在轮椅上沉默，而他们的每句话都被录了下来"
+    },
+    "description": {
+      "en": "His father and wife planned to steal the estate in front of him. They never noticed the evidence building behind the screen.",
+      "zh": "父亲和妻子当着他的面密谋侵吞遗产，却没发现屏幕后面的证据正在一条条累积。"
+    }
+  },
+  "title": {
+    "en": "Judgment from a Wheelchair",
+    "zh": "轮椅上的审判"
+  },
+  "category": {
+    "en": "Family Betrayal",
+    "zh": "家庭背叛"
+  },
+  "summary": {
+    "en": "A disabled heir watches his father and wife plan to steal his mother’s estate, unaware that every word has already been recorded.",
+    "zh": "一名残障继承人看着父亲与妻子密谋侵吞母亲的遗产，而他们不知道每一句话都已被录下。"
+  },
+  "warning": {
+    "en": "Fiction. Contains family betrayal, coercion and financial abuse.",
+    "zh": "虚构故事。包含家庭背叛、胁迫与财产侵害情节。"
+  },
+  "tone": "violet",
+  "glyph": "JW",
+  "content": {
+    "en": [
+      "## Chapter One: The Man in the Wheelchair",
+      "I sat in my wheelchair and listened as my wife praised my father’s latest business plan. Their sudden alliance told me that I had become the obstacle they intended to remove.",
+      "After my mother died, the family rotted from its roots. Because I could barely walk, no one treated me as if I mattered. What they did not know was that the entire estate had been my mother’s private property and had been left to me. My father believed he was merely holding it temporarily.",
+      "My father wanted permanent control of the company, while my wife wanted the estate. Under my roof they pretended to care while planning to have me declared incapable and move everything my mother had left into accounts they controlled.",
+      "They believed a disabled man would never be heard. But the miniature device inside my wheelchair’s armrest recorded every meeting in the study and every plan to remove my legal rights. Each extra day of greed added another page to the case against them.",
+      "## Chapter Two: The Last Supper",
+      "My father’s birthday banquet was the day they planned to cast me out.",
+      "Standing beside my wife, he performed for the relatives. “My son’s health makes business difficult. From now on, my daughter-in-law will manage the family company for him.”",
+      "Whispers moved beneath the tables as everyone waited to see the heir removed.",
+      "I rolled my wheelchair to the enormous projection screen, raised a remote control and pressed one button.",
+      "“If we are discussing the estate, let us first see how this devoted wife and loving father planned to divide property that was never theirs.”",
+      "The screen showed their secret meetings in the study. Their voices discussed an edited medical assessment, forged corporate resolutions and plans to move my inheritance into overseas accounts. Beside the recordings appeared my mother’s notarized will.",
+      "The hall became absolutely still. My father’s wineglass shattered on the floor.",
+      "## Chapter Three: Judgment at the Gates",
+      "He rushed toward my chair, but investigators entered before he could reach me. My wife saw the transfer records, together with the clause declaring me the sole heir, and realized that their plan had failed.",
+      "“You pretended to be helpless so you could trap me!” my father shouted. Against the evidence and the notarized will, however, he had no legal defense.",
+      "I rolled closer. “While Mother lived, you did not dare touch her property. The moment she was gone, you joined forces against me and tried to steal what she protected. Today that estate returns to its lawful owner.”",
+      "Authorities escorted them away. The disputed assets were frozen and returned to me, and both of them faced a formal prosecution.",
+      "I rolled out of the decaying house alone. Sunlight touched my face, and for the first time I could breathe freely. From that day forward, the house was clean.",
+      "Dignity is not a gift from someone else. Sometimes it returns only when the people who tried to destroy you finally face judgment.",
+      "— End —"
+    ],
+    "zh": [
+      "## 第一章：坐轮椅的看客",
+      "我坐在轮椅上，听妻子称赞父亲最新的商业计划。他们突然变得亲密，让我明白：我已经成了他们想要排除的障碍。",
+      "母亲过世后，这个家像烂了根的树。我连路都走不稳，家里没人把我当回事。其实这偌大的家产全是母亲生前留给我的私产，只是没有对外公开，父亲一直以为自己只是替我保管。",
+      "父亲想永久控制公司，妻子则想拿到遗产。他们在屋檐下假装关心我，背地里却计划让我被认定为没有管理能力，再把母亲留下的资产转进他们控制的账户。",
+      "他们以为残障人士不会被听见。可轮椅扶手里的微型设备，清楚记录了他们在书房里的每次会面，以及剥夺我法律权利的计划。他们每多贪一天，案件里就多一页证据。",
+      "## 第二章：最后的晚餐",
+      "父亲生日宴当天，是他们准备把我扫地出门的日子。",
+      "父亲站在妻子身旁，当着亲戚宣布：“我儿身体不便，以后家里的生意就交给儿媳打理。”",
+      "亲戚们小声议论，等着看我被彻底踢出局。",
+      "我转动轮椅，停在宴会厅巨大的投影屏幕前，当着所有人的面按下遥控器。",
+      "“既然要谈家产，不如先看看这位贤惠儿媳和好父亲，准备怎么瓜分本该属于我的遗产。”",
+      "屏幕亮起，画面里是他们在书房里的秘密会面，还有伪造医疗评估、修改公司决议并把遗产转到海外账户的录音，以及母亲当年立下的遗嘱公证书。",
+      "整个大厅鸦雀无声，只剩父亲的红酒杯摔在地上。",
+      "## 第三章：门前的审判",
+      "父亲冲过来想抢走遥控器，但调查人员在他靠近前便进入会场。妻子看见资产转移记录，以及写明家产仅由我继承的遗嘱，终于明白计划已经失败。",
+      "“你居然一直在收集证据？”父亲叫喊着。可在完整记录和公证遗嘱面前，他没有任何法律辩解。",
+      "我盯着他们说：“母亲活着时，你们不敢碰她的财产。她刚离开，你们就想拿走她留给我的一切。今天，这些资产将回到合法继承人手里。”",
+      "调查人员把他们带走。争议资产被冻结并归还给我，两人将面对正式起诉。",
+      "我独自滑着轮椅走出那栋烂房子。阳光照在身上，我第一次觉得呼吸如此顺畅。从今天起，这个家终于干净了。",
+      "尊严不是靠谁给的。把那些想害你的人送上审判席，才能真正拿回来。",
+      "—— 全文完 ——"
+    ]
+  }
+}

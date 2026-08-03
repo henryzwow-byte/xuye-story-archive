@@ -1,0 +1,94 @@
+{
+  "slug": "the-wounded-ring",
+  "fileNo": "A-061",
+  "cover": "assets/covers/A-061-the-wounded-ring.webp",
+  "published": "2026-07-30",
+  "modified": "2026-07-31",
+  "isNew": false,
+  "share": {
+    "title": {
+      "en": "A Damaged Wedding Ring Carried Numbers No One Was Supposed to Find",
+      "zh": "一枚受损婚戒里藏着本不该被发现的编号"
+    },
+    "description": {
+      "en": "The repair was old. The inventory trail was older—and it led to a museum wall.",
+      "zh": "修补痕迹已经很旧，而编号背后的线索更久远，最终指向博物馆的一面墙。"
+    }
+  },
+  "title": {
+    "en": "The Wounded Ring",
+    "zh": "带伤的戒指"
+  },
+  "category": {
+    "en": "Memory & Restitution",
+    "zh": "记忆与归还"
+  },
+  "summary": {
+    "en": "Jewelry restorer Elise Navarro receives a damaged wedding ring from a refugee family and discovers inventory numbers engraved beneath an old repair. The markings lead to art and heirlooms displaced during wartime, forcing an auction house, a museum and the descendants of two families to confront ownership, memory and restitution without turning grief into spectacle.",
+    "zh": "珠宝修复师埃莉斯·纳瓦罗收到一枚来自难民家庭的受损婚戒，在旧修补层下发现一串库存编号。记号牵出战争期间流散的艺术品与家族遗物，迫使拍卖行、博物馆和两个家庭的后代面对所有权、记忆与归还，同时避免把哀伤变成表演。"
+  },
+  "warning": {
+    "en": "Fiction. Contains wartime displacement, family loss, theft of cultural property, grief, institutional concealment and legal mediation. No graphic violence.",
+    "zh": "虚构故事。包含战争迁徙、家庭失散、文化财产被夺、哀伤、机构隐瞒及法律调解；无血腥暴力描写。"
+  },
+  "tone": "violet",
+  "glyph": "WR",
+  "content": {
+    "en": [
+      "## Chapter 1: The Ring with a Split Band",
+      "Elise Navarro was asked to repair a plain gold wedding ring split nearly through the band. Its owner, eighty-two-year-old Miriam Weiss, had worn it since leaving a displaced-persons camp as a child. Miriam wanted it safe enough to give her granddaughter at an upcoming wedding.",
+      "Under magnification, Elise found a previous repair made with mismatched gold. When she removed the brittle solder, five tiny characters appeared inside the band: K-17-442. They were not a jeweler's initials.",
+      "Miriam recognized the format from labels her father once described. Before the war, her family operated a small gallery and kept a handwritten inventory. Most of the paintings and personal objects disappeared while the family was in hiding.",
+      "Elise paused the repair and documented every step. She would not polish away the numbers until Miriam decided what they meant. The ring's wound had protected the only mark that could connect it to a larger history.",
+      "## Chapter 2: The Inventory That Survived",
+      "Miriam's nephew found scanned pages of the family inventory in a university archive. Entry K-17 described not the ring but a landscape by painter Anja Kovács. The extra numbers referred to a crate that contained the painting, jewelry and correspondence during an attempted evacuation.",
+      "A current provenance database listed the landscape as an anonymous 1952 acquisition by the Harcourt Museum. Its file said the donor had purchased it from a reputable postwar dealer. No earlier ownership was recorded.",
+      "Elise contacted provenance researcher Daniel Cho, who advised the family to preserve the ring and approach the museum before making public accusations. He found a photograph of the evacuation crate; Miriam's mother's hand was visible beside the same numbered label.",
+      "The museum initially called the connection circumstantial. Then Daniel located the dealer's ledger in an auction-house archive. It used K-17-442 beside the landscape and three items of jewelry, including a gold ring with a repaired band.",
+      "## Chapter 3: The Wall Label",
+      "Miriam visited the museum after closing. She stood before the landscape without touching it and described the hill her mother had called Blue Orchard. A curator recorded her account, but the director asked the family to keep the claim confidential while trustees considered legal exposure.",
+      "Weeks passed without a formal response. Meanwhile the auction house scheduled a sale of letters from the same dealer's estate. One lot included correspondence about purchasing unclaimed crates from an official who controlled a refugee warehouse.",
+      "Elise and Daniel submitted the documents to an independent restitution panel. They requested a temporary hold on the sale and asked the museum to disclose its acquisition file. The panel granted both requests.",
+      "Public notice brought another family forward. Their grandfather had safeguarded the crate during the evacuation and later died believing it had reached Miriam's parents. His letters did not claim ownership; they explained how the objects had been separated.",
+      "## Chapter 4: Restitution Without a Stage",
+      "The evidence showed that the postwar dealer had acquired the crate through an official who lacked authority to sell it. The museum's 1952 board had questioned the vague provenance but accepted the donation after a trustee urged them not to lose an important painting.",
+      "Miriam rejected a proposal for a private payment that would leave the landscape's ownership unchanged. She also rejected calls for a dramatic public removal while the other family's contribution remained unrecognized.",
+      "Mediation produced a different resolution. The museum returned legal title to Miriam's family, then received the landscape on a ten-year renewable loan. Its new label named the original owners, the family who protected the crate and the broken chain through which the painting entered the collection.",
+      "The auction house withdrew the letters from sale and transferred them to a joint archive. Proceeds from a separate settlement funded research into other objects listed in the dealer's ledger.",
+      "## Chapter 5: The Repair That Remained Visible",
+      "Elise completed the ring using a narrow internal bridge, strong enough for careful wear but designed to preserve the old seam and the engraved number. She refused to make the damage disappear entirely.",
+      "At her granddaughter's wedding, Miriam explained that the ring was neither a trophy nor proof that every loss could be repaired. It was evidence that patient records and honest institutions could return names to objects long after ownership had been blurred.",
+      "The Harcourt Museum opened a provenance room where visitors could follow unresolved cases and contribute family documents. Daniel chaired an advisory group that included descendants, historians and community archivists.",
+      "Miriam later donated a digital copy of the family inventory, not the original. She had learned that sharing memory did not require surrendering control of it.",
+      "Inside the ring, K-17-442 remained readable beside Elise's discreet restoration mark. One scar recorded what had been taken. The other recorded the moment people chose to return it."
+    ],
+    "zh": [
+      "## 第1章：断裂的戒圈",
+      "珠宝修复师埃莉斯·纳瓦罗接到一枚几乎完全断开的素金婚戒。八十二岁的主人米里亚姆·魏斯从儿童时期离开流离失所者营地后，一直戴着它。她希望在孙女即将到来的婚礼上，把戒指安全地交给下一代。",
+      "放大观察时，埃莉斯发现旧修补使用了不同成色的黄金。她移除已经脆化的焊料后，戒圈内侧露出五个极小字符：K-17-442。这不是珠宝匠的姓名缩写。",
+      "米里亚姆认出这种格式。父亲曾说，战争前家里经营一间小画廊，并有一本手写库存簿。家庭躲藏期间，大部分画作和私人用品都消失了。",
+      "埃莉斯暂停修复，完整记录每一步。在米里亚姆决定这些编号意味着什么之前，她不会把它们打磨掉。戒指上的伤口，反而保护了唯一可能连接更大历史的记号。",
+      "## 第2章：幸存的库存簿",
+      "米里亚姆的侄子在大学档案馆找到家族库存簿的扫描页。K-17记录的不是戒指，而是画家安雅·科瓦奇的一幅风景画；后面的编号对应一个撤离箱，里面装着画作、珠宝和书信。",
+      "现有来源数据库显示，那幅风景画由哈考特博物馆在1952年从匿名捐赠者处获得，文件只说捐赠者从“信誉良好的战后经销商”手中购买，没有更早的所有权记录。",
+      "埃莉斯联系来源研究员赵丹尼尔。他建议家人保存戒指，并在公开指控前先与博物馆沟通。他找到一张撤离箱照片，米里亚姆母亲的手正放在带有相同编号的标签旁。",
+      "博物馆起初称这种联系只是间接证据。随后，丹尼尔在拍卖行档案里找到经销商账簿，其中用K-17-442标记风景画和三件珠宝，包括一枚经过修补的金戒指。",
+      "## 第3章：墙上的说明牌",
+      "闭馆后，米里亚姆来到博物馆。她站在那幅风景画前，没有触碰，只讲述母亲曾称之为“蓝色果园”的山丘。策展人记录她的叙述，馆长却要求家属在理事会评估法律风险期间保持保密。",
+      "数周过去，博物馆没有正式回应。与此同时，拍卖行准备出售同一经销商遗留的书信，其中一件拍品涉及从控制难民仓库的官员手中购买“无人认领的箱子”。",
+      "埃莉斯和丹尼尔把材料提交独立归还委员会，申请暂停拍卖，并要求博物馆公开收购档案。委员会同意两项请求。",
+      "公开通知让另一个家庭主动联系。他们的祖父曾在撤离途中保护那个箱子，直到去世都相信物品已经回到米里亚姆父母手中。他留下的信件没有声称所有权，只解释物品如何被拆散。",
+      "## 第4章：不需要舞台的归还",
+      "证据表明，战后经销商通过一名无权出售物品的官员取得撤离箱。博物馆1952年的董事会曾质疑来源含糊，却在一名理事以“不能失去重要画作”为由施压后接受捐赠。",
+      "米里亚姆拒绝私下赔款换取画作所有权不变，也拒绝在另一个家庭的贡献尚未被承认时，进行戏剧化的公开拆画仪式。",
+      "调解形成另一种方案：博物馆把法律所有权归还米里亚姆家族，随后以十年可续期借展方式继续展出。新说明牌写明原所有者、保护箱子的家庭，以及画作进入馆藏时断裂的来源链。",
+      "拍卖行撤回相关书信并转交联合档案馆，另一项和解所得则用于研究经销商账簿中的其他物品。",
+      "## 第5章：保留下来的修补痕迹",
+      "埃莉斯在戒圈内部加上一条窄小支撑桥，使戒指能够被谨慎佩戴，同时保留旧接缝和编号。她没有让损伤彻底消失。",
+      "孙女婚礼上，米里亚姆解释，这枚戒指既不是战利品，也不能证明所有损失都能复原。它证明的是，耐心保存的记录和愿意诚实面对历史的机构，能够在所有权被模糊数十年后，把名字还给物品。",
+      "哈考特博物馆开设来源研究室，访客可以查看未解决案件，并提交家庭文件。丹尼尔主持的顾问小组同时包括后代、历史学者和社区档案员。",
+      "米里亚姆后来捐出家族库存簿的数字副本，而不是原件。她已经明白，分享记忆不等于放弃对记忆的控制。",
+      "戒指内侧，K-17-442与埃莉斯低调的修复标记并排可见。一道伤痕记录曾经被夺走的东西，另一道则记录人们终于选择把它归还的时刻。"
+    ]
+  }
+}

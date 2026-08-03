@@ -323,3 +323,20 @@ body.ad-layout-enabled .ad-slot{display:grid}
     max-width:310px
   }
 }
+
+/* Scalable archive navigation */
+.carousel-footer{max-width:calc(100% - 48px);white-space:nowrap}
+.carousel-dots{min-width:86px;justify-content:center}
+.load-more-stories{display:block;min-width:220px;margin:38px auto 0;padding:15px 24px;border:1px solid #bdb5a7;background:transparent;color:var(--ink);font:700 10px/1.2 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:.2s}
+.load-more-stories:hover,.load-more-stories:focus-visible{border-color:var(--rust);background:var(--rust);color:#fff}
+.load-more-stories[hidden]{display:none}
+.story-load-error{grid-column:1/-1;padding:80px 0}
+.story-load-error h1{font:500 44px/1.15 Georgia,"Noto Serif SC",serif}
+.story-load-error p{color:#737771}
+.story-load-error a{display:inline-block;margin-top:20px;padding-bottom:4px;border-bottom:1px solid var(--rust);color:var(--rust);font-weight:700}
+@media(max-width:700px){
+  .carousel-footer{width:calc(100% - 36px);max-width:none;justify-content:center;gap:10px}
+  .load-more-stories{width:100%;margin-top:26px}
+  .story-load-error{padding:55px 0}
+  .story-load-error h1{font-size:34px}
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "the-last-watchman",
+  "fileNo": "A-002",
+  "cover": "assets/covers/A-002-the-last-watchman.webp",
+  "published": "2026-07-20",
+  "modified": "2026-07-22",
+  "isNew": false,
+  "share": {
+    "title": {
+      "en": "They Mocked the Old Man in the Rain—Then They Saw His Medal",
+      "zh": "他们在雨中嘲弄老人，直到看见他手里的勋章"
+    },
+    "description": {
+      "en": "A confused old man became someone’s street entertainment. The medal in his hand told a story no one expected.",
+      "zh": "一位神志不清的老人被当成街头笑料，而他手里的勋章揭开了一段无人预料的往事。"
+    }
+  },
+  "title": {
+    "en": "The Last Watchman",
+    "zh": "最后的守夜人"
+  },
+  "category": {
+    "en": "Justice & Reckoning",
+    "zh": "正义审判"
+  },
+  "summary": {
+    "en": "A confused old man in a wheelchair is harassed for entertainment, but the medal in his hand carries the weight of a lifetime of public service.",
+    "zh": "一位坐在轮椅上的失智老人遭到街头骚扰，而他手中的勋章承载着一生的公共贡献。"
+  },
+  "warning": {
+    "en": "Fiction. Contains harassment and mistreatment of an older adult.",
+    "zh": "虚构故事。包含对老年人的骚扰与不当对待。"
+  },
+  "tone": "blue",
+  "glyph": "LW",
+  "content": {
+    "en": [
+      "## Chapter One: A Cruel Performance",
+      "No one would have guessed that the retired scientist sitting quietly in a wheelchair had once helped design one of the nation’s most important defense systems.",
+      "I watched a group of young men laugh as they blocked my path and filmed me. My wife was gone, and my only son had died while serving on a national project. On this unfamiliar street, no one knew who I was.",
+      "They moved my wheelchair away from the sidewalk, hid my lunch and mocked my confusion for a livestream. My coat was pulled open, but my hand never released the National Service Medal I carried as a reminder of an earlier life.",
+      "They uploaded the performance for clicks, treating my distress as entertainment.",
+      "They could not understand that the older man they dismissed had once spoken codes capable of placing the nation’s strategic shield on alert. Now I was trapped inside a confused body, trying to hold on to the memory of that life.",
+      "## Chapter Two: The Price of Crossing the Line",
+      "On Tuesday afternoon, their leader took my last hamburger and ordered the others to remove the old coat that still carried a classified identification plate.",
+      "A new neighbor, Mrs. Mary, saw everything. She called the police. “Please, some young men are harassing an older man. He seems confused and needs help. You have to come now.”",
+      "The first officers treated the incident as routine. Then an experienced sergeant pulled open my torn coat and saw the code engraved on the identity plate. One search of that number could place the entire federal security service on its highest alert.",
+      "## Chapter Three: The Reckoning",
+      "The sergeant’s face went white. He could barely speak as he called his superiors.",
+      "Less than ten minutes later, several official vehicles arrived and the officers secured the block.",
+      "The young men were still showing off their recordings when officers separated them from me. Then they watched a senior official stand before the dazed old man in the wheelchair and deliver a formal salute.",
+      "The commanding officer knelt beside me, straightened my collar and faced the group. “The man you humiliated devoted his life to public service. The freedom you enjoy depends on people whose names you may never know.”",
+      "## Chapter Four: The Last Dignity",
+      "The group was taken away for questioning, and the case was referred to the appropriate court. Their future would be decided through due process.",
+      "I was quietly returned to a secure medical center. Still lost inside fragments of memory, I pointed at the stars and told a guard, “We must calculate the angle correctly, or the Mars rover will miss its landing.”",
+      "Behind me, the general straightened his back and saluted once more.",
+      "Some lights do not fade with time. Those who stamp on the final ember may discover that the darkness remembers exactly who they are.",
+      "— End —"
+    ],
+    "zh": [
+      "## 第一章：残酷的表演",
+      "谁能想到，安静坐在轮椅上的退休科学家，曾参与设计国家重要的防御系统。",
+      "我看着几个年轻人挡住去路，举着手机取笑我。老伴已经离开，唯一的儿子也在国家项目中因公去世。在这条陌生街道上，没人知道我是谁。",
+      "他们把我的轮椅推离人行道，藏起午餐，还把我的困惑当作直播笑料。外套被拉开时，我仍紧握着那枚国家服务勋章，努力记住自己曾经的人生。",
+      "他们把这场表演发到社交媒体上博取点击，把一个老人的不安当成娱乐。",
+      "他们不会理解，被轻视的老人曾用一个代号让国家战略防线进入戒备。如今我被困在混乱的记忆里，只想守住过去留下的一点尊严。",
+      "## 第二章：越界的代价",
+      "周二下午，领头的年轻人拿走我仅剩的汉堡，又招呼同伴取下那件缝着绝密铭牌的旧外套。",
+      "新搬来的邻居玛丽太太看见了一切。她拨通报警电话：“那几个年轻人在骚扰一位老人。他看起来有些困惑，需要帮助。请你们马上过来。”",
+      "警察起初没有当回事，直到一名经验丰富的警长扯开旧外套，看见内侧刻着高密级代号的身份铭牌。那个编码一经查询，足以让整个联邦调查系统进入最高戒备。",
+      "## 第三章：迟来的制止",
+      "警长脸色惨白，立刻向上级紧急汇报。",
+      "不到十分钟，几辆公务车辆赶到，执法人员迅速控制现场。",
+      "几个年轻人还在展示偷拍视频，就被警员与我分开。他们看着一位只在新闻里出现过的高级官员走到轮椅前，郑重敬礼。",
+      "带队官员蹲在我身旁，替我理好衣领，再对年轻人说：“这位老人把一生献给了公共事业。你们享受的自由，来自许多从未留下姓名的人。”",
+      "## 第四章：最后的尊严",
+      "几名年轻人被带走接受调查，案件将依法交给法院处理。",
+      "我被秘密接回军事禁区内的特级疗养院，依旧糊涂地指着窗外星空对守卫说：“角度要算准，不然火星车落不下去。”",
+      "将军站在我身后，再次挺直脊梁向我敬礼。",
+      "世上总有一些光，不会因岁月流逝而暗淡。尊重他人，也是在守护我们共同生活的世界。",
+      "—— 全文完 ——"
+    ]
+  }
+}
