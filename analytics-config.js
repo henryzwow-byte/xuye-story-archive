@@ -16,16 +16,15 @@ window.STORY_ANALYTICS_CONFIG = {
 /*
  * Public site and advertising settings.
  *
- * Keep adLayoutEnabled false during editorial and advertising review. Turn it
- * on only when real inventory is ready; empty house placements should not be
- * shown to first-time readers.
+ * adLayoutEnabled controls the clearly labelled house placeholders only.
+ * It does not contact an advertising provider or set advertising cookies.
  *
  * For Google AdSense, add the ca-pub ID and the numeric slot ID for each
  * placement after approval. A missing slot remains a calm, clearly labelled
  * house placement instead of leaving a broken blank area.
  */
 window.STORY_SITE_CONFIG = {
-  adLayoutEnabled: false,
+  adLayoutEnabled: true,
   adsEnabled: false,
   adProvider: "adsense",
   publisherId: "",
