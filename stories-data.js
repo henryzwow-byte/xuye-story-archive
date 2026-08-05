@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a101";
+window.STORY_ARCHIVE_VERSION = "20260805-a102";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4454,7 +4454,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-101-the-crimson-blazer.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Crimson Blazer Walked In—and the Board Finally Saw",
@@ -4490,6 +4490,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1547,
       "zh": 2927
+    }
+  },
+  {
+    "slug": "the-inheritance-of-betrayal",
+    "fileNo": "A-102",
+    "cover": "assets/covers/A-102-the-inheritance-of-betrayal.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Exposed the Affair—Then Her Father's Ledger Spoke",
+        "zh": "她揭开婚外情后，父亲的账本终于开口"
+      },
+      "description": {
+        "en": "Clara spent years collecting proof. When the Blackwood family finally fractures, she must keep her father from turning justice into revenge.",
+        "zh": "克拉拉花了多年搜集证据。布莱克伍德家族终于崩裂时，她还必须阻止父亲把正义变成复仇。"
+      }
+    },
+    "title": {
+      "en": "The Inheritance of Betrayal",
+      "zh": "背叛的遗产"
+    },
+    "category": {
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
+    },
+    "summary": {
+      "en": "A daughter uncovers an affair, altered medication, and a hidden financial scheme inside her father's estate—but saving him means choosing evidence over revenge.",
+      "zh": "一名女儿在父亲的庄园里发现婚外情、被篡改的药物与隐秘资金计划；但要真正救下父亲，她必须选择证据，而不是复仇。"
+    },
+    "warning": {
+      "en": "Fiction. Contains adultery, medication tampering, coercive family conflict, financial fraud, illness, and criminal proceedings.",
+      "zh": "虚构作品。包含婚外情、药物篡改、胁迫性家庭冲突、金融欺诈、疾病及刑事诉讼等情节。"
+    },
+    "tone": "emerald",
+    "glyph": "IB",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1371,
+      "zh": 2480
     }
   }
 ];
