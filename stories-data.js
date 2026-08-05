@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a096";
+window.STORY_ARCHIVE_VERSION = "20260805-a097";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4234,7 +4234,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-096-the-hidden-golden-key.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Golden Key Exposed the Lie Behind a Family Empire",
@@ -4270,6 +4270,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1433,
       "zh": 2725
+    }
+  },
+  {
+    "slug": "fired-before-the-ballroom",
+    "fileNo": "A-097",
+    "cover": "assets/covers/A-097-fired-before-the-ballroom.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Maid's Photograph Reopened the Sterling Family Secret",
+        "zh": "女佣的一张照片重新揭开斯特林家族的秘密"
+      },
+      "description": {
+        "en": "A public firing, a faded photograph, and a lawful DNA test force a powerful family to confront the daughter erased from its history.",
+        "zh": "一次公开解雇、一张褪色照片和一份合法的DNA鉴定，迫使一个权势家族面对那名被从家史中抹去的女儿。"
+      }
+    },
+    "title": {
+      "en": "Fired Before the Ballroom",
+      "zh": "舞厅前被解雇"
+    },
+    "category": {
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
+    },
+    "summary": {
+      "en": "A maid dismissed before Connecticut's elite hands Robert Sterling a photograph that reopens the mystery of the daughter he believed dead.",
+      "zh": "一名在康涅狄格名流面前被解雇的女佣，把一张旧照片交给罗伯特·斯特林，重新揭开他以为早已夭折的女儿之谜。"
+    },
+    "warning": {
+      "en": "Fiction. Contains public humiliation, alleged child abduction, financial fraud, family separation, arrest, and emotional distress.",
+      "zh": "虚构作品。包含公开羞辱、涉嫌拐走儿童、金融欺诈、家庭分离、逮捕及情绪困扰等情节。"
+    },
+    "tone": "blue",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1563,
+      "zh": 2934
     }
   }
 ];
