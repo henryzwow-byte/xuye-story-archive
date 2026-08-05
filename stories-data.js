@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a095";
+window.STORY_ARCHIVE_VERSION = "20260805-a096";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4190,7 +4190,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-095-the-architecture-of-reality.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "They Mocked the Widow—She Owned Their Entire Foundation",
@@ -4226,6 +4226,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1287,
       "zh": 2393
+    }
+  },
+  {
+    "slug": "the-hidden-golden-key",
+    "fileNo": "A-096",
+    "cover": "assets/covers/A-096-the-hidden-golden-key.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Golden Key Exposed the Lie Behind a Family Empire",
+        "zh": "一把金钥匙揭开家族帝国背后的谎言"
+      },
+      "description": {
+        "en": "An injured founder, a stolen key, and a sealed ledger lead Julian into a conspiracy reaching the highest floor of Sterling Industries.",
+        "zh": "受伤的创始人、被盗的钥匙与封存的账本，把朱利安引向一场直达斯特林工业最高层的阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Hidden Golden Key",
+      "zh": "隐秘的金钥匙"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "When a golden key falls beside an injured tycoon, his estranged protégé uncovers a pension-fund conspiracy inside the family empire.",
+      "zh": "一把金钥匙落在受伤大亨身旁，他疏远多年的门生由此揭开家族企业内部侵吞养老金的阴谋。"
+    },
+    "warning": {
+      "en": "Fiction. Contains assault, a medical emergency, corruption, threatened gun violence, arrest, and emotional distress.",
+      "zh": "虚构故事。包含袭击、医疗紧急情况、腐败、枪支威胁、逮捕和情绪困扰。"
+    },
+    "tone": "gold",
+    "glyph": "GK",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1433,
+      "zh": 2725
     }
   }
 ];
