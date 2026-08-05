@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a087";
+window.STORY_ARCHIVE_VERSION = "20260805-a088";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -3838,7 +3838,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-087-the-stolen-locket.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Stolen Locket Exposed a Billionaire Family’s Secret",
@@ -3874,6 +3874,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1981,
       "zh": 3847
+    }
+  },
+  {
+    "slug": "the-return-of-the-forgotten-raven",
+    "fileNo": "A-088",
+    "cover": "assets/covers/A-088-the-return-of-the-forgotten-raven.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Wooden Raven Brought a Lost Founder Home",
+        "zh": "一只木刻渡鸦，让失踪的创始人回家"
+      },
+      "description": {
+        "en": "A frightened child arrives with a carved raven, sending twenty riders into the badlands to rescue the founder they lost twenty years ago.",
+        "zh": "一个惊恐的孩子带来木刻渡鸦，二十名骑手因此闯入荒原，营救失踪二十年的创始人。"
+      }
+    },
+    "title": {
+      "en": "The Return of the Forgotten Raven",
+      "zh": "被遗忘的渡鸦归来"
+    },
+    "category": {
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
+    },
+    "summary": {
+      "en": "A child carrying a carved raven leads an aging motorcycle charter into the badlands, where its missing founder is being held by an old criminal enemy.",
+      "zh": "一个带着木刻渡鸦的孩子把一群年长骑手引向荒原，他们失踪二十年的创始人正被昔日的犯罪仇敌囚禁。"
+    },
+    "warning": {
+      "en": "Fiction. Contains abduction, organized crime, fire, armed confrontations, physical violence, injuries, gunfire, and death.",
+      "zh": "虚构故事。包含绑架、组织犯罪、火灾、武装对峙、肢体暴力、受伤、枪击与死亡等内容。"
+    },
+    "tone": "slate",
+    "glyph": "RV",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 2058,
+      "zh": 3832
     }
   }
 ];
