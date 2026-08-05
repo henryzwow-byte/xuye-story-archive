@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a088";
+window.STORY_ARCHIVE_VERSION = "20260805-a089";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -3882,7 +3882,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-088-the-return-of-the-forgotten-raven.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Wooden Raven Brought a Lost Founder Home",
@@ -3918,6 +3918,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2058,
       "zh": 3832
+    }
+  },
+  {
+    "slug": "the-sovereigns-verdict",
+    "fileNo": "A-089",
+    "cover": "assets/covers/A-089-the-sovereigns-verdict.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Bought the Hotel—and Fired Its Arrogant Gatekeeper",
+        "zh": "她买下酒店，也解雇了傲慢的守门人"
+      },
+      "description": {
+        "en": "He tried to throw a plainly dressed visitor out of Manhattan’s grandest hotel. Sixty seconds later, she owned the building—and his contract.",
+        "zh": "他想把衣着普通的访客赶出曼哈顿最奢华的酒店。六十秒后，她拥有了整栋大楼，也掌握了他的合同。"
+      }
+    },
+    "title": {
+      "en": "The Sovereign’s Verdict: The Fall of the Arrogant Gatekeeper",
+      "zh": "主权裁决：傲慢守门人的倒台"
+    },
+    "category": {
+      "en": "Justice & Reckoning",
+      "zh": "正义与清算"
+    },
+    "summary": {
+      "en": "A hotel manager judges a plainly dressed visitor by her clothes, unaware that she is moments away from becoming the new owner of his gilded domain.",
+      "zh": "一名酒店经理仅凭衣着轻视来访的年轻女子，却不知道她即将成为这座奢华酒店的新主人。"
+    },
+    "warning": {
+      "en": "Fiction. Contains class prejudice, verbal humiliation, intimidation, physical restraint, and a brief non-graphic assault.",
+      "zh": "虚构故事。包含阶层偏见、言语羞辱、威吓、强制拉扯及短暂的非血腥肢体冲突。"
+    },
+    "tone": "slate",
+    "glyph": "SV",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1364,
+      "zh": 2558
     }
   }
 ];
