@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a094";
+window.STORY_ARCHIVE_VERSION = "20260805-a095";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4146,7 +4146,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-094-the-secret-recorder-of-the-aranda-estate.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Maid's Recorder Exposed the Aranda Estate",
@@ -4182,6 +4182,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1480,
       "zh": 2809
+    }
+  },
+  {
+    "slug": "the-architecture-of-reality",
+    "fileNo": "A-095",
+    "cover": "assets/covers/A-095-the-architecture-of-reality.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "They Mocked the Widow—She Owned Their Entire Foundation",
+        "zh": "他们嘲笑这位寡妇，却不知一切根基都属于她"
+      },
+      "description": {
+        "en": "A quiet widow finally reveals that her daughter-in-law's career, office tower, and home all rest on assets she controls.",
+        "zh": "一位沉默多年的寡妇终于揭开真相：儿媳的事业、办公大楼和住宅，都建立在她掌控的资产之上。"
+      }
+    },
+    "title": {
+      "en": "The Architecture of Reality",
+      "zh": "现实的建筑师"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "After years of being dismissed as a dependent widow, Hazel reveals that the firm, tower, and home supporting her daughter-in-law's life all rest on her assets.",
+      "zh": "多年被当作需要照顾的寡妇后，海泽尔揭示：支撑儿媳生活的律所、大楼和住宅，全都建立在她掌控的资产之上。"
+    },
+    "warning": {
+      "en": "Fiction. Contains class prejudice, family humiliation, financial pressure, employment consequences, and emotional distress.",
+      "zh": "虚构故事。包含阶层偏见、家庭羞辱、财务压力、职场后果和情绪困扰。"
+    },
+    "tone": "wine",
+    "glyph": "AR",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1287,
+      "zh": 2393
     }
   }
 ];
