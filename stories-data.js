@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a097";
+window.STORY_ARCHIVE_VERSION = "20260805-a098";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4278,7 +4278,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-097-fired-before-the-ballroom.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Maid's Photograph Reopened the Sterling Family Secret",
@@ -4314,6 +4314,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1563,
       "zh": 2934
+    }
+  },
+  {
+    "slug": "scars-beneath-the-chandelier",
+    "fileNo": "A-098",
+    "cover": "assets/covers/A-098-scars-beneath-the-chandelier.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Mocked the Hands That Had Saved a Life",
+        "zh": "她嘲笑的双手，曾经救过一条命"
+      },
+      "description": {
+        "en": "Beneath a Manhattan chandelier, one cruel remark reveals a rescue, a survivor's quiet courage, and the cost of mistaking status for character.",
+        "zh": "曼哈顿的水晶灯下，一句刻薄话揭开了一场救援、一名幸存者沉静的勇气，以及把地位误当品格的代价。"
+      }
+    },
+    "title": {
+      "en": "Scars Beneath the Chandelier",
+      "zh": "水晶灯下的伤痕"
+    },
+    "category": {
+      "en": "Recovery & Dignity",
+      "zh": "复原与尊严"
+    },
+    "summary": {
+      "en": "A socialite mocks a server's scarred hands, unaware that those same hands once pulled a powerful executive from a burning car.",
+      "zh": "一名社交名媛嘲笑服务员满是伤痕的双手，却不知道正是这双手曾把一位企业家从燃烧的汽车中救出。"
+    },
+    "warning": {
+      "en": "Fiction. Contains public humiliation, burn injuries, a past vehicle fire, workplace mistreatment, and emotional distress.",
+      "zh": "虚构作品。包含公开羞辱、烧伤、过往车辆起火、职场不当对待及情绪困扰等情节。"
+    },
+    "tone": "burgundy",
+    "glyph": "MV",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1646,
+      "zh": 2921
     }
   }
 ];
