@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a090";
+window.STORY_ARCHIVE_VERSION = "20260805-a091";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -3970,7 +3970,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-090-the-sovereign-of-maison-de-lelite.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Mocked a Plain Stranger—Then the Manager Bowed",
@@ -4006,6 +4006,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1951,
       "zh": 3656
+    }
+  },
+  {
+    "slug": "the-broken-sketchbook-and-the-million-dollar-gown",
+    "fileNo": "A-091",
+    "cover": "assets/covers/A-091-the-broken-sketchbook-and-the-million-dollar-gown.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Rebuilt a Million-Dollar Gown in Ninety Seconds",
+        "zh": "她用九十秒重塑了百万美元礼服"
+      },
+      "description": {
+        "en": "A cruel executive tore up Maya’s sketchbook. Minutes later, a ruined couture gown gave the quiet cleaner one chance to show the world her genius.",
+        "zh": "残酷的高管撕毁了玛雅的速写本。几分钟后，一件损毁的高级礼服给了这位沉默清洁工向世界证明天赋的机会。"
+      }
+    },
+    "title": {
+      "en": "The Broken Sketchbook and the Million-Dollar Gown",
+      "zh": "破碎的速写本与百万美元礼服"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "After a fashion executive destroys a cleaner’s secret portfolio, a ruined million-dollar gown gives the quiet young artist ninety seconds to reveal her extraordinary gift.",
+      "zh": "时尚高管撕毁清洁工女孩秘密创作的作品集后，一件损毁的百万美元礼服给了这位沉默的年轻艺术家九十秒证明天赋的机会。"
+    },
+    "warning": {
+      "en": "Fiction. Contains workplace bullying, class prejudice, verbal humiliation, destruction of personal property, and emotional distress.",
+      "zh": "虚构故事。包含职场霸凌、阶层偏见、言语羞辱、毁坏个人物品及情绪困扰。"
+    },
+    "tone": "indigo",
+    "glyph": "BS",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1650,
+      "zh": 3017
     }
   }
 ];
