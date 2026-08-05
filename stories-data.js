@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a089";
+window.STORY_ARCHIVE_VERSION = "20260805-a090";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -3926,7 +3926,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-089-the-sovereigns-verdict.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Bought the Hotel—and Fired Its Arrogant Gatekeeper",
@@ -3962,6 +3962,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1364,
       "zh": 2558
+    }
+  },
+  {
+    "slug": "the-sovereign-of-maison-de-lelite",
+    "fileNo": "A-090",
+    "cover": "assets/covers/A-090-the-sovereign-of-maison-de-lelite.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Mocked a Plain Stranger—Then the Manager Bowed",
+        "zh": "她嘲笑衣着普通的陌生人，经理却向对方鞠躬"
+      },
+      "description": {
+        "en": "Chloe mocked a quiet shopper in Fifth Avenue’s most exclusive boutique. One bow from the manager revealed who truly ruled the room.",
+        "zh": "克洛伊在第五大道最奢华的精品店里嘲笑一名安静的顾客。经理的一次鞠躬，揭开了谁才是真正的主人。"
+      }
+    },
+    "title": {
+      "en": "The Sovereign of Maison de L’Élite: The Fall of Arrogance and the Reign of True Grace",
+      "zh": "精英之家主宰：傲慢的落幕与真正优雅的归来"
+    },
+    "category": {
+      "en": "Justice & Reckoning",
+      "zh": "正义与清算"
+    },
+    "summary": {
+      "en": "A socialite humiliates a quietly dressed stranger inside Fifth Avenue’s most exclusive boutique—then discovers she has insulted the woman who owns the global empire behind it.",
+      "zh": "一名名媛在第五大道最奢华的精品店里羞辱了一位衣着低调的陌生女子，却发现对方正是这座全球奢侈品帝国的掌舵者。"
+    },
+    "warning": {
+      "en": "Fiction. Contains class prejudice, verbal humiliation, financial retaliation, public shaming, and emotional distress.",
+      "zh": "虚构故事。包含阶层偏见、言语羞辱、商业报复、公开难堪及情绪困扰。"
+    },
+    "tone": "clay",
+    "glyph": "ME",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1951,
+      "zh": 3656
     }
   }
 ];
