@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a091";
+window.STORY_ARCHIVE_VERSION = "20260805-a092";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4014,7 +4014,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-091-the-broken-sketchbook-and-the-million-dollar-gown.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Rebuilt a Million-Dollar Gown in Ninety Seconds",
@@ -4050,6 +4050,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1650,
       "zh": 3017
+    }
+  },
+  {
+    "slug": "the-ceo-in-the-mailroom",
+    "fileNo": "A-092",
+    "cover": "assets/covers/A-092-the-ceo-in-the-mailroom.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "They Framed the Intern—Then the Board Called Her Chair",
+        "zh": "他们陷害实习生，董事会却称她为主席"
+      },
+      "description": {
+        "en": "Julian tried to frame a quiet mailroom intern for corporate theft. Then the boardroom phone rang—and exposed who really owned the company.",
+        "zh": "朱利安试图诬陷沉默的邮件室实习生窃取公司机密。随后董事会的电话响起，真正的公司主人终于现身。"
+      }
+    },
+    "title": {
+      "en": "The CEO in the Mailroom",
+      "zh": "邮件室里的首席执行官"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "A ruthless executive tries to frame a quiet mailroom intern, unaware that she owns the company and has already uncovered his hidden financial trail.",
+      "zh": "一名傲慢高管试图陷害沉默的邮件室实习生，却不知道她才是公司的真正主人，也早已掌握了他隐秘的资金轨迹。"
+    },
+    "warning": {
+      "en": "Fiction. Contains workplace bullying, class prejudice, false accusations, financial misconduct, and references to arrest and prosecution.",
+      "zh": "虚构故事。包含职场霸凌、阶层偏见、诬告、财务不当行为，以及对逮捕和司法程序的描述。"
+    },
+    "tone": "midnight",
+    "glyph": "CM",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1460,
+      "zh": 2836
     }
   }
 ];
