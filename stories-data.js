@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a092";
+window.STORY_ARCHIVE_VERSION = "20260805-a093";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4058,7 +4058,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-092-the-ceo-in-the-mailroom.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "They Framed the Intern—Then the Board Called Her Chair",
@@ -4094,6 +4094,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1460,
       "zh": 2836
+    }
+  },
+  {
+    "slug": "the-silver-bracelet-and-the-hidden-photograph",
+    "fileNo": "A-093",
+    "cover": "assets/covers/A-093-the-silver-bracelet-and-the-hidden-photograph.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Maid's Bracelet Exposed the Harrington Family Secret",
+        "zh": "女佣的银手镯揭开哈灵顿家族的秘密"
+      },
+      "description": {
+        "en": "When a maid's silver bracelet stops a lavish gala, a hidden photograph forces the Harrington family to confront a disappearance buried for twenty-two years.",
+        "zh": "一只银手镯让奢华晚宴骤然停摆，一张隐藏的照片迫使哈灵顿家族面对一桩被掩埋二十二年的失踪案。"
+      }
+    },
+    "title": {
+      "en": "The Silver Bracelet and the Hidden Photograph",
+      "zh": "银手镯与隐藏的照片"
+    },
+    "category": {
+      "en": "Family & Inheritance",
+      "zh": "家族与继承"
+    },
+    "summary": {
+      "en": "A maid's heirloom bracelet and a photograph hidden for twenty-two years force the Harrington family to confront a disappearance, a stolen identity, and the true meaning of legacy.",
+      "zh": "一名女佣佩戴的传家银手镯与一张被隐藏二十二年的照片，迫使哈灵顿家族面对一桩失踪案、被夺走的身份，以及传承的真正含义。"
+    },
+    "warning": {
+      "en": "Fiction. Contains class prejudice, workplace mistreatment, a non-graphic physical assault, family deception, references to abduction, grief, and an inheritance dispute.",
+      "zh": "虚构故事。包含阶层偏见、职场欺凌、非血腥的肢体冲突、家族欺骗，以及对绑架、丧亲和继承纠纷的描述。"
+    },
+    "tone": "gold",
+    "glyph": "SB",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1857,
+      "zh": 3337
     }
   }
 ];
