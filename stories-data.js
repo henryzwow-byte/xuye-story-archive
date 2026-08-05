@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a093";
+window.STORY_ARCHIVE_VERSION = "20260805-a094";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4102,7 +4102,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-093-the-silver-bracelet-and-the-hidden-photograph.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Maid's Bracelet Exposed the Harrington Family Secret",
@@ -4138,6 +4138,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1857,
       "zh": 3337
+    }
+  },
+  {
+    "slug": "the-secret-recorder-of-the-aranda-estate",
+    "fileNo": "A-094",
+    "cover": "assets/covers/A-094-the-secret-recorder-of-the-aranda-estate.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Maid's Recorder Exposed the Aranda Estate",
+        "zh": "女佣的录音机揭开阿兰达庄园的秘密"
+      },
+      "description": {
+        "en": "When a housekeeper records the truth behind a celebrated family's perfect image, one gala becomes the beginning of an elder-abuse investigation.",
+        "zh": "当女佣录下名门完美形象背后的真相，一场慈善晚宴便成为老年人虐待调查的起点。"
+      }
+    },
+    "title": {
+      "en": "The Secret Recorder of the Aranda Estate",
+      "zh": "阿兰达庄园的秘密录音机"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "A young housekeeper discovers that an admired philanthropist is isolating an elderly matriarch. Her careful recordings turn a silent household into an evidence trail no one can ignore.",
+      "zh": "一名年轻女佣发现，备受赞誉的慈善家正在隔离一位年迈的家族女主人。她谨慎保存的录音，让沉默的宅邸留下了任何人都无法忽视的证据链。"
+    },
+    "warning": {
+      "en": "Fiction. Contains elder neglect, coercive control, emotional abuse, food and medication restriction, and a non-graphic medical emergency.",
+      "zh": "虚构故事。包含老年人照护疏忽、强制控制、情感虐待、限制食物与药物，以及非血腥的医疗紧急情况。"
+    },
+    "tone": "violet",
+    "glyph": "SR",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1480,
+      "zh": 2809
     }
   }
 ];
