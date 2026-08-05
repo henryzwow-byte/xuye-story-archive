@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a086";
+window.STORY_ARCHIVE_VERSION = "20260805-a087";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -3794,7 +3794,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-086-the-billionaires-returned-bride.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "His Dead Wife Returned in a Housekeeper’s Uniform",
@@ -3830,6 +3830,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1912,
       "zh": 3576
+    }
+  },
+  {
+    "slug": "the-stolen-locket",
+    "fileNo": "A-087",
+    "cover": "assets/covers/A-087-the-stolen-locket.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Stolen Locket Exposed a Billionaire Family’s Secret",
+        "zh": "一枚失窃的吊坠，揭开亿万富翁家族的秘密"
+      },
+      "description": {
+        "en": "At a Manhattan gala, a catering worker drops a locket bearing the heiress’s name—and exposes twenty-four years of stolen identity and family lies.",
+        "zh": "曼哈顿慈善舞会上，一名餐饮服务员掉落的吊坠刻着千金小姐的名字，也揭开了二十四年的身份错置与家族谎言。"
+      }
+    },
+    "title": {
+      "en": "The Stolen Locket: A Ballroom Secret That Unraveled a Billionaire Family’s Legacy",
+      "zh": "失窃的吊坠：舞会秘密撕开亿万富翁家族的传承谎言"
+    },
+    "category": {
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
+    },
+    "summary": {
+      "en": "At a Manhattan gala, a catering worker drops a locket bearing the heiress’s name—and exposes twenty-four years of stolen identity and family lies.",
+      "zh": "曼哈顿慈善舞会上，一名餐饮服务员掉落的吊坠刻着千金小姐的名字，也揭开了二十四年的身份错置与家族谎言。"
+    },
+    "warning": {
+      "en": "Fiction. Contains family deception, infant abandonment, foster-care trauma, corruption, financial misconduct, and emotional distress.",
+      "zh": "虚构故事。包含家族欺骗、婴儿遗弃、寄养创伤、腐败、经济不当行为与情绪困扰等内容。"
+    },
+    "tone": "emerald",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1981,
+      "zh": 3847
     }
   }
 ];
