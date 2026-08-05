@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a099";
+window.STORY_ARCHIVE_VERSION = "20260805-a100";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4366,7 +4366,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-099-the-house-julian-could-not-liquidate.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "He Tried to Evict His Mother Before the Board Called",
@@ -4402,6 +4402,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1740,
       "zh": 3083
+    }
+  },
+  {
+    "slug": "the-bloodline-betrayal",
+    "fileNo": "A-100",
+    "cover": "assets/covers/A-100-the-bloodline-betrayal.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "He Fired the Maid—Then the DNA Report Exposed His Family",
+        "zh": "他刚解雇女管家，DNA报告就揭开了家族秘密"
+      },
+      "description": {
+        "en": "A Manhattan heir faces a hidden birth record, a merger designed to frame him, and the quiet woman who kept the only evidence that could save them both.",
+        "zh": "一名曼哈顿继承人面对被隐藏的出生记录、陷害他的并购计划，以及那个保存着唯一证据、能够拯救他们二人的沉默女人。"
+      }
+    },
+    "title": {
+      "en": "The Bloodline Betrayal",
+      "zh": "血脉背叛"
+    },
+    "category": {
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
+    },
+    "summary": {
+      "en": "A billionaire heir learns that the housekeeper he dismissed is his biological mother—and that the family empire has prepared to sacrifice him for its crimes.",
+      "zh": "一名亿万富豪继承人发现，被他轻视多年的管家竟是亲生母亲，而家族帝国早已准备让他替所有罪行承担后果。"
+    },
+    "warning": {
+      "en": "Fiction. Contains family separation, coercion, corporate fraud, identity concealment, emotional abuse, and legal proceedings.",
+      "zh": "虚构作品。包含亲子分离、胁迫、企业欺诈、身份隐瞒、情感伤害及法律程序等情节。"
+    },
+    "tone": "burgundy",
+    "glyph": "BB",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1908,
+      "zh": 3442
     }
   }
 ];
