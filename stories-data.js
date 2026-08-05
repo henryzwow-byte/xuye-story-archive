@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a085";
+window.STORY_ARCHIVE_VERSION = "20260805-a086";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -3750,7 +3750,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-085-the-scarred-heiress.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "The Heiress They Buried Walked Into Her Sister’s Wedding",
@@ -3786,6 +3786,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1905,
       "zh": 3804
+    }
+  },
+  {
+    "slug": "the-billionaires-returned-bride",
+    "fileNo": "A-086",
+    "cover": "assets/covers/A-086-the-billionaires-returned-bride.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "His Dead Wife Returned in a Housekeeper’s Uniform",
+        "zh": "被宣布死亡的妻子，穿着管家制服回来了"
+      },
+      "description": {
+        "en": "Clara was presumed dead for five years. Her return exposes a sabotaged car, a stolen fortune, and the woman threatening her daughter.",
+        "zh": "克拉拉被认定死亡五年。她的归来揭开了被破坏的汽车、失窃的巨款，以及威胁她女儿的女人。"
+      }
+    },
+    "title": {
+      "en": "The Billionaire’s Returned Bride: The Fall of the False Queen",
+      "zh": "亿万富翁归来的新娘：冒牌女王的陨落"
+    },
+    "category": {
+      "en": "Secrets & Deception",
+      "zh": "秘密与骗局"
+    },
+    "summary": {
+      "en": "Five years after a crash erased her identity, Clara returns to the Sterling estate in a housekeeper’s uniform—and exposes the woman who stole her family.",
+      "zh": "车祸令克拉拉失去身份五年后，她穿着管家制服回到斯特林庄园，揭穿那个夺走她家庭与人生的女人。"
+    },
+    "warning": {
+      "en": "Fiction. Contains attempted murder, child endangerment, a car crash, amnesia, threats, financial crimes, arrest, and emotional trauma.",
+      "zh": "虚构故事。包含谋杀未遂、儿童遇险、车祸、失忆、威胁、经济犯罪、逮捕与情感创伤等内容。"
+    },
+    "tone": "rust",
+    "glyph": "RB",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1912,
+      "zh": 3576
     }
   }
 ];
