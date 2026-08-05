@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a098";
+window.STORY_ARCHIVE_VERSION = "20260805-a099";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4322,7 +4322,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-098-scars-beneath-the-chandelier.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Mocked the Hands That Had Saved a Life",
@@ -4358,6 +4358,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1646,
       "zh": 2921
+    }
+  },
+  {
+    "slug": "the-house-julian-could-not-liquidate",
+    "fileNo": "A-099",
+    "cover": "assets/covers/A-099-the-house-julian-could-not-liquidate.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "He Tried to Evict His Mother Before the Board Called",
+        "zh": "他正逼母亲搬走，董事会的电话却响了"
+      },
+      "description": {
+        "en": "Inside a Hudson Valley estate, a son's ultimatum exposes missing funds, a protected deed, and the sister who refused to let power erase their mother.",
+        "zh": "在哈德逊河谷的一座庄园里，儿子的最后通牒揭开了失踪资金、受保护的房契，以及拒绝让权力抹去母亲的妹妹。"
+      }
+    },
+    "title": {
+      "en": "The House Julian Could Not Liquidate",
+      "zh": "无法被清算的家"
+    },
+    "category": {
+      "en": "Family & Inheritance",
+      "zh": "家庭与继承"
+    },
+    "summary": {
+      "en": "Julian tries to force his ailing mother from the family estate, unaware that his sister and the company board have already begun tracing the money he moved in secret.",
+      "zh": "朱利安企图逼迫体弱的母亲离开家族庄园，却不知道妹妹和公司董事会早已开始追查他暗中转移的资金。"
+    },
+    "warning": {
+      "en": "Fiction. Contains elder coercion, financial misconduct, family conflict, workplace intimidation, and legal proceedings.",
+      "zh": "虚构作品。包含胁迫老人、财务不当行为、家庭冲突、职场威胁及法律程序等情节。"
+    },
+    "tone": "forest",
+    "glyph": "ES",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1740,
+      "zh": 3083
     }
   }
 ];
