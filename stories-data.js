@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a100";
+window.STORY_ARCHIVE_VERSION = "20260805-a101";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4410,7 +4410,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-100-the-bloodline-betrayal.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "He Fired the Maid—Then the DNA Report Exposed His Family",
@@ -4446,6 +4446,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1908,
       "zh": 3442
+    }
+  },
+  {
+    "slug": "the-crimson-blazer",
+    "fileNo": "A-101",
+    "cover": "assets/covers/A-101-the-crimson-blazer.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Crimson Blazer Walked In—and the Board Finally Saw",
+        "zh": "绯红西装走进门时，董事会终于看见了真相"
+      },
+      "description": {
+        "en": "A forged transfer, a hidden ledger, and one preserved camera feed force a corporate heir to choose between her inheritance and the public truth.",
+        "zh": "伪造的股权文件、隐藏的账本和一段被保全的监控，让一名企业继承人在遗产与公共真相之间作出选择。"
+      }
+    },
+    "title": {
+      "en": "The Crimson Blazer",
+      "zh": "绯红西装"
+    },
+    "category": {
+      "en": "Corporate & Public Trust",
+      "zh": "企业与公共信任"
+    },
+    "summary": {
+      "en": "An heiress trapped by forged transfer papers finds one surviving clue to her father's investigation—and a federal prosecutor determined to preserve the truth before the company erases it.",
+      "zh": "一名被伪造股权文件困住的继承人，发现了父亲调查留下的最后线索；一位联邦检察官必须在公司抹去真相前，守住完整证据链。"
+    },
+    "warning": {
+      "en": "Fiction. Contains coercion, physical assault, threats, corporate fraud, surveillance, firearms, and legal proceedings.",
+      "zh": "虚构作品。包含胁迫、肢体伤害、威胁、企业欺诈、监控、枪支及法律程序等情节。"
+    },
+    "tone": "burgundy",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1547,
+      "zh": 2927
     }
   }
 ];
