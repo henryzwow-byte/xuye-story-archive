@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a111";
+window.STORY_ARCHIVE_VERSION = "20260806-a112";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4894,7 +4894,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-111-porcelain-shards-of-a-fractured-life.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "The Plate Shattered—Then Her Husband Finally Stood Up",
@@ -4930,6 +4930,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1770,
       "zh": 3198
+    }
+  },
+  {
+    "slug": "sovereign-dawn",
+    "fileNo": "A-112",
+    "cover": "assets/covers/A-112-sovereign-dawn.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "His Mother Crossed the Line—So He Rebuilt the Dynasty",
+        "zh": "母亲越过底线后，他选择重建整个家族"
+      },
+      "description": {
+        "en": "A powerful heir must choose between inherited control and the safety of the family he promised to protect.",
+        "zh": "一位家族继承人必须在继承而来的控制欲与自己承诺守护的家庭之间作出选择。"
+      }
+    },
+    "title": {
+      "en": "The Sovereign Dawn",
+      "zh": "主权黎明"
+    },
+    "category": {
+      "en": "Family & Renewal",
+      "zh": "家庭与重生"
+    },
+    "summary": {
+      "en": "When Harrison finds his pregnant wife mistreated inside his family estate, he rejects a legacy built on intimidation and rebuilds the household around accountability, safety, and mutual respect.",
+      "zh": "当哈里森发现怀孕的妻子在家族庄园里遭到虐待时，他拒绝继续维护一个建立在恐吓之上的家族体系，并以责任、安全与相互尊重重建家庭。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains family conflict, emotional abuse, pregnancy-related distress, and legal proceedings.",
+      "zh": "虚构故事。包含家庭冲突、情感虐待、孕期惊吓与法律程序。"
+    },
+    "tone": "burgundy",
+    "glyph": "SD",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1900,
+      "zh": 3679
     }
   }
 ];
