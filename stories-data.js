@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a102";
+window.STORY_ARCHIVE_VERSION = "20260805-a103";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4498,7 +4498,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-102-the-inheritance-of-betrayal.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Exposed the Affair—Then Her Father's Ledger Spoke",
@@ -4534,6 +4534,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1371,
       "zh": 2480
+    }
+  },
+  {
+    "slug": "the-whisper-of-betrayal",
+    "fileNo": "A-103",
+    "cover": "assets/covers/A-103-the-whisper-of-betrayal.webp",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "He Called Her Unstable—Then the Audit Log Answered",
+        "zh": "他称她神志不清，审计日志却给出了答案"
+      },
+      "description": {
+        "en": "A founder fights through a dangerous delivery, a false diagnosis, and a corporate coup—armed with one hidden audit trail.",
+        "zh": "一位创始人在危急分娩、虚假诊断与公司夺权中求生，而一条被隐藏的审计记录将成为她翻盘的关键。"
+      }
+    },
+    "title": {
+      "en": "The Whisper of Betrayal",
+      "zh": "背叛的低语"
+    },
+    "category": {
+      "en": "Courage & Survival",
+      "zh": "勇气与生存"
+    },
+    "summary": {
+      "en": "During a dangerous delivery, a technology founder discovers that her husband is using a false medical narrative to seize her company. Surviving means preserving evidence, trusting the right people, and letting due process expose the scheme.",
+      "zh": "在一次危急分娩中，一位科技公司创始人发现丈夫正利用虚假的医疗叙事夺取她的公司。她必须保存证据、相信正确的人，并让法律程序揭开这场阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains childbirth complications, coercive control, medical interference, financial fraud, and legal proceedings. No graphic injury is depicted.",
+      "zh": "虚构故事。包含分娩并发症、控制行为、医疗干预、财务欺诈和法律程序；不含血腥伤害描写。"
+    },
+    "tone": "navy",
+    "glyph": "WT",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1687,
+      "zh": 3177
     }
   }
 ];
