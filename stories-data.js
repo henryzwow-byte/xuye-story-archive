@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a105";
+window.STORY_ARCHIVE_VERSION = "20260806-a106";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4630,7 +4630,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-105-the-bride-who-mocked-a-stranger.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Mocked a Stranger at Her Wedding—Then Saw the Ring",
@@ -4666,6 +4666,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1827,
       "zh": 3404
+    }
+  },
+  {
+    "slug": "the-hidden-cameras-verdict",
+    "fileNo": "A-106",
+    "cover": "assets/covers/A-106-the-hidden-cameras-verdict.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Made His Mother Eat on the Floor—Then the Camera Played",
+        "zh": "她逼婆婆在地板上吃饭，直到摄像头开始播放"
+      },
+      "description": {
+        "en": "A son's quiet investigation turns one cruel kitchen scene into evidence of a much larger betrayal hiding behind a perfect suburban home.",
+        "zh": "儿子的一次秘密调查，让厨房里残酷的一幕成为证据，也揭开了完美郊区住宅背后更大的背叛。"
+      }
+    },
+    "title": {
+      "en": "The Hidden Camera's Verdict",
+      "zh": "隐藏摄像头的判决"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "When Marcus finds his mother eating from a broken plate on the kitchen floor, one security recording exposes months of cruelty—and a trail of money stolen in the name of her care.",
+      "zh": "当马库斯发现母亲蹲在厨房地板上捡拾碎盘里的食物时，一段安防录像揭开了持续数月的虐待，也揭开了以照护之名被盗走的一笔笔钱。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains elder abuse, coercive control, financial exploitation, family conflict, court proceedings, and emotional distress. No graphic violence is described.",
+      "zh": "虚构故事。包含老年人虐待、控制行为、经济侵害、家庭冲突、司法程序与情绪困扰；无详细暴力描写。"
+    },
+    "tone": "navy",
+    "glyph": "HC",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1626,
+      "zh": 3022
     }
   }
 ];
