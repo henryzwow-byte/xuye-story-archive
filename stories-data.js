@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a104";
+window.STORY_ARCHIVE_VERSION = "20260806-a105";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4586,7 +4586,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-104-the-gavel-of-justice.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "He Ruled a Dynasty—Until She Preserved the Receipts",
@@ -4622,6 +4622,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1950,
       "zh": 3649
+    }
+  },
+  {
+    "slug": "the-bride-who-mocked-a-stranger",
+    "fileNo": "A-105",
+    "cover": "assets/covers/A-105-the-bride-who-mocked-a-stranger.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Mocked a Stranger at Her Wedding—Then Saw the Ring",
+        "zh": "她在婚礼上羞辱陌生人，直到看见那枚戒指"
+      },
+      "description": {
+        "en": "A bride turns a stranger's hardship into content, unaware that one quiet guest can expose the fortune, fraud, and false heir behind her wedding.",
+        "zh": "新娘把陌生人的困境当成流量素材，却不知道这个沉默的来客将揭开婚礼背后的财富谎言、金融骗局与假继承人。"
+      }
+    },
+    "title": {
+      "en": "The Bride Who Mocked a Stranger",
+      "zh": "嘲笑陌生人的新娘"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "At a lavish wedding, bride Vanessa humiliates a rain-soaked stranger for an online laugh. One antique ring exposes the stranger's identity—and the financial lie beneath the celebration.",
+      "zh": "在一场奢华婚礼上，新娘瓦妮莎为了博取网络关注羞辱一名被雨淋透的陌生人。一枚古老戒指揭开了女人的身份，也揭开了婚礼背后的财务骗局。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains class-based humiliation, verbal abuse, financial fraud, arrest and court proceedings, plus non-graphic blood and injury imagery. No graphic violence is described.",
+      "zh": "虚构故事。包含阶层羞辱、言语虐待、金融欺诈、逮捕与司法程序，以及非血腥化的流血和受伤画面；无详细暴力描写。"
+    },
+    "tone": "burgundy",
+    "glyph": "SV",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1827,
+      "zh": 3404
     }
   }
 ];
