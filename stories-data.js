@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a109";
+window.STORY_ARCHIVE_VERSION = "20260806-a110";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4806,7 +4806,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-109-the-wedding-day-executable.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Found the Betrayal Minutes Before Her Wedding",
@@ -4842,6 +4842,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1890,
       "zh": 3342
+    }
+  },
+  {
+    "slug": "a-mothers-instinct-at-the-gala",
+    "fileNo": "A-110",
+    "cover": "assets/covers/A-110-a-mothers-instinct-at-the-gala.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Mother Crossed the Ballroom Before Anyone Saw the Danger",
+        "zh": "所有人看见危险前，这位母亲已冲过宴会厅"
+      },
+      "description": {
+        "en": "Sarah's split-second decision at a Newport gala reveals a tracker, suspicious transfers, and a plan aimed at her two-month-old son.",
+        "zh": "莎拉在纽波特晚宴上的瞬间决定，揭开追踪器、可疑转账，以及一场针对她两个月大儿子的计划。"
+      }
+    },
+    "title": {
+      "en": "A Mother's Instinct at the Gala",
+      "zh": "晚宴上的母亲本能"
+    },
+    "category": {
+      "en": "Family & Protection",
+      "zh": "家庭与守护"
+    },
+    "summary": {
+      "en": "At her infant son's society gala, Sarah stops the family matriarch from planting a tracker and exposes a conspiracy hidden beneath old-money elegance.",
+      "zh": "在幼子的新生庆典上，莎拉阻止家族女主人放置追踪器，也揭开了老钱家族体面外表下隐藏的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains an attempted child abduction, family coercion, arrest, and emotional distress.",
+      "zh": "虚构故事。包含企图拐走儿童、家庭控制、逮捕与情绪困扰。"
+    },
+    "tone": "burgundy",
+    "glyph": "LH",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1478,
+      "zh": 2672
     }
   }
 ];
