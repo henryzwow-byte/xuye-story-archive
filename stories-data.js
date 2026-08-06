@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a108";
+window.STORY_ARCHIVE_VERSION = "20260806-a109";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4762,7 +4762,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-108-the-sapphire-of-the-sovereign-mother.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Mocked an Elderly Shopper—Then the Owner Walked In",
@@ -4798,6 +4798,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1061,
       "zh": 1924
+    }
+  },
+  {
+    "slug": "the-wedding-day-executable",
+    "fileNo": "A-109",
+    "cover": "assets/covers/A-109-the-wedding-day-executable.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Found the Betrayal Minutes Before Her Wedding",
+        "zh": "婚礼前几分钟，她发现了背叛"
+      },
+      "description": {
+        "en": "Clara walked toward her groom with a priceless gift. What she found behind his half-open door changed the wedding—and her future.",
+        "zh": "克拉拉带着珍贵礼物去见新郎，却在半掩的门后发现真相。那一刻，她改变了婚礼，也改变了自己的未来。"
+      }
+    },
+    "title": {
+      "en": "The Wedding Day Executable",
+      "zh": "婚礼日的冷静清算"
+    },
+    "category": {
+      "en": "Family Betrayal",
+      "zh": "家庭背叛"
+    },
+    "summary": {
+      "en": "Minutes before her wedding, venture capitalist Clara Sterling uncovers a betrayal and ends the ceremony with calm, lawful precision.",
+      "zh": "婚礼开始前，投资人克拉拉发现未婚夫与伴娘的背叛，并以冷静而合法的方式结束这场婚约。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains infidelity, emotional confrontation, and workplace consequences.",
+      "zh": "虚构故事。包含情感背叛、激烈对峙与职场后果。"
+    },
+    "tone": "crimson",
+    "glyph": "WD",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1890,
+      "zh": 3342
     }
   }
 ];
