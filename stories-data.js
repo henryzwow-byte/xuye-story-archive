@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a106";
+window.STORY_ARCHIVE_VERSION = "20260806-a107";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4674,7 +4674,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-106-the-hidden-cameras-verdict.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Made His Mother Eat on the Floor—Then the Camera Played",
@@ -4710,6 +4710,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1626,
       "zh": 3022
+    }
+  },
+  {
+    "slug": "the-diamond-heirloom",
+    "fileNo": "A-107",
+    "cover": "assets/covers/A-107-the-diamond-heirloom.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Accused the Maid—Then the Hidden Lens Played",
+        "zh": "她指控女管家，直到隐藏镜头开始播放"
+      },
+      "description": {
+        "en": "A missing diamond necklace, a planted box, and one delayed security alert expose the betrayal inside a powerful Connecticut family.",
+        "zh": "失踪的钻石项链、被栽赃的首饰盒和一条延迟的安防警报，揭开了康涅狄格豪门内部的背叛。"
+      }
+    },
+    "title": {
+      "en": "The Diamond Heirloom",
+      "zh": "钻石传家宝"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "A wealthy matriarch accuses her housekeeper of stealing a priceless necklace, but a security recording reveals that the real thief has been standing beside her all along.",
+      "zh": "富豪家族的女主人指控管家偷走无价项链，一段安防录像却揭示，真正的小偷始终站在她身边。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains workplace abuse, a non-graphic slap, false accusation, financial exploitation, gambling debt, police investigation, and emotional distress.",
+      "zh": "虚构故事。包含职场虐待、非细节化掌掴、诬告、经济侵害、赌博债务、警方调查与情绪困扰。"
+    },
+    "tone": "navy",
+    "glyph": "DH",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1230,
+      "zh": 2272
     }
   }
 ];
