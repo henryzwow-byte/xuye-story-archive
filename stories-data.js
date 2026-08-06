@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260805-a103";
+window.STORY_ARCHIVE_VERSION = "20260806-a104";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4542,7 +4542,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-103-the-whisper-of-betrayal.webp",
     "published": "2026-08-05",
     "modified": "2026-08-05",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "He Called Her Unstable—Then the Audit Log Answered",
@@ -4578,6 +4578,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1687,
       "zh": 3177
+    }
+  },
+  {
+    "slug": "the-gavel-of-justice",
+    "fileNo": "A-104",
+    "cover": "assets/covers/A-104-the-gavel-of-justice.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "He Ruled a Dynasty—Until She Preserved the Receipts",
+        "zh": "他掌控着一个王朝，直到她保存了全部证据"
+      },
+      "description": {
+        "en": "A frightened wife enters federal court with two years of records—and forces a powerful family to answer for what it built in secret.",
+        "zh": "一位长期受控的妻子带着两年的记录走进联邦法院，迫使一个权势家族为秘密建立的一切承担责任。"
+      }
+    },
+    "title": {
+      "en": "The Gavel of Justice",
+      "zh": "正义法槌"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "For years, Julianne Thorne quietly preserved the records behind her husband's feared business dynasty. When an emergency federal hearing brings those records into the open, one reckless threat exposes the private violence beneath the public empire.",
+      "zh": "多年来，朱莉安·索恩一直悄悄保存着丈夫商业王朝背后的记录。当一场紧急联邦听证会让证据公开时，一次失控的威胁也揭开了这座公众帝国之下的私人暴力。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains coercive control, threatened domestic violence, attempted assault, financial crime, and legal proceedings. Violence is interrupted and not graphically described.",
+      "zh": "虚构故事。包含控制行为、家庭暴力威胁、未遂袭击、金融犯罪和司法程序；暴力被及时制止，无血腥细节。"
+    },
+    "tone": "navy",
+    "glyph": "GJ",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1950,
+      "zh": 3649
     }
   }
 ];
