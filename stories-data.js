@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a112";
+window.STORY_ARCHIVE_VERSION = "20260806-a131";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4933,37 +4933,81 @@ window.STORY_ARCHIVE = [
     }
   },
   {
-    "slug": "sovereign-dawn",
+    "slug": "the-hollow-vow-and-the-phoenix",
     "fileNo": "A-112",
-    "cover": "assets/covers/A-112-sovereign-dawn.webp",
+    "cover": "assets/covers/A-112-the-hollow-vow-and-the-phoenix.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
-        "en": "His Mother Crossed the Line—So He Rebuilt the Dynasty",
-        "zh": "母亲越过底线后，他选择重建整个家族"
+        "en": "He Ordered His Mother Out of the Wedding—Then Every Phone Lit Up",
+        "zh": "他把母亲赶出婚礼，随后全场手机同时亮起"
       },
       "description": {
-        "en": "A powerful heir must choose between inherited control and the safety of the family he promised to protect.",
-        "zh": "一位家族继承人必须在继承而来的控制欲与自己承诺守护的家庭之间作出选择。"
+        "en": "Moments before the vows, one government email exposed the bride's true identity and forced a son to face the mother he had rejected.",
+        "zh": "宣誓前的一封政府邮件揭开新娘的真实身份，也迫使儿子重新面对被他赶走的母亲。"
       }
     },
     "title": {
-      "en": "The Sovereign Dawn",
-      "zh": "主权黎明"
+      "en": "The Hollow Vow and the Phoenix",
+      "zh": "空洞誓言与凤凰"
     },
     "category": {
-      "en": "Family & Renewal",
-      "zh": "家庭与重生"
+      "en": "Identity & Redemption",
+      "zh": "身份与救赎"
     },
     "summary": {
-      "en": "When Harrison finds his pregnant wife mistreated inside his family estate, he rejects a legacy built on intimidation and rebuilds the household around accountability, safety, and mutual respect.",
-      "zh": "当哈里森发现怀孕的妻子在家族庄园里遭到虐待时，他拒绝继续维护一个建立在恐吓之上的家族体系，并以责任、安全与相互尊重重建家庭。"
+      "en": "At his cathedral wedding, Julian rejects the mother who warned him about his bride—only for a federal investigation to reveal an international fraud scheme and force mother and son to rebuild together.",
+      "zh": "朱利安在教堂婚礼上赶走曾警告他的母亲，随后联邦调查揭开新娘背后的国际诈骗计划，也迫使母子二人共同重建人生与家业。"
     },
     "warning": {
-      "en": "Fictional story. Contains family conflict, emotional abuse, pregnancy-related distress, and legal proceedings.",
-      "zh": "虚构故事。包含家庭冲突、情感虐待、孕期惊吓与法律程序。"
+      "en": "Fictional story. Contains identity fraud, arrest, family conflict, and threats from organized crime.",
+      "zh": "虚构故事。包含身份诈骗、逮捕、家庭冲突与有组织犯罪威胁。"
+    },
+    "tone": "midnight",
+    "glyph": "HP",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 2140,
+      "zh": 3322
+    }
+  },
+  {
+    "slug": "the-sovereign-dawn",
+    "fileNo": "A-113",
+    "cover": "assets/covers/A-113-the-sovereign-dawn.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "He Found His Pregnant Wife on the Marble Floor—Then He Opened the Security Feed",
+        "zh": "他发现怀孕的妻子倒在大理石地面，随后打开了监控记录"
+      },
+      "description": {
+        "en": "Seventy-two hours of hidden footage ended a matriarch's control and transformed a family fortune into protection for mothers.",
+        "zh": "七十二小时的隐秘影像终结了女族长的控制，也让家族财富化为守护母亲们的力量。"
+      }
+    },
+    "title": {
+      "en": "The Sovereign Dawn: A Husband’s Vengeance and a Mother’s Exile",
+      "zh": "主权黎明：丈夫的反击与母亲的流放"
+    },
+    "category": {
+      "en": "Family & Protection",
+      "zh": "家庭与守护"
+    },
+    "summary": {
+      "en": "When Harrison returns to find his pregnant wife terrorized by his mother, hidden security footage gives him the proof to end an abusive family order and rebuild its legacy around safety.",
+      "zh": "哈里森归来后发现怀孕的妻子遭到母亲虐待，隐藏监控提供了终结病态家族秩序的证据，也让他得以围绕安全与尊严重建家族传承。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains domestic abuse, pregnancy-related distress, coercive control, financial restriction, and legal expulsion.",
+      "zh": "虚构故事。包含家庭虐待、孕期痛苦、强制控制、经济限制与法律驱逐等情节。"
     },
     "tone": "burgundy",
     "glyph": "SD",
@@ -4972,8 +5016,800 @@ window.STORY_ARCHIVE = [
       "zh": 4
     },
     "readingUnits": {
-      "en": 1900,
-      "zh": 3679
+      "en": 1889,
+      "zh": 3054
+    }
+  },
+  {
+    "slug": "the-architect-of-destiny",
+    "fileNo": "A-114",
+    "cover": "assets/covers/A-114-the-architect-of-destiny.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "He Called His Bride a Waitress at the Altar—Then the City’s Most Powerful CEO Bowed to Her",
+        "zh": "他在圣坛前骂新娘是服务员，随后全城最有权势的总裁向她致敬"
+      },
+      "description": {
+        "en": "A public humiliation revealed the quiet investor who held an empire's future—and the principles she chose to build with it.",
+        "zh": "一场公开羞辱揭开了掌握帝国未来的隐秘投资人，也让世人看见她选择用权力建设怎样的世界。"
+      }
+    },
+    "title": {
+      "en": "The Architect of Destiny: A Triumph of Grace and Power",
+      "zh": "命运建筑师：优雅与力量的胜利"
+    },
+    "category": {
+      "en": "Dignity & Opportunity",
+      "zh": "尊严与机会"
+    },
+    "summary": {
+      "en": "Julian humiliates his bride as a supposed waitress, only to learn that Renata controls the capital keeping his family company alive—and intends to use her power to widen opportunity for others.",
+      "zh": "朱利安当众羞辱被他认作服务员的新娘，却发现支撑家族企业的资本正掌握在蕾娜塔手中，而她决定用这份力量为更多人打开机会之门。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains public humiliation, class discrimination, financial collapse, and emotional abuse.",
+      "zh": "虚构故事。包含公开羞辱、阶层歧视、财务崩溃与精神虐待等情节。"
+    },
+    "tone": "gold",
+    "glyph": "AD",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 2467,
+      "zh": 3678
+    }
+  },
+  {
+    "slug": "the-true-birthright-justice-and-redemption",
+    "fileNo": "A-115",
+    "cover": "assets/covers/A-115-the-true-birthright-justice-and-redemption.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Kitchen Girl Found the Missing Evidence—Then the Ballroom Filled With Federal Agents",
+        "zh": "厨房女孩找到了关键证据，随后联邦探员涌入宴会厅"
+      },
+      "description": {
+        "en": "One hidden piece of evidence toppled a corrupt dynasty and gave an overlooked young woman the chance to protect others.",
+        "zh": "一份被隐藏的证据推翻了腐败家族，也让曾被忽视的女孩获得守护他人的机会。"
+      }
+    },
+    "title": {
+      "en": "The True Birthright: Justice and Redemption",
+      "zh": "真正的继承权：正义与救赎"
+    },
+    "category": {
+      "en": "Justice & Renewal",
+      "zh": "正义与新生"
+    },
+    "summary": {
+      "en": "Evidence uncovered by Maya brings down the corrupt Vance empire; in the aftermath, justice restores stolen wealth and gives her a family, an education, and a mission of her own.",
+      "zh": "玛雅找到的证据让腐败的万斯帝国覆灭；尘埃落定后，正义归还被掠夺的财富，也给了她家庭、教育与属于自己的使命。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains arrest, corporate fraud, child endangerment, imprisonment, and references to exploitation.",
+      "zh": "虚构故事。包含逮捕、企业欺诈、危害未成年人、监禁与剥削相关情节。"
+    },
+    "tone": "emerald",
+    "glyph": "TB",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 865,
+      "zh": 1408
+    }
+  },
+  {
+    "slug": "the-crown-and-the-sieve",
+    "fileNo": "A-116",
+    "cover": "assets/covers/A-116-the-crown-and-the-sieve.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Billionaire’s Daughter Mocked the Maid—Then a Royal Envoy Dropped to One Knee",
+        "zh": "亿万富豪之女嘲笑女佣，随后王室特使单膝跪地"
+      },
+      "description": {
+        "en": "A hidden princess learned what privilege looks like from the ground floor—and returned to rule with dignity at the center.",
+        "zh": "一位隐藏身份的公主从最底层看清特权的模样，并带着以尊严为核心的信念重返王位。"
+      }
+    },
+    "title": {
+      "en": "The Crown and the Sieve: The Invisible Heir",
+      "zh": "皇冠与筛网：隐形继承人"
+    },
+    "category": {
+      "en": "Royal Identity & Dignity",
+      "zh": "王室身份与尊严"
+    },
+    "summary": {
+      "en": "Elena hides from royal life as an unnoticed server until an arrogant socialite's cruelty is interrupted by a sovereign envoy—and the missing heir must decide what kind of ruler she will become.",
+      "zh": "埃琳娜逃离王室生活，化身无人注意的服务员；直到傲慢名媛的羞辱被王室特使打断，这位失踪继承人才必须决定自己要成为怎样的统治者。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains class discrimination, workplace humiliation, economic retaliation, and loss of social status.",
+      "zh": "虚构故事。包含阶层歧视、职场羞辱、经济反制与社会地位丧失等情节。"
+    },
+    "tone": "crimson",
+    "glyph": "CS",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1953,
+      "zh": 3022
+    }
+  },
+  {
+    "slug": "the-night-my-broken-arm-exposed-eight-years-of-lies",
+    "fileNo": "A-117",
+    "cover": "assets/covers/A-117-the-night-my-broken-arm-exposed-eight-years-of-lies.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "Her Husband Called It a Fall—Then the X-Ray Technician Said Her Name",
+        "zh": "丈夫谎称她摔下楼梯，随后放射技师叫出了她的名字"
+      },
+      "description": {
+        "en": "A broken arm, an unexpected reunion, and one recorded sentence exposed eight years of coercion—and opened the way home.",
+        "zh": "一条骨折的手臂、一次意外重逢和一句被录下的话，揭开了八年的控制，也打开了回家的路。"
+      }
+    },
+    "title": {
+      "en": "The Night My Broken Arm Exposed Eight Years of Lies",
+      "zh": "手臂折断的那一夜，揭开八年谎言"
+    },
+    "category": {
+      "en": "Survival & Recovery",
+      "zh": "生存与疗愈"
+    },
+    "summary": {
+      "en": "After years of coercive control, Elena arrives at a hospital with a broken arm and a rehearsed lie—only to meet the brother her husband isolated her from and find the evidence needed to reclaim her life.",
+      "zh": "经历多年强制控制后，埃琳娜带着骨折的手臂和排练好的谎言来到医院，却遇见被丈夫隔绝的哥哥，并找到夺回人生所需的证据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains domestic violence, coercive control, physical injury, intimidation, isolation, medical evidence, and legal proceedings.",
+      "zh": "虚构故事。包含家庭暴力、强制控制、身体伤害、恐吓、隔离、医疗取证与庭审等内容。"
+    },
+    "tone": "storm",
+    "glyph": "BA",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 3032,
+      "zh": 4314
+    }
+  },
+  {
+    "slug": "the-predator-in-the-neonatal-ward",
+    "fileNo": "A-118",
+    "cover": "assets/covers/A-118-the-predator-in-the-neonatal-ward.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "She Was Pushed Beside Her Premature Baby—Then the Chief Surgeon Entered",
+        "zh": "她在早产儿身边被推倒，随后外科主任走进病房"
+      },
+      "description": {
+        "en": "An attempted abduction inside a neonatal ward exposed a hidden family bond and turned one dynasty's power toward protecting premature babies.",
+        "zh": "新生儿病房中的绑架企图揭开了隐藏的亲情，也让一个家族的力量转而守护早产儿。"
+      }
+    },
+    "title": {
+      "en": "The Predator in the Neonatal Ward",
+      "zh": "新生儿病房里的掠夺者"
+    },
+    "category": {
+      "en": "Family & Protection",
+      "zh": "家庭与守护"
+    },
+    "summary": {
+      "en": "Hours after an emergency premature delivery, Clara is attacked beside her baby's incubator by a mother-in-law carrying forged custody papers—until the hospital chief reveals the family she never advertised.",
+      "zh": "紧急早产后数小时，克拉拉在孩子的保温箱旁遭到携带伪造监护文件的婆婆袭击，直到医院院长揭开她从不张扬的家庭身份。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains postpartum physical assault, premature infant medical distress, attempted infant abduction, coercion, and arrest.",
+      "zh": "虚构故事。包含产后身体袭击、早产儿医疗危机、企图绑架婴儿、胁迫与逮捕等情节。"
+    },
+    "tone": "burgundy",
+    "glyph": "NW",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1914,
+      "zh": 2720
+    }
+  },
+  {
+    "slug": "the-arena-of-diamonds-and-tears",
+    "fileNo": "A-119",
+    "cover": "assets/covers/A-119-the-arena-of-diamonds-and-tears.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "They Mocked the Pregnant Woman at the Gala—Then a Black Helicopter Landed",
+        "zh": "他们在晚宴上嘲笑孕妇，随后一架黑色直升机降落"
+      },
+      "description": {
+        "en": "A billionaire's return ended one family's public cruelty and gave a humiliated mother the means to protect others.",
+        "zh": "一位亿万富豪的归来终结了一个家族的公开残酷，也让受辱的母亲拥有保护他人的力量。"
+      }
+    },
+    "title": {
+      "en": "The Arena of Diamonds and Tears",
+      "zh": "钻石与泪水的竞技场"
+    },
+    "category": {
+      "en": "Dignity & Renewal",
+      "zh": "尊严与新生"
+    },
+    "summary": {
+      "en": "Bankrupt and heavily pregnant, Elena is mocked at an elite gala until her missing husband returns from corporate danger—and makes clear whose dignity the room has misjudged.",
+      "zh": "破产且临近分娩的埃琳娜在精英晚宴上遭到嘲笑，直到失踪的丈夫结束企业危机归来，让全场明白他们错判了谁的尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains public humiliation, pregnancy-related distress, financial collapse, class discrimination, and economic retaliation.",
+      "zh": "虚构故事。包含公开羞辱、孕期痛苦、财务崩溃、阶层歧视与经济反制等情节。"
+    },
+    "tone": "sapphire",
+    "glyph": "DT",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1730,
+      "zh": 2416
+    }
+  },
+  {
+    "slug": "the-golden-execution-room",
+    "fileNo": "A-120",
+    "cover": "assets/covers/A-120-the-golden-execution-room.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "Her Husband Assaulted Her at Dinner—Then a Tiny Red Light Started Broadcasting",
+        "zh": "丈夫在晚餐时袭击她，随后一盏红灯开始直播"
+      },
+      "description": {
+        "en": "One live security feed exposed an abusive marriage, a corporate cover-up, and the truth a wealthy family could no longer purchase.",
+        "zh": "一段实时安保画面揭开了虐待婚姻、企业掩盖，以及一个富有家族再也买不走的真相。"
+      }
+    },
+    "title": {
+      "en": "The Golden Execution Room: Exposing an Empire Built on Lies",
+      "zh": "金色处决室：揭露建立在谎言上的帝国"
+    },
+    "category": {
+      "en": "Survival & Justice",
+      "zh": "生存与正义"
+    },
+    "summary": {
+      "en": "After three years inside Julian Vance's gilded control, Clara turns one violent dinner into a live-streamed record for investigators, journalists, and the board—and walks toward freedom with evidence in hand.",
+      "zh": "被困在朱利安·万斯的金色控制中三年后，克拉拉把一次暴力晚餐变成面向调查人员、记者与董事会的直播证据，并带着真相走向自由。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains domestic violence, bruising, coercive control, threats, arrest, divorce, and financial retaliation.",
+      "zh": "虚构故事。包含家庭暴力、淤伤、强制控制、威胁、逮捕、离婚与经济反制等情节。"
+    },
+    "tone": "gold",
+    "glyph": "GE",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1791,
+      "zh": 2479
+    }
+  },
+  {
+    "slug": "the-sequin-illusion-at-thirty-thousand-feet",
+    "fileNo": "A-121",
+    "cover": "assets/covers/A-121-the-sequin-illusion-at-thirty-thousand-feet.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "She Ordered a Pregnant Passenger Away—Then the Captain Bowed to the Woman With the Gold Key",
+        "zh": "她赶走怀孕乘客，随后机长向手持金钥匙的女人鞠躬"
+      },
+      "description": {
+        "en": "A golden master key exposed who truly owned the aircraft—and why dignity matters before status is known.",
+        "zh": "一把金色主钥匙揭开了飞机真正的主人，也说明为何在身份揭晓之前，尊严同样重要。"
+      }
+    },
+    "title": {
+      "en": "The Sequin Illusion at Thirty Thousand Feet",
+      "zh": "三万英尺高空的亮片幻象"
+    },
+    "category": {
+      "en": "Dignity & Leadership",
+      "zh": "尊严与领导力"
+    },
+    "summary": {
+      "en": "Seven months pregnant, Clara is denied a seat on her own aircraft by a status-seeking passenger—until the sovereign key in her pocket reveals who owns the fleet and what its leadership will stand for.",
+      "zh": "怀孕七个月的克拉拉在自己的飞机上被一名追逐地位的乘客赶座，直到口袋里的主权钥匙揭开机队归属，也明确它的领导者会捍卫什么。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains pregnancy-related discrimination, public humiliation, removal from an aircraft, financial retaliation, and class prejudice.",
+      "zh": "虚构故事。包含孕期歧视、公开羞辱、被带离飞机、经济反制与阶层偏见等情节。"
+    },
+    "tone": "emerald",
+    "glyph": "SI",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1689,
+      "zh": 2358
+    }
+  },
+  {
+    "slug": "the-descent-of-envy",
+    "fileNo": "A-122",
+    "cover": "assets/covers/A-122-the-descent-of-envy.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "She Shoved Her Rival at the Top of the Stairs—Then a Hidden Reflection Played Back",
+        "zh": "她在楼梯顶端推下情敌，随后隐藏反射影像开始回放"
+      },
+      "description": {
+        "en": "A jealous shove, a mirrored recording, and one survivor's recovery turned a palace of rivalry into a place of rehabilitation.",
+        "zh": "一次嫉妒的推搡、一段镜面记录与幸存者的康复，让争斗宫殿变成了疗愈之所。"
+      }
+    },
+    "title": {
+      "en": "The Descent of Envy",
+      "zh": "嫉妒的坠落"
+    },
+    "category": {
+      "en": "Survival & Accountability",
+      "zh": "生存与问责"
+    },
+    "summary": {
+      "en": "Sienna's jealous shove sends Chloe down a marble staircase, but a secondary security system preserves the truth—and the estate is rebuilt around recovery rather than status.",
+      "zh": "锡耶娜因嫉妒把克洛伊推下大理石楼梯，备用安保系统却保存了真相；最终庄园不再围绕地位，而是围绕康复重建。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains a fall down stairs, severe injury, blood, attempted concealment, imprisonment, and medical rehabilitation.",
+      "zh": "虚构故事。包含楼梯坠落、重伤、血迹、企图掩盖、监禁与医疗康复等情节。"
+    },
+    "tone": "emerald",
+    "glyph": "DE",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1903,
+      "zh": 2537
+    }
+  },
+  {
+    "slug": "the-weight-of-the-current",
+    "fileNo": "A-123",
+    "cover": "assets/covers/A-123-the-weight-of-the-current.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Swim Captain Held a Boy Underwater—Then the Scoreboard Broke Free",
+        "zh": "游泳队长把男孩按入水中，随后记分牌从屋顶坠落"
+      },
+      "description": {
+        "en": "A poolside assault and a collapsing structure exposed the same family's cruelty, corruption, and dangerous shortcuts.",
+        "zh": "一次泳池袭击和一场结构坍塌，同时揭开了同一家族的残酷、腐败与危险偷工减料。"
+      }
+    },
+    "title": {
+      "en": "The Weight of the Current: Karma and Redemption at Silver Creek Academy",
+      "zh": "电流之重：银溪学院的因果与救赎"
+    },
+    "category": {
+      "en": "Bullying & Accountability",
+      "zh": "霸凌与问责"
+    },
+    "summary": {
+      "en": "When varsity captain Marcus holds Leo underwater, a catastrophic scoreboard failure exposes not only the assault but the corrupt construction choices made by Marcus's powerful father.",
+      "zh": "校队队长马库斯把利奥按在水下时，记分牌灾难性坠落，不仅揭开袭击，也暴露了马库斯权势父亲在工程中的腐败选择。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains school bullying, forced submersion, drowning danger, electrocution, temporary paralysis, corruption, arrest, and juvenile justice.",
+      "zh": "虚构故事。包含校园霸凌、强迫浸水、溺水危险、电击、暂时性瘫痪、腐败、逮捕与未成年人司法处置。"
+    },
+    "tone": "current",
+    "glyph": "WC",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1704,
+      "zh": 2283
+    }
+  },
+  {
+    "slug": "liquid-malice-under-neon-lights",
+    "fileNo": "A-124",
+    "cover": "assets/covers/A-124-liquid-malice-under-neon-lights.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "He Poured Champagne Over a Stranger—Then the Club Manager Dropped to His Knees",
+        "zh": "他把香槟倒在陌生人头上，随后夜店经理跪了下来"
+      },
+      "description": {
+        "en": "A bottle of champagne exposed who owned Manhattan's most exclusive club—and how quickly inherited arrogance can lose its invitation.",
+        "zh": "一瓶香槟揭开了曼哈顿顶级夜店真正的主人，也显示继承来的傲慢会多快失去入场资格。"
+      }
+    },
+    "title": {
+      "en": "Liquid Malice under Neon Lights",
+      "zh": "霓虹灯下的液态恶意"
+    },
+    "category": {
+      "en": "Dignity & Accountability",
+      "zh": "尊严与问责"
+    },
+    "summary": {
+      "en": "Chad pours champagne over a woman he assumes cannot defend herself, only to discover that Clara owns the club, the land beneath it, and the decision awaiting his family's failing firm.",
+      "zh": "查德把香槟倒在一个自认无力反抗的女人身上，却发现克拉拉拥有夜店、脚下土地，也掌握着他家族濒危企业的命运。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains public humiliation, alcohol poured on a person, physical assault, forcible removal, financial retaliation, and legal penalties.",
+      "zh": "虚构故事。包含公开羞辱、向他人倾倒酒精、肢体冲突、强制带离、经济反制与法律处罚。"
+    },
+    "tone": "neon",
+    "glyph": "LM",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1480,
+      "zh": 2031
+    }
+  },
+  {
+    "slug": "the-shattered-illusion-of-safety",
+    "fileNo": "A-125",
+    "cover": "assets/covers/A-125-the-shattered-illusion-of-safety.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "She Attacked a Pregnant Woman in a Private Suite—Then the Medical Director Played the Footage",
+        "zh": "她在私人套房袭击孕妇，随后医疗院长播放了监控"
+      },
+      "description": {
+        "en": "A locked medical suite, a violent lie, and military-grade footage exposed an attempted attack on a mother and her unborn child.",
+        "zh": "一间上锁的医疗套房、一场暴力谎言和军用级影像，揭开了针对母亲与未出生孩子的袭击。"
+      }
+    },
+    "title": {
+      "en": "The Shattered Illusion of Safety",
+      "zh": "破碎的安全幻象"
+    },
+    "category": {
+      "en": "Maternal Safety & Justice",
+      "zh": "母婴安全与正义"
+    },
+    "summary": {
+      "en": "Seven months pregnant, Khloe is assaulted in a restricted medical suite by a rival who expects privacy to hide the crime—until her husband and powerful uncle arrive with a complete recording.",
+      "zh": "怀孕七个月的克洛伊在限制进入的医疗套房中遭情敌袭击，对方以为隐私能掩盖犯罪，直到丈夫与强大的舅舅带着完整录像出现。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains severe assault on a pregnant woman, an abdominal kick, glass cuts, blood, threats to an unborn child, attempted murder allegations, and arrest.",
+      "zh": "虚构故事。包含对孕妇的严重袭击、腹部踢击、玻璃割伤、血迹、危害未出生孩子、谋杀未遂指控与逮捕。"
+    },
+    "tone": "crimson",
+    "glyph": "SS",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1805,
+      "zh": 2411
+    }
+  },
+  {
+    "slug": "the-crimson-comforter",
+    "fileNo": "A-126",
+    "cover": "assets/covers/A-126-the-crimson-comforter.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "She Hid a Motionless Man Beneath the Crimson Comforter—Then the General Opened the Door",
+        "zh": "她把昏迷男子藏在深红被褥下，随后将军推开了门"
+      },
+      "description": {
+        "en": "A concealed witness, stolen defense technology, and one daughter's decision forced a compromised dynasty to choose integrity over its name.",
+        "zh": "一名被隐藏的证人、被盗的国防技术和女儿的选择，迫使受腐蚀的王朝把诚信置于姓氏之上。"
+      }
+    },
+    "title": {
+      "en": "The Crimson Comforter: Why an Elite Virginia Matriarch Desperately Concealed a Motionless Body, and the Terrifying Secret That Shattered the Vanguard Dynasty",
+      "zh": "深红被褥：弗吉尼亚精英女族长为何拼命隐藏昏迷之人，以及击碎先锋王朝的恐怖秘密"
+    },
+    "category": {
+      "en": "Corruption & Renewal",
+      "zh": "腐败与重建"
+    },
+    "summary": {
+      "en": "Eleanor hides a drugged whistleblower to secure stolen drone technology, but her daughter and military husband expose the scheme before the entire Vanguard legacy is destroyed.",
+      "zh": "埃莉诺为取得被盗无人机技术而藏匿遭药物控制的举报人，但女儿与军人丈夫在先锋传承彻底毁灭前揭开了阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains unlawful confinement, drugging, corporate espionage, a slap, federal investigation, organized corruption, and imprisonment.",
+      "zh": "虚构故事。包含非法拘禁、药物控制、商业间谍、掌掴、联邦调查、有组织腐败与监禁。"
+    },
+    "tone": "crimson",
+    "glyph": "CC",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 883,
+      "zh": 1189
+    }
+  },
+  {
+    "slug": "the-silent-passenger",
+    "fileNo": "A-127",
+    "cover": "assets/covers/A-127-the-silent-passenger.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Maid Warned Him Not to Take the Car—Then He Saw His Wife Sitting Motionless Inside",
+        "zh": "女管家警告他别上车，随后他看见妻子一动不动地坐在车里"
+      },
+      "description": {
+        "en": "A loyal housekeeper noticed the wrong man behind the wheel—and turned one final warning into the rescue of a family.",
+        "zh": "忠诚女管家发现方向盘后坐着错误的人，把最后警告变成了对整个家庭的营救。"
+      }
+    },
+    "title": {
+      "en": "The Silent Passenger: How a Loyal Maid's Final Warning Exposed a Calculated Kidnapping and Saved a Billionaire's Wife from a Treacherous Road to Nowhere",
+      "zh": "沉默的乘客：忠诚女佣的最后警告如何揭开精心绑架，并救下亿万富豪妻子"
+    },
+    "category": {
+      "en": "Loyalty & Rescue",
+      "zh": "忠诚与营救"
+    },
+    "summary": {
+      "en": "Elena discovers that the man waiting in the family car is an imposter with a kidnapping route already planned, forcing Arthur to trust the person who knows his home best before his wife disappears.",
+      "zh": "埃琳娜发现等在家族轿车中的司机是假冒者，绑架路线早已规划，迫使亚瑟在妻子消失前信任最了解这个家的人。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains impersonation, kidnapping, dangerous driving, a car crash, knife threat, non-lethal gunfire, physical fighting, and organized crime.",
+      "zh": "虚构故事。包含冒名顶替、绑架、危险驾驶、车祸、刀具威胁、非致命枪击、肢体搏斗与有组织犯罪。"
+    },
+    "tone": "steel",
+    "glyph": "SP",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1415,
+      "zh": 1721
+    }
+  },
+  {
+    "slug": "the-pristine-mirage",
+    "fileNo": "A-128",
+    "cover": "assets/covers/A-128-the-pristine-mirage.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "A Catering Worker Stopped the Wedding—Then Her Phone Revealed the Groom's First Wife",
+        "zh": "餐饮员工叫停婚礼，随后手机揭开新郎的第一任妻子"
+      },
+      "description": {
+        "en": "One courthouse photograph and a newborn's hospital record broke a billionaire groom's polished illusion before the vows were complete.",
+        "zh": "一张法院婚照与一份新生儿医院记录，在誓言完成前击碎了亿万新郎精心打磨的幻象。"
+      }
+    },
+    "title": {
+      "en": "The Pristine Mirage: Exposing a Billionaire's Deception",
+      "zh": "纯白幻象：揭穿亿万富豪的欺骗"
+    },
+    "category": {
+      "en": "Deception & Liberation",
+      "zh": "欺骗与解脱"
+    },
+    "summary": {
+      "en": "Clara interrupts Julian's luxury wedding with proof that he is already married to her and became a father only two weeks earlier, forcing a corporate spectacle to face the private family it abandoned.",
+      "zh": "克拉拉带着朱利安早已与她结婚、且两周前才成为父亲的证据闯入豪华婚礼，迫使企业盛宴面对被他抛弃的私人家庭。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains bigamy and corporate fraud, abandonment of a spouse and newborn, public confrontation, arrest, and imprisonment.",
+      "zh": "虚构故事。包含重婚与企业欺诈、遗弃配偶及新生儿、公开冲突、逮捕与监禁。"
+    },
+    "tone": "ivory",
+    "glyph": "PM",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1372,
+      "zh": 1731
+    }
+  },
+  {
+    "slug": "the-illusion-of-conquest",
+    "fileNo": "A-129",
+    "cover": "assets/covers/A-129-the-illusion-of-conquest.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "She Claimed the Son, the House, and the Company—Then the Matriarch Asked One Question",
+        "zh": "她宣称拥有儿子、宅邸与公司，随后女族长只问了一个问题"
+      },
+      "description": {
+        "en": "A forged takeover collapsed when one long phone call revealed that access had never been authority—and trust had to be rebuilt from the wreckage.",
+        "zh": "一场伪造接管因一通长电话而崩塌：进入核心从不等于拥有权力，而信任必须从废墟中重建。"
+      }
+    },
+    "title": {
+      "en": "The Illusion of Conquest: The Matriarch's Trap",
+      "zh": "征服幻象：女族长的陷阱"
+    },
+    "category": {
+      "en": "Betrayal & Reconstruction",
+      "zh": "背叛与重建"
+    },
+    "summary": {
+      "en": "Seraphina believes forged documents and emotional isolation have handed her the Vance estate, but Clara's open phone line reveals a surveillance operation—and forces Julian to rebuild both company and character.",
+      "zh": "塞拉菲娜以为伪造文件与情感隔离已让她取得万斯庄园，但克拉拉保持接通的电话揭开监控行动，也迫使朱利安同时重建公司与品格。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains emotional manipulation, forged signatures, corporate theft, surveillance, forcible removal, and legal investigation.",
+      "zh": "虚构故事。包含情感操纵、伪造签名、企业侵占、监控、强制带离与法律调查。"
+    },
+    "tone": "burgundy",
+    "glyph": "IC",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1510,
+      "zh": 1817
+    }
+  },
+  {
+    "slug": "the-stranger-by-the-kitchen-door",
+    "fileNo": "A-130",
+    "cover": "assets/covers/A-130-the-stranger-by-the-kitchen-door.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "They Called It an Autistic Meltdown—Then the Stranger Reached for an Auto-Injector",
+        "zh": "他们说那是自闭症情绪崩溃，随后陌生人拿出了急救注射器"
+      },
+      "description": {
+        "en": "A seven-year-old girl struggles to breathe while the adults dismiss her. One doctor notices the fear behind her warning—and the powder hidden in a purse.",
+        "zh": "七岁女孩无法呼吸，身边的大人却不相信她；一位医生看见她警告背后的恐惧，也发现了藏在手袋里的白色粉末。"
+      }
+    },
+    "title": {
+      "en": "The Stranger by the Kitchen Door",
+      "zh": "厨房门边的陌生人"
+    },
+    "category": {
+      "en": "Child Protection & Listening",
+      "zh": "儿童保护与倾听"
+    },
+    "summary": {
+      "en": "When seven-year-old Lily suffers anaphylaxis at a restaurant, a nearby allergy specialist rejects the convenient claim of an autistic meltdown, uncovers deliberate poisoning, and helps a silenced child finally be believed.",
+      "zh": "七岁的莉莉在餐厅发生严重过敏反应，一位附近的过敏急救专家拒绝接受“自闭症情绪崩溃”的轻率解释，揭开蓄意投毒，也让这个长期被噤声的孩子终于得到相信。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains child poisoning, anaphylaxis, child abuse, autism-related manipulation and disbelief, emergency medical treatment, and legal proceedings.",
+      "zh": "虚构故事。包含儿童投毒、严重过敏反应、儿童虐待、利用自闭症诊断进行操控与否认、紧急医疗处置及司法程序。"
+    },
+    "tone": "amber",
+    "glyph": "KD",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 2261,
+      "zh": 3531
+    }
+  },
+  {
+    "slug": "the-golden-cage-of-corporate-royalty",
+    "fileNo": "A-131",
+    "cover": "assets/covers/A-131-the-golden-cage-of-corporate-royalty.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Struck His Five-Year-Old Daughter—Then He Walked Away from the Empire",
+        "zh": "她掌掴他五岁的女儿，他随后放弃了整个帝国"
+      },
+      "description": {
+        "en": "One spilled glass of wine forces a father to choose between a billionaire inheritance and the child who asks if she is bad.",
+        "zh": "一杯打翻的红酒，迫使一位父亲在亿万遗产与那个问自己是不是坏孩子的女儿之间作出选择。"
+      }
+    },
+    "title": {
+      "en": "The Golden Cage of Corporate Royalty",
+      "zh": "企业王族的黄金牢笼"
+    },
+    "category": {
+      "en": "Family Protection & Renewal",
+      "zh": "家庭守护与重生"
+    },
+    "summary": {
+      "en": "When a billionaire matriarch strikes her five-year-old granddaughter over spilled wine, Garrett Sterling abandons the family empire to give his daughter a safe home—and builds a more ethical future of his own.",
+      "zh": "亿万富豪家族的女主人因一杯打翻的红酒掌掴五岁孙女，父亲加勒特因此放弃家族帝国，为女儿建立一个安全的家，也亲手开创更有原则的未来。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains child abuse, a non-graphic slap, emotional abuse, family coercion, and intergenerational trauma.",
+      "zh": "虚构故事。包含儿童虐待、非细节化掌掴、情感虐待、家庭胁迫与代际创伤。"
+    },
+    "tone": "gold",
+    "glyph": "GC",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1283,
+      "zh": 2040
     }
   }
 ];
