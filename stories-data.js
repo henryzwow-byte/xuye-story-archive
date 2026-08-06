@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a107";
+window.STORY_ARCHIVE_VERSION = "20260806-a108";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4718,7 +4718,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-107-the-diamond-heirloom.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Accused the Maid—Then the Hidden Lens Played",
@@ -4754,6 +4754,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1230,
       "zh": 2272
+    }
+  },
+  {
+    "slug": "the-sapphire-of-the-sovereign-mother",
+    "fileNo": "A-108",
+    "cover": "assets/covers/A-108-the-sapphire-of-the-sovereign-mother.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "She Mocked an Elderly Shopper—Then the Owner Walked In",
+        "zh": "她嘲弄年长顾客，直到真正的主人走进店里"
+      },
+      "description": {
+        "en": "One insult on Rodeo Drive exposes a leader's prejudice and turns a sapphire pendant into a lasting lesson about dignity.",
+        "zh": "罗迪欧大道上的一次羞辱揭开管理者的偏见，也让一枚蓝宝石吊坠成为关于尊严的长久警示。"
+      }
+    },
+    "title": {
+      "en": "The Sapphire of the Sovereign Mother",
+      "zh": "主母的蓝宝石"
+    },
+    "category": {
+      "en": "Justice & Accountability",
+      "zh": "正义与问责"
+    },
+    "summary": {
+      "en": "A luxury director humiliates an elderly visitor, only to learn that dignity—not status—will decide the future of the company she serves.",
+      "zh": "奢侈品牌主管羞辱一位年长访客，却最终明白，决定她与公司未来的不是身份，而是尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains class prejudice, workplace misconduct, a non-graphic slap, a heated confrontation, dismissal, and emotional distress.",
+      "zh": "虚构故事。包含阶层偏见、职场不当行为、非细节化掌掴、激烈冲突、解雇与情绪困扰。"
+    },
+    "tone": "blue",
+    "glyph": "SM",
+    "chapterCount": {
+      "en": 5,
+      "zh": 5
+    },
+    "readingUnits": {
+      "en": 1061,
+      "zh": 1924
     }
   }
 ];
