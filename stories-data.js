@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a110";
+window.STORY_ARCHIVE_VERSION = "20260806-a111";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -4850,7 +4850,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-110-a-mothers-instinct-at-the-gala.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "A Mother Crossed the Ballroom Before Anyone Saw the Danger",
@@ -4886,6 +4886,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1478,
       "zh": 2672
+    }
+  },
+  {
+    "slug": "porcelain-shards-of-a-fractured-life",
+    "fileNo": "A-111",
+    "cover": "assets/covers/A-111-porcelain-shards-of-a-fractured-life.webp",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Plate Shattered—Then Her Husband Finally Stood Up",
+        "zh": "瓷盘碎裂后，她的丈夫终于站了出来"
+      },
+      "description": {
+        "en": "One anniversary dinner ends years of silence and begins a careful reckoning inside the Blackwood family.",
+        "zh": "一场周年晚宴终结了多年的沉默，也开启了布莱克伍德家族内部一次有证据、有程序的清算。"
+      }
+    },
+    "title": {
+      "en": "The Porcelain Shards of a Fractured Life",
+      "zh": "破碎人生的瓷片"
+    },
+    "category": {
+      "en": "Family & Renewal",
+      "zh": "家庭与重生"
+    },
+    "summary": {
+      "en": "After years of public humiliation inside a powerful family, Elena watches her husband confront his mother, expose financial misconduct through lawful channels, and rebuild their home around dignity instead of fear.",
+      "zh": "在权势家族中忍受多年公开羞辱后，埃琳娜终于看到丈夫正面保护她、依法揭开财务违规，并把这个家从恐惧中重建为有尊严的生活。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains emotional abuse, financial misconduct, family conflict, and legal proceedings.",
+      "zh": "虚构故事。包含情感虐待、财务违规、家庭冲突与法律程序。"
+    },
+    "tone": "ivory",
+    "glyph": "PS",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1770,
+      "zh": 3198
     }
   }
 ];
