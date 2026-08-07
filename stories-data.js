@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260806-a131";
+window.STORY_ARCHIVE_VERSION = "20260807-a152";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -5774,7 +5774,7 @@ window.STORY_ARCHIVE = [
     "cover": "assets/covers/A-131-the-golden-cage-of-corporate-royalty.webp",
     "published": "2026-08-06",
     "modified": "2026-08-06",
-    "isNew": true,
+    "isNew": false,
     "share": {
       "title": {
         "en": "She Struck His Five-Year-Old Daughter—Then He Walked Away from the Empire",
@@ -5810,6 +5810,930 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1283,
       "zh": 2040
+    }
+  },
+  {
+    "slug": "shattered-supremacy-the-montgomery-retribution",
+    "fileNo": "A-132",
+    "cover": "assets/covers/A-132-shattered-supremacy-the-montgomery-retribution.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "He Gripped His Bruised Wife at the Plaza—Then Her Father’s Security Team Arrived",
+        "zh": "他在广场酒店控制受伤的妻子，随后她父亲的安保队抵达"
+      },
+      "description": {
+        "en": "At a Plaza Hotel gala, Katherine’s abusive husband believes wealth has made him untouchable—until her father arrives with security, evidence, and federal warrants.",
+        "zh": "在广场酒店的盛会上，凯瑟琳的施暴丈夫以为财富能让他不受惩罚，直到她的父亲带着安保、证据与联邦逮捕令赶到。"
+      }
+    },
+    "title": {
+      "en": "Shattered Supremacy: The Montgomery Retribution",
+      "zh": "破碎的霸权：蒙哥马利的反击"
+    },
+    "category": {
+      "en": "Domestic Abuse & Recovery",
+      "zh": "家庭暴力与重生"
+    },
+    "summary": {
+      "en": "At a Plaza Hotel gala, Katherine’s abusive husband believes wealth has made him untouchable—until her father arrives with security, evidence, and federal warrants, giving her a path from terror to recovery.",
+      "zh": "在广场酒店的盛会上，凯瑟琳的施暴丈夫以为财富能让自己不受惩罚；直到她的父亲带着安保、证据与联邦逮捕令赶到，为她打开一条从恐惧通往康复的道路。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains domestic abuse, coercive control, bruising, non-graphic physical violence, arrest, financial crime, and legal proceedings.",
+      "zh": "虚构故事。包含家庭暴力、强制控制、瘀伤、非细节化肢体暴力、逮捕、金融犯罪及司法程序。"
+    },
+    "tone": "burgundy",
+    "glyph": "MR",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1140,
+      "zh": 2020
+    }
+  },
+  {
+    "slug": "i-returned-from-saudi-arabia-and-discovered-my-wifes-dark-secret",
+    "fileNo": "A-133",
+    "cover": "assets/covers/A-133-i-returned-from-saudi-arabia-and-discovered-my-wifes-dark-secret.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "He Returned from Saudi Arabia Early—and Found His Wife Standing over His Mother",
+        "zh": "他提前从沙特归来，发现妻子正站在倒地的母亲面前"
+      },
+      "description": {
+        "en": "Daniel’s early return exposes eight months of elder abuse, theft, and a hidden campaign—along with the housekeeper who risked everything to keep his mother alive.",
+        "zh": "丹尼尔提前归家，揭开长达八个月的虐待老人、盗窃与蓄意迫害，也发现女管家曾冒着一切风险保护母亲。"
+      }
+    },
+    "title": {
+      "en": "I Returned from Saudi Arabia and Discovered My Wife's Dark Secret",
+      "zh": "我从沙特归来，发现了妻子的黑暗秘密"
+    },
+    "category": {
+      "en": "Elder Protection & Justice",
+      "zh": "老人保护与正义"
+    },
+    "summary": {
+      "en": "Returning early from Saudi Arabia, Daniel finds his wife abusing his elderly mother and discovers surveillance footage, financial fraud, and the courageous housekeeper who kept his mother alive.",
+      "zh": "丹尼尔提前从沙特归来，撞见妻子虐待年迈母亲，并通过监控录像揭开金融欺诈与长期迫害，也看见那位让母亲活下来的勇敢女管家。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains elder abuse, food and medication deprivation, non-graphic physical violence and injury, financial exploitation, arrest, and legal proceedings.",
+      "zh": "虚构故事。包含虐待老人、剥夺食物与药物、非细节化肢体暴力及受伤、经济剥削、逮捕与司法程序。"
+    },
+    "tone": "emerald",
+    "glyph": "SB",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1516,
+      "zh": 2704
+    }
+  },
+  {
+    "slug": "the-veiled-sovereign-the-hotel-maids-revenge",
+    "fileNo": "A-134",
+    "cover": "assets/covers/A-134-the-veiled-sovereign-the-hotel-maids-revenge.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "A Bride Humiliated a Little Boy—Then the Hotel Maid Revealed Who She Was",
+        "zh": "新娘羞辱小男孩，随后酒店女佣揭开真实身份"
+      },
+      "description": {
+        "en": "A ruthless bride attacks a frightened child, unaware the maid who intervenes is the groom’s long-lost mother and the true owner behind the wedding.",
+        "zh": "残酷的新娘伤害受惊的孩子，却不知道出手保护他的女佣正是新郎失散多年的母亲，也是婚礼背后的真正主人。"
+      }
+    },
+    "title": {
+      "en": "The Veiled Sovereign: The Hotel Maid's Revenge",
+      "zh": "面纱下的主宰：酒店女佣的反击"
+    },
+    "category": {
+      "en": "Hidden Identity & Family Reunion",
+      "zh": "隐藏身份与家庭重聚"
+    },
+    "summary": {
+      "en": "When a bride shoves a five-year-old catering worker’s son, hotel maid Helen rushes to protect him—and reveals herself as the groom’s long-lost mother and owner of the estate funding the wedding.",
+      "zh": "新娘推倒餐饮人员五岁的儿子后，酒店女佣海伦冲上前保护孩子，并揭开自己既是新郎失散多年的母亲，也是资助婚礼的产业主人。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains child mistreatment, a non-graphic shove, family separation, fraud, arrest, and emotional distress.",
+      "zh": "虚构故事。包含虐待儿童、非细节化推搡、家庭分离、欺诈、逮捕与情绪困扰。"
+    },
+    "tone": "navy",
+    "glyph": "VS",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1335,
+      "zh": 2540
+    }
+  },
+  {
+    "slug": "shadows-of-the-whitmore-a-brothers-betrayal-and-the-retribution-at-table-four",
+    "fileNo": "A-135",
+    "cover": "assets/covers/A-135-shadows-of-the-whitmore-a-brothers-betrayal-and-the-retribution-at-table-four.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "Shadows of the Whitmore: A Brother's Betrayal and the Retribution at Table Four",
+        "zh": "惠特莫尔家族的阴影：兄弟背叛与四号桌的反击"
+      },
+      "description": {
+        "en": "At a Whitmore gala, a father finds his daughter injured and finally exposes the brother who used the family name to hide fraud, intimidation, and violence.",
+        "zh": "在惠特莫尔家族的盛会上，一位父亲发现女儿受伤，并终于揭穿那个借家族声望掩盖欺诈、恐吓与暴力的兄弟。"
+      }
+    },
+    "title": {
+      "en": "Shadows of the Whitmore: A Brother's Betrayal and the Retribution at Table Four",
+      "zh": "惠特莫尔家族的阴影：兄弟背叛与四号桌的反击"
+    },
+    "category": {
+      "en": "Child Protection & Family Betrayal",
+      "zh": "儿童保护与家族背叛"
+    },
+    "summary": {
+      "en": "At a Whitmore gala, a father finds his daughter injured and finally exposes the brother who used the family name to hide fraud, intimidation, and violence.",
+      "zh": "在惠特莫尔家族的盛会上，一位父亲发现女儿受伤，并终于揭穿那个借家族声望掩盖欺诈、恐吓与暴力的兄弟。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains family violence, non-graphic injury, intimidation, financial crime, arrest, and estrangement.",
+      "zh": "虚构故事。包含家庭暴力、非细节化伤害、恐吓、金融犯罪、逮捕及家庭决裂。"
+    },
+    "tone": "burgundy",
+    "glyph": "WB",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 537,
+      "zh": 1012
+    }
+  },
+  {
+    "slug": "the-empires-cracking-vault-the-mall-attack-that-destroyed-a-billionaire",
+    "fileNo": "A-136",
+    "cover": "assets/covers/A-136-the-empires-cracking-vault-the-mall-attack-that-destroyed-a-billionaire.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Empire’s Cracking Vault: The Mall Attack That Destroyed a Billionaire",
+        "zh": "帝国崩裂的金库：摧毁亿万富翁的商场袭击"
+      },
+      "description": {
+        "en": "A pregnant witness survives a brutal public attack, while security footage and a hidden server expose the billionaire who tried to silence her.",
+        "zh": "一名怀孕证人在商场遭遇残酷袭击后幸存，监控录像与隐藏服务器则揭露了企图让她永远沉默的亿万富翁。"
+      }
+    },
+    "title": {
+      "en": "The Empire’s Cracking Vault: The Mall Attack That Destroyed a Billionaire",
+      "zh": "帝国崩裂的金库：摧毁亿万富翁的商场袭击"
+    },
+    "category": {
+      "en": "Domestic Violence & Corporate Crime",
+      "zh": "家庭暴力与企业犯罪"
+    },
+    "summary": {
+      "en": "A pregnant witness survives a brutal public attack, while security footage and a hidden server expose the billionaire who tried to silence her.",
+      "zh": "一名怀孕证人在商场遭遇残酷袭击后幸存，监控录像与隐藏服务器则揭露了企图让她永远沉默的亿万富翁。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains severe domestic violence, pregnancy complications, blood, emergency surgery, attempted murder, and corruption.",
+      "zh": "虚构故事。包含严重家庭暴力、妊娠并发症、血液、急诊手术、谋杀未遂与腐败。"
+    },
+    "tone": "crimson",
+    "glyph": "CV",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1317,
+      "zh": 2779
+    }
+  },
+  {
+    "slug": "the-legend-of-the-open-road-the-old-man-they-humiliated",
+    "fileNo": "A-137",
+    "cover": "assets/covers/A-137-the-legend-of-the-open-road-the-old-man-they-humiliated.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Legend of the Open Road: The Old Man They Humiliated",
+        "zh": "公路传奇：被羞辱的老人"
+      },
+      "description": {
+        "en": "Bikers mock an old man and desecrate his late son’s handmade cane, only to learn the legacy they insulted—and receive a lesson in earned respect.",
+        "zh": "一群骑手嘲笑老人并亵渎其亡子亲手制作的手杖，却意外得知自己侮辱的传奇，并学会尊重必须靠行动赢得。"
+      }
+    },
+    "title": {
+      "en": "The Legend of the Open Road: The Old Man They Humiliated",
+      "zh": "公路传奇：被羞辱的老人"
+    },
+    "category": {
+      "en": "Dignity, Memory & Redemption",
+      "zh": "尊严、记忆与救赎"
+    },
+    "summary": {
+      "en": "Bikers mock an old man and desecrate his late son’s handmade cane, only to learn the legacy they insulted—and receive a lesson in earned respect.",
+      "zh": "一群骑手嘲笑老人并亵渎其亡子亲手制作的手杖，却意外得知自己侮辱的传奇，并学会尊重必须靠行动赢得。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains bullying, bereavement, threatened violence, a past crash and burns, and emotional distress.",
+      "zh": "虚构故事。包含霸凌、丧亲、暴力威胁、过往车祸与烧伤，以及情绪困扰。"
+    },
+    "tone": "navy",
+    "glyph": "OR",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1746,
+      "zh": 3517
+    }
+  },
+  {
+    "slug": "the-blackwood-legacy-the-gold-diggers-fatal-mistake",
+    "fileNo": "A-138",
+    "cover": "assets/covers/A-138-the-blackwood-legacy-the-gold-diggers-fatal-mistake.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Blackwood Legacy: The Gold Digger’s Fatal Mistake",
+        "zh": "布莱克伍德遗产：拜金女的致命错误"
+      },
+      "description": {
+        "en": "A calculating fiancée boasts that she will seize the Blackwood fortune, unaware her confession is being heard and recorded by the man she plans to marry.",
+        "zh": "一名精于算计的未婚妻炫耀自己将夺取布莱克伍德家产，却不知道她的供词正被准新郎实时听见并录下。"
+      }
+    },
+    "title": {
+      "en": "The Blackwood Legacy: The Gold Digger’s Fatal Mistake",
+      "zh": "布莱克伍德遗产：拜金女的致命错误"
+    },
+    "category": {
+      "en": "Deception & Family Protection",
+      "zh": "欺骗与家庭保护"
+    },
+    "summary": {
+      "en": "A calculating fiancée boasts that she will seize the Blackwood fortune, unaware her confession is being heard and recorded by the man she plans to marry.",
+      "zh": "一名精于算计的未婚妻炫耀自己将夺取布莱克伍德家产，却不知道她的供词正被准新郎实时听见并录下。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains emotional abuse, deception, coercive removal, surveillance, and financial manipulation.",
+      "zh": "虚构故事。包含情感虐待、欺骗、强制驱离、监控与财务操纵。"
+    },
+    "tone": "emerald",
+    "glyph": "BL",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 995,
+      "zh": 1909
+    }
+  },
+  {
+    "slug": "the-shadows-of-isolation-a-fathers-return",
+    "fileNo": "A-139",
+    "cover": "assets/covers/A-139-the-shadows-of-isolation-a-fathers-return.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Shadows of Isolation: A Father’s Return",
+        "zh": "孤立的阴影：父亲归来"
+      },
+      "description": {
+        "en": "An isolated young artist faces escalating abuse from her stepmother until her father returns, witnesses the truth, and ends the imprisonment.",
+        "zh": "一名被孤立的年轻艺术家遭继母不断升级的虐待，直到父亲归来亲眼看见真相，结束这场囚禁。"
+      }
+    },
+    "title": {
+      "en": "The Shadows of Isolation: A Father’s Return",
+      "zh": "孤立的阴影：父亲归来"
+    },
+    "category": {
+      "en": "Disability Abuse & Rescue",
+      "zh": "残障虐待与救援"
+    },
+    "summary": {
+      "en": "An isolated young artist faces escalating abuse from her stepmother until her father returns, witnesses the truth, and ends the imprisonment.",
+      "zh": "一名被孤立的年轻艺术家遭继母不断升级的虐待，直到父亲归来亲眼看见真相，结束这场囚禁。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains disability abuse, false imprisonment, threat of scalding, police intervention, and trauma.",
+      "zh": "虚构故事。包含残障虐待、非法拘禁、烫伤威胁、警方介入与创伤。"
+    },
+    "tone": "slate",
+    "glyph": "SI",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1091,
+      "zh": 2078
+    }
+  },
+  {
+    "slug": "the-surgeons-fall-witnessing-the-unthinkable",
+    "fileNo": "A-140",
+    "cover": "assets/covers/A-140-the-surgeons-fall-witnessing-the-unthinkable.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Surgeon’s Fall: Witnessing the Unthinkable",
+        "zh": "外科医生的坠落：目睹不可想象之事"
+      },
+      "description": {
+        "en": "A senior surgeon assaults and threatens a pregnant colleague in a hospital corridor, unaware the CEO has witnessed and preserved every second.",
+        "zh": "一名资深外科医生在医院走廊袭击并威胁怀孕同事，却不知道院长已经目睹并保存了全过程。"
+      }
+    },
+    "title": {
+      "en": "The Surgeon’s Fall: Witnessing the Unthinkable",
+      "zh": "外科医生的坠落：目睹不可想象之事"
+    },
+    "category": {
+      "en": "Workplace Abuse & Medical Ethics",
+      "zh": "职场虐待与医疗伦理"
+    },
+    "summary": {
+      "en": "A senior surgeon assaults and threatens a pregnant colleague in a hospital corridor, unaware the CEO has witnessed and preserved every second.",
+      "zh": "一名资深外科医生在医院走廊袭击并威胁怀孕同事，却不知道院长已经目睹并保存了全过程。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains workplace harassment, physical intimidation, pregnancy-related threats, termination, and criminal complaint.",
+      "zh": "虚构故事。包含职场骚扰、肢体威胁、针对孕妇的恐吓、解雇与刑事报案。"
+    },
+    "tone": "steel",
+    "glyph": "SF",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 917,
+      "zh": 1756
+    }
+  },
+  {
+    "slug": "the-birthmark-of-truth-an-empires-collapse",
+    "fileNo": "A-141",
+    "cover": "assets/covers/A-141-the-birthmark-of-truth-an-empires-collapse.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Birthmark of Truth: An Empire’s Collapse",
+        "zh": "真相的胎记：一个帝国的崩塌"
+      },
+      "description": {
+        "en": "A newborn’s distinctive birthmark destroys a wealthy ex-husband’s paternity lies while the mother’s preserved audit files ignite a federal fraud raid.",
+        "zh": "新生儿独特的胎记击碎富有前夫的亲子谎言，而母亲保存的审计文件也引爆了一场联邦欺诈突袭。"
+      }
+    },
+    "title": {
+      "en": "The Birthmark of Truth: An Empire’s Collapse",
+      "zh": "真相的胎记：一个帝国的崩塌"
+    },
+    "category": {
+      "en": "Betrayal, Paternity & Corporate Fraud",
+      "zh": "背叛、亲子关系与企业欺诈"
+    },
+    "summary": {
+      "en": "A newborn’s distinctive birthmark destroys a wealthy ex-husband’s paternity lies while the mother’s preserved audit files ignite a federal fraud raid.",
+      "zh": "新生儿独特的胎记击碎富有前夫的亲子谎言，而母亲保存的审计文件也引爆了一场联邦欺诈突袭。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains abandonment during pregnancy, financial abuse, threats, medical themes, fraud, and federal investigation.",
+      "zh": "虚构故事。包含孕期遗弃、经济虐待、威胁、医疗情节、欺诈与联邦调查。"
+    },
+    "tone": "indigo",
+    "glyph": "BT",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1495,
+      "zh": 2827
+    }
+  },
+  {
+    "slug": "the-price-of-survival-a-daughters-reckoning",
+    "fileNo": "A-142",
+    "cover": "assets/covers/A-142-the-price-of-survival-a-daughters-reckoning.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Price of Survival: A Daughter’s Reckoning",
+        "zh": "生存的代价：女儿的清算"
+      },
+      "description": {
+        "en": "A woman protecting money for cancer treatment records the moment her family chooses her brother’s gambling debt over her life—and finally chooses herself.",
+        "zh": "一名为癌症治疗保护救命钱的女性，录下家人将弟弟赌债置于她生命之上的瞬间，并终于选择保护自己。"
+      }
+    },
+    "title": {
+      "en": "The Price of Survival: A Daughter’s Reckoning",
+      "zh": "生存的代价：女儿的清算"
+    },
+    "category": {
+      "en": "Family Abuse & Self-Preservation",
+      "zh": "家庭虐待与自我保护"
+    },
+    "summary": {
+      "en": "A woman protecting money for cancer treatment records the moment her family chooses her brother’s gambling debt over her life—and finally chooses herself.",
+      "zh": "一名为癌症治疗保护救命钱的女性，录下家人将弟弟赌债置于她生命之上的瞬间，并终于选择保护自己。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains cancer, strangulation, family abuse, gambling addiction, police response, and legal proceedings.",
+      "zh": "虚构故事。包含癌症、扼颈、家庭虐待、赌博成瘾、警方介入与司法程序。"
+    },
+    "tone": "burgundy",
+    "glyph": "PS",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1826,
+      "zh": 3374
+    }
+  },
+  {
+    "slug": "the-cracked-foundation-a-husbands-awakening",
+    "fileNo": "A-143",
+    "cover": "assets/covers/A-143-the-cracked-foundation-a-husbands-awakening.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Cracked Foundation: A Husband’s Awakening",
+        "zh": "破裂的地基：丈夫的觉醒"
+      },
+      "description": {
+        "en": "A husband witnesses his mother attacking his wife beside their baby’s crib and finally confronts the abuse he had refused to see.",
+        "zh": "一名丈夫亲眼看见母亲在婴儿床旁袭击妻子，终于直面自己曾拒绝相信的虐待。"
+      }
+    },
+    "title": {
+      "en": "The Cracked Foundation: A Husband’s Awakening",
+      "zh": "破裂的地基：丈夫的觉醒"
+    },
+    "category": {
+      "en": "Domestic Abuse & Family Protection",
+      "zh": "家庭暴力与家人保护"
+    },
+    "summary": {
+      "en": "A husband witnesses his mother attacking his wife beside their baby’s crib and finally confronts the abuse he had refused to see.",
+      "zh": "一名丈夫亲眼看见母亲在婴儿床旁袭击妻子，终于直面自己曾拒绝相信的虐待。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains domestic violence, head injury, infant distress, coercive control, and family estrangement.",
+      "zh": "虚构故事。包含家庭暴力、头部受伤、婴儿惊吓、强制控制与家庭决裂。"
+    },
+    "tone": "crimson",
+    "glyph": "CF",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1705,
+      "zh": 3209
+    }
+  },
+  {
+    "slug": "the-delivery-room-reckoning-a-family-dynasty-shattered",
+    "fileNo": "A-144",
+    "cover": "assets/covers/A-144-the-delivery-room-reckoning-a-family-dynasty-shattered.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Delivery Room Reckoning: A Family Dynasty Shattered",
+        "zh": "产房清算：家族王朝的粉碎"
+      },
+      "description": {
+        "en": "A wealthy mother-in-law terrorizes a high-risk pregnant patient with forced settlement papers until her son and hospital security intervene.",
+        "zh": "一名富有的婆婆用强迫签署的和解文件恐吓高危孕妇，直到她的儿子与医院安保赶来制止。"
+      }
+    },
+    "title": {
+      "en": "The Delivery Room Reckoning: A Family Dynasty Shattered",
+      "zh": "产房清算：家族王朝的粉碎"
+    },
+    "category": {
+      "en": "Pregnancy Protection & Family Reckoning",
+      "zh": "孕妇保护与家族清算"
+    },
+    "summary": {
+      "en": "A wealthy mother-in-law terrorizes a high-risk pregnant patient with forced settlement papers until her son and hospital security intervene.",
+      "zh": "一名富有的婆婆用强迫签署的和解文件恐吓高危孕妇，直到她的儿子与医院安保赶来制止。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains pregnancy-related abuse, physical intimidation, coercion, hospital security response, and arrest.",
+      "zh": "虚构故事。包含针对孕妇的虐待、肢体威胁、胁迫、医院安保介入与逮捕。"
+    },
+    "tone": "rose",
+    "glyph": "DR",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 843,
+      "zh": 1609
+    }
+  },
+  {
+    "slug": "the-locked-iron-gates-a-matriarchs-ultimate-reckoning",
+    "fileNo": "A-145",
+    "cover": "assets/covers/A-145-the-locked-iron-gates-a-matriarchs-ultimate-reckoning.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Locked Iron Gates: A Matriarch’s Ultimate Reckoning",
+        "zh": "紧锁的铁门：女族长的终极清算"
+      },
+      "description": {
+        "en": "An entitled couple arrives with a moving van expecting another bailout, but the family matriarch has already protected the children and exposed stolen charity funds.",
+        "zh": "一对特权夫妻带着搬家车上门索要又一次救助，却发现女族长早已保护孩子，并揭露他们盗用慈善资金。"
+      }
+    },
+    "title": {
+      "en": "The Locked Iron Gates: A Matriarch’s Ultimate Reckoning",
+      "zh": "紧锁的铁门：女族长的终极清算"
+    },
+    "category": {
+      "en": "Entitlement & Financial Accountability",
+      "zh": "特权与财务问责"
+    },
+    "summary": {
+      "en": "An entitled couple arrives with a moving van expecting another bailout, but the family matriarch has already protected the children and exposed stolen charity funds.",
+      "zh": "一对特权夫妻带着搬家车上门索要又一次救助，却发现女族长早已保护孩子，并揭露他们盗用慈善资金。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains family conflict, financial ruin, alleged charity fraud, custody action, and emotional manipulation.",
+      "zh": "虚构故事。包含家庭冲突、财务破产、涉嫌慈善欺诈、监护行动与情感操纵。"
+    },
+    "tone": "emerald",
+    "glyph": "IG",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 931,
+      "zh": 2219
+    }
+  },
+  {
+    "slug": "the-sterling-vance-reckoning-a-wedding-of-glass-and-ashes",
+    "fileNo": "A-146",
+    "cover": "assets/covers/A-146-the-sterling-vance-reckoning-a-wedding-of-glass-and-ashes.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Sterling-Vance Reckoning: A Wedding of Glass and Ashes",
+        "zh": "斯特林—万斯清算：玻璃与灰烬的婚礼"
+      },
+      "description": {
+        "en": "A bride records violent extortion behind the dressing-room doors until her father arrives with police, lawyers, and the power to freeze a dynasty’s assets.",
+        "zh": "新娘在更衣室门后录下暴力勒索，直到父亲带着警察、律师与冻结整个家族资产的力量赶到。"
+      }
+    },
+    "title": {
+      "en": "The Sterling-Vance Reckoning: A Wedding of Glass and Ashes",
+      "zh": "斯特林—万斯清算：玻璃与灰烬的婚礼"
+    },
+    "category": {
+      "en": "Wedding Abuse & Financial Crime",
+      "zh": "婚礼虐待与金融犯罪"
+    },
+    "summary": {
+      "en": "A bride records violent extortion behind the dressing-room doors until her father arrives with police, lawyers, and the power to freeze a dynasty’s assets.",
+      "zh": "新娘在更衣室门后录下暴力勒索，直到父亲带着警察、律师与冻结整个家族资产的力量赶到。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains physical abuse, bruising, extortion, financial crime, police action, and wedding distress.",
+      "zh": "虚构故事。包含身体虐待、瘀伤、勒索、金融犯罪、警方行动与婚礼创伤。"
+    },
+    "tone": "navy",
+    "glyph": "SV",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 870,
+      "zh": 1669
+    }
+  },
+  {
+    "slug": "the-penthouse-collapse-a-billionaires-betrayal-and-the-reckoning-at-table-a",
+    "fileNo": "A-147",
+    "cover": "assets/covers/A-147-the-penthouse-collapse-a-billionaires-betrayal-and-the-reckoning-at-table-a.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Penthouse Collapse: A Billionaire’s Betrayal and the Reckoning at Table A",
+        "zh": "顶层公寓崩塌：亿万富翁的背叛与A桌清算"
+      },
+      "description": {
+        "en": "After discovering her husband’s pregnant mistress, a self-made woman is brutally assaulted in the penthouse she owns—where security cameras preserve the truth.",
+        "zh": "一名白手起家的女性发现丈夫的情人怀孕后，在自己拥有的顶层公寓遭到残酷袭击，而安保摄像头完整保存了真相。"
+      }
+    },
+    "title": {
+      "en": "The Penthouse Collapse: A Billionaire’s Betrayal and the Reckoning at Table A",
+      "zh": "顶层公寓崩塌：亿万富翁的背叛与A桌清算"
+    },
+    "category": {
+      "en": "Domestic Violence & Financial Independence",
+      "zh": "家庭暴力与经济独立"
+    },
+    "summary": {
+      "en": "After discovering her husband’s pregnant mistress, a self-made woman is brutally assaulted in the penthouse she owns—where security cameras preserve the truth.",
+      "zh": "一名白手起家的女性发现丈夫的情人怀孕后，在自己拥有的顶层公寓遭到残酷袭击，而安保摄像头完整保存了真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains infidelity, severe domestic violence, fractured ribs, blood, emergency care, police arrest, and coercive abuse.",
+      "zh": "虚构故事。包含不忠、严重家庭暴力、肋骨骨折、血液、急救、警方逮捕与强制虐待。"
+    },
+    "tone": "onyx",
+    "glyph": "PC",
+    "chapterCount": {
+      "en": 2,
+      "zh": 2
+    },
+    "readingUnits": {
+      "en": 2089,
+      "zh": 3989
+    }
+  },
+  {
+    "slug": "the-emerald-cut-reckoning-how-a-thrown-ring-crashed-an-empire",
+    "fileNo": "A-148",
+    "cover": "assets/covers/A-148-the-emerald-cut-reckoning-how-a-thrown-ring-crashed-an-empire.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Emerald-Cut Reckoning: How a Thrown Ring Crashed an Empire",
+        "zh": "祖母绿切割的清算：一枚被扔掉的戒指如何击垮帝国"
+      },
+      "description": {
+        "en": "A matriarch rips away and throws a bride’s heirloom ring, unaware the supposedly ordinary orphan controls the bank financing her family’s empire.",
+        "zh": "一位女族长扯下并扔掉新娘的传家戒指，却不知道这个看似普通的孤女掌控着为她家族帝国融资的银行。"
+      }
+    },
+    "title": {
+      "en": "The Emerald-Cut Reckoning: How a Thrown Ring Crashed an Empire",
+      "zh": "祖母绿切割的清算：一枚被扔掉的戒指如何击垮帝国"
+    },
+    "category": {
+      "en": "Hidden Wealth & Wedding Reckoning",
+      "zh": "隐藏财富与婚礼清算"
+    },
+    "summary": {
+      "en": "A matriarch rips away and throws a bride’s heirloom ring, unaware the supposedly ordinary orphan controls the bank financing her family’s empire.",
+      "zh": "一位女族长扯下并扔掉新娘的传家戒指，却不知道这个看似普通的孤女掌控着为她家族帝国融资的银行。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains class humiliation, minor blood, financial retaliation, wedding cancellation, and emotional distress.",
+      "zh": "虚构故事。包含阶级羞辱、少量血液、财务反击、取消婚礼与情绪困扰。"
+    },
+    "tone": "emerald",
+    "glyph": "ER",
+    "chapterCount": {
+      "en": 2,
+      "zh": 2
+    },
+    "readingUnits": {
+      "en": 1626,
+      "zh": 3156
+    }
+  },
+  {
+    "slug": "shattered-sanctuary-the-fifty-million-dollar-betrayal",
+    "fileNo": "A-149",
+    "cover": "assets/covers/A-149-shattered-sanctuary-the-fifty-million-dollar-betrayal.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "Shattered Sanctuary: The Fifty-Million-Dollar Betrayal",
+        "zh": "破碎的庇护所：五千万美元的背叛"
+      },
+      "description": {
+        "en": "A celebrated youth advocate attacks her forensic-auditor daughter-in-law, desperate to destroy evidence of fifty million dollars stolen from vulnerable children.",
+        "zh": "一名备受赞誉的青少年权益倡导者袭击担任法证审计员的儿媳，企图销毁她盗取五千万儿童救助金的证据。"
+      }
+    },
+    "title": {
+      "en": "Shattered Sanctuary: The Fifty-Million-Dollar Betrayal",
+      "zh": "破碎的庇护所：五千万美元的背叛"
+    },
+    "category": {
+      "en": "Domestic Abuse & Public Corruption",
+      "zh": "家庭暴力与公共腐败"
+    },
+    "summary": {
+      "en": "A celebrated youth advocate attacks her forensic-auditor daughter-in-law, desperate to destroy evidence of fifty million dollars stolen from vulnerable children.",
+      "zh": "一名备受赞誉的青少年权益倡导者袭击担任法证审计员的儿媳，企图销毁她盗取五千万儿童救助金的证据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains severe domestic violence, infant distress, public corruption, stolen child-welfare funds, and federal investigation.",
+      "zh": "虚构故事。包含严重家庭暴力、婴儿惊吓、公共腐败、盗用儿童福利资金与联邦调查。"
+    },
+    "tone": "crimson",
+    "glyph": "SS",
+    "chapterCount": {
+      "en": 2,
+      "zh": 2
+    },
+    "readingUnits": {
+      "en": 795,
+      "zh": 1511
+    }
+  },
+  {
+    "slug": "the-structural-integrity-of-betrayal",
+    "fileNo": "A-150",
+    "cover": "assets/covers/A-150-the-structural-integrity-of-betrayal.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Structural Integrity of Betrayal",
+        "zh": "背叛的结构完整性"
+      },
+      "description": {
+        "en": "Abandoned with medically fragile triplets, engineer Alana Morrison survives corporate sabotage, rebuilds a billion-dollar company, and creates a safer future for her children.",
+        "zh": "工程师阿拉娜·莫里森在带着体弱三胞胎被遗弃后，挺过企业破坏，重建十亿美元公司，并为孩子们创造更安全的未来。"
+      }
+    },
+    "title": {
+      "en": "The Structural Integrity of Betrayal",
+      "zh": "背叛的结构完整性"
+    },
+    "category": {
+      "en": "Family Betrayal & Resilience",
+      "zh": "家庭背叛与韧性"
+    },
+    "summary": {
+      "en": "Abandoned with medically fragile triplets, engineer Alana Morrison survives corporate sabotage, rebuilds a billion-dollar company, and creates a safer future for her children.",
+      "zh": "工程师阿拉娜·莫里森在带着体弱三胞胎被遗弃后，挺过企业破坏，重建十亿美元公司，并为孩子们创造更安全的未来。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains premature birth, child illness, infidelity, abandonment, custody conflict, financial fraud, institutional corruption, and arrest.",
+      "zh": "虚构故事。包含早产、儿童疾病、不忠、遗弃、监护权冲突、金融欺诈、制度腐败与逮捕。"
+    },
+    "tone": "steel",
+    "glyph": "SI",
+    "chapterCount": {
+      "en": 13,
+      "zh": 13
+    },
+    "readingUnits": {
+      "en": 1799,
+      "zh": 3817
+    }
+  },
+  {
+    "slug": "the-price-of-dignity-a-showroom-reckoning",
+    "fileNo": "A-151",
+    "cover": "assets/covers/A-151-the-price-of-dignity-a-showroom-reckoning.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": false,
+    "share": {
+      "title": {
+        "en": "The Price of Dignity: A Showroom Reckoning",
+        "zh": "尊严的代价：展厅清算"
+      },
+      "description": {
+        "en": "A decorated military surgeon is profiled and violently restrained while trying to buy her mother a car, then preserves the evidence and turns the showroom into a lesson.",
+        "zh": "一名受勋军医在为母亲买车时遭到歧视与暴力控制；她保存证据，并最终把那间展厅变成一堂问责课。"
+      }
+    },
+    "title": {
+      "en": "The Price of Dignity: A Showroom Reckoning",
+      "zh": "尊严的代价：展厅清算"
+    },
+    "category": {
+      "en": "Discrimination, Dignity & Accountability",
+      "zh": "歧视、尊严与问责"
+    },
+    "summary": {
+      "en": "A decorated military surgeon is profiled and violently restrained while trying to buy her mother a car, then preserves the evidence and turns the showroom into a lesson.",
+      "zh": "一名受勋军医在为母亲买车时遭到歧视与暴力控制；她保存证据，并最终把那间展厅变成一堂问责课。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains racial profiling, police violence, restraint, taser threat, injury, military medical memories, and institutional review.",
+      "zh": "虚构故事。包含种族歧视、警察暴力、约束、泰瑟枪威胁、伤害、军队医疗回忆与机构调查。"
+    },
+    "tone": "navy",
+    "glyph": "PD",
+    "chapterCount": {
+      "en": 4,
+      "zh": 4
+    },
+    "readingUnits": {
+      "en": 1018,
+      "zh": 2020
+    }
+  },
+  {
+    "slug": "the-blue-folder-a-fathers-choice-and-a-mothers-reckoning",
+    "fileNo": "A-152",
+    "cover": "assets/covers/A-152-the-blue-folder-a-fathers-choice-and-a-mothers-reckoning.webp",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Blue Folder: A Father’s Choice and a Mother’s Reckoning",
+        "zh": "蓝色文件夹：父亲的选择与母亲的清算"
+      },
+      "description": {
+        "en": "A woman in high-risk labor is locked alone while her husband drives his family to the mall; a blue medical folder, strangers, and precise records make the truth impossible to erase.",
+        "zh": "一名高危临产女性被丈夫锁在家中，丈夫却载家人去商场；蓝色医疗文件夹、陌生人的援手与精确记录让真相再也无法被抹去。"
+      }
+    },
+    "title": {
+      "en": "The Blue Folder: A Father’s Choice and a Mother’s Reckoning",
+      "zh": "蓝色文件夹：父亲的选择与母亲的清算"
+    },
+    "category": {
+      "en": "Medical Abandonment & Survival",
+      "zh": "医疗遗弃与求生"
+    },
+    "summary": {
+      "en": "A woman in high-risk labor is locked alone while her husband drives his family to the mall; a blue medical folder, strangers, and precise records make the truth impossible to erase.",
+      "zh": "一名高危临产女性被丈夫锁在家中，丈夫却载家人去商场；蓝色医疗文件夹、陌生人的援手与精确记录让真相再也无法被抹去。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains medical abandonment, high-risk twin labor, emergency C-section, family abuse, postpartum trauma, and legal proceedings.",
+      "zh": "虚构故事。包含医疗遗弃、高危双胎分娩、紧急剖宫产、家庭虐待、产后创伤与司法程序。"
+    },
+    "tone": "azure",
+    "glyph": "BF",
+    "chapterCount": {
+      "en": 3,
+      "zh": 3
+    },
+    "readingUnits": {
+      "en": 1242,
+      "zh": 2393
     }
   }
 ];
