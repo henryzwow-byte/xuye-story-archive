@@ -8,8 +8,12 @@
   const advertisingConfigured = siteConfig.adsEnabled === true && /^ca-pub-\d+$/.test(siteConfig.publisherId || "");
   const localKey = "story-analytics-local-v1";
   const legacyConsentKey = "story-analytics-consent-v1";
-  const consentKey = "story-consent-v2";
-  const pending = [];
+  const previousConsentKey = "story-consent-v2";
+  const consentKey = "story-consent-v3";
+  const consentPolicyVersion = "2026-08-07-meta-v1";
+  const consentLifetimeMs = 180 * 24 * 60 * 60 * 1000;
+  const configuredMetaPages = Array.isArray(config.metaPixelPageAllowlist) ? config.metaPixelPageAllowlist : ["home", "library"];
+  const allowedMetaPages = new Set(configuredMetaPages.map((value) => String(value || "").trim()).filter(Boolean));
   const params = new URLSearchParams(location.search);
   const device = matchMedia("(max-width: 700px)").matches ? "mobile" : matchMedia("(max-width: 1100px)").matches ? "tablet" : "desktop";
   let referrerHost = "";
@@ -62,35 +66,62 @@
     writeLocal(data);
   }
 
+  function currentPageType() {
+    return document.body?.dataset.page || "unknown";
+  }
+
+  function metaTrackingAllowed() {
+    return allowedMetaPages.has(currentPageType());
+  }
+
+  function consentScope() {
+    return [
+      consentPolicyVersion,
+      `ga:${Boolean(measurementId)}`,
+      `meta:${Boolean(metaPixelId)}`,
+      `ads:${Boolean(advertisingConfigured)}`
+    ].join("|");
+  }
+
   function readConsent() {
     try {
       const saved = JSON.parse(localStorage.getItem(consentKey) || "null");
-      if (saved && typeof saved.analytics === "boolean" && typeof saved.marketing === "boolean") {
-        return { analytics: saved.analytics, marketing: saved.marketing, saved: true };
-      }
-      const legacy = localStorage.getItem(legacyConsentKey);
-      if (legacy === "granted") return { analytics: true, marketing: false, saved: true };
-      if (legacy === "denied") return { analytics: false, marketing: false, saved: true };
+      const expiresAt = Date.parse(saved?.expires || "");
+      if (
+        saved &&
+        saved.scope === consentScope() &&
+        typeof saved.analytics === "boolean" &&
+        typeof saved.marketing === "boolean" &&
+        Number.isFinite(expiresAt) &&
+        expiresAt > Date.now()
+      ) return { analytics: saved.analytics, marketing: saved.marketing, saved: true, updated: saved.updated, expires: saved.expires };
     } catch {}
     return { analytics: false, marketing: false, saved: false };
   }
 
   function writeConsent(value) {
     try {
-      localStorage.setItem(consentKey, JSON.stringify({ analytics: Boolean(value.analytics), marketing: Boolean(value.marketing), updated: new Date().toISOString() }));
+      const now = new Date();
+      localStorage.setItem(consentKey, JSON.stringify({
+        analytics: Boolean(value.analytics),
+        marketing: Boolean(value.marketing),
+        scope: consentScope(),
+        policyVersion: consentPolicyVersion,
+        updated: now.toISOString(),
+        expires: new Date(now.getTime() + consentLifetimeMs).toISOString()
+      }));
       localStorage.removeItem(legacyConsentKey);
+      localStorage.removeItem(previousConsentKey);
     } catch {}
   }
 
   function analyticsGranted() {
     if (!measurementId) return false;
-    if (config.consentRequired === false) return true;
     return readConsent().analytics;
   }
 
   function marketingGranted() {
-    if (!metaPixelId) return false;
-    if (config.marketingConsentRequired === false) return true;
+    if (!metaPixelId || !metaTrackingAllowed()) return false;
     return readConsent().marketing;
   }
 
@@ -139,7 +170,7 @@
   }
 
   function loadMetaPixel() {
-    if (!metaPixelId || window.__storyMetaLoaded || !marketingGranted()) return;
+    if (!metaPixelId || !metaTrackingAllowed() || window.__storyMetaLoaded || !marketingGranted()) return;
     window.__storyMetaLoaded = true;
     if (!window.fbq) {
       const fbq = window.fbq = function () {
@@ -160,41 +191,26 @@
     window.fbq("init", metaPixelId);
   }
 
+  function clearMetaCookies() {
+    ["_fbp", "_fbc"].forEach((name) => {
+      document.cookie = `${name}=; Max-Age=0; path=/; SameSite=Lax`;
+      if (location.hostname && location.hostname !== "localhost") {
+        document.cookie = `${name}=; Max-Age=0; path=/; domain=.${location.hostname}; SameSite=Lax`;
+      }
+    });
+  }
+
   function sendGoogle(name, payload) {
     if (!analyticsGranted()) return;
     loadGoogleAnalytics();
     window.gtag?.("event", name, payload);
   }
 
-  function compactMetaPayload(payload) {
-    const result = {
-      content_name: payload.story_title || payload.page_title || document.title,
-      content_category: payload.story_category || payload.page_type || "story_archive",
-      file_no: payload.file_no || "",
-      story_slug: payload.story_slug || "",
-      chapter_number: Number(payload.chapter_number) || undefined,
-      chapter_count: Number(payload.chapter_count) || undefined,
-      completion_percent: Number(payload.percent || payload.completion_percent) || undefined,
-      method: payload.method || undefined,
-      placement: payload.placement || undefined,
-      traffic_campaign: payload.traffic_campaign || undefined,
-      traffic_content: payload.traffic_content || undefined
-    };
-    return Object.fromEntries(Object.entries(result).filter(([, value]) => value !== "" && value !== undefined));
-  }
-
-  function sendMeta(name, payload) {
+  function sendMeta(name) {
     if (!marketingGranted()) return;
     loadMetaPixel();
     if (!window.fbq) return;
-    const meta = compactMetaPayload(payload);
     if (name === "page_view") window.fbq("track", "PageView");
-    else if (name === "story_view") window.fbq("track", "ViewContent", meta);
-    else if (name === "reading_milestone") window.fbq("trackCustom", Number(payload.percent) === 100 ? "StoryComplete" : "ReadingMilestone", meta);
-    else if (name === "share_click") window.fbq("trackCustom", "StoryShare", meta);
-    else if (name === "illustration_click") window.fbq("trackCustom", "IllustrationOpen", meta);
-    else if (name === "story_card_click") window.fbq("trackCustom", "StoryCardClick", meta);
-    else if (name === "bookmark_toggle") window.fbq("trackCustom", "StoryBookmark", meta);
   }
 
   function track(name, detail = {}) {
@@ -210,31 +226,36 @@
       facebook_click: campaign.fbclid_present
     };
     recordLocal(name, payload);
-    const consent = readConsent();
     if (analyticsGranted()) sendGoogle(name, payload);
-    if (marketingGranted()) sendMeta(name, payload);
-    if ((measurementId || metaPixelId) && !consent.saved) pending.push([name, payload]);
+    if (marketingGranted()) sendMeta(name);
   }
 
   function applyConsent(value) {
-    const choice = { analytics: Boolean(value.analytics), marketing: Boolean(value.marketing) };
+    const previous = readConsent();
+    const choice = {
+      analytics: Boolean(value.analytics && measurementId),
+      marketing: Boolean(value.marketing && (metaPixelId || advertisingConfigured))
+    };
     writeConsent(choice);
     document.querySelector(".analytics-consent")?.remove();
     updateGoogleConsent(choice.analytics);
     if (choice.analytics) loadGoogleAnalytics();
     if (choice.marketing) loadMetaPixel();
-    else window.fbq?.("consent", "revoke");
-    pending.splice(0).forEach(([name, payload]) => {
-      if (choice.analytics) sendGoogle(name, payload);
-      if (choice.marketing) sendMeta(name, payload);
-    });
-    recordLocal("consent_update", { choice: choice.analytics && choice.marketing ? "all" : choice.analytics ? "analytics" : "essential" });
+    else {
+      window.fbq?.("consent", "revoke");
+      clearMetaCookies();
+    }
+    const currentPage = { page_location: location.href.split("#")[0], page_title: document.title, page_type: currentPageType() };
+    if (choice.analytics && !previous.analytics) sendGoogle("page_view", currentPage);
+    if (choice.marketing && !previous.marketing) sendMeta("page_view");
+    recordLocal("consent_update", { choice: choice.analytics && choice.marketing ? "all" : choice.analytics ? "analytics" : choice.marketing ? "marketing" : "essential" });
     if (choice.analytics) sendGoogle("consent_update", { choice: choice.analytics && choice.marketing ? "all" : "analytics" });
     window.dispatchEvent(new CustomEvent("story-consent-updated", { detail: choice }));
   }
 
   function showConsent(force = false) {
-    if (!measurementId && !metaPixelId && !advertisingConfigured) return;
+    const choicesAvailable = Boolean(measurementId || metaPixelId || advertisingConfigured);
+    if (!force && !choicesAvailable) return;
     const saved = readConsent();
     if (!force && saved.saved) {
       if (saved.analytics) loadGoogleAnalytics();
@@ -248,16 +269,24 @@
     banner.setAttribute("role", "dialog");
     banner.setAttribute("aria-modal", "true");
     banner.setAttribute("aria-label", zh ? "隐私与数据设置" : "Privacy and data choices");
-    banner.innerHTML = `<div><strong>${zh ? "选择你的隐私设置" : "Choose your privacy settings"}</strong><p>${zh ? "必要功能始终启用。分析统计帮助我们了解阅读进度；营销统计用于衡量 Facebook 与 Instagram 引流。只有你同意后，相应服务才会加载。我们不发送故事正文、姓名或电子邮箱。" : "Essential functions are always on. Analytics helps us understand reading progress; marketing measurement evaluates Facebook and Instagram referrals. Each provider loads only after your choice. We do not send story text, names or email addresses."}</p></div><div><button type="button" data-consent="essential">${zh ? "仅必要" : "Essential only"}</button><button type="button" data-consent="analytics">${zh ? "仅分析" : "Analytics only"}</button><button type="button" data-consent="all">${zh ? "全部允许" : "Allow all"}</button></div>`;
+    const analyticsAvailable = Boolean(measurementId);
+    const marketingAvailable = Boolean(metaPixelId || advertisingConfigured);
+    const privacyUrl = `privacy.html?lang=${zh ? "zh" : "en"}`;
+    banner.innerHTML = `<div class="consent-copy"><strong>${zh ? "选择你的隐私设置" : "Choose your privacy settings"}</strong><p>${zh ? "必要的本地存储用于语言、阅读进度和你的隐私选择。可选服务默认关闭；Meta Pixel 只会在你明确允许营销 Cookie 后加载，并且不会在单篇故事页加载。" : "Essential local storage supports language, reading progress and your privacy choice. Optional services are off by default. Meta Pixel loads only after explicit marketing consent and never loads on individual story pages."}</p><a href="${privacyUrl}">${zh ? "阅读隐私与 Cookie 政策" : "Read the Privacy & Cookie Policy"}</a></div><form class="consent-form"><label><input type="checkbox" checked disabled><span><b>${zh ? "必要" : "Essential"}</b><small>${zh ? "始终启用；不会发送给 Meta。" : "Always on; not sent to Meta."}</small></span></label><label><input type="checkbox" data-consent-toggle="analytics" ${saved.analytics ? "checked" : ""} ${analyticsAvailable ? "" : "disabled"}><span><b>${zh ? "受众分析" : "Audience analytics"}</b><small>${analyticsAvailable ? (zh ? "用于汇总阅读表现。" : "Measures aggregate reading performance.") : (zh ? "当前未配置。" : "Not currently configured.")}</small></span></label><label><input type="checkbox" data-consent-toggle="marketing" ${saved.marketing ? "checked" : ""} ${marketingAvailable ? "" : "disabled"}><span><b>${zh ? "营销与 Meta Pixel" : "Marketing & Meta Pixel"}</b><small>${marketingAvailable ? (zh ? "用于 Facebook/Instagram 广告归因，仅限非故事页 PageView。" : "Facebook/Instagram attribution; non-story PageView only.") : (zh ? "当前未配置；填写 Pixel ID 后会重新征求同意。" : "Not configured; consent will be requested again after a Pixel ID is added.")}</small></span></label><div class="consent-actions"><button type="button" data-consent="essential">${zh ? "拒绝非必要" : "Reject non-essential"}</button><button type="submit" data-consent="save">${zh ? "保存选择" : "Save choices"}</button><button type="button" data-consent="all">${zh ? "全部允许" : "Allow all"}</button></div></form>`;
     document.body.appendChild(banner);
     banner.querySelector('[data-consent="essential"]').addEventListener("click", () => applyConsent({ analytics: false, marketing: false }));
-    banner.querySelector('[data-consent="analytics"]').addEventListener("click", () => applyConsent({ analytics: true, marketing: false }));
-    banner.querySelector('[data-consent="all"]').addEventListener("click", () => applyConsent({ analytics: true, marketing: true }));
+    banner.querySelector("form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      applyConsent({
+        analytics: banner.querySelector('[data-consent-toggle="analytics"]')?.checked,
+        marketing: banner.querySelector('[data-consent-toggle="marketing"]')?.checked
+      });
+    });
+    banner.querySelector('[data-consent="all"]').addEventListener("click", () => applyConsent({ analytics: analyticsAvailable, marketing: marketingAvailable }));
     banner.querySelector("button")?.focus({ preventScroll: true });
   }
 
   function installConsentLink() {
-    if (!measurementId && !metaPixelId && !advertisingConfigured) return;
     const nav = document.querySelector(".reader-footer nav, .site-footer nav");
     if (!nav || nav.querySelector("[data-privacy-choices]")) return;
     const button = document.createElement("button");
@@ -283,10 +312,13 @@
   document.addEventListener("DOMContentLoaded", () => {
     prepareGoogleConsent();
     const saved = readConsent();
-    if (saved.analytics || config.consentRequired === false) loadGoogleAnalytics();
-    if (saved.marketing || config.marketingConsentRequired === false) loadMetaPixel();
+    if (saved.analytics) loadGoogleAnalytics();
+    if (saved.marketing) loadMetaPixel();
     showConsent();
     installConsentLink();
+    document.addEventListener("click", (event) => {
+      if (event.target.closest?.("[data-open-privacy]")) showConsent(true);
+    });
     track("page_view", { page_location: location.href.split("#")[0], page_title: document.title, referrer_host: (() => { try { return document.referrer ? new URL(document.referrer).hostname : ""; } catch { return ""; } })() });
   }, { once: true });
 })();

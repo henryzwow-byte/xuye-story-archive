@@ -8,8 +8,12 @@
 window.STORY_ANALYTICS_CONFIG = {
   measurementId: "",
   metaPixelId: "",
-  consentRequired: true,
-  marketingConsentRequired: true,
+  /*
+   * Meta measurement is intentionally limited to these non-story pages.
+   * Individual story URLs and titles may refer to health, pregnancy, abuse,
+   * disability or other sensitive themes and must not be sent as Pixel data.
+   */
+  metaPixelPageAllowlist: ["home", "library"],
   debug: false
 };
 
