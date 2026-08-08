@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260807-a152";
+window.STORY_ARCHIVE_VERSION = "20260808-a160-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -6735,5 +6735,165 @@ window.STORY_ARCHIVE = [
       "en": 1242,
       "zh": 2393
     }
+  },
+  {
+    "slug": "the-inheritance-of-paper",
+    "fileNo": "A-153",
+    "cover": "assets/covers/A-153-the-inheritance-of-paper.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Inheritance of Paper", "zh": "纸页上的遗产"},
+      "description": {"en": "After her family dumps her belongings into a rainstorm, a forensic accountant discovers a hidden trust and the paper trail someone tried to bury.", "zh": "家人把她的物品扔进暴雨后，一名法务会计师发现了隐秘信托，以及一条曾被人蓄意掩埋的证据链。"}
+    },
+    "title": {"en": "The Inheritance of Paper", "zh": "纸页上的遗产"},
+    "category": {"en": "Family Betrayal & Inheritance", "zh": "家庭背叛与遗产"},
+    "summary": {"en": "After her family dumps her belongings into a rainstorm, a forensic accountant discovers a hidden trust and the paper trail someone tried to bury.", "zh": "家人把她的物品扔进暴雨后，一名法务会计师发现了隐秘信托，以及一条曾被人蓄意掩埋的证据链。"},
+    "warning": {"en": "Fictional story. Contains emotional abuse, family estrangement, property destruction, inheritance fraud allegations, and legal disputes.", "zh": "虚构故事。包含情感虐待、家庭决裂、财物毁损、遗产欺诈指控与法律纠纷。"},
+    "tone": "slate",
+    "glyph": "IP",
+    "chapterCount": {"en": 6, "zh": 6},
+    "readingUnits": {"en": 1245, "zh": 2326}
+  },
+  {
+    "slug": "the-blue-house-on-elm-street",
+    "fileNo": "A-154",
+    "cover": "assets/covers/A-154-the-blue-house-on-elm-street.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Blue House on Elm Street", "zh": "榆树街的蓝房子"},
+      "description": {"en": "A serviceman returns home to find his mother gone, her blue house under attack, and a forged deed pointing to a wider property scheme.", "zh": "一名军人返乡后发现母亲已离世、蓝房子正遭破坏，而一份伪造契据把他引向更大的房产骗局。"}
+    },
+    "title": {"en": "The Blue House on Elm Street", "zh": "榆树街的蓝房子"},
+    "category": {"en": "Property Fraud & Homecoming", "zh": "房产欺诈与归乡"},
+    "summary": {"en": "A serviceman returns home to find his mother gone, her blue house under attack, and a forged deed pointing to a wider property scheme.", "zh": "一名军人返乡后发现母亲已离世、蓝房子正遭破坏，而一份伪造契据把他引向更大的房产骗局。"},
+    "warning": {"en": "Fictional story. Contains bereavement, property destruction, physical confrontation, firearm threats, gunfire, fraud allegations, and criminal proceedings.", "zh": "虚构故事。包含丧亲、财物毁损、肢体冲突、枪械威胁、枪声、欺诈指控与刑事程序。"},
+    "tone": "navy",
+    "glyph": "BH",
+    "chapterCount": {"en": 3, "zh": 3},
+    "readingUnits": {"en": 1053, "zh": 1967}
+  },
+  {
+    "slug": "the-doll-on-the-marble-table",
+    "fileNo": "A-155",
+    "cover": "assets/covers/A-155-the-doll-on-the-marble-table.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Doll on the Marble Table", "zh": "大理石桌上的布娃娃"},
+      "description": {"en": "A wealthy executive buys a hungry child’s handmade doll and discovers evidence that his own company was used to take homes from families who could not fight back.", "zh": "一名富有的企业高管买下饥饿女孩的手工布娃娃，却在其中发现证据：有人正借他的公司夺走无力反抗家庭的住房。"}
+    },
+    "title": {"en": "The Doll on the Marble Table", "zh": "大理石桌上的布娃娃"},
+    "category": {"en": "Corporate Fraud & Moral Reckoning", "zh": "企业欺诈与道德觉醒"},
+    "summary": {"en": "A wealthy executive buys a hungry child’s handmade doll and discovers evidence that his own company was used to take homes from families who could not fight back.", "zh": "一名富有的企业高管买下饥饿女孩的手工布娃娃，却在其中发现证据：有人正借他的公司夺走无力反抗家庭的住房。"},
+    "warning": {"en": "Fictional story. Contains child hunger, poverty, bereavement, housing displacement, corporate fraud allegations, and criminal investigation.", "zh": "虚构故事。包含儿童饥饿、贫困、丧亲、住房流离、企业欺诈指控与刑事调查。"},
+    "tone": "amber",
+    "glyph": "DM",
+    "chapterCount": {"en": 7, "zh": 7},
+    "readingUnits": {"en": 1195, "zh": 2273}
+  },
+  {
+    "slug": "the-snow-on-the-glass-a-grandmothers-reckoning",
+    "fileNo": "A-156",
+    "cover": "assets/covers/A-156-the-snow-on-the-glass-a-grandmothers-reckoning.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Snow on the Glass: A Grandmother’s Reckoning", "zh": "玻璃上的雪：祖母的清算"},
+      "description": {"en": "Locked barefoot outside on Christmas Eve, a teenager is found by the grandmother who arrives with medical help, trust records, and the truth her father tried to hide.", "zh": "圣诞夜，一名少女被赤脚锁在雪地里；赶来的祖母带来了医疗救助、信托文件，以及父亲试图掩埋的真相。"}
+    },
+    "title": {"en": "The Snow on the Glass: A Grandmother’s Reckoning", "zh": "玻璃上的雪：祖母的清算"},
+    "category": {"en": "Family Abuse & Trust Recovery", "zh": "家庭虐待与信托追索"},
+    "summary": {"en": "Locked barefoot outside on Christmas Eve, a teenager is found by the grandmother who arrives with medical help, trust records, and the truth her father tried to hide.", "zh": "圣诞夜，一名少女被赤脚锁在雪地里；赶来的祖母带来了医疗救助、信托文件，以及父亲试图掩埋的真相。"},
+    "warning": {"en": "Fictional story. Contains child abuse, confinement in extreme cold, threatened hypothermia, coercive family control, intercepted mail, and trust litigation.", "zh": "虚构故事。包含未成年人虐待、极寒禁闭、低温伤害风险、家庭控制、截留信件与信托诉讼。"},
+    "tone": "ice",
+    "glyph": "SG",
+    "chapterCount": {"en": 3, "zh": 3},
+    "readingUnits": {"en": 930, "zh": 1693}
+  },
+  {
+    "slug": "the-missing-title-a-wifes-reckoning",
+    "fileNo": "A-157",
+    "cover": "assets/covers/A-157-the-missing-title-a-wifes-reckoning.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Missing Title: A Wife’s Reckoning", "zh": "消失的产权证：妻子的觉醒"},
+      "description": {"en": "When Selene’s husband sells the SUV titled in her name, an empty blue folder exposes a forged transfer and a second plan involving her future commissions.", "zh": "丈夫擅自卖掉登记在 Selene 名下的 SUV 后，一只空蓝文件夹揭开了伪造转让，以及一项牵涉她未来佣金的第二重计划。"}
+    },
+    "title": {"en": "The Missing Title: A Wife’s Reckoning", "zh": "消失的产权证：妻子的觉醒"},
+    "category": {"en": "Financial Abuse & Independence", "zh": "经济控制与独立"},
+    "summary": {"en": "When Selene’s husband sells the SUV titled in her name, an empty blue folder exposes a forged transfer and a second plan involving her future commissions.", "zh": "丈夫擅自卖掉登记在 Selene 名下的 SUV 后，一只空蓝文件夹揭开了伪造转让，以及一项牵涉她未来佣金的第二重计划。"},
+    "warning": {"en": "Fictional story. Contains financial abuse, identity misuse, forged-document allegations, coercive family control, marital separation, and legal reporting.", "zh": "虚构故事。包含经济虐待、身份资料滥用、文件伪造指控、家庭控制、婚姻分居与报警程序。"},
+    "tone": "teal",
+    "glyph": "MT",
+    "chapterCount": {"en": 4, "zh": 4},
+    "readingUnits": {"en": 958, "zh": 2006}
+  },
+  {
+    "slug": "the-bread-on-the-marble-table",
+    "fileNo": "A-158",
+    "cover": "assets/covers/A-158-the-bread-on-the-marble-table.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Bread on the Marble Table", "zh": "大理石桌上的面包"},
+      "description": {"en": "At his mother’s lavish birthday party, a father finds his hungry daughter rescuing discarded bread and discovers where three years of support payments really went.", "zh": "在母亲奢华的生日宴上，一位父亲发现饥饿的女儿正在捡被丢弃的面包，也终于查明三年抚养款的真正去向。"}
+    },
+    "title": {"en": "The Bread on the Marble Table", "zh": "大理石桌上的面包"},
+    "category": {"en": "Family Fraud & Parental Accountability", "zh": "家庭欺诈与父母责任"},
+    "summary": {"en": "At his mother’s lavish birthday party, a father finds his hungry daughter rescuing discarded bread and discovers where three years of support payments really went.", "zh": "在母亲奢华的生日宴上，一位父亲发现饥饿的女儿正在捡被丢弃的面包，也终于查明三年抚养款的真正去向。"},
+    "warning": {"en": "Fictional story. Contains child hunger, family separation, financial abuse, forged-letter allegations, coercive control, poverty, and legal proceedings.", "zh": "虚构故事。包含儿童饥饿、家庭分离、经济虐待、伪造信件指控、胁迫控制、贫困与法律程序。"},
+    "tone": "marble",
+    "glyph": "BM",
+    "chapterCount": {"en": 4, "zh": 4},
+    "readingUnits": {"en": 989, "zh": 2233}
+  },
+  {
+    "slug": "the-nurse-and-the-soldier",
+    "fileNo": "A-159",
+    "cover": "assets/covers/A-159-the-nurse-and-the-soldier.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Nurse and the Soldier", "zh": "护士与士兵"},
+      "description": {"en": "Minutes after a coerced resignation, a veteran nurse returns to protect vulnerable patients during an emergency—and the records used against her tell a different story.", "zh": "被迫签下离职书几分钟后，一名有军旅背景的护士在急诊危机中返回保护脆弱患者，而曾被用来威胁她的记录最终说出了另一种真相。"}
+    },
+    "title": {"en": "The Nurse and the Soldier", "zh": "护士与士兵"},
+    "category": {"en": "Medical Courage & Workplace Accountability", "zh": "医疗勇气与职场问责"},
+    "summary": {"en": "Minutes after a coerced resignation, a veteran nurse returns to protect vulnerable patients during an emergency—and the records used against her tell a different story.", "zh": "被迫签下离职书几分钟后，一名有军旅背景的护士在急诊危机中返回保护脆弱患者，而曾被用来威胁她的记录最终说出了另一种真相。"},
+    "warning": {"en": "Fictional story, not medical guidance. Contains a hospital emergency, acute delirium, threatened violence, controlled restraint, workplace coercion, veteran trauma, and investigation.", "zh": "虚构故事，不构成医疗指导。包含医院急救、急性意识障碍、暴力风险、受控约束、职场胁迫、军旅创伤与调查。"},
+    "tone": "clinical",
+    "glyph": "NS",
+    "chapterCount": {"en": 3, "zh": 3},
+    "readingUnits": {"en": 862, "zh": 1853}
+  },
+  {
+    "slug": "the-night-my-sister-in-law-stood-guard",
+    "fileNo": "A-160",
+    "cover": "assets/covers/A-160-the-night-my-sister-in-law-stood-guard.jpg",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
+    "isNew": true,
+    "share": {
+      "title": {"en": "The Night My Sister-in-Law Stood Guard", "zh": "嫂子守夜的那一晚"},
+      "description": {"en": "For seventeen nights, Sarah sleeps between her sister-in-law and husband. A line of light beneath the bedroom door finally reveals that she has been standing guard.", "zh": "连续十七个夜晚，Sarah 都睡在嫂子与其丈夫之间。直到一道门缝下的光出现，家人才明白她一直是在守夜。"}
+    },
+    "title": {"en": "The Night My Sister-in-Law Stood Guard", "zh": "嫂子守夜的那一晚"},
+    "category": {"en": "Domestic Coercion & Family Safety", "zh": "家庭胁迫与安全"},
+    "summary": {"en": "For seventeen nights, Sarah sleeps between her sister-in-law and husband. A line of light beneath the bedroom door finally reveals that she has been standing guard.", "zh": "连续十七个夜晚，Sarah 都睡在嫂子与其丈夫之间。直到一道门缝下的光出现，家人才明白她一直是在守夜。"},
+    "warning": {"en": "Fictional story. Contains coercive control, stalking behavior, threatened violence, home intrusion, family betrayal, alleged workplace theft, police response, and trauma recovery.", "zh": "虚构故事。包含胁迫控制、跟踪行为、暴力威胁、住宅侵入、家庭背叛、职场盗窃指控、警方介入与创伤恢复。"},
+    "tone": "midnight",
+    "glyph": "GW",
+    "chapterCount": {"en": 6, "zh": 6},
+    "readingUnits": {"en": 795, "zh": 1516}
   }
 ];

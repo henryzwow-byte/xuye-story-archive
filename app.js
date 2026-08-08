@@ -72,7 +72,7 @@ Object.assign(copy.en, {
   homeSearchHint: "Search opens the complete public library.", publishedStories: "published stories", byAuthor: "By", seriesLabel: "Series", historyProgress: "read",
   seriesTitle: "Series & chapters", standaloneStories: "Standalone stories", noSeriesYet: "Series collections will appear here when connected stories are published.",
   analyticsConsole: "OWNER ANALYTICS", analyticsTitle: "Audience measurement console", analyticsIntro: "This page verifies the event system on this browser. Connect GA4 and Meta Pixel to measure worldwide readership and Facebook campaign performance.", analyticsConnected: "External audience measurement connected", analyticsNotConnected: "GA4 and Meta Pixel are ready but not connected", analyticsSetup: "Add a GA4 Measurement ID and/or Meta Pixel ID in analytics-config.js. Empty IDs send no external data.", analyticsActive: "At least one provider is configured. Reader consent still controls whether its script and events are sent.", localPreview: "This-browser preview", totalViews: "Story visits", totalCompletions: "Completed readings", totalShares: "Share clicks", avgTime: "Average active time", seconds: "sec", illustrationCtr: "Illustration CTR", filePerformance: "Story performance", sourcePerformance: "Traffic source / campaign", globalReport: "Open Google Analytics", analyticsFootnote: "Local figures are visible only in this browser and are not a substitute for global reporting.",
-  privacyAnalyticsTitle: "Audience measurement", privacyAnalyticsText: "When enabled with the reader's permission, GA4 may measure page views, approximate country, language, device, referral source, reading milestones, active time, illustration interactions and shares. Meta Pixel may measure PageView, ViewContent and limited custom reading events for Facebook and Instagram campaign attribution. Story text, names, email addresses and form contents are never sent. Each provider stays off until a valid public ID is added and the corresponding consent is granted.",
+  privacyAnalyticsTitle: "Optional audience measurement", privacyAnalyticsText: "Optional providers are disabled by default. GA4 may load only after analytics consent. Meta Pixel may load only after marketing consent and only on the home and library pages; it is technically blocked from individual story pages. No story title, story category, reading milestone, bookmark, share action, name, email address or form content is intentionally sent to Meta.",
   businessContact: "Business contact", businessContactPending: "This form is the archive’s current public contact channel.", advertisingInactive: "Advertising inventory is now reserved across the site. No third-party advertising is delivered until an approved provider and valid account details are connected.",
   publicContactForm: "Open the public contact form",
   advertisement: "ADVERTISEMENT", adHouseTitle: "A quiet space for a future partner", adHouseBody: "Clearly separated from the story, with no pop-ups, autoplay or interruption.", adPartner: "Advertising information",
@@ -100,7 +100,7 @@ Object.assign(copy.zh, {
   homeSearchHint: "搜索将在完整公开故事库中进行。", publishedStories: "篇已发布故事", byAuthor: "作者", seriesLabel: "系列", historyProgress: "已读",
   seriesTitle: "系列与章节", standaloneStories: "独立故事", noSeriesYet: "当有关联的连载故事发布后，系列会自动显示在这里。",
   analyticsConsole: "站长数据分析", analyticsTitle: "读者数据分析控制台", analyticsIntro: "本页用于验证这台浏览器上的事件采集。接入 GA4 与 Meta Pixel 后，可统计全球阅读表现和 Facebook 帖子引流效果。", analyticsConnected: "外部读者统计已连接", analyticsNotConnected: "GA4 与 Meta Pixel 代码已就绪，但尚未连接", analyticsSetup: "在 analytics-config.js 中填写 GA4 编号或 Meta Pixel ID 即可连接；ID 留空时不会向外发送数据。", analyticsActive: "至少一个统计平台已配置；是否加载及发送事件仍由读者的隐私选择决定。", localPreview: "本浏览器数据预览", totalViews: "故事访问", totalCompletions: "完成阅读", totalShares: "分享点击", avgTime: "平均有效阅读", seconds: "秒", illustrationCtr: "插图点击率", filePerformance: "单篇故事表现", sourcePerformance: "引流来源 / 帖子活动", globalReport: "打开 Google Analytics", analyticsFootnote: "本地数据只存在于这台浏览器中，不能替代全球汇总报表。",
-  privacyAnalyticsTitle: "访问数据分析", privacyAnalyticsText: "在读者同意后，GA4 可统计页面访问、大致国家、语言、设备、引流来源、阅读进度、有效阅读时长、插图互动和分享；Meta Pixel 可统计 PageView、ViewContent 及少量阅读事件，用于衡量 Facebook 与 Instagram 引流。系统不会发送故事正文、姓名、电子邮箱或表单内容。只有填写有效公开 ID 且读者同意相应用途后，对应平台才会启用。",
+  privacyAnalyticsTitle: "可选访问分析", privacyAnalyticsText: "可选服务默认关闭。只有同意受众分析后才可能加载 GA4；只有同意营销 Cookie 后才可能加载 Meta Pixel。Meta Pixel 在技术上仅允许出现在首页和故事库页面，单篇故事页会强制阻止加载。系统不会主动向 Meta 发送故事标题、分类、阅读进度、收藏、分享行为、姓名、电子邮箱或表单内容。",
   businessContact: "业务联系", businessContactPending: "此表单是故事档案当前使用的公开联系渠道。", advertisingInactive: "全站广告位已经预留。只有在通过平台审核并接入有效广告账户后，才会向读者加载第三方广告。",
   publicContactForm: "打开公开联系表单",
   advertisement: "广告", adHouseTitle: "为未来合作伙伴保留的一席之地", adHouseBody: "与故事内容清晰分隔，不弹窗、不自动播放，也不中断阅读。", adPartner: "广告合作说明",
@@ -154,8 +154,7 @@ function adSlot(slotKey, format = "responsive", extraClass = "") {
 }
 
 function advertisingConsentGranted() {
-  if (siteConfig.adConsentRequired === false) return true;
-  try { return localStorage.getItem("story-analytics-consent-v1") === "granted"; } catch { return false; }
+  return Boolean(window.StoryAnalytics?.getConsent?.().marketing);
 }
 
 function activateProviderAds() {
@@ -437,6 +436,22 @@ function socialImageUrl(story) {
 
 function shareCopy(story, field) {
   return local(story.share?.[field]) || (field === "title" ? local(story.title) : local(story.summary));
+}
+
+function fictionDisclosure() {
+  return lang === "zh" ? "虚构故事" : "Fictional Story";
+}
+
+function disclosedShareTitle(value) {
+  const disclosure = fictionDisclosure();
+  const text = String(value || "").trim();
+  return text.toLowerCase().startsWith(disclosure.toLowerCase()) ? text : `${disclosure} — ${text}`;
+}
+
+function disclosedShareDescription(value) {
+  const disclosure = fictionDisclosure();
+  const text = String(value || "").trim();
+  return text.toLowerCase().startsWith(disclosure.toLowerCase()) ? text : `${disclosure}. ${text}`;
 }
 
 function storyTags(story) {
@@ -830,15 +845,17 @@ function proseHtml(story, content = story.content[lang]) {
 function updateDocumentMetadata(story, chapter, chapterIndex, totalChapters) {
   const canonicalUrl = new URL(chapterUrl(story, chapterIndex), location.href).href;
   const pageTitle = totalChapters > 1 ? `${chapter.title} — ${local(story.title)}` : local(story.title);
+  const socialTitle = disclosedShareTitle(pageTitle);
+  const socialDescription = disclosedShareDescription(shareCopy(story, "description"));
   const setters = [
-    ['meta[name="description"]', local(story.summary)],
-    ['meta[property="og:title"]', pageTitle],
-    ['meta[property="og:description"]', shareCopy(story, "description")],
+    ['meta[name="description"]', disclosedShareDescription(local(story.summary))],
+    ['meta[property="og:title"]', socialTitle],
+    ['meta[property="og:description"]', socialDescription],
     ['meta[property="og:url"]', canonicalUrl],
     ['meta[property="og:image"]', socialImageUrl(story)],
     ['meta[property="og:locale"]', lang === "zh" ? "zh_CN" : "en_US"],
-    ['meta[name="twitter:title"]', pageTitle],
-    ['meta[name="twitter:description"]', shareCopy(story, "description")],
+    ['meta[name="twitter:title"]', socialTitle],
+    ['meta[name="twitter:description"]', socialDescription],
     ['meta[name="twitter:image"]', socialImageUrl(story)]
   ];
   setters.forEach(([selector, value]) => {
@@ -850,8 +867,9 @@ function updateDocumentMetadata(story, chapter, chapterIndex, totalChapters) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: pageTitle,
-    description: local(story.summary),
+    headline: socialTitle,
+    description: disclosedShareDescription(local(story.summary)),
+    genre: "Fiction",
     image: [socialImageUrl(story)],
     datePublished: story.published,
     dateModified: story.modified || "2026-07-22",
@@ -1141,7 +1159,7 @@ function initStory() {
   }
   const isFirstChapter = chapterIndex === 0;
   const isFinalChapter = chapterIndex === chapters.length - 1;
-  document.title = `${chapters.length > 1 ? `${chapter.title} — ` : ""}${local(story.title)} — Story Archive`;
+  document.title = `${fictionDisclosure()} — ${chapters.length > 1 ? `${chapter.title} — ` : ""}${local(story.title)} — Story Archive`;
   updateDocumentMetadata(story, chapter, chapterIndex, chapters.length);
   const storyIllustration = isFirstChapter && story.cover ? `<figure class="story-illustration"><button type="button" class="story-illustration-image" id="view-story-illustration" aria-label="${esc(t("viewIllustration"))}"><img src="${esc(story.cover)}" alt="${esc(`${local(story.title)} — ${t("storyIllustration")}`)}" width="960" height="640" loading="eager" decoding="async" fetchpriority="high"><div class="story-illustration-overlay"><span>${esc(t("file"))} ${esc(story.fileNo)} · ${esc(local(story.category))}</span><blockquote>${esc(shareCopy(story, "description"))}</blockquote><b>${esc(t("viewIllustration"))} ↗</b></div></button><figcaption><span>${esc(t("storyIllustration"))}</span><b>${esc(formatDate(story.published))} · ${esc(story.fileNo)}</b></figcaption></figure>` : "";
   const resumePrompt = `<aside class="resume-reading" id="resume-reading" hidden><div><b>${esc(t("resumeTitle"))}</b><span>${esc(t("resumePosition"))}: <strong data-resume-percent>0%</strong></span></div><div><button type="button" id="continue-reading">${esc(t("continueReading"))}</button><button type="button" class="text-button" id="restart-reading">${esc(t("startOver"))}</button></div></aside>`;
@@ -1162,7 +1180,7 @@ function initStory() {
     : `<div class="chapter-end chapter-continue"><span>${esc(t("chapterComplete"))}</span><h2>${esc(chapters[chapterIndex + 1].title)}</h2><p>${esc(t("chapterEndMessage"))}</p><a href="${esc(chapterUrl(story, chapterIndex + 1, true))}">${esc(t("continueChapter"))} →</a></div>`;
   reader.innerHTML = `<article class="reader-main">
     <nav class="breadcrumb"><a href="library.html?lang=${lang}">${esc(t("archive"))}</a><span>/</span><a href="${categoryUrl(story)}">${esc(local(story.category))}</a><span>/</span><b>${esc(story.fileNo)}</b><span>/</span><b>${String(chapterIndex + 1).padStart(2, "0")}</b></nav>
-    <header class="article-head ${isFirstChapter ? "" : "article-head-continuation"}"><div class="article-label"><span>${story.isNew ? esc(t("newFile")) : esc(t("complete"))}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("published"))}: ${esc(formatDate(story.published))}</span><span>${chapters.length} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div>${storyMeta}<div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>
+    <header class="article-head ${isFirstChapter ? "" : "article-head-continuation"}"><div class="article-label"><span>${esc(fictionDisclosure().toUpperCase())}</span><i>${esc(t("file"))} / ${esc(story.fileNo)}</i></div><h1>${esc(local(story.title))}</h1><p>${esc(local(story.summary))}</p><div class="article-stats"><span>${esc(t("published"))}: ${esc(formatDate(story.published))}</span><span>${chapters.length} ${esc(t("chapters"))}</span><span>${esc(t("readingTime"))} ${readingMinutes(story)} ${esc(t("minutes"))}</span></div>${storyMeta}<div class="content-warning"><b>${esc(t("fictionNotice"))}</b><span>${esc(local(story.warning))}</span></div></header>
     ${resumePrompt}${storyIllustration}${shareActions}${topNavigation}
     <header class="chapter-page-head"><span>${esc(t("chapterLabel"))} ${String(chapterIndex + 1).padStart(2, "0")} / ${String(chapters.length).padStart(2, "0")}</span><h2>${esc(chapter.title)}</h2><p>${esc(t("chapterReadingTime"))} · ${readingMinutesForContent(chapter.paragraphs)} ${esc(t("minutes"))}</p></header>
     ${adSlot("storyTop", "leaderboard", "reader-ad")}
@@ -1193,13 +1211,17 @@ const infoPages = {
     ]
   },
   privacy: {
-    title: { en: "Privacy Policy", zh: "隐私政策" },
-    intro: { en: "Last updated: July 23, 2026", zh: "最后更新：2026 年 7 月 23 日" },
+    title: { en: "Privacy & Cookie Policy", zh: "隐私与 Cookie 政策" },
+    intro: { en: "Privacy & Cookie Policy · Last updated: August 7, 2026", zh: "隐私与 Cookie 政策 · 最后更新：2026 年 8 月 7 日" },
     sections: [
-      [{ en: "Local reading data", zh: "本地阅读数据" }, { en: "This static website has no account, comment form or email database. Language, bookmarks, reading history and per-story reading position are stored in your browser so you can return to them. They are not synchronized across devices.", zh: "这个静态网站没有账号、评论或邮件数据库。语言偏好、收藏、阅读历史和每篇故事的阅读位置保存在你的浏览器中，方便下次继续使用；这些内容不会跨设备同步。" }],
+      [{ en: "Who operates this site", zh: "网站运营方" }, { en: "Story Archive Editorial Desk operates this independent static archive and determines the purposes described in this policy. Privacy, rights and deletion requests can be submitted through the public contact page.", zh: "故事档案编辑部负责运营本独立静态档案馆，并决定本政策所述处理目的。隐私、权利及删除请求可通过公开联系页面提交。" }],
+      [{ en: "Essential local storage", zh: "必要的本地存储" }, { en: "The site has no reader account, comment form or email database. Language, bookmarks, reading history, per-story reading position, local-only audience totals and the consent record are stored in your browser. These records are not synchronized across devices and are not transmitted merely because they are stored locally.", zh: "本站没有读者账号、评论或邮件数据库。语言偏好、收藏、阅读历史、单篇阅读位置、仅限本机的访问汇总以及同意记录保存在你的浏览器中。这些记录不会跨设备同步，也不会仅因存放在本机而被传输。" }],
       [{ en: copy.en.privacyAnalyticsTitle, zh: copy.zh.privacyAnalyticsTitle }, { en: copy.en.privacyAnalyticsText, zh: copy.zh.privacyAnalyticsText }],
-      [{ en: "Cookies and advertising", zh: "Cookie 与广告" }, { en: "Clearly labelled advertising locations are reserved throughout the site. Until an approved provider and valid account details are configured, these locations display only a local house message and make no third-party advertising request. If Google or another provider is enabled later, third-party vendors may use cookies to measure or personalize advertising under their own policies. Readers can manage personalized advertising at https://adssettings.google.com. Where consent is required, analytics or advertising services load only after the reader makes a choice.", zh: "网站各页面已经预留并清楚标注广告位置。在通过平台审核并填入有效广告账户信息前，这些位置只显示本站说明，不会向任何第三方广告服务发出请求。未来如接入 Google 或其他广告服务商，第三方可能依据其隐私政策使用 Cookie 衡量或个性化广告。读者可前往 https://adssettings.google.com 管理个性化广告。在法律要求取得同意的地区，只有读者作出选择后才会加载相关统计或广告服务。" }],
-      [{ en: "Your choices", zh: "你的选择" }, { en: "You can clear local website data or restrict cookies in your browser at any time.", zh: "你可以随时在浏览器中清除本地网站数据或限制 Cookie。" }]
+      [{ en: "Meta Pixel and advertising measurement", zh: "Meta Pixel 与广告衡量" }, { en: "Meta Pixel is currently disabled until a valid Pixel ID is configured. If enabled, it can load only after explicit marketing consent and only on the home and library pages. Meta may receive a PageView together with technical information normally accompanying a web request, such as page URL, referrer, IP address, browser or device information and Meta cookie identifiers, for Facebook and Instagram campaign measurement and ad delivery. The site does not use advanced matching or send names, email addresses or phone numbers.", zh: "在填入有效 Pixel ID 前，Meta Pixel 保持关闭。启用后，它也只能在读者明确同意营销 Cookie 后，于首页和故事库页面加载。为衡量 Facebook 与 Instagram 广告及投放效果，Meta 可能收到 PageView，以及网页请求通常携带的页面网址、来源页、IP 地址、浏览器或设备信息和 Meta Cookie 标识符。本站不使用高级匹配，也不发送姓名、电子邮箱或电话号码。" }],
+      [{ en: "Sensitive-theme safeguard", zh: "敏感主题保护" }, { en: "Because individual stories may mention health, pregnancy, disability, violence or family crises, Meta Pixel is blocked from every individual story page. Story titles, categories, slugs, reading progress, bookmarks, shares and illustration interactions are not intentionally sent as Meta events. Do not remove this safeguard without a separate sensitive-data review.", zh: "由于单篇故事可能涉及健康、孕产、残障、暴力或家庭危机，Meta Pixel 会在所有单篇故事页被强制阻止。故事标题、分类、网址标识、阅读进度、收藏、分享及插图互动不会被主动作为 Meta 事件发送。未经单独的敏感数据审查，请勿移除此保护。" }],
+      [{ en: "Cookies, retention and recipients", zh: "Cookie、保存期限与接收方" }, { en: "The consent record is kept in local storage for up to 180 days and is renewed when provider configuration changes. Language, bookmarks and reading progress remain until you clear site data. If Meta Pixel is enabled with consent, Meta may set identifiers such as _fbp or _fbc and process data under its own policies and Business Tools Terms; those terms state Event Data may be retained for up to two years. Data may be processed in countries outside your own.", zh: "同意记录在本地存储中最多保留 180 天；服务商配置发生变化时会重新征求同意。语言、收藏与阅读进度会保留至你清除网站数据。若你同意并启用 Meta Pixel，Meta 可能设置 _fbp、_fbc 等标识符，并依据其隐私政策与商业工具条款处理数据；该条款说明事件数据最长可能保留两年。数据可能在你所在国家或地区以外处理。" }],
+      [{ en: "Your choices and withdrawal", zh: "你的选择与撤回" }, { en: "Optional services are off until you choose. Rejecting non-essential storage does not block story access. You may reopen Privacy choices from the footer at any time, change or withdraw consent, clear local website data, or use browser and industry opt-out controls. Withdrawal stops future optional events; it does not undo processing already completed by a provider.", zh: "在你作出选择前，可选服务默认关闭。拒绝非必要存储不会影响阅读故事。你可以随时通过页脚的“隐私设置”重新打开面板、更改或撤回同意、清除本地网站数据，或使用浏览器及行业退出机制。撤回只会停止今后的可选事件，无法撤销服务商已经完成的处理。" }],
+      [{ en: "Contact and complaints", zh: "联系与投诉" }, { en: "Use the public contact page to ask what this site stores locally, request correction or deletion of information under the site's control, or raise a privacy concern. You may also contact the relevant data-protection authority where applicable.", zh: "如需了解本站在本地保存的内容、请求更正或删除本站控制范围内的信息，或提出隐私异议，请使用公开联系页面。在适用情况下，你也可以向相关数据保护机构投诉。" }]
     ]
   },
   terms: {
@@ -1237,8 +1259,9 @@ function initInfo() {
       ? `<a href="${esc(businessContactUrl)}" target="_blank" rel="noopener noreferrer">${esc(t("publicContactForm"))} ↗</a><small>${esc(t("businessContactPending"))}</small>`
       : `<strong>${esc(t("businessContactPending"))}</strong>`;
   const contactPanel = key === "contact" ? `<aside class="business-contact"><span>${esc(t("businessContact"))}</span>${contactMethod}</aside>` : "";
+  const privacyPanel = key === "privacy" ? `<aside class="privacy-control-panel"><span>${esc(lang === "zh" ? "隐私控制中心" : "PRIVACY CONTROL CENTER")}</span><h2>${esc(lang === "zh" ? "管理 Cookie 与可选服务" : "Manage cookies and optional services")}</h2><p>${esc(lang === "zh" ? "拒绝非必要 Cookie 不会影响故事阅读。配置新的统计或营销服务后，系统会自动重新征求同意。" : "Rejecting non-essential cookies does not affect story access. Consent is requested again whenever a new analytics or marketing provider is configured.")}</p><button type="button" data-open-privacy>${esc(lang === "zh" ? "打开隐私设置" : "Open privacy choices")}</button><nav><a href="https://www.facebook.com/privacy/policies/cookies/" target="_blank" rel="noopener noreferrer">${esc(lang === "zh" ? "Meta Cookie 政策" : "Meta Cookies Policy")} ↗</a><a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">${esc(lang === "zh" ? "Meta 隐私政策" : "Meta Privacy Policy")} ↗</a><a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener noreferrer">${esc(lang === "zh" ? "广告退出选择" : "Advertising opt-out choices")} ↗</a><a href="contact.html?lang=${lang}">${esc(lang === "zh" ? "联系本站" : "Contact this site")}</a></nav></aside>` : "";
   document.title = `${local(page.title)} — Story Archive`;
-  document.querySelector("#info-content").innerHTML = `<div class="section-label">PUBLIC DOCUMENT</div><h1>${esc(local(page.title))}</h1><p class="intro">${esc(local(page.intro))}</p>${contactPanel}${page.sections.map(([heading, text]) => `<section><h2>${esc(local(heading))}</h2><p>${esc(local(text))}</p></section>`).join("")}`;
+  document.querySelector("#info-content").innerHTML = `<div class="section-label">PUBLIC DOCUMENT</div><h1>${esc(local(page.title))}</h1><p class="intro">${esc(local(page.intro))}</p>${contactPanel}${privacyPanel}${page.sections.map(([heading, text]) => `<section><h2>${esc(local(heading))}</h2><p>${esc(local(text))}</p></section>`).join("")}`;
 }
 
 async function hydrateCurrentStory() {
