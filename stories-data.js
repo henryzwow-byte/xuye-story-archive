@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260808-a160-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a161-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -6895,5 +6895,49 @@ window.STORY_ARCHIVE = [
     "glyph": "GW",
     "chapterCount": {"en": 6, "zh": 6},
     "readingUnits": {"en": 795, "zh": 1516}
+  },
+  {
+    "slug": "the-saltwood-archive",
+    "fileNo": "A-161",
+    "cover": "assets/covers/A-161-the-saltwood-archive.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Saltwood Archive",
+        "zh": "盐木档案馆"
+      },
+      "description": {
+        "en": "After losing his wife Clara, retired boatbuilder Arthur discovers a covert plan by his relatives to claim his coastal land—and the brilliant defense Clara left behind.",
+        "zh": "退休造船匠阿瑟在失去妻子克拉拉后，发现了亲戚企图谋夺海岸土地的阴谋，以及克拉拉生前留下的绝妙守护。"
+      }
+    },
+    "title": {
+      "en": "The Saltwood Archive",
+      "zh": "盐木档案馆"
+    },
+    "category": {
+      "en": "Fiction / Mystery & Suspense",
+      "zh": "虚构小说 / 悬疑与家庭情感"
+    },
+    "summary": {
+      "en": "Following the death of his beloved wife Clara, retired boatbuilder Arthur discovers that his ambitious relatives are angling to claim his coastal workshop under the guise of elder care—unaware that Clara left behind an airtight legacy of her own.",
+      "zh": "酷爱木舟制作的阿瑟在挚妻克拉拉离世后，发现有野心的亲戚试图以“照顾长辈”为名谋夺他的海岸作坊。然而他们并未察觉，克拉拉生前早已留下了一份天衣无缝的守护印记。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mature themes of grief, family conflict, financial deception, and bereavement.",
+      "zh": "虚构故事。包含悲伤、家庭冲突、经济欺诈及丧亲等成熟主题。"
+    },
+    "tone": "Slate",
+    "glyph": "SA",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2167,
+      "zh": 3580
+    }
   }
 ];
