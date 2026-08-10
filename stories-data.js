@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a180-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a181-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7774,6 +7774,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2022,
       "zh": 3642
+    }
+  },
+  {
+    "slug": "the-tower-keepers-key",
+    "fileNo": "A-181",
+    "cover": "assets/covers/A-181-the-tower-keepers-key.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tower Keeper's Key",
+        "zh": "钟楼守护者的钥匙"
+      },
+      "description": {
+        "en": "A humble craftsman attends his daughter's high-society museum opening, carrying an old brass key and a quiet dignity that turns the evening upside down.",
+        "zh": "一位谦逊的匠人携带着一枚旧黄铜钥匙与沉静的尊严，出席女儿的上流社会博物馆开幕式，彻底改写了当晚的格局。"
+      }
+    },
+    "title": {
+      "en": "The Tower Keeper's Key",
+      "zh": "钟楼守护者的钥匙"
+    },
+    "category": {
+      "en": "Family & Legacy",
+      "zh": "亲情与传承"
+    },
+    "summary": {
+      "en": "When a retired horologist travels to Boston for his daughter's landmark museum dedication, high-society arrogance threatens to push him into the shadows—until a decades-old emergency secret comes to light.",
+      "zh": "当一位隐居的退役钟表匠远赴波士顿参加女儿重大博物馆落成典礼时，上流社会的傲慢试图将他赶入角落——直到一个埋藏数十年的紧急救援秘密破茧而出。"
+    },
+    "warning": {
+      "en": "Fictional story. Includes themes of social class prejudice, subtle family alienation, and non-graphic historical emergency rescue memories.",
+      "zh": "虚构故事。包含社会阶层偏见、微妙的家庭疏离感以及非血腥的历史紧急救援回忆的主题。"
+    },
+    "tone": "Warm Brass",
+    "glyph": "TK",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3048,
+      "zh": 5306
     }
   }
 ];
