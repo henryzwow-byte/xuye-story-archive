@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a183-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a184-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7906,6 +7906,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2707,
       "zh": 4814
+    }
+  },
+  {
+    "slug": "shadows-over-timber-creek",
+    "fileNo": "A-184",
+    "cover": "assets/covers/A-184-shadows-over-timber-creek.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Shadows Over Timber Creek",
+        "zh": "木溪镇的阴影"
+      },
+      "description": {
+        "en": "An estranged clockmaker in the Cascade foothills must decipher an antique surveyor's instrument box to save his niece and expose a dangerous corporate conspiracy during a deadly storm.",
+        "zh": "在暴风雨之夜，一位隐居在喀斯喀特山脚下的钟表匠必须解开盒中隐藏的秘密，救出外甥女并揭露一场威胁全镇的安全阴谋。"
+      }
+    },
+    "title": {
+      "en": "Shadows Over Timber Creek",
+      "zh": "木溪镇的阴影"
+    },
+    "category": {
+      "en": "Fiction / Suspense",
+      "zh": "虚构小说 / 悬疑"
+    },
+    "summary": {
+      "en": "When his teenage niece arrives during a mountain deluge with a locked antique transit box, a reclusive clockmaker is forced to confront his past and a predatory land developer to avert a disaster.",
+      "zh": "当外甥女在山洪暴雨夜带着一只锁紧的古董测量仪盒冒雨赶来时，隐居的钟表匠被迫面对过去的恩怨与贪婪的开发商，以阻止一场滔天大祸。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, legal suspense, and mild peril in a storm environment.",
+      "zh": "虚构故事。包含家庭疏离、法律悬疑及暴风雨环境中的轻度危险情节。"
+    },
+    "tone": "Copper",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2777,
+      "zh": 4597
     }
   }
 ];
