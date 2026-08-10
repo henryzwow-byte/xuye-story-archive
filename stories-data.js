@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a181-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a182-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7818,6 +7818,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3048,
       "zh": 5306
+    }
+  },
+  {
+    "slug": "shattered-ledger-cold-light",
+    "fileNo": "A-182",
+    "cover": "assets/covers/A-182-shattered-ledger-cold-light.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Shattered Ledger under Cold Light",
+        "zh": "冷光下的破裂账本"
+      },
+      "description": {
+        "en": "A sudden river flood forces a young mother to seek shelter at her family's estate, leading to a bitter rejection and an unexpected exposure of long-buried financial betrayal.",
+        "zh": "突如其来的河水暴涨逼迫一位年轻母亲去家族庄园避难，却惨遭拒之门外，随之揭开了一段掩埋多年的财务背叛。"
+      }
+    },
+    "title": {
+      "en": "Shattered Ledger under Cold Light",
+      "zh": "冷光下的破裂账本"
+    },
+    "category": {
+      "en": "Family Drama & Mystery",
+      "zh": "家庭情感与悬疑"
+    },
+    "summary": {
+      "en": "When a catastrophic flood destroys her home, Hannah drives her shivering family to her parents' orchard estate, only to be turned away to protect her sister's high-society event. A sudden dawn arrival by her estranged Great-Aunt unveils a paper trail of greed that changes everything.",
+      "zh": "当一场灭顶之灾般的洪水毁灭了家园，汉娜带着瑟瑟发抖的家人前往父母的果园庄园，却为了不影响妹妹的上流社交聚会而被拒之门外。然而大伯母在黎明时的突然到来，揭开了一份颠覆一切的贪婪账单。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial rejection, systemic favoritism, financial betrayal, and natural disaster distress.",
+      "zh": "虚构故事。包含家庭弃绝、偏袒、财务背叛及自然灾害困境相关主题。"
+    },
+    "tone": "Frost",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2589,
+      "zh": 4472
     }
   }
 ];
