@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a176-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a177-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7598,6 +7598,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2572,
       "zh": 4509
+    }
+  },
+  {
+    "slug": "the-archival-impression",
+    "fileNo": "A-177",
+    "cover": "assets/covers/A-177-the-archival-impression.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Archival Impression",
+        "zh": "印痕深处"
+      },
+      "description": {
+        "en": "A master letterpress printer faces the architect who abandoned her twins years ago, shattering his fabricated past.",
+        "zh": "一位凸版印刷女匠人重逢当年抛弃双胞胎女儿的建筑师，揭开了一段被伪造的悲伤掩盖的真相。"
+      }
+    },
+    "title": {
+      "en": "The Archival Impression",
+      "zh": "印痕深处"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "当代戏剧"
+    },
+    "summary": {
+      "en": "When letterpress artisan Corinne Miller delivers a custom registry to a high-profile timber lodge dedication, she unexpectedly encounters Julian Vance—the ambitious architect who abandoned their twin daughters five years ago. As Julian's wealthy fiancée discovers the deceitful narrative he spun to cover his past, Corinne stands firm on public accountability and self-respect.",
+      "zh": "当凸版印刷匠人科琳·米勒为一座高档木构建筑的落成典礼交付定制纪念册时，意外遇到了五年前抛弃她与双胞胎女儿的野心建筑师朱利安·凡斯。随着朱利安富有的未婚妻揭穿他为掩盖过去而编造的谎言，科琳凭借坚定与自尊，迎来了公开的追责与新生。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional deception, family secrets, and parental estrangement.",
+      "zh": "虚构故事。包含情感欺骗、家庭秘密及亲子疏离主题。"
+    },
+    "tone": "Resilient",
+    "glyph": "AP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2100,
+      "zh": 3799
     }
   }
 ];
