@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a170-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a171-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7334,6 +7334,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2890,
       "zh": 4873
+    }
+  },
+  {
+    "slug": "the-stamped-blueprint",
+    "fileNo": "A-171",
+    "cover": "assets/covers/A-171-the-stamped-blueprint.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Stamped Blueprint",
+        "zh": "盖章的图纸"
+      },
+      "description": {
+        "en": "A master timber-framer revokes her structural stamp at a gala, revealing the true builder behind her brother's architectural awards.",
+        "zh": "在晚宴上，一位资深木构框架师撤回了她的工程印章，揭开了哥哥建筑获奖背后的真正缔造者。"
+      }
+    },
+    "title": {
+      "en": "The Stamped Blueprint",
+      "zh": "盖章的图纸"
+    },
+    "category": {
+      "en": "Family & Drama",
+      "zh": "家庭与戏剧"
+    },
+    "summary": {
+      "en": "At a gala celebrating her brother's architectural awards, a master timber-framer quietly revokes her engineering stamp, exposing the secret financial retainers and stolen designs that built his career.",
+      "zh": "在庆祝哥哥建筑获奖的晚宴上，一位资深木构框架师静静撤回了她的工程印章，撕开了支撑他事业背后的秘密资金与被剽窃的设计。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family conflict, emotional betrayal, and financial misconduct.",
+      "zh": "虚构故事。包含轻度的家庭冲突、情感背叛及财务违规主题。"
+    },
+    "tone": "Amber",
+    "glyph": "TB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2413,
+      "zh": 4312
     }
   }
 ];
