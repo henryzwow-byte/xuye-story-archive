@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a168-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a169-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7246,6 +7246,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2819,
       "zh": 4886
+    }
+  },
+  {
+    "slug": "the-sentinel-atelier",
+    "fileNo": "A-169",
+    "cover": "assets/covers/A-169-the-sentinel-atelier.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Sentinel Atelier",
+        "zh": "哨岗工坊"
+      },
+      "description": {
+        "en": "After a sudden tragedy on the Oregon coast, a widow faces predatory relatives attempting to seize her home and legacy.",
+        "zh": "在俄勒冈海岸的一场突发悲剧后，一位寡妇直面意图夺取其家园与遗存的觊觎亲眷。"
+      }
+    },
+    "title": {
+      "en": "The Sentinel Atelier",
+      "zh": "哨岗工坊"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When Clara's husband dies suddenly, his estranged brother attempts to confiscate their historic cliffside workshop. But foresight and a quiet legacy stand in the way of betrayal.",
+      "zh": "克拉拉的丈夫骤然离世后，其疏离的哥哥企图强占他们位于崖边的历史工坊。然而，深谋远虑与静默遗存挡在了背叛之前。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, grief, and estate disputes.",
+      "zh": "虚构故事。包含家庭冲突、悲伤与财产纠纷主题。"
+    },
+    "tone": "Coastal",
+    "glyph": "SA",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2621,
+      "zh": 4552
     }
   }
 ];
