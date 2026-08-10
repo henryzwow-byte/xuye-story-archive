@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a182-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a183-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7862,6 +7862,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2589,
       "zh": 4472
+    }
+  },
+  {
+    "slug": "the-archivist-of-broken-glass",
+    "fileNo": "A-183",
+    "cover": "assets/covers/A-183-the-archivist-of-broken-glass.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Archivist of Broken Glass",
+        "zh": "碎璃档案员"
+      },
+      "description": {
+        "en": "A quiet junior clerk at a maritime preservation vault carries a secret past that resurfaces when a priceless relic is sabotaged.",
+        "zh": "海事保存库的一名沉默初级员干着整理档案的活，却携带着一段隐秘的过去。当一件无价遗物惨遭破坏，尘封的过往骤然浮现。"
+      }
+    },
+    "title": {
+      "en": "The Archivist of Broken Glass",
+      "zh": "碎璃档案员"
+    },
+    "category": {
+      "en": "Fictional Mystery",
+      "zh": "虚构悬疑"
+    },
+    "summary": {
+      "en": "When a decorated former deep-sea conservator takes an entry-level cataloging job at a prestigious maritime institute, her unearned reputation triggers suspicion, sabotage, and an unexpected test of truth.",
+      "zh": "当一位功勋卓著的前深海文物修复师在一家名声显赫的海事研究所担任初级编目员时，她那超越职级的资历引来了怀疑、破坏以及一场对真相的意外考验。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild suspense, professional conflict, and themes of framing and rehabilitation.",
+      "zh": "虚构故事。包含温和的悬疑、职场冲突以及关于陷害与洗清冤屈的主题。"
+    },
+    "tone": "amber",
+    "glyph": "AG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2707,
+      "zh": 4814
     }
   }
 ];
