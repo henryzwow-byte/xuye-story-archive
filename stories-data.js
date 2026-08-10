@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a172-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a173-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7422,6 +7422,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2161,
       "zh": 3852
+    }
+  },
+  {
+    "slug": "tide-and-timber",
+    "fileNo": "A-173",
+    "cover": "assets/covers/A-173-tide-and-timber.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tide and Timber",
+        "zh": "潮汐与木纹"
+      },
+      "description": {
+        "en": "Art conservator Nora Vance uncovers a fraudulent trust conveyance disguised as medical emergency authorization.",
+        "zh": "艺术修复师诺拉·范斯揭露了一起伪装成医疗紧急授权的伪造信托转让案。"
+      }
+    },
+    "title": {
+      "en": "Tide and Timber",
+      "zh": "潮汐与木纹"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "After surviving a studio scaffolding accident, art conservator Nora Vance discovers her husband is fabricating medical incompetency records to seize her family's coastal estate trust. Guided by an unalterable server audit log, she uncovers the truth.",
+      "zh": "艺术修复师诺拉·范斯在工作室脚手架意外中幸存后，发现丈夫竟伪造其精神无能力记录，试图掠夺她家族的海岸地产信托。凭借一份无法篡改的服务器审计日志，她揭开了真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of spousal betrayal, emotional distress, and financial deceit.",
+      "zh": "虚构故事。包含夫妻背叛、情感困扰及财务欺诈主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2591,
+      "zh": 4413
     }
   }
 ];
