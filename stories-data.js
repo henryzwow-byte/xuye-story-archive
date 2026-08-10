@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a171-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a172-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7378,6 +7378,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2413,
       "zh": 4312
+    }
+  },
+  {
+    "slug": "the-timber-framers-ledger",
+    "fileNo": "A-172",
+    "cover": "assets/covers/A-172-the-timber-framers-ledger.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Framer's Ledger",
+        "zh": "木艺师的账本"
+      },
+      "description": {
+        "en": "When a master builder is excluded from his own legacy gala by his ambitious daughter, quiet legal resolve reclaims his dignity and protects his grandson.",
+        "zh": "当一位老木艺大师被野心勃勃的女儿排除在自己的成就晚宴之外，他用冷静而合法的手段打响了尊严与家族遗产的保卫战。"
+      }
+    },
+    "title": {
+      "en": "The Timber Framer's Ledger",
+      "zh": "木艺师的账本"
+    },
+    "category": {
+      "en": "Drama & Legal Dispute",
+      "zh": "戏剧与法律纠纷"
+    },
+    "summary": {
+      "en": "A master coastal artisan turned away from his own conservatory gala uses historical land titles and quiet resolve to expose corporate deceit and protect his grandson's future.",
+      "zh": "一位老木工建筑大师在自己亲手建造的保育所晚宴门外被女儿驱逐，他凭借历史地产权属与沉静的意志，揭开商业谎言，捍卫了孙儿的未来。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial exclusion, corporate governance disputes, and legal asset protection.",
+      "zh": "虚构故事。包含家庭排挤、企业治理纠纷及财产合法权利维护等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2161,
+      "zh": 3852
     }
   }
 ];
