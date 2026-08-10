@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a167-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a168-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7202,6 +7202,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3013,
       "zh": 5077
+    }
+  },
+  {
+    "slug": "the-silent-foundation",
+    "fileNo": "A-168",
+    "cover": "assets/covers/A-168-the-silent-foundation.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Foundation",
+        "zh": "无声的基石"
+      },
+      "description": {
+        "en": "When a family tried to strip her of her dignity and home, they learned too late who held the master deed.",
+        "zh": "当豪门妄图剥夺她的尊严与家园，他们太晚才发现谁才是真正的全权主债权人。"
+      }
+    },
+    "title": {
+      "en": "The Silent Foundation",
+      "zh": "无声的基石"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A structural surveyor quietly targeted by her arrogant husband and mother-in-law reveals the true ownership of a vast mountain estate after they attempt to evict her.",
+      "zh": "一位被傲慢丈夫与婆婆步步紧逼的结构测量师，在对方企图将其驱逐之际，揭开了这座庞大山地庄园的真正归属。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts corporate conflict, marital breakdown, emotional manipulation, and financial dispute.",
+      "zh": "虚构故事。涉及企业冲突、婚姻破裂、情感操纵及财产纠纷。"
+    },
+    "tone": "slate",
+    "glyph": "SF",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2819,
+      "zh": 4886
     }
   }
 ];
