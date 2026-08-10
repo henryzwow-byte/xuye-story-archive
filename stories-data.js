@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a161-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a162-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -6938,6 +6938,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2167,
       "zh": 3580
+    }
+  },
+  {
+    "slug": "copper-lantern-covenants",
+    "fileNo": "A-162",
+    "cover": "assets/covers/A-162-copper-lantern-covenants.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Copper Lantern Covenants",
+        "zh": "铜灯公约"
+      },
+      "description": {
+        "en": "A master timberwright faces public rejection at her son's luxury estate gala, only to enforce the unbreakable historic land trust covenants she retained.",
+        "zh": "一位资深木作工匠母亲在儿子的庄园豪宅晚宴上遭到公开指责与驱逐，随后她启动了自己保留的不可动摇的历史土地信托公约。"
+      }
+    },
+    "title": {
+      "en": "The Copper Lantern Covenants",
+      "zh": "铜灯公约"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构文学与戏剧"
+    },
+    "summary": {
+      "en": "When architectural restorer Beatrice Thorne is ejected from her son's grand opening gala, she triggers emergency trust covenants that halt a fraudulent fifteen-million-dollar loan and demand true accountability.",
+      "zh": "当古建筑修复师比娅特丽斯·肖恩在儿子的开业晚宴上被驱逐时，她启动了紧急信托条款，中止了一笔涉及欺诈的一千五百万美元贷款，并重塑了根本的法律与伦理界限。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, financial betrayal, and workplace disrespect.",
+      "zh": "虚构故事。包含家庭隔阂、财务背叛与职场不尊重等主题。"
+    },
+    "tone": "amber",
+    "glyph": "CT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2633,
+      "zh": 4794
     }
   }
 ];
