@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a165-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a166-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7114,6 +7114,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3282,
       "zh": 5382
+    }
+  },
+  {
+    "slug": "voices-in-the-timber",
+    "fileNo": "A-166",
+    "cover": "assets/covers/A-166-voices-in-the-timber.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Voices in the Timber",
+        "zh": "木层中的余声"
+      },
+      "description": {
+        "en": "A wilderness surveyor survives a mountain sabotage and clutches the mechanical evidence that exposes a corporate catastrophe.",
+        "zh": "一名荒野测量员在山区破坏行动中幸存，怀抱揭露企业灾难的机械证据。"
+      }
+    },
+    "title": {
+      "en": "Voices in the Timber",
+      "zh": "木层中的余声"
+    },
+    "category": {
+      "en": "Fictional Mystery",
+      "zh": "虚构悬疑"
+    },
+    "summary": {
+      "en": "Left for dead after an orchestrated avalanche at a remote timber dam, acoustic engineer Nora Vance holds fast to her heavy brass surveying transit—unaware it contains mechanical proof of intentional corporate destruction.",
+      "zh": "声学工程师诺拉·范斯在一场精心策划的偏远木坝雪崩中死里逃生，紧紧抱住重型黄铜测量仪——却不知其中装有企业故意破坏的机械证据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of extreme cold survival, corporate corruption, and peril.",
+      "zh": "虚构故事。包含极寒求生、企业腐败与危险情境的描写。"
+    },
+    "tone": "Frost",
+    "glyph": "VT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2095,
+      "zh": 3635
     }
   }
 ];

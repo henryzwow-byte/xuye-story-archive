@@ -1,0 +1,114 @@
+{
+  "slug": "voices-in-the-timber",
+  "fileNo": "A-166",
+  "cover": "assets/covers/A-166-voices-in-the-timber.png",
+  "published": "2026-08-10",
+  "modified": "2026-08-10",
+  "isNew": true,
+  "share": {
+    "title": {
+      "en": "Voices in the Timber",
+      "zh": "木层中的余声"
+    },
+    "description": {
+      "en": "A wilderness surveyor survives a mountain sabotage and clutches the mechanical evidence that exposes a corporate catastrophe.",
+      "zh": "一名荒野测量员在山区破坏行动中幸存，怀抱揭露企业灾难的机械证据。"
+    }
+  },
+  "title": {
+    "en": "Voices in the Timber",
+    "zh": "木层中的余声"
+  },
+  "category": {
+    "en": "Fictional Mystery",
+    "zh": "虚构悬疑"
+  },
+  "summary": {
+    "en": "Left for dead after an orchestrated avalanche at a remote timber dam, acoustic engineer Nora Vance holds fast to her heavy brass surveying transit—unaware it contains mechanical proof of intentional corporate destruction.",
+    "zh": "声学工程师诺拉·范斯在一场精心策划的偏远木坝雪崩中死里逃生，紧紧抱住重型黄铜测量仪——却不知其中装有企业故意破坏的机械证据。"
+  },
+  "warning": {
+    "en": "Fictional story. Contains depictions of extreme cold survival, corporate corruption, and peril.",
+    "zh": "虚构故事。包含极寒求生、企业腐败与危险情境的描写。"
+  },
+  "tone": "Frost",
+  "glyph": "VT",
+  "content": {
+    "en": [
+      "## Chapter 1: The Mountain Below Zero",
+      "The men who tried to bury me beneath forty feet of frozen timber and mountain runoff made a single fatal miscalculation. They assumed the blizzard would finish what their dynamite started, and that two days in the black crevasses of Blackhorn Pass would freeze my heart, swallow my body, and erase every record I had compiled on Sterling Hydro-Grid. From a heated board office four hundred miles away in Denver, Julian Sterling’s executives likely watched satellite infrared updates of the avalanche, marking my disappearance as a clean asset write-off. But when the Forest Service snow-tracked patrol found me wedged inside a hollow cedar drift, the heavy brass surveying transit was still locked against my ribcage. The truth was preserved inside its mechanical gears, and I was still drawing breath.",
+      "\"Dead technicians don't sign safety affidavits,\" was the first coherent thought that returned to me through the haze of hypothermia. It did not come when my frostbitten fingers throbbed back to agony, but when the twin rotors of the rescue chopper beat against the mountain gale above the tree line. The thunder of the blades reached my ears like iron striking stone. When you spend six years auditing alpine infrastructure for wealthy energy conglomerates, you learn that rescue rarely arrives without conditions.",
+      "I forced my ice-cracked eyelids open. The sky above Blackhorn Ridge was the color of bruised lead. The bitter wind swept over the snow-choked ravine, lifting sheets of ice powder that stung my face like needles. My canvas parka was frozen into a stiff shell, soaked through with icy river spray. I could barely feel my boots, but the deep, dull ache in my knees told me my legs were still attached to my body. Salt from my own tears had dried along the splits in my lips, and every intake of alpine air felt like dragging broken glass into my lungs.",
+      "Yet my hands remained gripped around the steel handles of the transit box. The leather strap was wrapped tightly three times around my right forearm. My knuckles were pale as bone, locked so rigidly that the skin had turned translucent. I did not cling to the heavy iron casing because I loved old surveying instruments; I held it because Sterling’s demolition crew had searched the wrong places. They had wiped my laptop, cleared my cloud backup accounts, burned my field journal in the cabin stove, and intercepted my satellite phone. But they had treated the heavy, outdated brass vibrograph resting on my tripod as nothing more than obsolete junk.",
+      "A ranger dropped into the drift beside me, his thick yellow winter parka cutting through the whiteout. He moved with calibrated purpose, anchoring his line into the frozen granite. \"Forest Service Search and Rescue!\" he yelled through his face shield over the roar of the wind. \"I’m getting you off this ridge!\" As his gloved hand reached out to unbuckle my harness, he brushed against the edge of the brass transit box. Even in my shattered state, my wrist jerked back, and a growl of warning caught in my throat. The ranger paused, his dark eyes meeting mine through his frost-rimmed goggles. Some men ignore a dying woman's resistance and call it trauma; others recognize when a survivor is guarding the only reason she stayed alive. He nodded slowly, clipped the hoist harness around my torso without pulling at the instrument, and signaled the helicopter crew above.",
+      "## Chapter 2: The Warmth of Steel",
+      "They flew me down to Bitterroot Station Four, a remote forest service outpost nestled in an evergreen valley. The smell inside the infirmary was a mixture of kerosene, rubbing alcohol, and wet wool. The heat from the cast-iron stove hit my skin like a physical blow, turning numbness into a searing, prickling ache. On the wall beside the gurney, a faded copper barometer ticked quietly under a framed map of the national forest.",
+      "Dr. Clara Bennett, an alpine physician with grey-streaked hair and steady, gentle hands, leaned over my gurney. She checked my core temperature and attempted to pry my right arm away from the transit case. I flinched instantly, my grip tightening until my tendons strained. \"No one is going to take it,\" Clara said softly, her voice firm with quiet authority. She gestured to the paramedic to back away. \"Leave the case beside her hip. Warm saline IV first.\" That was the first mercy: a doctor who understood that taking a weapon or a secret from a survivor before she is ready will cause more shock than the cold.",
+      "Ranger Eli Miller stood near the doorway, his uniform jacket damp with melting snow. He was a veteran woodsman in his late forties with a square jaw, sharp grey eyes, and a calm stillness that commanded respect. He did not hover over me with a clipboard, nor did he ask me to explain why a private contractor was found clinging to a thirty-pound brass acoustic vibrograph in an avalanche zone. He simply pulled up a wooden stool, sat down, and allowed the quiet to settle.",
+      "\"My name is Nora Vance,\" I rasped, my vocal cords raw and scraping against each other. \"I was contracted to conduct acoustic vibration audits on the Blackhorn timber reservoir dam.\" Clara adjusted the heated oxygen mask over my nose, but I shook my head slightly so I could speak. \"Sterling Hydro-Grid told the public the dam failed under unpreventable snowpack pressure. They told the press it was an act of God.\"",
+      "Eli’s gaze remained fixed on me. \"And what does the acoustic transit say?\" he asked quietly. I looked down at the brass casing resting against my side. \"It says the dam didn't fall from snow load,\" I whispered. \"It says the charges were detonated from inside the anchor gallery while fifty workers were still in the lower valley.\"",
+      "## Chapter 3: The Unconnected Dial",
+      "Twenty minutes later, Eli brought Silas Thorne into the infirmary. Silas was an elderly retired railway chronometer technician who lived in the valley and maintained the forest service’s mechanical weather instruments. He carried a leather roll of watchmaking tools and walked with a slight limp, his eyes sharp behind thick wire-rimmed spectacles.",
+      "\"If you are going to look inside,\" I told Silas, looking him squarely in the face, \"you do not connect anything to a network. No Bluetooth diagnostic probes, no satellite uploads, no digital bridge cables. If a single packet leaves this room over a cellular frequency, Sterling’s security software will register the location within three minutes.\"",
+      "Silas nodded once without hesitation. \"I learned my trade on pocket chronometers and steam-gauge recorders, young lady. I don't need a computer to read a clockwork drum.\" He placed the heavy transit onto a wooden workbench under a warm desk lamp. The brass housing was scratched and tarnished, pitted by granite dust and ice, but the heavy lead seals on the side panels were unbroken.",
+      "Using a small brass screwdriver, Silas carefully removed four slotted screws from the rear casing. He did not force the metal or scratch the housing. Inside the transit was an intricate assembly of steel gears, silver hairsprings, and a heavy nickel-plated pendulum designed to measure structural micro-vibrations in mountain rock.",
+      "Mounted directly beneath the pendulum was an offline mechanical recording drum fitted with smoked wax paper and a ruby-tipped stylus. It was an un-networked analog vibrograph, built in 1954 and restored for high-altitude manual logging. Because it possessed no digital microprocessors, network chips, or wireless antennas, Sterling’s cyber-security team had completely overlooked its capacity to record data independent of their server network.",
+      "## Chapter 4: The Sealed Frequency",
+      "Silas pulled down a magnifying visor and turned the mechanical drum by hand, bringing the delicate wax ribbon into the lamplight. Fine white scratches etched into the dark soot layer represented forty-eight hours of continuous seismic and structural data.",
+      "\"Look at the baseline here,\" Silas said softly, tracing a fine brass pointer along the ribbon. \"This line shows normal hydro-static pressure from the reservoir. Gentle, rhythmic acoustic hum from the spillway turbines. Consistent with normal operations up until 2:00 AM on Tuesday.\"",
+      "Then his pointer stopped at a sharp, violent spike. Three extreme vertical gashes cut through the wax ribbon, followed by a chaotic burst of high-frequency shockwaves. \"These aren't snowpack shifts,\" Silas noted, his voice tightening. \"Snow shifts build up over minutes with low-frequency rumbling. These three spikes are instantaneous high-velocity detonations. Microsecond rise times. High explosives.\"",
+      "\"Look at the timestamp wheel on the margin,\" I said, leaning forward despite the intense pain in my chest. The mechanical clockwork had stamped the precise time beside the shockwave traces: 2:14:08 AM. \"The official public safety report filed by Sterling Hydro-Grid claimed the dam began cracking at 2:32 AM. They claimed the emergency evacuation alarm was sounded at 2:20 AM.\"",
+      "Clara drew a slow breath, her face turning pale under the fluorescent light. \"Eighteen minutes before the official timeline,\" she murmured. \"They detonated the lower anchor gallery while telling the shift crew that everything was normal.\" Eli looked at the wax ribbon, then at me. \"They didn't just cause an accident to claim insurance,\" Eli said grimly. \"They blew the dam to destroy the downstream timber valley before the federal environmental audit could inspect the illegal chemical runoff pits.\"",
+      "## Chapter 5: The Inscription in the Gearbox",
+      "Silas used a pair of fine tweezers to rotate the lower drive gear of the recording assembly. As the gear turned, a secondary mechanical housing near the base of the pendulum disengaged with a metallic click.",
+      "Tucked inside the recessed housing was a tiny steel embossing cylinder—an old-fashioned mechanical key stamp used by chief engineers to authenticate paper field logs. When pressed against paper, the cylinder left a raised seal containing a unique numeric signature.",
+      "Silas pressed a scrap of white cardstock against the cylinder and rubbed it lightly with a charcoal pencil. A crisp series of characters appeared on the card: SHG-EXEC-009-JS.",
+      "\"JS,\" Eli read aloud. \"Julian Sterling.\" I nodded slowly. \"Julian Sterling personally issued the override order for the acoustic logging system six hours before I arrived at the ridge. He thought overriding the digital sensors on the main network would wipe all evidence of the detonation. He didn't know I had manually engaged the analog wax drum as a mechanical backup.\"",
+      "Eli looked at the stamped code, then down at my bandaged hands. \"You knew they were going to trigger the collapse,\" he said. \"I suspected it,\" I admitted quietly. \"For three years, I watched Sterling Hydro-Grid pay off regulators, forge safety certificates, and frame independent technicians whenever something failed. When they sent me to Blackhorn Ridge alone, I realized I wasn't hired to audit the dam. I was hired to be the dead inspector whose body they would find in the rubble, holding a conveniently corrupted digital tablet.\"",
+      "## Chapter 6: What the Snow Keeps",
+      "At 3:15 AM, the heavy rumble of a multi-track snowcat echoed outside the ranger station. Headlights cut through the frost-coated clinic windows, casting long, stark shadows across the floorboards. Footsteps crunched heavily on the wooden porch outside.",
+      "The clinic door swung open, bringing in a blast of sub-zero wind. A tall man in a tailored dark overcoat stepped inside, flanked by two armed corporate security guards wearing winter tactical gear. It was Victor Blake, Sterling Hydro-Grid’s chief of security—a man whose career was built on quietly resolving corporate liabilities.",
+      "\"Ranger Miller,\" Blake said smoothly, unbuttoning his coat to reveal a holster. \"We received a radio report that one of our missing contractors was brought to your facility. Miss Vance holds proprietary technical gear belonging to Sterling Hydro-Grid. We are here to take custody of Miss Vance and secure our corporate property.\"",
+      "Eli did not flinch. He stepped calmly between Blake and my gurney, resting his right hand casually near the butt of his sidearm. \"This is a United States Forest Service station, Mr. Blake,\" Eli said, his voice dropping into a dangerous calm. \"Miss Vance is a patient under emergency medical care, and all evidence recovered from a disaster site on federal land remains under federal jurisdiction until a formal magistrate inquiry.\"",
+      "I pushed myself up against the pillows, holding the charcoal imprint and the wax ribbon drum firmly in my lap. \"You're too late, Blake,\" I said, my voice steady and clear across the room. \"The digital network didn't record the blast, but this clockwork drum did. The timestamps, the shockwave profiles, and Julian Sterling's personal stamp key are all logged on physical paper.\" Blake looked from the wax ribbon to Eli’s unyielding stance, realizing that the mountain had failed to keep his secret. The avalanche had erased the dam, but it had left the witness standing."
+    ],
+    "zh": [
+      "## 第一章：零下的山脊",
+      "那些试图将我埋葬在四十英尺冻木与山洪之下的男人，犯了一个致命的算计错误。他们以为暴风雪会替他们的炸药收尾，以为在黑角关卡黑沉沉的裂隙里度过两天，就能冻结我的心脏，吞噬我的躯体，并抹去我针对斯特林水电网（Sterling Hydro-Grid）整理的所有记录。在四百英里外的丹佛，朱利安·斯特林（Julian Sterling）的高管们大概正坐在供暖充足的董事会办公室里，看着雪崩的卫星红外更新，将我的失踪标记为一笔干净的资产报废。然而，当森林服务局的雪地巡逻队在空心杉木雪堆里找到我时，那台重型黄铜测量仪依然紧紧锁定在我的胸肋之间。真相完整保留在它的机械齿轮内部，而我也依然在呼吸。",
+      "“死去的技术员不会在安全确认书上签字。”这是我在极度低体温的迷蒙中恢复的第一个清晰念头。这个念头并非出现于我冻伤的手指重新感到剧痛之时，而是当救援直升机的双旋风叶在树线之上的山间狂风中轰鸣叩击之时。桨叶的雷鸣传入耳中，宛如铁器撞击巨石。当你为富有的能源财团稽核了六年高山基础设施后，你就会明白，救赎很少会在毫无条件的情况下降临。",
+      "我艰难地睁开冻裂的眼睑。黑角山脊上方的天空呈现出淤青般的铅灰色。凛冽的刺骨狂风扫过被积雪堵塞的峡谷，扬起一片片如针尖般刺痛面颊的冰粉。我的帆布防寒服冻成了僵硬的壳，被冰冷的河水喷雾彻底浸透。我几乎感觉不到靴子的存在，但膝盖深处传来的隐隐钝痛告诉我，双腿依然连接在身上。眼泪中的盐分在嘴唇的裂口处凝固干涸，每一次吸入高山空气，都像是在向肺里拉入碎玻璃。",
+      "然而，我的双手依然紧紧握住测量仪外壳的钢制把手。皮质背带在我的右前臂上紧紧缠绕了三圈。指关节白如枯骨，关节僵硬锁定，皮肤甚至呈现出半透明状。我之所以死死抱住这沉重的铁壳，绝非因为我热爱古董测量仪器；我抱紧它，是因为斯特林的拆迁队搜错了地方。他们擦除了我的笔记本电脑，清空了我的云端备份账户，在小屋的火炉里烧毁了我的外业日志，还拦截了我的卫星电话。然而，对于三脚架上那台笨重过时的黄铜声学振动仪，他们却仅仅将其视作无用的废铁。",
+      "一名护林员落在了我身旁的雪堆里，他那件厚重的黄色冬季防寒服划破了白茫茫的风雪。他的行动带着精确的意图，将绳索锚定在冻结的花岗岩中。“森林服务局搜救队！”他透过面罩在狂风的咆哮声中大喊，“我要带你离开这条山脊！”当他戴着手套的手伸过来解开我的安全带时，碰到了黄铜测量仪的边缘。即使在我极度虚弱的状态下，我的手腕依然猛地缩回，喉咙里发出了一声警告的低吼。护林员停了下来，他那双深色眼睛透过结满霜花的雪镜凝视着我。有些人会忽视濒死女性的抵抗，将其归咎于创伤；而另一些人则能看出，一个幸存者正在守护她得以活命的唯一理由。他缓缓点头，将吊升安全带扣在我的躯干上，没有强拉那台仪器，并向空中的直升机组人员发出了信号。",
+      "## 第二章：钢铁的余温",
+      "他们把我飞运到了苦根第四站，那是一个嵌套在常青山谷中的偏远森林服务局哨所。诊所内部散发着煤油、医用酒精和湿羊毛混合的气味。铸铁火炉散发出的热浪如实实在在的重击般拍打在我的皮肤上，将麻木转变为剧烈的灼痛与刺痛。在病床旁边的墙上，一面褪色的铜制气压计在一幅镶框的国家森林地图下方安静地滴答作响。",
+      "克拉拉·班奈特（Clara Bennett）医生是一位头发夹杂着银丝、双手稳健温柔的高山医师，她俯身查看我的病床。她检查了我的核心体温，试图将我的右手从测量仪外壳上移开。我瞬间退缩，握紧的双手令肌腱绷紧。“没有人会拿走它，”克拉拉温和地说道，她的声音带着沉静的权威。她示意护理人员退后。“把外壳放在她的髋部旁边。先静脉注射温盐水。”这是第一个慈悲：一位懂得在幸存者做好准备之前，拿走其武器或秘密会比寒冷造成更大休克的医生。",
+      "护林员埃里·米勒（Eli Miller）站在门廊附近，他的制服外套因融化的积雪而湿润。他是一位四十多岁的资深林业员，有着方正的下巴、锐利的灰色眼睛，以及一种令人肃然起敬的沉稳。他没有拿着剪贴板盘查我，也没有要求我解释为什么一个私人承包商会在雪崩区死死抱住一台三十磅重的黄铜声学振动仪。他只是拉过一把木凳坐下，让宁静在房间里沉淀。",
+      "“我叫诺拉·范斯（Nora Vance），”我哑声说道，声带因寒冷而受损，彼此摩擦着。“我被雇佣对黑角木坝进行声学振动稽核。”克拉拉调整了我鼻梁上的加温氧气面罩，但我微微摇头以便说话。“斯特林水电网向公众声称水坝是在不可抗力的积雪压力下溃决的。他们告诉媒体这是自然灾害。”",
+      "埃里的目光始终锁定在我身上。“那么声学测量仪怎么说？”他低声问道。我低头看着靠在我身旁处的黄铜外壳。“它说水坝不是因为积雪荷载倾覆的，”我低语道，“它说炸药是在下游山谷还有五十名工人时，从锚固走廊内部引爆的。”",
+      "## 第三章：未联网的齿轮",
+      "二十分钟后，埃里把塞拉斯·桑恩（Silas Thorne）带进了诊所。塞拉斯是一位住在山谷里的退休铁路精密钟表技术员，负责维护森林服务局的机械气象仪器。他提着一卷皮质制表工具，走路微跛，厚厚的铁丝边眼镜后透着锐利的目光。",
+      "“如果你打算查看内部，”我直视着塞拉斯的眼睛说道，“切勿将任何东西连接到网络。没有蓝牙诊断探针，没有卫星上传，没有数字桥接线缆。只要有一个数据包通过蜂窝频率离开这个房间，斯特林的安全软件就会在三分钟内定位这里。”",
+      "塞拉斯毫不犹豫地地点了一头。“姑娘，我是在怀表和蒸汽压力记录仪上学到的本领。我不需要电脑来读取钟表走轮。”他把重型测量仪放在暖色台灯下的木制工作台上。黄铜外壳布满了划痕与锈斑，被花岗岩粉尘和冰粒蚀出凹坑，但侧面板上的重型铅封依然完好无损。",
+      "塞拉斯使用一把小型黄铜螺丝刀，小心翼翼地从后外壳上卸下了四颗螺丝。他没有强行撬动金属，也没有划伤外壳。测量仪内部是一套精密的钢制齿轮、银质游丝，以及一个旨在测量山石结构微振动的重型镀镍摆锤。",
+      "安装在摆锤正下方的是一个未联网的机械记录鼓，配备了熏烟蜡纸和红宝石针尖的记录笔。这是一台制造于1954年、经修复用于高山手动记录的非联网模拟振动仪。由于它不具备数字微处理器、网络芯片或无线天线，斯特林的网络安全团队完全忽略了它独立于服务器网络记录数据的能力。",
+      "## 第四章：密封的频率",
+      "塞拉斯拉下放大目镜，用手转动机械鼓，将精致的蜡纸带引入灯光下。蚀刻在黑暗烟灰层上的细微白色划痕代表着四十八小时连续的地震与结构数据。",
+      "“看看这里的基线，”塞拉斯温和地说道，用一根细黄铜指针顺着纸带划过。“这条线显示了来自水库的正常水静压。溢洪道水轮机发出平缓、有节奏的声学嗡鸣。与周二凌晨两点之前的正常运行完全一致。”",
+      "随后，他的指针停在了一个剧烈而残暴的峰值上。三道极端的垂直裂口切穿了蜡纸带，紧接着是一阵无序的高频冲击波爆发。“这不是积雪位移，”塞拉斯注意到，声音变得紧绷。“积雪位移是在几分钟内伴随着低频轰鸣逐渐累积的。而这三个峰值是瞬时的高速爆轰。微秒级上升时间。高威力炸药。”",
+      "“看看边缘的时间戳轮，”我顾不上胸口剧烈的疼痛，向前倾身说道。机械钟表走轮在冲击波痕迹旁打下了精确的时间：凌晨 2:14:08。“斯特林水电网提交的官方公共安全报告声称水坝在凌晨 2:32 开始开裂。他们声称紧急疏散警报是在凌晨 2:20 响起的。”",
+      "克拉拉缓缓吸了一口气，脸庞在荧光灯下变得苍白。“比官方时间线早了十八分钟，”她喃喃自语。“他们在向值班人员声称一切正常的同时，引爆了下方锚固走廊。”埃里看着蜡纸带，然后看着我。“他们不仅是为了索赔保险而制造事故，”埃里阴沉地说道，“他们炸毁水坝，是为了在联邦环境稽核查抄非法化学废料池之前，毁掉下游的木材山谷。”",
+      "## 第五章：齿轮箱内的刻印",
+      "塞拉斯用一把精细镊子旋转记录组件的下方驱动齿轮。随着齿轮的转动，摆锤基座附近的第二个机械外壳伴随着一声金属咔哒声脱开。",
+      "塞在了凹陷外壳内部的是一个极小的钢制压印圆柱体——这是总工程师用来认证纸质外业日志的古老机械钥匙印章。当压在纸上时，圆柱体会留下一道包含独特数字签名的凸起印封。",
+      "塞拉斯将一张白色卡纸压在圆柱体上，用木炭铅笔轻轻涂抹。卡纸上浮现出一串清晰的字符：SHG-EXEC-009-JS。",
+      "“JS，”埃里大声读出。“朱利安·斯特林。”我缓缓点头。“朱利安·斯特林在我到达山脊前六小时，亲自下达了覆盖声学记录系统的指令。他以为覆盖主网络上的数字传感器就能抹去爆炸的所有证据。他不知道我手动启用了模拟蜡鼓作为机械后备。”",
+      "埃里看着印章代码，然后看着我绑着绷带的手。“你知道他们要触发坍塌，”他说。“我怀疑过，”我平静地承认。“三年来，我看着斯特林水电网贿赂监管机构、伪造安全证书，并在发生故障时陷害独立技术人员。当他们把我一个人派往黑角山脊时，我意识到我不是被雇来稽核水坝的。我是被雇来充当那个死在废墟里、手里握着一块方便损坏的数字平板电脑的巡检员。”",
+      "## 第六章：雪境留痕",
+      "凌晨 3:15，履带式雪地车的沉重轰鸣在护林员哨所外回荡。大灯穿透结霜的诊所窗户，在地板上投下长长而陡峭的阴影。脚步声在室外的木制走廊上沉重地响起。",
+      "诊所的大门被推开，涌入一阵零度以下的狂风。一位身穿定制深色大衣的高大男人走了进来，身旁跟着两名身穿冬季战术装备的武装企业安全卫士。那是维克多·布莱克（Victor Blake），斯特林水电网的安全主管——一个靠悄无声息解决企业负债建立职业生涯的男人。",
+      "“米勒护林员，”布莱克流畅地说道，解开大衣露出枪套。“我们收到无线电报告，称我们的一名失踪承包商被带到了你们的设施。范斯小姐持有属于斯特林水电网的专有技术装备。我们是来接管范斯小姐并收回我们的企业财产的。”",
+      "埃里没有退缩。他从容地挡在布莱克和我的病床之间，右手随意地放在侧身佩枪的枪柄附近。“这里是美国森林服务局哨所，布莱克先生，”埃里说道，声音降低到一种危险的平静中。“范斯小姐是一位接受紧急医疗救护的病人，而在联邦土地灾难现场回收的所有证据，在举行正式法官听证之前，均属于联邦管辖。”",
+      "我推着靠垫坐起身来，将木炭拓印和蜡纸带鼓紧紧抱在腿上。“你来得太晚了，布莱克，”我的声音在房间里清晰而稳定。“数字网络没有记录爆炸，但这台钟表走鼓记录了。时间戳、冲击波轮廓，以及朱利安·斯特林的个人印章代码，全部记录在纸质实物上。”布莱克看着蜡纸带，又看着埃里毫不退让的姿态，意识到大山未能守住他的秘密。雪崩抹平了水坝，却留下了目击者屹立不倒。"
+    ]
+  }
+}
