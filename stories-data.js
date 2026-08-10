@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a169-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a170-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7290,6 +7290,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2621,
       "zh": 4552
+    }
+  },
+  {
+    "slug": "broken-timber-covenant",
+    "fileNo": "A-170",
+    "cover": "assets/covers/A-170-broken-timber-covenant.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Broken Timber Covenant | Western Story Archive",
+        "zh": "断木之盟 | 西方故事档案"
+      },
+      "description": {
+        "en": "When an injured timber restorer is cast aside by her wealthy family in favor of her brother's luxury pursuit, an unexpected heirloom and a loyal cousin expose years of betrayal.",
+        "zh": "当一名受伤的木结构修复师被富有家庭抛弃，只为满足哥哥的奢侈追求时，一件意想不到的传家宝与忠诚的堂弟揭开了多年的背叛。"
+      }
+    },
+    "title": {
+      "en": "Broken Timber Covenant",
+      "zh": "断木之盟"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "After a devastating structural collapse leaves Clara Vance needing urgent spinal surgery, her father refuses help to fund her brother's polo syndicate. A sacrificial gesture from her young cousin unlocks a long-hidden estate fraud and changes their fortunes forever.",
+      "zh": "在一场毁坏性的建筑坍塌事故后，克拉拉·凡斯急需脊柱手术，而父亲却拒绝救助，将资金转去支持哥哥的高球马会。小堂弟的牺牲举动意外解锁了沉寂多年的家族地产欺诈案，彻底改变了他们的命运。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family neglect, workplace injury recovery, and financial disputes. All characters and events are entirely fictional.",
+      "zh": "虚构故事。包含家庭疏离、工伤康复及财务纠纷的情节描写。所有人物与事件纯属虚构。"
+    },
+    "tone": "Amber",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2890,
+      "zh": 4873
     }
   }
 ];
