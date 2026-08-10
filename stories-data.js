@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a162-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a163-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -6982,6 +6982,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2633,
       "zh": 4794
+    }
+  },
+  {
+    "slug": "foundation-of-her-own",
+    "fileNo": "A-163",
+    "cover": "assets/covers/A-163-foundation-of-her-own.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Foundation of Her Own",
+        "zh": "独木立基"
+      },
+      "description": {
+        "en": "When an architectural consultant is pressed to sign off on compromised structural timber, she refuses to let toxic professional loyalty undermine her integrity.",
+        "zh": "当建筑顾问被强逼签发有安全隐患的结构验收单时，她拒绝再为畸形的团队关系与虚伪的忠诚妥协。"
+      }
+    },
+    "title": {
+      "en": "A Foundation of Her Own",
+      "zh": "独木立基"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 戏剧"
+    },
+    "summary": {
+      "en": "Set against the rugged gorge country of the Pacific Northwest, an architectural consultant stands her ground against a domineering investor and an enabling partner during a high-stakes commercial project unveiling.",
+      "zh": "在美洲西北海岸的高崖工程现场，一位建筑顾问在面对强势投资人与软弱搭档的道德逼迫时，毅然选择划清界限、捍卫专业操守并重建独立职业生涯。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of professional workplace conflict, emotional boundary setting, and commercial pressure.",
+      "zh": "虚构故事。包含职场矛盾、心理边界确立及商业压力等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "FO",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3520,
+      "zh": 6197
     }
   }
 ];
