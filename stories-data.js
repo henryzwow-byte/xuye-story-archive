@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a177-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a178-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7642,6 +7642,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2100,
       "zh": 3799
+    }
+  },
+  {
+    "slug": "the-anchor-at-blackwood-point",
+    "fileNo": "A-178",
+    "cover": "assets/covers/A-178-the-anchor-at-blackwood-point.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Anchor at Blackwood Point",
+        "zh": "黑木角之锚"
+      },
+      "description": {
+        "en": "A timber restoration specialist exposes a structural sabotage scheme at a coastal gala, protecting her son and preserving a historic harbor.",
+        "zh": "一位木材修复专家在海岸晚会上揭露了结构破坏阴谋，保护了儿子并守护了历史悠久的港口。"
+      }
+    },
+    "title": {
+      "en": "The Anchor at Blackwood Point",
+      "zh": "黑木角之锚"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When a high-society developer mocks his past and threatens a historic Maine wharf, a timber specialist uses physical core samples to expose his deceit.",
+      "zh": "当一位上流社会开发商嘲弄自己的过去并威胁要拆除缅因州历史悠久的码头时，一位木材专家用物理木芯样本揭穿了他的谎言。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional conflict, marital abandonment, and corporate fraud investigation.",
+      "zh": "虚构故事。包含情感冲突、婚姻遗弃及企业欺诈调查相关主题。"
+    },
+    "tone": "Maritime",
+    "glyph": "BP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2582,
+      "zh": 4730
     }
   }
 ];
