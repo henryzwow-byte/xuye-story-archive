@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a163-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a164-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7026,6 +7026,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3520,
       "zh": 6197
+    }
+  },
+  {
+    "slug": "aspen-ridge-boundary",
+    "fileNo": "A-164",
+    "cover": "assets/covers/A-164-aspen-ridge-boundary.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Aspen Ridge Boundary",
+        "zh": "白桦脊的边界"
+      },
+      "description": {
+        "en": "When Evelyn returns to her Montana timber lodge, she discovers her partner has forged land documents to cut a commercial road through her private sanctuary.",
+        "zh": "当埃弗林回到她在蒙大拿州的木屋时，发现伴侣伪造了土地文件，企图在她的私人圣地上开辟一条商业道路。"
+      }
+    },
+    "title": {
+      "en": "The Aspen Ridge Boundary",
+      "zh": "白桦脊的边界"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "A woman returning from caring for family discovers her partner and his developer uncle invading her inherited land with forged access permits, sparking a decisive fight for her sanctuary and independence.",
+      "zh": "一名女子在照顾亲人归来后，发现伴侣及其身为开发商的叔叔凭伪造的通行许可侵占其继承的土地，由此引发了一场捍卫圣地与独立尊严的坚决抗争。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of property dispute, emotional betrayal, and legal assertion.",
+      "zh": "虚构故事。包含财产纠纷、情感背叛及法律维权主题。"
+    },
+    "tone": "Slate",
+    "glyph": "AR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2907,
+      "zh": 5142
     }
   }
 ];
