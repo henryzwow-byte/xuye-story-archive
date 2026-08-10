@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a173-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a174-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7466,6 +7466,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2591,
       "zh": 4413
+    }
+  },
+  {
+    "slug": "alder-bay-archive",
+    "fileNo": "A-174",
+    "cover": "assets/covers/A-174-alder-bay-archive.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Saltwater Matrix",
+        "zh": "盐泉印痕"
+      },
+      "description": {
+        "en": "When a deceitful developer threatens a coastal maritime archive, an archivist uncovers forged deeds and hidden evidence to defend her heritage.",
+        "zh": "当阴险的开发商威胁一座滨海海洋档案馆时，档案员揭露了伪造契约与隐秘证据，捍卫了自己的遗产。"
+      }
+    },
+    "title": {
+      "en": "The Saltwater Matrix",
+      "zh": "盐泉印痕"
+    },
+    "category": {
+      "en": "Fiction / Contemporary Drama",
+      "zh": "小说 / 现代戏剧"
+    },
+    "summary": {
+      "en": "In a stormy Maine harbor town, archivist Clara Vance fights to protect her late father's historic printing press from an abusive ex-partner and a corrupt resort development scheme.",
+      "zh": "在风暴笼罩的缅因州港口小镇，档案员克拉拉·范斯奋力保护亡父留下的历史印刷局，对抗前男友的控制手段与腐败度假村的征地阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of interpersonal psychological manipulation, financial coercion, and property disputes.",
+      "zh": "虚构故事。包含人际心理操纵、财务胁迫及财产纠纷描写。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "AB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2713,
+      "zh": 4632
     }
   }
 ];
