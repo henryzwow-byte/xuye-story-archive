@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a178-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a179-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7686,6 +7686,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2582,
       "zh": 4730
+    }
+  },
+  {
+    "slug": "the-tide-gauge-charter",
+    "fileNo": "A-179",
+    "cover": "assets/covers/A-179-the-tide-gauge-charter.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide-Gauge Charter",
+        "zh": "潮位仪宪章"
+      },
+      "description": {
+        "en": "A historic coastal preserve faces forced condemnation until a senior archivist uncovers a century-old hydrostatic secret.",
+        "zh": "一座历史悠久的海岸保护区面临强行拆除与充公，直到一位资深档案员揭开了一个沉寂百年的流体静压秘密。"
+      }
+    },
+    "title": {
+      "en": "The Tide-Gauge Charter",
+      "zh": "潮位仪宪章"
+    },
+    "category": {
+      "en": "Fiction / Mystery & Suspense",
+      "zh": "小说 / 悬疑推理"
+    },
+    "summary": {
+      "en": "When an arrogant developer uses forged environmental reports to seize a coastal sanctuary, a dedicated archivist uses forgotten maritime engineering to defend the land.",
+      "zh": "当傲慢的开发商利用伪造的造假环保报告强占海岸保护区时，一位敬业的档案员利用被遗忘的海洋工程技艺打响了土地保卫战。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of high-stakes corporate disputes, land rights fraud, and bureaucratic confrontations. All characters, locations, and organizations are entirely fictional.",
+      "zh": "虚构故事。包含高层商业纠纷、土地产权欺诈及官僚对抗描写。所有角色、地点及机构均为虚构。"
+    },
+    "tone": "slate",
+    "glyph": "TG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2839,
+      "zh": 4870
     }
   }
 ];
