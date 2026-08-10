@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a174-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a175-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7510,6 +7510,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2713,
       "zh": 4632
+    }
+  },
+  {
+    "slug": "the-unbroken-timber",
+    "fileNo": "A-175",
+    "cover": "assets/covers/A-175-the-unbroken-timber.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Unbroken Timber | A Story of Chosen Family",
+        "zh": "坚韧之木 | 关于选择与真爱的家庭故事"
+      },
+      "description": {
+        "en": "When an aristocratic family foundation demands lineage over loyalty, a craftsman sacrifices his inheritance to protect his adopted nephew.",
+        "zh": "当老牌家族基金会将血统置于真情之上，一位匠人毅然放弃继承权，守护毫无血缘关系却至亲至爱的养子。"
+      }
+    },
+    "title": {
+      "en": "The Unbroken Timber",
+      "zh": "坚韧之木"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "At a prestigious coastal estate gala, Julian Vance refuses to allow his family's elitist foundation to marginalize his eight-year-old ward, Leo. Choosing character over inherited privilege, Julian cuts ties with his ancestral legacy to build a genuine life.",
+      "zh": "在海岸庄园的鼎盛晚宴上，朱利安·凡斯拒绝让家族的精英基金会边缘化他八岁的养子利奥。他以人格与道义重于继承特权为由，断绝了与家族名利的联系，重建了真正充满温情的家园。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family emotional conflict, elitism, and institutional estrangement. All characters and events are entirely fictional.",
+      "zh": "虚构故事。包含家庭情感冲突、精英主义排他行为及亲属决裂情节。所有人物与事件纯属虚构。"
+    },
+    "tone": "Luminous",
+    "glyph": "UT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2159,
+      "zh": 3694
     }
   }
 ];
