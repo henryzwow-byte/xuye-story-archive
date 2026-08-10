@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a164-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a165-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7070,6 +7070,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2907,
       "zh": 5142
+    }
+  },
+  {
+    "slug": "the-cold-vault",
+    "fileNo": "A-165",
+    "cover": "assets/covers/A-165-the-cold-vault.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cold Vault",
+        "zh": "地窖寒影"
+      },
+      "description": {
+        "en": "When a protective father discovers his in-laws locking his daughter in an unheated cellar vault, he turns to his sister's meticulous auditing skills to uncover the truth.",
+        "zh": "当一位父亲发现前妻一家将七岁女儿锁进无供暖的地下水泥库房时，他借助姐姐缜密严谨的调查手段，用确凿证据拆穿了对方的谎言。"
+      }
+    },
+    "title": {
+      "en": "The Cold Vault",
+      "zh": "地窖寒影"
+    },
+    "category": {
+      "en": "Family Suspense",
+      "zh": "家庭悬疑"
+    },
+    "summary": {
+      "en": "A father uncovers a cruel form of secret punishment used against his seven-year-old daughter. With his sister's analytical precision, he documents the evidence to protect his child forever.",
+      "zh": "一位父亲发现了针对七岁女儿的隐秘残酷惩罚。在姐姐精密严谨的调查协助下，他用不可动摇的证据为孩子筑起了永久的防护屏障。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of child endangerment, emotional coercion, and legal protective intervention.",
+      "zh": "虚构故事。包含儿童安全威胁、心理操控及法律介入保护的描写。"
+    },
+    "tone": "Frost",
+    "glyph": "CV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3282,
+      "zh": 5382
     }
   }
 ];
