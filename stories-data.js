@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a179-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a180-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7730,6 +7730,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2839,
       "zh": 4870
+    }
+  },
+  {
+    "slug": "the-timber-ledger",
+    "fileNo": "A-180",
+    "cover": "assets/covers/A-180-the-timber-ledger.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Ledger | A Pacific Northwest Mystery",
+        "zh": "木业账簿 | 太平洋西北岸的家族传奇"
+      },
+      "description": {
+        "en": "When a coastal timber dynasty attempts to disinherit a master boatbuilder, an immutable 1984 tide-land trust unravels their corporate scheme.",
+        "zh": "当沿海木业王朝试图剥夺造船工匠的继承权时，一份1984年不可撤销的潮汐土地信托重塑了家族的命运。"
+      }
+    },
+    "title": {
+      "en": "The Timber Ledger",
+      "zh": "木业账簿"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Estranged boatbuilder Callum Vance faces his stepmother's corporate takeover of his late father's maritime estate, only to discover an ancient tide-land trust that alters everything.",
+      "zh": "疏离的造船工匠卡勒姆·凡斯直面继母对其父海事遗产的企业接管，却意外揭开了一份颠覆全局的古老潮汐土地信托。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate manipulation, family estate conflict, and emotional estrangement.",
+      "zh": "虚构故事。包含企业操纵、家族遗产纠纷及亲情疏离主题。"
+    },
+    "tone": "Misty",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2022,
+      "zh": 3642
     }
   }
 ];
