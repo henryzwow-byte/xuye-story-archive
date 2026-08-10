@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a166-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a167-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7158,6 +7158,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2095,
       "zh": 3635
+    }
+  },
+  {
+    "slug": "the-wharf-contract",
+    "fileNo": "A-167",
+    "cover": "assets/covers/A-167-the-wharf-contract.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Wharf Contract",
+        "zh": "码头契约"
+      },
+      "description": {
+        "en": "A widowed woodworker reclaims her late husband's maritime legacy after her family turns their back on her at the annual harbor banquet.",
+        "zh": "在一场海港晚宴上遭受家族冷落后，一位年轻寡妇收回了亡夫留下的码头特权与遗产。"
+      }
+    },
+    "title": {
+      "en": "The Wharf Contract",
+      "zh": "码头契约"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "When Nora Mercer and her eight-year-old son are humiliated at the annual coastal maritime banquet, she stops holding back the quiet financial access her late husband left in her hands.",
+      "zh": "当诺拉·默瑟与她八岁的儿子在一年一度的海港晚宴上受尽奚落时，她不再隐忍，决定彻底切断亡夫生前留给家族的特权资助。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, emotional grief, and financial independence.",
+      "zh": "虚构故事。包含家族冲突、亲人离世伤痛与经济独立等主题。"
+    },
+    "tone": "slate",
+    "glyph": "WC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3013,
+      "zh": 5077
     }
   }
 ];
