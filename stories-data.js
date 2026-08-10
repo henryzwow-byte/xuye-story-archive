@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a175-v1";
+window.STORY_ARCHIVE_VERSION = "20260810-a176-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7554,6 +7554,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2159,
       "zh": 3694
+    }
+  },
+  {
+    "slug": "whispers-in-the-timber",
+    "fileNo": "A-176",
+    "cover": "assets/covers/A-176-whispers-in-the-timber.png",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Whispers in the Timber",
+        "zh": "木理的细语"
+      },
+      "description": {
+        "en": "An architectural historian uncovers structural deception and a hidden family legacy along the Maine coast.",
+        "zh": "一位建筑历史学者在缅因州海岸揭开结构欺诈与隐藏已久的家族往事。"
+      }
+    },
+    "title": {
+      "en": "Whispers in the Timber",
+      "zh": "木理的细语"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "When architectural historian Clara Vance investigates forged inspection stamps on a coastal restoration project, she uncovers a decades-long financial scheme orchestrated by her own husband.",
+      "zh": "当建筑历史学者克拉拉·凡斯调查海岸修复项目中被伪造的检验印章时，她揭开了由自己丈夫一手策划的长达数十年之久的金融阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts marital betrayal, corporate financial fraud, and non-fatal structural sabotage. All characters and settings are entirely fictional.",
+      "zh": "虚构故事。包含婚姻背叛、企业金融欺诈及非致命性结构破坏情节。剧中所有人物与场景纯属虚构。"
+    },
+    "tone": "Muted",
+    "glyph": "WT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2572,
+      "zh": 4509
     }
   }
 ];
