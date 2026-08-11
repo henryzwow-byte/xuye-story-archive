@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a213-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a214-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9226,6 +9226,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3509,
       "zh": 5873
+    }
+  },
+  {
+    "slug": "the-saltwind-covenant",
+    "fileNo": "A-214",
+    "cover": "assets/covers/A-214-the-saltwind-covenant.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Saltwind Covenant",
+        "zh": "盐风公约"
+      },
+      "description": {
+        "en": "A maritime inheritance unravels decades of corporate betrayal and a mother's silent resilience.",
+        "zh": "一份海事遗产揭开了数十年的企业背叛与一位母亲沉静的抗争。"
+      }
+    },
+    "title": {
+      "en": "The Saltwind Covenant",
+      "zh": "盐风公约"
+    },
+    "category": {
+      "en": "Literary Fiction",
+      "zh": "文学小说"
+    },
+    "summary": {
+      "en": "After her mother passes away in a quiet Maine fishing town, Nora Vance discovers a hidden maritime escrow certificate that exposes a corporate titan's past betrayal—and her mother's lifelong plan for justice.",
+      "zh": "在缅因州一座宁静的渔镇，母亲去世后，诺拉·凡斯发现了一份隐藏的海事托管证书，揭露了巨头企业的昔日背叛以及母亲用尽一生筹谋的公正。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of parental loss, past corporate wrongdoing, and emotional strain.",
+      "zh": "虚构故事。包含亲人离世、企业过往不当行为及情感冲突主题。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2539,
+      "zh": 4346
     }
   }
 ];
