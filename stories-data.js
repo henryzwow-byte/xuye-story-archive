@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a207-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a208-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8962,6 +8962,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2348,
       "zh": 4168
+    }
+  },
+  {
+    "slug": "the-restoration-deed",
+    "fileNo": "A-208",
+    "cover": "assets/covers/A-208-the-restoration-deed.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Restoration Deed",
+        "zh": "修复契约"
+      },
+      "description": {
+        "en": "When an ambitious ex-partner tries to steal her historic timber restoration craft, a master artisan finds protection in an unyielding legacy.",
+        "zh": "当野心勃勃的前合伙人试图窃取她的古建筑木艺修复技艺时，一位杰出女工匠在坚不可摧的家族遗产中找到了庇护与反击的武器。"
+      }
+    },
+    "title": {
+      "en": "The Restoration Deed",
+      "zh": "修复契约"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "In a tense municipal arbitration hall, historic timber restorer Maeve Miller faces an injunction that threatens to bankrupt her workshop and strip away her lifetime of work. But a forgotten heritage trust holds a revelation that turns the tide.",
+      "zh": "在紧张的市政仲裁庭上，古建筑木艺修复师梅芙·米勒面临着一项威胁要让她的工作坊破产并剥夺她一生心血的禁令。然而，一份被遗忘的文化遗产信托契约所揭示的真相，彻底扭转了局势。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate betrayal, contract dispute, and emotional coercion.",
+      "zh": "虚构故事。包含企业背叛、合同纠纷与情感胁迫的主题。"
+    },
+    "tone": "Timber",
+    "glyph": "RD",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2424,
+      "zh": 4315
     }
   }
 ];
