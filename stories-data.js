@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a198-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a199-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8566,6 +8566,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3128,
       "zh": 5128
+    }
+  },
+  {
+    "slug": "sanctuary-of-cedar",
+    "fileNo": "A-199",
+    "cover": "assets/covers/A-199-sanctuary-of-cedar.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Sanctuary of Cedar",
+        "zh": "雪松庇护所"
+      },
+      "description": {
+        "en": "When her stepmother moves to claim her newly restored alpine workshop, timber artisan Nora Vance uses municipal deeds and strict legal boundaries to break a seventeen-year cycle of displacement.",
+        "zh": "当继母试图强占她新近修复的高山木工大屋时，木构手艺人诺拉·凡斯凭借市政产权契约与清晰的法律界线，终结了长达十七年的剥夺宿命。"
+      }
+    },
+    "title": {
+      "en": "Sanctuary of Cedar",
+      "zh": "雪松庇护所"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "After fourteen years of disciplined joinery work, Nora Vance purchases a historic timber workshop in the Cascade Range. But when her stepmother attempts to commandeer the sanctuary for her son, Nora defends her space with legal authority and quiet resilience.",
+      "zh": "经过十四年自律的木工生涯，诺拉·凡斯在喀斯喀特山脉买下了一座历史悠久的木构工作室。然而，当继母企图为其亲生儿子强占这处庇护所时，诺拉凭借法律权威与从容的韧性捍卫了自己的领地。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family boundary conflict and emotional displacement without violence.",
+      "zh": "虚构故事。涉及家庭界线冲突与情感挤压，不含暴力或违法行为。"
+    },
+    "tone": "Cedar",
+    "glyph": "NV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1994,
+      "zh": 3655
     }
   }
 ];
