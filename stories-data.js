@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a209-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a210-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9050,6 +9050,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2229,
       "zh": 4125
+    }
+  },
+  {
+    "slug": "anchor-and-iron",
+    "fileNo": "A-210",
+    "cover": "assets/covers/A-210-anchor-and-iron.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Anchor and Iron",
+        "zh": "锚与铁骨"
+      },
+      "description": {
+        "en": "A maritime architect returns to a high-society museum opening to reclaim her legacy and stand tall for her twin sons.",
+        "zh": "一位海洋建筑师重返上流社会博物馆开幕式，夺回自己的工程遗产，并为双胞胎儿子尊严发声。"
+      }
+    },
+    "title": {
+      "en": "Anchor and Iron",
+      "zh": "锚与铁骨"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When naval draftsman Hannah Mercer is invited to the high-society opening of a maritime museum, she brings more than historic blueprints—she brings the undeniable truth of her work and her sons' bloodline.",
+      "zh": "当造船绘图师汉娜·默瑟受邀参加一家海洋博物馆的上流社会开幕式时，她带去的不止是历史蓝图，还有她的作品真相与儿子的血脉事实。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of past corporate deception, high-society pressure, and single parenthood.",
+      "zh": "虚构故事。包含过去企业欺骗、上流社会压力及单亲抚养主题。"
+    },
+    "tone": "maritime",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2162,
+      "zh": 3794
     }
   }
 ];
