@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a189-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a190-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8170,6 +8170,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2509,
       "zh": 4275
+    }
+  },
+  {
+    "slug": "tides-of-provenance",
+    "fileNo": "A-190",
+    "cover": "assets/covers/A-190-tides-of-provenance.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tides of Provenance",
+        "zh": "信证之潮"
+      },
+      "description": {
+        "en": "When a maritime restorer refuses to mortgage her historic boathouse for her family's failing resort deal, an orchestrated harbor crisis tests her boundaries and her trust.",
+        "zh": "当一位海洋文物修复师拒绝为家族摇摇欲坠的度假村项目抵押自己的老船坞时，一场蓄意制造的港口危机考验着她的底线与信任。"
+      }
+    },
+    "title": {
+      "en": "Tides of Provenance",
+      "zh": "信证之潮"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A coastal artisan defends her workshop and reputation against a staged environmental report orchestrated by her estranged relatives.",
+      "zh": "一位海岸手艺人面对疏远亲属蓄意捏造的环保举报，顽强捍卫自己的工坊与声誉。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family financial coercion, false police reports, and emotional confrontation.",
+      "zh": "虚构故事。包含家族经济胁迫、虚假警情通报及情感冲突等情节。"
+    },
+    "tone": "Wind-swept coastal slate",
+    "glyph": "TP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2705,
+      "zh": 4748
     }
   }
 ];
