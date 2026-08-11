@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260810-a184-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a185-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7950,6 +7950,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2777,
       "zh": 4597
+    }
+  },
+  {
+    "slug": "the-red-sealed-ledger",
+    "fileNo": "A-185",
+    "cover": "assets/covers/A-185-the-red-sealed-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Red-Sealed Ledger",
+        "zh": "红蜡封印的账簿"
+      },
+      "description": {
+        "en": "A story of craft, independence, and reclaiming dignity.",
+        "zh": "关于手艺、独立与重塑尊严的故事。"
+      }
+    },
+    "title": {
+      "en": "The Red-Sealed Ledger",
+      "zh": "红蜡封印的账簿"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When a mother-in-law publicly humiliates two young girls at a historic foundation gala, a skilled timber artisan leaves behind the evidence that exposes her husband's deceit.",
+      "zh": "在一家历史基金会的盛大晚宴上，当婆婆公开羞辱两个幼女时，一位技艺精湛的木艺匠人留下了揭露丈夫谎言的铁证，毅然离去。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family mistreatment, financial deceit, and emotional control.",
+      "zh": "虚构故事。包含家庭不公、财务欺诈与情感控制主题。"
+    },
+    "tone": "Copper",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3255,
+      "zh": 5700
     }
   }
 ];
