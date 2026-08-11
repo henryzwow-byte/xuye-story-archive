@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a217-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a218-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9402,6 +9402,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2476,
       "zh": 4142
+    }
+  },
+  {
+    "slug": "timber-line-severed",
+    "fileNo": "A-218",
+    "cover": "assets/covers/A-218-timber-line-severed.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cedar Foundation: A Story of Family Boundaries",
+        "zh": "《雪松基石》：关于家庭界限的觉醒故事"
+      },
+      "description": {
+        "en": "When structural engineer Hannah Vance discovers how her parents restructured the family orchard's trust behind her back, she must decide whether to keep funding their illusions or step away.",
+        "zh": "当结构工程师汉娜·凡斯发现父母背着她重组果园信托资产时，她必须决定是继续为虚妄的偏心买单，还是果断划清界限。"
+      }
+    },
+    "title": {
+      "en": "The Cedar Foundation",
+      "zh": "雪松基石"
+    },
+    "category": {
+      "en": "Family Drama / Fiction",
+      "zh": "家庭情感 / 虚构小说"
+    },
+    "summary": {
+      "en": "For four years, structural engineer Hannah Vance privately guaranteed mortgages and structural permits for her parents' coastal orchard estate. But a routine inspection of storm damage exposes a hidden trust amendment that transfers all assets to her favored younger brother while shifting all debt liabilities onto her.",
+      "zh": "四年来，结构工程师汉娜·凡斯一直在暗中为父母的沿海果园庄园提供贷款担保和结构修复支持。然而，一次例行的风灾评估却揭开了一份隐秘的信托修正案——父母将全部资产过户给小儿子，却将所有债务责任全部推给了汉娜。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family financial exploitation, emotional manipulation, and boundary setting.",
+      "zh": "虚构故事。包含家庭财务剥削、情感操纵与建立界限等主题。"
+    },
+    "tone": "Cedar",
+    "glyph": "HV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2826,
+      "zh": 4860
     }
   }
 ];
