@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a187-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a188-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8082,6 +8082,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2854,
       "zh": 4770
+    }
+  },
+  {
+    "slug": "cracks-in-the-seawall",
+    "fileNo": "A-188",
+    "cover": "assets/covers/A-188-cracks-in-the-seawall.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Cracks in the Seawall",
+        "zh": "海堤裂痕"
+      },
+      "description": {
+        "en": "A maritime structural engineer uncovers a dangerous fraud beneath her husband's resort project while recovering from childbirth.",
+        "zh": "一位在产后恢复中的海洋结构工程师，揭开了丈夫度假村项目地基下隐藏的危险欺诈。"
+      }
+    },
+    "title": {
+      "en": "Cracks in the Seawall",
+      "zh": "海堤裂痕"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "Recovering from surgical delivery, structural engineer Clara Vance discovers her husband forged her professional seal on a compromised coastal foundation. Gathering digital telemetry and audit trails, she acts to protect her infant son and public safety.",
+      "zh": "在术后恢复期，结构工程师克拉拉·凡斯发现丈夫伪造了她的专业印章，批准了一项存在隐患的海岸地基项目。她收集数字遥测与审计痕迹，果断采取行动保护新生儿子与公众安全。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of emotional neglect, marital conflict, and legal disputes.",
+      "zh": "虚构故事。包含对情感漠视、婚姻冲突及法律纠纷的描绘。"
+    },
+    "tone": "Coastal",
+    "glyph": "SW",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1840,
+      "zh": 3137
     }
   }
 ];
