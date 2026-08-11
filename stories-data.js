@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a205-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a206-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8874,6 +8874,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2100,
       "zh": 3650
+    }
+  },
+  {
+    "slug": "the-cedar-tide-marker",
+    "fileNo": "A-206",
+    "cover": "assets/covers/A-206-the-cedar-tide-marker.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cedar Tide Marker",
+        "zh": "雪松潮汐标"
+      },
+      "description": {
+        "en": "An Oregon woodworker dismantles his late daughter's survey skiff in grief, uncovering a hidden device that rewrites her final coastal voyage.",
+        "zh": "在悲痛中，俄勒冈州的一位木工拆毁了亡女的测绘小艇，却意外发现了一枚隐秘装置，改写了她最后的航程真相。"
+      }
+    },
+    "title": {
+      "en": "The Cedar Tide Marker",
+      "zh": "雪松潮汐标"
+    },
+    "category": {
+      "en": "Dramatic Mystery",
+      "zh": "戏剧悬疑"
+    },
+    "summary": {
+      "en": "After their twenty-four-year-old surveyor daughter drowns in an apparent coastal accident, a grieving timber carpenter axes her salvaged wooden skiff—only to find an unrecorded data logger embedded in the transom that unlocks a dangerous truth.",
+      "zh": "二十四岁的测绘员女儿在一次看似意外的海难中丧生后，悲痛欲绝的木工父亲用斧头砍碎了她被打捞出水的木质小艇，却在船尾板中发现了一枚未登记的数据记录仪，进而揭开了一个危险的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts parental grief, death of an adult child, dismantling of a vessel, and maritime accident investigation.",
+      "zh": "虚构故事。包含父母喪子之痛、成年子女离世、拆卸船只及海上事故调查等情节。"
+    },
+    "tone": "Pacific Cedar",
+    "glyph": "CT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2637,
+      "zh": 4493
     }
   }
 ];
