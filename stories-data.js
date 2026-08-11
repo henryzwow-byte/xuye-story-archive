@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a204-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a205-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8830,6 +8830,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3952,
       "zh": 6618
+    }
+  },
+  {
+    "slug": "whistler-ridge-legacy",
+    "fileNo": "A-205",
+    "cover": "assets/covers/A-205-whistler-ridge-legacy.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Whistler Ridge Legacy",
+        "zh": "惠斯勒山脊的遗泽"
+      },
+      "description": {
+        "en": "After a sudden tragedy, a mother uncovers a state-of-the-art mountain botanical archive built under the guise of an endless renovation.",
+        "zh": "在一场突如其来的变故后，一位母亲揭开了一座以漫长修缮为名隐匿的高山植物档案库。"
+      }
+    },
+    "title": {
+      "en": "Whistler Ridge Legacy",
+      "zh": "惠斯勒山脊的遗泽"
+    },
+    "category": {
+      "en": "Literary Drama",
+      "zh": "文学戏剧"
+    },
+    "summary": {
+      "en": "When her daughter dies unexpectedly, Evelyn Vance travels to a remote Montana timber mill—only to discover that years of structural excuses masked a profound act of silent devotion.",
+      "zh": "当女儿意外离世后，埃芙琳·凡斯来到了蒙大拿州偏远的木材厂——却发现多年来关于修缮工程的推托背后，藏着一场沉静而深远的默默奉献。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of parental grief, family secrets, chronic illness, and emotional reconciliation.",
+      "zh": "虚构故事。包含丧亲悲伤、家庭秘密、慢性疾病及情感和解等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "WR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2100,
+      "zh": 3650
     }
   }
 ];
