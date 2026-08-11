@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a224-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a225-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9710,6 +9710,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2419,
       "zh": 4252
+    }
+  },
+  {
+    "slug": "the-slate-ledger",
+    "fileNo": "A-225",
+    "cover": "assets/covers/A-225-the-slate-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Slate Ledger",
+        "zh": "石板日志"
+      },
+      "description": {
+        "en": "When architectural restorer Clara Thorne uncovers structural fraud before a gala, she faces down corporate deception with indisputable physical proof.",
+        "zh": "当古建筑修复师克拉拉·索恩在盛宴前夕揭露结构欺诈时，她凭借无可辩驳的物理证据直面企业谎言。"
+      }
+    },
+    "title": {
+      "en": "The Slate Ledger",
+      "zh": "石板日志"
+    },
+    "category": {
+      "en": "Fiction / Drama & Suspense",
+      "zh": "虚构 / 戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When historic architectural restorer Clara Thorne discovers a corporate plot to cover up catastrophic structural flaws at a high-society dedication gala, she risks her career to present indisputable physical evidence of corruption.",
+      "zh": "当古建筑修复师克拉拉·索恩在名流云集的落成典礼前夕发现公司高层试图掩盖致命结构缺陷的阴谋时，她冒着职业生涯毁于一旦的风险，现场出示了揭露腐败的无可辩驳的物理证据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of workplace deception, corporate corruption, and professional vindication.",
+      "zh": "虚构故事。包含职场欺诈、企业腐败以及专业尊严维权等主题。"
+    },
+    "tone": "slate",
+    "glyph": "CT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2274,
+      "zh": 3847
     }
   }
 ];
