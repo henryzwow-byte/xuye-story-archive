@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a190-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a191-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8214,6 +8214,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2705,
       "zh": 4748
+    }
+  },
+  {
+    "slug": "the-sounding-line-covenant",
+    "fileNo": "A-191",
+    "cover": "assets/covers/A-191-the-sounding-line-covenant.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Sounding Line Covenant",
+        "zh": "水下声呐公约"
+      },
+      "description": {
+        "en": "When an aristocratic logistics dynasty targets a widowed mother and her coastal workshop, a deceased engineer's hidden maritime protocol turns greed into a self-destruct trigger.",
+        "zh": "当豪门物流帝国逼迫守寡的母亲与她的海岸船屋时，已故工程师留下的隐秘海洋公约将贪婪变成了自毁引信。"
+      }
+    },
+    "title": {
+      "en": "The Sounding Line Covenant",
+      "zh": "水下声呐公约"
+    },
+    "category": {
+      "en": "Legal Thriller",
+      "zh": "法律悬疑"
+    },
+    "summary": {
+      "en": "Following the oceanographic loss of her engineer husband, Mara Thorne faces a hostile custody fight and forced eviction by her late husband's powerful family. But a sealed international covenant and a secret bond acquisition turn her home into an impenetrable fortress.",
+      "zh": "在工程师丈夫于海洋科考中离世后，玛拉·索恩面临着丈夫显赫家族的恶意争夺监护权与强制驱逐。然而，一份封存的国际公约与隐秘的债券收购，将她的家变成了不可摧毁的堡垒。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial grief, bereavement, high-stakes corporate probate disputes, and legal confrontation. All characters and organizations are entirely fictitious.",
+      "zh": "虚构故事。包含家庭丧亲、高风险企业遗嘱检验纠纷及法律对抗等主题。所有人物与机构纯属虚构。"
+    },
+    "tone": "Slate",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2494,
+      "zh": 4656
     }
   }
 ];
