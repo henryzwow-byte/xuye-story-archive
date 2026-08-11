@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a210-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a211-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9094,6 +9094,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2162,
       "zh": 3794
+    }
+  },
+  {
+    "slug": "coastal-timber-trust",
+    "fileNo": "A-211",
+    "cover": "assets/covers/A-211-coastal-timber-trust.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Coastal Timber Trust",
+        "zh": "海岸木业信托"
+      },
+      "description": {
+        "en": "A master boatbuilder uncovers a years-long scheme of financial deception and reclaims her historic heritage yard.",
+        "zh": "一名资深造船师揭开了一场持续多年的财务欺诈阴谋，重新夺回了属于自己家族的历史舟艇厂。"
+      }
+    },
+    "title": {
+      "en": "The Coastal Timber Trust",
+      "zh": "海岸木业信托"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When master shipwright Clara Vance is audited during a routine harbor restoration inspection, a shocking discovery shatters her belief in her struggling marriage and uncovers a calculated betrayal.",
+      "zh": "当资深舟艇师克拉拉·范斯在一次例行港口修复检验中接受审计时，一项震惊的发现击碎了她对自己艰难婚姻的认知，揭开了一场蓄谋已久的背叛。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of financial deception, emotional control, and familial betrayal.",
+      "zh": "虚构故事。包含财务欺诈、情感操纵及家族背叛主题。"
+    },
+    "tone": "Amber",
+    "glyph": "CT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2255,
+      "zh": 4058
     }
   }
 ];
