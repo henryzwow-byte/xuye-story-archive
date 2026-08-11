@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a196-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a197-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8478,6 +8478,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3295,
       "zh": 5507
+    }
+  },
+  {
+    "slug": "the-salt-pillar-ledger",
+    "fileNo": "A-197",
+    "cover": "assets/covers/A-197-the-salt-pillar-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt-Pillar Ledger",
+        "zh": "盐柱账簿"
+      },
+      "description": {
+        "en": "An independent timber auditor uncovers a hidden forgery on a historic Maine lighthouse, forcing a reckoning between professional integrity and family betrayal.",
+        "zh": "一名独立木材审计师在缅因州一座历史悠久的灯塔上发现了隐秘的伪造标记，迫使她在职业操守与家族背叛之间做出决断。"
+      }
+    },
+    "title": {
+      "en": "The Salt-Pillar Ledger",
+      "zh": "盐柱账簿"
+    },
+    "category": {
+      "en": "Fiction / Mystery & Drama",
+      "zh": "虚构 / 悬疑与戏剧"
+    },
+    "summary": {
+      "en": "In a fog-bound coastal Maine town, historical timber surveyor Clara Vance uncovers a falsified registry mark on an ancestral lighthouse beam, forcing her to confront a buried legacy of family betrayal and commercial fraud.",
+      "zh": "在缅因州被浓雾笼罩的海滨小镇，历史木材测量师克拉拉·凡斯在祖传灯塔的梁柱上发现了一个伪造的登记标记，迫使她面对一段尘封的家族背叛与商业欺诈过往。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family conflict, financial disputes, and corporate fraud.",
+      "zh": "虚构故事。包含家族冲突、财务纠纷及商业欺诈相关描写。"
+    },
+    "tone": "weathered",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2559,
+      "zh": 4374
     }
   }
 ];
