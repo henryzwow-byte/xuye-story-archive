@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a223-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a224-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9666,6 +9666,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2265,
       "zh": 3949
+    }
+  },
+  {
+    "slug": "tide-water-ledger",
+    "fileNo": "A-224",
+    "cover": "assets/covers/A-224-tide-water-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide-Water Ledger",
+        "zh": "潮汐账册"
+      },
+      "description": {
+        "en": "A retired Maine boatbuilder faces emotional betrayal and financial deceit at a coastal gala, uncovering the truth through meticulous ledgers and quiet resolve.",
+        "zh": "一位退休的缅因州造船师在海岸晚宴上遭遇感情背叛与财务欺诈，最终凭借严谨的账册与沉静的决意揭开真相。"
+      }
+    },
+    "title": {
+      "en": "The Tide-Water Ledger",
+      "zh": "潮汐账册"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "虚构故事 / 戏剧"
+    },
+    "summary": {
+      "en": "When a retired marine engineer is publicly humiliated at his own boathouse by his ambitious stepson, he uses four decades of physical paper records to dismantle a covert financial scheme and reclaim his legacy.",
+      "zh": "当一位退休的海洋工程师在自己的船坞晚宴上遭到野心勃勃的继子的公开辱骂与排挤时，他凭借四十年来记录的纸质账册与档案，一步步拆穿隐秘的财务阴谋，收回属于自己的遗产。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of familial betrayal, financial deceit, and psychological conflict. All characters, places, and events are entirely fictional.",
+      "zh": "虚构故事。包含家庭背叛、财务欺诈及心理冲突等主题。文中所有人物、地点与事件均为虚构。"
+    },
+    "tone": "Salt-strained",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2419,
+      "zh": 4252
     }
   }
 ];
