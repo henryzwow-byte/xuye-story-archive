@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a216-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a217-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9358,6 +9358,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2610,
       "zh": 4630
+    }
+  },
+  {
+    "slug": "the-trestle-at-iron-gorge",
+    "fileNo": "A-217",
+    "cover": "assets/covers/A-217-the-trestle-at-iron-gorge.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Trestle at Iron Gorge",
+        "zh": "铁谷高架桥"
+      },
+      "description": {
+        "en": "A gripping Western tale of courage, mechanical sabotage, and family resilience along a storm-swept mountain rail line.",
+        "zh": "讲述在风雨交加的山区铁道线上，关于勇气、机械破坏与家族坚韧的感人西部故事。"
+      }
+    },
+    "title": {
+      "en": "The Trestle at Iron Gorge",
+      "zh": "铁谷高架桥"
+    },
+    "category": {
+      "en": "Western Fiction",
+      "zh": "西部小说"
+    },
+    "summary": {
+      "en": "When a runaway caboose becomes trapped on a failing mountain trestle, a solitary signal inspector and his estranged niece fight a rainstorm and a corrupt timber foreman to execute a daring rescue.",
+      "zh": "当一节失控的车尾厢被困在岌岌可危的山区高架桥上时，一位孤僻的信号检查员和他疏远的女儿般的女儿在暴风雨中与贪婪的木材监工抗争，展开了一场惊心动魄的救援。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of structural danger, high-altitude rescue, and rail machinery risks.",
+      "zh": "虚构故事。包含高空结构险情、绳索救援与铁路机械风险的情节。"
+    },
+    "tone": "Copper",
+    "glyph": "IG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2476,
+      "zh": 4142
     }
   }
 ];
