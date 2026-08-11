@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a215-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a216-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9314,6 +9314,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3043,
       "zh": 5301
+    }
+  },
+  {
+    "slug": "the-coastal-deed",
+    "fileNo": "A-216",
+    "cover": "assets/covers/A-216-the-coastal-deed.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Coastal Deed",
+        "zh": "海岸契约"
+      },
+      "description": {
+        "en": "Locked out of her historic coastal studio after surgery, a master glassblower uncovers a corporate forgery and triggers a maritime heritage covenant.",
+        "zh": "术后归来的玻璃艺术家发现自己的海滨工作室被丈夫以虚构告令封锁，她凭借隐秘的海洋遗产契约发起了雷霆反击。"
+      }
+    },
+    "title": {
+      "en": "The Coastal Deed",
+      "zh": "海岸契约"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "Returning home from emergency hospital care, a master glassblower finds her seaside workshop padlocked under a fabricated municipal notice by her ambitious husband and his uncle—unaware that she holds a historic maritime covenant capable of reclaiming her life.",
+      "zh": "从急诊医院康复归来的玻璃工艺大师发现，自己独立拥有的海滨工作室竟被野心勃勃的丈夫及其叔叔贴上伪造的市政接管公告并锁闭。然而他们不知道的是，她手中握有一份足以彻底改写局面的历史性海洋保护契约。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital betrayal, financial disputes, attempted real estate fraud, and emotional recovery after medical hospitalization.",
+      "zh": "虚构故事。包含婚姻背叛、财产纠纷、不动产欺诈企图以及术后情感复原主题。"
+    },
+    "tone": "Chilly",
+    "glyph": "CD",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2610,
+      "zh": 4630
     }
   }
 ];
