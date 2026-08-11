@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a221-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a222-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9578,6 +9578,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2599,
       "zh": 4548
+    }
+  },
+  {
+    "slug": "salvage-and-strain",
+    "fileNo": "A-222",
+    "cover": "assets/covers/A-222-salvage-and-strain.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Salvage and Strain",
+        "zh": "拆解与重构"
+      },
+      "description": {
+        "en": "A timber framer on the Maine coast uncovers years of dangerous structural sabotage in his family's historic shipyard.",
+        "zh": "在缅因州海岸的造船厂里，一位木构修复师揭开了家族工坊隐瞒多年的结构隐患与背叛真相。"
+      }
+    },
+    "title": {
+      "en": "Salvage and Strain",
+      "zh": "拆解与重构"
+    },
+    "category": {
+      "en": "Drama & Mystery",
+      "zh": "现实情感"
+    },
+    "summary": {
+      "en": "Working in his family's historic coastal shipyard, craftsman Leo Vance has spent years bearing the blame for equipment failures engineered by his domineering brother. When a catastrophic winch failure reveals a deeper web of forged safety logs and structural fraud, Leo must choose between family silence and standing up for the truth.",
+      "zh": "在家族继承的百年造船厂中，木匠利奥长期承受着霸道兄长加雷斯的言语打压与事故责难。当一次重型绞盘缆绳断裂险些酿成巨祸，利奥在陈旧仪器箱内发现了被伪造的记录与隐患证据，他最终决定打破沉默，开辟属于自己的清白人生。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts workplace psychological pressure, family conflict, and non-fatal mechanical hazards.",
+      "zh": "虚构故事。包含职场心理压迫、家族矛盾及非致命性机械事故描写。"
+    },
+    "tone": "industrial",
+    "glyph": "SS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3909,
+      "zh": 6521
     }
   }
 ];
