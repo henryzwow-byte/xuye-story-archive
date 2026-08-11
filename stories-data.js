@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a206-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a207-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8918,6 +8918,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2637,
       "zh": 4493
+    }
+  },
+  {
+    "slug": "the-tide-keeper-legacy",
+    "fileNo": "A-207",
+    "cover": "assets/covers/A-207-the-tide-keeper-legacy.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide Keeper's Legacy",
+        "zh": "潮汐守护者的遗产"
+      },
+      "description": {
+        "en": "When maritime surveyor Julian Vance returns home after his grandfather's passing, a mystery in a brass cylinder turns a fierce estate battle into a fight to save the coast.",
+        "zh": "当海洋测量师朱利安·范斯在祖父过世后回到家乡时，黄铜圆筒里的秘密将一场激烈的遗产争夺战演变成一场拯救海岸的保卫战。"
+      }
+    },
+    "title": {
+      "en": "The Tide Keeper's Legacy",
+      "zh": "潮汐守护者的遗产"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "A maritime surveyor investigates his late grandfather's secretive coastal holdings, unlocking a forty-year-old hydrographic mystery that reframes his family's bitter estate battle.",
+      "zh": "一位海洋测量师调查他已故祖父神秘的海岸地产，解开了一个长达四十年的水文谜团，重新定义了他家族激烈的遗产争夺战。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family estate disputes, historical maritime accidents, and environmental hazards.",
+      "zh": "虚构故事。包含家庭遗产纠纷、历史航海事故及环境灾害隐患的描绘。"
+    },
+    "tone": "cobalt",
+    "glyph": "TK",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2348,
+      "zh": 4168
     }
   }
 ];
