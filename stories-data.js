@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a199-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a200-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8610,6 +8610,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1994,
       "zh": 3655
+    }
+  },
+  {
+    "slug": "fractured-bedrock",
+    "fileNo": "A-200",
+    "cover": "assets/covers/A-200-fractured-bedrock.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Fractured Bedrock",
+        "zh": "裂隙基岩"
+      },
+      "description": {
+        "en": "When a corrupt engineering director tries to scapegoat inspector Nora Vance high above a surging mountain dam, she exposes a hidden structural fraud and confronts her father's towering shadow.",
+        "zh": "在大坝高空检修架上，当腐败的工程总监试图让检查员诺拉·范斯顶锅时，她揭露了隐蔽的结构欺诈，并直面父亲沉重的阴影。"
+      }
+    },
+    "title": {
+      "en": "Fractured Bedrock",
+      "zh": "裂隙基岩"
+    },
+    "category": {
+      "en": "Drama / Industry",
+      "zh": "剧情 / 行业"
+    },
+    "summary": {
+      "en": "Suspended high above a storm-swollen gorge, structural inspector Nora Vance faces forced termination and public humiliation by a ruthless director. Armed with mechanical skill and hard data, she uncovers corporate sabotage while confronting five years of estrangement from her legendary father.",
+      "zh": "悬挂在暴雨汹涌的峡谷高空，结构检查员诺拉·范斯面临着残酷总监的解雇与公开羞辱。凭借机械技术与确凿数据，她在揭露企业破坏行为的同时，也直面了与传奇父亲长达五年的隔阂。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of professional hostility, corporate negligence, high-altitude industrial danger, and strained familial relationships.",
+      "zh": "虚构故事。包含职业敌意、企业疏忽、高空工业危险及紧张家庭关系的描写。"
+    },
+    "tone": "Granite",
+    "glyph": "FB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2310,
+      "zh": 4182
     }
   }
 ];
