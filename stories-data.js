@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a201-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a202-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8698,6 +8698,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2583,
       "zh": 4762
+    }
+  },
+  {
+    "slug": "the-timber-line",
+    "fileNo": "A-202",
+    "cover": "assets/covers/A-202-the-timber-line.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Line",
+        "zh": "林线深处"
+      },
+      "description": {
+        "en": "A mother and son return to a foggy Pacific Northwest town to confront an old family rupture with field notes and hidden truth.",
+        "zh": "一位母亲带着儿子回到被大雾笼罩的西北太平洋小镇，用一本旧野外笔记与被掩盖的真相，回应沉寂九年的家庭裂痕。"
+      }
+    },
+    "title": {
+      "en": "The Timber Line",
+      "zh": "林线深处"
+    },
+    "category": {
+      "en": "Drama & Family",
+      "zh": "戏剧与家庭"
+    },
+    "summary": {
+      "en": "Nine years after being turned away from her childhood home, Nora returns to the rainy timber town of Mistwood Bay with her eight-year-old son and a leather field ledger that unspools the truth about the collapse that changed everything.",
+      "zh": "被逐出家门九年后，诺拉带着八岁的儿子和一本皮革野外记录本，回到了雨雾弥漫的林业小镇米斯特伍德湾，掀开了当年导致一切崩塌的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family estrangement, grief over a past accidental death, and emotional reconciliation.",
+      "zh": "虚构故事。包含家庭疏离、对过往意外离世亲人的哀悼以及情感和解的描写。"
+    },
+    "tone": "Rain-slicked coastal pine",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2633,
+      "zh": 4378
     }
   }
 ];
