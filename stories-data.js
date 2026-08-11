@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a200-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a201-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8654,6 +8654,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2310,
       "zh": 4182
+    }
+  },
+  {
+    "slug": "the-gilded-escapement",
+    "fileNo": "A-201",
+    "cover": "assets/covers/A-201-the-gilded-escapement.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Gilded Escapement",
+        "zh": "镀金棘爪"
+      },
+      "description": {
+        "en": "An intricate story of horological artistry, family betrayal, and resilient restoration.",
+        "zh": "关于钟表艺术、家族背叛与坚韧修复的曲折故事。"
+      }
+    },
+    "title": {
+      "en": "The Gilded Escapement",
+      "zh": "镀金棘爪"
+    },
+    "category": {
+      "en": "Literary Fiction",
+      "zh": "文学小说"
+    },
+    "summary": {
+      "en": "Nora Harlow has spent years restoring historic maritime chronometers in relative obscurity. On the morning of her fellowship evaluation, her family attempts to derail her career through a calculated act of sabotage, forcing her to rebuild her art and her life from the gears up.",
+      "zh": "诺拉·哈洛多年来默默守护并修复着古老的航海天文钟。就在她申请专业研究基金评审的那个早晨，冷酷的家人企图通过一场精心策划的破坏来毁掉她的职业生涯，逼迫她在碎齿与伤痕中重塑艺术与人生。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts familial sabotage, emotional abuse, workplace injury, and legal disputes. All characters and events are fictitious.",
+      "zh": "虚构故事。包含家庭蓄意破坏、情感虐待、职业伤害及法律纠纷情节。所有人物与事件纯属虚构。"
+    },
+    "tone": "Brass",
+    "glyph": "GE",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2583,
+      "zh": 4762
     }
   }
 ];
