@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a218-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a219-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9446,6 +9446,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2826,
       "zh": 4860
+    }
+  },
+  {
+    "slug": "shadows-over-the-pavilion",
+    "fileNo": "A-219",
+    "cover": "assets/covers/A-219-shadows-over-the-pavilion.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Shadows Over the Pavilion",
+        "zh": "展馆阴影"
+      },
+      "description": {
+        "en": "A disgraced conservator returns to Chicago's grandest civic gala with proof of a dangerous corporate cover-up.",
+        "zh": "一位受冤的建筑修复师携带着致命企业隐瞒的铁证，重返芝加哥最盛大的市政晚宴。"
+      }
+    },
+    "title": {
+      "en": "Shadows Over the Pavilion",
+      "zh": "展馆阴影"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "Five years after being ousted from Chicago's high-stakes architectural scene, structural conservator Clara Thorne returns to a high-society civic gala armed with undeniable metallurgical evidence.",
+      "zh": "被赶出芝加哥顶尖建筑圈五年后，结构修复师克拉拉·索恩携不可辩驳的冶金测试证据重返上流社会市政晚宴。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate misconduct, professional betrayal, and high-stakes legal confrontation.",
+      "zh": "虚构故事。包含企业失当行为、职业背叛和高风险法律对质等主题。"
+    },
+    "tone": "Architectural",
+    "glyph": "SP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2772,
+      "zh": 4974
     }
   }
 ];
