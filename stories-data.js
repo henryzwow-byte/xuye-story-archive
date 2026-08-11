@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a193-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a194-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8346,6 +8346,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2329,
       "zh": 3960
+    }
+  },
+  {
+    "slug": "frost-on-the-timber",
+    "fileNo": "A-194",
+    "cover": "assets/covers/A-194-frost-on-the-timber.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Frost on the Timber",
+        "zh": "林区寒霜"
+      },
+      "description": {
+        "en": "When a severe blizzard hits an isolated mountain valley, a retired surveyor uncovers a bitter betrayal and rescues his nephew from freezing abandonment.",
+        "zh": "当一场严寒暴风雪袭来，一位退休测绘师在孤立的山谷中揭开残酷背叛，将侄子从冻结的遗弃境地中救出。"
+      }
+    },
+    "title": {
+      "en": "Frost on the Timber",
+      "zh": "林区寒霜"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "小说与戏剧"
+    },
+    "summary": {
+      "en": "A retired surveyor responds to a midnight emergency call in sub-zero Idaho, discovering his nephew locked in a frozen utility cabin while his family pursues luxury elsewhere.",
+      "zh": "一名退休测绘师在爱达荷州的严寒深夜接听紧急电话，发现侄子在家人前往远方奢华度假时被锁在冻结的杂物小屋中。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts child neglect, extreme weather distress, and family legal conflict. Reader discretion is advised.",
+      "zh": "虚构故事。包含儿童忽视、极端天气困境及家庭法律纠纷情节。建议读者斟酌阅读。"
+    },
+    "tone": "Slate",
+    "glyph": "FT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2332,
+      "zh": 3918
     }
   }
 ];
