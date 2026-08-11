@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a203-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a204-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8786,6 +8786,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2868,
       "zh": 5125
+    }
+  },
+  {
+    "slug": "echoes-over-spillway",
+    "fileNo": "A-204",
+    "cover": "assets/covers/A-204-echoes-over-spillway.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Echoes Over the Spillway",
+        "zh": "溢洪道上的回响"
+      },
+      "description": {
+        "en": "A rope-access engineer braves a mountain deluge to track rhythmic acoustic signals and save her trapped mentor before the spillway collapses.",
+        "zh": "一位高空绳索工程技术员冒着山洪暴雨，循着微弱的声音信号，在溢洪道坍塌前拯救被困的恩师。"
+      }
+    },
+    "title": {
+      "en": "Echoes Over the Spillway",
+      "zh": "溢洪道上的回响"
+    },
+    "category": {
+      "en": "Action & Survival",
+      "zh": "动作与生存"
+    },
+    "summary": {
+      "en": "When a catastrophic mountain deluge floods a Cascade gorge, engineer Tessa Vance refuses to accept that her veteran mentor is lost, following subtle structural vibration cues into a roaring subterranean vault.",
+      "zh": "当一场灾难性的暴雨淹没卡斯凯德峡谷时，工程师泰莎·凡斯拒绝认为失联的恩师已经遇难。她凭借微小的结构震动信号，深入轰鸣的地下拱顶展开营救。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts severe weather, flood hazards, and physical injury in a mountain rescue setting.",
+      "zh": "虚构故事。包含恶劣天气、洪水险情及山地救援中的人员受伤描写。"
+    },
+    "tone": "industrial",
+    "glyph": "ES",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3952,
+      "zh": 6618
     }
   }
 ];
