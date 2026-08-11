@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a214-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a215-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9270,6 +9270,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2539,
       "zh": 4346
+    }
+  },
+  {
+    "slug": "the-master-winding-key",
+    "fileNo": "A-215",
+    "cover": "assets/covers/A-215-the-master-winding-key.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Master Winding Key",
+        "zh": "主发条钥匙"
+      },
+      "description": {
+        "en": "When a horologist is secretly excluded from her family trust's grand clocktower launch, an old municipal covenant reveals the true weight of legacy.",
+        "zh": "当一位钟表修复师被秘密排除在自家家族信托的钟楼大厅开幕式之外时，一份古老的市政协议揭示了传承的真正重量。"
+      }
+    },
+    "title": {
+      "en": "The Master Winding Key",
+      "zh": "主发条钥匙"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "A master clock restorer in a historic Pennsylvania town discovers her nephew has converted her late sister's public clocktower into an exclusive lounge—unaware of the historic covenant that protects both the mechanism and its rightful guardian.",
+      "zh": "宾夕法尼亚州一座历史小镇的钟表大师发现，侄子秘密将她已故姐姐留下的公立钟楼改建为高端私人沙龙——但他忽略了那份同时保护钟楼机构与合法守护者的古老法定协议。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, legal boundary disputes, and emotional reckoning.",
+      "zh": "虚构故事。包含家庭疏离、法律与界限纠纷及情感决裂与和解主题。"
+    },
+    "tone": "Bronze",
+    "glyph": "MK",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3043,
+      "zh": 5301
     }
   }
 ];
