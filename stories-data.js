@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a208-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a209-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9006,6 +9006,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2424,
       "zh": 4315
+    }
+  },
+  {
+    "slug": "the-amber-ledger",
+    "fileNo": "A-209",
+    "cover": "assets/covers/A-209-the-amber-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Amber Ledger",
+        "zh": "琥珀账本"
+      },
+      "description": {
+        "en": "A disgraced researcher returns to an elite corporate summit to reclaim her father's agricultural legacy.",
+        "zh": "一位身名受损的研究员重返顶级企业峰会，夺回属于父亲的农业遗产与尊严。"
+      }
+    },
+    "title": {
+      "en": "The Amber Ledger",
+      "zh": "琥珀账本"
+    },
+    "category": {
+      "en": "Drama & Fiction",
+      "zh": "戏剧与虚构"
+    },
+    "summary": {
+      "en": "When Clara Vance is invited to Vanguard Agritech's 50th Anniversary Gala, her former mother-in-law expects a humbled ex-wife. Instead, Clara arrives with her twin daughters and an unassailable audit trail that exposes five years of corporate theft.",
+      "zh": "当克拉拉·凡斯受邀参加先锋农业科技五十周年庆典时，前婆婆以为会等来一个卑微屈服的前妻。然而，克拉拉带着双胞胎女儿和一份不可撼动的审计证据链亲临现场，揭露了一场长达五年的企业掠夺。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts corporate betrayal, workplace sabotage, and family conflict resolution.",
+      "zh": "虚构故事。包含企业背叛、职场陷害与家庭矛盾化解。"
+    },
+    "tone": "Amber",
+    "glyph": "AL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2229,
+      "zh": 4125
     }
   }
 ];
