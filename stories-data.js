@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a185-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a186-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -7994,6 +7994,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3255,
       "zh": 5700
+    }
+  },
+  {
+    "slug": "shadows-of-blackwood-bluffs",
+    "fileNo": "A-186",
+    "cover": "assets/covers/A-186-shadows-of-blackwood-bluffs.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Shadows of Blackwood Bluffs",
+        "zh": "黑木崖之影"
+      },
+      "description": {
+        "en": "A maritime craftsman uncovers tide logs and a hidden camera card that reveal the truth behind his twin sister's fatal fall.",
+        "zh": "一位海洋手艺人发现潮汐日志与藏匿的相机卡，揭开孪生妹妹坠崖身亡背后的真相。"
+      }
+    },
+    "title": {
+      "en": "Shadows of Blackwood Bluffs",
+      "zh": "黑木崖之影"
+    },
+    "category": {
+      "en": "Fictional Mystery",
+      "zh": "虚构悬疑"
+    },
+    "summary": {
+      "en": "When maritime restorer Julian Vance receives his deceased sister's survey pack, subtle discrepancies in ocean tide records lead him to a concealed camera card and a deadly family conspiracy.",
+      "zh": "当海洋修复师朱利安·凡斯收到已故妹妹的测绘背包时，海洋潮汐记录中细微的不符将他引向一张隐藏的追踪相机卡与一场致命的家族阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of grief, family conflict, land fraud, and wrongful death.",
+      "zh": "虚构故事。包含关于悲伤、家族冲突、土地欺诈及非正常死亡相关主题。"
+    },
+    "tone": "Cobalt",
+    "glyph": "BB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2485,
+      "zh": 4200
     }
   }
 ];
