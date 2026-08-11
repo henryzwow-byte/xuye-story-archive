@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a192-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a193-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8302,6 +8302,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2391,
       "zh": 4104
+    }
+  },
+  {
+    "slug": "the-timber-and-the-shadow",
+    "fileNo": "A-193",
+    "cover": "assets/covers/A-193-the-timber-and-the-shadow.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber and the Shadow",
+        "zh": "木香与阴影"
+      },
+      "description": {
+        "en": "A deeply moving story about boundary crossings, concealed histories, and rebuilding trust on unvarnished truth.",
+        "zh": "一部关于亲密界限、隐秘过去以及在坦荡真相上重建信任的动人故事。"
+      }
+    },
+    "title": {
+      "en": "The Timber and the Shadow",
+      "zh": "木香与阴影"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When an ambitious landscape architect secretly leaves her husband for a high-stakes retreat with a charismatic former flame, a forgotten cedar chest in their workshop unveils a past that threatens to shatter their marriage forever.",
+      "zh": "当一位野心勃勃的景观建筑师瞒着丈夫与富有魅力的前男友前往高山度假村时，工作室里一个被遗忘的雪松木箱揭开了一段隐藏多年的秘密，彻底打破了他们的婚姻。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional dishonesty, romantic boundary violations, and marital conflict.",
+      "zh": "虚构故事。包含情感不忠、婚姻界限冲突及亲密关系信任危机等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2329,
+      "zh": 3960
     }
   }
 ];
