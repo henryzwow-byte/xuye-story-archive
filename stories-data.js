@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a195-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a196-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8434,6 +8434,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2606,
       "zh": 4651
+    }
+  },
+  {
+    "slug": "the-restorers-proof",
+    "fileNo": "A-196",
+    "cover": "assets/covers/A-196-the-restorers-proof.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Restorer's Proof",
+        "zh": "修复师的证词"
+      },
+      "description": {
+        "en": "A maritime conservator quietly reclaims her studio and exposes her husband's offshore fraud.",
+        "zh": "一位海洋古董修复师冷静收回工作室权限并揭露丈夫的海外欺诈。"
+      }
+    },
+    "title": {
+      "en": "The Restorer's Proof",
+      "zh": "修复师的证词"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "When a maritime antique conservator discovers her husband and gallery manager have conspired to pledge her workshop title for an overseas venture, she quietly revokes their access, secures her timber barn studio, and exposes their fraudulent scheme.",
+      "zh": "当一位海洋古董修复师发现丈夫与画廊经理合谋将她的工作室产权抵押给海外项目时，她冷静地撤销权限、更换锁具，并揭露了他们的欺诈阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts marital betrayal, financial deception, and legal disputes. All characters and situations are entirely fictional.",
+      "zh": "虚构故事。包含婚姻背叛、财务欺诈及法律纠纷情节。所有人物与事件纯属虚构。"
+    },
+    "tone": "Rust",
+    "glyph": "RP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3295,
+      "zh": 5507
     }
   }
 ];
