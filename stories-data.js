@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a197-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a198-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8522,6 +8522,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2559,
       "zh": 4374
+    }
+  },
+  {
+    "slug": "the-iron-locker-at-blackwood-cove",
+    "fileNo": "A-198",
+    "cover": "assets/covers/A-198-the-iron-locker-at-blackwood-cove.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Iron Locker at Blackwood Cove",
+        "zh": "黑木湾的铁柜"
+      },
+      "description": {
+        "en": "A widow investigates her late husband's dying secret along the misty shores of Puget Sound.",
+        "zh": "一位遗孀在蒲甘府海湾的迷雾海岸上调查亡夫临终前的秘密。"
+      }
+    },
+    "title": {
+      "en": "The Iron Locker at Blackwood Cove",
+      "zh": "黑木湾的铁柜"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "小说与戏剧"
+    },
+    "summary": {
+      "en": "After her husband dies leaving a strict warning never to open an iron locker at a remote tide-mill, Clara Vance uncovers a decades-old secret radio relay and the silent guilt that fractured her family.",
+      "zh": "在丈夫去世并严正警告绝不要打开偏远潮汐磨坊里的铁柜后，克拉拉·凡斯揭开了一处隐藏数十年的无线电中继站，以及割裂她家庭的沉默负疚。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family grief, historical maritime accidents, and estrangement.",
+      "zh": "虚构故事。包含家庭哀伤、历史航海意外及亲情疏离的温和主题。"
+    },
+    "tone": "Amber",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3128,
+      "zh": 5128
     }
   }
 ];
