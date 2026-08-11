@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a211-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a212-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9138,6 +9138,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2255,
       "zh": 4058
+    }
+  },
+  {
+    "slug": "breaker-point-gale",
+    "fileNo": "A-212",
+    "cover": "assets/covers/A-212-breaker-point-gale.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ghost Lock of Breaker Point",
+        "zh": "断浪角幽灵船闸"
+      },
+      "description": {
+        "en": "A suspended harbor pilot and a lock inspector race against a storm to stop a sabotaged freighter in the Pacific Northwest.",
+        "zh": "在太平洋西北部的风暴中，一名停职的引航员与水闸检查员联手阻止一艘被暗中破坏的失控货轮。"
+      }
+    },
+    "title": {
+      "en": "The Ghost Lock of Breaker Point",
+      "zh": "断浪角幽灵船闸"
+    },
+    "category": {
+      "en": "Dramatic Suspense",
+      "zh": "戏剧悬疑"
+    },
+    "summary": {
+      "en": "When a runaway automated freighter threatens a Pacific Northwest harbor during a midnight gale, a suspended harbor pilot and a skeptical lock engineer uncover a tampered telemetry system designed to seal the bay's fate.",
+      "zh": "在风暴夜的太平洋西北港湾，一艘失控的自动化货轮逼近，一名处于停职状态的引航员与怀疑她的水闸工程师联手，揭开了旨在摧毁海湾的被篡改遥测系统。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of perilous maritime weather, mechanical sabotage, and intense crisis management.",
+      "zh": "虚构故事。包含对危险海洋天气、机械破坏及紧张危机管理的描写。"
+    },
+    "tone": "Slate",
+    "glyph": "BP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2496,
+      "zh": 4159
     }
   }
 ];
