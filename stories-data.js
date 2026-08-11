@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a188-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a189-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8126,6 +8126,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1840,
       "zh": 3137
+    }
+  },
+  {
+    "slug": "the-weight-of-the-valve",
+    "fileNo": "A-189",
+    "cover": "assets/covers/A-189-the-weight-of-the-valve.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Weight of the Valve",
+        "zh": "阀门的重负"
+      },
+      "description": {
+        "en": "During a regional engineering gala in the Cascade Mountains, an estranged sister reveals a decade of secret structural auditing to avert a catastrophic dam failure.",
+        "zh": "在喀斯喀特山脉举办的一场区域工程晚会上，一位被家族冷落疏离的姐姐揭开长达十年的秘密结构稽查身份，化解了一场致命的大坝决堤危机。"
+      }
+    },
+    "title": {
+      "en": "The Weight of the Valve",
+      "zh": "阀门的重负"
+    },
+    "category": {
+      "en": "Fiction / Drama & Suspense",
+      "zh": "小说 / 戏剧与悬疑"
+    },
+    "summary": {
+      "en": "At a prestigious hydro-engineering gala honoring her younger brother, Clara Vance sits relegated to an overflow table. But when a federal inspector arrives with an urgent acoustic telemetry log, a decade of hidden sacrifices and structural secrets comes to light.",
+      "zh": "在表彰弟弟的水利工程晚会上，克拉拉·凡斯被安排在偏僻的后排备用席。然而，当一名联邦督察携带着一份紧急声学遥测日志破门而入时，长达十年的隐秘牺牲与结构漏洞终于浮出水面。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, workplace bias, and infrastructure disaster prevention.",
+      "zh": "虚构故事。包含家庭疏离、职场偏见及基础设施灾害预防等主题。"
+    },
+    "tone": "Subdued",
+    "glyph": "BV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2509,
+      "zh": 4275
     }
   }
 ];
