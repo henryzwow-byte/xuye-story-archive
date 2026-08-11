@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a202-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a203-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8742,6 +8742,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2633,
       "zh": 4378
+    }
+  },
+  {
+    "slug": "the-alder-point-ledger",
+    "fileNo": "A-203",
+    "cover": "assets/covers/A-203-the-alder-point-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Alder Point Ledger",
+        "zh": "奥尔德角账簿"
+      },
+      "description": {
+        "en": "When architectural restorer Nora Vance uncovers altered structural logs on a historic coastal lodge, she exposes a lucrative deception engineered by those closest to her.",
+        "zh": "当古建筑修复师诺拉·凡斯在潮湿的高原旅馆中发现被篡改的结构日志时，她揭开了身边至亲精心策划的一场商业谋算与背叛。"
+      }
+    },
+    "title": {
+      "en": "The Alder Point Ledger",
+      "zh": "奥尔德角账簿"
+    },
+    "category": {
+      "en": "Fiction / Mystery & Suspense",
+      "zh": "小说 / 悬疑解谜"
+    },
+    "summary": {
+      "en": "A historic preservationist in Oregon discovers evidence of structural sabotage and financial fraud orchestrated by her developer husband and a corrupt official.",
+      "zh": "俄勒冈州的一位古建筑保护专家发现了由她的开发商丈夫和一名腐败官员策划的结构破坏与财务欺诈证据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital betrayal, corporate deception, and financial fraud.",
+      "zh": "虚构故事。包含婚姻背叛、企业欺诈和财务谋算主题。"
+    },
+    "tone": "slate",
+    "glyph": "AP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2868,
+      "zh": 5125
     }
   }
 ];
