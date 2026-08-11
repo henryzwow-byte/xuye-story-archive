@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a186-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a187-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8038,6 +8038,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2485,
       "zh": 4200
+    }
+  },
+  {
+    "slug": "salvage-and-tide",
+    "fileNo": "A-187",
+    "cover": "assets/covers/A-187-salvage-and-tide.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Salvage and Tide",
+        "zh": "打捞与潮汐"
+      },
+      "description": {
+        "en": "A marine surveyor stands her ground when her family steals her gear and forges her seal to cover their illegal harbor debts.",
+        "zh": "一位海洋测量员在家族偷窃其设备并伪造其印章以掩盖非法港口债务时，坚决捍卫了自己的权益。"
+      }
+    },
+    "title": {
+      "en": "Salvage and Tide",
+      "zh": "打捞与潮汐"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 戏剧"
+    },
+    "summary": {
+      "en": "After being evicted from her family's Oregon shipyard and having her professional equipment stolen, marine surveyor Clara Vance unravels a fraudulent scheme that threatens her career and independence.",
+      "zh": "在被逐出家族位于俄勒冈州的船厂并被偷走专业设备后，海洋测量员克拉拉·范斯揭发了一起威胁其职业生涯与独立地位的诈骗阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family conflict, financial deception, and corporate negligence. All characters and events are fictitious.",
+      "zh": "虚构故事。涉及家庭冲突、财务欺诈及企业疏忽。所有角色与事件均为虚构。"
+    },
+    "tone": "Slate",
+    "glyph": "ST",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2854,
+      "zh": 4770
     }
   }
 ];
