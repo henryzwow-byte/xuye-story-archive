@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a194-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a195-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8390,6 +8390,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2332,
       "zh": 3918
+    }
+  },
+  {
+    "slug": "the-salt-mill-ledger",
+    "fileNo": "A-195",
+    "cover": "assets/covers/A-195-the-salt-mill-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt Mill Ledger",
+        "zh": "盐坊账簿"
+      },
+      "description": {
+        "en": "An offshore acoustic engineer returns to his family's Pacific Northwest boatyard to uncover a high-tech corporate plot against his uncle.",
+        "zh": "一位近海声学工程师回到位于太平洋西北部的家族造船厂，揭穿了一起针对他叔叔的高科技企业阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Salt Mill Ledger",
+      "zh": "盐坊账簿"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Returning home after ten months at sea, Julian Vance finds his uncle locked in a loft and framed for dementia by an ambitious brother-in-law seeking to sell the family timber mill. Armed with structural telemetry and forensic engineering, Julian sets out to prove the truth.",
+      "zh": "海上工作十个月后归来的朱利安·凡斯发现，叔叔被野心勃勃的姐夫锁在阁楼里并被伪造患有痴呆症，企图强行出售家族木业厂。凭着结构遥测技术与法医工程调查，朱利安誓要揭开真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial deception, corporate greed, and psychological manipulation.",
+      "zh": "虚构故事。包含家族欺诈、企业贪婪及心理操纵主题。"
+    },
+    "tone": "slate",
+    "glyph": "SM",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2606,
+      "zh": 4651
     }
   }
 ];
