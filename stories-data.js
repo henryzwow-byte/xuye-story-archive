@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a220-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a221-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9534,6 +9534,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3234,
       "zh": 5653
+    }
+  },
+  {
+    "slug": "the-tide-and-the-timber",
+    "fileNo": "A-221",
+    "cover": "assets/covers/A-221-the-tide-and-the-timber.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide and the Timber",
+        "zh": "潮汐与木梁"
+      },
+      "description": {
+        "en": "At an elite Newport gala, a woman relegated to coat check is recognized by the guest of honor for saving his legacy.",
+        "zh": "在罗德岛新港的顶尖晚宴上，一位被家人支去寄存外套的女子，被主宾认出曾挽救其家族存亡。"
+      }
+    },
+    "title": {
+      "en": "The Tide and the Timber",
+      "zh": "潮汐与木梁"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "When Claire Sterling is ordered by her mother to manage coat check at her sister’s high-society engagement gala, she complies quietly. But when the groom’s grandfather recognizes the forensic auditor who saved his family empire from ruin, the family’s carefully curated hierarchy crumbles.",
+      "zh": "在妹妹的上流社会订婚晚宴上，克莱尔·斯泰林被母亲要求去负责贵宾外套寄存。然而，当新郎的祖父认出这位曾将家族企业从毁灭边缘救回的首席法医审计师时，这个家庭精心伪装的阶级壁垒瞬间崩塌。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family emotional manipulation, verbal condescension, and social rank conflict.",
+      "zh": "虚构故事。包含家庭情感操纵、言语贬低及社会地位冲突的描写。"
+    },
+    "tone": "Oceanic",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2599,
+      "zh": 4548
     }
   }
 ];
