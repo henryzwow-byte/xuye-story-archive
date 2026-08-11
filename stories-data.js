@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a191-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a192-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -8258,6 +8258,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2494,
       "zh": 4656
+    }
+  },
+  {
+    "slug": "the-kootenai-gauge",
+    "fileNo": "A-192",
+    "cover": "assets/covers/A-192-the-kootenai-gauge.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Kootenai Gauge | Sub-Surface Echoes",
+        "zh": "库特奈测规｜水下回响"
+      },
+      "description": {
+        "en": "A young surveyor carrying a master diver's acoustic seal arrives at a remote Idaho hydro-depot, forced to prove her past wasn't a fraud.",
+        "zh": "一名带着大师级水下声呐钢印的年轻测绘员来到爱达荷州偏远水电站，她必须证明自己的过往并非虚妄。"
+      }
+    },
+    "title": {
+      "en": "The Kootenai Gauge",
+      "zh": "库特奈测规"
+    },
+    "category": {
+      "en": "Industrial Mystery & Drama",
+      "zh": "工业悬疑与戏剧"
+    },
+    "summary": {
+      "en": "When newcomer Evelyn Mercer reports to an Idaho river dam depot wearing a master diver's acoustic endorsement, her supervisor suspects forged credentials. But an emergency spillway test and a regional audit reveal the heroic truth behind her sealed past.",
+      "zh": "当新人埃弗林·默瑟佩戴着大师级水下声呐钢印来到爱达荷州的大坝工作站时，她的主管怀疑她伪造资质。然而一场突发的溢洪道检测与来自监管部门的审查，揭开了她封存履历背后拯救生命的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of occupational stress, underwater industrial hazards, and administrative safety audits.",
+      "zh": "虚构故事。包含职业压力、水下工业危险及行政安全审查相关主题。"
+    },
+    "tone": "Ochre",
+    "glyph": "KG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2391,
+      "zh": 4104
     }
   }
 ];
