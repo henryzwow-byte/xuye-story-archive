@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a212-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a213-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9182,6 +9182,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2496,
       "zh": 4159
+    }
+  },
+  {
+    "slug": "saltwater-and-cedar",
+    "fileNo": "A-213",
+    "cover": "assets/covers/A-213-saltwater-and-cedar.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Saltwater and Cedar",
+        "zh": "海水与红杉"
+      },
+      "description": {
+        "en": "A coastal architect reclaims her late mother's timber preservation legacy after a bitter family betrayal.",
+        "zh": "一位海岸建筑师在经历家族背叛后，依法收回并守护母亲留下的木业与遗产。"
+      }
+    },
+    "title": {
+      "en": "Saltwater and Cedar",
+      "zh": "海水与红杉"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "When Nora Thorne is publicly cast out from the gala celebrating her mother's coastal pavilion, she activates a long-dormant environmental land covenant that strips her father and stepmother of their corporate control.",
+      "zh": "当诺拉·索恩在母亲设计的悬崖展馆酒会上被公开驱逐时，她启动了一份沉睡已久的土地保护协议，从父亲与继母手中依法夺回了整个工坊的控制权。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial estrangement, corporate misconduct, emotional conflict, and legacy disputes.",
+      "zh": "虚构故事。包含家族疏离、企业违规操作、情感冲突与遗产纠纷相关主题。"
+    },
+    "tone": "slate",
+    "glyph": "ST",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3509,
+      "zh": 5873
     }
   }
 ];
