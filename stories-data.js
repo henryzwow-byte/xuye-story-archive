@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a222-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a223-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9622,6 +9622,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3909,
       "zh": 6521
+    }
+  },
+  {
+    "slug": "the-shadow-of-blackwood-cliff",
+    "fileNo": "A-223",
+    "cover": "assets/covers/A-223-the-shadow-of-blackwood-cliff.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Shadow of Blackwood Cliff",
+        "zh": "黑木崖的阴影"
+      },
+      "description": {
+        "en": "A reclusive archivist on the stormy Oregon coast protects his young nephew and niece from a ruthless pursuer carrying evidence of a family betrayal.",
+        "zh": "在风暴频发的俄勒冈海岸，一位隐居的档案保管员保护着他的小侄子和小侄女，抵御携带着家族背叛证据的冷酷追捕者。"
+      }
+    },
+    "title": {
+      "en": "The Shadow of Blackwood Cliff",
+      "zh": "黑木崖的阴影"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "On a gale-swept coastal bluff, Julian Vance lives in isolated solitude until his ten-year-old nephew arrives through a raging storm carrying his little sister and a brass casing containing dangerous evidence. As a powerful industrialist pursues them, Julian must stand against the storm and face the painful past he tried to leave behind.",
+      "zh": "在狂风席卷的海岸峭壁上，朱利安·凡斯过着隐居生活，直到他十岁的侄子带着小妹妹穿过汹涌的海岸风暴赶来，手里拿着一个装有危险证据的黄铜外壳。随着一名强大的实业家展开追捕，朱利安必须挺身对抗风暴，面对他试图抛在脑后的痛苦过去。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts severe weather conditions, family conflict, financial corruption themes, and mild peril. All characters and situations are entirely fictitious.",
+      "zh": "虚构故事。包含恶劣天气、家庭冲突、商业腐败主题及温和险境描写。所有人物与情节均为虚构。"
+    },
+    "tone": "amber",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2265,
+      "zh": 3949
     }
   }
 ];
