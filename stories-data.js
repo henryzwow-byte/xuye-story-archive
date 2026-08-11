@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a219-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a220-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9490,6 +9490,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2772,
       "zh": 4974
+    }
+  },
+  {
+    "slug": "the-archivists-retribution",
+    "fileNo": "A-220",
+    "cover": "assets/covers/A-220-the-archivists-retribution.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Archivist's Retribution",
+        "zh": "档案员的反击"
+      },
+      "description": {
+        "en": "A forensic conservator returns to Boston to find her career slanderously erased and her inheritance stolen—until a hidden copper mark exposes the family fraud.",
+        "zh": "一位古建筑修复师回到波士顿，发现自己的事业被诬蔑抹去，遗产被蚕食——直到一枚隐秘的铜印揭开了家族的骗局。"
+      }
+    },
+    "title": {
+      "en": "The Archivist's Retribution",
+      "zh": "档案员的反击"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "都市小说"
+    },
+    "summary": {
+      "en": "When forensic architectural conservator Evelyn Vance returns to Boston after years of hazardous restoration work in Europe, she discovers her uncle has stolen her mother's trust, erased her studio, and branded her incompetent. At a high-society museum gala, a legendary master engineer recognizes her unseen mark on the building's structural timber, shattering the family's carefully crafted lies.",
+      "zh": "当古建筑结构修复师伊芙琳·凡斯结束在欧洲多年的艰险工程回到波士顿，她发现叔父不仅吞噬了母亲留下的基金、铲除了她的工作室，还公开发表毁谤言论指控她职业失职。在一场名流云集的博物馆晚宴上，一位传奇大师级工程师认出了古建筑木梁上属于伊芙琳的独门修复印记，彻底拆穿了这场精心策划的家族谎言。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family betrayal, financial manipulation, defamation, and high-stress professional conflict.",
+      "zh": "虚构故事。包含家族背叛、财务操纵、名誉侵犯以及高压职业冲突主题。"
+    },
+    "tone": "Copper",
+    "glyph": "AR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3234,
+      "zh": 5653
     }
   }
 ];
