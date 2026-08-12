@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a251-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a252-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10898,6 +10898,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2401,
       "zh": 4132
+    }
+  },
+  {
+    "slug": "the-timber-and-the-frame",
+    "fileNo": "A-252",
+    "cover": "assets/covers/A-252-the-timber-and-the-frame.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber and the Frame",
+        "zh": "木料与框界"
+      },
+      "description": {
+        "en": "An architectural conservator stands her ground against familial extortion during a stormy night on the Oregon coast.",
+        "zh": "在俄勒冈海岸风暴之夜，一位建筑修复师直面家族的经济胁迫与虚假指控，坚守自己的原则。"
+      }
+    },
+    "title": {
+      "en": "The Timber and the Frame",
+      "zh": "木料与框界"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "When architectural conservator Nora Vance refuses to co-sign a ruinous commercial loan for her brother, her family retaliates by filing a false felony theft report against her. Cornered by county deputies at a stormy maritime loading dock, Nora relies on precise archival records, a dedicated surveyor, and her own resilience to expose the fraud and reclaim her independence.",
+      "zh": "当建筑修复师诺拉·凡斯拒绝为哥哥的高风险商业贷款提供担保时，家人竟以假报案控告她盗窃家族地产遗产。在风暴肆虐的码头被警车围堵之际，诺拉凭借精确的归档记录、专业调查员的支持与自身的果敢，揭露了这场阴谋并重获自由。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, financial extortion, false reports, and emotional boundary setting.",
+      "zh": "虚构故事。包含家庭冲突、经济胁迫、虚假报案及建立情感界限等主题。"
+    },
+    "tone": "weathered",
+    "glyph": "TF",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2506,
+      "zh": 4380
     }
   }
 ];
