@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a260-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a261-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11294,6 +11294,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2222,
       "zh": 4043
+    }
+  },
+  {
+    "slug": "the-salt-ledger",
+    "fileNo": "A-261",
+    "cover": "assets/covers/A-261-the-salt-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt Ledger",
+        "zh": "盐封账簿"
+      },
+      "description": {
+        "en": "When a sister's memorial is ignored by an ambitious niece, a waterfront workshop becomes the stage for a reckoning over greed, family secrets, and land.",
+        "zh": "当冷漠的外甥女缺席姨母的告别式，一座海滨木工房成了贪婪、家族秘密与土地存亡决战的舞台。"
+      }
+    },
+    "title": {
+      "en": "The Salt Ledger",
+      "zh": "盐封账簿"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Following his sister Clara's death, retired shipwright Silas Vance faces an unannounced visit from his estranged niece and her developer fiancé seeking prime waterfront property. But a final surveyor's ledger reveals hidden liabilities and truths they never anticipated.",
+      "zh": "姐姐克拉拉离世后，老船匠西拉斯迎来了疏远外甥女及其房企未婚夫的突然造访。他们企图强占价值不菲的海滨地块，然而一本盐封的测绘账簿揭示了令他们始料未及的法律责任与残酷真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of grief, family conflict, legal disputes, and financial deception.",
+      "zh": "虚构故事。包含悲伤、家庭冲突、法律纠纷与财务欺诈等主题。"
+    },
+    "tone": "slate",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2911,
+      "zh": 5118
     }
   }
 ];
