@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a264-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a265-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11470,6 +11470,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2119,
       "zh": 3582
+    }
+  },
+  {
+    "slug": "the-stress-point",
+    "fileNo": "A-265",
+    "cover": "assets/covers/A-265-the-stress-point.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Stress Point",
+        "zh": "应力点"
+      },
+      "description": {
+        "en": "A forensic structural engineer in Seattle is forced to audit a failing waterfront pier owned by the father who abandoned her twenty years ago.",
+        "zh": "西雅图的一位结构鉴定工程师不得不对一座即将坍塌的码头进行审计，而该码头属于二十年前抛弃她的父亲。"
+      }
+    },
+    "title": {
+      "en": "The Stress Point",
+      "zh": "应力点"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When a compromised waterfront construction project threatens a developer with bankruptcy, he turns to an elite forensic engineering firm—unaware that the principal engineer tasked with auditing his failure is the daughter he left behind decades ago.",
+      "zh": "当一座有安全隐患的滨海建筑项目让开发商濒临破产时，他求助于一家顶尖的结构鉴定事务所——却不知道负责审计他工程失败的首席工程师，正是他数十年前抛弃的女儿。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of parental abandonment, historic family conflict, and financial distress. All characters, businesses, and engineering events are purely fictional.",
+      "zh": "虚构故事。包含父母遗弃、历史家庭冲突和财务困境等主题。所有人物、企业及工程事件均为虚构。"
+    },
+    "tone": "industrial",
+    "glyph": "SP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2365,
+      "zh": 4071
     }
   }
 ];
