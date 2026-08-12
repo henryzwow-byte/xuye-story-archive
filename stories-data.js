@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a226-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a227-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9798,6 +9798,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2075,
       "zh": 3500
+    }
+  },
+  {
+    "slug": "the-resonance-at-deadwood-gorge",
+    "fileNo": "A-227",
+    "cover": "assets/covers/A-227-the-resonance-at-deadwood-gorge.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Resonance at Deadwood Gorge",
+        "zh": "死木峡谷的共鸣"
+      },
+      "description": {
+        "en": "When an alpine night express hazards a storm-damaged pass, a fourteen-year-old using her late mother's field journal detects a structural flaw that adult automated systems miss.",
+        "zh": "当列车在暴风雪夜驶向受损的山脊山口时，十四岁少女凭借母亲留下的野外工程笔记，发现了自动化信号系统漏报的致命结构隐患。"
+      }
+    },
+    "title": {
+      "en": "The Resonance at Deadwood Gorge",
+      "zh": "死木峡谷的共鸣"
+    },
+    "category": {
+      "en": "Suspense / Technical Fiction",
+      "zh": "悬疑 / 技术小说"
+    },
+    "summary": {
+      "en": "A gripping tale of alpine transit, acoustic telemetry, and an observant fourteen-year-old girl who must convince skeptical adults before a mountain passenger train crosses a compromised trestle.",
+      "zh": "一段关于高山客运、声学遥测与一位观察敏锐的十四岁少女的紧迫故事。在客运列车驶向受损铁桥前，她必须让怀疑她的成年人相信真正的危险所在。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts mild transit peril, extreme winter conditions, and engineering tension without graphic violence or non-fictional risk instructions.",
+      "zh": "虚构故事。包含温和的交通险情、严寒冬日环境及工程紧张氛围，无血腥暴力或现实危险指示。"
+    },
+    "tone": "Steel",
+    "glyph": "RG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2409,
+      "zh": 4123
     }
   }
 ];
