@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a302-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a303-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13098,6 +13098,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2324,
       "zh": 4027
+    }
+  },
+  {
+    "slug": "the-cape-alder-covenant",
+    "fileNo": "A-303",
+    "cover": "assets/covers/A-303-the-cape-alder-covenant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cape Alder Covenant",
+        "zh": "阿尔德角公约"
+      },
+      "description": {
+        "en": "A widowed mechanic braves a Pacific storm to repair a neighbor's timber dock, unearthing a forgotten maritime covenant that protects their shared harbor.",
+        "zh": "一位丧偶的柴油机修工在太平洋风暴中帮老邻居加固木码头，意外掀开了一份尘封的港口公约，拯救了他们的生计与尊严。"
+      }
+    },
+    "title": {
+      "en": "The Cape Alder Covenant",
+      "zh": "阿尔德角公约"
+    },
+    "category": {
+      "en": "Maritime Fiction",
+      "zh": "海洋小说"
+    },
+    "summary": {
+      "en": "When a corporate syndicate threatens to condemn an elderly widow's coastal slipway, a struggling marine welder steps into freezing surf to save her dock. His selfless act uncovers a legacy covenant that reshapes both their lives.",
+      "zh": "当一家商业财团企图强行收缴老寡妇的木质滑道码头时，一位生活窘迫的柴油机修工冒着严寒海浪帮她修缮码头。这一无私之举引出了一份历史公约，彻底改变了两个人的命运。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts financial stress, legal disputes, and mild peril during a stormy rescue effort. Contains no real-world legal or technical advice.",
+      "zh": "虚构故事。包含经济压力、法律纠纷及风暴救援中的轻度险情描写。不构成任何现实法律或技术建议。"
+    },
+    "tone": "weathered",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2317,
+      "zh": 4088
     }
   }
 ];
