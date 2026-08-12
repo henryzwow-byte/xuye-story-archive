@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a240-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a241-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10414,6 +10414,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2653,
       "zh": 4555
+    }
+  },
+  {
+    "slug": "anchor-and-timber",
+    "fileNo": "A-241",
+    "cover": "assets/covers/A-241-anchor-and-timber.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Anchor and Timber",
+        "zh": "铁锚与木香"
+      },
+      "description": {
+        "en": "A Maine artisan sets an unbreakable boundary when her adult son's dangerous dishonesty threatens her life and workshop.",
+        "zh": "当成年儿子的危险谎言威胁到她的生活与手艺作坊时，一位缅因州手艺人立下了不可逾越的界限。"
+      }
+    },
+    "title": {
+      "en": "Anchor and Timber",
+      "zh": "铁锚与木香"
+    },
+    "category": {
+      "en": "Domestic Drama",
+      "zh": "家庭戏剧"
+    },
+    "summary": {
+      "en": "When a mother in coastal Maine uncovers her adult son's systematic deceit and experiences his volatile aggression in her workshop, she relies on quiet documentation and firm community witness to reclaim her safety and restore her life.",
+      "zh": "当一位生活在缅因州沿海的母亲揭穿了成年儿子系统性的欺骗，并在作坊中遭遇他失控的暴怒后，她凭借冷静的记录与严谨的证人立下界限，重获安全与生活。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of domestic tension, financial manipulation, emotional confrontation, and familial boundary setting.",
+      "zh": "虚构故事。包含家庭紧张关系、财务操纵、情感对峙以及家庭界限确立等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "AT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2884,
+      "zh": 4711
     }
   }
 ];
