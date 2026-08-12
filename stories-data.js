@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a268-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a269-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11646,6 +11646,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2449,
       "zh": 4167
+    }
+  },
+  {
+    "slug": "beacon-of-blackwood-point",
+    "fileNo": "A-269",
+    "cover": "assets/covers/A-269-beacon-of-blackwood-point.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Beacon of Blackwood Point",
+        "zh": "黑木角灯塔的曙光"
+      },
+      "description": {
+        "en": "A gripping tale of deception, coastal legacy, and courage on the rugged Maine coast.",
+        "zh": "一段发生于缅因州海岸的关于谋算、遗产守候与同心抗争的悬疑故事。"
+      }
+    },
+    "title": {
+      "en": "The Beacon of Blackwood Point",
+      "zh": "黑木角灯塔的曙光"
+    },
+    "category": {
+      "en": "Suspense & Drama",
+      "zh": "悬疑剧情"
+    },
+    "summary": {
+      "en": "Recovering from a mysterious fall at her family's coastal observatory, architectural archivist Nora Vance discovers a sinister plot to seize her heritage and displace her sister.",
+      "zh": "在家族旧观象台从摔伤中苏醒后，古建筑档案员诺拉·凡斯发现半同胞兄长正蓄意伪造鉴定书，企图吞并这片遗产并驱逐她的妹妹。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family betrayal, legal intimidation, and psychological distress. All characters and institutions are entirely fictitious.",
+      "zh": "虚构故事。包含家族背叛、法律恐吓及心理胁迫主题。书中所有人物与机构均为虚构。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "BP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2264,
+      "zh": 3898
     }
   }
 ];
