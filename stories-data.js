@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a245-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a246-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10634,6 +10634,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1735,
       "zh": 3018
+    }
+  },
+  {
+    "slug": "tide-and-reckoning",
+    "fileNo": "A-246",
+    "cover": "assets/covers/A-246-tide-and-reckoning.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tide and Reckoning",
+        "zh": "潮汐与清算"
+      },
+      "description": {
+        "en": "An underestimated maritime auditor uncovers a criminal enterprise disguised as a high-society gala.",
+        "zh": "一位被低估的海事稽查官揭开了伪装成上流社会晚宴的犯罪网络。"
+      }
+    },
+    "title": {
+      "en": "Tide and Reckoning",
+      "zh": "潮汐与清算"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "Relegated to the service entrance of a luxury coastal estate, an offshore auditor reveals her true federal authority when a high-stakes maritime seizure unfolds.",
+      "zh": "在一座奢华的海岸庄园中，一位被贬至服务通道的海事稽查官在一场高风险的联邦执法行动中展示了她的真实权威。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild depiction of family conflict and federal law enforcement operations.",
+      "zh": "虚构故事。包含轻微的家庭冲突与联邦执法行动描写。"
+    },
+    "tone": "Slate",
+    "glyph": "TR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2014,
+      "zh": 3696
     }
   }
 ];
