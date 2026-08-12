@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a257-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a258-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11162,6 +11162,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3274,
       "zh": 5618
+    }
+  },
+  {
+    "slug": "the-salt-benchmarks",
+    "fileNo": "A-258",
+    "cover": "assets/covers/A-258-the-salt-benchmarks.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt Benchmarks",
+        "zh": "盐测量标本"
+      },
+      "description": {
+        "en": "A retired harbor pilot uncovers forged land records and bank receipts to save her widowed daughter from illegal homelessness.",
+        "zh": "一位退休的引航员揭发伪造的土地记录和银行收据，从非法流离失所中救回寡居的女儿。"
+      }
+    },
+    "title": {
+      "en": "The Salt Benchmarks",
+      "zh": "盐测量标本"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a widowed mother and her young son are illegally locked out of their coastal home by a predatory marine trust, a retired harbor pilot uncovers a paper trail of forged surveys and hidden receipts to reclaim their safe harbor.",
+      "zh": "当一位寡居的母亲和她幼小的儿子被掠夺性的海洋信托非法锁在沿海家门之外时，一位退休的引航员发现了一系列伪造的测量图和隐瞒的收据，从而重新夺回了属于他们的避风港。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family grief, economic displacement, property disputes, and administrative fraud.",
+      "zh": "虚构故事。包含家庭悲伤、经济变故、财产纠纷及行政欺诈相关主题。"
+    },
+    "tone": "slate",
+    "glyph": "SB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3086,
+      "zh": 5369
     }
   }
 ];
