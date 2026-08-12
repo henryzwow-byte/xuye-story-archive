@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a236-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a237-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10238,6 +10238,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2758,
       "zh": 5232
+    }
+  },
+  {
+    "slug": "the-salt-keeper-cipher",
+    "fileNo": "A-237",
+    "cover": "assets/covers/A-237-the-salt-keeper-cipher.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt Keeper’s Cipher",
+        "zh": "盐阁者的密码"
+      },
+      "description": {
+        "en": "On a weather-battered Oregon bluff, a retired surveyor uncovers a buried cedar trunk—and a paper trail that rewrites his family's long silence.",
+        "zh": "在俄勒冈州受风暴侵袭的崖壁上，一位退休测量师发现了一只埋藏的杉木箱，其中的文件重写了他与家人长久的沉默。"
+      }
+    },
+    "title": {
+      "en": "The Salt Keeper’s Cipher",
+      "zh": "盐阁者的密码"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "On a weather-battered Oregon bluff, a retired surveyor uncovers a buried cedar trunk—and a paper trail that rewrites his family's long silence.",
+      "zh": "在俄勒冈州受风暴侵袭的崖壁上，一位退休测量师发现了一只埋藏的杉木箱，其中的文件重写了他与家人长久的沉默。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of grief, family estrangement, and emotional reconciliation.",
+      "zh": "虚构故事。包含悲伤、家庭疏离与情感和解主题。"
+    },
+    "tone": "Amber",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2505,
+      "zh": 4172
     }
   }
 ];
