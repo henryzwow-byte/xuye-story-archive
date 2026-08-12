@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a281-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a282-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12218,6 +12218,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2690,
       "zh": 4688
+    }
+  },
+  {
+    "slug": "the-tide-ledger",
+    "fileNo": "A-282",
+    "cover": "assets/covers/A-282-the-tide-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide Ledger",
+        "zh": "验潮日志"
+      },
+      "description": {
+        "en": "A betrayal forged during a coastal storm unravels when an overlooked maritime logbook exposes a husband's deceit.",
+        "zh": "风暴之夜缔造的背叛，在海事日志的蛛丝马迹中宣告覆灭。"
+      }
+    },
+    "title": {
+      "en": "The Tide Ledger",
+      "zh": "验潮日志"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "When architectural surveyor Clara Vance suffers a near-fatal storm injury, her husband secretly signs away her inherited coastal timber sanctuary. But a single timestamped maritime record becomes her key to exposing the fraud.",
+      "zh": "当测量员克拉拉在海风暴中重伤昏迷，丈夫趁机伪造文书剥夺了她对家族海岸保护区的继承权。然而，一本被遗忘的海事记录成为了揭穿这场阴谋的关键。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital deceit, financial coercion, and recovery from severe physical injury.",
+      "zh": "虚构故事。包含婚姻欺诈、经济胁迫以及严重身体创伤康复等主题。"
+    },
+    "tone": "frost",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2377,
+      "zh": 4017
     }
   }
 ];
