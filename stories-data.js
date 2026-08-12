@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a271-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a272-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11778,6 +11778,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2321,
       "zh": 4365
+    }
+  },
+  {
+    "slug": "light-and-shatter",
+    "fileNo": "A-272",
+    "cover": "assets/covers/A-272-light-and-shatter.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Glassmaker's Covenant",
+        "zh": "琉璃者的契约"
+      },
+      "description": {
+        "en": "An aging master glass artisan reclaims her dignity and legacy after a painful betrayal at a high-society restoration gala.",
+        "zh": "一位年长的琉璃艺术大师在一场上流社会修缮晚宴上遭遇痛心背叛后，重拾尊严与遗产的故事。"
+      }
+    },
+    "title": {
+      "en": "The Glassmaker's Covenant",
+      "zh": "琉璃者的契约"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When stained-glass conservator Clara Vance is publicly humiliated by her son and daughter-in-law at a luxury estate unveiling, she quietly triggers the protective clauses of her family guild charter, uncovering financial misconduct and reclaiming control of her life's work.",
+      "zh": "当彩绘玻璃修复师克拉拉·凡斯在一座奢华庄园的揭幕仪式上惨遭儿子和儿媳的公开羞辱时，她平静地触发了家族公会章程的保护条款，揭露了背后的财务违规行为，并重新掌控了自己倾尽毕生心血的事业。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial conflict, emotional abuse, betrayal, and financial deception.",
+      "zh": "虚构故事。包含家庭冲突、情感虐待、背叛及财务欺诈等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "LS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2636,
+      "zh": 4552
     }
   }
 ];
