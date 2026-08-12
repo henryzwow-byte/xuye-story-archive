@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a239-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a240-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10370,6 +10370,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2262,
       "zh": 3879
+    }
+  },
+  {
+    "slug": "the-brass-chronometer",
+    "fileNo": "A-240",
+    "cover": "assets/covers/A-240-the-brass-chronometer.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Brass Chronometer",
+        "zh": "黄铜计时器"
+      },
+      "description": {
+        "en": "A museum conservator returns to his late grandfather's isolated clock tower workshop, uncovering a hidden mechanical secret that protects a runaway apprentice and their town's legacy.",
+        "zh": "一位博物馆修复师回到已故祖父偏远的钟楼工作室，揭开了一段隐藏在机械钟表深处的秘密，保护了一名逃亡的学徒与小镇的遗产。"
+      }
+    },
+    "title": {
+      "en": "The Brass Chronometer",
+      "zh": "黄铜计时器"
+    },
+    "category": {
+      "en": "Fictional Mystery & Drama",
+      "zh": "虚构悬疑与戏剧"
+    },
+    "summary": {
+      "en": "When restorer Silas Thorne returns to liquidate his late grandfather's clock tower workshop in Highland Creek, he discovers a runaway teenager hiding in the loft with a mechanical music box containing secret land surveys.",
+      "zh": "当修复师西拉斯·索恩回到海兰克里克清理已故祖父的钟楼工作室时，他发现一名藏匿在阁楼里的逃亡少女，手中拿着一台藏有加密土地测量记录的机械音乐盒钟表。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of past family grief, corporate pressure, and property trespassing. All characters, locations, and events are entirely fictional products of creative imagination.",
+      "zh": "虚构故事。包含关于过去亲人离世感伤、商业压力及非法闯入的轻微主题。所有角色、地点和事件均为纯虚构创作。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2653,
+      "zh": 4555
     }
   }
 ];
