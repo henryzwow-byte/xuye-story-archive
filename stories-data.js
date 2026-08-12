@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a234-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a235-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10150,6 +10150,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3283,
       "zh": 5834
+    }
+  },
+  {
+    "slug": "the-boundary-at-cedar-run",
+    "fileNo": "A-235",
+    "cover": "assets/covers/A-235-the-boundary-at-cedar-run.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Boundary at Cedar Run",
+        "zh": "雪松溪的界线"
+      },
+      "description": {
+        "en": "A retired structural preservation engineer defends her historic Maine timber workshop when her daughter and son-in-law attempt to quiet-claim the waterfront property.",
+        "zh": "一位退休的建筑结构修复工程师在女儿与女婿试图偷偷蚕食其缅因州沿海木艺工坊时，凭借专业能力与法律契约捍卫了尊严与土地。"
+      }
+    },
+    "title": {
+      "en": "The Boundary at Cedar Run",
+      "zh": "雪松溪的界线"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "When Nora Sterling welcomed her daughter and son-in-law into her historic Maine timber workshop after her husband's passing, she believed they were preserving family heritage. But when subtle microaggressions escalate into a hidden commercial rezoning scheme, Nora relies on her engineer's eye to audit the truth and draw an unyielding line.",
+      "zh": "丈夫过世后，诺拉·斯特林将女儿与女婿接进了自己位于缅因州的百年木艺工坊，以为是在传承家族手艺。然而，当暗中的挑剔升格为一场隐秘的商业开发企图时，诺拉凭借工程师般的敏锐眼光展开了调查，并划下了一道不可逾越的界线。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family tension, quiet financial manipulation, and property disputes.",
+      "zh": "虚构故事。包含家庭紧张关系、隐秘财务操控及财产纠纷的情节描绘。"
+    },
+    "tone": "weathered",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2855,
+      "zh": 4966
     }
   }
 ];
