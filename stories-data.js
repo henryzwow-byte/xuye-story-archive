@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a253-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a254-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10986,6 +10986,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2551,
       "zh": 4617
+    }
+  },
+  {
+    "slug": "echoes-over-sentinel-ridge",
+    "fileNo": "A-254",
+    "cover": "assets/covers/A-254-echoes-over-sentinel-ridge.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Echoes Over Sentinel Ridge",
+        "zh": "哨兵山脊的回声"
+      },
+      "description": {
+        "en": "An acoustic engineer returns to her family's coastal Oregon homestead, uncovering a real estate conspiracy and a hidden recording inside an antique clock.",
+        "zh": "一位声学工程师回到俄勒冈州的家族海岸宅邸，揭开了一起地产阴谋，并在古董钟内部发现了隐藏的录音。"
+      }
+    },
+    "title": {
+      "en": "Echoes Over Sentinel Ridge",
+      "zh": "哨兵山脊的回声"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When sound archivist Hannah Vance returns to her uncle's coastal Oregon homestead, she finds him isolated under the guise of dementia while ambitious relatives dismantle the estate. But her uncle, a former radio engineer, has engineered a mechanical failsafe hidden in plain sound.",
+      "zh": "当声音档案员汉娜·凡斯回到叔叔位于俄勒冈州的海岸宅邸时，发现亲戚以痴呆症为借口将叔叔隔离，并大肆拆毁家产。然而，这位前无线电工程师叔叔早已在古董钟内藏下了机械自卫证据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of elder exploitation, deception, and family dispute. All characters, locations, and events are fictitious.",
+      "zh": "虚构故事。包含虐待老人、欺诈与家庭纷争题材。所有人物、地点与事件均为虚构。"
+    },
+    "tone": "Obsidian",
+    "glyph": "SR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2324,
+      "zh": 5047
     }
   }
 ];
