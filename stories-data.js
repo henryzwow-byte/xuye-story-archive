@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a269-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a270-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11690,6 +11690,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2264,
       "zh": 3898
+    }
+  },
+  {
+    "slug": "unbraced-timber",
+    "fileNo": "A-270",
+    "cover": "assets/covers/A-270-unbraced-timber.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Unbraced Timber",
+        "zh": "未榫之梁"
+      },
+      "description": {
+        "en": "A timber restorer in coastal Maine confronts her family's silent exploitation and uncovers a thirty-year property deception.",
+        "zh": "缅因州海岸的一位木结构修复师揭开家族长达三十年的隐秘欺瞒，在虚伪的盛会中重获尊严与自由。"
+      }
+    },
+    "title": {
+      "en": "Unbraced Timber",
+      "zh": "未榫之梁"
+    },
+    "category": {
+      "en": "Family & Identity",
+      "zh": "家庭与自我"
+    },
+    "summary": {
+      "en": "Clara Miller has long provided the invisible labor holding her family's coastal estate together. But when a high-profile fundraising gala forces a breaking point, she uncovers a buried legal betrayal that changes everything.",
+      "zh": "克拉拉·米勒长期承担着维系家族遗产的隐形劳作。然而在一场高调的筹款盛会前夕，她意外发现了被掩盖多年的法律背叛，并最终做出了彻底改写命运的选择。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional mistreatment, family financial deception, and structural property disputes.",
+      "zh": "虚构故事。包含家庭情感虐待、财务欺瞒及财产纠纷相关主题。"
+    },
+    "tone": "Amber",
+    "glyph": "UT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2680,
+      "zh": 4671
     }
   }
 ];
