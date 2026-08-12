@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a256-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a257-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11118,6 +11118,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2528,
       "zh": 4254
+    }
+  },
+  {
+    "slug": "the-analog-pier",
+    "fileNo": "A-257",
+    "cover": "assets/covers/A-257-the-analog-pier.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Analog Pier",
+        "zh": "模拟基柱"
+      },
+      "description": {
+        "en": "A night-shift bridge mechanic discovers a hidden physical flaw and a director's secret, uncovering corporate negligence beneath the steel span.",
+        "zh": "夜班桥梁机械师在钢铁桥跨之下发现了隐藏的物理缺陷与主管的秘密，揭露了企业疏忽的真相。"
+      }
+    },
+    "title": {
+      "en": "The Analog Pier",
+      "zh": "模拟基柱"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "On a rain-swept bridge over the Columbia River, a night technician discovers the transit director manually inspecting structural flaws under a secret brace. Together, they confront falsified telemetry that puts the public at risk.",
+      "zh": "在风雨交加的哥伦比亚河大桥上，一名夜班技术员发现交通局长身着隐蔽矫形支架，正在亲自检查结构缺陷。两人携手揭露威胁公众安全的伪造遥测数据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of workplace vulnerability, corporate corruption, and chronic illness.",
+      "zh": "虚构故事。包含职场脆弱性、企业腐败与慢性疾病相关主题。"
+    },
+    "tone": "Slate",
+    "glyph": "AP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3274,
+      "zh": 5618
     }
   }
 ];
