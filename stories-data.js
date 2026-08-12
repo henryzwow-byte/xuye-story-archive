@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a255-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a256-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11074,6 +11074,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2024,
       "zh": 3869
+    }
+  },
+  {
+    "slug": "the-keelson-stamp",
+    "fileNo": "A-256",
+    "cover": "assets/covers/A-256-the-keelson-stamp.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Keelson Stamp",
+        "zh": "龙骨上的刻印"
+      },
+      "description": {
+        "en": "A master shipwright forced into the background of a high-society maritime gala uncovers the price of silent endurance.",
+        "zh": "一位在名流航海晚宴上被迫隐姓埋名的女造船师，揭开了长久忍气吞声背后的真相。"
+      }
+    },
+    "title": {
+      "en": "The Keelson Stamp",
+      "zh": "龙骨上的刻印"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a craftsman is forced to wear a stained yard suit while her sister claims credit for a three-year yacht restoration, an elder benefactor reveals a secret carved deep inside the ship's frame.",
+      "zh": "当一位女匠人被迫穿着污损的工作服，眼睁睁看着妹妹凭空抢走她耗时三年的帆船修复功劳时，一位老赞助人揭开了刻在船骨深处的秘密。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of familial gaslighting, professional deception, and emotional distress.",
+      "zh": "虚构故事。包含家庭情感操纵、职场欺诈及心理压迫相关主题。"
+    },
+    "tone": "Nautical",
+    "glyph": "KS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2528,
+      "zh": 4254
     }
   }
 ];
