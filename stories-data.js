@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a254-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a255-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11030,6 +11030,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2324,
       "zh": 5047
+    }
+  },
+  {
+    "slug": "the-covenant-at-greywater-point",
+    "fileNo": "A-255",
+    "cover": "assets/covers/A-255-the-covenant-at-greywater-point.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Covenant at Greywater Point",
+        "zh": "灰水角的契约"
+      },
+      "description": {
+        "en": "A marine biologist returns to his late father's coastal estate, where a treacherous stepmother expects a total inheritance—until a secret maritime trust turns the tides.",
+        "zh": "一位海洋生物学家回到亡父的沿海庄园，贪婪的继母原以为能独吞遗产，却不知一份秘密的海事信托早已悄然逆转局势。"
+      }
+    },
+    "title": {
+      "en": "The Covenant at Greywater Point",
+      "zh": "灰水角的契约"
+    },
+    "category": {
+      "en": "Inheritance Drama & Legal Reversals",
+      "zh": "遗产纷争与法律逆转"
+    },
+    "summary": {
+      "en": "Following the passing of Captain Arthur Vance, his estranged son Julian arrives at Saltwind Manor for the reading of the will. Expecting to take everything, Arthur's second wife Victoria presents an older testament—unaware that Arthur left behind a maritime trust with a self-executing forfeiture clause.",
+      "zh": "在亚瑟·范斯船长去世后，疏远的儿子朱利安回到盐风庄园参加遗嘱宣读。继母维多利亚原以为凭旧遗嘱能独占家产，却未料到亚瑟早已设立了一份附带自动剥夺条款的海事信托。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of testamentary disputes, emotional deception, and family estrangement.",
+      "zh": "虚构故事。包含遗嘱纠纷、情感欺骗及家庭疏离主题。"
+    },
+    "tone": "Coastal",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2024,
+      "zh": 3869
     }
   }
 ];
