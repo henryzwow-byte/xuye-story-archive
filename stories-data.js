@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a301-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a302-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13054,6 +13054,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3093,
       "zh": 5147
+    }
+  },
+  {
+    "slug": "stone-and-scaffold",
+    "fileNo": "A-302",
+    "cover": "assets/covers/A-302-stone-and-scaffold.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Stone and Scaffold",
+        "zh": "石与脚手架"
+      },
+      "description": {
+        "en": "A prominent architectural conservator uncovers a deep betrayal at a historic tower site and reclaims her legacy on her own terms.",
+        "zh": "一位杰出的建筑保护专家在历史钟楼工地揭露了一场深层背叛，并以自己的方式收回了家族遗产。"
+      }
+    },
+    "title": {
+      "en": "Stone and Scaffold",
+      "zh": "石与脚手架"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When Clara Vance is turned away from her husband's landmark restoration site while bringing him a gift with their daughter, she discovers a betrayal built on family funding. Refusing a public scene, she systematically dismantles his unearned authority.",
+      "zh": "当克拉拉·凡斯带着女儿前往丈夫的主控地标修复工地送礼却被拒之门外时，她发现了一场建立在自己家族资助之上的背叛。她拒绝当众大吵大闹，而是系统性地拆解了他本不属于他的权力。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital infidelity, emotional betrayal, and corporate financial dispute.",
+      "zh": "虚构故事。包含婚姻不忠、情感背叛及企业财务纠纷等主题。"
+    },
+    "tone": "granite",
+    "glyph": "SS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2324,
+      "zh": 4027
     }
   }
 ];
