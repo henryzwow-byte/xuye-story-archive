@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a225-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a226-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9754,6 +9754,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2274,
       "zh": 3847
+    }
+  },
+  {
+    "slug": "the-barometer-ledger",
+    "fileNo": "A-226",
+    "cover": "assets/covers/A-226-the-barometer-ledger.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Barometer Ledger",
+        "zh": "气压计账本"
+      },
+      "description": {
+        "en": "A brass antique delivered to a Maine workshop unleashes a hidden truth about toxic maritime dumping and corporate coercion.",
+        "zh": "送到缅因州木艺坊的一件黄铜古董，揭开了隐瞒已久的海洋污染倾倒与企业胁迫真相。"
+      }
+    },
+    "title": {
+      "en": "The Barometer Ledger",
+      "zh": "气压计账本"
+    },
+    "category": {
+      "en": "Fiction / Mystery & Suspense",
+      "zh": "小说 / 悬疑推理"
+    },
+    "summary": {
+      "en": "When a woodworker receives a heavy antique brass barometer from her estranged brother, she discovers stamped copper plates hidden inside its casing—exposing a dangerous industrial scandal that brings ruthless operatives to her door.",
+      "zh": "当一位木艺师收到疏远多年的哥哥寄来的重型黄铜古董气压计，她在外壳内部发现了隐藏的压印铜板，揭露了一起危险的工业丑闻，并将心狠手辣的追查者引到了自家门前。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, corporate harassment, mild suspense, and industrial safety violations.",
+      "zh": "虚构故事。包含家庭疏离、企业骚扰、轻度悬疑及工业安全违规主题。"
+    },
+    "tone": "Marine",
+    "glyph": "BL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2075,
+      "zh": 3500
     }
   }
 ];
