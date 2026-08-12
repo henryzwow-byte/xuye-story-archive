@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a293-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a294-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12702,6 +12702,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2921,
       "zh": 5111
+    }
+  },
+  {
+    "slug": "salt-and-clay",
+    "fileNo": "A-294",
+    "cover": "assets/covers/A-294-salt-and-clay.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Salt and Clay",
+        "zh": "盐与陶土"
+      },
+      "description": {
+        "en": "When a restorer discovers her family exiled her daughter during a banquet held in her own property, she uses legal records to draw an unshakeable boundary.",
+        "zh": "当一位古建筑修复师发现亲人利用自己的房子举办晚宴却将女儿赶出门外时，她通过财务证据与法律文书划下了不可动摇的界限。"
+      }
+    },
+    "title": {
+      "en": "Salt and Clay",
+      "zh": "盐与陶土"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "A structural restorer discovers that her entitlement-driven family left her teenage daughter outside in the rain during a town banquet held in her own property. Rather than throw a loud scene, she systematically collects financial records and reclaims her boundary.",
+      "zh": "一名古建筑修复师发现，自己资助的家人在她名下的老宅举办镇上晚宴时，竟将她十五岁的女儿关在雨中。她没有当场发作，而是系统地整理财务与产权凭证，重新划定尊严与资产的界限。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains realistic themes of emotional neglect, family financial conflict, and boundary enforcement.",
+      "zh": "虚构故事。包含情感冷漠、家庭财务纠纷及界限构建等现实题材。"
+    },
+    "tone": "Amber",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2658,
+      "zh": 4476
     }
   }
 ];
