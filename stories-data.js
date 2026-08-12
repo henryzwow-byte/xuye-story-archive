@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a294-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a295-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12746,6 +12746,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2658,
       "zh": 4476
+    }
+  },
+  {
+    "slug": "the-surveyors-cipher",
+    "fileNo": "A-295",
+    "cover": "assets/covers/A-295-the-surveyors-cipher.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Surveyor's Cipher",
+        "zh": "测绘师的密码"
+      },
+      "description": {
+        "en": "An estranged engineer and a young archivist uncover coded elevation ledgers that reveal a decades-old boundary conspiracy.",
+        "zh": "一位决裂多年的工程师与年轻档案员解开密写高程日志，揭开一场尘封数十年的地界阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Surveyor's Cipher",
+      "zh": "测绘师的密码"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a severe autumn storm brings an archivist carrying forgotten elevation ledgers to his remote tollhouse, historic bridge engineer Caleb Ross uncovers a dead surveyor's mathematical deception—and the true legacy of the woman he loved.",
+      "zh": "深秋风暴将手持被遗忘高程日志的档案员带到偏远收费小屋，古桥工程师加里布·罗斯揭开了一位去世测绘师的数学骗局，并重获挚爱的真正遗赠。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of past grief, corporate fraud, and historical land disputes. All characters and events are completely fictional.",
+      "zh": "虚构故事。包含过往悲伤、商业欺诈及历史土地纠纷主题。所有角色与事件均为虚构。"
+    },
+    "tone": "Amber",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2792,
+      "zh": 4795
     }
   }
 ];
