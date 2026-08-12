@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a277-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a278-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12042,6 +12042,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2010,
       "zh": 3687
+    }
+  },
+  {
+    "slug": "the-glasshouse-covenant",
+    "fileNo": "A-278",
+    "cover": "assets/covers/A-278-the-glasshouse-covenant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Glasshouse Covenant",
+        "zh": "温室契约"
+      },
+      "description": {
+        "en": "When a corporate developer attempts to lock out a late botanist's daughter from her mother's coastal sanctuary, an old trust covenant exposes the truth.",
+        "zh": "当商业开发商试图将已故植物学家的女儿锁在母亲建立的海岸保育园外时，一份古老的信托契约揭示了真相。"
+      }
+    },
+    "title": {
+      "en": "The Glasshouse Covenant",
+      "zh": "温室契约"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "In coastal Maine, botanist Hannah Vance faces off against her stepmother's corporate takeover of her late mother's botanical glasshouse—uncovering a legal safeguard built decades ago.",
+      "zh": "在缅因州海岸，植物学家汉娜·韦恩直面继母对其已故母亲植物温室的商业兼并，并揭开了一份几十年前设立的法律保护契约。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family conflict, emotional betrayal, and legal disputes over inheritance.",
+      "zh": "虚构故事。包含轻微的家庭冲突、情感背叛及遗产法律纠纷主题。"
+    },
+    "tone": "Amber",
+    "glyph": "HV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2298,
+      "zh": 3957
     }
   }
 ];
