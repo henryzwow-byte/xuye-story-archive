@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a229-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a230-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9930,6 +9930,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2348,
       "zh": 4317
+    }
+  },
+  {
+    "slug": "the-restored-keel",
+    "fileNo": "A-230",
+    "cover": "assets/covers/A-230-the-restored-keel.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Restored Keel",
+        "zh": "重修的船骨"
+      },
+      "description": {
+        "en": "When an arrogant evaluator dismisses a young apprentice's family heritage, documented evidence and quiet dignity reveal the strength of truth.",
+        "zh": "当傲慢的评审员否定了一名年轻学徒的家族传承，确凿的档案与沉静的尊严揭示了真理的力量。"
+      }
+    },
+    "title": {
+      "en": "The Restored Keel",
+      "zh": "重修的船骨"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "In a coastal New England academy, a student's naval timber restoration thesis is mocked by a biased evaluator, until documented maritime records and quiet integrity restore justice.",
+      "zh": "在一所新英格兰沿海学院里，一名学生的木构造船论文遭到了偏见考官的公开嘲弄，直到确凿的海事档案与沉静的正直重新昭示了公正。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts academic condescension, institutional trade-class bias, and emotional stress resolved through administrative oversight and restorative dialogue.",
+      "zh": "虚构故事。涉及校园偏见、阶层偏见及情绪压抑，最终通过行政程序与恢复性对话得以修复。"
+    },
+    "tone": "Timber",
+    "glyph": "RK",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2651,
+      "zh": 4660
     }
   }
 ];
