@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a292-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a293-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12658,6 +12658,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2465,
       "zh": 4407
+    }
+  },
+  {
+    "slug": "the-glass-artisan-of-blackwood",
+    "fileNo": "A-293",
+    "cover": "assets/covers/A-293-the-glass-artisan-of-blackwood.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Glass Artisan of Blackwood",
+        "zh": "布莱克伍德的琉璃匠人"
+      },
+      "description": {
+        "en": "When her family dismisses her historic preservation work for commercial profit, Clara stands tall at the maritime gala.",
+        "zh": "当家人为了商业利益蔑视她的历史遗产修复工作时，克拉拉在海事盛典上傲然伫立。"
+      }
+    },
+    "title": {
+      "en": "The Glass Artisan of Blackwood",
+      "zh": "布莱克伍德的琉璃匠人"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "An artisan dedicated to restoring coastal heritage finds her quiet masterwork recognized by national curators after her family abandons her milestone exhibition.",
+      "zh": "一位致力于修复海岸历史遗产的匠人在家人缺席其里程碑式展览后，其默默雕琢的杰作获得了国家级策展人的高度认可。"
+    },
+    "warning": {
+      "en": "Fictional story. Themes of emotional neglect, family conflict, professional validation, and personal independence.",
+      "zh": "虚构故事。包含情感忽视、家庭冲突、职业认可与个人独立等主题。"
+    },
+    "tone": "luminous",
+    "glyph": "GL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2921,
+      "zh": 5111
     }
   }
 ];
