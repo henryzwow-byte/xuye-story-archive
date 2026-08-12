@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a290-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a291-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12570,6 +12570,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2402,
       "zh": 4083
+    }
+  },
+  {
+    "slug": "the-hollow-pendulum",
+    "fileNo": "A-291",
+    "cover": "assets/covers/A-291-the-hollow-pendulum.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Hollow Pendulum",
+        "zh": "虚空摆针"
+      },
+      "description": {
+        "en": "An antique clock restorer in a coastal Oregon town uncovers a hidden surveyor's canister that shatters her marriage and exposes a decades-old coastal land fraud.",
+        "zh": "一位俄勒冈州沿海小镇的古董钟表修复师发现了一只隐藏的测量钢筒，彻底打破了她的婚姻，并揭露了一起隐瞒数十年的海岸土地欺诈案。"
+      }
+    },
+    "title": {
+      "en": "The Hollow Pendulum",
+      "zh": "虚空摆针"
+    },
+    "category": {
+      "en": "Domestic Mystery",
+      "zh": "家庭悬疑"
+    },
+    "summary": {
+      "en": "When a retired harbor surveyor visits her coastal workshop during a violent storm, horologist Evelyn Vance unearths a sealed brass canister hidden beneath her floorboards—discovering that her husband's late-night work masks a historic deception.",
+      "zh": "当一位退休港口测量员在暴风雨夜拜访她的沿海钟表工作室时，钟表师埃弗琳·凡斯揭开了隐藏在木地板下的密封黄铜钢筒，并发现丈夫那些深夜加班背后的历史欺诈真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of spousal deception, betrayal, financial fraud, and suspenseful confrontation.",
+      "zh": "虚构故事。包含夫妻欺瞒、背叛、经济欺诈及悬疑对峙等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "HP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2185,
+      "zh": 3627
     }
   }
 ];
