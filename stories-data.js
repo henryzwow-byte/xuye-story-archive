@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a295-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a296-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12790,6 +12790,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2792,
       "zh": 4795
+    }
+  },
+  {
+    "slug": "the-cartographers-veil",
+    "fileNo": "A-296",
+    "cover": "assets/covers/A-296-the-cartographers-veil.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cartographer's Veil",
+        "zh": "绘图师的面纱"
+      },
+      "description": {
+        "en": "A paper conservator hired at a secluded Sound estate discovers that her reclusive employer's feigned paralysis hides a long-buried corporate theft.",
+        "zh": "一位受雇于海湾偏远庄园的纸本修复师发现，雇主伪装的瘫痪背后隐藏着一段沉封已久的企业盗窃案。"
+      }
+    },
+    "title": {
+      "en": "The Cartographer's Veil",
+      "zh": "绘图师的面纱"
+    },
+    "category": {
+      "en": "Mystery Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "Desperate to secure specialized therapy for her daughter, paper restorer Clara Croft accepts an archival commission at a secluded estate—only to discover her reclusive employer is hiding a physical falsehood and a stolen legacy that touches her own family.",
+      "zh": "为了给女儿筹集专项康复治疗费，纸本修复师克拉拉·克罗夫特接下了偏远庄园的档案修复工作，却意外发现这位深居简出的雇主隐瞒着身体的真相，以及一份与其家族息息相关的被盗遗产。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate deceit, emotional tension, and financial hardship.",
+      "zh": "虚构故事。包含企业欺诈、情感紧张与经济困境等主题。"
+    },
+    "tone": "slate",
+    "glyph": "CV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2687,
+      "zh": 4758
     }
   }
 ];
