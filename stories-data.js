@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a278-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a279-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12086,6 +12086,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2298,
       "zh": 3957
+    }
+  },
+  {
+    "slug": "the-celestial-chronometer",
+    "fileNo": "A-279",
+    "cover": "assets/covers/A-279-the-celestial-chronometer.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Celestial Chronometer",
+        "zh": "星图时规"
+      },
+      "description": {
+        "en": "A marine structural auditor uncovers her husband's secret double life at a coastal heritage gala in Oregon.",
+        "zh": "一名海洋结构审计师在俄勒冈州的沿海遗产慈善晚宴上揭开丈夫隐瞒多年的双重生活。"
+      }
+    },
+    "title": {
+      "en": "The Celestial Chronometer",
+      "zh": "星图时规"
+    },
+    "category": {
+      "en": "Contemporary Drama & Mystery",
+      "zh": "当代戏剧与悬疑"
+    },
+    "summary": {
+      "en": "Returning early from a grueling deep-water audit along the Olympic Peninsula, marine engineer Sam Hayes visits her husband's heritage trust gala, only to find another woman introduced as his wife—wearing a twin brass pocket chronometer Sam believed was one-of-a-kind.",
+      "zh": "海洋工程师萨姆·海斯从奥林匹克半岛艰苦的深水审计中提前归来，参加丈夫的遗产信托晚宴，却发现另一名女子正以其妻子的身份被介绍给来宾——且佩戴着一枚与萨姆以为独一无二的同款定制黄铜星图怀表。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital infidelity, emotional betrayal, deceit, and legal disputes.",
+      "zh": "虚构故事。包含婚姻不忠、情感背叛、欺诈以及法律纠纷等主题。"
+    },
+    "tone": "Obsidian",
+    "glyph": "CC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2160,
+      "zh": 3829
     }
   }
 ];
