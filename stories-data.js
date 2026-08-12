@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a252-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a253-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10942,6 +10942,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2506,
       "zh": 4380
+    }
+  },
+  {
+    "slug": "the-conservatory-clock",
+    "fileNo": "A-253",
+    "cover": "assets/covers/A-253-the-conservatory-clock.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Conservatory Clock",
+        "zh": "温室的钟声"
+      },
+      "description": {
+        "en": "When a timber conservator notices subtle anomalies in his home's environmental logs, he uncovers a calculated scheme to isolate his recovering wife.",
+        "zh": "当一位古建筑修复师发现家中环境日志的微妙异常时，他揭开了一场孤立恢复期妻子的精心阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Conservatory Clock",
+      "zh": "温室的钟声"
+    },
+    "category": {
+      "en": "Psychological Mystery",
+      "zh": "心理悬疑"
+    },
+    "summary": {
+      "en": "When a timber conservator notices subtle anomalies in his home's environmental logs, he uncovers a calculated scheme to isolate his recovering wife.",
+      "zh": "当一位古建筑修复师发现家中环境日志的微妙异常时，他揭开了一场孤立恢复期妻子的精心阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts psychological manipulation, emotional distress, and gaslighting. Viewer discretion advised.",
+      "zh": "虚构故事。包含心理操纵、情感困扰及精神虐待（gaslighting）情节。请明智阅读。"
+    },
+    "tone": "mist",
+    "glyph": "CC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2551,
+      "zh": 4617
     }
   }
 ];
