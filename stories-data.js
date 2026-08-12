@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a282-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a283-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12262,6 +12262,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2377,
       "zh": 4017
+    }
+  },
+  {
+    "slug": "harmonic-silence-at-blacktail",
+    "fileNo": "A-283",
+    "cover": "assets/covers/A-283-harmonic-silence-at-blacktail.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Harmonic Silence at Blacktail",
+        "zh": "黑尾山口的谐振之寂"
+      },
+      "description": {
+        "en": "When a stubborn rail director ignores structural warnings in a mountain pass blizzard, a quiet telemetry specialist uses acoustic seismic science to avert a catastrophic rail disaster.",
+        "zh": "当傲慢的铁路总监在雪崩暴风雪中无视地质结构警告时，一位沉默的遥测专家运用声学地震学成功化解了一场灾难性的铁路危机。"
+      }
+    },
+    "title": {
+      "en": "Harmonic Silence at Blacktail",
+      "zh": "黑尾山口的谐振之寂"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "High in the Colorado Rockies, acoustic telemetry analyst Nora Croft detects subterranean fracture signals beneath a key rail bypass tunnel. When corporate leadership ignores her warnings during a severe storm, Nora must draw on her late mother's seismic research to stop an impending disaster.",
+      "zh": "在科罗拉多洛矶山脉的高处，声学遥测分析师诺拉·克罗夫特在关键铁路旁路隧道下方检测到了地下断裂信号。当企业领导层在强暴风雪中无视她的警告时，诺拉必须运用母亲留下的地震研究成果来阻止一场即将来临的灾难。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts high-altitude industrial weather hazards, emergency response telemetry, and high-stress alpine operations.",
+      "zh": "虚构故事。描述高海拔工业天气灾害、应急响应遥测及高压高山救援操作。"
+    },
+    "tone": "Granite",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2154,
+      "zh": 3706
     }
   }
 ];
