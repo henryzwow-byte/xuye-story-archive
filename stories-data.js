@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a272-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a273-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11822,6 +11822,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2636,
       "zh": 4552
+    }
+  },
+  {
+    "slug": "tide-land-covenant",
+    "fileNo": "A-273",
+    "cover": "assets/covers/A-273-tide-land-covenant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide-Land Covenant",
+        "zh": "潮地契约"
+      },
+      "description": {
+        "en": "When an ambitious developer attempts to seize a historic Oregon boatyard during a gale, a daughter and her father turn silent documentation into an unyielding shield.",
+        "zh": "当野心勃勃的开发商试图在暴风雨夜霸占一座历史悠久的船厂时，一对父女将沉寂的文档化作了坚不可摧的盾牌。"
+      }
+    },
+    "title": {
+      "en": "The Tide-Land Covenant",
+      "zh": "潮地契约"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 戏剧"
+    },
+    "summary": {
+      "en": "Locked out of her coastal boat restoration workshop during a autumn squall, master craftswoman Nora Hayes seeks refuge at her father's harbor watch station. Together, they use state trust records and land covenants to dismantle her husband's scheme.",
+      "zh": "在秋季暴风雨夜，工匠大师诺拉·海斯被锁在她位于海岸的木船修缮作坊门外。她冒雨前往父亲的港口哨所寻求庇护。父女二人借助州信托记录与土地契约，化解并揭露了她丈夫的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional betrayal, financial deception, and cold exposure during a maritime storm.",
+      "zh": "虚构故事。包含情感背叛、财务欺诈以及海港暴风雨中寒冷暴露的主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2447,
+      "zh": 4112
     }
   }
 ];
