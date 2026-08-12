@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a261-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a262-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11338,6 +11338,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2911,
       "zh": 5118
+    }
+  },
+  {
+    "slug": "safe-harbor-tide",
+    "fileNo": "A-262",
+    "cover": "assets/covers/A-262-safe-harbor-tide.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Safe Harbor Tide",
+        "zh": "避风港的潮汐"
+      },
+      "description": {
+        "en": "A hardened harbor operator on the rainy Oregon coast risks his livelihood and reputation to protect two fleeing orphans from a ruthless timber empire.",
+        "zh": "在细雨绵绵的俄勒冈海岸，一位冷酷的港口管理员冒着失去生计与声誉的风险，保护两名逃离残酷木业帝国的孤儿。"
+      }
+    },
+    "title": {
+      "en": "Safe Harbor Tide",
+      "zh": "避风港的潮汐"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构小说与戏剧"
+    },
+    "summary": {
+      "en": "When a midnight storm brings two starving runaway orphans to his flooded timber berth, a weary salvage broker must choose between his quiet gray-market empire and saving two young lives.",
+      "zh": "当深夜的暴风雨将两名饥寒交迫的逃亡孤儿带到他积水的木材码头时，一位疲惫的打捞经纪人必须在维持他平静的灰色帝国与拯救两个幼小生命之间做出抉择。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts child labor exploitation, past grief, severe hypothermia, and mild peril. Contains no graphic violence or medical instruction.",
+      "zh": "虚构故事。涉及儿童劳动剥削、往事悲痛、严重失温及温和险境描述。不含血腥暴力或专业医疗指导。"
+    },
+    "tone": "Slate",
+    "glyph": "SH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2486,
+      "zh": 4379
     }
   }
 ];
