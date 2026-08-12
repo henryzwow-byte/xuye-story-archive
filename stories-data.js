@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a266-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a267-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11558,6 +11558,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2717,
       "zh": 4617
+    }
+  },
+  {
+    "slug": "the-brass-quadrant",
+    "fileNo": "A-267",
+    "cover": "assets/covers/A-267-the-brass-quadrant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Brass Quadrant",
+        "zh": "黄铜分度仪"
+      },
+      "description": {
+        "en": "A coastal instrument maker discovers a young boy carrying an heirloom quadrant, revealing a dark legacy of maritime exploitation.",
+        "zh": "一位海岸仪器匠人偶遇一名手持传家分度仪的少年，由此揭开一段隐秘的航海剥削真相。"
+      }
+    },
+    "title": {
+      "en": "The Brass Quadrant",
+      "zh": "黄铜分度仪"
+    },
+    "category": {
+      "en": "Drama & Mystery",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When a destitute youth seeks help repairing a sea-damaged brass quadrant in a coastal workshop, an aging instrument maker recognizes his own long-lost craft—and uncovers a harrowing secret on the foggy docks.",
+      "zh": "当一名贫困少年来到海岸作坊请求修复一件受损的黄铜分度仪时，年迈的仪器匠人认出了自己昔日的作品，并在迷雾重重的码头上揭开了一个令人惊心的秘密。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of historical child labor exploitation, emotional distress, and legal disputes. All characters and settings are entirely fictional.",
+      "zh": "虚构故事。包含历史童工剥削、情感困扰及法律纠纷相关主题。所有角色与设定均为虚构。"
+    },
+    "tone": "cobalt",
+    "glyph": "BQ",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2397,
+      "zh": 4227
     }
   }
 ];
