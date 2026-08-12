@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a228-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a229-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9886,6 +9886,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2661,
       "zh": 4542
+    }
+  },
+  {
+    "slug": "the-cartographers-cipher",
+    "fileNo": "A-229",
+    "cover": "assets/covers/A-229-the-cartographers-cipher.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cartographer's Cipher",
+        "zh": "制图师的密码"
+      },
+      "description": {
+        "en": "A disgraced hydrographer working as an archival clerk is publicly challenged at a scientific gala, unearthing the suppressed telemetry that clears her name.",
+        "zh": "一位被迫蒙受冤屈改做档案整理的前水文制图师，在科学晚宴上突遭挑衅，最终以实力破解尘封数据，揭开当年被掩盖的真相。"
+      }
+    },
+    "title": {
+      "en": "The Cartographer's Cipher",
+      "zh": "制图师的密码"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "Five years after an expedition scandal ruined her career, former marine cartographer Jules Mercer is publicly put on the spot during a prestigious oceanographic gala. Faced with a complex acoustic telemetry stream, her forgotten expertise brings the truth to light.",
+      "zh": "考察队丑闻爆发五年后，前海洋制图师朱尔斯·默瑟在一场声望卓著的海洋学晚宴上公开受到刁难。面对复杂的声学遥测数据，她展露深厚专业造诣，让沉封已久的真相大白于天下。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts workplace harassment, institutional misconduct, and professional vindication. Contains no graphic violence or real-world instructions.",
+      "zh": "虚构故事。包含职场不公、机构失职与职业名誉昭雪情节。无暴力血腥或现实违规指导。"
+    },
+    "tone": "Navy",
+    "glyph": "CC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2348,
+      "zh": 4317
     }
   }
 ];
