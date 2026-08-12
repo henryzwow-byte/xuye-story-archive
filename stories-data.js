@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a265-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a266-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11514,6 +11514,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2365,
       "zh": 4071
+    }
+  },
+  {
+    "slug": "soundings-at-cape-perpetua",
+    "fileNo": "A-266",
+    "cover": "assets/covers/A-266-soundings-at-cape-perpetua.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Soundings at Cape Perpetua",
+        "zh": "永恒角的水深测音"
+      },
+      "description": {
+        "en": "A late-night mistake on a rain-slicked pier brings an exhausted shipwright and an acoustic engineer together in a coastal Oregon town.",
+        "zh": "雨夜码头上的一次误入，让疲惫不堪的造船女工与声学工程师在俄勒冈海岸小镇意外相遇。"
+      }
+    },
+    "title": {
+      "en": "Soundings at Cape Perpetua",
+      "zh": "永恒角的水深测音"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "Exhausted after a thirty-six-hour shift, boat restorer Nora Vance steps into the wrong vehicle during a Pacific Northwest storm, sparking an unexpected partnership to save a historic maritime slipway.",
+      "zh": "连续工作三十六小时后，古船修复师诺拉·凡斯在雨夜误入了别人的改装车，由此开启了一段意外的合作，共同守护历史悠久的海岸木船滑道。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts work exhaustion, fatigue, and workplace stress. Free of graphic violence, illegal conduct, or medical misconduct.",
+      "zh": "虚构故事。包含工作疲劳、倦怠感与职业压力描绘。无暴力、违法行为或医疗不当内容。"
+    },
+    "tone": "Amber",
+    "glyph": "CP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2717,
+      "zh": 4617
     }
   }
 ];
