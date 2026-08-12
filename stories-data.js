@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a298-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a299-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12922,6 +12922,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2383,
       "zh": 4092
+    }
+  },
+  {
+    "slug": "the-river-stone-verdict",
+    "fileNo": "A-299",
+    "cover": "assets/covers/A-299-the-river-stone-verdict.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The River Stone Verdict",
+        "zh": "河石裁决"
+      },
+      "description": {
+        "en": "A dramatic story of family pride, hidden truths, and unconditional loyalty.",
+        "zh": "一部关于家族傲慢、隐秘真相与无条件忠诚的剧情故事。"
+      }
+    },
+    "title": {
+      "en": "The River Stone Verdict",
+      "zh": "河石裁决"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "At an exclusive Berkshire estate banquet, an arrogant matriarch publicly rejects a little boy's handmade gift—unwittingly setting off a family reckoning that exposes long-buried secrets.",
+      "zh": "在伯克希尔庄园的盛大晚宴上，一位傲慢的家族长辈公开拒绝了一名小男孩的手工礼物，却不料引发了一场揭露尘封秘密的家族裁决。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, prejudice, and emotional resolution.",
+      "zh": "虚构故事。包含家庭冲突、偏见及情感和解等主题。"
+    },
+    "tone": "Luminous",
+    "glyph": "RS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2519,
+      "zh": 4355
     }
   }
 ];
