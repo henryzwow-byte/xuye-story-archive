@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a243-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a244-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10546,6 +10546,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2206,
       "zh": 3787
+    }
+  },
+  {
+    "slug": "cold-tide-at-shellrock",
+    "fileNo": "A-244",
+    "cover": "assets/covers/A-244-cold-tide-at-shellrock.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Cold Tide at Shellrock",
+        "zh": "谢尔罗克的冷潮"
+      },
+      "description": {
+        "en": "A former mechanic in rain-swept Oregon discovers a discarded search hound holding a disciplined post in a derelict shed, uncovering a paper trail of institutional deceit.",
+        "zh": "在风雨交加的俄勒冈海岸，一名退役机械师在废弃盐棚中发现了一只坚守阵地的搜救犬，进而揭开了一起机构欺诈的阴谋。"
+      }
+    },
+    "title": {
+      "en": "Cold Tide at Shellrock",
+      "zh": "谢尔罗克的冷潮"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When Julian Frost rescues an emaciated Redbone search hound locked inside a condemned coastal shed, he discovers a stamped harness rivet that unravels a corporate fraud scheme hiding behind fake death certificates.",
+      "zh": "当朱利安·弗罗斯特从破败的海边盐棚中救出一只极为消瘦的红骨猎犬时，他发现了一个带有编号的铆钉，由此揭开了一家私营机构伪造动物死亡证明以冒领补助金的欺诈阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of animal neglect recovery, institutional fraud, and emotional healing.",
+      "zh": "虚构故事。包含动物受虐复原、机构欺诈与情感疗愈等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "CS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3160,
+      "zh": 5543
     }
   }
 ];
