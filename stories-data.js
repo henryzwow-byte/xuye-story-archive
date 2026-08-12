@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a233-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a234-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10106,6 +10106,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2958,
       "zh": 5173
+    }
+  },
+  {
+    "slug": "the-watch-at-blackwood-cliff",
+    "fileNo": "A-234",
+    "cover": "assets/covers/A-234-the-watch-at-blackwood-cliff.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Watch at Blackwood Cliff",
+        "zh": "黑木崖的怀表"
+      },
+      "description": {
+        "en": "A story of resilience, hidden leverage, and reclaiming autonomy on the stormy New England coast.",
+        "zh": "一个关于在风暴咆哮的新英格兰海岸上凭借忍耐、隐秘筹码与坚韧勇气夺回自主权的隐秘故事。"
+      }
+    },
+    "title": {
+      "en": "The Watch at Blackwood Cliff",
+      "zh": "黑木崖的怀表"
+    },
+    "category": {
+      "en": "Psychological Drama",
+      "zh": "心理剧"
+    },
+    "summary": {
+      "en": "Trapped in an isolated coastal mansion during a gale, an architectural preservationist uses her quiet preparation and an old maritime beacon to expose her husband's coercive scheme.",
+      "zh": "在暴风雨之夜被困于孤立的海岸庄园中，一位古建筑保护师利用数月来的隐秘准备与一座老旧的海事无线电电台，彻底揭穿了丈夫逼迫她放弃家族遗产的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of emotional abuse, coercive control, and psychological manipulation. All characters and events are entirely fictional.",
+      "zh": "虚构故事。包含对情感虐待、胁迫控制与心理操纵的描写。文中所有人物与事件均为虚构。"
+    },
+    "tone": "slate",
+    "glyph": "BW",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3283,
+      "zh": 5834
     }
   }
 ];
