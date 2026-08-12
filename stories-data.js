@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a274-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a275-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11910,6 +11910,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2502,
       "zh": 4316
+    }
+  },
+  {
+    "slug": "oakhaven-timber-covenant",
+    "fileNo": "A-275",
+    "cover": "assets/covers/A-275-oakhaven-timber-covenant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Covenant",
+        "zh": "木纹的契约"
+      },
+      "description": {
+        "en": "When a luxury developer threatens her mother's historic timber conservatory, Clara Vance invokes a silent legal safeguard.",
+        "zh": "当豪华地产商威胁到母亲留下的历史木艺保护区时，克拉拉·凡斯激活了一项沉默的法律保护机制。"
+      }
+    },
+    "title": {
+      "en": "The Timber Covenant",
+      "zh": "木纹的契约"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "After being publicly barred from her late mother's historic forestry estate, Clara Vance invokes a decades-old land conservation easement to halt a predatory development scheme.",
+      "zh": "在被公开排挤出母亲留下的历史林业遗产后，克拉拉·凡斯调用了一项数十年前设立的土地保护契约，阻止了一场掠夺性的开发阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, inheritance disputes, and corporate ethics.",
+      "zh": "虚构故事。包含家庭冲突、继承纠纷和企业伦理主题。"
+    },
+    "tone": "amber",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2936,
+      "zh": 4966
     }
   }
 ];
