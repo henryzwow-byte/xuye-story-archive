@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a279-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a280-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12130,6 +12130,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2160,
       "zh": 3829
+    }
+  },
+  {
+    "slug": "the-timber-and-the-tide",
+    "fileNo": "A-280",
+    "cover": "assets/covers/A-280-the-timber-and-the-tide.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber and the Tide",
+        "zh": "木与潮汐"
+      },
+      "description": {
+        "en": "On their wedding night in a remote coastal cabin, a quiet boatbuilder reveals a long-buried truth to his new bride.",
+        "zh": "在偏远海岸小屋的婚礼之夜，一位沉默寡言的造船工向他的新婚妻子揭示了一个埋藏已久的真相。"
+      }
+    },
+    "title": {
+      "en": "The Timber and the Tide",
+      "zh": "木与潮汐"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "现代情感剧"
+    },
+    "summary": {
+      "en": "Choosing a quiet life with a humble craftsman over a wealthy marriage pushed by her family, Hannah discovers on her wedding night that her choice carried far deeper stakes than she ever imagined.",
+      "zh": "汉娜放弃了家人逼迫的豪门婚姻，选择与一位谦逊的木船工共度平淡生活。然而在婚礼之夜，她发现自己的选择背后牵扯着远超想象的秘密。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, emotional coercion, and corporate ethics.",
+      "zh": "虚构故事。包含家庭冲突、情感胁迫与企业伦理等主题。"
+    },
+    "tone": "copper",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2701,
+      "zh": 5305
     }
   }
 ];
