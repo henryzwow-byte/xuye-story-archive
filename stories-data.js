@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a297-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a298-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12878,6 +12878,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2852,
       "zh": 4750
+    }
+  },
+  {
+    "slug": "the-granite-vault",
+    "fileNo": "A-298",
+    "cover": "assets/covers/A-298-the-granite-vault.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Granite Vault",
+        "zh": "花岗岩金库"
+      },
+      "description": {
+        "en": "When a corporate betrayal leaves Nora stranded in a coastal storm, a forgotten lighthouse archive reveals the key to reclaiming her life.",
+        "zh": "当一场商业背叛让诺拉困于海岸暴风雨中时，一座被遗忘的灯塔档案馆揭开了重获新生的钥匙。"
+      }
+    },
+    "title": {
+      "en": "The Granite Vault",
+      "zh": "花岗岩金库"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "Stripped of her architectural firm and targeted by her scheming husband, Nora Vance flees to a remote Maine lighthouse where her grandmother's hidden archive changes everything.",
+      "zh": "诺拉·凡斯被阴险的丈夫剥夺了建筑事务所的职权并遭到追踪，她逃至缅因州一座偏远的灯塔，那里祖母留下的隐藏档案馆改变了一切。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of financial manipulation, marital distress, and high-tension legal conflict.",
+      "zh": "虚构故事。包含财务操纵、婚姻危机及紧张法律冲突的描写。"
+    },
+    "tone": "Slate",
+    "glyph": "GV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2383,
+      "zh": 4092
     }
   }
 ];
