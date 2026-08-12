@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a280-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a281-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12174,6 +12174,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2701,
       "zh": 5305
+    }
+  },
+  {
+    "slug": "the-tide-keepers-ledger",
+    "fileNo": "A-281",
+    "cover": "assets/covers/A-281-the-tide-keepers-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide Keeper's Ledger",
+        "zh": "潮汐记录簿"
+      },
+      "description": {
+        "en": "A widowed nautical archivist in coastal Maine discovers his silent niece's hidden tide logs inside a restored clockwork mechanism, forcing him to confront his grief and regain his family.",
+        "zh": "缅因州沿海的一位鳏居航海档案修复师，在一座修复的钟表装置中发现了沉默寡言的侄女暗中记录的潮汐日志，迫使他面对悲伤，重获亲情。"
+      }
+    },
+    "title": {
+      "en": "The Tide Keeper's Ledger",
+      "zh": "潮汐记录簿"
+    },
+    "category": {
+      "en": "Literary Fiction",
+      "zh": "文学小说"
+    },
+    "summary": {
+      "en": "Immersed in rigid perfectionism following his brother's death, nautical archivist Julian Thorne provides for his young niece Lila with pristine order but emotional absence. When he discovers her hand-calibrated tide charts tracking his distant routine, he realizes that protecting loved ones requires presence rather than cold precision.",
+      "zh": "在弟弟离世后，航海档案员朱利安·索恩沉迷于刻板的完美主义。他为幼小的侄女莉拉提供了挑不出瑕疵的生活秩序，却在情感上缺席。当他在一座旧钟表中发现莉拉用来记录他冷漠作息的潮汐图表时，他终于意识到，守护至亲需要的不是冰冷的精准，而是深情的陪伴。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of parental grief, family bereavement, and emotional isolation.",
+      "zh": "虚构故事。包含亲人离世、家庭悲伤及情感孤立主题。"
+    },
+    "tone": "Amber",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2690,
+      "zh": 4688
     }
   }
 ];
