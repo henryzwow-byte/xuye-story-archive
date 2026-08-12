@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a227-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a228-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9842,6 +9842,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2409,
       "zh": 4123
+    }
+  },
+  {
+    "slug": "the-glass-surveyor",
+    "fileNo": "A-228",
+    "cover": "assets/covers/A-228-the-glass-surveyor.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Glass Surveyor",
+        "zh": "琉璃测绘师"
+      },
+      "description": {
+        "en": "When her husband demands an abrupt separation to seize her family property, an architectural surveyor relies on precision, evidence, and quiet resolve to reclaim her life.",
+        "zh": "当丈夫突如其来提出分居试图夺取家族地产时，一位建筑测绘师依靠精确的证据与沉静的意志重构人生。"
+      }
+    },
+    "title": {
+      "en": "The Glass Surveyor",
+      "zh": "琉璃测绘师"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A calm architectural conservator in a Maine coastal town turns a sudden marital betrayal into a masterclass in quiet resilience, leveraging precise structural records to secure her daughter's future.",
+      "zh": "在缅因州一座沿海小镇，一位沉着冷静的古建筑保护师将突如其来的婚姻背叛化为沉静坚韧的抗争，利用精准的结构测绘记录为女儿筑起安稳的未来。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts emotional coercion, marital disputes, and legal property litigation between former spouses.",
+      "zh": "虚构故事。包含情感胁迫、婚姻纠纷及离异夫妻间财产诉讼相关的情节描写。"
+    },
+    "tone": "slate",
+    "glyph": "GS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2661,
+      "zh": 4542
     }
   }
 ];
