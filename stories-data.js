@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a249-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a250-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10810,6 +10810,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2520,
       "zh": 4425
+    }
+  },
+  {
+    "slug": "the-salt-house-ledger",
+    "fileNo": "A-250",
+    "cover": "assets/covers/A-250-the-salt-house-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt House Ledger",
+        "zh": "盐屋账本"
+      },
+      "description": {
+        "en": "An estranged engineer uncovers years of corporate family sabotage while protecting his former wife and forgotten daughter in a foggy coastal town.",
+        "zh": "在雾气缭绕的沿海小镇上，一位疏离的工程师在保护前妻与被遗忘的女儿时，揭开了家族企图隐瞒多年的纵阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Salt House Ledger",
+      "zh": "盐屋账本"
+    },
+    "category": {
+      "en": "Drama",
+      "zh": "戏剧"
+    },
+    "summary": {
+      "en": "When structural engineer Julian Sterling discovers his ex-wife and young daughter attempting to pawn a family heirloom for medical equipment, a paper trail of intercepted legal notices exposes his wealthy father's ruthless corporate sabotage.",
+      "zh": "当结构工程师朱利安·斯特林发现前妻和年幼的女儿企图典当家族家传物品以换取医疗设备时，一份被截留的法律通知记录揭开了他富有父亲残忍的商业阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family estrangement, pediatric respiratory illness management, corporate ethical conflict, and legal disputes.",
+      "zh": "虚构故事。包含家庭疏离、儿童呼吸道疾病管理、企业伦理冲突与法律纠纷相关情节。"
+    },
+    "tone": "Amber",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2430,
+      "zh": 4176
     }
   }
 ];
