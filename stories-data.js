@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a288-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a289-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12482,6 +12482,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2360,
       "zh": 4092
+    }
+  },
+  {
+    "slug": "the-tide-of-echoes",
+    "fileNo": "A-289",
+    "cover": "assets/covers/A-289-the-tide-of-echoes.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide of Echoes",
+        "zh": "回声之潮"
+      },
+      "description": {
+        "en": "When a severe nor'easter threatens a cargo freighter off the Maine coast, a quiet maritime dispatcher must step back into her forgotten past as an elite salvage captain to save a crew—and expose a buried truth.",
+        "zh": "当一场强烈的东北风暴威胁到缅因州海岸的货轮时，一位低调的海洋调度员必须重新踏入她作为精英打捞船长的淡忘过去，在救出船员的同时揭开被掩盖的真相。"
+      }
+    },
+    "title": {
+      "en": "The Tide of Echoes",
+      "zh": "回声之潮"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "虚构 / 戏剧"
+    },
+    "summary": {
+      "en": "A quiet coastal dispatcher with a scarred past takes remote command of a deep-sea salvage operation during a catastrophic storm, uncovering the corporate cover-up that derailed her career.",
+      "zh": "一位有着伤痕累累过去的低调海岸调度员在灾难性的风暴中远程指挥深海打捞行动，并揭开了导致她职业生涯脱轨的公司掩盖行为。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts maritime peril, atmospheric storm conditions, and workplace conflicts. Contains no graphic violence or real-world instructions.",
+      "zh": "虚构故事。描写海上险情、气象风暴灾害及职场冲突。不含血腥暴力或现实违法指导。"
+    },
+    "tone": "Navy",
+    "glyph": "TE",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2840,
+      "zh": 4714
     }
   }
 ];
