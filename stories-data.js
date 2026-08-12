@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a286-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a288-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12438,6 +12438,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3060,
       "zh": 5364
+    }
+  },
+  {
+    "slug": "the-timber-master-ledger",
+    "fileNo": "A-288",
+    "cover": "assets/covers/A-288-the-timber-master-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Master's Ledger",
+        "zh": "木艺大师的账簿"
+      },
+      "description": {
+        "en": "A dramatic story of hidden craftsmanship, corporate greed, and standing up for true legacy.",
+        "zh": "关于隐藏手艺、企业贪婪与守卫真实传承的双语戏剧故事。"
+      }
+    },
+    "title": {
+      "en": "The Timber Master's Ledger",
+      "zh": "木艺大师的账簿"
+    },
+    "category": {
+      "en": "Fiction / Contemporary Drama",
+      "zh": "小说 / 现代戏剧"
+    },
+    "summary": {
+      "en": "When a prestigious architectural family hides their master-craftsman uncle in a utility pantry to impress rich investors, a young architect takes a stand—uncovering a web of structural fraud and reclaimed legacy.",
+      "zh": "当一个声名显赫的建筑家族为了讨好名流而将身为木艺大师的叔叔驱赶至备餐间时，年轻的建筑师挺身而出，揭开了结构欺诈的阴谋并夺回了真正的家族传承。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family emotional conflict, verbal mistreatment, and corporate disputes.",
+      "zh": "虚构故事。包含家庭情感冲突、言语冷漠及企业权责纠纷描写。"
+    },
+    "tone": "woodgrain",
+    "glyph": "TM",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2360,
+      "zh": 4092
     }
   }
 ];
