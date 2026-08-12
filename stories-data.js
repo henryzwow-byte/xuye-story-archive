@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a291-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a292-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12614,6 +12614,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2185,
       "zh": 3627
+    }
+  },
+  {
+    "slug": "the-saltmill-covenant",
+    "fileNo": "A-292",
+    "cover": "assets/covers/A-292-the-saltmill-covenant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Saltmill Covenant",
+        "zh": "盐磨坊契约"
+      },
+      "description": {
+        "en": "When her family mortgages her inherited maritime workshop to fund her brother's failed venture, a timber restoration craftsman unearths a historic covenant buried beneath the millstone.",
+        "zh": "当家人将她继承的海事木艺工坊抵押给哥哥作失败项目拆借时，一位修复木工从磨坊底下挖出了一份沉寂多年的历史契约。"
+      }
+    },
+    "title": {
+      "en": "The Saltmill Covenant",
+      "zh": "盐磨坊契约"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "A dedicated restoration woodworker in coastal Oregon discovers her mother secretly pledged her workshop's historic land deed as mortgage collateral for her older brother's speculative resort enterprise. Unwilling to let her life's work be demolished, she uncovers a hidden preservation covenant left by her late mentor.",
+      "zh": "俄勒冈沿海的一名古建修复木工发现，母亲暗中将她工坊的历史土地产权抵押，用于资助哥哥投机的奢华度假村项目。为了保护毕生心血免遭拆除，她挖出了导师生前隐藏的历史保护契约。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial financial betrayal, emotional conflict, and property disputes.",
+      "zh": "虚构故事。包含家庭经济背叛、情感冲突及财产纠纷主题。"
+    },
+    "tone": "Slate",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2465,
+      "zh": 4407
     }
   }
 ];
