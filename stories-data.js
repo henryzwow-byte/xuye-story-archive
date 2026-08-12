@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a231-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a232-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10018,6 +10018,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2293,
       "zh": 4135
+    }
+  },
+  {
+    "slug": "the-tide-at-alder-creek",
+    "fileNo": "A-232",
+    "cover": "assets/covers/A-232-the-tide-at-alder-creek.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide at Alder Creek",
+        "zh": "奥尔德溪的潮汐"
+      },
+      "description": {
+        "en": "An acoustic engineer uncovers a web of forged records and concealed marine surveys, revealing the truth behind a tragic separation.",
+        "zh": "一位声学工程师揭开了一套伪造记录与隐瞒海洋调查的阴谋，揭示了一场悲剧性分离背后的真相。"
+      }
+    },
+    "title": {
+      "en": "The Tide at Alder Creek",
+      "zh": "奥尔德溪的潮汐"
+    },
+    "category": {
+      "en": "Drama & Suspense",
+      "zh": "情感悬疑"
+    },
+    "summary": {
+      "en": "When an acoustic engineer returns to inspect a coastal pier, a forgotten hydrophone recording exposes years of corporate fraud and reunites him with the woman he was tricked into abandoning.",
+      "zh": "当一位声学工程师返回检查海岸码头时，一段被遗忘的水听器录音揭露了多年的企业欺诈，并让他与因欺骗而分离的女性重逢。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate misconduct, professional framing, and emotional reconciliation.",
+      "zh": "虚构故事。包含企业不当行为、职业陷害及情感和解等主题。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "AC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2145,
+      "zh": 4057
     }
   }
 ];
