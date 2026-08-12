@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a276-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a277-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11998,6 +11998,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2173,
       "zh": 3784
+    }
+  },
+  {
+    "slug": "the-preservationist-covenant",
+    "fileNo": "A-277",
+    "cover": "assets/covers/A-277-the-preservationist-covenant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Preservationist Covenant",
+        "zh": "文物保护协定"
+      },
+      "description": {
+        "en": "When a prominent real estate family attempts to steamroll a quiet preservationist, they discover who truly holds the deeds to the waterfront.",
+        "zh": "当显赫的地产家族意图碾压一位低调的文物保护员时，他们才发现究竟谁才是海岸线产权的真正主人。"
+      }
+    },
+    "title": {
+      "en": "The Preservationist Covenant",
+      "zh": "文物保护协定"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "After five years of quiet condescension from her former in-laws, Clara Vance steps out from their shadow to enforce a centuries-old maritime trust.",
+      "zh": "经历了前夫家族五年来的低调冷眼后，克拉拉·凡斯从阴影中走来，正式履行一项历史悠久的海洋信托权。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of divorce, family arrogance, financial disputes, and corporate negotiation.",
+      "zh": "虚构故事。包含离婚、家族傲慢、财务纠纷及商业谈判等主题。"
+    },
+    "tone": "resolute",
+    "glyph": "PC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2010,
+      "zh": 3687
     }
   }
 ];
