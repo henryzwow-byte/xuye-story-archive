@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a267-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a268-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11602,6 +11602,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2397,
       "zh": 4227
+    }
+  },
+  {
+    "slug": "the-cedar-cipher",
+    "fileNo": "A-268",
+    "cover": "assets/covers/A-268-the-cedar-cipher.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cedar Cipher",
+        "zh": "雪松标记"
+      },
+      "description": {
+        "en": "A timber artisan uncovers a secret cipher carved into custom furniture, exposing his wife's hidden exploitation of his elderly father.",
+        "zh": "一位木艺匠人在高档家具中发现隐藏的刻痕，揭开妻子对患病老父亲隐秘剥削的真相。"
+      }
+    },
+    "title": {
+      "en": "The Cedar Cipher",
+      "zh": "雪松标记"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "虚构小说 / 情感剧情"
+    },
+    "summary": {
+      "en": "Returning to his Maine boatyard after a salvage trip, Julian Vance discovers his stroke-recovering father working under grueling secret quotas in an unheated barn for his wife's design business. A carved cipher in the timber reveals the truth, forcing Julian to confront the betrayal.",
+      "zh": "从一次木料回收远行归来后，朱利安·范斯在未取暖的旧木棚里发现了正在康复中的风瘫父亲。妻子为经营高端设计工作室，竟秘密逼迫老人超时苦干。家具隐藏处的秘密刻痕揭露了一切，逼使朱利安直面这场家庭与道德的背叛。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts elder exploitation, emotional mistreatment, family conflict, and physical strain.",
+      "zh": "虚构故事。包含对老年人剥削、情感虐待、家庭冲突及体力劳损的描写。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "CC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2449,
+      "zh": 4167
     }
   }
 ];
