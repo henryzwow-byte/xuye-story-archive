@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a283-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a284-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12306,6 +12306,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2154,
       "zh": 3706
+    }
+  },
+  {
+    "slug": "whispers-over-blackwood-bay",
+    "fileNo": "A-284",
+    "cover": "assets/covers/A-284-whispers-over-blackwood-bay.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Whispers Over Blackwood Bay",
+        "zh": "黑木湾的私语"
+      },
+      "description": {
+        "en": "A returning deep-sea technician finds his home abandoned and his legacy forged, forcing him to build an ironclad shield of proof for his children.",
+        "zh": "一位归国的深海工程技术员发现家园遭弃、遗产被伪造，他必须为孩子们筑起一道铁证如山的保护盾。"
+      }
+    },
+    "title": {
+      "en": "Whispers Over Blackwood Bay",
+      "zh": "黑木湾的私语"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "Returning from a sixteen-month deployment at sea, Julian Sterling finds his children surviving alone in an abandoned home encumbered by forged debts. To save his family, he must piece together an indisputable paper trail of truth.",
+      "zh": "在海上执行了十六个月的任务归来后，朱利安·斯特林发现孩子们独自生活在一个被伪造债务纠缠的废弃小屋里。为了拯救家庭，他必须拼凑出一份不容置疑的真相铁证。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of parental abandonment, financial deception, and family recovery.",
+      "zh": "虚构故事。包含父母遗弃、财务欺诈与家庭重构等主题。"
+    },
+    "tone": "Rust",
+    "glyph": "WB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2352,
+      "zh": 3860
     }
   }
 ];
