@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a270-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a271-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11734,6 +11734,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2680,
       "zh": 4671
+    }
+  },
+  {
+    "slug": "tidecliff-beacon-trust",
+    "fileNo": "A-271",
+    "cover": "assets/covers/A-271-tidecliff-beacon-trust.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Beacon at Tidecliff",
+        "zh": "潮崖灯塔的守护者"
+      },
+      "description": {
+        "en": "A recovering conservator stands against deceitful relatives targeting a historic coastal trust.",
+        "zh": "一位康复中的修复师奋起抵抗企图谋夺历史遗产信托的贪婪亲戚。"
+      }
+    },
+    "title": {
+      "en": "The Beacon at Tidecliff",
+      "zh": "潮崖灯塔的守护者"
+    },
+    "category": {
+      "en": "Suspense & Drama",
+      "zh": "悬疑与戏剧"
+    },
+    "summary": {
+      "en": "When predatory family members corner a recovering conservator in her cliffside workshop to seize a historic trust, a hidden archival recording system exposes their conspiracy.",
+      "zh": "当贪婪的亲戚趁虚而入，在悬崖工作室里逼迫患病的修复师让出历史信托基金时，一套隐蔽的档案记录系统揭穿了他们的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family betrayal, physical coercion, and emotional distress.",
+      "zh": "虚构故事。包含家庭背叛、身体胁迫及情感困扰主题。"
+    },
+    "tone": "Amber",
+    "glyph": "TB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2321,
+      "zh": 4365
     }
   }
 ];
