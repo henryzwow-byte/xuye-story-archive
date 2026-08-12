@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a232-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a233-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10062,6 +10062,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2145,
       "zh": 4057
+    }
+  },
+  {
+    "slug": "the-ironmasters-ledger",
+    "fileNo": "A-233",
+    "cover": "assets/covers/A-233-the-ironmasters-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ironmaster's Ledger",
+        "zh": "铁匠的账簿"
+      },
+      "description": {
+        "en": "When her uncle's historic foundry is threatened by a forged surrender agreement, restorer Nora Vance uncovers a microscopic mark that shatters her family's betrayal.",
+        "zh": "当叔叔留下的百年古建筑铸造厂面临伪造的转让协议威胁时，修复师诺拉·范斯发现了一个微小的隐秘标记，彻底揭穿了家族的背叛。"
+      }
+    },
+    "title": {
+      "en": "The Ironmaster's Ledger",
+      "zh": "铁匠的账簿"
+    },
+    "category": {
+      "en": "Legal Mystery & Inheritance",
+      "zh": "悬疑法理与遗产"
+    },
+    "summary": {
+      "en": "After her mentor passes away, architectural restorer Nora Vance inherits controlling interest in a century-old historic ironworks. But when her opportunistic relatives stage a safety default using a backdated agreement, Nora must rely on forensic metallurgy and her mentor's secret archive to save her heritage.",
+      "zh": "导师去世后，古建筑修复师诺拉·范斯继承了一家百年铸造厂的控制权。然而，利欲熏心的亲戚利用倒签日期的协议伪造了安全违约。诺拉必须依靠法医冶金学和导师留下的隐秘档案来拯救属于她的遗产。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, attempted corporate fraud, and corporate inheritance disputes.",
+      "zh": "虚构故事。包含家族冲突、试图进行商业欺诈以及商业遗产纠纷等主题。"
+    },
+    "tone": "Industrial",
+    "glyph": "IL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2958,
+      "zh": 5173
     }
   }
 ];
