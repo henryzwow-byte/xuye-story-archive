@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a247-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a248-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10722,6 +10722,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3022,
       "zh": 5332
+    }
+  },
+  {
+    "slug": "the-dual-stamp-chronometer",
+    "fileNo": "A-248",
+    "cover": "assets/covers/A-248-the-dual-stamp-chronometer.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Dual-Stamp Chronometer",
+        "zh": "双重钢印的航海钟"
+      },
+      "description": {
+        "en": "A story of maritime artifact restoration, sudden professional betrayal, and the unyielding search for metallurgical truth.",
+        "zh": "关于海洋文物修复、突如其来的职场背叛以及对冶金学真理不懈追求的故事。"
+      }
+    },
+    "title": {
+      "en": "The Dual-Stamp Chronometer",
+      "zh": "双重钢印的航海钟"
+    },
+    "category": {
+      "en": "Historical Fiction",
+      "zh": "历史虚构"
+    },
+    "summary": {
+      "en": "When a conservator unearths a dual-stamped 1842 chronometer, her appraiser husband publicly accuses her of fraud. Only rigorous science and sisterly loyalty can forge her redemption.",
+      "zh": "当修复师打捞出一件1842年双印章航海仪时，她的鉴定师丈夫在众目睽睽之下指控她欺诈。唯有严谨的科学与姐妹间的不离不弃，能锻造出真正的救赎。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of professional betrayal, false accusation, and emotional conflict.",
+      "zh": "虚构故事。包含职场背叛、虚假指控及情感冲突主题。"
+    },
+    "tone": "slate",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2577,
+      "zh": 4621
     }
   }
 ];
