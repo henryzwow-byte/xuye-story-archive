@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a262-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a263-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11382,6 +11382,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2486,
       "zh": 4379
+    }
+  },
+  {
+    "slug": "eldridge-timber-ledger",
+    "fileNo": "A-263",
+    "cover": "assets/covers/A-263-eldridge-timber-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cedar and the Ledger",
+        "zh": "杉木与账本"
+      },
+      "description": {
+        "en": "When a master archivist is turned away from the grand opening of a coastal museum she privately funded, her archival records reveal a truth that reshapes her family's future.",
+        "zh": "当一位资深档案修复师被自己全资赞助的海事博物馆开幕晚宴拒之门外时，她手中的档案记录揭开了重塑家庭格局的真相。"
+      }
+    },
+    "title": {
+      "en": "The Cedar and the Ledger",
+      "zh": "杉木与账本"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "After two years of silently bankrolling the historic restoration of a Puget Sound maritime heritage center for her grandniece's debut exhibition, Evelyn Mercer is denied entry at the opening gala by her ambitious nephew. Armed with notarized deeds and audited timber ledgers, Evelyn demands accountability while protecting the true legacy of her craft.",
+      "zh": "在默默倾资两年支持普吉特海湾海事遗产中心的历史性修缮、为侄孙女的首次策展铺路后，埃弗琳·默瑟却在开幕晚宴上被野心勃勃的侄子拒之门外。手握公证地契与经审计的木料账本，埃弗琳在守护这项传统手艺真正遗产的同时，展开了一场理智而坚定的权责申诉。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial exclusion, financial deceit, and emotional conflict.",
+      "zh": "虚构故事。包含家庭排挤、财务欺瞒与情感冲突主题。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "EV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3182,
+      "zh": 5648
     }
   }
 ];
