@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a258-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a259-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11206,6 +11206,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3086,
       "zh": 5369
+    }
+  },
+  {
+    "slug": "the-silent-anchor",
+    "fileNo": "A-259",
+    "cover": "assets/covers/A-259-the-silent-anchor.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Anchor",
+        "zh": "沉默的基石"
+      },
+      "description": {
+        "en": "A quiet timber craftsman confronts her sister and father at an architecture preview after discovering her stolen guild seal.",
+        "zh": "在一场高端建筑预展上，一位沉稳的木艺大师在发现自己被窃的公会印章后，公开迎战妹妹与父亲。"
+      }
+    },
+    "title": {
+      "en": "The Silent Anchor",
+      "zh": "沉默的基石"
+    },
+    "category": {
+      "en": "Fictional Story",
+      "zh": "虚构故事"
+    },
+    "summary": {
+      "en": "When Clara Sterling's ambitious younger sister claims credit for a legendary structural restoration using Clara's stolen master guild seal, Clara decides to end years of family underestimation in front of every investor present.",
+      "zh": "当克拉拉·斯特林野心勃勃的妹妹拿着偷来的大师公会印章，声称自己完成了传奇结构修复项目时，克拉拉决定在所有投资者面前，结束多年来家族对她的轻视。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial conflict, stolen professional credit, and personal reconciliation.",
+      "zh": "虚构故事。包含家庭冲突、职业名誉窃取及个人和解等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "SA",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3194,
+      "zh": 5471
     }
   }
 ];
