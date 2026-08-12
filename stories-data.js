@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a238-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a239-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10326,6 +10326,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1786,
       "zh": 3100
+    }
+  },
+  {
+    "slug": "the-hidden-deed-of-salt-bay",
+    "fileNo": "A-239",
+    "cover": "assets/covers/A-239-the-hidden-deed-of-salt-bay.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Hidden Deed of Salt Bay",
+        "zh": "盐湾的隐秘契据"
+      },
+      "description": {
+        "en": "When Clara is urged to sign away her family's coastal timberland to cover alleged back taxes, an old harbor custodian delivers a hidden warning.",
+        "zh": "当克拉拉被催促签字放弃家族沿海林地以偿还所谓欠税时，一位老港口看管人送来了一个隐秘的警告。"
+      }
+    },
+    "title": {
+      "en": "The Hidden Deed of Salt Bay",
+      "zh": "盐湾的隐秘契据"
+    },
+    "category": {
+      "en": "Drama & Suspense",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "Brought to a coastal harbor office under the pretext of resolving her late uncle's overwhelming municipal debts, architectural draftswoman Clara Vance uncovers a calculated land scheme through a hidden brass key.",
+      "zh": "建筑绘图员克拉拉·凡斯在清理已故伯父巨额市政债务的借口下被带到港口办公室，通过一把隐藏的黄铜钥匙揭开了精心谋划的土地阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional deceit, financial fraud, and mail interception. All characters, places, and events are entirely fictional.",
+      "zh": "虚构故事。包含情感欺骗、财务欺诈和信件拦截等主题。所有人物、地点和事件均为虚构。"
+    },
+    "tone": "Cobalt",
+    "glyph": "SB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2262,
+      "zh": 3879
     }
   }
 ];
