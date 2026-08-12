@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a244-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a245-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10590,6 +10590,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3160,
       "zh": 5543
+    }
+  },
+  {
+    "slug": "saddle-ridge-hollow",
+    "fileNo": "A-245",
+    "cover": "assets/covers/A-245-saddle-ridge-hollow.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Saddle Ridge Hollow",
+        "zh": "鞍脊山谷"
+      },
+      "description": {
+        "en": "A father returns early from a mountain survey to discover a quiet betrayal and a hidden wilderness camp.",
+        "zh": "一位父亲提前结束野外测绘任务归来，揭开了一场隐秘的背叛与高山营地的秘密。"
+      }
+    },
+    "title": {
+      "en": "Saddle Ridge Hollow",
+      "zh": "鞍脊山谷"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When a land surveyor returns weeks early to his Idaho hometown, he finds his daughter missing and his family estate entangled in a cold financial scheme.",
+      "zh": "当一名测绘员提前数周回到爱达荷州的小镇时，他发现女儿失踪，家族产业深陷一场冷酷的利益阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family conflict, institutional neglect, and emotional recovery.",
+      "zh": "虚构故事。包含家庭冲突、机构疏忽及情感修复的描写。"
+    },
+    "tone": "Alpine",
+    "glyph": "SR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1735,
+      "zh": 3018
     }
   }
 ];
