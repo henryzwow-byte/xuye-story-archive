@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a248-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a249-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10766,6 +10766,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2577,
       "zh": 4621
+    }
+  },
+  {
+    "slug": "salvage-and-silence",
+    "fileNo": "A-249",
+    "cover": "assets/covers/A-249-salvage-and-silence.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Salvage and Silence",
+        "zh": "打捞与沉默"
+      },
+      "description": {
+        "en": "A father returning from offshore work discovers dark secrets hidden in his coastal shipyard and must protect his son.",
+        "zh": "一位从近海归来的父亲发现了海岸修造厂里隐藏的阴暗秘密，必须全力保护自己的儿子。"
+      }
+    },
+    "title": {
+      "en": "Salvage and Silence",
+      "zh": "打捞与沉默"
+    },
+    "category": {
+      "en": "Drama & Mystery",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When Julian Mercer returns to his family's maritime repair yard in coastal Oregon, he finds his teenage son frightened and silent. A sudden dockside accident leads Julian to a hidden ledger, exposing industrial sabotage and a deep betrayal.",
+      "zh": "当朱利安·默瑟回到位于俄勒冈州海岸的家族船舶修造厂时，他发现自己十多岁的儿子终日惊恐沉默。一场突如其来的码头事故引导朱利安找到一本隐藏的账本，揭开了一场工业破坏与深层背叛。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of domestic tension, emotional coercion, and industrial sabotage.",
+      "zh": "虚构故事。包含家庭紧张、情感胁迫及工业破坏主题。"
+    },
+    "tone": "slate",
+    "glyph": "SS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2520,
+      "zh": 4425
     }
   }
 ];
