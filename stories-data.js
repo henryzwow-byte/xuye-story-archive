@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a289-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a290-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12526,6 +12526,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2840,
       "zh": 4714
+    }
+  },
+  {
+    "slug": "whispers-of-cedar-cove",
+    "fileNo": "A-290",
+    "cover": "assets/covers/A-290-whispers-of-cedar-cove.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Whispers of Cedar Cove",
+        "zh": "雪松湾的低语"
+      },
+      "description": {
+        "en": "When a severe coastal gale threatens her sick child, a lighthouse caretaker must protect her home from her family's toxic intrusion.",
+        "zh": "当一场严重的沿海狂风威胁到患病的女儿，一位灯塔看守人必须从家族的有害入侵中守护自己的家园。"
+      }
+    },
+    "title": {
+      "en": "Whispers of Cedar Cove",
+      "zh": "雪松湾的低语"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A coastal caretaker stands her ground against an overbearing matriarch after a midnight intrusion threatens her sanctuary.",
+      "zh": "在一次深夜入侵威胁到她的避风港后，一位海岸看守人面对专横的家族女主人坚守立场。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts intense family conflict, emotional boundaries, and a storm emergency.",
+      "zh": "虚构故事。包含紧张的家庭冲突、情感界限设定及风暴紧急情况描述。"
+    },
+    "tone": "amber",
+    "glyph": "CC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2402,
+      "zh": 4083
     }
   }
 ];
