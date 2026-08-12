@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a273-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a274-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11866,6 +11866,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2447,
       "zh": 4112
+    }
+  },
+  {
+    "slug": "the-star-map-pendant",
+    "fileNo": "A-274",
+    "cover": "assets/covers/A-274-the-star-map-pendant.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Star-Map Pendant",
+        "zh": "星图坠饰"
+      },
+      "description": {
+        "en": "An artisan clockmaker discovers a forgotten heirloom that unravels a decade of family secrets.",
+        "zh": "一位古董钟表匠发现了一件被遗忘的传家宝，从而解开长达十年的家族秘密。"
+      }
+    },
+    "title": {
+      "en": "The Star-Map Pendant",
+      "zh": "星图坠饰"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "When clockmaker David Vance spots a unique brass pendant he crafted years ago on a young boy at a Boston gallery, he unwinds a hidden past of high-society silence, legal battles, and the quiet pursuit of truth.",
+      "zh": "当钟表匠大卫·凡斯在波士顿画展上看到一名男孩佩戴着自己多年前亲手制作的独特黄铜坠饰时，一段被豪门沉默、法律拉锯与执着追求真相所掩盖的往事逐渐浮出水面。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family conflict, emotional estrangement, and legal disputes.",
+      "zh": "虚构故事。包含家庭冲突、情感疏离及法律纠纷等轻度主题。"
+    },
+    "tone": "Sepia",
+    "glyph": "SP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2502,
+      "zh": 4316
     }
   }
 ];
