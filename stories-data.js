@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a300-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a301-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13010,6 +13010,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2639,
       "zh": 4563
+    }
+  },
+  {
+    "slug": "the-timber-salvage",
+    "fileNo": "A-301",
+    "cover": "assets/covers/A-301-the-timber-salvage.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Salvage",
+        "zh": "木船坊的救赎"
+      },
+      "description": {
+        "en": "A young boatwright uncovers her late mother's hidden maritime trust amidst the rainy coastal docks of Oregon.",
+        "zh": "俄勒冈州阴雨绵绵的海岸码头上，一位年轻造船女工揭开了母亲留下的海洋信托之谜。"
+      }
+    },
+    "title": {
+      "en": "The Timber Salvage",
+      "zh": "木船坊的救赎"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 戏剧"
+    },
+    "summary": {
+      "en": "In a rain-drenched Oregon harbor, nineteen-year-old Hannah works under her uncle's strict salvage operation until a brass drafting rule and a harbor master's ledger expose a long-buried inheritance.",
+      "zh": "在俄勒冈州阴雨连绵的港口，十九岁的汉娜在她叔叔严苛的废船拆解场工作，直到一把黄铜绘图尺和一份港务长账簿揭开了掩埋已久的继承真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, financial deception, and emotional distress.",
+      "zh": "虚构故事。包含家庭冲突、经济欺诈及情绪困扰等主题。"
+    },
+    "tone": "slate",
+    "glyph": "TS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3093,
+      "zh": 5147
     }
   }
 ];
