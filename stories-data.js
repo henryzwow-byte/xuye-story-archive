@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a284-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a285-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12350,6 +12350,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2352,
       "zh": 3860
+    }
+  },
+  {
+    "slug": "the-iron-oak",
+    "fileNo": "A-285",
+    "cover": "assets/covers/A-285-the-iron-oak.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Iron Oak",
+        "zh": "铁木重光"
+      },
+      "description": {
+        "en": "A master shipwright's legacy is defended against elitist corporate overreach on the Maine coast.",
+        "zh": "在新英格兰海滨，老船匠的造船遗产与尊严在律法与真诚中重获新生。"
+      }
+    },
+    "title": {
+      "en": "The Iron Oak",
+      "zh": "铁木重光"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When an arrogant heritage foundation publicly humbles a retired master shipwright, his daughter-in-law uncovers a decades-old timber trust that turns the tables.",
+      "zh": "当傲慢的海洋遗产基金会公开羞辱一位退休造船大师时，他的儿媳揭开了一份尘封多年的木业信托契约，彻底扭转了局势。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, emotional distress, and corporate legal disputes.",
+      "zh": "虚构故事。包含家庭冲突、情感困境及商业法律纠纷等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "IO",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2681,
+      "zh": 4772
     }
   }
 ];
