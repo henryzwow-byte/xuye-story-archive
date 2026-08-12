@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a241-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a242-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10458,6 +10458,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2884,
       "zh": 4711
+    }
+  },
+  {
+    "slug": "the-cold-breakwater",
+    "fileNo": "A-242",
+    "cover": "assets/covers/A-242-the-cold-breakwater.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cold Breakwater",
+        "zh": "寒潮防波堤"
+      },
+      "description": {
+        "en": "A night shift mechanic at a remote ferry landing protects a stranded teenager and uncovers the truth behind a father's rigid distance.",
+        "zh": "在偏远渡轮码头值夜班的机械师保护了一名滞留的少年，并揭开了其父亲严苛疏离背后的真相。"
+      }
+    },
+    "title": {
+      "en": "The Cold Breakwater",
+      "zh": "寒潮防波堤"
+    },
+    "category": {
+      "en": "Drama & Reconciliation",
+      "zh": "情感剧与和解"
+    },
+    "summary": {
+      "en": "When a stormy coast leaves a quiet fourteen-year-old stranded at a dark ferry terminal, a dock mechanic intervenes before his demanding father arrives, forcing a reckoning between cold expectations and genuine care.",
+      "zh": "暴风雨夜，一名十四岁的沉静少年被滞留在阴暗的渡轮码头。码头机械师在少年严厉的父亲赶到前介入，引发了一场关于冷酷期望与真实关怀的反思与和解。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of parental emotional distance, childhood anxiety, and family reconciliation.",
+      "zh": "虚构故事。包含父子情感疏离、少年焦虑及家庭和解主题。"
+    },
+    "tone": "Slate",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2748,
+      "zh": 4431
     }
   }
 ];
