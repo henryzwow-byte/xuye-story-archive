@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a259-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a260-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11250,6 +11250,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3194,
       "zh": 5471
+    }
+  },
+  {
+    "slug": "gilded-blueprints",
+    "fileNo": "A-260",
+    "cover": "assets/covers/A-260-gilded-blueprints.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Gilded Blueprints",
+        "zh": "镀金蓝图"
+      },
+      "description": {
+        "en": "A disgraced engineer returns to her ex-husband’s high-society gala with twin daughters and undeniable truth.",
+        "zh": "一位被排挤的前工程师带着双胞胎女儿与无可辩驳的真相，重返前夫的高阶社交晚宴。"
+      }
+    },
+    "title": {
+      "en": "The Gilded Blueprints",
+      "zh": "镀金蓝图"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "现代戏剧"
+    },
+    "summary": {
+      "en": "When structural engineer Teresa Vance is invited to her ex-husband's glamorous harbor gala and seated near the service kitchen, she attends with her five-year-old twin daughters and a portfolio that rewrites the family's legacy.",
+      "zh": "当结构工程师泰蕾莎·凡斯收到前夫豪华港湾晚宴的邀请并被安排在后厨旁时，她带着五岁的双胞胎女儿和一份彻底改写家族遗存的文件出席了晚宴。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of high-society conflict, marital separation, and personal resilience.",
+      "zh": "虚构故事。包含名流冲突、婚姻离异及个人韧性主题。"
+    },
+    "tone": "Sapphire",
+    "glyph": "GB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2222,
+      "zh": 4043
     }
   }
 ];
