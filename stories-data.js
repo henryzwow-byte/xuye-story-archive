@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a242-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a243-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10502,6 +10502,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2748,
       "zh": 4431
+    }
+  },
+  {
+    "slug": "the-tide-keepers-deed",
+    "fileNo": "A-243",
+    "cover": "assets/covers/A-243-the-tide-keepers-deed.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide Keeper's Deed",
+        "zh": "守潮人的地契"
+      },
+      "description": {
+        "en": "Cast out from her own workshop, cartographer Nora Thorne uncovers a hidden harbor trust left by her quiet grand-uncle.",
+        "zh": "地图绘制师诺拉·索恩被驱逐出自己的工作室后，发现了默默无闻的大伯父留下的被遗忘的海岸信托。"
+      }
+    },
+    "title": {
+      "en": "The Tide Keeper's Deed",
+      "zh": "守潮人的地契"
+    },
+    "category": {
+      "en": "Fictional Narrative",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "After being ousted from her coastal preservation firm by an ambitious partner, master cartographer Nora Thorne discovers a hidden harbor trust left by her late grand-uncle, reclaiming her financial independence and her craft.",
+      "zh": "在被野心勃勃的合伙人驱逐出海岸保护公司后，资深地图绘制师诺拉·索恩发现了去世的大伯父留下的隐秘港口信托，重获财务独立与事业。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of professional betrayal, emotional distress, and financial dispute resolution.",
+      "zh": "虚构故事。包含职业背叛、情感挫折及财务纠纷调解等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TK",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2206,
+      "zh": 3787
     }
   }
 ];
