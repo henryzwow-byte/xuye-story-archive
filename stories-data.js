@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a235-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a236-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10194,6 +10194,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2855,
       "zh": 4966
+    }
+  },
+  {
+    "slug": "amber-and-iron",
+    "fileNo": "A-236",
+    "cover": "assets/covers/A-236-amber-and-iron.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Amber and Iron: The Blackwood Archive",
+        "zh": "琥珀与钢铁：布莱克伍德档案馆"
+      },
+      "description": {
+        "en": "When a charming developer attempts to tear down a historic timber library by falsifying structural safety data, a timber conservator uncovers an unalterable mechanical ledger left behind in the arch.",
+        "zh": "当一名举止优雅的开发商试图通过伪造结构安全数据拆除一座历史悠久的木结构图书馆时，一位木材修复师揭开了一份藏于拱梁之中不可篡改的机械记录。"
+      }
+    },
+    "title": {
+      "en": "Amber and Iron",
+      "zh": "琥珀与钢铁"
+    },
+    "category": {
+      "en": "Fictional Drama & Mystery",
+      "zh": "虚构戏剧与悬疑"
+    },
+    "summary": {
+      "en": "In a coastal Oregon town, architectural conservator Maeve Sterling fights to save a historic timber library from a manipulative developer who uses polite gaslighting and doctored digital records to force a demolition. To prove the truth, she relies on an analog mechanical load gauge hidden inside the building's central keystone beam.",
+      "zh": "在俄勒冈州的一座沿海小镇上，建筑修复师梅芙·斯特林努力保护一座历史悠久的木结构图书馆，抵抗一位擅长情感操纵并伪造数字记录以强行拆除建筑的开发商。为了证明真相，她依靠藏在建筑中央拱顶主梁内的一套机械载荷记录仪。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional manipulation, workplace coercion, corporate fraud, and psychological pressure.",
+      "zh": "虚构故事。包含情感操纵、职场胁迫、企业欺诈及心理施压主题。"
+    },
+    "tone": "brooding",
+    "glyph": "AI",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2758,
+      "zh": 5232
     }
   }
 ];
