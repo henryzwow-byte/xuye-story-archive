@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a237-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a238-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10282,6 +10282,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2505,
       "zh": 4172
+    }
+  },
+  {
+    "slug": "the-brass-compass-legacy",
+    "fileNo": "A-238",
+    "cover": "assets/covers/A-238-the-brass-compass-legacy.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Brass Compass Legacy",
+        "zh": "黄铜罗盘的遗产"
+      },
+      "description": {
+        "en": "A quiet archivist's act of compassion uncovers a hidden legacy at a ruthless luxury preservation house.",
+        "zh": "在一家冷酷的奢华遗迹拍卖行里，一位沉默修复师的善举揭开了隐藏的传奇。"
+      }
+    },
+    "title": {
+      "en": "The Brass Compass Legacy",
+      "zh": "黄铜罗盘的遗产"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a cold-hearted gallery director attempts to expel a distressed stranger, an observant junior technician steps in, revealing an ancient secret sealed within a forgotten relic.",
+      "zh": "当一位冷酷的画廊总监试图驱逐一位落魄的陌生老妇时，一位敏锐的青年修复员挺身而出，揭开了封存在遗忘古物中的惊天秘密。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts corporate conflict, class prejudice, and dramatic confrontation.",
+      "zh": "虚构故事。包含职场冲突、阶层偏见与戏剧性对抗情节。"
+    },
+    "tone": "Bronze",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1786,
+      "zh": 3100
     }
   }
 ];
