@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a299-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a300-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12966,6 +12966,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2519,
       "zh": 4355
+    }
+  },
+  {
+    "slug": "the-harbor-beacon",
+    "fileNo": "A-300",
+    "cover": "assets/covers/A-300-the-harbor-beacon.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Harbor Beacon",
+        "zh": "海港信标"
+      },
+      "description": {
+        "en": "When a master shipwright discovers her husband secretly selling her family legacy, she chooses public transparency over silent compromise.",
+        "zh": "当一位古船修复师发现丈夫私下变卖家族遗产时，她选择用公开透明取代忍气吞声。"
+      }
+    },
+    "title": {
+      "en": "The Harbor Beacon",
+      "zh": "海港信标"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "A master boat restorer uncovers a hidden betrayal at her coastal Maine heritage drydock and uses public transparency to reclaim her legacy.",
+      "zh": "一位古船修复师在缅因州海岸工坊揭发了一场隐秘的背叛，并利用公开透明夺回了自己的家族遗产。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital infidelity, emotional distress, and financial deceit.",
+      "zh": "虚构故事。包含婚姻不忠、情感困扰及财务欺诈等主题。"
+    },
+    "tone": "Luminous",
+    "glyph": "HB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2639,
+      "zh": 4563
     }
   }
 ];
