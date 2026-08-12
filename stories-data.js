@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a296-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a297-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12834,6 +12834,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2687,
       "zh": 4758
+    }
+  },
+  {
+    "slug": "cold-bay-reckoning",
+    "fileNo": "A-297",
+    "cover": "assets/covers/A-297-cold-bay-reckoning.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Cold Bay Reckoning",
+        "zh": "寒湾审视"
+      },
+      "description": {
+        "en": "A story of misjudged trust, marine survey records, and the quiet accountability required to heal a fractured life.",
+        "zh": "一个关于被误解的信任、海洋调查记录以及修补破裂生活所需沉静问责的故事。"
+      }
+    },
+    "title": {
+      "en": "Cold Bay Reckoning",
+      "zh": "寒湾审视"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "When maritime inspector Seth Miller discovers the altered hydrographic logs that led to his ex-wife's exile, he faces the deliberate deception of his new fiancee and the long journey toward real amends.",
+      "zh": "当海事检验员塞斯·米勒发现导致前妻离去的篡改水文日志时，他揭穿了新未婚妻的蓄意欺骗，并踏上了求得真正弥补的漫长之路。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital strain, past emotional deception, and family reconciliation.",
+      "zh": "虚构故事。包含婚姻波折、过往情感欺骗及家庭和解主题。"
+    },
+    "tone": "Coastal",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2852,
+      "zh": 4750
     }
   }
 ];
