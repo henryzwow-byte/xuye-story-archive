@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a263-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a264-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11426,6 +11426,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3182,
       "zh": 5648
+    }
+  },
+  {
+    "slug": "the-salvaged-ledger",
+    "fileNo": "A-264",
+    "cover": "assets/covers/A-264-the-salvaged-ledger.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salvaged Ledger",
+        "zh": "打捞归来的账册"
+      },
+      "description": {
+        "en": "A mysterious sea chest salvaged from a storm-swept bay forces a stained-glass restorer to confront hidden truths about her family's past.",
+        "zh": "一个从暴风雨海湾打捞上来的神秘铁皮海员箱，迫使一位彩色玻璃修复师面对家族过往的隐秘真相。"
+      }
+    },
+    "title": {
+      "en": "The Salvaged Ledger",
+      "zh": "打捞归来的账册"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "When a harbor patrol captain brings an unregistered salvage chest into his home workshop, his wife discovers an antique brass seal that reopens a decades-old town mystery.",
+      "zh": "当一位港巡队长将一个未经登记的打捞箱带回自家工作坊时，他的妻子在箱上发现的复古黄铜印记重新掀起了一场沉寂数十年的小镇谜案。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family secrets, past loss, emotional conflict, and maritime salvage dispute.",
+      "zh": "虚构故事。包含家族秘密、往事伤痛、情感冲突及海上打捞争议等主题。"
+    },
+    "tone": "stormy coastal dusk",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2119,
+      "zh": 3582
     }
   }
 ];
