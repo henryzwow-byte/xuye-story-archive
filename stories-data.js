@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a275-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a276-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -11954,6 +11954,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2936,
       "zh": 4966
+    }
+  },
+  {
+    "slug": "coastal-beacon-reckoning",
+    "fileNo": "A-276",
+    "cover": "assets/covers/A-276-coastal-beacon-reckoning.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Coastal Beacon Reckoning: The Telemetry Evidence",
+        "zh": "海岸灯塔结账日：遥测证据"
+      },
+      "description": {
+        "en": "When a timber restorer is blamed for a dangerous workplace fall, an automated telemetry log disproves a family's long-held story.",
+        "zh": "当一名木材修复师因危险的工作场所坠落而被归咎时，一份自动遥测日志推翻了一个家族长期编造的谎言。"
+      }
+    },
+    "title": {
+      "en": "Coastal Beacon Reckoning",
+      "zh": "海岸灯塔结账日"
+    },
+    "category": {
+      "en": "Fictional Archive & Drama",
+      "zh": "虚构档案与戏剧"
+    },
+    "summary": {
+      "en": "A meticulous archivist at a historic Pacific Northwest boatyard survives a fall from a gantry catwalk. Labeled as clumsy and unstable by her influential relatives, she uncovers automated marine telemetry and load-cell sensor logs that expose deliberate sabotage and systematic fraud.",
+      "zh": "一位在太平洋西北部历史悠久的船厂工作的严谨档案员从门式起重机高空走道坠落并幸存。尽管她被有权势的亲戚贴上了笨拙和不稳定的标签，但她调取了自动化海洋遥测与载荷传感器日志，揭露了蓄意破坏与系统性欺诈的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family emotional manipulation, severe physical injury from a workplace fall, structural tampering, and legal accountability. All characters, organizations, and events are entirely fictional.",
+      "zh": "虚构故事。包含家庭情感操纵、工作场所坠落引发的严重身体伤害、结构篡改及法律追责等情节。所有人物、机构与事件均为虚构。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2173,
+      "zh": 3784
     }
   }
 ];
