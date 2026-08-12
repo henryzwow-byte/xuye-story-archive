@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a246-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a247-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10678,6 +10678,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2014,
       "zh": 3696
+    }
+  },
+  {
+    "slug": "whispers-of-the-timber-line",
+    "fileNo": "A-247",
+    "cover": "assets/covers/A-247-whispers-of-the-timber-line.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Whispers of the Timber Line",
+        "zh": "林线深处的低语"
+      },
+      "description": {
+        "en": "A structural safety inspector uncovers a mountain resort's dark secret after her sister survives a staged wilderness accident.",
+        "zh": "在一场伪造的高山事故后，一位结构安全检查员揭开了一家山地度假村隐秘的罪行。"
+      }
+    },
+    "title": {
+      "en": "Whispers of the Timber Line",
+      "zh": "林线深处的低语"
+    },
+    "category": {
+      "en": "Suspense Drama",
+      "zh": "悬疑戏剧"
+    },
+    "summary": {
+      "en": "When environmental analyst Hannah Prescott is found hypothermic and critically injured near an abandoned alpine timber sluice, her sister Julia uses her engineering expertise to prove the crash was staged to silence a corporate watershed cover-up.",
+      "zh": "当水质分析师汉娜·普雷斯科特在荒废的高山木材溜槽旁被发现严重受创且失温昏迷时，她的姐姐朱莉娅利用结构工程专业知识，证实这场车祸系人为伪造，旨在掩盖一起企图平息的水源污染隐情。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate corruption, environmental hazards, physical trauma, staged accidents, and criminal investigation.",
+      "zh": "虚构故事。包含企业腐败、环境危害、身体伤害、伪造事故及刑事调查的主题。"
+    },
+    "tone": "Glacial",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3022,
+      "zh": 5332
     }
   }
 ];
