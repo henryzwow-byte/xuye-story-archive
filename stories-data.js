@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a285-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a286-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -12394,6 +12394,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2681,
       "zh": 4772
+    }
+  },
+  {
+    "slug": "saffron-and-willow",
+    "fileNo": "A-286",
+    "cover": "assets/covers/A-286-saffron-and-willow.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Saffron Hearth: A Story of Craft and Dignity",
+        "zh": "藏红花炉火：关于手艺与尊严的故事"
+      },
+      "description": {
+        "en": "When her overbearing mother-in-law destroys her competition cake and claims her family recipes as estate property, artisan baker Nora Vance uses unexpected evidence to reclaim her freedom and build a new life with her daughter.",
+        "zh": "当专横的婆婆将她备战大赛的代表作切分招待宾客，并企图掠夺她的祖传配方时，糕点师诺拉凭借意外留下的音频证据勇敢反击，带着女儿重获尊严与自由。"
+      }
+    },
+    "title": {
+      "en": "The Saffron Hearth",
+      "zh": "藏红花炉火"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "After months of grueling preparation, artisan baker Nora Vance returns home to find her mother-in-law has served her showcase cake to estate investors, leaving her with burnt crusts in a paper bag. But an accidental digital recording reveals a covert corporate betrayal—and lights Nora's path to liberation.",
+      "zh": "经过数月的准备，糕点师诺拉带着疲惫回到家中，却发现婆婆将她备战大赛的香料蛋糕私自切分招待富豪投资人，只给她留下一袋焦黑的废料。然而一段意外留下的录音揭开了背后的阴谋，也为诺拉和女儿照亮了通往独立与尊严的道路。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts psychological control, family financial conflict, and marital separation.",
+      "zh": "虚构故事。包含心理操控、家庭经济纠纷及婚姻破裂相关情节。"
+    },
+    "tone": "Warm Amber",
+    "glyph": "SH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3060,
+      "zh": 5364
     }
   }
 ];
