@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260811-a230-v1";
+window.STORY_ARCHIVE_VERSION = "20260811-a231-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -9974,6 +9974,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2651,
       "zh": 4660
+    }
+  },
+  {
+    "slug": "the-chronometer-at-cape-sentinel",
+    "fileNo": "A-231",
+    "cover": "assets/covers/A-231-the-chronometer-at-cape-sentinel.png",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Chronometer at Cape Sentinel",
+        "zh": "圣蒂内尔角的航海钟"
+      },
+      "description": {
+        "en": "A maritime restorer returns to his Oregon workshop to find his family legacy hijacked by corporate fraud and coercive control.",
+        "zh": "一位海洋修复师回到俄勒冈州的手作坊，发现家族遗产已被企业欺诈与胁迫控制所劫持。"
+      }
+    },
+    "title": {
+      "en": "The Chronometer at Cape Sentinel",
+      "zh": "圣蒂内尔角的航海钟"
+    },
+    "category": {
+      "en": "Suspense & Drama",
+      "zh": "悬疑与戏剧"
+    },
+    "summary": {
+      "en": "Returning from an eleven-month oceanographic expedition, horologist Julian Vance discovers his coastal Oregon workshop under the hostile control of an ambitious speculator. Guided by secret evidence hidden within an antique marine chronometer, Julian uncovers a web of forgery, extortion, and psychological coercion.",
+      "zh": "在结束了为期十一个月的大洋考察任务后，钟表与海洋仪器修复师朱利安·凡斯回到俄勒冈沿海的手作坊，却发现家族遗产已被野心勃勃的投机商控制。借助藏在一台古董航海钟内部的隐秘证据，朱利安揭开了伪造签名、敲诈勒索与精神胁迫的网罗。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of corporate forgery, psychological coercion, and emotional stress. Reader discretion is advised.",
+      "zh": "虚构故事。包含商业文书伪造、精神胁迫与情感压力的主题。建议读者斟酌阅读。"
+    },
+    "tone": "Amber",
+    "glyph": "CS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2293,
+      "zh": 4135
     }
   }
 ];
