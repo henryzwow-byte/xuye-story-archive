@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a250-v1";
+window.STORY_ARCHIVE_VERSION = "20260812-a251-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -10854,6 +10854,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2430,
       "zh": 4176
+    }
+  },
+  {
+    "slug": "echoes-over-harbor-cove",
+    "fileNo": "A-251",
+    "cover": "assets/covers/A-251-echoes-over-harbor-cove.png",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Echoes Over Harbor Cove",
+        "zh": "港湾暗礁的余响"
+      },
+      "description": {
+        "en": "A timber restoration specialist discovers his estranged former partner quietly raising their hearing-impaired daughter along the Maine coast, exposing a suppressed past.",
+        "zh": "一名木材修复专家发现离异多年的前女友在缅因州海岸独自抚养他们听力障碍的女儿，一段被尘封的往事由此揭开。"
+      }
+    },
+    "title": {
+      "en": "Echoes Over Harbor Cove",
+      "zh": "港湾暗礁的余响"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "现代戏剧"
+    },
+    "summary": {
+      "en": "When a timber restoration specialist discovers his estranged former partner quietly raising their hearing-impaired daughter along the Maine coast, a suppressed past unravels, forcing him to rebuild trust from the ground up.",
+      "zh": "当一名木材修复专家发现离异多年的前女友在缅因州海岸独自抚养他们听力障碍的女儿时，尘封的往事被揭开，迫使他从零开始重建信任。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains emotional themes of past family estrangement, pediatric medical debt, and interpersonal conflict.",
+      "zh": "虚构故事。包含过去家庭疏离、儿童医疗债务及人际冲突等情感主题。"
+    },
+    "tone": "wintry",
+    "glyph": "HC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2401,
+      "zh": 4132
     }
   }
 ];
