@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a311-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a312-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13494,6 +13494,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2398,
       "zh": 4040
+    }
+  },
+  {
+    "slug": "oak-haven-salvage",
+    "fileNo": "A-312",
+    "cover": "assets/covers/A-312-oak-haven-salvage.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Oak Haven Salvage",
+        "zh": "橡港的救赎"
+      },
+      "description": {
+        "en": "Trapped beneath her broken glasshouse, a conservator uncovers a plot against her estate.",
+        "zh": "在废弃的植物地下室中，植物保育员揭开了针对庄园遗产的阴谋。"
+      }
+    },
+    "title": {
+      "en": "Oak Haven Salvage",
+      "zh": "橡港的救赎"
+    },
+    "category": {
+      "en": "Suspense / Fiction",
+      "zh": "悬疑 / 虚构"
+    },
+    "summary": {
+      "en": "Confined in a damp cellar after a suspicious glasshouse collapse, injured conservator Clara Vance uses a forgotten emergency telegraph to expose her family's betrayal.",
+      "zh": "在遭遇可疑的温室坍塌事故后，受伤的植物保育员克拉拉·凡斯被囚禁在潮湿的地下室中，她利用被遗忘的紧急电报机揭露了家族的背叛。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family betrayal, unlawful confinement, and physical recovery. No real-life harm or instructions for wrongdoing.",
+      "zh": "虚构故事。包含家族背叛、非法拘禁及身体康复等情节。无真实伤害或违法指导。"
+    },
+    "tone": "Emerald",
+    "glyph": "OH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2606,
+      "zh": 4505
     }
   }
 ];
