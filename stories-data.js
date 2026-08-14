@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a325-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a326-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14066,6 +14066,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2585,
       "zh": 4234
+    }
+  },
+  {
+    "slug": "tide-and-iron",
+    "fileNo": "A-326",
+    "cover": "assets/covers/A-326-tide-and-iron.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tide and Iron",
+        "zh": "潮汐与冷铁"
+      },
+      "description": {
+        "en": "An ironwork salvage master in a stormy Maine harbor takes on a young boy's strange retainer to confront a predatory land speculator.",
+        "zh": "在风暴笼罩的缅因州港口，一位打捞船坞的老老板接下一个小男孩的特殊委托，直面贪婪的土地投机商。"
+      }
+    },
+    "title": {
+      "en": "Tide and Iron",
+      "zh": "潮汐与冷铁"
+    },
+    "category": {
+      "en": "Coastal Fiction",
+      "zh": "海岸小说"
+    },
+    "summary": {
+      "en": "When nine-year-old Liam brings a tin of scrap brass to Silas Thorne's salvage shop to save his mother's cottage from night intimidation, an old maritime arbitrator decides to enforce his own rules on the harbor.",
+      "zh": "当九岁的利亚姆带着一盒废黄铜来到赛拉斯·桑恩的打捞铺，请求保护母亲的木屋免受深夜恐吓时，这位脾气冷硬的老港口仲裁者决定用自己的规则清理这片海港。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild thematic elements involving property intimidation and domestic stress. All characters, places, and events are entirely fictitious.",
+      "zh": "虚构故事。包含有关房产恐吓和家庭压力的温和主题元素。所有角色、地点和事件均为虚构。"
+    },
+    "tone": "weathered",
+    "glyph": "TI",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3486,
+      "zh": 5660
     }
   }
 ];
