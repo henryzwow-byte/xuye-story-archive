@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a334-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a335-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14462,6 +14462,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2476,
       "zh": 3915
+    }
+  },
+  {
+    "slug": "ironwood-trust-reckoning",
+    "fileNo": "A-335",
+    "cover": "assets/covers/A-335-ironwood-trust-reckoning.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Ironwood Trust Reckoning",
+        "zh": "黑木信托的决算时刻"
+      },
+      "description": {
+        "en": "A gripping tale of artisan resilience, financial betrayal, and standing for truth against family coercion.",
+        "zh": "一段讲述匠人坚韧、财务背叛以及在亲情胁迫面前坚守真相的警示故事。"
+      }
+    },
+    "title": {
+      "en": "Ironwood Trust Reckoning",
+      "zh": "黑木信托的决算时刻"
+    },
+    "category": {
+      "en": "Fiction & Suspense",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "When her developer brother attempts to force her into taking responsibility for millions in fraudulent timber debt, artisan conservator Nora Vance risks everything to escape with the truth.",
+      "zh": "当做地产开发的哥哥试图强迫古木修缮师诺拉·凡斯承担当地木业信托的数百万诈骗债务时，她冒着生命危险带上铁证逃脱，揭开了亲情背后的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family financial betrayal, physical altercation resulting in minor injury, and law enforcement involvement.",
+      "zh": "虚构故事。包含家庭财务背叛、导致轻伤的身体冲突及执法部门介入等情节。"
+    },
+    "tone": "Timber",
+    "glyph": "IT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2495,
+      "zh": 4313
     }
   }
 ];
