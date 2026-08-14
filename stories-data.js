@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a316-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a317-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13714,6 +13714,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2575,
       "zh": 4505
+    }
+  },
+  {
+    "slug": "the-weight-of-silent-grain",
+    "fileNo": "A-317",
+    "cover": "assets/covers/A-317-the-weight-of-silent-grain.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Weight of Silent Grain",
+        "zh": "原木无声"
+      },
+      "description": {
+        "en": "For seven years, Derrick's in-laws saw only sawdust on his coat. They never checked who owned the timber mill that funded their lives.",
+        "zh": "七年来，岳家只看得到戴里克外套上的木屑，却从未去查究竟谁才是资助他们生活的伐木场主人。"
+      }
+    },
+    "title": {
+      "en": "The Weight of Silent Grain",
+      "zh": "原木无声"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "Derrick Hayes works hands-on in timber preservation, letting his ambitious in-laws believe he is a mere sawyer. But when a stormy night reveals their cruelty toward his teenage son, Derrick quietly unveils the master deeds to the valley's logging legacy.",
+      "zh": "戴里克·海斯亲力亲为做木材保护，任由野心勃勃的岳家以为他只是个普通伐木工。然而，当一个风雨交加的夜晚揭露了他们对他青春期儿子的残酷时，戴里克平静地掏出了掌控整个山谷伐木业的主产权书。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, emotional neglect of a minor, and corporate restructure.",
+      "zh": "虚构故事。包含家庭矛盾、未成年人遭受情感冷落以及企业重组等主题。"
+    },
+    "tone": "amber",
+    "glyph": "SG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3126,
+      "zh": 5074
     }
   }
 ];
