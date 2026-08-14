@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a324-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a325-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14022,6 +14022,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2547,
       "zh": 4385
+    }
+  },
+  {
+    "slug": "the-stone-ledger",
+    "fileNo": "A-325",
+    "cover": "assets/covers/A-325-the-stone-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Stone Ledger",
+        "zh": "石阶长账"
+      },
+      "description": {
+        "en": "When family betrayal leaves a mother starting over, an unexpected professional encounter puts the truth back into the light.",
+        "zh": "当亲情的背叛让一位母亲跌入谷底，一场意料之外的公事相逢将真相重置于光芒之下。"
+      }
+    },
+    "title": {
+      "en": "The Stone Ledger",
+      "zh": "石阶长账"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "After her family liquidates her home and workshop during her son's medical crisis, Hannah rebuilds her life as a county compliance officer—until her father comes to her desk seeking an emergency loan extension.",
+      "zh": "在儿子因病住院期间，汉娜的家人擅自变卖了她的住所与车间。凭借韧性重获新生的她成为县房产信贷合规官，直到父亲因面临破产危机走到了她的柜台前。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, financial conflict, and child medical emergency.",
+      "zh": "虚构故事。包含家庭疏离、财务纠纷及儿童医疗突发事件主题。"
+    },
+    "tone": "Stark",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2585,
+      "zh": 4234
     }
   }
 ];
