@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a318-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a319-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13802,6 +13802,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 4191,
       "zh": 7117
+    }
+  },
+  {
+    "slug": "the-hearth-on-cedar-lane",
+    "fileNo": "A-319",
+    "cover": "assets/covers/A-319-the-hearth-on-cedar-lane.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Hearth on Cedar Lane",
+        "zh": "雪松巷的火塘"
+      },
+      "description": {
+        "en": "A working mother reclaims her dignity and builds a new life for her son after a quiet betrayal in her home.",
+        "zh": "一位勤劳的母亲在遭受家庭隐秘的背叛后，重拾尊严并为儿子重建新生。"
+      }
+    },
+    "title": {
+      "en": "The Hearth on Cedar Lane",
+      "zh": "雪松巷的火塘"
+    },
+    "category": {
+      "en": "Domestic Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "After working long shifts to afford a special feast for her young son, a stained-glass artisan returns home to find her husband's family has consumed everything and left scraps. Her response shifts the course of their lives forever.",
+      "zh": "在一连数日加班为幼子筹备特殊盛宴后，彩绘玻璃工艺师回到家中，却发现丈夫一家将美食吃干抹净只留下残渣。她的反击就此改变了母子二人的命运。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, psychological mistreatment, and financial control.",
+      "zh": "虚构故事。包含家庭冲突、心理不公及财务控制等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "CL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2704,
+      "zh": 4740
     }
   }
 ];
