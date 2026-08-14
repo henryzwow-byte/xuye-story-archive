@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a314-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a315-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13626,6 +13626,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2134,
       "zh": 4099
+    }
+  },
+  {
+    "slug": "bound-by-shadow-lines",
+    "fileNo": "A-315",
+    "cover": "assets/covers/A-315-bound-by-shadow-lines.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Bound by Shadow Lines",
+        "zh": "影子界线"
+      },
+      "description": {
+        "en": "When an emergency eye surgery collides with a forged $185,000 commercial bond, timber restoration consultant Evie Thorne must use wilderness satellite telemetry to break free from her family's toxic financial leverage.",
+        "zh": "当紧急眼科手术遭遇18.5万美元的伪造商业担保案，木材修复顾问埃维·索恩凭借荒野卫星定位数据，彻底摆脱了家族的财务索求与情感绑架。"
+      }
+    },
+    "title": {
+      "en": "Bound by Shadow Lines",
+      "zh": "影子界线"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 戏剧"
+    },
+    "summary": {
+      "en": "A timber restoration consultant facing emergency eye surgery discovers her sister forged her signature on a massive commercial guarantee. Using wilderness GPS telemetry as an unassailable alibi, she reclaims her life, financial sovereignty, and self-worth.",
+      "zh": "面对紧急眼科手术的木材修复顾问发现姐姐伪造其签名签署了大额商业担保。她利用荒野GPS卫星数据作为无可辩驳的证明，重新夺回了生活、财务主权与自我价值。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial financial breach, emergency medical procedures, and legal disputes. All characters and events are fictional.",
+      "zh": "虚构故事。包含家庭财务侵权、紧急医疗手术及法律纠纷等主题。所有人物与事件均为虚构。"
+    },
+    "tone": "amber",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2570,
+      "zh": 4510
     }
   }
 ];
