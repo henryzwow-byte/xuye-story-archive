@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a313-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a314-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13582,6 +13582,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2595,
       "zh": 4462
+    }
+  },
+  {
+    "slug": "the-provenance-ledger",
+    "fileNo": "A-314",
+    "cover": "assets/covers/A-314-the-provenance-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Provenance Ledger | A Tale of Integrity",
+        "zh": "出处账簿 | 一则关于诚信与真理的故事"
+      },
+      "description": {
+        "en": "Twelve years after being framed at an elite estate, archivist Clara Mercer returns to audit a million-dollar donation—and lets documented truth speak for itself.",
+        "zh": "十二年前在豪门庄园遭诬陷的档案员克拉拉·默瑟重新归来，审计一项千万级捐赠——并用白纸黑字的铁证让真相发声。"
+      }
+    },
+    "title": {
+      "en": "The Provenance Ledger",
+      "zh": "出处账簿"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Falsely accused of theft as a young apprentice, archivist Clara Mercer rises to become a lead heritage auditor. When she encounters her former tormentor at a high-society Newport gala, Clara does not seek revenge—she presents flawless empirical evidence that unravels a major corporate forgery.",
+      "zh": "年轻实习时期曾惨遭陷害的档案员克拉拉·默瑟凭借努力成长为首席遗产审计师。当她在纽波特上流社会晚会上重遇当年的欺凌者时，她并未选择报复，而是出示了无可瑕疵的实证，揭露了一起重大的商业伪造案。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of past workplace/school social ostracization, corporate fraud, and mild verbal confrontation. No graphic violence, hate speech, or illegal instructions.",
+      "zh": "虚构故事。包含过往校园/职场社交孤立、商业欺诈及温和言语对抗的情节。无血腥暴力、仇恨言论或违法行为指南。"
+    },
+    "tone": "Obsidian",
+    "glyph": "PL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2134,
+      "zh": 4099
     }
   }
 ];
