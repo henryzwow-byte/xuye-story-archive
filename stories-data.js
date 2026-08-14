@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a306-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a307-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13274,6 +13274,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2754,
       "zh": 4933
+    }
+  },
+  {
+    "slug": "the-blackwood-cove-covenant",
+    "fileNo": "A-307",
+    "cover": "assets/covers/A-307-the-blackwood-cove-covenant.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Blackwood Cove Covenant",
+        "zh": "黑木湾契约"
+      },
+      "description": {
+        "en": "When her uncle sabotages her restoration project to force a property sale, timber conservator Clara Vance stands firm in her craft and exposes the truth.",
+        "zh": "当叔叔破坏她的古建筑修复项目试图强行卖地时，木作修复师克拉拉·凡斯在行业盛会上捍卫匠心，揭露真相。"
+      }
+    },
+    "title": {
+      "en": "The Blackwood Cove Covenant",
+      "zh": "黑木湾契约"
+    },
+    "category": {
+      "en": "Drama & Fiction",
+      "zh": "戏剧与小说"
+    },
+    "summary": {
+      "en": "A dedicated architectural conservator faces sabotage from her controlling family, standing proud in her guild heritage to reclaim her life's work.",
+      "zh": "一位执着的古建筑修复师面对家族权势的恶意破坏，以行业大师的尊严与详尽记录反击破坏者，捍卫了建筑与自我。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family conflict, emotional harassment, and property sabotage.",
+      "zh": "虚构故事。包含家族冲突、情绪打压及恶意破坏财物等情节描写。"
+    },
+    "tone": "Amber",
+    "glyph": "UT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2301,
+      "zh": 4041
     }
   }
 ];
