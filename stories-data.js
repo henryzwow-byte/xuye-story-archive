@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a315-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a316-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13670,6 +13670,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2570,
       "zh": 4510
+    }
+  },
+  {
+    "slug": "saltwater-workshop-reckoning",
+    "fileNo": "A-316",
+    "cover": "assets/covers/A-316-saltwater-workshop-reckoning.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Saltwater Workshop",
+        "zh": "海盐工坊的抉择"
+      },
+      "description": {
+        "en": "Returning home to coastal Washington after a family loss, master glass artisan Nora Vance finds her cottage hijacked—and uses maritime law and precise evidence to reclaim her life.",
+        "zh": "在经历了亲人离世的伤痛后回到华盛顿州海岸，玻璃艺术家诺拉发现自己的海边小屋被侵占。她凭借严密的证据与法律，重新夺回了属于自己的一切。"
+      }
+    },
+    "title": {
+      "en": "The Saltwater Workshop",
+      "zh": "海盐工坊的抉择"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "After weeks away attending to her late brother's timber estate in inland Spokane, master glass artisan Nora Vance returns to Port Townsend only to find her seaside cottage converted into an unauthorized luxury retreat and her studio stripped clean. Facing those who mistook her quiet grief for weakness, Nora relies on precise records, local harbor law, and quiet resolve to reclaim her home and legacy.",
+      "zh": "在斯波坎处理完亡弟遗产事务后，玻璃艺术名家诺拉·凡斯回到波特汤森，却发现自己的海滨小屋已被改造成未经许可的奢华精品民宿，工坊亦被洗劫一空。面对将她的沉默悲伤视为懦弱的人，诺拉依靠详尽的记录、港口法规与沉静的意志，坚决夺回了自己的家园与传承。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family betrayal, property disputes, financial deception, and emotional conflict.",
+      "zh": "虚构故事。包含家庭背叛、财产争议、财务欺诈及情感冲突等主题。"
+    },
+    "tone": "coastal",
+    "glyph": "SW",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2575,
+      "zh": 4505
     }
   }
 ];
