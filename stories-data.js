@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a317-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a318-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13758,6 +13758,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3126,
       "zh": 5074
+    }
+  },
+  {
+    "slug": "the-brass-sounder",
+    "fileNo": "A-318",
+    "cover": "assets/covers/A-318-the-brass-sounder.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Brass Sounder",
+        "zh": "黄铜测深仪"
+      },
+      "description": {
+        "en": "A harbor electrician returns to a fog-shrouded Maine wharf to discover his wife framed for a catastrophic pier collapse and his family's legacy built on tampered channel depth logs.",
+        "zh": "一名港口电工在浓雾笼罩的缅因州码头归来，发现妻子因一起灾难性的码头坍塌事故而被陷害，而家人的遗产竟然建立在被篡改的海道水深记录之上。"
+      }
+    },
+    "title": {
+      "en": "The Brass Sounder",
+      "zh": "黄铜测深仪"
+    },
+    "category": {
+      "en": "Fiction / Mystery & Drama",
+      "zh": "小说 / 悬疑与戏剧"
+    },
+    "summary": {
+      "en": "Returning home after six months at sea, harbor mechanic Caleb Vance finds his wife exiled to a damp coastal shack and blamed for a harbor disaster. To clear her name, he must unearth tampered telemetry records hidden deep within the bay's historic foghorn tower.",
+      "zh": "出海六个月后归家，港口机械师卡莱布·凡斯发现妻子被驱逐至潮湿的沿海小屋，并为一场港口灾难背负罪名。为了洗清她的冤屈，他必须挖出深藏在海湾古老雾警塔内的被篡改的遥测记录。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family conflict, financial deception, and coastal storm hazard.",
+      "zh": "虚构故事。包含轻微的家庭冲突、财务欺骗和沿海风暴灾害主题。"
+    },
+    "tone": "Fog",
+    "glyph": "BS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 4191,
+      "zh": 7117
     }
   }
 ];
