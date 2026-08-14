@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a327-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a328-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14154,6 +14154,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2588,
       "zh": 4303
+    }
+  },
+  {
+    "slug": "the-timber-pass-ledger",
+    "fileNo": "A-328",
+    "cover": "assets/covers/A-328-the-timber-pass-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Pass Ledger",
+        "zh": "木口关账簿"
+      },
+      "description": {
+        "en": "An independent auditor uncovers a timber syndicate's scheme high in the Sierra Nevada mountains.",
+        "zh": "一位独立审计员在内华达山区揭露木材垄断集团的阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Timber Pass Ledger",
+      "zh": "木口关账簿"
+    },
+    "category": {
+      "en": "Historical Fiction",
+      "zh": "历史小说"
+    },
+    "summary": {
+      "en": "Trapped at an isolated Sierra mountain depot under false debt charges, telegraph clerk Clara Vance must team up with a cable mechanic to expose a corrupt timber director before the morning express train leaves.",
+      "zh": "电报员克拉拉·范斯因虚构债务被困于绝壁木材站，她必须与缆车机械师联手，在清晨快车驶离前揭发腐败的木材主管。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of financial coercion, systemic corruption, and high-altitude danger.",
+      "zh": "虚构故事。包含经济胁迫、系统性腐败及高空危险情节。"
+    },
+    "tone": "Copper",
+    "glyph": "TP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2796,
+      "zh": 4570
     }
   }
 ];
