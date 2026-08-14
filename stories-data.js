@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a307-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a308-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13318,6 +13318,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2301,
       "zh": 4041
+    }
+  },
+  {
+    "slug": "salt-water-proof",
+    "fileNo": "A-308",
+    "cover": "assets/covers/A-308-salt-water-proof.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Salt Water Proof",
+        "zh": "盐水验真"
+      },
+      "description": {
+        "en": "When a sister's craftsmanship is falsely accused of financial collapse at a heritage boatyard banquet, a child's field recording reveals the unvarnished truth.",
+        "zh": "当一位船匠姐姐在遗产船厂晚宴上被虚假指控导致财务崩溃时，孩子的野外录音揭示了赤裸裸的真相。"
+      }
+    },
+    "title": {
+      "en": "Salt Water Proof",
+      "zh": "盐水验真"
+    },
+    "category": {
+      "en": "Family Fiction",
+      "zh": "家庭小说"
+    },
+    "summary": {
+      "en": "A shipwright daughter uncovers her brother's systematic campaign to sabotage her heritage trust stewardship, leading to a dramatic solstice confrontation solved by an unexpected witness.",
+      "zh": "一位船匠女儿揭发了弟弟系统性破坏她对遗产信托管理权的阴谋，在夏至晚宴上迎来了意想不到的证人所带来的戏剧性摊牌。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of sibling deception, family trust conflict, and emotional resolution.",
+      "zh": "虚构故事。包含手足欺骗、家族信托冲突与情感和解等主题。"
+    },
+    "tone": "Weathered",
+    "glyph": "SP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2605,
+      "zh": 4361
     }
   }
 ];
