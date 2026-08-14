@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a309-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a310-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13406,6 +13406,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2897,
       "zh": 4856
+    }
+  },
+  {
+    "slug": "the-ironwood-wharf",
+    "fileNo": "A-310",
+    "cover": "assets/covers/A-310-the-ironwood-wharf.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ironwood Wharf",
+        "zh": "铁木码头"
+      },
+      "description": {
+        "en": "When her ambitious husband tries to seize her family's historic harbor, architectural restorer Evie Vance reveals a secret deed that reshapes their destiny.",
+        "zh": "当野心勃勃的丈夫试图夺走她家族的历史港口时，建筑修复师埃维·范斯出示了一份秘密契据，彻底改写了他们的命运。"
+      }
+    },
+    "title": {
+      "en": "The Ironwood Wharf",
+      "zh": "铁木码头"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 戏剧"
+    },
+    "summary": {
+      "en": "Architectural restorer Evie Vance spent years revitalizing the historic Pacific Northwest waterfront of Ironwood Bay. When her corporate husband toasts another woman as the savior of the harbor and hands Evie a divorce notice, he learns too late who actually holds the title to the shore.",
+      "zh": "建筑修复师埃维·范斯花了数年时间复兴铁木湾的这段历史悠久的太平洋西北海岸。当她的商业精英丈夫向另一个女人举杯、称其为港口的救星并递给埃维离婚通知书时，他太晚才发现，究竟谁才是这片海岸真正的产权所有者。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital betrayal, financial deception, and corporate conflict.",
+      "zh": "虚构故事。包含婚姻背叛、金融欺骗和企业冲突等主题。"
+    },
+    "tone": "Muted",
+    "glyph": "IW",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2444,
+      "zh": 4385
     }
   }
 ];
