@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a310-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a311-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13450,6 +13450,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2444,
       "zh": 4385
+    }
+  },
+  {
+    "slug": "the-brass-counterweight",
+    "fileNo": "A-311",
+    "cover": "assets/covers/A-311-the-brass-counterweight.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Brass Counterweight",
+        "zh": "黄铜平衡锤"
+      },
+      "description": {
+        "en": "A legendary clockmaker coping with nerve damage finds a path forward when a dockworker's son brings a broken altimeter to his Astoria workshop.",
+        "zh": "一位遭受神经损伤的老钟表匠，在码头工人之子带着损坏的高度计来到他在阿斯托利亚的工作室后，重新找到了前行的方向。"
+      }
+    },
+    "title": {
+      "en": "The Brass Counterweight",
+      "zh": "黄铜平衡锤"
+    },
+    "category": {
+      "en": "Fictional Narrative",
+      "zh": "虚构故事"
+    },
+    "summary": {
+      "en": "After a motor impairment threatens his storied career restoring marine chronometers, Arthur Vance isolates himself in his Oregon coastal shop. A child's unvarnished questions and a damaged harbor instrument force him to rethink independence, truth, and craftsmanship.",
+      "zh": "在运动功能障碍威胁到他修复航海天文钟的辉煌生涯后，阿瑟·范斯将自己孤立在俄勒冈州的海边作坊里。一个孩子直截了当的提问和仪表损坏的真相，促使他重新思考独立、坦诚与手艺的真谛。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts recovery from physical impairment, workplace injuries, and adult emotional themes.",
+      "zh": "虚构故事。包含身体功能损伤康复、工伤背景及成年人情感主题描绘。"
+    },
+    "tone": "Copper",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2398,
+      "zh": 4040
     }
   }
 ];
