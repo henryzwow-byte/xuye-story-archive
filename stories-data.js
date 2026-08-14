@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a329-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a330-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14242,6 +14242,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2300,
       "zh": 4080
+    }
+  },
+  {
+    "slug": "the-granary-tide",
+    "fileNo": "A-330",
+    "cover": "assets/covers/A-330-the-granary-tide.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Granary Tide",
+        "zh": "粮仓的大潮"
+      },
+      "description": {
+        "en": "A betrayal on an isolated Maine islet turns into a battle against the rising sea and a dramatic public confrontation.",
+        "zh": "绝境海岛上的背叛演变成一场与上涨海水的搏斗，以及一场戏剧性的公开交锋。"
+      }
+    },
+    "title": {
+      "en": "The Granary Tide",
+      "zh": "粮仓的大潮"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "When architectural restorer Laurel Vance is trapped in a historic sea granary by her husband, she must rely on her technical knowledge of tidal mechanics to escape the rising tide and expose his plot.",
+      "zh": "当建筑修复师劳雷尔·凡斯被丈夫困在古老的海边粮仓中时，她必须依靠自己对潮汐力学的专业知识逃离上涨的潮水，并揭穿他的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of spousal betrayal, emotional distress, and environmental peril.",
+      "zh": "虚构故事。包含配偶背叛、情绪困扰及自然环境险情相关主题。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "GT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2607,
+      "zh": 4283
     }
   }
 ];
