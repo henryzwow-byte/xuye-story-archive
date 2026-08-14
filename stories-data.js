@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a331-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a332-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14330,6 +14330,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2980,
       "zh": 5061
+    }
+  },
+  {
+    "slug": "silence-on-the-coastal-cliff",
+    "fileNo": "A-332",
+    "cover": "assets/covers/A-332-silence-on-the-coastal-cliff.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Silence on the Coastal Cliff",
+        "zh": "海岸崖顶的沉寂"
+      },
+      "description": {
+        "en": "When an eleven-year-old cellist develops an unexplained neurological tremor, her mother must search a long-buried past to uncover a life-saving genetic key.",
+        "zh": "当一位十一岁的大提琴手出现原因不明的神经性颤抖时，她的母亲必须搜寻尘封的过往，解开挽救生命的遗传钥匙。"
+      }
+    },
+    "title": {
+      "en": "Silence on the Coastal Cliff",
+      "zh": "海岸崖顶的沉寂"
+    },
+    "category": {
+      "en": "Medical Drama",
+      "zh": "医疗戏剧"
+    },
+    "summary": {
+      "en": "In a foggy Oregon coastal town, a mother's precision records and an urgent search for her estranged husband's hidden maritime dive archives unlock the key to her daughter's sudden, mystifying neurological illness.",
+      "zh": "在俄勒冈州迷雾缭绕的海岸小镇，一位母亲精准的记录以及对分居丈夫隐秘航海潜水档案的急迫搜寻，解开了女儿突发神秘神经系统疾病的关键。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts pediatric neurological testing, hospital diagnostics, and family separation. All characters, settings, and medical conditions are entirely fictionalized for creative storytelling.",
+      "zh": "虚构故事。涉及儿童神经系统检查、医院诊断及家庭分歧。所有角色、场景及医学状况均为戏剧叙事目的而虚构。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "CC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2304,
+      "zh": 4171
     }
   }
 ];
