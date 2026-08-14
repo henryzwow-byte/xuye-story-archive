@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a305-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a306-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13230,6 +13230,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2755,
       "zh": 4614
+    }
+  },
+  {
+    "slug": "the-salt-pine-ledger",
+    "fileNo": "A-306",
+    "cover": "assets/covers/A-306-the-salt-pine-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt Pine Ledger",
+        "zh": "盐松账簿"
+      },
+      "description": {
+        "en": "An independent timber engineer builds a coastal empire after being cast out by her family's rigid maritime auditing legacy.",
+        "zh": "一位独立木材工程专家在被保守的海事审计家族驱逐后，在海岸上开创了属于自己的产业帝国。"
+      }
+    },
+    "title": {
+      "en": "The Salt Pine Ledger",
+      "zh": "盐松账簿"
+    },
+    "category": {
+      "en": "Drama & Redemption",
+      "zh": "情感与救赎"
+    },
+    "summary": {
+      "en": "Dismissed by her father's traditional maritime auditing firm as uncredentialed, Nora Miller leaves home to found an innovative eco-timber marine engineering company. Years later, a public industry crisis forces her family to confront their prejudice and acknowledge her true worth.",
+      "zh": "诺拉·米勒因缺乏传统学历而被父亲保守的海事审计公司痛斥并驱逐。她决然远走他乡，创办了一家革新性的生态木材海洋工程公司。多年后，一场行业危机迫使她的家族不得不面对过去的偏见，并承认她真正的价值。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts past emotional family strain, professional disagreement, and eventual personal reconciliation.",
+      "zh": "虚构故事。包含家庭情感波折、职场理念分歧及个人和解的情节。"
+    },
+    "tone": "Amber",
+    "glyph": "SP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2754,
+      "zh": 4933
     }
   }
 ];
