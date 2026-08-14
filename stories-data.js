@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260812-a303-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a304-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13142,6 +13142,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2317,
       "zh": 4088
+    }
+  },
+  {
+    "slug": "the-tillamook-trust",
+    "fileNo": "A-304",
+    "cover": "assets/covers/A-304-the-tillamook-trust.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tillamook Trust",
+        "zh": "提拉穆克信托"
+      },
+      "description": {
+        "en": "When Julian Vance returns to his family's coastal timber estate, he uncovers a predatory plot to isolate his vulnerable relatives and steal their ancestral land.",
+        "zh": "当朱利安·范斯回到家族沿海林场时，他揭发了一起旨在孤立其亲人并篡夺祖传地产的侵吞阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Tillamook Trust",
+      "zh": "提拉穆克信托"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A tension-filled tale of family resilience, hidden financial fraud, and structural truth set in the dense timberlands of the Pacific Northwest.",
+      "zh": "一部设定在太平洋西北部密林深处，讲述家族韧性、隐藏的金融欺诈与结构真相的紧张悬疑故事。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of elder financial exploitation, deceptive legal coercion, and emotional strain. All characters, places, and events are purely fictional.",
+      "zh": "虚构故事。包含侵害老人财务权益、欺诈性法律胁迫及心理压力的主题。所有人物、地点及事件均为虚构。"
+    },
+    "tone": "Copper",
+    "glyph": "WT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2303,
+      "zh": 3949
     }
   }
 ];
