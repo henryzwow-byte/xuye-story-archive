@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a333-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a334-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14418,6 +14418,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3015,
       "zh": 5220
+    }
+  },
+  {
+    "slug": "the-iron-cableway",
+    "fileNo": "A-334",
+    "cover": "assets/covers/A-334-the-iron-cableway.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Iron Cableway",
+        "zh": "高空铁索"
+      },
+      "description": {
+        "en": "A young technician proves her acoustic wire-tension methods against skepticism in an alpine logging basin.",
+        "zh": "在一处高山木材索道站，一名年轻的技术员用独特的声学拉力测定法赢得了老牌工程队的尊重。"
+      }
+    },
+    "title": {
+      "en": "The Iron Cableway",
+      "zh": "高空铁索"
+    },
+    "category": {
+      "en": "Fictional Archive",
+      "zh": "虚构档案"
+    },
+    "summary": {
+      "en": "Assigned to an isolated Pacific Northwest cableway station, Nora Miller faces an entrenched crew of veteran riggers who dismiss her stress-testing methods until an alpine frost threatens the entire span.",
+      "zh": "被派往西北太平洋高山索道站的诺拉·米勒面临老牌装配工团队的质疑，直到一场高山霜冻威胁到整个跨峡索道。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts structural work at height, cold weather hazards, and heavy mechanical equipment operations.",
+      "zh": "虚构故事。包含高空结构作业、严寒环境风险及重型机械操作描写。"
+    },
+    "tone": "Slate",
+    "glyph": "IC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2476,
+      "zh": 3915
     }
   }
 ];
