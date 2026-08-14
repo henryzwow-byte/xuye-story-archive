@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a326-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a327-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14110,6 +14110,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3486,
       "zh": 5660
+    }
+  },
+  {
+    "slug": "timber-and-towers",
+    "fileNo": "A-327",
+    "cover": "assets/covers/A-327-timber-and-towers.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Timber and Towers",
+        "zh": "林木与铁塔"
+      },
+      "description": {
+        "en": "A returning grid worker discovers his family homestead endangered by fraud, and fights to restore warmth and security to his younger siblings.",
+        "zh": "一名归家的高压电线工发现家族老宅因欺诈陷于危机，他毅然搜集证据，为年幼的弟妹重拾温暖与安全。"
+      }
+    },
+    "title": {
+      "en": "Timber and Towers",
+      "zh": "林木与铁塔"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "After sixteen months working high-rigging lines in remote mountains, Harlan Drake returns home to find his uncle gone, the woodstove cold, and his teenage sister bartering hand-carved wooden utensils to keep her little brother fed. Uncovering a scheme of forged mortgages and fraudulent liens, Harlan uses satellite logs and corporate records to protect his family and reclaim their home.",
+      "zh": "在偏远山区从事了十六个月的高空高压电线检修工作后，哈兰·德雷克回到家，发现叔叔早已不知去向，木炉一片冰冷，而十四岁的妹妹正靠手工雕刻木具换取食物来抚养小弟弟。在揭开一系列伪造抵押贷款和欺诈性留置权的阴谋后，哈兰利用卫星记录和企业工单证据，保护了家人并夺回了属于他们的家园。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family hardship, financial fraud, and child neglect resolved through legal and practical measures.",
+      "zh": "虚构故事。包含家庭困境、财务欺诈及儿童疏忽的描写，最终通过法律与实际行动予以解决。"
+    },
+    "tone": "Copper",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2588,
+      "zh": 4303
     }
   }
 ];
