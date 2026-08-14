@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a319-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a320-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13846,6 +13846,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2704,
       "zh": 4740
+    }
+  },
+  {
+    "slug": "the-dry-dock-ledger",
+    "fileNo": "A-320",
+    "cover": "assets/covers/A-320-the-dry-dock-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Dry Dock Ledger",
+        "zh": "干船坞日志"
+      },
+      "description": {
+        "en": "A timber framer returns to his late sister's coastal workshop and discovers a hidden legacy that unravels a dangerous coastal mystery.",
+        "zh": "一位木构建筑师回到亡姐的沿海工作室，意外发现了一份沉睡的遗赠，揭开了一场危险的海岸谜案。"
+      }
+    },
+    "title": {
+      "en": "The Dry Dock Ledger",
+      "zh": "干船坞日志"
+    },
+    "category": {
+      "en": "Fiction / Mystery",
+      "zh": "虚构 / 悬疑"
+    },
+    "summary": {
+      "en": "Returning to his deceased sister's isolated Oregon boatyard to wrap up her estate, Julian Vance expects only dust and painful memories. Instead, he uncovers an orphaned youth hiding in the dry dock with a cryptic ledger and evidence of a corporate environmental crime—a dangerous secret Clara had sworn to protect.",
+      "zh": "朱利安·凡斯回到已故姐姐位于俄勒冈州偏远船坞的故居整理遗产，本以为等待他的只有尘土与伤痛。然而，他却在旧船坞里发现了一名藏身于此的孤儿、一本神秘的航海日志以及一份企业破坏生态的罪证——那是姐姐生前誓死守候的惊天秘密。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of grief, corporate corruption, and suspense.",
+      "zh": "虚构故事。包含关于悲伤、企业腐败与悬疑的温和主题。"
+    },
+    "tone": "slate",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2233,
+      "zh": 3896
     }
   }
 ];
