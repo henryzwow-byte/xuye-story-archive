@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a308-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a309-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13362,6 +13362,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2605,
       "zh": 4361
+    }
+  },
+  {
+    "slug": "coastal-harvest-break",
+    "fileNo": "A-309",
+    "cover": "assets/covers/A-309-coastal-harvest-break.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Unbroken Light: A Story of Resilience and Reclamation",
+        "zh": "不熄的光芒：关于坚韧与重生的故事"
+      },
+      "description": {
+        "en": "When an autumn gale batters a coastal Maine cider orchard, Clara faces both a devastating storm and her husband’s ruthless financial betrayal.",
+        "zh": "当一场秋季风暴袭击缅因州沿海的苹果园时，克拉拉不仅要面对恶劣的天气，还要面对丈夫冷酷的经济背叛。"
+      }
+    },
+    "title": {
+      "en": "The Unbroken Light",
+      "zh": "不熄的光芒"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 情感"
+    },
+    "summary": {
+      "en": "When a severe coastal storm hits her family’s heirloom apple farm, Clara Vance is left injured to secure the harvest alone while her husband pursues luxury real estate deals in Portland. When he returns demanding she mortgage her inheritance to cover his bad debts, Clara draws on family support and meticulous documentation to reclaim her independence.",
+      "zh": "当一场严重的沿海风暴袭击家族祖传的苹果农场时，克拉拉·凡斯身受脚伤独自抢救收成，而她的丈夫却在波特兰追求奢华地产交易。当丈夫返回并要求她抵押遗产以偿还其不良债务时，克拉拉依靠家族的支持和严密的证据记录，重新夺回了自己的独立与尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of emotional distress, financial manipulation, and marital separation.",
+      "zh": "虚构故事。包含情感困境、经济操纵及婚姻破裂相关情节。"
+    },
+    "tone": "resilient",
+    "glyph": "CH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2897,
+      "zh": 4856
     }
   }
 ];
