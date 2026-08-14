@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a322-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a323-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13934,6 +13934,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2512,
       "zh": 4523
+    }
+  },
+  {
+    "slug": "the-salt-harbor-ledger",
+    "fileNo": "A-323",
+    "cover": "assets/covers/A-323-the-salt-harbor-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt Harbor Ledger",
+        "zh": "盐港账簿"
+      },
+      "description": {
+        "en": "When a suspicious blaze destroys a historic Maine timber archive, archivist Clara Thorne uses meticulous forensic records to uncover a corporate arson plot.",
+        "zh": "当一场可疑的大火摧毁了缅因州一座历史悠久的木材档案馆时，档案管理员克拉拉·索恩运用严谨的法医级记录揭露了一起企业纵火阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Salt Harbor Ledger",
+      "zh": "盐港账簿"
+    },
+    "category": {
+      "en": "Fiction / Mystery & Suspense",
+      "zh": "虚构小说 / 悬疑推理"
+    },
+    "summary": {
+      "en": "In a coastal Maine town, historic timber conservator Clara Thorne faces corporate framing after a disastrous arson fire. Relying on digital access logs, chemical core analysis, and financial records, she untangles a greedy developer's conspiracy to seize her family's heritage waterfront.",
+      "zh": "在缅因州的一个沿海小镇，历史木材保护专家克拉拉·索恩在一场灾难性的纵火案后面临着企业恶意的陷害。依靠数字访问日志、化学木芯分析和财务记录，她解开了贪婪开发商企图强占其家族遗产码头的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts corporate betrayal, financial fraud, and arson framing resolved through lawful forensic accounting and non-violent investigative action.",
+      "zh": "虚构故事。描绘了企业背叛、财务欺诈和纵火陷害，最终通过合法的法医会计调查与非暴力的证据收集手段得以解决。"
+    },
+    "tone": "Amber",
+    "glyph": "SH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1780,
+      "zh": 3123
     }
   }
 ];
