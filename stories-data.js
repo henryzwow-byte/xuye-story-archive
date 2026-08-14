@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a320-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a322-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13890,6 +13890,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2233,
       "zh": 3896
+    }
+  },
+  {
+    "slug": "osprey-ridge-covenant",
+    "fileNo": "A-322",
+    "cover": "assets/covers/A-322-osprey-ridge-covenant.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tideland Covenant",
+        "zh": "潮间带的盟约"
+      },
+      "description": {
+        "en": "A story of historical deeds, corporate arrogance, and a mother's quiet stand on Osprey Ridge.",
+        "zh": "一个关于历史契约、企业傲慢以及母亲在鱼鹰岭上平静反抗的故事。"
+      }
+    },
+    "title": {
+      "en": "The Tideland Covenant",
+      "zh": "潮间带的盟约"
+    },
+    "category": {
+      "en": "Drama / Fiction",
+      "zh": "戏剧 / 虚构"
+    },
+    "summary": {
+      "en": "When a developer ex-husband tries to lock a restorer out of her family's coastal headland, century-old maritime deeds turn a grand resort launch into a quiet reckoning.",
+      "zh": "当身为开发商的前夫企图将一名古迹修复师锁在她家族的海滨岬角之外时，拥有百年历史的海事契约让一场盛大的度假村发布会变成了平静的落幕与审判。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of divorce, family conflict, and legal property disputes.",
+      "zh": "虚构故事。包含离婚、家庭冲突及财产法律纠纷主题。"
+    },
+    "tone": "slate",
+    "glyph": "OR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2512,
+      "zh": 4523
     }
   }
 ];
