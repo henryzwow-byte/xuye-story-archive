@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a304-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a305-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13186,6 +13186,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2303,
       "zh": 3949
+    }
+  },
+  {
+    "slug": "the-tideland-charter",
+    "fileNo": "A-305",
+    "cover": "assets/covers/A-305-the-tideland-charter.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tideland Charter",
+        "zh": "潮地宪章"
+      },
+      "description": {
+        "en": "When Nora inherited a weather-beaten ocean tide station instead of her brother's luxury marina, she uncovered a century-old hydrographic charter that turned their family legacy upside down.",
+        "zh": "当诺拉继承的不是哥哥的豪华游艇码头，而是一座经受风风雨雨的海洋潮汐观测站时，她发现了一份隐藏了一百年的水文宪章，彻底改写了整个家族遗产的归属。"
+      }
+    },
+    "title": {
+      "en": "The Tideland Charter",
+      "zh": "潮地宪章"
+    },
+    "category": {
+      "en": "Drama & Mystery",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "Inheriting a weather-beaten Oregon tide observatory while her brother claimed the family's lucrative Seattle marina, a marine restoration engineer uncovers a century-old hydrographic charter concealed within a brass master clockwork that redefines their entire legacy.",
+      "zh": "在哥哥继承家族盈利丰厚的西雅图码头时，一位海洋修复工程师只分到了一座经受风雨侵蚀的俄勒冈潮汐观测站。然而，她在黄铜钟表机构中发现了一份隐藏了一百年的水文宪章，彻底改写了整个家族遗产的归属。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains family inheritance conflict and mild emotional tension.",
+      "zh": "虚构故事。包含家族遗产纠纷与温和的情感冲突。"
+    },
+    "tone": "Luminous",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2755,
+      "zh": 4614
     }
   }
 ];
