@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a328-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a329-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14198,6 +14198,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2796,
       "zh": 4570
+    }
+  },
+  {
+    "slug": "currents-of-the-valley",
+    "fileNo": "A-329",
+    "cover": "assets/covers/A-329-currents-of-the-valley.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Currents of the Valley",
+        "zh": "峡谷暗流"
+      },
+      "description": {
+        "en": "A newly appointed conservation engineer faces corrupt sabotage and false allegations at a remote mountain spillway.",
+        "zh": "一位新履职的水利保护工程师在偏远山谷水闸处直面恶意破坏与诬告。"
+      }
+    },
+    "title": {
+      "en": "Currents of the Valley",
+      "zh": "峡谷暗流"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When environmental engineer Julian Vance moves his family to the Cascade River Basin, a powerful local industrialist attempts to frame him for a river spill. Only calibrated telemetry and an unexpected aerial recording can reveal the truth.",
+      "zh": "环境工程师朱利安·范斯带着家人搬到喀斯喀特河流域后，当地一位势力强大的企业主试图陷害他引发水污染。唯有精确的遥测数据与意想不到的空中航拍记录才能揭开真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts false accusations, industrial sabotage, and law enforcement response. All characters, organizations, and events are entirely fictional.",
+      "zh": "虚构故事。包含诬告陷害、工业破坏及执法应对情节。所有人物、组织与事件均为虚构。"
+    },
+    "tone": "Emerald",
+    "glyph": "CV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2300,
+      "zh": 4080
     }
   }
 ];
