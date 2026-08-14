@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a335-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a336-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14506,6 +14506,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2495,
       "zh": 4313
+    }
+  },
+  {
+    "slug": "the-timber-conservators-audit",
+    "fileNo": "A-336",
+    "cover": "assets/covers/A-336-the-timber-conservators-audit.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Conservator's Audit",
+        "zh": "木构修复师的审计"
+      },
+      "description": {
+        "en": "At a coastal heritage gala, a powerful patriarch tries to publicly humiliate his daughter-in-law—unaware of the true authority she carries.",
+        "zh": "在一场沿海文化遗产晚宴上，一位权势显赫的老者企图公开羞辱他的儿媳，却不知对方身上肩负着怎样的真正权威。"
+      }
+    },
+    "title": {
+      "en": "The Timber Conservator's Audit",
+      "zh": "木构修复师的审计"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "When a timber conservator is publicly disowned at a high-society restoration gala, an unannounced federal audit reveals a secret identity that turns the tide of power.",
+      "zh": "当一位木结构文物修复师在上流社会晚宴上被公开驱逐时，一场突如其来的联邦审计揭开了她的秘密身份，瞬间逆转了整个权势格局。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains scenes of intense interpersonal conflict and emotional manipulation.",
+      "zh": "虚构故事。包含紧张的人际冲突与情感操纵情节。"
+    },
+    "tone": "Coastal",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3123,
+      "zh": 5539
     }
   }
 ];
