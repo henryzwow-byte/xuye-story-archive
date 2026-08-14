@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a332-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a333-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14374,6 +14374,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2304,
       "zh": 4171
+    }
+  },
+  {
+    "slug": "the-tide-mill-ledger",
+    "fileNo": "A-333",
+    "cover": "assets/covers/A-333-the-tide-mill-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide Mill Ledger",
+        "zh": "潮汐磨坊的草图集"
+      },
+      "description": {
+        "en": "A widowed timber carpenter takes in a homeless former draftsman whose weathered ledger holds the key to saving her historic workshop.",
+        "zh": "一位寡居的木匠收留了一位流浪的前建筑绘图师，他留下的旧草图成为挽救她木工坊的关键。"
+      }
+    },
+    "title": {
+      "en": "The Tide Mill Ledger",
+      "zh": "潮汐磨坊的草图集"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "When a widowed carpenter in an Oregon coastal town risks everything to care for a homeless former draftsman, a forgotten set of architectural tracings unravels a town dispute and restores two broken families.",
+      "zh": "当俄勒冈沿海小镇的一位寡居木匠冒着风险收留一位无家可归的前绘图师时，一份被遗忘的建筑草图化解了一场小镇纠纷，并让两个破碎的家庭重获新生。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts grief, economic hardship, and minor accidental danger.",
+      "zh": "虚构故事。包含悲伤描述、经济困境及轻微意外危险。"
+    },
+    "tone": "Weathered Amber",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3015,
+      "zh": 5220
     }
   }
 ];
