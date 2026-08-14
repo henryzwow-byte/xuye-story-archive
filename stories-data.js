@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a312-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a313-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13538,6 +13538,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2606,
       "zh": 4505
+    }
+  },
+  {
+    "slug": "echoes-of-blackwood-cove",
+    "fileNo": "A-313",
+    "cover": "assets/covers/A-313-echoes-of-blackwood-cove.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Echoes of Blackwood Cove",
+        "zh": "黑木湾的回声"
+      },
+      "description": {
+        "en": "When an architectural intern uncovers illegal land fraud in a foggy coastal town, her aunt rallies a team of local experts to protect the truth.",
+        "zh": "当一名建筑实习生在浓雾弥漫的海岸小镇揭发非法土地欺诈时，她的阿姨召集当地专家团队守护真相。"
+      }
+    },
+    "title": {
+      "en": "Echoes of Blackwood Cove",
+      "zh": "黑木湾的回声"
+    },
+    "category": {
+      "en": "Coastal Mystery & Suspense",
+      "zh": "海岸悬疑与悬念"
+    },
+    "summary": {
+      "en": "In a remote Oregon timber town, marine surveyor Clara Vance receives a midnight distress call from her niece Hannah, trapped in an old estate cellar after discovering falsified environmental core samples. Together with local technical experts, they race against time to save Hannah and expose a powerful developer before a critical town zoning vote.",
+      "zh": "在俄勒冈州一个偏远的木材小镇，海洋测量员克拉拉·凡斯接到了侄女汉娜在半夜发出的求救信号。汉娜在发现被篡改的环境地质钻孔样本后被困在一座老庄园的地下室中。克拉拉与当地的技术专家一道，与时间赛跑，解救汉娜，并在关键的镇区划表决前揭露势力庞大的开发商的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild suspense, themes of corporate fraud, and brief depictions of dangerous confrontation.",
+      "zh": "虚构故事。包含轻微悬疑元素、企业欺诈主题及对危险对峙的短暂描写。"
+    },
+    "tone": "amber",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2595,
+      "zh": 4462
     }
   }
 ];
