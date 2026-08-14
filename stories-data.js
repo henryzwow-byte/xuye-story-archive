@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a330-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a331-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14286,6 +14286,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2607,
       "zh": 4283
+    }
+  },
+  {
+    "slug": "the-ironwood-ledger",
+    "fileNo": "A-331",
+    "cover": "assets/covers/A-331-the-ironwood-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ironwood Ledger",
+        "zh": "铁木账册"
+      },
+      "description": {
+        "en": "Abandoned in a flooded archive during a storm, an archivist reclaims her inherited legacy and revokes her husband's unearned control.",
+        "zh": "在暴风雨中被遗弃在受淹档案室的书籍修复师，重新收回继承的地产与主权，撤销了丈夫未获授权的掌控。"
+      }
+    },
+    "title": {
+      "en": "The Ironwood Ledger",
+      "zh": "铁木账册"
+    },
+    "category": {
+      "en": "Fictional Narrative",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When her husband abandons her in a leaking historical annex to entertain wealthy investors, archivist Evelyn Thorne invokes a hidden property trust that strips his firm of all authority.",
+      "zh": "当丈夫为了讨好富豪投资人而将她遗弃在漏雨的历史偏厅时，档案修复师伊芙琳·索恩启动了一份隐藏的地产信托，彻底剥夺了丈夫公司的一切权限。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional neglect, marital breach of trust, and financial disputes.",
+      "zh": "虚构故事。包含情感忽视、婚姻信任危机及财务纠纷等主题。"
+    },
+    "tone": "Maritime",
+    "glyph": "IL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2980,
+      "zh": 5061
     }
   }
 ];
