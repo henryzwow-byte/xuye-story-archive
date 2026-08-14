@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a323-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a324-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -13978,6 +13978,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1780,
       "zh": 3123
+    }
+  },
+  {
+    "slug": "the-timberline-covenant",
+    "fileNo": "A-324",
+    "cover": "assets/covers/A-324-the-timberline-covenant.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timberline Covenant",
+        "zh": "高林协约"
+      },
+      "description": {
+        "en": "A retired artisan returns to her mountain sanctuary to find it converted into an unauthorized commercial venue, forcing her to draw a quiet legal line.",
+        "zh": "一位隐居山林的手艺人回到住所，发现这里被擅自改造成商业场地，迫使她以沉稳的法律条款划定边界。"
+      }
+    },
+    "title": {
+      "en": "The Timberline Covenant",
+      "zh": "高林协约"
+    },
+    "category": {
+      "en": "Fiction / Family Drama",
+      "zh": "虚构 / 家庭情感"
+    },
+    "summary": {
+      "en": "Clara Vance spent twenty-four years building her mountain pottery studio and heirloom apple grove. When her daughter-in-law attempts to convert the property into a lucrative event venue, Clara uses quiet documentation and a binding land covenant to reclaim her life's work.",
+      "zh": "克拉拉·凡斯花了二十四年建立起自己的高山陶艺工房与老品种苹果园。当儿媳试图将这处私产私自改造为高档活动场地时，克拉拉凭借沉稳的凭据与约束性土地协约，收回了属于自己的人生心血。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family boundary disputes, property conflicts, and emotional estrangement.",
+      "zh": "虚构故事。包含家庭界线纠纷、财产冲突及情感疏离等轻度主题。"
+    },
+    "tone": "slate",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2547,
+      "zh": 4385
     }
   }
 ];
