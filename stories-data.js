@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a342-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a343-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14814,6 +14814,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2708,
       "zh": 4757
+    }
+  },
+  {
+    "slug": "the-breakwater-recordings",
+    "fileNo": "A-343",
+    "cover": "assets/covers/A-343-the-breakwater-recordings.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Breakwater Recordings",
+        "zh": "防波堤录音"
+      },
+      "description": {
+        "en": "A deep-sea salvage engineer returns to a coastal harbor only to find his partner trapped in a scheme of legal fraud and coercion.",
+        "zh": "一名深海打捞工程师回到海岸港湾，发现伴侣陷于一场精心策划的地产诈骗与胁迫阴谋之中。"
+      }
+    },
+    "title": {
+      "en": "The Breakwater Recordings",
+      "zh": "防波堤录音"
+    },
+    "category": {
+      "en": "Suspense & Drama",
+      "zh": "悬疑与戏剧"
+    },
+    "summary": {
+      "en": "Returning from seven grueling months offshore, Marcus finds his partner Clara under the hostile control of local real estate developers. Together, they harness vintage maritime records and hidden recordings to reclaim her heritage.",
+      "zh": "结束长达七个月的海上远洋打捞任务后，马库斯回到家乡，发现伴侣克拉拉正遭受当地开发商与不良亲眷的控制与剥夺。二人凭借古老的海事档案与留存录音，联手夺回属于他们的遗产与尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of psychological coercion, legal fraud, emotional distress, and financial exploitation.",
+      "zh": "虚构故事。包含心理胁迫、法律诈骗、情感压力及财产剥夺相关主题。"
+    },
+    "tone": "Brass",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2274,
+      "zh": 4148
     }
   }
 ];
