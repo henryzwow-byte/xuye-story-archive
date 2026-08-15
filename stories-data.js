@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a360-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a361-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15606,6 +15606,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2345,
       "zh": 4254
+    }
+  },
+  {
+    "slug": "foundation-of-stone",
+    "fileNo": "A-361",
+    "cover": "assets/covers/A-361-foundation-of-stone.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "A Foundation of Stone",
+        "zh": "石基之磐"
+      },
+      "description": {
+        "en": "When her family lies to cover their absence at her career triumph, architectural conservator Clara Vance uses official guild records to dismantle their narrative.",
+        "zh": "当家人为掩盖缺席其事业辉煌时刻而编造谎言时，古建筑修复师诺拉·凡斯用官方公会记录拆穿了他们的伪装。"
+      }
+    },
+    "title": {
+      "en": "A Foundation of Stone",
+      "zh": "石基之磐"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Architectural conservator Clara Vance achieves the highest honor of her career, only to discover her family skipped the ceremony and told everyone she had been dismissed in disgrace.",
+      "zh": "古建筑修复师诺拉·凡斯荣获职业生涯最高荣誉，却发现家人不仅缺席了颁奖典礼，还向众人谎称她因重大失误已被开除。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial deceit, emotional alienation, and career sabotage.",
+      "zh": "虚构故事。包含家庭欺瞒、情感疏离与职业中伤等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "NV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1933,
+      "zh": 3684
     }
   }
 ];
