@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a344-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a345-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14902,6 +14902,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2183,
       "zh": 3951
+    }
+  },
+  {
+    "slug": "the-restored-blueprint",
+    "fileNo": "A-345",
+    "cover": "assets/covers/A-345-the-restored-blueprint.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Restored Blueprint",
+        "zh": "修复的蓝图"
+      },
+      "description": {
+        "en": "A timber artisan uncovers decades of financial manipulation after his aunt destroys his son's prize-winning model.",
+        "zh": "一位木艺工匠在姑妈毁掉儿子的获奖模型后，揭开了长达数十年的财务操纵真相。"
+      }
+    },
+    "title": {
+      "en": "The Restored Blueprint",
+      "zh": "修复的蓝图"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "When a matriarch's cruelty shatters a ten-year-old boy's pride, a quiet carpenter must confront his past, audit his family's hidden ledgers, and rebuild his life on honest foundations.",
+      "zh": "当家族女长辈的冷酷撕碎了一个十岁男孩的骄傲，沉默的木匠必须直面过去，审查家族被隐藏的账簿，并在诚实的基础上重建生活。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family psychological coercion, emotional manipulation, and financial abuse.",
+      "zh": "虚构故事。包含家庭心理控制、情感操纵及财务剥削主题。"
+    },
+    "tone": "amber",
+    "glyph": "RB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2614,
+      "zh": 4649
     }
   }
 ];
