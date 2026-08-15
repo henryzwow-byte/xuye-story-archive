@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a365-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a366-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15826,6 +15826,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2946,
       "zh": 5437
+    }
+  },
+  {
+    "slug": "stony-creek-sanctuary",
+    "fileNo": "A-366",
+    "cover": "assets/covers/A-366-stony-creek-sanctuary.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Stony Creek Sanctuary",
+        "zh": "斯托尼溪的避风港"
+      },
+      "description": {
+        "en": "A craftsman protects his injured wife and infant daughter from escalating familial boundary violations along the Maine coast.",
+        "zh": "在缅因州海岸，一位工匠保护着受伤的妻子和幼女，对抗日益加剧的家庭越界侵害。"
+      }
+    },
+    "title": {
+      "en": "Stony Creek Sanctuary",
+      "zh": "斯托尼溪的避风港"
+    },
+    "category": {
+      "en": "Psychological Drama",
+      "zh": "心理戏剧"
+    },
+    "summary": {
+      "en": "When a specialized craftsman monitors remote sensors during his wife's recovery from a coastal injury, he uncovers an insidious campaign of boundary violation that threatens his family's survival.",
+      "zh": "当一位精细工匠在妻子从海岸创伤中康复期间监控远程传感器时，他揭露了一场危及家庭生存的隐蔽越界阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of emotional boundary violations, familial manipulation, and physical vulnerability following a medical injury.",
+      "zh": "虚构故事。包含关于家庭情感越界、亲情操纵以及医疗创伤后身体脆弱状态的描写。"
+    },
+    "tone": "Slate",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2545,
+      "zh": 4561
     }
   }
 ];
