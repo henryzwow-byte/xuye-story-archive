@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a358-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a359-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15518,6 +15518,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2433,
       "zh": 4250
+    }
+  },
+  {
+    "slug": "the-unraveling-at-cedar-ridge",
+    "fileNo": "A-359",
+    "cover": "assets/covers/A-359-the-unraveling-at-cedar-ridge.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Unraveling at Cedar Ridge",
+        "zh": "雪杉岭的裂痕"
+      },
+      "description": {
+        "en": "A mother faces a heartbreaking moral choice when she discovers the dark secret behind her son's marriage.",
+        "zh": "当一位母亲发现儿子婚姻背后的阴暗秘密时，她面临着心碎的道德抉择。"
+      }
+    },
+    "title": {
+      "en": "The Unraveling at Cedar Ridge",
+      "zh": "雪杉岭的裂痕"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "On the night of a quiet mountain wedding, a mother uncovers a calculated scheme of betrayal and must choose between maternal instinct and ethical truth.",
+      "zh": "在一场宁静的山庄婚礼之夜，一位母亲揭开了精心策划的背叛阴谋，必须在母性本能与道德真相之间做出抉择。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional betrayal, marital deceit, and family conflict.",
+      "zh": "虚构故事。包含情感背叛、婚姻欺瞒及家庭冲突等主题。"
+    },
+    "tone": "Ashen",
+    "glyph": "CR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2481,
+      "zh": 4139
     }
   }
 ];
