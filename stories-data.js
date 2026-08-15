@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a356-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a357-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15430,6 +15430,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2371,
       "zh": 4152
+    }
+  },
+  {
+    "slug": "sanctuary-on-the-canyon-ridge",
+    "fileNo": "A-357",
+    "cover": "assets/covers/A-357-sanctuary-on-the-canyon-ridge.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Sanctuary on the Canyon Ridge",
+        "zh": "峡谷脊线上的避难所"
+      },
+      "description": {
+        "en": "An evocative tale of family resilience, hidden truths, and reclamation in the mountain timber country.",
+        "zh": "一部关于群山间家庭韧性、隐秘真相与重新寻回自我的感人故事。"
+      }
+    },
+    "title": {
+      "en": "Sanctuary on the Canyon Ridge",
+      "zh": "峡谷脊线上的避难所"
+    },
+    "category": {
+      "en": "Domestic Suspense",
+      "zh": "家庭悬疑"
+    },
+    "summary": {
+      "en": "After three years of quiet isolation on a powerful family's estate, a young mother and her son are ousted into a mountain blizzard—only to uncover a surveyor's locked case that alters everything they knew about a missing husband.",
+      "zh": "在一户有权势的豪门庄园里默默忍受了三年孤立后，一对年轻母子在暴风雪夜被逐出家门——然而一只遗留的测绘铜盒，彻底颠覆了关于失踪丈夫的所有谎言。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family conflict, financial coercion, and memory loss themes in a dramatic context.",
+      "zh": "虚构故事。包含家庭冲突、经济胁迫及失忆主题的戏剧化描写。"
+    },
+    "tone": "Slate",
+    "glyph": "CR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2095,
+      "zh": 3886
     }
   }
 ];
