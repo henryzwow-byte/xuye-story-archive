@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a347-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a348-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15034,6 +15034,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2460,
       "zh": 4297
+    }
+  },
+  {
+    "slug": "the-masons-preservation-covenant",
+    "fileNo": "A-348",
+    "cover": "assets/covers/A-348-the-masons-preservation-covenant.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Mason's Preservation Covenant",
+        "zh": "石匠的保护契约"
+      },
+      "description": {
+        "en": "An old timber craftsman faces public mockery at a high-society gala, only to unveil an unyielding legacy of truth.",
+        "zh": "一位老木匠在名流晚宴上遭受众辱，却揭开了不可撼动的真相与遗产。"
+      }
+    },
+    "title": {
+      "en": "The Mason's Preservation Covenant",
+      "zh": "石匠的保护契约"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "小说与戏剧"
+    },
+    "summary": {
+      "en": "When a retired master stonemason is humiliated by his daughter's ambitious fiancé at a historic pavilion gala, he answers not with anger, but with an ironclad preservation covenant that exposes a web of deceit.",
+      "zh": "当一位退休的木石老匠人在历史展馆晚宴上遭女儿的野心未婚夫蓄意羞辱时，他未以愤怒回应，而是拿出了一份铁证如山的保护盟约，揭穿了一场蓄谋已久的欺诈。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family conflict, emotional distress, and public humiliation.",
+      "zh": "虚构故事。包含家庭冲突、心理压力及公开羞辱的情节描述。"
+    },
+    "tone": "Amber",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2858,
+      "zh": 4873
     }
   }
 ];
