@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a357-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a358-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15474,6 +15474,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2095,
       "zh": 3886
+    }
+  },
+  {
+    "slug": "the-harbor-light",
+    "fileNo": "A-358",
+    "cover": "assets/covers/A-358-the-harbor-light.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Harbor Light",
+        "zh": "港湾明灯"
+      },
+      "description": {
+        "en": "A night on the docks, a viral accusation, and the quiet truth that restored a town's trust.",
+        "zh": "码头上的风雨交加之夜、一场网络冤案，以及重新凝聚小镇信任的沉静真相。"
+      }
+    },
+    "title": {
+      "en": "The Harbor Light",
+      "zh": "港湾明灯"
+    },
+    "category": {
+      "en": "Drama & Mystery",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When a teenager and his sister are accused of robbing a collapsed archivist on a foggy pier, a single unedited video frame and a hidden key reveal a deeper truth.",
+      "zh": "当一对兄妹被指控在浓雾弥漫的码头上抢劫一位倒地不起的档案员时，一帧未经剪辑的视频与一把隐秘的钥匙揭示了更深层的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild depictions of medical emergency, social media rush to judgment, and themes of grief.",
+      "zh": "虚构故事。包含对突发医疗状况、网络舆论未审先判以及哀伤主题的温和描写。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "HL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2433,
+      "zh": 4250
     }
   }
 ];
