@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a355-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a356-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15386,6 +15386,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2512,
       "zh": 4462
+    }
+  },
+  {
+    "slug": "the-timber-line-trust",
+    "fileNo": "A-356",
+    "cover": "assets/covers/A-356-the-timber-line-trust.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Line Trust",
+        "zh": "木线信托"
+      },
+      "description": {
+        "en": "A Montana timber restorer protects her young nephew after her estranged brother leaves him behind alongside a web of fraudulent debt.",
+        "zh": "蒙大拿州的一位木材修复师在疏远的哥哥留下幼子和一网诈骗债务逃跑后，全力保护侄子并拆穿阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Timber Line Trust",
+      "zh": "木线信托"
+    },
+    "category": {
+      "en": "Suspense & Family Drama",
+      "zh": "悬疑与家庭剧情"
+    },
+    "summary": {
+      "en": "When Hannah Vance finds her nine-year-old nephew left on her workshop porch during a mountain blizzard, she uncovers a calculated scheme by her half-brother to frame her for massive commercial fraud. Armed with forensic timber ledgers and quiet resolve, Hannah chooses truth over toxic family loyalty.",
+      "zh": "当汉娜·凡斯在一场山地暴风雪中发现九岁的侄子被弃在车间门廊上时，她揭开了同父异母的哥哥企图陷害她承担巨额商业诈骗债务的缜密阴谋。凭着木材账本的法医式证据与沉着韧性，汉娜选择了真相而非病态的家族包庇。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, financial coercion, child neglect, and legal proceedings.",
+      "zh": "虚构故事。包含家庭冲突、经济胁迫、儿童疏忽及法律诉讼主题。"
+    },
+    "tone": "Amber",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2371,
+      "zh": 4152
     }
   }
 ];
