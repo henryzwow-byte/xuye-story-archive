@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a337-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a338-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14594,6 +14594,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2597,
       "zh": 4192
+    }
+  },
+  {
+    "slug": "the-blackwood-bequest",
+    "fileNo": "A-338",
+    "cover": "assets/covers/A-338-the-blackwood-bequest.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Blackwood Bequest",
+        "zh": "黑木遗赠"
+      },
+      "description": {
+        "en": "An archivist uncovers a forgotten coastal lighthouse deed left by his missing aunt, unlocking a hidden oceanographic secret.",
+        "zh": "一位档案员接手失踪阿姨留下的偏远灯塔地契，由此揭开了一段隐藏二十年的海洋遗案。"
+      }
+    },
+    "title": {
+      "en": "The Blackwood Bequest",
+      "zh": "黑木遗赠"
+    },
+    "category": {
+      "en": "Mystery & Suspense",
+      "zh": "悬疑与推理"
+    },
+    "summary": {
+      "en": "When archival surveyor Julian Vance inherits a desolate granite light station on the Oregon coast, an encrypted journal left by his long-lost aunt reveals an industrial cover-up buried deep beneath the waves.",
+      "zh": "当档案测量员朱利安·范斯继承了俄勒冈海岸一座荒凉的花岗岩灯塔后，他失踪多年的阿姨留下的一本加密日志，揭露了一起埋藏在深海底部的工业污染丑闻。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of corporate malfeasance, legal tension, and family mystery suitable for adult readers.",
+      "zh": "虚构故事。包含轻度公司违规、法律张力及家族谜团主题，适合成年读者阅读。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "BB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2487,
+      "zh": 4370
     }
   }
 ];
