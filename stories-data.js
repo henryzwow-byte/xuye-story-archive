@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a352-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a353-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15254,6 +15254,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2116,
       "zh": 3872
+    }
+  },
+  {
+    "slug": "the-brass-compass-of-blackwood-ridge",
+    "fileNo": "A-353",
+    "cover": "assets/covers/A-353-the-brass-compass-of-blackwood-ridge.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Brass Compass of Blackwood Ridge",
+        "zh": "黑木山脊的黄铜指南针"
+      },
+      "description": {
+        "en": "When a midnight storm brings an unannounced orphan to an isolated coastal orchard, an old carved compass unveils a fifteen-year-old family mystery.",
+        "zh": "当一场深夜风暴将一个无名孤儿带到偏远的海滨果园，一枚古老的雕花指南针揭开了沉封十五年的家族谜团。"
+      }
+    },
+    "title": {
+      "en": "The Brass Compass of Blackwood Ridge",
+      "zh": "黑木山脊的黄铜指南针"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "A sudden autumn gale forces bridge inspector Ethan Vance home with an orphaned eleven-year-old boy. His wife Nora fears past betrayal, until a weathered surveyor's notebook and brass compass reveal a breathtaking connection to her long-lost brother.",
+      "zh": "突如其来的秋日狂风逼迫桥梁巡检员伊森·凡斯带着一个十一岁的孤儿回家。妻子诺拉怀疑丈夫背叛了婚姻，直到一本风化测绘笔记和一枚黄铜指南针揭开了孩子与她失踪多年弟弟之间的惊人联系。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mature emotional themes, past family grief, and discussions of loss.",
+      "zh": "虚构故事。包含成熟情感主题、家族丧亲悲伤及失落话题讨论。"
+    },
+    "tone": "Amber",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2274,
+      "zh": 3696
     }
   }
 ];
