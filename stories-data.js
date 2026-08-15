@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a366-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a367-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15870,6 +15870,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2545,
       "zh": 4561
+    }
+  },
+  {
+    "slug": "the-curators-watermark",
+    "fileNo": "A-367",
+    "cover": "assets/covers/A-367-the-curators-watermark.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Curator's Watermark",
+        "zh": "策展人的水印"
+      },
+      "description": {
+        "en": "An archival conservator uncovers a forged provenance and a hidden life at an exclusive Newport auction gala.",
+        "zh": "一位档案保护师在一场顶级的纽波特拍卖晚会上揭开了伪造的书籍出处与隐藏的双重生活。"
+      }
+    },
+    "title": {
+      "en": "The Curator's Watermark",
+      "zh": "策展人的水印"
+    },
+    "category": {
+      "en": "Literary Fiction",
+      "zh": "文学小说"
+    },
+    "summary": {
+      "en": "When archival conservator Eleanor Vance is assigned to authenticate a rare 1782 maritime atlas for a prestigious summer auction, she uncovers a microscopic forged watermark linked to her husband's secret printing press—dismantling both his high-stakes antiquities fraud and his hidden affair before a room of high-society patrons.",
+      "zh": "当档案保护师埃莉诺·范斯受命为一场盛大的夏季拍卖会鉴定一本1782年的稀有航海图集时，她发现了一个连接到丈夫秘密印刷机的微观伪造水印，从而在一众上流社会赞助人面前，亲手拆穿了他高风险的古董诈骗与隐藏的外遇。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of infidelity, emotional deception, and white-collar fraud.",
+      "zh": "虚构故事。包含不忠、情感欺瞒及白领诈骗等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "EV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1846,
+      "zh": 3356
     }
   }
 ];
