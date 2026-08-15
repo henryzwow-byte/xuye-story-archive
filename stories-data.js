@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a372-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a373-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16134,6 +16134,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2288,
       "zh": 3875
+    }
+  },
+  {
+    "slug": "tide-and-timber-shipyard",
+    "fileNo": "A-373",
+    "cover": "assets/covers/A-373-tide-and-timber-shipyard.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tide and Timber",
+        "zh": "潮汐与木料"
+      },
+      "description": {
+        "en": "A quiet commander reclaims her heritage and unmasks a public betrayal on the storm-swept Pacific Northwest coast.",
+        "zh": "在风暴席卷的西北太平洋海岸，一位沉稳的指挥官夺回遗产，揭穿了一场公开的背叛。"
+      }
+    },
+    "title": {
+      "en": "Tide and Timber",
+      "zh": "潮汐与木料"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When her husband publicly credits another woman for saving their historic maritime shipyard, Nora Vance remains silent. But behind her quiet demeanor lies a decorated Coast Guard background, an independent property buyout, and an undeniable trail of truth that unfolds when her twin daughters are born.",
+      "zh": "当丈夫在众人面前将拯救家族造船厂的功劳归于另一个女人时，诺拉·凡斯保持了沉默。但在她沉静的外表下，是赫赫有名的海岸警卫队背景、独立的资产收购，以及随着双胞胎女儿降生而揭开的无可辩驳的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital infidelity, emotional abandonment during childbirth, and financial disputes. No graphic content.",
+      "zh": "虚构故事。包含婚姻背叛、分娩期间的情感弃养及财务纠纷主题。无血腥暴力内容。"
+    },
+    "tone": "Slate",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2708,
+      "zh": 4539
     }
   }
 ];
