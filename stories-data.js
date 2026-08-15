@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a373-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a374-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16178,6 +16178,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2708,
       "zh": 4539
+    }
+  },
+  {
+    "slug": "the-salt-archive",
+    "fileNo": "A-374",
+    "cover": "assets/covers/A-374-the-salt-archive.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt Archive",
+        "zh": "盐风档案馆"
+      },
+      "description": {
+        "en": "A dedicated document restorer exposes a land plot fraud that threatens her coastal town's public heritage.",
+        "zh": "一位专注的古籍修复师揭发了一宗威胁海滨小镇公共遗产的土地欺诈案。"
+      }
+    },
+    "title": {
+      "en": "The Salt Archive",
+      "zh": "盐风档案馆"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "When an ambitious developer uses forged historical deeds to annex a historic public cove in Maine, archivist Maeve Vance unearths long-buried evidence inside an off-shore lighthouse chest to save her town's heritage.",
+      "zh": "当野心勃勃的地产商企图利用伪造的历史契约强占缅因州海滨港口的公共信托土地时，档案修复师梅芙·凡斯从远海灯塔的航海箱中挖出深藏的证据，保卫小镇遗产。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate deceit, emotional manipulation, financial dishonesty, and legal disputes.",
+      "zh": "虚构故事。包含商业欺诈、情感操纵、财务不诚信及法律纠纷等主题。"
+    },
+    "tone": "amber",
+    "glyph": "SA",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2672,
+      "zh": 5219
     }
   }
 ];
