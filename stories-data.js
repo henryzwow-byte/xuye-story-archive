@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a369-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a370-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16002,6 +16002,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3107,
       "zh": 5496
+    }
+  },
+  {
+    "slug": "the-timber-compliance-ledger",
+    "fileNo": "A-370",
+    "cover": "assets/covers/A-370-the-timber-compliance-ledger.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Ledger",
+        "zh": "木梁长账"
+      },
+      "description": {
+        "en": "An architectural archivist exposes corporate structural fraud to protect her children from toxic family favoritism.",
+        "zh": "一位建筑档案员揭露公司结构造假，将孩子们从有毒的家族偏见中保护出来。"
+      }
+    },
+    "title": {
+      "en": "The Timber Ledger",
+      "zh": "木梁长账"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When a wealthy Maine family publicly humiliates her children at a gala, an architectural archivist unleashes the verified timber compliance records that expose her stepbrother's dangerous structural fraud.",
+      "zh": "当缅因州的一个富有家族在晚宴上公开羞辱她的孩子们时，一位建筑档案员发布了确凿的木材合规审计记录，揭露了她继兄危险的结构造假案。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, financial deception, and emotional boundary setting.",
+      "zh": "虚构故事。包含家庭冲突、财务欺诈与情感边界设立的主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2396,
+      "zh": 4338
     }
   }
 ];
