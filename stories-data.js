@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a354-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a355-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15342,6 +15342,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2603,
       "zh": 4442
+    }
+  },
+  {
+    "slug": "the-brass-pendulum",
+    "fileNo": "A-355",
+    "cover": "assets/covers/A-355-the-brass-pendulum.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Brass Pendulum",
+        "zh": "黄铜摆锤"
+      },
+      "description": {
+        "en": "When a widow uncovers a hidden ledger in an antique clock, her son suspects fraud—until a town meeting reveals a decades-old truth.",
+        "zh": "当一位寡妇在古董钟里发现一本隐藏的账簿时，她的儿子怀疑是诈骗——直到一场镇议会揭开了数十年前的真相。"
+      }
+    },
+    "title": {
+      "en": "The Brass Pendulum",
+      "zh": "黄铜摆锤"
+    },
+    "category": {
+      "en": "Literary Fiction",
+      "zh": "文学小说"
+    },
+    "summary": {
+      "en": "In a mountain town in Oregon, sixty-five-year-old Margaret Vance struggles to maintain her independence against her son's well-meaning control. A mysterious ledger hidden inside an antique clock unleashes a forgotten land dispute, a budding friendship, and a dramatic public revelation.",
+      "zh": "在俄勒冈州的一个山区小镇，六十五岁的玛格丽特·凡斯在儿子好意的控制下努力保持独立。隐藏在古董钟内的一本神秘账簿引发了一场被遗忘的土地纠纷、一段萌芽的友谊以及一场戏剧性的公开揭秘。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, grief, and elder autonomy.",
+      "zh": "虚构故事。包含家庭冲突、悲伤与老年人自主权相关主题。"
+    },
+    "tone": "Amber",
+    "glyph": "BP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2512,
+      "zh": 4462
     }
   }
 ];
