@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a374-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a375-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16222,6 +16222,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2672,
       "zh": 5219
+    }
+  },
+  {
+    "slug": "tide-and-timber-harbor-workshop",
+    "fileNo": "A-375",
+    "cover": "assets/covers/A-375-tide-and-timber-harbor-workshop.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tide and Timber",
+        "zh": "潮汐与木石"
+      },
+      "description": {
+        "en": "A master shipwright survives a targeted crisis at her historic boatyard and reclaims her heritage with the help of a formidable harbor commissioner.",
+        "zh": "一位资深船匠在历史悠久的造船厂危机中幸存，并在铁面无私的港务委员帮助下夺回了自己的家族遗产。"
+      }
+    },
+    "title": {
+      "en": "Tide and Timber",
+      "zh": "潮汐与木石"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "现代戏剧"
+    },
+    "summary": {
+      "en": "When a severe chemical exposure at a historic harbor workshop lands master shipwright Clara Vance in emergency care, she discovers her husband has liquidated her family shipyard and declared her incompetent—until an unyielding harbor commissioner intervenes with cold hard evidence.",
+      "zh": "当海滨造船厂的一场严重化学泄露导致资深船匠克拉拉·凡斯紧急送医时，她发现丈夫早已变卖了她的家族船厂并指控她精神失常——直到一位铁面无私的港务委员带着铁证介入其中。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional distress, medical emergency, marital betrayal, and legal financial dispute.",
+      "zh": "虚构故事。包含情绪困扰、医疗急救、婚姻背叛及法律财务纠纷主题。"
+    },
+    "tone": "Maritime",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2708,
+      "zh": 4697
     }
   }
 ];
