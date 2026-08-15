@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a339-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a340-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14682,6 +14682,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2349,
       "zh": 4042
+    }
+  },
+  {
+    "slug": "shadows-of-mist-cove",
+    "fileNo": "A-340",
+    "cover": "assets/covers/A-340-shadows-of-mist-cove.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Shadows of Mist Cove",
+        "zh": "迷雾湾的阴影"
+      },
+      "description": {
+        "en": "Returning from a four-year deep-sea engineering expedition, Clara Vance discovers her estranged ex-husband has declared her dead to seize her family's coastal estate—and locked their young son away in a remote signal tower.",
+        "zh": "从长达四年的深海工程探险归来后，克拉拉·凡斯发现疏远的前夫伪造了她的死亡声明以霸占其家族的海滨庄园，并将其幼子关押在偏远信号塔中。"
+      }
+    },
+    "title": {
+      "en": "Shadows of Mist Cove",
+      "zh": "迷雾湾的阴影"
+    },
+    "category": {
+      "en": "Domestic Suspense",
+      "zh": "家庭悬疑"
+    },
+    "summary": {
+      "en": "Returning from a four-year deep-sea engineering expedition, Clara Vance discovers her estranged ex-husband has declared her dead to seize her family's coastal estate—and locked their young son away in a remote signal tower.",
+      "zh": "从长达四年的深海工程探险归来后，克拉拉·凡斯发现疏远的前夫伪造了她的死亡声明以霸占其家族的海滨庄园，并将其幼子关押在偏远信号塔中。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family betrayal, child isolation, and legal drama.",
+      "zh": "虚构故事。包含家庭背叛、儿童孤立与法律纠纷等主题。"
+    },
+    "tone": "Mist",
+    "glyph": "MC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2478,
+      "zh": 4218
     }
   }
 ];
