@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a368-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a369-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15958,6 +15958,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2486,
       "zh": 4215
+    }
+  },
+  {
+    "slug": "frost-and-lead",
+    "fileNo": "A-369",
+    "cover": "assets/covers/A-369-frost-and-lead.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Frost and Lead",
+        "zh": "霜与铅线"
+      },
+      "description": {
+        "en": "A stained-glass conservator uncovers the hidden control behind her studio's artificial limits.",
+        "zh": "一位彩色玻璃修复师揭开了工作坊人为限制背后的隐秘控制。"
+      }
+    },
+    "title": {
+      "en": "Frost and Lead",
+      "zh": "霜与铅线"
+    },
+    "category": {
+      "en": "Psychological Fiction",
+      "zh": "心理小说"
+    },
+    "summary": {
+      "en": "When a craftsman recovering from injury is subjected to timed studio lockouts under the guise of medical care, an unexpected visitor exposes the truth behind the restrictions.",
+      "zh": "当一位处于康复期的工艺师以医疗护理的名义遭受定时工作坊封锁时，一位意想不到的来客揭开了限制背后的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of psychological control, coercive behavior in marriage, and medical recovery strain.",
+      "zh": "虚构故事。包含心理控制、婚姻中的强制行为以及医疗康复压力的主题。"
+    },
+    "tone": "Chilled",
+    "glyph": "FL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3107,
+      "zh": 5496
     }
   }
 ];
