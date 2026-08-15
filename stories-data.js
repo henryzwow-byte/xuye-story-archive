@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a359-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a360-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15562,6 +15562,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2481,
       "zh": 4139
+    }
+  },
+  {
+    "slug": "the-tide-line-ledger",
+    "fileNo": "A-360",
+    "cover": "assets/covers/A-360-the-tide-line-ledger.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide Line Ledger",
+        "zh": "潮界线账本"
+      },
+      "description": {
+        "en": "A marine safety inspector uncovers a corporate conspiracy after his hydrographer wife survives a staged maritime accident.",
+        "zh": "一名水上安全检查员在其水文测量员妻子在一场伪造的海难中幸存后，揭露了一起企业阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Tide Line Ledger",
+      "zh": "潮界线账本"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When marine inspector Caleb Thorne returns to Alder Bay, he finds his home abandoned and his wife critically injured in an ICU. Unraveling a scheme by a powerful maritime corporation, Caleb and federal investigators rely on hidden acoustic telemetry to bring the conspirators to justice.",
+      "zh": "当水上检查员凯莱布·索恩返回奥尔德湾时，发现家中空无一人，妻子在重症监护室身负重伤。在揭露一家强大海运企业的阴谋过程中，凯莱布与联邦调查员依靠隐藏的声学遥测数据将阴谋者绳之以法。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of corporate conspiracy, physical harm, hospital hospitalization, and legal investigations.",
+      "zh": "虚构故事。包含企业阴谋、身体伤害、医院住院及法律调查等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2345,
+      "zh": 4254
     }
   }
 ];
