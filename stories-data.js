@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a338-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a339-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14638,6 +14638,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2487,
       "zh": 4370
+    }
+  },
+  {
+    "slug": "the-mapmakers-ledger",
+    "fileNo": "A-339",
+    "cover": "assets/covers/A-339-the-mapmakers-ledger.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Mapmaker's Ledger",
+        "zh": "测绘师的账簿"
+      },
+      "description": {
+        "en": "A disgraced glass conservator returns to a coastal pavilion opening to uncover twelve years of hidden truth.",
+        "zh": "一位背负恶名的玻璃修复师重返沿海展馆揭幕礼，揭开隐匿十二年的真相。"
+      }
+    },
+    "title": {
+      "en": "The Mapmaker's Ledger",
+      "zh": "测绘师的账簿"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "Twelve years after being framed for a devastating fire at her family's coastal glassworks, Clara Vance presents metallurgical and municipal proof of corporate negligence to restore her father's legacy.",
+      "zh": "在家族沿海玻璃工坊遭受毁灭性火灾并因此陷入陷害十二年后，克拉拉·范斯带着关于企业疏忽的冶金与市政证据重返现场，重塑父亲的遗产与尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, corporate deception, and public confrontation.",
+      "zh": "虚构故事。包含家庭疏离、企业欺诈及公开对质主题。"
+    },
+    "tone": "amber",
+    "glyph": "ML",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2349,
+      "zh": 4042
     }
   }
 ];
