@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a350-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a351-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15166,6 +15166,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2120,
       "zh": 3452
+    }
+  },
+  {
+    "slug": "the-fog-at-sentinel-pier",
+    "fileNo": "A-351",
+    "cover": "assets/covers/A-351-the-fog-at-sentinel-pier.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Fog at Sentinel Pier",
+        "zh": "哨兵码头的浓雾"
+      },
+      "description": {
+        "en": "A father races through a coastal storm to rescue his daughter from a web of family betrayal and cold negligence.",
+        "zh": "在沿海的暴风雨夜，一位父亲赶往港口拯救女儿，揭开家族背叛与冷酷疏忽的真相。"
+      }
+    },
+    "title": {
+      "en": "The Fog at Sentinel Pier",
+      "zh": "哨兵码头的浓雾"
+    },
+    "category": {
+      "en": "Family & Suspense",
+      "zh": "家庭悬疑"
+    },
+    "summary": {
+      "en": "When a midnight call reveals his young daughter stranded in freezing fog outside a locked boathouse, a bridge inspector uncovers a bitter plot to exploit his family—and fights to secure her future.",
+      "zh": "当深夜电话透露幼女被锁在冰冷浓雾的码头木屋外时，桥梁检验员揭开了亲属阴谋的冰山一角，并奋力为女儿赢得安全与正义。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of familial distress, emotional manipulation, and child endangerment.",
+      "zh": "虚构故事。包含轻微的家庭纠纷、情感操纵及忽视儿童等情节。"
+    },
+    "tone": "coastal mist",
+    "glyph": "SP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2496,
+      "zh": 4199
     }
   }
 ];
