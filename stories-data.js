@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a346-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a347-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14990,6 +14990,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2509,
       "zh": 4132
+    }
+  },
+  {
+    "slug": "the-timber-covenant",
+    "fileNo": "A-347",
+    "cover": "assets/covers/A-347-the-timber-covenant.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Covenant",
+        "zh": "木梁盟约"
+      },
+      "description": {
+        "en": "When a master artisan's daughter attempts to seize his historic riverfront workshop for a luxury resort scheme, a quiet legal covenant reveals the true weight of stewardship.",
+        "zh": "当老船匠的女儿企图强占其历史悠久的河畔木艺工坊改建奢华度假村时，一份沉寂的法律盟约揭示了守护与界限的真正重量。"
+      }
+    },
+    "title": {
+      "en": "The Timber Covenant",
+      "zh": "木梁盟约"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "An aged Oregon shipbuilder faces public humiliation by his estranged daughter at a corporate investor gala. Rather than retaliating with anger, he relies on a forgotten land trust covenant to reclaim his workshop and teach a decisive lesson in integrity.",
+      "zh": "一位俄勒冈老船匠在推介酒会上惨遭疏离女儿的公开屈辱。他未以怒火反击，而是凭一份尘封的土地信托盟约收回工坊，给贪婪与傲慢上了沉重的一课。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, emotional betrayal, and commercial property disputes.",
+      "zh": "虚构故事。包含家庭疏离、情感背叛及财产纠纷主题。"
+    },
+    "tone": "weathered",
+    "glyph": "TC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2460,
+      "zh": 4297
     }
   }
 ];
