@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a367-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a368-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15914,6 +15914,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1846,
       "zh": 3356
+    }
+  },
+  {
+    "slug": "the-shadow-ledger",
+    "fileNo": "A-368",
+    "cover": "assets/covers/A-368-the-shadow-ledger.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Shadow Ledger",
+        "zh": "影子账本"
+      },
+      "description": {
+        "en": "When an archivist's aunt uncovers a secret monthly trust, years of forced financial hardship crumble to reveal a husband's hidden betrayal.",
+        "zh": "当一位档案员的阿姨揭开一份秘密的月度信托金时，多年的强制经济困顿轰然塌陷，揭露了丈夫隐藏的背叛。"
+      }
+    },
+    "title": {
+      "en": "The Shadow Ledger",
+      "zh": "影子账本"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "小说 / 戏剧"
+    },
+    "summary": {
+      "en": "After suffering an injury at her late-night job, paper archivist Clara Vance learns that her husband has been suppressing a major monthly trust fund while convincing her they were on the brink of poverty.",
+      "zh": "在深夜工作中受伤后，纸质档案员克拉拉·凡斯得知，丈夫一直隐瞒着一笔庞大的月度信托基金，同时却让她相信他们正处于贫困边缘。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of financial deception, emotional control, and marital discord.",
+      "zh": "虚构故事。包含财务欺诈、情感控制与婚姻纷争主题。"
+    },
+    "tone": "Amber",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2486,
+      "zh": 4215
     }
   }
 ];
