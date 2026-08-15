@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a341-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a342-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14770,6 +14770,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2817,
       "zh": 4612
+    }
+  },
+  {
+    "slug": "sanctuary-at-heron-cove",
+    "fileNo": "A-342",
+    "cover": "assets/covers/A-342-sanctuary-at-heron-cove.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Sanctuary at Heron Cove",
+        "zh": "苍鹭湾的庇护所"
+      },
+      "description": {
+        "en": "A widowed botanical illustrator in Oregon faces down a sleek attempt to claim her coastal sanctuary, discovering that boundaries are the truest form of love.",
+        "zh": "俄勒冈州一位守寡的植物插画家直面一场企图强占其海岸工作坊的阴谋，深刻领悟到界限才是最真挚的爱。"
+      }
+    },
+    "title": {
+      "en": "Sanctuary at Heron Cove",
+      "zh": "苍鹭湾的庇护所"
+    },
+    "category": {
+      "en": "Fiction / Contemporary Drama",
+      "zh": "小说 / 现代戏剧"
+    },
+    "summary": {
+      "en": "When Clara Miller’s son and his partner move into her Oregon coastal greenhouse cottage, what begins as temporary support shifts into a stealthy takeover of her life's work—until a hidden file reveals the truth.",
+      "zh": "当克拉拉·米勒的儿子与伴侣搬进她位于俄勒冈海岸的温室小屋时，原本暂时的陪伴演变为对其终生事业的隐秘剥夺——直到一份隐藏的文件揭露了真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, emotional boundaries, and property disputes.",
+      "zh": "虚构故事。包含家庭冲突、情感界限及财产纠纷主题。"
+    },
+    "tone": "Slate",
+    "glyph": "HC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2708,
+      "zh": 4757
     }
   }
 ];
