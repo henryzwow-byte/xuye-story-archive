@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a371-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a372-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16090,6 +16090,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3241,
       "zh": 5711
+    }
+  },
+  {
+    "slug": "the-timber-legacy",
+    "fileNo": "A-372",
+    "cover": "assets/covers/A-372-the-timber-legacy.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Legacy | Fictional Story",
+        "zh": "木业遗产 | 虚构故事"
+      },
+      "description": {
+        "en": "A mother uncovers a toxic family demand targeting her son's artisan workshop, leading to a decisive stand for boundaries.",
+        "zh": "一位母亲揭开亲人针对儿子手工作坊的苛刻勒索，决然斩断家族的剥削锁链。"
+      }
+    },
+    "title": {
+      "en": "The Timber Legacy",
+      "zh": "木业遗产"
+    },
+    "category": {
+      "en": "Family & Drama",
+      "zh": "家庭与伦理"
+    },
+    "summary": {
+      "en": "When Nora discovers her son Julian secretly laboring at night to pay an arbitrary family fee, she unearths years of hidden exploitation and reclaims what was rightfully his.",
+      "zh": "当诺拉发现儿子朱利安为了缴纳家族所谓的“维护费”而在深夜默默做苦工时，她揭开了隐藏多年的家庭剥削，并夺回了本属于儿子的东西。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of familial financial exploitation, psychological pressure, and boundary enforcement. All characters and events are entirely fictional.",
+      "zh": "虚构故事。包含家庭经济剥削、心理压力及确立界限的主题。所有人物与事件均为虚构。"
+    },
+    "tone": "amber",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2288,
+      "zh": 3875
     }
   }
 ];
