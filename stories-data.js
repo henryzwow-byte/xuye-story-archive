@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a363-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a364-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15738,6 +15738,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2534,
       "zh": 4142
+    }
+  },
+  {
+    "slug": "salvage-at-blackwood-cove",
+    "fileNo": "A-364",
+    "cover": "assets/covers/A-364-salvage-at-blackwood-cove.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Salvage at Blackwood Cove",
+        "zh": "黑木湾的救赎"
+      },
+      "description": {
+        "en": "When a midnight catastrophe strikes a historic Maine shipyard, timber conservator Nora Vance uncovers a trail of family betrayal and structural sabotage.",
+        "zh": "当一场午夜灾难袭击缅因州一座历史悠久的造船厂时，木材修复师诺拉·凡斯揭开了一条充满家族背叛与结构破坏的线索。"
+      }
+    },
+    "title": {
+      "en": "Salvage at Blackwood Cove",
+      "zh": "黑木湾的救赎"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "In a rain-swept Maine coastal town, a conservator fights to save her grandfather's maritime heritage after a suspicious midnight collapse exposes deep-seated family greed.",
+      "zh": "在雨水绵绵的缅因州沿海小镇，一名修复师在一场可疑的午夜坍塌揭露了根深蒂固的家族贪婪后，奋力拯救祖父留下的海洋遗产。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, arson investigation, and structural sabotage.",
+      "zh": "虚构故事。包含家庭冲突、纵火调查与结构破坏等主题。"
+    },
+    "tone": "Misty",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2210,
+      "zh": 3854
     }
   }
 ];
