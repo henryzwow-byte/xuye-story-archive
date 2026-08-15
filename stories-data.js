@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a348-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a349-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15078,6 +15078,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2858,
       "zh": 4873
+    }
+  },
+  {
+    "slug": "the-iron-bequest",
+    "fileNo": "A-349",
+    "cover": "assets/covers/A-349-the-iron-bequest.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Iron Bequest",
+        "zh": "铁盒遗诏"
+      },
+      "description": {
+        "en": "When her estranged brother tries to seize her waterfront workshop with forged corporate papers, an artisan unearths a hidden vault containing proof of ownership and systemic financial deceit.",
+        "zh": "当疏远的哥哥试图拿着伪造的商业文件强占她的海边工作室时，一位手艺人在地窖中找到了证明所有权和家族财务欺诈的隐秘卷宗。"
+      }
+    },
+    "title": {
+      "en": "The Iron Bequest",
+      "zh": "铁盒遗诏"
+    },
+    "category": {
+      "en": "Contemporary Fiction / Mystery",
+      "zh": "当代小说 / 悬疑"
+    },
+    "summary": {
+      "en": "An architectural restorer in a small coastal town defends her historic timber studio against her brother's predatory redevelopment scheme after discovering an iron ledger vault beneath the workshop floor.",
+      "zh": "在一座沿海小镇上，一位古建筑修复师在地板下的铁盒卷宗中发现了关键证据，以此击退了哥哥企图强占其历史木作工坊的掠夺谋划。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, financial deception, and contested property rights.",
+      "zh": "虚构故事。包含家族冲突、财务欺诈及财产纷争等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "IB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2489,
+      "zh": 4429
     }
   }
 ];
