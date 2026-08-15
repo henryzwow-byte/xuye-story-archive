@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a351-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a352-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15210,6 +15210,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2496,
       "zh": 4199
+    }
+  },
+  {
+    "slug": "sentinel-frequency",
+    "fileNo": "A-352",
+    "cover": "assets/covers/A-352-sentinel-frequency.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Sentinel Frequency",
+        "zh": "哨兵频率"
+      },
+      "description": {
+        "en": "When a retired auditor picks up an emergency radio transmission, she uncovers a calculated act of abandonment hidden behind corporate paperwork.",
+        "zh": "当一名退休审计员接收到一段紧急无线电信号时，她揭开了隐藏在公司文件背后的精心算计的遗弃行为。"
+      }
+    },
+    "title": {
+      "en": "The Sentinel Frequency",
+      "zh": "哨兵频率"
+    },
+    "category": {
+      "en": "Family Drama & Mystery",
+      "zh": "家庭悬疑与情感"
+    },
+    "summary": {
+      "en": "After receiving a distress call on her ham radio scanner, a retired estate auditor travels into a mountain pass to rescue her nephew—and exposes a paper trail of deliberate neglect.",
+      "zh": "在业余无线电扫描仪上收到求救信号后，一名退休财产审计员深入山隘救出了她的侄孙，并揭露了一份记录着精心蓄意遗弃行为的纸质证据链。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of child neglect, family deception, and legal investigation.",
+      "zh": "虚构故事。包含儿童忽视、家庭欺瞒及法律调查等主题。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "SF",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2116,
+      "zh": 3872
     }
   }
 ];
