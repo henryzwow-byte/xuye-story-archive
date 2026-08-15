@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a361-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a362-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15650,6 +15650,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1933,
       "zh": 3684
+    }
+  },
+  {
+    "slug": "the-tide-at-point-solitude",
+    "fileNo": "A-362",
+    "cover": "assets/covers/A-362-the-tide-at-point-solitude.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide at Point Solitude",
+        "zh": "孤独角的海潮"
+      },
+      "description": {
+        "en": "An original story of quiet sacrifice, toxic familial entitlement, and the decisive reclamation of dignity.",
+        "zh": "一部关于默然付出、毒性家族特权与果断夺回尊严的原创故事。"
+      }
+    },
+    "title": {
+      "en": "The Tide at Point Solitude",
+      "zh": "孤独角的海潮"
+    },
+    "category": {
+      "en": "Family Drama & Realism",
+      "zh": "家庭戏剧 / 现实主义"
+    },
+    "summary": {
+      "en": "Structural architect Gareth Vance spent seven years quietly funding the ecological survival of his ancestral coastal estate. When his mother turns his daughter away from the family gala, a dark-blue trust ledger redrafts the boundaries of legacy and love.",
+      "zh": "建筑结构工程师加雷斯·凡斯倾注七年心血与资金，默然守护着祖传海滨庄园的生存。然而当母亲在夏至晚宴上将他的女儿拒之门外时，一本深蓝色的信托卷宗彻底重绘了传承与亲情的界限。"
+    },
+    "warning": {
+      "en": "Fictional story. Explores themes of emotional mistreatment, familial entitlement, and property disputes. Contains no graphic violence or inappropriate content.",
+      "zh": "虚构故事。探讨情感虐待、家族特权及财产纠纷等主题。无暴力血腥或不良导向内容。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "PS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3293,
+      "zh": 5715
     }
   }
 ];
