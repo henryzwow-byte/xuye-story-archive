@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a364-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a365-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15782,6 +15782,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2210,
       "zh": 3854
+    }
+  },
+  {
+    "slug": "cedar-and-iron",
+    "fileNo": "A-365",
+    "cover": "assets/covers/A-365-cedar-and-iron.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Cedar and Iron",
+        "zh": "雪松与铁器"
+      },
+      "description": {
+        "en": "A story of family betrayal, forensic title auditing, and a grandfather's hidden timber legacy.",
+        "zh": "一段关于家族背叛、不动产权属审计与祖父隐藏雪松遗产的故事。"
+      }
+    },
+    "title": {
+      "en": "Cedar and Iron",
+      "zh": "雪松与铁器"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When her stepmother publicly throws a deceased grandfather's wooden keepsake into a fountain, architectural conservator Laurel Vance recovers the artifact and uncovers a multi-million-dollar land forgery scheme.",
+      "zh": "当继母在宴会上公开将过世祖父的木制遗物丢入喷泉时，建筑修复师劳蕾尔·范斯收回遗物，并揭开了一起涉案数百万美元的土地产权伪造案。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, financial fraud, and verbal mistreatment.",
+      "zh": "虚构故事。包含家庭疏离、财务欺诈与言语虐待主题。"
+    },
+    "tone": "Copper",
+    "glyph": "CI",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2946,
+      "zh": 5437
     }
   }
 ];
