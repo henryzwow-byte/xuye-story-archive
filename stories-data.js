@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a349-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a350-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15122,6 +15122,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2489,
       "zh": 4429
+    }
+  },
+  {
+    "slug": "rimrock-eagle",
+    "fileNo": "A-350",
+    "cover": "assets/covers/A-350-rimrock-eagle.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Rimrock Eagle",
+        "zh": "崖脊之鹰"
+      },
+      "description": {
+        "en": "On a scorching West Texas mesa, a grandfather and grandson save a wounded golden eagle, forging an unbreakable bond amidst land disputes and quiet healing.",
+        "zh": "在灼热的西德克萨斯高原上，一对祖孙救起一只受伤的金雕，在土地纠纷与默契疗愈中铸就了不可动摇的纽带。"
+      }
+    },
+    "title": {
+      "en": "The Rimrock Eagle",
+      "zh": "崖脊之鹰"
+    },
+    "category": {
+      "en": "Western Fiction",
+      "zh": "西部小说"
+    },
+    "summary": {
+      "en": "When a sullen teenager is sent to his grandfather's remote Texas ranch, the discovery of a trapped golden eagle forces them to work together against environmental elements and a corrupt land inspector.",
+      "zh": "当一名性格孤僻的少年被送到外公偏远的德克萨斯农场时，一只陷落受困的金雕迫使他们携手应对恶劣的自然环境与贪婪的土地稽查员。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family strain, animal injury, land disputes, and legal tension.",
+      "zh": "虚构故事。包含家庭疏离、动物受伤、土地纠纷与法律紧张局势的温和主题。"
+    },
+    "tone": "amber",
+    "glyph": "RE",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2120,
+      "zh": 3452
     }
   }
 ];
