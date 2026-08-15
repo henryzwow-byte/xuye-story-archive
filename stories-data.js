@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a362-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a363-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15694,6 +15694,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3293,
       "zh": 5715
+    }
+  },
+  {
+    "slug": "the-tide-glass-archive",
+    "fileNo": "A-363",
+    "cover": "assets/covers/A-363-the-tide-glass-archive.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Tide-Glass Archive",
+        "zh": "潮璃档案馆"
+      },
+      "description": {
+        "en": "When an unexpected storm brings a woman and her nephew seeking shelter at a coastal timber shop, a buried environmental secret comes to light.",
+        "zh": "当一场突如其来的暴风雨将一对求助的姨甥带到海岸木艺工坊，一段尘封的环境罪案秘密浮出水面。"
+      }
+    },
+    "title": {
+      "en": "The Tide-Glass Archive",
+      "zh": "潮璃档案馆"
+    },
+    "category": {
+      "en": "Coastal Mystery / Drama",
+      "zh": "海岸悬疑 / 正剧"
+    },
+    "summary": {
+      "en": "A timber framing carpenter clearing his late sister's coastal workshop is drawn into a high-stakes struggle when unexpected visitors arrive with a brass cylinder containing evidence of toxic dumping.",
+      "zh": "一名整理过世姐姐海岸工坊的木构匠人，在一对带着装有有毒废料排放证据的黄铜圆筒的意访客到来后，卷入了一场惊心动魄的正义较量。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of familial loss, corporate crime, and evasive confrontation. All characters and events are fictitious.",
+      "zh": "虚构故事。包含亲人离世、企业犯罪及对峙等温和主题。所有人物与事件纯属虚构。"
+    },
+    "tone": "slate",
+    "glyph": "TG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2534,
+      "zh": 4142
     }
   }
 ];
