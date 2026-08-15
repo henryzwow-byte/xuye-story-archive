@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a343-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a344-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14858,6 +14858,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2274,
       "zh": 4148
+    }
+  },
+  {
+    "slug": "the-timber-seal",
+    "fileNo": "A-344",
+    "cover": "assets/covers/A-344-the-timber-seal.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Seal",
+        "zh": "木印成章"
+      },
+      "description": {
+        "en": "Returning from years of high-risk mountain restoration, structural engineer Mark Vance discovers his family has forged his professional seal on a compromised coastal resort—setting off a tense showdown over integrity, wealth, and truth.",
+        "zh": "多年从山地险境抢险修复归来的结构工程师马克·凡斯，发现家族伪造了他的专业工程印章以掩盖危楼隐患，一场关乎诚信、财富与真相的较量在悬崖宴会上轰然爆发。"
+      }
+    },
+    "title": {
+      "en": "The Timber Seal",
+      "zh": "木印成章"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A decorated structural engineer returns home to find his brother and mother using his credentials to cover up hazardous construction on a high-stakes heritage project, forcing a public reckoning atop the rain-swept bluffs.",
+      "zh": "一位屡获殊荣的结构工程师回到故乡，发现母亲与同母异父的哥哥盗用其资历掩盖重大工程安全隐患，他选择在雨夜的遗产揭幕宴会上公开发表反击。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial deception, emotional conflict, and professional ethics disputes.",
+      "zh": "虚构故事。包含家族欺诈、情感冲突与职业伦理争议主题。"
+    },
+    "tone": "Cedar",
+    "glyph": "TS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2183,
+      "zh": 3951
     }
   }
 ];
