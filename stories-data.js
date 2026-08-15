@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a336-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a337-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14550,6 +14550,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3123,
       "zh": 5539
+    }
+  },
+  {
+    "slug": "the-ledger-between-tides",
+    "fileNo": "A-337",
+    "cover": "assets/covers/A-337-the-ledger-between-tides.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ledger Between Tides",
+        "zh": "潮汐之间的账本"
+      },
+      "description": {
+        "en": "Eighteen months after a painful divorce, Julian finds his ex-wife defending a Pacific Northwest tidal reserve alone while hiding a debilitating condition.",
+        "zh": "离婚十八个月后，朱利安发现前妻独自守护着太平洋西北部的一片潮汐保护区，同时隐瞒着自身日益加重的慢性病。"
+      }
+    },
+    "title": {
+      "en": "The Ledger Between Tides",
+      "zh": "潮汐之间的账本"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "When timber craftsman Julian Vance unexpectedly crosses paths with his estranged ex-wife Clara in a damp coastal county archive, he uncovers the silent struggle she has been fighting alone—and realizes that repairing what broke between them requires more than remorse.",
+      "zh": "当木匠朱利安·凡斯在一个阴冷的沿海县档案室里意外重逢前妻克拉拉时，他揭开了一场她独自咬牙坚持的默然抗争，并意识到要修复两人之间崩塌的一切，需要的远不止悔恨。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of divorce, chronic illness symptoms, and emotional stress.",
+      "zh": "虚构故事。包含有关离婚、慢性病症状及心理压力的描写。"
+    },
+    "tone": "Moody",
+    "glyph": "TK",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2597,
+      "zh": 4192
     }
   }
 ];
