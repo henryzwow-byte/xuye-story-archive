@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a340-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a341-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14726,6 +14726,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2478,
       "zh": 4218
+    }
+  },
+  {
+    "slug": "juniper-ridge-owl",
+    "fileNo": "A-341",
+    "cover": "assets/covers/A-341-juniper-ridge-owl.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Owl of Juniper Ridge",
+        "zh": "朱尼珀山脊的刺网之枭"
+      },
+      "description": {
+        "en": "An injured Great Horned Owl found tangled in a wire fence leads a mechanic and an agronomist to a missing hydrologist lost in an abandoned mountain shaft.",
+        "zh": "一只缠绕在铁丝网上的受伤大角鸮，引导着一名机械师与一位农学专家找到了失踪在废弃矿井深处的水文学家。"
+      }
+    },
+    "title": {
+      "en": "The Owl of Juniper Ridge",
+      "zh": "朱尼珀山脊的刺网之枭"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构故事"
+    },
+    "summary": {
+      "en": "When a solar pump mechanic stops to rescue a trapped Great Horned Owl along a dusty orchard road, a strange brass token entangled in its talons uncovers an urgent rescue mission in the high mountain canyons.",
+      "zh": "当一名水泵修理工在尘土飞扬的果园路边停下救助一只困在刺网上的大角鸮时，猛禽爪间缠绕的一枚神秘黄铜代币揭开了一场位于高山峡谷中的紧迫救援。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of wilderness rescue and animal injury.",
+      "zh": "虚构故事。包含轻度的野外救援与动物受伤情节。"
+    },
+    "tone": "Copper",
+    "glyph": "JR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2817,
+      "zh": 4612
     }
   }
 ];
