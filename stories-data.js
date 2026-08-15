@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a353-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a354-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -15298,6 +15298,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2274,
       "zh": 3696
+    }
+  },
+  {
+    "slug": "the-orchard-ledger",
+    "fileNo": "A-354",
+    "cover": "assets/covers/A-354-the-orchard-ledger.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Orchard Ledger",
+        "zh": "果园账本"
+      },
+      "description": {
+        "en": "A story of family betrayal, quiet vigilance, and reclaimed land in the Catskill hills.",
+        "zh": "关于卡茨基尔丘陵地带家庭背叛、沉静警惕与赎回土地的虚构故事。"
+      }
+    },
+    "title": {
+      "en": "The Orchard Ledger",
+      "zh": "果园账本"
+    },
+    "category": {
+      "en": "Drama & Mystery",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When Clara's ambitious relative secretly mortgages her family's honey meadow to a resort developer, an unremembered detail recorded in her daughter's forestry camera turns the tide.",
+      "zh": "当克拉拉野心勃勃的亲戚暗中将家族的蜜源草场抵押给度假村开发商时，女儿林业相机中记录的一个细节扭转了局势。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial deception, financial fraud, and land boundary disputes.",
+      "zh": "虚构故事。包含家庭欺诈、财务背叛及土地产权纠纷相关主题。"
+    },
+    "tone": "Amber",
+    "glyph": "OL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2603,
+      "zh": 4442
     }
   }
 ];
