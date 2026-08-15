@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a370-v1";
+window.STORY_ARCHIVE_VERSION = "20260815-a371-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16046,6 +16046,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2396,
       "zh": 4338
+    }
+  },
+  {
+    "slug": "the-cold-beacon",
+    "fileNo": "A-371",
+    "cover": "assets/covers/A-371-the-cold-beacon.png",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cold Beacon",
+        "zh": "寒海信标"
+      },
+      "description": {
+        "en": "An atmospheric bilingual story of endurance, truth, and reclaiming independence along the stormy Pacific coast.",
+        "zh": "讲述在风暴频发的风暴海岸上，关于坚韧、真相与重获独立的动人双语故事。"
+      }
+    },
+    "title": {
+      "en": "The Cold Beacon",
+      "zh": "寒海信标"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "现代戏剧"
+    },
+    "summary": {
+      "en": "Trapped in an unheated annex during a coastal ice storm, Clara is abandoned by her husband Julian for a family vanity gala. Armed with emergency telemetry logs and security data, she reclaims her life.",
+      "zh": "在一场沿海冰暴中，克拉拉被困在无暖气的配房里，丈夫朱利安却为了虚荣晚宴将她抛弃。凭借应急遥测日志与安全数据，她夺回了自己的生活。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of structural collapse, domestic neglect, and hypothermia.",
+      "zh": "虚构故事。包含建筑结构倒塌、家庭疏忽与失温描绘。"
+    },
+    "tone": "stark",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3241,
+      "zh": 5711
     }
   }
 ];
