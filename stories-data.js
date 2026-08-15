@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260814-a345-v1";
+window.STORY_ARCHIVE_VERSION = "20260814-a346-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -14946,6 +14946,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2614,
       "zh": 4649
+    }
+  },
+  {
+    "slug": "blackwood-trestle-verdict",
+    "fileNo": "A-346",
+    "cover": "assets/covers/A-346-blackwood-trestle-verdict.png",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Gravity of Timber and Steel",
+        "zh": "木石与钢铁之重"
+      },
+      "description": {
+        "en": "A retired engineer risks everything on a slick railway platform to save her son, turning workplace humiliation into a triumph of truth.",
+        "zh": "一位退役工程专家在湿滑的铁轨平台上不惜牺牲自己救下儿子，将工作场所的羞辱化为真理的胜利。"
+      }
+    },
+    "title": {
+      "en": "The Gravity of Timber and Steel",
+      "zh": "木石与钢铁之重"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a runaway ballast car threatens a mountain rail ceremony, retired structural engineer Sarah Vance intervenes to save her son, sparking a confrontation that uncovers structural negligence.",
+      "zh": "当一辆失控的碎石车危及山区铁路竣工仪式时，退役结构工程师莎拉·范斯果断出手救下儿子，并在一场激烈的对峙中揭露了严重违规行为。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of workplace safety hazards, physical injury recovery, and tense verbal confrontation.",
+      "zh": "虚构故事。包含工作场所安全隐患、身体损伤恢复以及紧张口头对抗等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "BT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2509,
+      "zh": 4132
     }
   }
 ];
