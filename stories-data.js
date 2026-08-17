@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a402-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a403-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17454,6 +17454,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2562,
       "zh": 4342
+    }
+  },
+  {
+    "slug": "the-architects-covenant",
+    "fileNo": "A-403",
+    "cover": "assets/covers/A-403-the-architects-covenant.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Architect's Covenant",
+        "zh": "建筑师的誓约"
+      },
+      "description": {
+        "en": "During a high-stakes waterfront merger gala in Chicago, chief architect Julian Vance faces a dramatic turning point when his former partner reveals a suppressed structural audit and the son he never knew.",
+        "zh": "在芝加哥一场备受瞩目的水岸并购晚宴上，首席建筑师朱利安·范斯面临人生转折点。昔日搭档带着被隐瞒的结构审计报告以及他从不知道存在的儿子意外现身。"
+      }
+    },
+    "title": {
+      "en": "The Architect's Covenant",
+      "zh": "建筑师的誓约"
+    },
+    "category": {
+      "en": "Fiction / Contemporary Drama",
+      "zh": "小说 / 现代戏剧"
+    },
+    "summary": {
+      "en": "During a prestigious waterfront merger gala in Chicago, chief architect Julian Vance faces a turning point when his former partner Nora Linwood appears with suppressed structural audits and the four-year-old son he never knew existed.",
+      "zh": "在芝加哥一场备受瞩目的水岸并购晚宴上，首席建筑师朱利安·范斯面临人生转折点。昔日搭档诺拉·林伍德带着被隐瞒的结构审计报告以及他从不知道存在的四岁儿子意外现身。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate deception, family conflict, and high-stakes emotional confrontation.",
+      "zh": "虚构故事。包含企业欺诈、家庭冲突及高风险情感对抗主题。"
+    },
+    "tone": "Slate",
+    "glyph": "AC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2738,
+      "zh": 4769
     }
   }
 ];
