@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a410-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a411-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17806,6 +17806,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2752,
       "zh": 4323
+    }
+  },
+  {
+    "slug": "the-harbor-audit",
+    "fileNo": "A-411",
+    "cover": "assets/covers/A-411-the-harbor-audit.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Harbor Audit",
+        "zh": "港湾审计"
+      },
+      "description": {
+        "en": "A night-shift hull inspector in Seattle discovers executive secrets, facing corporate pressure to protect his son's medical care and maintain his integrity.",
+        "zh": "西雅图一名夜班船体检验员发现了高层秘密，在保护儿子医疗救助与坚守职业道德之间面对企业权谋的抉择。"
+      }
+    },
+    "title": {
+      "en": "The Harbor Audit",
+      "zh": "港湾审计"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a widowed marine inspector discovers hidden structural flaws on a flagship cargo vessel, he is drawn into a high-stakes corporate power struggle where his son's medical future is used as leverage.",
+      "zh": "一名丧偶的船舶检验员发现旗舰货轮被人隐瞒了结构缺陷，随即卷入公司高层的权力斗争，对手甚至拿他儿子的治疗前景作为要挟。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate integrity, workplace ethics, and family financial pressure.",
+      "zh": "虚构故事。包含企业诚信、职业道德及家庭经济压力主题。"
+    },
+    "tone": "Cobalt",
+    "glyph": "HA",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3019,
+      "zh": 5104
     }
   }
 ];
