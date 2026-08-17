@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a387-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a388-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16794,6 +16794,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2116,
       "zh": 3952
+    }
+  },
+  {
+    "slug": "coldwater-ridge-ledger",
+    "fileNo": "A-388",
+    "cover": "assets/covers/A-388-coldwater-ridge-ledger.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Coldwater Ridge Ledger",
+        "zh": "《寒水脊的账簿》"
+      },
+      "description": {
+        "en": "A timber inspector uncovers an environmental conspiracy after his supposedly deceased uncle leaves a clue hidden in a forest survey tool.",
+        "zh": "木材检验员在一件森林调查工具中发现了去世叔叔留下的线索，进而揭开了一场环境阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Coldwater Ridge Ledger",
+      "zh": "《寒水脊的账簿》"
+    },
+    "category": {
+      "en": "Mystery & Suspense",
+      "zh": "悬疑推理"
+    },
+    "summary": {
+      "en": "When timber inspector Harlan Miller attends his late uncle’s mill auction in the Cascade Mountains, an unexpected clue leads him to a remote fire lookout, uncovering a vast watershed conspiracy.",
+      "zh": "木材检验员哈伦·米勒参加去世叔叔位于喀斯喀特山脉的木材厂拍卖会时，一个意外的线索将他引向偏远火情展望塔，揭开了一场巨大的水源地阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, corporate fraud, and psychological suspense.",
+      "zh": "虚构故事。包含家庭疏离、企业欺诈及心理悬疑主题。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "CR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3128,
+      "zh": 5201
     }
   }
 ];
