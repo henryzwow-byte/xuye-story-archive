@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a404-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a405-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17542,6 +17542,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2145,
       "zh": 3966
+    }
+  },
+  {
+    "slug": "ironwood-tides",
+    "fileNo": "A-405",
+    "cover": "assets/covers/A-405-ironwood-tides.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Ironwood Tides: A Story of Hidden Preservation",
+        "zh": "铁木潮涌：关于隐秘守护的故事"
+      },
+      "description": {
+        "en": "When a family tries to liquidate a historic Maine dockyard for profit, a quiet library archivist reveals who actually holds the title to the shore.",
+        "zh": "当亲戚们试图变卖缅因州一座历史悠久的造船厂谋取暴利时，一位安静的图书档案员揭开了谁才是这片海岸真正持有者的真相。"
+      }
+    },
+    "title": {
+      "en": "Ironwood Tides",
+      "zh": "铁木潮涌"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Gathering at a coastal Maine maritime center for her great-aunt's birthday, Tessa Vance faces condescension from wealthy relatives determined to sell the historic slipway. But her quiet archival work conceals a far greater stake in the land than they ever imagined.",
+      "zh": "在缅因州一座沿海海洋保护中心参加姨祖母的八十寿宴时，特莎·凡斯遭到了一心想出售历史船坞的富有亲戚的轻视。然而，她安静的档案工作背后，隐藏着远超他们想象的产权与守护。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family conflict and financial friction.",
+      "zh": "虚构故事。包含轻微的家庭冲突与财务摩擦主题。"
+    },
+    "tone": "weathered",
+    "glyph": "IT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3203,
+      "zh": 5416
     }
   }
 ];
