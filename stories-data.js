@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a386-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a387-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16750,6 +16750,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2393,
       "zh": 4197
+    }
+  },
+  {
+    "slug": "timber-trust-betrayal",
+    "fileNo": "A-387",
+    "cover": "assets/covers/A-387-timber-trust-betrayal.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Timber Trust Betrayal: A Story of Protection and Resilience",
+        "zh": "木材信托背叛案：保护与坚韧的故事"
+      },
+      "description": {
+        "en": "When a woodworker discovers his sister's trusted caregiver is altering her medication to steal family land, he gathers hidden evidence to stop the plot.",
+        "zh": "当一名木工发现妹妹信任的照护者通过篡改药物试图窃取家族土地时，他搜集隐蔽证据制止了这场阴谋。"
+      }
+    },
+    "title": {
+      "en": "Timber Trust Betrayal",
+      "zh": "木材信托背叛案"
+    },
+    "category": {
+      "en": "Suspense & Drama",
+      "zh": "悬疑与戏剧"
+    },
+    "summary": {
+      "en": "In a Oregon timber township, artisan woodworker Caleb Vance builds a sanctuary for his brain-injured sister, only to uncover that her refined private caregiver is secretly sedating her to steal their inherited timber estate.",
+      "zh": "在俄勒冈州的一个木材小镇，手艺木工卡莱布·范斯为受脑伤的妹妹打造了一座避风港，却意外发现妹妹举止文雅的私人照护者正在暗中对其使用镇静剂，企图窃取他们继承的木材地产。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of vulnerable adult exploitation, financial fraud, medical mistrust, and legal resolution. All characters and situations are entirely fictional.",
+      "zh": "虚构故事。包含针对易受伤害成年人的剥削、财务欺诈、医疗不信任及法律解决相关主题。所有角色和情节均为虚构。"
+    },
+    "tone": "Slate",
+    "glyph": "TV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2116,
+      "zh": 3952
     }
   }
 ];
