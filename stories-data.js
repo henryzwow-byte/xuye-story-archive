@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a382-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a383-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16574,6 +16574,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2560,
       "zh": 4375
+    }
+  },
+  {
+    "slug": "timber-haven-reckoning",
+    "fileNo": "A-383",
+    "cover": "assets/covers/A-383-timber-haven-reckoning.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Timber Haven Reckoning",
+        "zh": "雪松港的抉择"
+      },
+      "description": {
+        "en": "A widowed mother stands her ground against familial coercion and financial extortion at an elite coastal estate.",
+        "zh": "一位单亲母亲在海滨庄园面对家族的道德绑架与财务胁迫，坚决捍卫自身的尊严与孩子的未来。"
+      }
+    },
+    "title": {
+      "en": "Timber Haven Reckoning",
+      "zh": "雪松港的抉择"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "When her wealthy family demands she sacrifice her late husband's workshop estate to cover her sister's reckless debts, Clara Thorne chooses justice over filial submission.",
+      "zh": "当富有而专制的家族要求克拉拉·索恩牺牲亡夫留下的木艺工坊以偿还妹妹的荒唐债务时，她选择打破沉默，用法律与真相捍卫属于自己与女儿的生活。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts psychological coercion, family conflict, unlawful detainment, and property damage.",
+      "zh": "虚构故事。包含家庭心理胁迫、冲突、非法拘禁及财产损坏情节。"
+    },
+    "tone": "Stark",
+    "glyph": "TH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2697,
+      "zh": 4830
     }
   }
 ];
