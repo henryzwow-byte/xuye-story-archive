@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a407-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a408-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17674,6 +17674,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2638,
       "zh": 4611
+    }
+  },
+  {
+    "slug": "the-timber-mill-covenant",
+    "fileNo": "A-408",
+    "cover": "assets/covers/A-408-the-timber-mill-covenant.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Mill Covenant",
+        "zh": "木坊圣契"
+      },
+      "description": {
+        "en": "When her husband's family claimed her historic restoration project as their own, Clara withdrew her license and left them with the true ledger.",
+        "zh": "当丈夫一家将她一手修缮的历史木坊据为己有，克拉拉撤回了所有运营许可，留给他们一份残酷的真实账册。"
+      }
+    },
+    "title": {
+      "en": "The Timber Mill Covenant",
+      "zh": "木坊圣契"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "For five years, structural engineer Clara Vance funded and restored the historic Blackwood Timber Mill. But at the grand reopening banquet, when her husband and mother-in-law publicly demoted her to staff status and pledged the estate as collateral, Clara quietly pulled the plug on the entire operation.",
+      "zh": "五年来，结构工程师克拉拉·范斯倾尽所有资助并修复了具有历史意义的黑木木坊。然而在隆重的落成晚宴上，丈夫与婆婆竟公开将她降为辅助人员，并擅自将地产质押出去。克拉拉冷静地撤销了所有商业许可与资金担保，让真相在众目睽睽下彰显。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital financial exploitation, family manipulation, and emotional conflict.",
+      "zh": "虚构故事。包含婚姻财务剥削、家庭操纵与情感冲突主题。"
+    },
+    "tone": "Amber",
+    "glyph": "TM",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2340,
+      "zh": 3869
     }
   }
 ];
