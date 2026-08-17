@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a397-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a398-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17234,6 +17234,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2881,
       "zh": 4966
+    }
+  },
+  {
+    "slug": "the-cider-mill-ledger",
+    "fileNo": "A-398",
+    "cover": "assets/covers/A-398-the-cider-mill-ledger.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cider Mill Ledger",
+        "zh": "苹果酒厂的隐秘账本"
+      },
+      "description": {
+        "en": "When an ambitious investment family attempts a predatory land grab of an ancestral timber mill, a retired surveyor and his estranged archivist sister unite to protect his daughter.",
+        "zh": "当一个野心勃勃的投资家族企图强占一座祖传木材酒厂时，一位退休测绘师与他疏远的档案馆员姐姐联手保护女儿。"
+      }
+    },
+    "title": {
+      "en": "The Cider Mill Ledger",
+      "zh": "苹果酒厂的隐秘账本"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "A night of betrayal at an historic Hudson Valley cider mill forces an architectural restorer to flee with forged documents. Her father, a retired surveyor, untangles a high-stakes corporate land trap with the help of his estranged sister.",
+      "zh": "一座位于哈德逊河谷的历史苹果酒厂夜半发生背叛，一位建筑修复师带着被篡改的文件逃离。她的父亲——一位退休测绘师，在疏远的姐姐协助下解开了这场高风险的商业地产陷阱。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts corporate coercion, financial fraud, and family conflict. All characters, locations, and events are purely fictional products of creative imagination.",
+      "zh": "虚构故事。涉及商业胁迫、金融欺诈与家庭冲突。文中所有人物、地点及事件均为虚构。"
+    },
+    "tone": "Amber",
+    "glyph": "CL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2891,
+      "zh": 4894
     }
   }
 ];
