@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a383-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a384-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16618,6 +16618,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2697,
       "zh": 4830
+    }
+  },
+  {
+    "slug": "ash-and-iron-verdict",
+    "fileNo": "A-384",
+    "cover": "assets/covers/A-384-ash-and-iron-verdict.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Ash and Iron Verdict",
+        "zh": "灰烬与铁轨的裁决"
+      },
+      "description": {
+        "en": "A gripping tale of corporate intrigue, framed manifests, and trackside justice on the rain-soaked Oregon timber docks.",
+        "zh": "一段发生在俄勒冈州风雨交加的木材码头上，关于企业阴谋、伪造货单与铁轨正义的扣人心弦的故事。"
+      }
+    },
+    "title": {
+      "en": "Ash and Iron Verdict",
+      "zh": "灰烬与铁轨的裁决"
+    },
+    "category": {
+      "en": "Industrial Mystery",
+      "zh": "工业悬疑"
+    },
+    "summary": {
+      "en": "When manifest clerk Nora Hayes uncovers a toxic waste smuggling ring disguised as lumber shipments at her family's coastal dock, her corrupt corporate partner frames her for arson. Pursued through the sea fog, she flees on a midnight freight train, teaming up with a veteran signalman to expose the forgery before the maritime board.",
+      "zh": "当货单员诺拉·海斯在自家家族码头揭发了一起假借木材运输之名走私有毒废料的阴谋时，腐败的企业合伙人陷害她企图纵火。在海雾中遭受追捕的她搭上一列午夜货运列车逃离，并与一位资深信号员联手，赶在海事局听证会上揭露伪造单据的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts corporate betrayal, workplace intimidation, and legal proceedings.",
+      "zh": "虚构故事。涉及企业背叛、职场恐吓及法律诉讼内容。"
+    },
+    "tone": "Industrial",
+    "glyph": "NH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2284,
+      "zh": 3947
     }
   }
 ];
