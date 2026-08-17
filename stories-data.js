@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a390-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a391-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16926,6 +16926,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2332,
       "zh": 4547
+    }
+  },
+  {
+    "slug": "the-harbor-ledger",
+    "fileNo": "A-391",
+    "cover": "assets/covers/A-391-the-harbor-ledger.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Harbor Ledger",
+        "zh": "港岸账本"
+      },
+      "description": {
+        "en": "A marine engineer discovers his young son working for scraps on a freezing dock, unraveling a three-year web of family deceit and stolen trust.",
+        "zh": "一位海洋工程师在寒冷的码头上发现幼子靠打零工维生，由此揭开了长达三年的家族谎言与被窃取的信任。"
+      }
+    },
+    "title": {
+      "en": "The Harbor Ledger",
+      "zh": "港岸账本"
+    },
+    "category": {
+      "en": "Family Drama & Mystery",
+      "zh": "家庭悬疑"
+    },
+    "summary": {
+      "en": "When marine engineer Julian Vance finds his child crouched under oilcloth on a rainy Washington pier, he realizes the monthly support he sent was stolen by his own aunt. Confronting his past at a high-society gala, Julian uncovers forged records and a dockmaster's ledger that rewrite three bitter years.",
+      "zh": "当海洋工程师朱利安·凡斯在雨夜的华盛顿码头油布下发现自己的孩子时，他意识到自己每月汇出的抚养费早已被亲姑姑私吞。在名流晚会上，朱利安揭开了伪造的文件与码头长保留的账本，重写了这充满苦涩的三年。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family deception, financial betrayal, and emotional hardship.",
+      "zh": "虚构故事。包含家族欺瞒、经济背叛及情感困境等主题。"
+    },
+    "tone": "amber",
+    "glyph": "HL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2500,
+      "zh": 4217
     }
   }
 ];
