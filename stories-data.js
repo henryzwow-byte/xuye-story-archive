@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a405-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a406-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17586,6 +17586,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3203,
       "zh": 5416
+    }
+  },
+  {
+    "slug": "the-bramblewood-charter",
+    "fileNo": "A-406",
+    "cover": "assets/covers/A-406-the-bramblewood-charter.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Bramblewood Charter",
+        "zh": "布莱姆伍德契约"
+      },
+      "description": {
+        "en": "When a ruthless developer moves to seize a historic maritime workshop, an archivist makes a stand that reveals a long-buried legacy.",
+        "zh": "当无情的地产商企图强占一座历史悠久的造船工坊，一位木质文物修复师挺身而出，揭开了一份尘封已久的历史契约。"
+      }
+    },
+    "title": {
+      "en": "The Bramblewood Charter",
+      "zh": "布莱姆伍德契约"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "An independent timber restorer fights to save a historic Maine maritime preserve from corporate foreclosure, uncovering an ancient land trust sealed inside a century-old sea chest.",
+      "zh": "一位独立的木质文物修复师奋力保护缅因州一座历史悠久的海岸造船工坊免遭企业强占，并在一只百年航海木箱中发现了尘封已久的公共土地信托契约。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate legal disputes, financial coercion, and property contention.",
+      "zh": "虚构故事。包含企业法律纠纷、财务胁迫及财产争端主题。"
+    },
+    "tone": "slate-blue",
+    "glyph": "BC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2132,
+      "zh": 3700
     }
   }
 ];
