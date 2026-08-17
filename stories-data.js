@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a414-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a415-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17982,6 +17982,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3045,
       "zh": 5019
+    }
+  },
+  {
+    "slug": "silent-blueprint",
+    "fileNo": "A-415",
+    "cover": "assets/covers/A-415-silent-blueprint.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Blueprint",
+        "zh": "沉默的蓝图"
+      },
+      "description": {
+        "en": "An architect returns home early to find her identity, home, and legacy replaced by another woman.",
+        "zh": "一位建筑师提前归家，发现自己的身份、住宅与事业遗产皆已被另一名女子顶替。"
+      }
+    },
+    "title": {
+      "en": "The Silent Blueprint",
+      "zh": "沉默的蓝图"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Returning unannounced from a coastal bridge restoration project, structural architect Valerie Vance discovers her husband has substituted another woman into her life, business, and legal deeds.",
+      "zh": "结构建筑师华莱莉·梵斯结束沿海大桥修复项目提前无声归来，却发现丈夫已让另一名女子彻底顶替了她的生活、事业与法律产权。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital deception, corporate fraud, and emotional betrayal.",
+      "zh": "虚构故事。包含婚姻欺诈、企业骗局及情感背叛主题。"
+    },
+    "tone": "Slate",
+    "glyph": "SB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2580,
+      "zh": 4238
     }
   }
 ];
