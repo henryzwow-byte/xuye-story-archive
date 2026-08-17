@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a401-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a402-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17410,6 +17410,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2334,
       "zh": 4212
+    }
+  },
+  {
+    "slug": "the-silent-escapement",
+    "fileNo": "A-402",
+    "cover": "assets/covers/A-402-the-silent-escapement.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Escapement",
+        "zh": "无声的棘爪"
+      },
+      "description": {
+        "en": "When an arrogant developer tries to erase his ex-wife's heritage, a historic maritime secret changes everything.",
+        "zh": "当傲慢的地产商人企图抹去前妻的家族遗产时，一段尘封的航海钟表法案颠覆了一切。"
+      }
+    },
+    "title": {
+      "en": "The Silent Escapement",
+      "zh": "无声的棘爪"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "A historic horologist in coastal Washington reclaims her family's maritime legacy when her ex-husband attempts to convert her grandfather's clocktower into a luxury resort lounge.",
+      "zh": "在华盛顿州海岸，一位历史钟表修复师在前夫企图将她祖父留下的灯塔钟楼改造为奢华会所时，运用法律与家族遗产迎头痛击。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital divorce, corporate conflict, and family emotional stress.",
+      "zh": "虚构故事。包含婚姻破裂、企业利益冲突及家庭情感纠葛主题。"
+    },
+    "tone": "Luminous",
+    "glyph": "SE",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2562,
+      "zh": 4342
     }
   }
 ];
