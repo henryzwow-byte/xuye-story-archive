@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a379-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a380-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16442,6 +16442,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2023,
       "zh": 3588
+    }
+  },
+  {
+    "slug": "the-alderwood-ledger",
+    "fileNo": "A-380",
+    "cover": "assets/covers/A-380-the-alderwood-ledger.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Alderwood Ledger",
+        "zh": "奥尔德伍德手稿"
+      },
+      "description": {
+        "en": "A story of architectural betrayal, forged structural reports, and a woman reclaiming her heritage.",
+        "zh": "关于建筑背叛、伪造结构报告以及一位女性夺回家族遗产的虚构故事。"
+      }
+    },
+    "title": {
+      "en": "The Alderwood Ledger",
+      "zh": "奥尔德伍德手稿"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "When architectural conservator Evelyn Vane survives a coastal storm accident, she discovers her husband has forged structural failure reports to condemn her family's historic estate. Guided by hidden telemetry logs, she fights to expose the deception.",
+      "zh": "当建筑修复师埃弗林·韦恩在海岸风暴事故中幸存下来时，她发现丈夫伪造了结构失效报告以强行拆毁她家族的古老庄园。在隐秘数据记录的指引下，她誓要揭露这场阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital deception, emotional betrayal, and corporate fraud.",
+      "zh": "虚构故事。包含婚姻欺骗、情感背叛与商业欺诈主题。"
+    },
+    "tone": "Amber",
+    "glyph": "AL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1621,
+      "zh": 2855
     }
   }
 ];
