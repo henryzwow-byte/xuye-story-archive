@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a396-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a397-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17190,6 +17190,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2259,
       "zh": 3825
+    }
+  },
+  {
+    "slug": "mountain-relay-silent-signal",
+    "fileNo": "A-397",
+    "cover": "assets/covers/A-397-mountain-relay-silent-signal.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Signal at Summit Relay",
+        "zh": "顶峰中继站的沉寂信号"
+      },
+      "description": {
+        "en": "When an alpine rail junction freezes during a violent winter storm, an apprentice operator relies on legacy acoustic telemetry to save a runaway freight train.",
+        "zh": "当高山铁路枢纽在暴雪中冻结，一名年轻的实习接发员依靠传统声学遥测救下了一列失控货运列车。"
+      }
+    },
+    "title": {
+      "en": "The Silent Signal at Summit Relay",
+      "zh": "顶峰中继站的沉寂信号"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Stuck in an isolated mountain station during a severe ice storm, nineteen-year-old Clara Vance uses obscure acoustic line testing and her family's manual relay knowledge to avert a train derailment.",
+      "zh": "十九岁的克拉拉·凡斯在极寒冰暴中留守偏远的高山信号站，凭借冷门的声学线路检测与家族留下的手动中继知识，成功阻止了一场恶性列车脱轨事故。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains scenes of intense industrial emergency, harsh weather conditions, and high-stress decision-making under pressure.",
+      "zh": "虚构故事。包含紧张的工业应急、恶劣气候及高压下的决策场景。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "SR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2881,
+      "zh": 4966
     }
   }
 ];
