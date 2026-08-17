@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a416-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a417-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18070,6 +18070,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2217,
       "zh": 3713
+    }
+  },
+  {
+    "slug": "the-iron-alibi",
+    "fileNo": "A-417",
+    "cover": "assets/covers/A-417-the-iron-alibi.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Iron Alibi",
+        "zh": "钢铁之证"
+      },
+      "description": {
+        "en": "When her husband tries to frame her for historic restoration sabotage, metallurgical science reveals a truth he never expected.",
+        "zh": "当丈夫试图通过指控她破坏古建筑修缮来陷害她时，冶金力学检验揭露了他始料未及的真相。"
+      }
+    },
+    "title": {
+      "en": "The Iron Alibi",
+      "zh": "钢铁之证"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "A master iron restorer faces a predatory asset-strip attempt by her estranged husband, only for an archival materials test to turn the trap against him.",
+      "zh": "一位资深古建铁艺修复师遭遇分居丈夫的掠夺性财产陷害，然而一场档案级别的材料检测将陷阱反转，彻底撕碎了他的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of financial manipulation, marital distress, and high-tension legal conflicts.",
+      "zh": "虚构故事。包含婚姻纠纷、财务操纵及高压法律对抗相关剧情。"
+    },
+    "tone": "Steel",
+    "glyph": "ST",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2552,
+      "zh": 4222
     }
   }
 ];
