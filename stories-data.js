@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a384-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a385-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16662,6 +16662,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2284,
       "zh": 3947
+    }
+  },
+  {
+    "slug": "timber-and-tide",
+    "fileNo": "A-385",
+    "cover": "assets/covers/A-385-timber-and-tide.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Timber and Tide",
+        "zh": "木痕与潮汐"
+      },
+      "description": {
+        "en": "A master joiner fights to save her historic coastal mill against a ruthless developer until a hidden architectural cipher turns the tide.",
+        "zh": "一位木艺匠人为保住历史悠久的海滨木坊与冷酷的开发商抗争，直到一处隐秘的建筑暗记扭转了局势。"
+      }
+    },
+    "title": {
+      "en": "Timber and Tide",
+      "zh": "木痕与潮汐"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When developer Lyle Vance tries to expropriate Maeve Holloway's historic timber mill using a dubious land claim, an ancient craftsman's secret embedded within the mill's heartwood beam changes everything.",
+      "zh": "当开发商莱尔·梵斯试图利用一份含混的土地调拨协议强行征收梅芙·霍洛威的历史木坊时，藏在柱梁心木中的古老匠人秘密改变了一切。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of civil property disputes, corporate deceit, and emotional tension.",
+      "zh": "虚构故事。包含民事财产纠纷、企业欺诈及情感冲突描写。"
+    },
+    "tone": "amber",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2144,
+      "zh": 3558
     }
   }
 ];
