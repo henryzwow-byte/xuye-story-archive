@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a399-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a400-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17322,6 +17322,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2488,
       "zh": 4430
+    }
+  },
+  {
+    "slug": "copper-ridge-deed",
+    "fileNo": "A-400",
+    "cover": "assets/covers/A-400-copper-ridge-deed.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Copper Ridge Deed",
+        "zh": "铜脊木坊的土地契"
+      },
+      "description": {
+        "en": "When a young shipwright craftsman is threatened by her stepfather with eviction and the loss of her career, an archived municipal land covenant reveals a hidden legacy.",
+        "zh": "当一名年轻的造船女工面临继父的驱逐与事业剥夺时，一份尘封的市政土地契约揭开了一段被隐瞒的继承真相。"
+      }
+    },
+    "title": {
+      "en": "The Copper Ridge Deed",
+      "zh": "铜脊木坊的土地契"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "After receiving a prestigious maritime craft fellowship, Nora Vance faces demands from her stepfather and cousin to forfeit her career. Locked out of her family's timber yard, Nora uncovers a hidden land covenant that changes everything.",
+      "zh": "在获得顶尖海洋工艺奖学金后，诺拉·凡斯遭到继父与表哥的逼迫，要她放弃事业。被锁在自木工坊门外的诺拉，意外发现了母亲留下的隐秘土地契约，从而改变了一切。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family emotional conflict, eviction threats, and legal disputes over inherited property.",
+      "zh": "虚构故事。包含家庭情感冲突、驱逐威胁及关于继承财产的法律纠纷描绘。"
+    },
+    "tone": "amber",
+    "glyph": "CR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3422,
+      "zh": 5575
     }
   }
 ];
