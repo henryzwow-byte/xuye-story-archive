@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a385-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a386-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16706,6 +16706,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2144,
       "zh": 3558
+    }
+  },
+  {
+    "slug": "the-keeper-of-the-glass",
+    "fileNo": "A-386",
+    "cover": "assets/covers/A-386-the-keeper-of-the-glass.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Keeper of the Glass",
+        "zh": "玻璃账簿的守护者"
+      },
+      "description": {
+        "en": "A quiet archivist mocked at an estate reading turns the tables using hidden glass-plate negatives and an unshakeable legacy.",
+        "zh": "一名在遗嘱宣读会上受尽嘲讽的沉稳档案员，凭借隐秘的玻璃底片与不可动摇的信托继承逆转局势。"
+      }
+    },
+    "title": {
+      "en": "The Keeper of the Glass",
+      "zh": "玻璃账簿的守护者"
+    },
+    "category": {
+      "en": "Fictional Drama & Mystery",
+      "zh": "虚构戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When her step-sister publicizes her modest bequest of old drafting tools and glass negatives, conservator Clara Thorne uncovers a hidden stewardship trust that changes everything.",
+      "zh": "当继姐公开嘲笑她只继承了一盒旧绘图工具与玻璃底片时，古建筑修复师克拉拉·索恩揭开了隐藏的信托协议，彻底逆转了整场局势。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts corporate betrayal, probate disputes, and workplace hostility in a professional environment.",
+      "zh": "虚构故事。包含商业背叛、遗嘱继承纠纷及职场敌意情节。"
+    },
+    "tone": "amber",
+    "glyph": "KG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2393,
+      "zh": 4197
     }
   }
 ];
