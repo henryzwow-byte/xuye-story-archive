@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a400-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a401-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17366,6 +17366,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3422,
       "zh": 5575
+    }
+  },
+  {
+    "slug": "unbending-cedar",
+    "fileNo": "A-401",
+    "cover": "assets/covers/A-401-unbending-cedar.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Unbending Cedar",
+        "zh": "不屈雪松"
+      },
+      "description": {
+        "en": "When a retired craftsman's daughter and son-in-law try to seize his mountain sanctuary through forged deeds, he responds with undeniable evidence.",
+        "zh": "当一位退休木艺师的女儿和女婿试图通过伪造契约夺取他的山间圣所时，他用无可辩驳的证据发起了反击。"
+      }
+    },
+    "title": {
+      "en": "The Unbending Cedar",
+      "zh": "不屈雪松"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A retired master craftsman protects his mountain estate from his daughter and her scheming husband, exposing a fraudulent takeover with forensic precision.",
+      "zh": "一位退休的木艺大师保护自己的山庄遗作，对抗女儿与其野心勃勃的丈夫，用精密法证揭露了一场企图强占家产的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains family financial conflict, deceit, and themes of elder autonomy.",
+      "zh": "虚构故事。包含家庭财务纠纷、欺诈及长者自主权主题。"
+    },
+    "tone": "Amber",
+    "glyph": "UC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2334,
+      "zh": 4212
     }
   }
 ];
