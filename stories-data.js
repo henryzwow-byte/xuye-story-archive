@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a411-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a412-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17850,6 +17850,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3019,
       "zh": 5104
+    }
+  },
+  {
+    "slug": "harbor-lights-of-blackwood",
+    "fileNo": "A-412",
+    "cover": "assets/covers/A-412-harbor-lights-of-blackwood.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Harbor Lights of Blackwood",
+        "zh": "黑木港灯火"
+      },
+      "description": {
+        "en": "A storm brings an archivist in peril to a disciplined engineer's remote coastal workshop, unearthing truth and unexpected devotion.",
+        "zh": "暴风雨将一名面临危机的档案员带到了一位自律工程师的沿海工作坊，揭示了真相与意料之外的深情。"
+      }
+    },
+    "title": {
+      "en": "Harbor Lights of Blackwood",
+      "zh": "黑木港灯火"
+    },
+    "category": {
+      "en": "Romantic Suspense",
+      "zh": "浪漫悬疑"
+    },
+    "summary": {
+      "en": "When maritime archivist Evelyn Cross collapses in a coastal squall with a falsified harbor ledger, solitary engineer Julian Thorne opens his workshop door—and risks everything to guard her truth and earn her trust.",
+      "zh": "海事档案员艾芙琳·克罗斯带着一本揭露港口记录造假的原始日志，在沿海暴风雨中倒下。孤僻的工程师朱利安·索恩向她打开工作坊的大门，也冒险与她一同守住真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts severe weather distress, mild emotional tension, and corporate wrongdoing. Contains no graphic violence or medical procedures.",
+      "zh": "虚构故事。包含恶劣天气险情、情绪紧张和企业违法行为描写，无血腥暴力或医疗操作过程。"
+    },
+    "tone": "Indigo",
+    "glyph": "HB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2435,
+      "zh": 3886
     }
   }
 ];
