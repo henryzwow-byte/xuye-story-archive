@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a413-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a414-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17938,6 +17938,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2431,
       "zh": 4062
+    }
+  },
+  {
+    "slug": "the-mill-he-never-owned",
+    "fileNo": "A-414",
+    "cover": "assets/covers/A-414-the-mill-he-never-owned.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Mill He Never Owned",
+        "zh": "他从未拥有的木厂"
+      },
+      "description": {
+        "en": "A hidden deed gives a quiet craftswoman the proof she needs to reclaim her mill, her work, and her name.",
+        "zh": "一份尘封的地契，让一位沉默的匠人夺回木厂、心血与自己的名字。"
+      }
+    },
+    "title": {
+      "en": "The Mill He Never Owned",
+      "zh": "他从未拥有的木厂"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "When her ambitious husband casts her aside for a wealthy investor, Nora Vance answers with the deed beneath their historic coastal mill—and the bank records he thought no one would find.",
+      "zh": "野心勃勃的丈夫为了富有的投资人将她抛弃，诺拉·凡斯却亮出了百年海岸木厂的底契，以及他以为永远不会曝光的银行记录。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital infidelity, emotional betrayal, and financial dispute resolution.",
+      "zh": "虚构故事。包含婚姻不忠、情感背叛及财产纠纷解决等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "DM",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3045,
+      "zh": 5019
     }
   }
 ];
