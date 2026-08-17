@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a393-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a394-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17058,6 +17058,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2418,
       "zh": 4208
+    }
+  },
+  {
+    "slug": "the-timber-arch-verdict",
+    "fileNo": "A-394",
+    "cover": "assets/covers/A-394-the-timber-arch-verdict.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Arch Verdict",
+        "zh": "木拱门裁决"
+      },
+      "description": {
+        "en": "A disgraced structural engineer spends five years gathering cryptographic telemetry logs to reclaim her masterwork from corporate fraud.",
+        "zh": "一位身陷冤屈的结构工程师用五年时间搜集加密遥测日志，从企业欺诈中夺回属于自己的建筑杰作。"
+      }
+    },
+    "title": {
+      "en": "The Timber Arch Verdict",
+      "zh": "木拱门裁决"
+    },
+    "category": {
+      "en": "Fictional Narrative",
+      "zh": "虚构叙事"
+    },
+    "summary": {
+      "en": "Framed for structural failure on a flagship coastal pavilion, Nora Vance spent five quiet years analyzing raw stress telemetry. When her former partners attempt to coerce her into patching their dangerous flaws, she delivers a crushing audit at an architectural gala.",
+      "zh": "在旗舰海岸展馆项目中被诬陷为结构失误后，诺拉·万斯度过了平静的五年，潜心分析原始应力遥测数据。当曾经的合伙人试图胁迫她掩盖危险缺陷时，她在建筑盛典上提交了一份致命的审计报告。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of professional betrayal, corporate coercion, and legal disputes.",
+      "zh": "虚构故事。包含职业背叛、企业胁迫与法律纠纷主题。"
+    },
+    "tone": "Resilient",
+    "glyph": "TV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2092,
+      "zh": 3778
     }
   }
 ];
