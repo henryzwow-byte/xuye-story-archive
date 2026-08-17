@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a418-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a419-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18158,6 +18158,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2166,
       "zh": 3764
+    }
+  },
+  {
+    "slug": "the-orchard-below-the-byline",
+    "fileNo": "A-419",
+    "cover": "assets/covers/A-419-the-orchard-below-the-byline.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Orchard Below the Byline",
+        "zh": "署名之下的果园"
+      },
+      "description": {
+        "en": "A magazine byline erases the woman who saved an orchard, but deeds, permits, and twelve years of records restore the truth.",
+        "zh": "一行杂志署名抹去了拯救果园的女人，而契据、许可与十二年的账目最终还原了真相。"
+      }
+    },
+    "title": {
+      "en": "The Orchard Below the Byline",
+      "zh": "署名之下的果园"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "After twelve years saving her family's Hudson Valley orchard from foreclosure, Nora finds a luxury magazine crediting the estate to her sister and her sister's fiancé. The land records, financing files, and permits tell a different story—and force Nora to stop confusing rescue with love.",
+      "zh": "诺拉用了十二年才把哈德逊河谷的家族果园从法拍边缘救回，却在一本高端杂志上看到妹妹与准妹夫成了庄园的唯一功臣。土地档案、融资文件和经营许可讲述着另一个版本，也迫使她不再把无底线的拯救误认成爱。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial financial exploitation, emotional alienation, and legal disputes.",
+      "zh": "虚构故事。包含家庭经济剥削、情感疏离及法律纠纷相关主题。"
+    },
+    "tone": "Slate",
+    "glyph": "OB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2590,
+      "zh": 4535
     }
   }
 ];
