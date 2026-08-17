@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a392-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a393-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17014,6 +17014,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2142,
       "zh": 3754
+    }
+  },
+  {
+    "slug": "the-sealed-compass",
+    "fileNo": "A-393",
+    "cover": "assets/covers/A-393-the-sealed-compass.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Sealed Compass",
+        "zh": "密封的罗盘"
+      },
+      "description": {
+        "en": "A master naval restorer reclaims her legacy and autonomy when her family attempts to erase her work at a coastal gala.",
+        "zh": "在一场海岸盛宴上，当家人试图抹去她的贡献时，一位顶级造船修复师重获了自己的传承与自主权。"
+      }
+    },
+    "title": {
+      "en": "The Sealed Compass",
+      "zh": "密封的罗盘"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When Laurel is banished to a drafty timber shed during the grand opening of the maritime heritage center she spent three years restoring, a hidden codicil from her grandfather exposes years of family manipulation.",
+      "zh": "当劳伦在她倾注三年心血修复的海事遗产中心开幕盛典上被贬至透风的木材储藏棚时，祖父留下的隐藏遗嘱附录揭露了家人多年的操纵与谎言。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family emotional manipulation, financial exploitation, and non-violent interpersonal conflict.",
+      "zh": "虚构故事。包含家庭情感操纵、经济剥削与非暴力人际冲突描写。"
+    },
+    "tone": "coastal",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2418,
+      "zh": 4208
     }
   }
 ];
