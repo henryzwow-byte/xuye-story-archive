@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a394-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a395-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17102,6 +17102,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2092,
       "zh": 3778
+    }
+  },
+  {
+    "slug": "timber-creek-title",
+    "fileNo": "A-395",
+    "cover": "assets/covers/A-395-timber-creek-title.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Timber Creek Title",
+        "zh": "木溪产权记"
+      },
+      "description": {
+        "en": "When her sister-in-law locks her out of her self-funded studio, Nora Finch relies on documented facts and quiet resolve to reclaim her work.",
+        "zh": "当小姑子将诺拉锁在她自己出资建造的工作室门外时，诺拉凭借详实的账目与冷静的决心，重新夺回了自己的劳动成果与尊严。"
+      }
+    },
+    "title": {
+      "en": "Timber Creek Title",
+      "zh": "木溪产权记"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "After years of investing her separate inheritance into a remote Oregon workshop, a mother faces a sudden lockout by her overbearing sister-in-law. Guided by quiet legal facts and an uncle's steady support, she draws a line that forces her husband to choose between passive fear and domestic truth.",
+      "zh": "在将个人遗产投入俄勒冈州一处木工坊工作室多年后，一位年轻母亲突然遭到了专横小姑子的换锁封门。在详实账目与一位资深勘测员叔叔的支持下，她画出了一条清晰的界线，迫使丈夫在胆怯退缩与捍卫家庭真相之间做出抉择。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family property disputes, domestic boundary violations, and emotional pressure.",
+      "zh": "虚构故事。包含家庭财产争议、家庭界限侵犯及情感压力等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2210,
+      "zh": 3935
     }
   }
 ];
