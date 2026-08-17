@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a406-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a407-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17630,6 +17630,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2132,
       "zh": 3700
+    }
+  },
+  {
+    "slug": "heron-cove-sanctuary",
+    "fileNo": "A-407",
+    "cover": "assets/covers/A-407-heron-cove-sanctuary.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Heron Cove Sanctuary",
+        "zh": "鹭湾避风港"
+      },
+      "description": {
+        "en": "A story of family boundaries, coastal botanicals, and reclaiming dignity.",
+        "zh": "关于家庭界限、海岸植物与重获尊严的动人故事。"
+      }
+    },
+    "title": {
+      "en": "Heron Cove Sanctuary",
+      "zh": "鹭湾避风港"
+    },
+    "category": {
+      "en": "Family Fiction",
+      "zh": "家庭小说"
+    },
+    "summary": {
+      "en": "After years of working in a Seattle shipyard to buy her mother a coastal botanical nursery, Clara returns unannounced to find local relatives exploiting the estate.",
+      "zh": "在西雅图造船厂拼搏多年为母亲买下海岸植物园后，克拉拉未作通知回到家中，却发现当地亲戚正借机蚕食遗产并驱使母亲。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family financial boundary disputes and recovery of elder dignity. Contains no real-world legal advice.",
+      "zh": "虚构故事。涉及家庭财务界限纷争与保护长者尊严的主题，不含现实法律建议。"
+    },
+    "tone": "Coastal mist",
+    "glyph": "HC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2638,
+      "zh": 4611
     }
   }
 ];
