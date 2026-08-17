@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260815-a375-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a376-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16266,6 +16266,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2708,
       "zh": 4697
+    }
+  },
+  {
+    "slug": "fractured-lead",
+    "fileNo": "A-376",
+    "cover": "assets/covers/A-376-fractured-lead.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Fractured Lead",
+        "zh": "折光之断"
+      },
+      "description": {
+        "en": "When a junior restoration apprentice stands up to a corrupt studio director, she risks everything to uncover a high-stakes heritage fraud.",
+        "zh": "当一名年轻的玻璃修复学徒勇敢对抗腐败的工坊主管，她冒着失去一切的风险揭开了一场高额遗产欺诈案。"
+      }
+    },
+    "title": {
+      "en": "The Fractured Lead",
+      "zh": "折光之断"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "虚构小说 / 戏剧"
+    },
+    "summary": {
+      "en": "A young glass artisan in Seattle protects her aging mentor from an aggressive director, losing her job only to expose a high-stakes historical restoration scam.",
+      "zh": "西雅图的一位年轻玻璃工艺师保护受欺凌的老导师免遭霸道主管伤害，虽然惨遭解雇，却最终揭开了涉及高额历史文物修复的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of workplace confrontation, intimidation, and corporate fraud.",
+      "zh": "虚构故事。包含职场冲突、恐吓行为及企业欺诈的相关描写。"
+    },
+    "tone": "Prismatic",
+    "glyph": "FL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2721,
+      "zh": 4930
     }
   }
 ];
