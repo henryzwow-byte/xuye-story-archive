@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a376-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a377-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16310,6 +16310,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2721,
       "zh": 4930
+    }
+  },
+  {
+    "slug": "boundary-at-blackwood-bluff",
+    "fileNo": "A-377",
+    "cover": "assets/covers/A-377-boundary-at-blackwood-bluff.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Boundary at Blackwood Bluff",
+        "zh": "黑木崖的界线"
+      },
+      "description": {
+        "en": "Returning home after months at sea, an engineer finds her coastal estate seized for an unauthorized high-society gala.",
+        "zh": "远洋出海归来的工程师发现自己的海岸庄园被擅自据为己有，办起了高端商业晚宴。"
+      }
+    },
+    "title": {
+      "en": "Boundary at Blackwood Bluff",
+      "zh": "黑木崖的界线"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构"
+    },
+    "summary": {
+      "en": "When a maritime engineer returns to her Oregon cliffside workshop only to find her half-brother hosting an unpermitted corporate gala on her property, she uses legal documentation and municipal enforcement to reclaim her sanctuary.",
+      "zh": "当一位远洋结构工程师回到自己俄勒冈峭壁边的工坊，发现同父异母的弟弟擅自在其地产上举办未授权的企业晚宴时，她通过法律文件与市政执法收回了自己的避风港。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of family conflict, real estate trespass, and legal boundary enforcement.",
+      "zh": "虚构故事。包含家庭冲突、侵犯地产以及法律维权等主题。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "BB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2456,
+      "zh": 4279
     }
   }
 ];
