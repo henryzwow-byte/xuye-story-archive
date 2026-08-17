@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a377-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a378-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16354,6 +16354,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2456,
       "zh": 4279
+    }
+  },
+  {
+    "slug": "the-silent-gear",
+    "fileNo": "A-378",
+    "cover": "assets/covers/A-378-the-silent-gear.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Gear",
+        "zh": "无声齿轮"
+      },
+      "description": {
+        "en": "A disgraced master watchmaker quietly regains his precision, exposing a greedy partner's counterfeit scam and protecting a loyal apprentice.",
+        "zh": "一位被误认为废掉的顶尖钟表大师在暗中恢复精巧手艺，在关键时刻揭穿贪婪合伙人的伪造阴谋并守护忠诚学徒的故事。"
+      }
+    },
+    "title": {
+      "en": "The Silent Gear",
+      "zh": "无声齿轮"
+    },
+    "category": {
+      "en": "Drama & Suspense",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When an arrogant business partner tries to steal a historic astronomical clock and oust a faithful archivist, master horologist Julian Mercer reveals that his steady hands—and his sharp intellect—never left.",
+      "zh": "当傲慢的商业合伙人试图偷换稀世古董天文钟并解雇忠诚的档案员时，钟表大师朱利安·默瑟展现了他从未动摇的手艺与智慧。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of workplace deception, corporate fraud, and emotional manipulation.",
+      "zh": "虚构故事。包含职场欺诈、商业背叛与情感操纵题材。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "HG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3052,
+      "zh": 5300
     }
   }
 ];
