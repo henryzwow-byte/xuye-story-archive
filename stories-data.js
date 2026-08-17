@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a408-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a409-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17718,6 +17718,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2340,
       "zh": 3869
+    }
+  },
+  {
+    "slug": "watermarks-of-stone-orchard",
+    "fileNo": "A-409",
+    "cover": "assets/covers/A-409-watermarks-of-stone-orchard.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Watermarks of Stone Orchard",
+        "zh": "石果园的水印"
+      },
+      "description": {
+        "en": "A disgraced architectural archivist returns eighteen years after a powerful Oregon dynasty erased her work, carrying the brass transit that proves the truth.",
+        "zh": "十八年前被俄勒冈名门抹去功绩的建筑档案员重返故地，带着能证明真相的黄铜经纬仪。"
+      }
+    },
+    "title": {
+      "en": "Watermarks of Stone Orchard",
+      "zh": "石果园的水印"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a powerful valley dynasty tries to sell a compromised reservoir estate and cover up years of structural fraud, a mother and daughter use original stonemason logbooks and acoustic soundings to reclaim their legacy.",
+      "zh": "当山谷权贵企图出售存在严重隐患的水库庄园并掩盖多年的结构欺诈时，一对母女利用原始石匠日志和声学探测重申了属于她们的遗产与尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, legal arbitration, corporate negligence, and emotional conflict.",
+      "zh": "虚构故事。包含家庭疏离、法律仲裁、企业疏忽及情感冲突等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "SO",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2420,
+      "zh": 3963
     }
   }
 ];
