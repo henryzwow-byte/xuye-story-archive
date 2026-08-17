@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a381-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a382-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16530,6 +16530,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3016,
       "zh": 5102
+    }
+  },
+  {
+    "slug": "the-ironwood-tide",
+    "fileNo": "A-382",
+    "cover": "assets/covers/A-382-the-ironwood-tide.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ironwood Tide",
+        "zh": "铁木之潮"
+      },
+      "description": {
+        "en": "A grieving maritime repair mechanic uncovers an offshore juvenile labor scheme hidden behind a prestigious coastal academy.",
+        "zh": "一名沉浸在丧亲之痛中的海事维修工，揭开了隐藏在著名沿海学院背后的非法青少年劳工阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Ironwood Tide",
+      "zh": "铁木之潮"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When a runaway teenager seeks shelter in a coastal workshop, former salvage inspector Julian Vance must confront his own tragic past to expose systemic industrial exploitation and save a child locked beneath a dry-dock barge.",
+      "zh": "当一名逃跑的少女在海岸修理厂寻求庇护，前打捞检查员朱利安·凡斯必须直面自己沉痛的过去，揭露系统性的工业剥削，并拯救被困在干船坞驳船底部的孩子。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of institutional misconduct, juvenile endangerment, and emotional trauma.",
+      "zh": "虚构故事。包含机构失职、青少年危险及情感创伤的描写。"
+    },
+    "tone": "coastal",
+    "glyph": "IT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2560,
+      "zh": 4375
     }
   }
 ];
