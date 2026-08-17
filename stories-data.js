@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a388-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a389-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16838,6 +16838,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3128,
       "zh": 5201
+    }
+  },
+  {
+    "slug": "the-unbroken-scale",
+    "fileNo": "A-389",
+    "cover": "assets/covers/A-389-the-unbroken-scale.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Unbroken Scale",
+        "zh": "不屈的衡秤"
+      },
+      "description": {
+        "en": "A small-town weighmaster uses subterranean telematics to confront a corrupt county inspector extorting local haulers.",
+        "zh": "一位小镇地磅员利用地下遥测系统对抗勒索当地货运商的腐败县检查官。"
+      }
+    },
+    "title": {
+      "en": "The Unbroken Scale",
+      "zh": "不屈的衡秤"
+    },
+    "category": {
+      "en": "Suspense / Crime Fiction",
+      "zh": "悬疑 / 犯罪小说"
+    },
+    "summary": {
+      "en": "In the high desert of Oregon, an independent scale house owner builds an unassailable digital telemetry trap to dismantle a corrupt transport auditor's reign of extortion.",
+      "zh": "在俄勒冈州的高原沙漠中，一位独立地磅站业主利用不可篡改的数据遥测系统，反击腐败运输检查官长达数年的勒索。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of coercion, extortion, and non-graphic physical intimidation.",
+      "zh": "虚构故事。包含轻度胁迫、勒索及非流血暴力恐吓情节。"
+    },
+    "tone": "Rust",
+    "glyph": "US",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2475,
+      "zh": 3997
     }
   }
 ];
