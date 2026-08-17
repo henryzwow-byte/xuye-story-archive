@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a417-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a418-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18114,6 +18114,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2552,
       "zh": 4222
+    }
+  },
+  {
+    "slug": "the-deed-filed-at-eleven-forty-five",
+    "fileNo": "A-418",
+    "cover": "assets/covers/A-418-the-deed-filed-at-eleven-forty-five.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Deed Filed at Eleven Forty-Five",
+        "zh": "十一点四十五分登记的契约"
+      },
+      "description": {
+        "en": "When her husband tries to coerce her into surrendering her grandfather's coastal tide-mill, an archivist records a conservation deed before his deadline arrives.",
+        "zh": "当丈夫试图逼她交出祖父留下的海岸潮汐磨坊时，一位档案管理员赶在最后期限前登记保护契约。"
+      }
+    },
+    "title": {
+      "en": "The Deed Filed at Eleven Forty-Five",
+      "zh": "十一点四十五分登记的契约"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "A grieving archivist in coastal Maine protects her inherited tide-mill from a coercive land grab by documenting the threat and conveying the property to a conservation trust while reserving her lifetime right to remain.",
+      "zh": "缅因州沿海的一位档案管理员记录下丈夫的威胁，并在保留终身居住与管理权的前提下，把祖父留下的潮汐磨坊交由保护信托持有。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional coercion, marital disputes, and legal conflict.",
+      "zh": "虚构故事。包含情感胁迫、婚姻纠纷及法律冲突主题。"
+    },
+    "tone": "slate",
+    "glyph": "ED",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2166,
+      "zh": 3764
     }
   }
 ];
