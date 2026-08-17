@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a412-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a413-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17894,6 +17894,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2435,
       "zh": 3886
+    }
+  },
+  {
+    "slug": "the-red-signal-at-junction-fourteen",
+    "fileNo": "A-413",
+    "cover": "assets/covers/A-413-the-red-signal-at-junction-fourteen.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Red Signal at Junction Fourteen",
+        "zh": "十四号接线箱的红灯"
+      },
+      "description": {
+        "en": "When a railway safety inspector halts a heavy freight train on a failing bridge, she faces corporate retaliation—until her husband uncovers who was in the locomotive.",
+        "zh": "当一名铁路安全检查员在危桥前强制拦截重载货运列车时，她遭遇了来自高层的报复——直到她的丈夫查出了当时驾驶机车的人是谁。"
+      }
+    },
+    "title": {
+      "en": "The Red Signal at Junction Fourteen",
+      "zh": "十四号接线箱的红灯"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A rail safety inspector triggers emergency signals to save a heavy freight train from a collapsing trestle bridge. Fired for disrupting shipping schedules, she and her surveyor husband uncover telemetry evidence and a crew member's secret recording that expose corporate negligence.",
+      "zh": "一名铁路安全检查员触发紧急信号，成功阻止了一列重载货车驶向即将坍塌的高架桥。然而，她却因破坏运输日程而被解雇。在测绘员丈夫的帮助下，他们通过遥测数据和机车乘务员的暗中录音，揭开了管理层漠视安全的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of workplace retaliation, corporate negligence, and high-stress emergency situations.",
+      "zh": "虚构故事。包含职场报复、企业疏忽以及高压紧急状况相关主题。"
+    },
+    "tone": "slate",
+    "glyph": "BS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2431,
+      "zh": 4062
     }
   }
 ];
