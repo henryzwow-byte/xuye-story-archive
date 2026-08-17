@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a391-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a392-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16970,6 +16970,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2500,
       "zh": 4217
+    }
+  },
+  {
+    "slug": "cormorant-bay-boundary",
+    "fileNo": "A-392",
+    "cover": "assets/covers/A-392-cormorant-bay-boundary.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Cormorant Bay Boundary",
+        "zh": "海鸬鹚湾的界线"
+      },
+      "description": {
+        "en": "A mother protects her daughter after a disturbing discovery inside a music case exposes years of hidden family control.",
+        "zh": "在一个琴盒中发现了令人不安的企图后，一位母亲坚决站出来保护女儿，斩断长达数年的家族控制。"
+      }
+    },
+    "title": {
+      "en": "Cormorant Bay Boundary",
+      "zh": "海鸬鹚湾的界线"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When an estranged relative leaves an intimidating document inside an eight-year-old child's instrument case, a mother and father must confront long-standing emotional manipulation and enforce strict boundaries to keep their family safe.",
+      "zh": "当一名有控制欲的亲戚将一份带威吓性质的文件偷藏在八岁女孩的乐器盒中时，一对夫妻必须勇敢面对长久以来的情感操纵，设立严格的保护界线。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family emotional conflict, subtle psychological manipulation, and boundary enforcement. No graphic violence or legal advice.",
+      "zh": "虚构故事。涉及家庭情感冲突、心理操纵与界线建立。无暴力描写或法律建议。"
+    },
+    "tone": "Atmospheric",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2142,
+      "zh": 3754
     }
   }
 ];
