@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a398-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a399-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17278,6 +17278,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2891,
       "zh": 4894
+    }
+  },
+  {
+    "slug": "the-stone-and-the-sea",
+    "fileNo": "A-399",
+    "cover": "assets/covers/A-399-the-stone-and-the-sea.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Stone and the Sea | Western Story Archive",
+        "zh": "磐石与大海 | 西方故事馆"
+      },
+      "description": {
+        "en": "When an arrogant matriarch tries to break her son's pregnant wife during a coastal storm, truth and quiet strength rewrite the family dynasty.",
+        "zh": "在海岸风暴中，傲慢的家族女主人试图摧毁儿子怀孕的妻子，然而真相与沉静的力量改写了家族的命运。"
+      }
+    },
+    "title": {
+      "en": "The Stone and the Sea",
+      "zh": "磐石与大海"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "On a wind-bitten cliff in coastal Oregon, Clara Vance faces the calculated cruelty of her husband's mother. Locked out in a storm while seven months pregnant, her quiet resolve and an unshakeable truth dismantle a family empire's illusions.",
+      "zh": "在俄勒冈州风暴肆虐的海岸悬崖上，克拉拉·凡斯直面丈夫母亲蓄意的残忍。在身孕七个月时被锁在暴风雨中，她沉静的意志与不可动摇的真相解构了一个家族帝国的幻象。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family hostility, emotional abuse, harsh weather exposure, and pregnancy stress.",
+      "zh": "虚构故事。包含家族敌意、情感虐待、恶劣天气暴露及孕期压力的描写。"
+    },
+    "tone": "stark",
+    "glyph": "SV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2488,
+      "zh": 4430
     }
   }
 ];
