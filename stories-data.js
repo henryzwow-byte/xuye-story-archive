@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a378-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a379-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16398,6 +16398,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3052,
       "zh": 5300
+    }
+  },
+  {
+    "slug": "the-weight-of-timber",
+    "fileNo": "A-379",
+    "cover": "assets/covers/A-379-the-weight-of-timber.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Weight of Timber",
+        "zh": "木梁之重"
+      },
+      "description": {
+        "en": "A young woman's struggle against family denial is brought to light when an accident reveals a hidden history.",
+        "zh": "在家庭的否认与掩盖之下，一场事故与一份记录终将隐秘的真相公布于众。"
+      }
+    },
+    "title": {
+      "en": "The Weight of Timber",
+      "zh": "木梁之重"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "现代戏剧"
+    },
+    "summary": {
+      "en": "When a catastrophic loft collapse exposes years of silent family scapegoating, Hannah Vance must rely on external evidence and medical truth to dismantle her brother's long-standing lies.",
+      "zh": "当阁楼围栏的断裂揭开多年来家族内部的甩锅与缄默，汉娜·凡斯借助外部证据与医学诊断，终于打破了哥哥长久以来的谎言。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family emotional abuse, gaslighting, accidental physical injury, and medical settings.",
+      "zh": "虚构故事。包含家庭情感虐待、心理操纵、意外身体伤害及医疗场景等情节描述。"
+    },
+    "tone": "stark",
+    "glyph": "WT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2023,
+      "zh": 3588
     }
   }
 ];
