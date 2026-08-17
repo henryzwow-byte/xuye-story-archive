@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a415-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a416-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18026,6 +18026,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2580,
       "zh": 4238
+    }
+  },
+  {
+    "slug": "the-red-tag-at-vance-orchard",
+    "fileNo": "A-416",
+    "cover": "assets/covers/A-416-the-red-tag-at-vance-orchard.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Red Tag at Vance Orchard",
+        "zh": "凡斯果园的红色封条"
+      },
+      "description": {
+        "en": "An architectural conservator returns to find her family has gutted her historic timber workshop for an illegal wedding venue.",
+        "zh": "一位古建筑修复师出差归来，发现家人已把她的百年木构工作室拆改成非法婚庆场地。"
+      }
+    },
+    "title": {
+      "en": "The Red Tag at Vance Orchard",
+      "zh": "凡斯果园的红色封条"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When architectural conservator Evelyn Vance returns from a project to find her timber barn workshop illegally gutted for a commercial venue, she uncovers forged land records and takes a decisive legal stand against her family.",
+      "zh": "当古建筑修复师埃弗琳·凡斯结束外地项目归来，发现自己的木构工作室被家人私自拆毁改建为商业婚庆场地时，她揭开了伪造土地备案的真相，并对家人采取了果断的法律行动。"
+    },
+    "warning": {
+      "en": "Fictional story. All characters and events are purely fictional. Content involves family financial conflict and real estate property disputes.",
+      "zh": "虚构故事。所有人物与事件均为虚构。内容涉及家庭财务冲突与不动产纠纷。"
+    },
+    "tone": "Copper",
+    "glyph": "RT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2217,
+      "zh": 3713
     }
   }
 ];
