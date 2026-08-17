@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a403-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a404-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17498,6 +17498,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2738,
       "zh": 4769
+    }
+  },
+  {
+    "slug": "the-ghost-ridge-signal",
+    "fileNo": "A-404",
+    "cover": "assets/covers/A-404-the-ghost-ridge-signal.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ghost Ridge Signal",
+        "zh": "鬼礁信号"
+      },
+      "description": {
+        "en": "When a slick tech director dismisses a veteran archivist and overrides harbor safety protocols during a storm, an ancient acoustic phenomenon threatens a trapped vessel.",
+        "zh": "当一名自负的科技总监在暴风雨中无视资深档案员的警告并篡改港口安全规程时，一种古老的声学现象威胁着一艘受困的客轮。"
+      }
+    },
+    "title": {
+      "en": "The Ghost Ridge Signal",
+      "zh": "鬼礁信号"
+    },
+    "category": {
+      "en": "Drama & Suspense",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "When a slick tech director dismisses a veteran archivist and overrides harbor safety protocols during a storm, an ancient acoustic phenomenon threatens a trapped vessel.",
+      "zh": "当一名自负的科技总监在暴风雨中无视资深档案员的警告并篡改港口安全规程时，一种古老的声学现象威胁着一艘受困的客轮。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of workplace conflict, severe weather hazards, and maritime distress.",
+      "zh": "虚构故事。包含职场冲突、恶劣天气风险及海上险情的描写。"
+    },
+    "tone": "Maritime",
+    "glyph": "HV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2145,
+      "zh": 3966
     }
   }
 ];
