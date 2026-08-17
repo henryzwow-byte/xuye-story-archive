@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a409-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a410-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17762,6 +17762,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2420,
       "zh": 3963
+    }
+  },
+  {
+    "slug": "timber-line-reckoning",
+    "fileNo": "A-410",
+    "cover": "assets/covers/A-410-timber-line-reckoning.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Timber Line Reckoning",
+        "zh": "林界清算"
+      },
+      "description": {
+        "en": "When family loyalty demands her independent land as collateral, a wooden boat repairer draws an immovable boundary.",
+        "zh": "当所谓的家族忠诚要求她拿个人地产作担保时，一位木船修复师划下了不可逾越的边界。"
+      }
+    },
+    "title": {
+      "en": "Timber Line Reckoning",
+      "zh": "林界清算"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Married for two months in an old coastal harbor town, Hannah Vance discovers her husband and his father are quietly arranging to leverage her privately owned mountain cabin for family debts. Her quiet defiance reshapes her marriage and her freedom.",
+      "zh": "在一个沿海小港镇新婚两个月后，汉娜·范斯发现丈夫与公公正暗中计划抵押她婚前独自购买的山间木屋以偿还家族债务。她平静的反击重塑了自己的婚姻与自由。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family financial conflict, emotional tension, and marital boundary struggles.",
+      "zh": "虚构故事。包含家庭财务纠纷、情感紧张及婚姻界线冲突描写。"
+    },
+    "tone": "Stark",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2752,
+      "zh": 4323
     }
   }
 ];
