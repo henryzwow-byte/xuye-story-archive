@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a395-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a396-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -17146,6 +17146,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2210,
       "zh": 3935
+    }
+  },
+  {
+    "slug": "the-vessel-audit",
+    "fileNo": "A-396",
+    "cover": "assets/covers/A-396-the-vessel-audit.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Vessel Audit",
+        "zh": "船舶审计"
+      },
+      "description": {
+        "en": "When her husband and sister-in-law burn her research and lock her in a timber kiln to force a waterfront sale, maritime conservator Evelyn Vance fights back to save her historic shipyard.",
+        "zh": "当丈夫与小姑子烧毁她的研究档案并将她锁进烘干窑试图霸占地块时，古船复原师艾芙琳·凡斯毅然反击，誓死守护遗产造船厂。"
+      }
+    },
+    "title": {
+      "en": "The Vessel Audit",
+      "zh": "船舶审计"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "On the eve of a crucial historical preservation audit, maritime restorer Evelyn Vance discovers a ruthless plot by her husband and his sister to destroy her vessel audit and forge a property withdrawal.",
+      "zh": "在关键的历史遗产保护评审前夕，古船复原师艾芙琳·凡斯发现丈夫及其姐姐企图毁掉她的船舶审计报告并伪造撤回申请以强卖场地。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital betrayal, emotional manipulation, arson, and financial deception.",
+      "zh": "虚构故事。包含婚姻背叛、情感操纵、纵火与财务欺诈等主题。"
+    },
+    "tone": "Maritime",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2259,
+      "zh": 3825
     }
   }
 ];
