@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a389-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a390-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16882,6 +16882,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2475,
       "zh": 3997
+    }
+  },
+  {
+    "slug": "the-echo-at-mill-creek",
+    "fileNo": "A-390",
+    "cover": "assets/covers/A-390-the-echo-at-mill-creek.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Echo at Mill Creek",
+        "zh": "米尔溪的回响"
+      },
+      "description": {
+        "en": "A corporate executive faces the human cost of a hidden infrastructure failure during a coastal storm.",
+        "zh": "风暴之夜，一名企业高管在海岸因失修的闸门直面隐瞒的代偿与人性的觉醒。"
+      }
+    },
+    "title": {
+      "en": "The Echo at Mill Creek",
+      "zh": "米尔溪的回响"
+    },
+    "category": {
+      "en": "Literary Fiction",
+      "zh": "文学小说"
+    },
+    "summary": {
+      "en": "When a coastal storm exposes a deadly corporate oversight, executive Arthur Pendelton must choose between a multi-million-dollar merger and the lives jeopardized by his company's silence.",
+      "zh": "当一场沿海风暴揭露了企业隐瞒的基础设施隐患，高管亚瑟·潘德尔顿必须在数千万元的并购案与被漠视的生命之间做出抉择。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of storm emergencies, hypothermia, and corporate ethics conflicts.",
+      "zh": "虚构故事。包含风暴险情、低温症及企业伦理冲突的描写。"
+    },
+    "tone": "Slate",
+    "glyph": "MC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2332,
+      "zh": 4547
     }
   }
 ];
