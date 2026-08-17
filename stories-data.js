@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260817-a380-v1";
+window.STORY_ARCHIVE_VERSION = "20260817-a381-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -16486,6 +16486,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1621,
       "zh": 2855
+    }
+  },
+  {
+    "slug": "sentinel-of-the-iron-coast",
+    "fileNo": "A-381",
+    "cover": "assets/covers/A-381-sentinel-of-the-iron-coast.png",
+    "published": "2026-08-17",
+    "modified": "2026-08-17",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Sentinel of the Iron Coast",
+        "zh": "铁海岸的守望者"
+      },
+      "description": {
+        "en": "A quiet lens artisan arrives at a storm-swept lighthouse station, hiding a past that may be the only thing standing between a passenger ship and the reefs.",
+        "zh": "一位沉默寡言的透镜修缮工来到风暴肆虐的灯塔站，她隐匿的过去或许是破浪船只与暗礁之间唯一的屏障。"
+      }
+    },
+    "title": {
+      "en": "Sentinel of the Iron Coast",
+      "zh": "铁海岸的守望者"
+    },
+    "category": {
+      "en": "Historical Mystery & Suspense",
+      "zh": "历史悬疑"
+    },
+    "summary": {
+      "en": "When a remote Pacific lighthouse is damaged ahead of a seasonal gale, clockmaker Nora Vance arrives to restore the optical gears. But as subtle mechanical anomalies turn into deliberate sabotage, Nora must confront the trauma of her past as a federal inspector to avert a catastrophe.",
+      "zh": "当风暴降临前夕座落于太平洋沿岸的远郊灯塔受损，钟表工诺拉·梵斯受命修复光学齿轮。然而随着微小的机械异常化为蓄意破坏，诺拉必须面对自己曾作为联邦调查员的痛苦往事，以阻止一场海难。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains scenes of maritime peril, technical sabotage, and emotional themes of past tragedy.",
+      "zh": "虚构故事。包含海上险情、技术破坏以及关于过往悲剧的情感主题。"
+    },
+    "tone": "cobalt",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3016,
+      "zh": 5102
     }
   }
 ];
