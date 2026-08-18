@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a424-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a425-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18422,6 +18422,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2011,
       "zh": 3670
+    }
+  },
+  {
+    "slug": "foundations-in-timber",
+    "fileNo": "A-425",
+    "cover": "assets/covers/A-425-foundations-in-timber.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Foundations in Timber",
+        "zh": "木石之基"
+      },
+      "description": {
+        "en": "At a coastal restoration gala, a young artisan reveals the truth behind his family's legacy and the stepmother who built it.",
+        "zh": "在一场海岸修复晚宴上，一位年轻的手艺人揭开了家族遗产背后的真相，以及默默付出一切的继母。"
+      }
+    },
+    "title": {
+      "en": "Foundations in Timber",
+      "zh": "木石之基"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When an arrogant developer attempts to erase his wife's years of labor and reclaim his estranged birth mother at a public gala, his nineteen-year-old son steps to the podium with proof of who truly raised him and restored the landmark.",
+      "zh": "当一名傲慢的开发商试图在一场公开晚宴上抹去妻子多年的心血、并与离家多年的生母重修旧好时，他十九岁的儿子走上讲台，用证据证明了究竟是谁养育了他、并重塑了这座地标。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital breakdown, public dispute, and family estrangement.",
+      "zh": "虚构故事。包含婚姻破裂、公开争议及亲情疏离等主题。"
+    },
+    "tone": "amber",
+    "glyph": "FT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2460,
+      "zh": 4324
     }
   }
 ];
