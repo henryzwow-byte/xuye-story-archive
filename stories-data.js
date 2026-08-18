@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a419-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a420-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18202,6 +18202,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2590,
       "zh": 4535
+    }
+  },
+  {
+    "slug": "sanctuary-at-heron-ledge",
+    "fileNo": "A-420",
+    "cover": "assets/covers/A-420-sanctuary-at-heron-ledge.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Sanctuary at Heron Ledge",
+        "zh": "苍鹭崖的庇护所"
+      },
+      "description": {
+        "en": "When Clara Vance discovers her teenage nephew hidden away in an unheated pantry during a family gala weekend, she uncovers a quiet betrayal—and fights to reclaim his place.",
+        "zh": "当克拉拉·凡斯在家族宴会周末发现十四岁的侄子被隐蔽安置在未供暖的杂物间时，她揭开了隐藏的背叛，并誓要夺回属于他的尊严。"
+      }
+    },
+    "title": {
+      "en": "Sanctuary at Heron Ledge",
+      "zh": "苍鹭崖的庇护所"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代虚构小说"
+    },
+    "summary": {
+      "en": "A book conservator on the Maine coast discovers that her late sister's son has been pushed out of his father's household, then follows the records that reveal financial abuse and neglect.",
+      "zh": "缅因海岸的一名古籍修复师发现，已故妹妹的儿子正被父亲的新家庭一步步排挤。她顺着文件留下的痕迹，揭开了财务侵占与长期忽视。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of familial neglect, emotional exclusion, and legal guardianship disputes involving a minor. The characters, firms, schools, and events are fictitious.",
+      "zh": "虚构故事。包含家庭忽视、情感排挤及涉及未成年人的监护权争议。人物、机构、学校与事件均属虚构。"
+    },
+    "tone": "Nautical",
+    "glyph": "HL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2478,
+      "zh": 4237
     }
   }
 ];
