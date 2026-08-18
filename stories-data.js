@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a436-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a437-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18950,6 +18950,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2195,
       "zh": 3940
+    }
+  },
+  {
+    "slug": "the-pressure-valve",
+    "fileNo": "A-437",
+    "cover": "assets/covers/A-437-the-pressure-valve.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Pressure Valve",
+        "zh": "压力阀"
+      },
+      "description": {
+        "en": "When an automated floodgate system locks down during a severe Atlantic nor'easter, a quiet teenager relies on her late mother's engineering manual to prevent a catastrophic spillway failure.",
+        "zh": "在大西洋东北风暴期间自动防洪闸门系统被锁定时，一位沉默的少女依靠过世母亲留下的工程手册，防止了一场灾难性的溢洪道溃决。"
+      }
+    },
+    "title": {
+      "en": "The Pressure Valve",
+      "zh": "压力阀"
+    },
+    "category": {
+      "en": "Drama / Suspense",
+      "zh": "戏剧 / 悬疑"
+    },
+    "summary": {
+      "en": "During a violent coastal storm in Maine, an automated hydroelectric floodgate locks closed, threatening low-lying towns. Sixteen-year-old Hannah Finch must use her late mother's technical notebook to guide engineers through a delicate manual bypass.",
+      "zh": "在缅因州一场猛烈的沿海风暴中，一座自动水电防洪闸门意外锁定关闭，威胁着低洼城镇。十六岁的汉娜·芬奇必须利用她过世母亲留下的技术笔记，指导工程师完成一次精密的手动旁路解锁。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains scenes of tense industrial emergency situations and storm hazards.",
+      "zh": "虚构故事。包含紧张的工业应急场景与风暴灾害描述。"
+    },
+    "tone": "steely",
+    "glyph": "PV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2527,
+      "zh": 4169
     }
   }
 ];
