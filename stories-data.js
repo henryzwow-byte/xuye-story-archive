@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a439-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a440-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19082,6 +19082,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2298,
       "zh": 3976
+    }
+  },
+  {
+    "slug": "the-blue-portfolio",
+    "fileNo": "A-440",
+    "cover": "assets/covers/A-440-the-blue-portfolio.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Blue Portfolio",
+        "zh": "蓝色文件夹"
+      },
+      "description": {
+        "en": "An aged watchmaker and a retired archivist discover a deceptive scheme orchestrated by their children.",
+        "zh": "年老的钟表匠与退休档案员发现了一场由子女精心策划的隐秘局中局。"
+      }
+    },
+    "title": {
+      "en": "The Blue Portfolio",
+      "zh": "蓝色文件夹"
+    },
+    "category": {
+      "en": "Fiction / Contemporary Drama",
+      "zh": "小说 / 现代戏剧"
+    },
+    "summary": {
+      "en": "When retired horologist Arthur Vance is asked to host an unfamiliar neighbor during a sudden home repair, a misdelivered courier package reveals their children's hidden motives.",
+      "zh": "当退休钟表匠亚瑟·范斯因一次突发的房屋维修代为照看新邻居时，一个误投的快递文件包揭开了各自子女背后隐藏的谋算。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family tension, deceptive property negotiations, and emotional boundary setting. No graphic violence or explicit medical harm.",
+      "zh": "虚构故事。包含家庭紧张关系、房产交易隐瞒与情感边界重塑等情境。无暴力或医疗风险。"
+    },
+    "tone": "Amber",
+    "glyph": "BP",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2042,
+      "zh": 3749
     }
   }
 ];
