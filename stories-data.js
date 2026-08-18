@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a423-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a424-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18378,6 +18378,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2113,
       "zh": 3476
+    }
+  },
+  {
+    "slug": "the-glacier-cipher",
+    "fileNo": "A-424",
+    "cover": "assets/covers/A-424-the-glacier-cipher.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Glacier Cipher",
+        "zh": "冰川暗码"
+      },
+      "description": {
+        "en": "On a snowbound train, a grieving archivist rescues a distressed child and uncovers a secret that reopens her brother's fatal mystery.",
+        "zh": "在雪夜列车上，一位沉浸在悲痛中的档案员救下了一名受惊的儿童，并揭开了一段洗清弟弟冤屈的隐秘真相。"
+      }
+    },
+    "title": {
+      "en": "The Glacier Cipher",
+      "zh": "冰川暗码"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "A stranded mountain express becomes the backdrop for an unexpected rescue and a dead brother's unyielding truth.",
+      "zh": "受困的高山列车见证了一场意外的营救，以及逝去弟弟不屈的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of grief, corporate corruption, and medical panic emergency.",
+      "zh": "虚构故事。包含悲伤、企业腐败和呼吸急症情节。"
+    },
+    "tone": "frost",
+    "glyph": "GC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2011,
+      "zh": 3670
     }
   }
 ];
