@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a425-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a426-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18466,6 +18466,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2460,
       "zh": 4324
+    }
+  },
+  {
+    "slug": "the-glasshouse-ledger",
+    "fileNo": "A-426",
+    "cover": "assets/covers/A-426-the-glasshouse-ledger.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Glasshouse Ledger",
+        "zh": "玻璃温室的账本"
+      },
+      "description": {
+        "en": "When a developer sister demands her deaf sibling's coastal botanical glasshouse as collateral, an automated greenhouse camera exposes the truth behind family coercion.",
+        "zh": "当身为地产开发商的姐姐逼迫失聪的妹妹交出沿海植物温室作抵押时，一台自动化温室摄像机揭开了家庭胁迫背后的真相。"
+      }
+    },
+    "title": {
+      "en": "The Glasshouse Ledger",
+      "zh": "玻璃温室的账本"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "Clara Vance has spent years restoring her late aunt's coastal botanical sanctuary while quietly sending over sixty thousand dollars to support her sister's corporate ambitions. When her family ambushes her at a maritime gala to force a deed transfer, an unexpected piece of technology changes everything.",
+      "zh": "克拉拉·凡斯花了几年时间倾力修复先姨留下的沿海植物庇护所，期间还暗中倾囊六万多美元资助姐姐的商业野心。在一场于玻璃温室举行的海洋遗产晚宴上，家人企图强迫她签署产权转让书，而一项意想不到的监控技术改变了一切。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts emotional conflict, familial financial coercion, and physical confrontation resulting in injury.",
+      "zh": "虚构故事。包含家庭内部的情感与财务胁迫描写，以及导致人员受伤的肢体冲突。"
+    },
+    "tone": "Emerald",
+    "glyph": "GL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2322,
+      "zh": 3965
     }
   }
 ];
