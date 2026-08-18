@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a445-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a446-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19346,6 +19346,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2667,
       "zh": 4528
+    }
+  },
+  {
+    "slug": "the-unbroken-span",
+    "fileNo": "A-446",
+    "cover": "assets/covers/A-446-the-unbroken-span.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Unbroken Span",
+        "zh": "不朽的桥跨"
+      },
+      "description": {
+        "en": "A retired welder and his archivist granddaughter confront historical erasure at a mountain bridge dedication.",
+        "zh": "一位退休焊工与其档案馆员孙女在高山大桥剪彩仪式上直面历史抹杀。"
+      }
+    },
+    "title": {
+      "en": "The Unbroken Span",
+      "zh": "不朽的桥跨"
+    },
+    "category": {
+      "en": "Historical Fiction",
+      "zh": "历史小说"
+    },
+    "summary": {
+      "en": "When a municipal ribbon-cutting erases the memory of five fallen riggers to appease corporate sponsors, an aging welder and his granddaughter unveil buried archives to reclaim the truth.",
+      "zh": "当市政剪彩仪式为迎合企业赞助商而抹去五名殉职装配工的记忆时，一位高龄焊工与其孙女揭开封存的档案，重寻历史真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of institutional injustice, workplace safety history, and historical erasure.",
+      "zh": "虚构故事。包含机构不公、职业安全历史及历史抹杀主题。"
+    },
+    "tone": "Copper",
+    "glyph": "US",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2393,
+      "zh": 4130
     }
   }
 ];
