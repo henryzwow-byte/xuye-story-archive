@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a444-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a445-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19302,6 +19302,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3363,
       "zh": 5679
+    }
+  },
+  {
+    "slug": "shadows-over-pine-ridge",
+    "fileNo": "A-445",
+    "cover": "assets/covers/A-445-shadows-over-pine-ridge.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Shadows Over Pine Ridge",
+        "zh": "松脊峰的阴影"
+      },
+      "description": {
+        "en": "When an electrical gale disables a high-mountain tramway over a six-hundred-foot gorge, an off-grid technician risks everything to save two stranded strangers.",
+        "zh": "当一场强电暴导致六百英尺深谷上空的高山缆车瘫痪时，一名离网技术员冒着生命危险营救两名被困的陌生人。"
+      }
+    },
+    "title": {
+      "en": "Shadows Over Pine Ridge",
+      "zh": "松脊峰的阴影"
+    },
+    "category": {
+      "en": "Drama & Suspense",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "High above the New Mexico high desert, a high-altitude cable car stalls over an abyss during an unpredicted storm. Mountain technician Julian Vance braves fraying steel and hidden environmental hazards to bring two trapped passengers to safety.",
+      "zh": "在新墨西哥州的高沙漠之上，一辆高空缆车在突如其来的风暴中瘫痪于深渊之上。高山技术员朱利安·凡斯必须顶着磨损的钢缆和隐藏的环境危险，将两名被困乘客送往安全地带。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts high-altitude rescue hazards, storm turbulence, and severe weather tension.",
+      "zh": "虚构故事。包含高空救援危险、风暴湍流及恶劣天气紧张局势描写。"
+    },
+    "tone": "Windblown",
+    "glyph": "PR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2667,
+      "zh": 4528
     }
   }
 ];
