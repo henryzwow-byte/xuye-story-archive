@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a430-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a431-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18686,6 +18686,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2238,
       "zh": 3870
+    }
+  },
+  {
+    "slug": "the-harbor-covenant",
+    "fileNo": "A-431",
+    "cover": "assets/covers/A-431-the-harbor-covenant.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Harbor Covenant",
+        "zh": "港湾盟约"
+      },
+      "description": {
+        "en": "When her new mother-in-law uses a secret security fob to invade her coastal glass workshop, Nora Vance uses ironclad paper trails and unyielding independence to protect her life's work.",
+        "zh": "当新婚婆婆用秘密门禁卡侵入她的海岸玻璃工坊时，诺拉·凡斯用铁证如山的文书记录和坚不可摧的独立捍卫了自己的毕生心血。"
+      }
+    },
+    "title": {
+      "en": "The Harbor Covenant",
+      "zh": "港湾盟约"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "Three weeks after her wedding, artisan glassblower Nora Vance discovers her mother-in-law invading her seaside workshop with a secret key fob. When a confrontation leads to spilled hot wax and a shattered commission, Nora relies on premarital deeds and documented evidence to reclaim her home and her freedom.",
+      "zh": "新婚三周后，玻璃手工艺人诺拉·凡斯发现婆婆持秘密门禁卡闯入她的海边工坊。当一场对峙导致热熔脂溅伤与珍贵作品毁坏时，诺拉凭借婚前协议与详尽的凭据重获家园与自由。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of family conflict, boundary violations, minor burn injury, and marital separation.",
+      "zh": "虚构故事。包含家庭冲突、边界侵犯、轻微烫伤及婚姻分居描写。"
+    },
+    "tone": "amber",
+    "glyph": "HC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2613,
+      "zh": 4632
     }
   }
 ];
