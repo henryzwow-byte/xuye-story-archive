@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a438-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a439-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19038,6 +19038,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2738,
       "zh": 4797
+    }
+  },
+  {
+    "slug": "the-chartmakers-harbor",
+    "fileNo": "A-439",
+    "cover": "assets/covers/A-439-the-chartmakers-harbor.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Chartmaker's Harbor",
+        "zh": "制图师的港湾"
+      },
+      "description": {
+        "en": "A retired harbor pilot discovers a hidden attic ledger revealing his late wife's lifelong secret connection to an island shipwright.",
+        "zh": "一位退休的港口引航员在晚年妻子的阁楼中发现了一本隐藏的账簿，揭开了她与一名岛屿造船匠之间长达一生的秘密联系。"
+      }
+    },
+    "title": {
+      "en": "The Chartmaker's Harbor",
+      "zh": "制图师的港湾"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "After his wife Eleanor passes away, Garrett Thorne uncovers a concealed attic chest containing decades of hand-drawn harbor charts and wire transfers—unraveling a secret child she protected from afar.",
+      "zh": "在妻子埃莉诺去世后，加雷特·索恩发现了一个藏在阁楼里的箱子，里面装有数十年来的手绘港口海图和汇款单——由此揭开了她远距离默默守护的秘密孩子的故事。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains sensitive themes related to historical adoption, family secrets, and grief.",
+      "zh": "虚构故事。包含与历史领养、家庭秘密及悲伤相关的敏感主题。"
+    },
+    "tone": "Saltwater",
+    "glyph": "CH",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2298,
+      "zh": 3976
     }
   }
 ];
