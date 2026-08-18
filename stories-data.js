@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a446-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a447-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19390,6 +19390,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2393,
       "zh": 4130
+    }
+  },
+  {
+    "slug": "the-echo-of-silent-gears",
+    "fileNo": "A-447",
+    "cover": "assets/covers/A-447-the-echo-of-silent-gears.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Echo of Silent Gears",
+        "zh": "无声齿轮的回响"
+      },
+      "description": {
+        "en": "A quiet antique restorer in Colorado faces a ghost from her covert past when an encrypted mechanical cylinder arrives at her workshop.",
+        "zh": "科罗拉多州一位沉稳的古董修复师，因一只加密机械圆筒的到来，被迫直面隐藏多年的谍报过往。"
+      }
+    },
+    "title": {
+      "en": "The Echo of Silent Gears",
+      "zh": "无声齿轮的回响"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "In an alpine Colorado town, former naval acoustic analyst Clara Ellis has spent eight years restoring antique music boxes and clockwork safes. When an arrogant broker brings in a sealed Cold War telemetry roll to intimidate her assistant, Clara's buried instincts awaken—unraveling a conspiracy that threatens the peace she built.",
+      "zh": "在科罗拉多一座高山小镇，前海军声学分析师克拉拉·埃利斯花了八年时间修复古董八音盒与齿轮保险箱。当一名傲慢的掮客带着卷入冷战隐秘的电报圆筒闯入她的工作坊并恐吓她的助手时，克拉拉沉寂的直觉被唤醒，进而揭开了一场威胁她平静生活的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of past covert operations, tension, and mild verbal conflict. All characters, organizations, and events are purely products of the author's imagination.",
+      "zh": "虚构故事。包含轻微的秘密行动背景、心理紧张及口头冲突情节。所有人物、组织和事件均为作者虚构。"
+    },
+    "tone": "rust",
+    "glyph": "EG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2783,
+      "zh": 4674
     }
   }
 ];
