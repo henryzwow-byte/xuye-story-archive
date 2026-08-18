@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a427-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a428-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18554,6 +18554,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2992,
       "zh": 5175
+    }
+  },
+  {
+    "slug": "copper-lantern-cove",
+    "fileNo": "A-428",
+    "cover": "assets/covers/A-428-copper-lantern-cove.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Copper Lantern Cove",
+        "zh": "铜灯海湾"
+      },
+      "description": {
+        "en": "A young woman seeking shelter in a coastal gale discovers a hidden debt and a forge of resilience.",
+        "zh": "暴风雨夜在海岸铸造厂寻觅避风港的女子，意外揭开了尘封的信托与坚韧的希望。"
+      }
+    },
+    "title": {
+      "en": "The Copper Lantern Cove",
+      "zh": "铜灯海湾"
+    },
+    "category": {
+      "en": "Fiction & Drama",
+      "zh": "小说与戏剧"
+    },
+    "summary": {
+      "en": "Caught in a Pacific gale and driven by hunger, Clara Vance trespasses on a reclusive founder's sea-wall workshop, only to unlock a secret legacy left by her late uncle.",
+      "zh": "在太平洋风暴与饥饿的交迫下，克拉拉·凡斯闯入了一位隐居铸造工匠的海墙作坊，却意外揭开了伯父留下的秘密遗赠。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts themes of economic hardship, grief, and emotional recovery without graphic content.",
+      "zh": "虚构故事。描绘了经济困境、悲伤和情感复苏的主题，无血腥或令人不适的内容。"
+    },
+    "tone": "amber",
+    "glyph": "CL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2307,
+      "zh": 3848
     }
   }
 ];
