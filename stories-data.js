@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a433-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a434-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18818,6 +18818,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2209,
       "zh": 3858
+    }
+  },
+  {
+    "slug": "the-foundry-ledger",
+    "fileNo": "A-434",
+    "cover": "assets/covers/A-434-the-foundry-ledger.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Foundry Ledger",
+        "zh": "铸造厂账簿"
+      },
+      "description": {
+        "en": "An architect returns home for his father's funeral, only to unearth three decades of industrial secrets hidden beneath the riverbed.",
+        "zh": "一位建筑师回家奔丧，却在河床之下挖出了隐匿三十年的工业秘密。"
+      }
+    },
+    "title": {
+      "en": "The Foundry Ledger",
+      "zh": "铸造厂账簿"
+    },
+    "category": {
+      "en": "Industrial Mystery",
+      "zh": "工业悬疑"
+    },
+    "summary": {
+      "en": "When architectural restorer Harlan Croft attends his father's funeral in a rust-belt town, a cryptic casting token leads him to a submerged quarry vault containing evidence of decades of toxic dumping and corporate murder.",
+      "zh": "当建筑修复师哈兰·克罗夫特回到锈带小镇参加父亲的葬礼时，一枚神秘的铸造代币指引他在水下矿山水泵房中发现了隐藏数十年的有毒废料倾倒与企业谋杀证据。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family secrets, corporate corruption, and corporate crime investigation.",
+      "zh": "虚构故事。包含家族秘密、企业腐败与商业犯罪调查主题。"
+    },
+    "tone": "Rust",
+    "glyph": "FL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2236,
+      "zh": 3960
     }
   }
 ];
