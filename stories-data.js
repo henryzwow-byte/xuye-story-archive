@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a443-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a444-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19258,6 +19258,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3861,
       "zh": 6564
+    }
+  },
+  {
+    "slug": "pressure-at-blackwood-ridge",
+    "fileNo": "A-444",
+    "cover": "assets/covers/A-444-pressure-at-blackwood-ridge.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Pressure at Blackwood Ridge",
+        "zh": "黑木岭的压强"
+      },
+      "description": {
+        "en": "An off-duty structural hydrologist saves a mountain hydroelectric station from catastrophic pressure failure after being dismissed by a visiting corporate executive.",
+        "zh": "一位休假中的结构水文学家在被傲慢的高管轻视后，在千钧一发之际拯救了面临致命压强激增的高山水电站。"
+      }
+    },
+    "title": {
+      "en": "Pressure at Blackwood Ridge",
+      "zh": "黑木岭的压强"
+    },
+    "category": {
+      "en": "Fictional Story",
+      "zh": "虚构故事"
+    },
+    "summary": {
+      "en": "When a severe alpine freeze strikes the Blackwood Ridge Hydroelectric Facility during an off-duty engineer's quiet shuttle wait, a fatal pressure surge forces her to reveal her true expertise before a room of skeptics.",
+      "zh": "当一场严寒袭击黑木岭水电站、导致致命的水锤压强激增时，一位在休息室默默等车的休假工程师在众人的质疑声中展现出惊人的专业掌控力。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts an emergency industrial hydro-engineering scenario, intense environmental crisis management, and technical strain without physical harm.",
+      "zh": "虚构故事。包含高山水电站工业紧急状况、严酷环境危机应对及技术救援情节，无真实伤害描绘。"
+    },
+    "tone": "Cobalt",
+    "glyph": "BR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3363,
+      "zh": 5679
     }
   }
 ];
