@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a442-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a443-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19214,6 +19214,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2243,
       "zh": 3799
+    }
+  },
+  {
+    "slug": "the-timber-master-legacy",
+    "fileNo": "A-443",
+    "cover": "assets/covers/A-443-the-timber-master-legacy.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Master's Legacy",
+        "zh": "木艺大师的遗产"
+      },
+      "description": {
+        "en": "When a dedicated timber craftsman sees his daughter humiliated at the family gala, he exposes years of hidden corruption and walks away to build an honest legacy.",
+        "zh": "当一位兢兢业业的木艺匠人在家族晚宴上目睹女儿受辱，他揭露了多年隐藏的腐败，决然离去去打造真正属于他们的天地。"
+      }
+    },
+    "title": {
+      "en": "The Timber Master's Legacy",
+      "zh": "木艺大师的遗产"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭戏剧"
+    },
+    "summary": {
+      "en": "After years of sustaining his father's prestige timber restoration firm while shouldering the blame for structural deficits, Julian Vance faces a heartbreaking moment at the autumn gala when his daughter's handmade gift is mocked. Armed with secret compliance ledgers and newfound resolve, Julian severs ties to protect his daughter and reclaim his craft.",
+      "zh": "多年来，朱利安·范斯默默支撑着父亲的古建修复企业，却总替工程缺陷背黑锅。在秋季宴会上，女儿精心制作的礼品遭到无情讽刺，彻底触碰了他的底线。手握合规审查账本与坚定的决心，朱利安毅然割舍病态的家族羁绊，带着女儿开启了真正光明的新生。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of emotionally manipulative family relationships, favoritism, and professional disputes resolving in non-violent empowerment.",
+      "zh": "虚构故事。包含对家庭情感操纵、偏心及职业纠纷的描绘，最终以非暴力的方式实现自我救赎与重塑。"
+    },
+    "tone": "Amber",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3861,
+      "zh": 6564
     }
   }
 ];
