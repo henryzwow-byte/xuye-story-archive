@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a422-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a423-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18334,6 +18334,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2529,
       "zh": 4427
+    }
+  },
+  {
+    "slug": "the-forty-two-minute-gap",
+    "fileNo": "A-423",
+    "cover": "assets/covers/A-423-the-forty-two-minute-gap.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Forty-Two-Minute Gap",
+        "zh": "四十二分钟的空白"
+      },
+      "description": {
+        "en": "When a shipyard apprentice is blamed for a restoration-shop fire, his aunt helps preserve the access records and camera footage that reveal a forty-two-minute gap in the accusation.",
+        "zh": "一名船厂学徒被指控纵火后，他的姑姑协助保存门禁记录与监控录像，揭开指控中消失的四十二分钟。"
+      }
+    },
+    "title": {
+      "en": "The Forty-Two-Minute Gap",
+      "zh": "四十二分钟的空白"
+    },
+    "category": {
+      "en": "Drama & Suspense",
+      "zh": "戏剧与悬疑"
+    },
+    "summary": {
+      "en": "A retired Oregon harbor inspector helps her apprentice nephew preserve evidence after a dockside restoration shop burns, while official investigators follow a missing forty-two minutes through access logs, camera footage, and financial records.",
+      "zh": "俄勒冈一处码头修复车间失火后，一位退休港口检查员帮助当学徒的侄子保存证据；正式调查人员沿着门禁记录、监控录像和财务资料，追查消失的四十二分钟。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family tension, false accusations, and workplace hazards.",
+      "zh": "虚构故事。涉及家庭冲突、虚假指控及工作场所安全隐患。"
+    },
+    "tone": "Indigo",
+    "glyph": "42",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2113,
+      "zh": 3476
     }
   }
 ];
