@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a421-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a422-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18290,6 +18290,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1924,
       "zh": 3097
+    }
+  },
+  {
+    "slug": "the-grain-remembers",
+    "fileNo": "A-422",
+    "cover": "assets/covers/A-422-the-grain-remembers.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Grain Remembers",
+        "zh": "木纹记得真相"
+      },
+      "description": {
+        "en": "A Maine timber engineer survives a staged public humiliation, then lets an old audit log, modern scans, and unedited video tell the truth.",
+        "zh": "缅因州的一名木结构工程师遭遇精心安排的公开羞辱，最终让旧审计日志、现代扫描数据与未经剪辑的录像还原真相。"
+      }
+    },
+    "title": {
+      "en": "The Grain Remembers",
+      "zh": "木纹记得真相"
+    },
+    "category": {
+      "en": "Contemporary Drama",
+      "zh": "当代剧情"
+    },
+    "summary": {
+      "en": "When Maeve Calder is blamed for an old structural failure and publicly framed at her family's restoration gala, a logbook begun in 1984, modern timber scans, and unedited event footage expose the scheme. She chooses a lawful audit over revenge and builds an independent conservation guild.",
+      "zh": "梅芙·考尔德既被迫为旧结构事故背锅，又在家族修复庆典上遭人栽赃。一本始于1984年的日志、现代木材扫描数据与未经剪辑的现场录像共同揭开骗局；她选择依法审计而非报复，并建立了独立修复行会。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial psychological pressure, corporate deceit, and public confrontation.",
+      "zh": "虚构故事。包含家族心理压力、商业欺诈及公开冲突等主题。"
+    },
+    "tone": "Slate",
+    "glyph": "GR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2529,
+      "zh": 4427
     }
   }
 ];
