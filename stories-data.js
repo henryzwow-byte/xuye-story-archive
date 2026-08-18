@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a426-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a427-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18510,6 +18510,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2322,
       "zh": 3965
+    }
+  },
+  {
+    "slug": "frost-and-timber",
+    "fileNo": "A-427",
+    "cover": "assets/covers/A-427-frost-and-timber.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Frost and Timber",
+        "zh": "霜雪与木香"
+      },
+      "description": {
+        "en": "A story of resilience, legal accountability, and building a new life after family financial betrayal in Duluth.",
+        "zh": "讲述在杜鲁斯，面对亲情的财务背叛，女子凭借凭据与坚韧重建生活的故事。"
+      }
+    },
+    "title": {
+      "en": "Frost and Timber",
+      "zh": "霜雪与木香"
+    },
+    "category": {
+      "en": "Fiction / Drama",
+      "zh": "虚构小说 / 戏剧"
+    },
+    "summary": {
+      "en": "When a small-town wood restorer faces eviction and asset seizure while caring for her hospitalized brother, a meticulous paper trail becomes her ultimate shield against family greed.",
+      "zh": "当一位小镇木艺修复师在照料住院弟弟期间遭遇亲戚的恶意驱逐与财产扣押，一份详尽的账目账本成为了她反抗贪婪、守护家园的终极武器。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, financial exploitation, and chronic illness recovery.",
+      "zh": "虚构故事。包含家庭冲突、财务剥削及慢性病康复相关主题。"
+    },
+    "tone": "wintry",
+    "glyph": "FT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2992,
+      "zh": 5175
     }
   }
 ];
