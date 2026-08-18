@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a432-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a433-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18774,6 +18774,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2245,
       "zh": 3907
+    }
+  },
+  {
+    "slug": "the-harbor-deed",
+    "fileNo": "A-433",
+    "cover": "assets/covers/A-433-the-harbor-deed.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Harbor Deed",
+        "zh": "港湾契约"
+      },
+      "description": {
+        "en": "Locked out on a freezing coastal night, a mother fights to protect her child and reclaim her legacy from a predatory family.",
+        "zh": "在一个寒冷的海岸之夜被锁在门外，一位母亲奋力保护孩子，并从掠夺成性的夫家中收回属于自己的遗产。"
+      }
+    },
+    "title": {
+      "en": "The Harbor Deed",
+      "zh": "港湾契约"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When her husband and mother-in-law lock her and her sick son out in a freezing storm to save face at a corporate dinner, Julianne Miller turns to her uncle and an old family deed to reclaim her life.",
+      "zh": "当丈夫和婆婆为了在商务晚宴上保全颜面，将朱莉安娜·米勒和她生病的儿子锁在冰冷的暴风雨中时，朱莉安娜借助叔叔和一份古老的老家族契约，夺回了属于自己的人生。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of domestic tension, familial conflict, and child endangerment.",
+      "zh": "虚构故事。包含家庭矛盾、情感纠纷及儿童处于险境的情节。"
+    },
+    "tone": "Stark",
+    "glyph": "HD",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2209,
+      "zh": 3858
     }
   }
 ];
