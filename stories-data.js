@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a440-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a441-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19126,6 +19126,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2042,
       "zh": 3749
+    }
+  },
+  {
+    "slug": "timber-tide-and-title",
+    "fileNo": "A-441",
+    "cover": "assets/covers/A-441-timber-tide-and-title.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Timber, Tide, and Title",
+        "zh": "木香、潮汐与地契"
+      },
+      "description": {
+        "en": "When a physical injury and a coastal storm leave Clara vulnerable, she discovers her ambitious son's betrayal—and reclaims her independence.",
+        "zh": "当一场意外伤痛与沿海暴风雨让克拉拉陷入困境时，她发现了野心勃勃的儿子背后的背叛，并重新夺回了自己的独立与尊严。"
+      }
+    },
+    "title": {
+      "en": "Timber, Tide, and Title",
+      "zh": "木香、潮汐与地契"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "Recovering from a severe leg injury in her coastal Oregon home during a torrential storm, Clara Vance discovers her son has forged land title documents to pledge her orchard as loan collateral. Facing darkness and betrayal, she takes decisive legal action to reclaim her property and autonomy.",
+      "zh": "在俄勒冈州沿海的家中，克拉拉·凡斯正经历着腿伤复原与暴风雨侵袭的双重困境，却意外发现儿子伪造了土地产权文件，将她的果园作为贷款抵押。面对黑暗与背叛，她果断采取法律手段，夺回了属于自己的财产与尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts familial emotional conflict, financial manipulation, and recovery from physical injury.",
+      "zh": "虚构故事。包含家庭情感冲突、财产操守隐患及伤后康复情节。"
+    },
+    "tone": "slate",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2344,
+      "zh": 3935
     }
   }
 ];
