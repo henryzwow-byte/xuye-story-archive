@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a428-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a429-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18598,6 +18598,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2307,
       "zh": 3848
+    }
+  },
+  {
+    "slug": "the-coldest-timber",
+    "fileNo": "A-429",
+    "cover": "assets/covers/A-429-the-coldest-timber.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Coldest Timber",
+        "zh": "最冷之木"
+      },
+      "description": {
+        "en": "When a coastal gale traps Nora under a collapsed beam, her husband locks her inside to protect his political gala.",
+        "zh": "暴风雨摧毁了她的木屋工作室并将她压在倒塌的横梁下，而诺拉的丈夫为了保全自己的名流晚宴，竟将她锁在黑暗中。"
+      }
+    },
+    "title": {
+      "en": "The Coldest Timber",
+      "zh": "最冷之木"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "Trapped beneath a heavy oak timber during a coastal gale, Nora Vance begs her ambitious husband for help. Instead, he locks the barn door from the outside to ensure her medical emergency doesn't derail his political gala, leaving her to survive in the dark.",
+      "zh": "沿海暴风雨夜，诺拉·凡斯被重达两百磅的橡木梁压在坍塌的工作室中。她向野心勃勃的丈夫求救，对方却为了防止急救人员打扰他的政治晚宴，将马厩大门从外面锁死。在毒气与绝望中，诺拉独自展开了求生。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of physical injury, abandonment, and medical emergency.",
+      "zh": "虚构故事。包含人身伤害、弃之不顾及医疗急救描写。"
+    },
+    "tone": "Stark",
+    "glyph": "CT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2334,
+      "zh": 4025
     }
   }
 ];
