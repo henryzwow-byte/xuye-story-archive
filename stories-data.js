@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a420-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a421-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18246,6 +18246,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2478,
       "zh": 4237
+    }
+  },
+  {
+    "slug": "echoes-of-the-tide-house",
+    "fileNo": "A-421",
+    "cover": "assets/covers/A-421-echoes-of-the-tide-house.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Echoes of the Tide House",
+        "zh": "潮汐之屋的回响"
+      },
+      "description": {
+        "en": "A mother uncovers dark harbor secrets after her daughter's suspicious injury at a coastal restoration site.",
+        "zh": "女儿在海岸修复工地意外受伤后，一位母亲揭开了港口暗藏的家族秘密。"
+      }
+    },
+    "title": {
+      "en": "Echoes of the Tide House",
+      "zh": "潮汐之屋的回响"
+    },
+    "category": {
+      "en": "Family Suspense",
+      "zh": "家庭悬疑"
+    },
+    "summary": {
+      "en": "When her nineteen-year-old daughter is injured in a suspicious beam collapse at an island tide house, restoration archivist Naomi Reed follows a hidden notebook and film canister into a financial scheme run by her own relatives.",
+      "zh": "十九岁的女儿在岛上潮汐小屋遭遇可疑的横梁坍塌后，修复档案员娜奥米·里德循着一本秘密笔记和一盒胶片，追查到亲属操纵的财务阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family betrayal, corruption, and hospital trauma.",
+      "zh": "虚构故事。包含家庭背叛、腐败及医院创伤主题。"
+    },
+    "tone": "misty",
+    "glyph": "ET",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1924,
+      "zh": 3097
     }
   }
 ];
