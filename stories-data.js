@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a431-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a432-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18730,6 +18730,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2613,
       "zh": 4632
+    }
+  },
+  {
+    "slug": "the-harbor-clockmakers-secret",
+    "fileNo": "A-432",
+    "cover": "assets/covers/A-432-the-harbor-clockmakers-secret.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Harbor Clockmaker's Secret",
+        "zh": "港口钟表匠的秘密"
+      },
+      "description": {
+        "en": "A mysterious brass key and a brave runaway girl unearth a dark corporate betrayal on the fog-bound Oregon coast.",
+        "zh": "在雾气弥漫的俄勒冈海岸，一把神秘的黄铜钥匙和一个勇敢的离家女孩揭开了一起阴暗的企业背叛。"
+      }
+    },
+    "title": {
+      "en": "The Harbor Clockmaker's Secret",
+      "zh": "港口钟表匠的秘密"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When a naval architect's daughter falls silent after a lighthouse collapse, an orphaned girl with a master clockmaker's brass key arrives to unlock the truth behind the tragedy.",
+      "zh": "当一位船舶工程师的女儿在灯塔坍塌事故后陷入失语与瘫痪，一名手持老钟表匠黄铜钥匙的孤儿女孩来到庄园，揭开了这场悲剧背后的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of grief, psychological trauma, and family secrets.",
+      "zh": "虚构故事。包含悲伤、心理创伤和家庭秘密主题。"
+    },
+    "tone": "atmospheric",
+    "glyph": "HC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2245,
+      "zh": 3907
     }
   }
 ];
