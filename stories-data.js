@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a435-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a436-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18906,6 +18906,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2512,
       "zh": 4259
+    }
+  },
+  {
+    "slug": "salt-and-cedar",
+    "fileNo": "A-436",
+    "cover": "assets/covers/A-436-salt-and-cedar.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Salt and Cedar: A Story of Integrity and Truth",
+        "zh": "盐与红杉：关乎坚守与真相的故事"
+      },
+      "description": {
+        "en": "A structural engineer returns to her coastal town to audit a dangerous pier restoration and expose a mentor's systemic fraud.",
+        "zh": "一名结构工程师回到沿海小镇审查危险的码头修复工程，揭露前导师的系统性欺诈。"
+      }
+    },
+    "title": {
+      "en": "Salt and Cedar",
+      "zh": "盐与红杉"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When structural engineer Evelyn Vance returns to Cape Solitude to audit a historic pier restoration, she confronts her former mentor who framed her for a disastrous collapse years ago. Armed with physical evidence recovered from flooded sea vaults, she fights to reclaim her reputation and bring a systemic fraud to light.",
+      "zh": "当结构工程师埃夫林·凡斯回到孤角镇审查一座历史码头的修复工程时，她正面迎战了多年前将一起灾难性坍塌事故嫁祸给她的前导师。凭借从淹没的海底地窖中抢救出的物理铁证，她誓要夺回自己的声誉，揭开这场系统性欺诈的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of workplace sabotage, structural collapse hazards, and intense professional confrontation.",
+      "zh": "虚构故事。包含职场破坏、结构坍塌隐患及剧烈职业对抗情节。"
+    },
+    "tone": "weathered",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2195,
+      "zh": 3940
     }
   }
 ];
