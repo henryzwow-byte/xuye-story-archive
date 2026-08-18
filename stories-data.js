@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a437-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a438-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18994,6 +18994,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2527,
       "zh": 4169
+    }
+  },
+  {
+    "slug": "revoked-guarantee",
+    "fileNo": "A-438",
+    "cover": "assets/covers/A-438-revoked-guarantee.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Revoked Guarantee: A Story of Independence",
+        "zh": "撤销担保：重获独立的故事"
+      },
+      "description": {
+        "en": "When an ex-husband and his entitled sister demand access to her restoration escrow, Claire stands her ground with proof and law.",
+        "zh": "当前夫与其傲慢的姐姐强要建筑托管资金时，克莱尔用确凿证据与法律防线划清界限。"
+      }
+    },
+    "title": {
+      "en": "Revoked Guarantee",
+      "zh": "撤销担保"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "现代小说"
+    },
+    "summary": {
+      "en": "Hours after signing her divorce agreement, architectural conservator Claire Mercer revokes her former husband's family from her business escrow account. When they show up at her studio demanding funds with a forged addendum, a paper trail of truth secures her complete freedom.",
+      "zh": "离婚协议生效数小时后，古建筑修复师克莱尔·默瑟撤销了前夫家族对其商业托管账户的调阅权。当对方手持伪造附页闯入工坊索要资金时，一份无法撼动的时间戳证据彻底粉碎了他们的企图。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts personal separation, emotional conflict, financial dispute, and legal boundaries. All characters, businesses, and incidents are entirely fictional.",
+      "zh": "虚构故事。包含婚姻破裂、情感冲突、财务纠纷及法律维权情节。书中人物、机构及事件纯属虚构。"
+    },
+    "tone": "Luminous",
+    "glyph": "RG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2738,
+      "zh": 4797
     }
   }
 ];
