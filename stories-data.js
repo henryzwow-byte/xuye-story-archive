@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a434-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a435-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18862,6 +18862,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2236,
       "zh": 3960
+    }
+  },
+  {
+    "slug": "the-ironwood-covenant",
+    "fileNo": "A-435",
+    "cover": "assets/covers/A-435-the-ironwood-covenant.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Ironwood Covenant",
+        "zh": "铁木公约"
+      },
+      "description": {
+        "en": "When a timberland craftsman discovers his son and business partner secretly offered the family forest to developers, a forgotten land covenant changes everything.",
+        "zh": "当一位木艺匠人发现儿子与商业伙伴背着他将家族林地变卖给开发商时，一份被遗忘的土地公约改变了一切。"
+      }
+    },
+    "title": {
+      "en": "The Ironwood Covenant",
+      "zh": "铁木公约"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "A master timber craftsman in Idaho stands his ground when his son secretly maneuvers to convert their ancestral mountain forest into a luxury alpine resort.",
+      "zh": "一位身处爱达荷州的木艺大师在发现儿子暗中筹划将家族祖传林地改建为奢华度假村后，坚守原则并立下了明确的界限。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, financial deceit, corporate manipulation, and emotional conflict.",
+      "zh": "虚构故事。包含家庭疏离、财务欺诈、企业操纵及情感冲突相关主题。"
+    },
+    "tone": "Amber",
+    "glyph": "IC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2512,
+      "zh": 4259
     }
   }
 ];
