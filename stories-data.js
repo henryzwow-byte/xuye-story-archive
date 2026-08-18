@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a429-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a430-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -18642,6 +18642,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2334,
       "zh": 4025
+    }
+  },
+  {
+    "slug": "tide-of-redemption",
+    "fileNo": "A-430",
+    "cover": "assets/covers/A-430-tide-of-redemption.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tide of Redemption | A Story of Infrastructure, Corruption, and Justice",
+        "zh": "救赎之潮 | 基础设施、腐败与正义的故事"
+      },
+      "description": {
+        "en": "A marine safety inspector uncovers a decade-old cover-up on a rain-slicked Oregon pier, confronting the powerful director who ruined her mother's legacy.",
+        "zh": "在雨水湿滑的俄勒冈码头上，一名海洋安全调查员揭开了一起隐藏十年的包庇案，与毁掉她母亲声誉的权势主管正面交锋。"
+      }
+    },
+    "title": {
+      "en": "Tide of Redemption",
+      "zh": "救赎之潮"
+    },
+    "category": {
+      "en": "Investigative Drama",
+      "zh": "调查剧情"
+    },
+    "summary": {
+      "en": "When Port Director Arthur Sterling tries to humiliate an unranked technician on a stormy harbor pier, he triggers an audit that unearths a suppressed disaster report and clears an innocent engineer's name.",
+      "zh": "当港口主管阿瑟·斯特林试图在暴风雨中的码头上羞辱一名没有军衔标识的技术员时，他引发了一场彻底的调查，揭露了一份被隐匿的灾难报告，并洗清了一名无辜工程师的罪名。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of workplace intimidation, administrative corruption, structural disaster investigation, and systemic justice.",
+      "zh": "虚构故事。包含职场恐吓、行政腐败、结构性灾难调查及系统性正义等主题。"
+    },
+    "tone": "rain-slicked steel",
+    "glyph": "TR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2238,
+      "zh": 3870
     }
   }
 ];
