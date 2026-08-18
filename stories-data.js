@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a441-v1";
+window.STORY_ARCHIVE_VERSION = "20260818-a442-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19170,6 +19170,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2344,
       "zh": 3935
+    }
+  },
+  {
+    "slug": "the-orchard-boundary",
+    "fileNo": "A-442",
+    "cover": "assets/covers/A-442-the-orchard-boundary.png",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Orchard Boundary",
+        "zh": "果园的界线"
+      },
+      "description": {
+        "en": "A widowed botanical artist in coastal Oregon defends her heirloom estate and land autonomy against her stepson's covert financial leverage.",
+        "zh": "一位生活在俄勒冈州的寡居植物艺术家，为了守护遗产与土地自主权，对继子隐秘的财务剥削展开坚决反击。"
+      }
+    },
+    "title": {
+      "en": "The Orchard Boundary",
+      "zh": "果园的界线"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When a widowed artist discovers her stepson has secretly pledged her historic Oregon orchard as collateral for his failing commercial venture, she takes decisive legal action at the county seat to reclaim her land and independence.",
+      "zh": "当一位寡居的植物艺术家发现继子暗中将她位于俄勒冈州的历史果园用作其失败商业项目的贷款抵押时，她在县政府采取了果断的法律行动，夺回了土地与独立。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family financial exploitation, emotional manipulation, and elder autonomy.",
+      "zh": "虚构故事。包含家庭财务剥削、情感操纵及老年人自主权相关主题。"
+    },
+    "tone": "Cedar",
+    "glyph": "OB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2243,
+      "zh": 3799
     }
   }
 ];
