@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a459-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a460-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19962,6 +19962,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2462,
       "zh": 4192
+    }
+  },
+  {
+    "slug": "the-boatyard-covenant",
+    "fileNo": "A-460",
+    "cover": "assets/covers/A-460-the-boatyard-covenant.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tide and Timber",
+        "zh": "潮汐与木香"
+      },
+      "description": {
+        "en": "A historic Maine shipwright defends his late wife's legacy when ambitious relatives try to strip the shipyard.",
+        "zh": "一位缅因州老造船工在野心勃勃的亲戚企图剥夺船厂时，守护亡妻留下的遗产。"
+      }
+    },
+    "title": {
+      "en": "Tide and Timber",
+      "zh": "潮汐与木香"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When his daughter and her corporate husband attempt to seize his century-old coastal boatyard, an aging shipwright reveals a quiet legal shield created by his late wife.",
+      "zh": "当女儿与女婿企图强占百年海岸船厂时，一位老造船工揭开了亡妻悄然设立的法律屏障。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, emotional betrayal, and financial disputes.",
+      "zh": "虚构故事。包含家庭冲突、情感背叛及财产纠纷主题。"
+    },
+    "tone": "maritime",
+    "glyph": "TT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2531,
+      "zh": 4251
     }
   }
 ];
