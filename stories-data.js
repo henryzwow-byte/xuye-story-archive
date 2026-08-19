@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a460-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a461-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -20006,6 +20006,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2531,
       "zh": 4251
+    }
+  },
+  {
+    "slug": "the-compass-and-the-coastal-trust",
+    "fileNo": "A-461",
+    "cover": "assets/covers/A-461-the-compass-and-the-coastal-trust.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Compass and the Coastal Trust",
+        "zh": "罗盘与海岸信托"
+      },
+      "description": {
+        "en": "When a mother is turned away from the grand opening of a coastal museum she funded, a fraudulent penalty forces her to confront her son's betrayal with undeniable legal records.",
+        "zh": "当一位资助了海岸观象台的母亲在落成典礼上被拒之门外，一笔违规罚单迫使她用严密的法律记录直面儿子的背叛。"
+      }
+    },
+    "title": {
+      "en": "The Compass and the Coastal Trust",
+      "zh": "罗盘与海岸信托"
+    },
+    "category": {
+      "en": "Contemporary Fiction",
+      "zh": "当代小说"
+    },
+    "summary": {
+      "en": "After being turned away from the inaugurating gala of a coastal observatory she funded, an archival conservator uncovers her son's role in a fraudulent structural violation scheme—and uses undeniable paper trails to enforce accountability.",
+      "zh": "一位档案修复师在被自己资助的海岸观象台开幕晚宴拒之门外后，揭发了儿子参与的一起违规改建与债务转嫁阴谋，并凭借无法反驳的纸质记录重塑了家庭的界限与尊严。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family emotional conflict, financial boundary setting, and legal accountability.",
+      "zh": "虚构故事。包含家庭情感冲突、财务界限确立及法律责任等主题。"
+    },
+    "tone": "slate",
+    "glyph": "CT",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3337,
+      "zh": 5707
     }
   }
 ];
