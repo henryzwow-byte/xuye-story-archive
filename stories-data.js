@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a463-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a464-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -20138,6 +20138,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3044,
       "zh": 5422
+    }
+  },
+  {
+    "slug": "the-silent-ledger",
+    "fileNo": "A-464",
+    "cover": "assets/covers/A-464-the-silent-ledger.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Ledger",
+        "zh": "无声的账本"
+      },
+      "description": {
+        "en": "A night-shift paper conservator stumbles upon a powerful director's hidden secret—and finds himself caught in a high-stakes battle over institutional truth.",
+        "zh": "夜班纸质文物修复师无意中发现了权势显赫的馆长隐瞒的秘密，由此卷入一场关乎机构存亡与真伪的高风险博弈。"
+      }
+    },
+    "title": {
+      "en": "The Silent Ledger",
+      "zh": "无声的账本"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When archival conservator Julian Thorne discovers a hidden vulnerability in the director of a prestigious Boston institute, he is thrust into a dangerous dispute involving altered historical records and corporate blackmail.",
+      "zh": "当古籍修复师朱利安·索恩无意间窥见波士顿名门文保机构馆长隐藏的身体困境时，他被卷入了一场涉及伪造历史档案与高层敲诈的危险纷争。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts workplace conflict, illness disclosure, and institutional blackmail.",
+      "zh": "虚构故事。包含职场冲突、隐疾披露与机构敲诈等情节。"
+    },
+    "tone": "amber",
+    "glyph": "SL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2592,
+      "zh": 4681
     }
   }
 ];
