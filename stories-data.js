@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a455-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a456-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19786,6 +19786,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2290,
       "zh": 3982
+    }
+  },
+  {
+    "slug": "the-frost-on-timber-ridge",
+    "fileNo": "A-456",
+    "cover": "assets/covers/A-456-the-frost-on-timber-ridge.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Frost on Timber Ridge",
+        "zh": "林脊镇的霜夜"
+      },
+      "description": {
+        "en": "When her greedy relatives sabotage her fragile brother's life-sustaining medical equipment during a sub-zero freeze, Laurel turns to hidden evidence to protect him.",
+        "zh": "当贪婪的亲戚在严寒之夜破坏残疾弟弟的维生设备时，劳雷尔借助隐蔽的证据打响了保护家人的反击战。"
+      }
+    },
+    "title": {
+      "en": "The Frost on Timber Ridge",
+      "zh": "林脊镇的霜夜"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A suspenseful fictional story about a sister who uncovers a calculated domestic sabotage scheme aimed at disinheriting her fragile younger brother during a harsh Vermont winter.",
+      "zh": "讲述在佛蒙特州严冬里，姐姐揭露亲戚企图通过破坏医疗设备迫使残疾弟弟放弃遗产继承权的悬疑虚构故事。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family conflict, emotional distress, medical vulnerability, and domestic sabotage.",
+      "zh": "虚构故事。包含家庭冲突、情感困扰、医疗脆弱性及家庭蓄意破坏等主题。"
+    },
+    "tone": "chilly",
+    "glyph": "TR",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2354,
+      "zh": 4230
     }
   }
 ];
