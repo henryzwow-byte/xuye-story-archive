@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a465-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a466-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -20226,6 +20226,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2163,
       "zh": 3644
+    }
+  },
+  {
+    "slug": "the-cedar-and-brass",
+    "fileNo": "A-466",
+    "cover": "assets/covers/A-466-the-cedar-and-brass.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Cedar and Brass",
+        "zh": "雪松与黄铜"
+      },
+      "description": {
+        "en": "A mysterious gift delivered to an Oregon timber workshop tests a family's vigilance and resolve.",
+        "zh": "一份送到俄勒冈木材工坊的神秘礼物，考验着一个家庭的警惕与决心。"
+      }
+    },
+    "title": {
+      "en": "The Cedar and Brass",
+      "zh": "雪松与黄铜"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "When an estranged relative sends an antique nautical compass to an architectural restorer's son, a careful inspection uncovers hidden motives embedded deep within the brass.",
+      "zh": "当疏远的亲戚将一枚古董航海指南针送给建筑修复师的儿子时，细致的检查揭开了藏在黄铜深处的隐秘动机。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family estrangement, covert surveillance, and legal disputes.",
+      "zh": "虚构故事。包含家庭疏离、隐蔽监控及法律纠纷相关主题。"
+    },
+    "tone": "bronze",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2859,
+      "zh": 5094
     }
   }
 ];
