@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a454-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a455-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19742,6 +19742,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2569,
       "zh": 4308
+    }
+  },
+  {
+    "slug": "valley-of-silent-water",
+    "fileNo": "A-455",
+    "cover": "assets/covers/A-455-valley-of-silent-water.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Valley of Silent Water",
+        "zh": "静水之谷"
+      },
+      "description": {
+        "en": "A retired forestry surveyor races up a snowbound Montana mountain to protect her hydrologist son after he uncovers systemic corporate fraud threatening their valley's water supply.",
+        "zh": "一位退休的林业测绘员在雪夜赶赴蒙大拿州的高山泵站，保护揭发水利工程舞弊与环境危机的儿子。"
+      }
+    },
+    "title": {
+      "en": "Valley of Silent Water",
+      "zh": "静水之谷"
+    },
+    "category": {
+      "en": "Environmental Fiction",
+      "zh": "环境小说"
+    },
+    "summary": {
+      "en": "When a junior hydrologist uncovers dangerous structural falsifications at a high-altitude mountain dam, his mother must use her deep knowledge of the wilderness terrain and industrial override safety systems to save him and expose the truth.",
+      "zh": "当一名初级水文学家发现高山水坝存在严重的数据造假与安全隐患时，他的母亲凭借对荒野地形和工业安全系统的了解，在雪夜展开营救并揭露真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of corporate misconduct, institutional intimidation, and emergency wilderness rescue.",
+      "zh": "虚构故事。包含企业不当行为、机构恐吓及荒野紧急救助的情节。"
+    },
+    "tone": "Suspenseful",
+    "glyph": "CW",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2290,
+      "zh": 3982
     }
   }
 ];
