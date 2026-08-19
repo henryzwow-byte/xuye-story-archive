@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a451-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a452-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19610,6 +19610,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2705,
       "zh": 4821
+    }
+  },
+  {
+    "slug": "the-unbroken-grain",
+    "fileNo": "A-452",
+    "cover": "assets/covers/A-452-the-unbroken-grain.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Unbroken Grain",
+        "zh": "不折的纹理"
+      },
+      "description": {
+        "en": "A protective aunt stands up against her manipulative family to rescue her fragile ward at a coastal gala.",
+        "zh": "在一场海滨晚宴上，一位坚韧的养母力抗虚伪操控的家族，誓死守护体弱的幼子。"
+      }
+    },
+    "title": {
+      "en": "The Unbroken Grain",
+      "zh": "不折的纹理"
+    },
+    "category": {
+      "en": "Family Drama",
+      "zh": "家庭情感"
+    },
+    "summary": {
+      "en": "Clara Vance attends her wealthy brother's coastal fundraiser with her young ward Toby. When her family locks Toby away in a cold cellar to preserve their social image, Clara uncovers the audio evidence and cuts ties forever.",
+      "zh": "克拉拉·凡斯携幼小的养子托比出席富商哥哥的海滨筹款晚宴。当家族为了维护形象将患有严重哮喘的托比锁入冷湿地窖时，克拉拉揭穿真相，果断彻底割舍有毒亲情。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional abuse, child endangerment, acute medical distress, and family conflict.",
+      "zh": "虚构故事。包含情感虐待、危害儿童安全、急性哮喘发作及家庭冲突等情节。"
+    },
+    "tone": "amber",
+    "glyph": "UG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2207,
+      "zh": 3922
     }
   }
 ];
