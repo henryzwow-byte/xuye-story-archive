@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a456-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a457-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19830,6 +19830,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2354,
       "zh": 4230
+    }
+  },
+  {
+    "slug": "the-iron-foundation",
+    "fileNo": "A-457",
+    "cover": "assets/covers/A-457-the-iron-foundation.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Iron Foundation",
+        "zh": "钢铁基石"
+      },
+      "description": {
+        "en": "When a senior structural inspector is publicly fired for exposing a dangerous harbor foundation flaw, an unexpected visitor reveals the true balance of power.",
+        "zh": "当一名资深结构检验员因揭露危险的港口地基缺陷而被公开解雇时，一位意想不到的来客揭示了真正的权力制衡。"
+      }
+    },
+    "title": {
+      "en": "The Iron Foundation",
+      "zh": "钢铁基石"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "A quiet structural inspector stands up against corporate corruption at a top Chicago engineering firm, uncovering a massive infrastructure hazard backed by a powerful regulatory authority.",
+      "zh": "一名沉稳的结构检验员勇于对抗芝加哥顶级工程公司的企业腐败，在强大的监管机构支持下揭露了一起重大的基础设施安全隐患。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts workplace conflict, corporate corruption, and professional ethics.",
+      "zh": "虚构故事。包含职场冲突、企业腐败与职业道德相关情节。"
+    },
+    "tone": "Steel",
+    "glyph": "IF",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2901,
+      "zh": 5154
     }
   }
 ];
