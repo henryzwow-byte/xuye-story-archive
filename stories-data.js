@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a448-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a449-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19478,6 +19478,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2384,
       "zh": 4853
+    }
+  },
+  {
+    "slug": "the-copperstone-boundary",
+    "fileNo": "A-449",
+    "cover": "assets/covers/A-449-the-copperstone-boundary.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Copperstone Boundary",
+        "zh": "铜石城的界碑"
+      },
+      "description": {
+        "en": "A female cartographer arrives in a high-mountain mining town to find her surveying partner framed for dam sabotage, uncovering a syndicate land grab through precision water elevation logs.",
+        "zh": "一位女性地图绘制师来到高山矿业镇，发现测绘伙伴因水坝破坏案遭人诬陷，她通过精准的水位测绘日志揭露了一场财阀掠夺土地的阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Copperstone Boundary",
+      "zh": "铜石城的界碑"
+    },
+    "category": {
+      "en": "Western Fiction",
+      "zh": "西部小说"
+    },
+    "summary": {
+      "en": "When cartographer Clara Vance arrives in Copperstone, Colorado, she finds her employer imprisoned and accused of destroying the local timber dam. Armed with a hidden brass transit telescope and high-station telegraph logs, she uncovers a corrupt magistrate's illegal aquifer diversion and fights to restore the truth.",
+      "zh": "地图绘制师克拉拉·凡斯抵达科罗拉多州铜石城时，发现雇主被囚禁并被指控破坏当地伐木水坝。手持藏在暗处的黄铜经纬仪和高空电报站记录，她揭露了腐败法官非法分流地下水层的阴谋，并为还原真相而战。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of regional corruption, false imprisonment, and resource disputes.",
+      "zh": "虚构故事。包含地方腐败、冤狱及资源纠纷主题。"
+    },
+    "tone": "alpine",
+    "glyph": "CB",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2856,
+      "zh": 4917
     }
   }
 ];
