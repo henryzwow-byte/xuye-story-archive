@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a466-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a467-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -20270,6 +20270,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2859,
       "zh": 5094
+    }
+  },
+  {
+    "slug": "vance-slipway-legacy",
+    "fileNo": "A-467",
+    "cover": "assets/covers/A-467-vance-slipway-legacy.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Slipway Legacy",
+        "zh": "造船所的传承"
+      },
+      "description": {
+        "en": "A widow shipwright defends her historic Maine boatyard when her son's fiancé attempts a high-stakes waterfront takeover.",
+        "zh": "一位寡妇船匠在海港盛宴上击碎了儿子的未婚夫试图吞并百年造船所的企图。"
+      }
+    },
+    "title": {
+      "en": "The Slipway Legacy",
+      "zh": "造船所的传承"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "When a smooth-talking developer tries to coerce master shipwright Clara Vance into surrendering her historic boatyard at a public harbor gala, an audit of digital records exposes a web of forgery and betrayal.",
+      "zh": "当一名花言巧语的地产开发商试图在海港盛宴上胁迫资深船匠克拉拉·凡斯交出历史悠久的造船所时，一份数字审计记录揭开了伪造与背叛的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of familial conflict, corporate coercion, and minor physical aggression.",
+      "zh": "虚构故事。包含家庭冲突、商业胁迫及轻微肢体冲突描写。"
+    },
+    "tone": "maritime",
+    "glyph": "VS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2275,
+      "zh": 4069
     }
   }
 ];
