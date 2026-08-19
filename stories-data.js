@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a461-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a462-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -20050,6 +20050,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3337,
       "zh": 5707
+    }
+  },
+  {
+    "slug": "tides-of-deception",
+    "fileNo": "A-462",
+    "cover": "assets/covers/A-462-tides-of-deception.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Tides of Deception | A Coastal Family Drama",
+        "zh": "欺诈之潮 | 沿海家庭戏剧"
+      },
+      "description": {
+        "en": "When a ten-year-old girl calls her grandfather from a locked garden shed, a quiet coastal family uncovers a dangerous web of forged environmental compliance records.",
+        "zh": "当一个十岁的女孩从锁住的工具棚给外公打来电话时，一个平静的沿海家庭揭开了一张危险的伪造环保记录之网。"
+      }
+    },
+    "title": {
+      "en": "Tides of Deception",
+      "zh": "欺诈之潮"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "A retired surveyor races to his daughter's home after his young granddaughter whispers of an emergency. What begins as a domestic confrontation reveals a calculated plot to frame an innocent inspector for illegal maritime dumping.",
+      "zh": "一位退休的测量员在小外孙女低声求救后赶往女儿家中。这场原本看似家庭冲突的事件，最终揭露了一起企图陷害无辜巡查员非法倾倒工业废物的阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Depicts family tension, psychological deceit, and allegations of illegal environmental dumping. Contains no graphic violence.",
+      "zh": "虚构故事。涉及家庭紧张局势、心理欺诈及非法环境倾倒指控。不含血腥暴力内容。"
+    },
+    "tone": "Slate",
+    "glyph": "TD",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3392,
+      "zh": 5734
     }
   }
 ];
