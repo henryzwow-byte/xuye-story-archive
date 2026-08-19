@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a462-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a463-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -20094,6 +20094,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 3392,
       "zh": 5734
+    }
+  },
+  {
+    "slug": "craftsmans-verdict",
+    "fileNo": "A-463",
+    "cover": "assets/covers/A-463-craftsmans-verdict.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Craftsman's Verdict",
+        "zh": "匠人的断决"
+      },
+      "description": {
+        "en": "When her family tries to seize her historic restoration contract, Nora relies on hard evidence and quiet grit to secure her independence.",
+        "zh": "当家人试图强占她的古建筑修复项目合同与工坊时，诺拉凭着确凿的证据与坚韧意志，捍卫了自己的独立与尊严。"
+      }
+    },
+    "title": {
+      "en": "The Craftsman's Verdict",
+      "zh": "匠人的断决"
+    },
+    "category": {
+      "en": "Drama & Resilience",
+      "zh": "情感与砺志"
+    },
+    "summary": {
+      "en": "After years of self-funded labor restoring historic timber structures in coastal Maine, Nora wins a prestigious municipal preservation grant—only for her estranged family to demand her contract to cover her brother's failed business debts.",
+      "zh": "在缅因州沿海小镇多年的独自拼搏后，古建筑修复师诺拉凭借实力赢得了市级重点历史建筑修复项目资助资金——然而偏心的家人却企图逼她交出项目资金与工坊，为哥哥经营不善的债务买单。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of familial conflict, emotional coercion, financial boundary disputes, and public reputation confrontations.",
+      "zh": "虚构故事。包含家庭矛盾、情绪绑架、财务边界争议及公开名誉对峙等主题。"
+    },
+    "tone": "Amber",
+    "glyph": "CV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 3044,
+      "zh": 5422
     }
   }
 ];
