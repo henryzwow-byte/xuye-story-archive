@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a449-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a450-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19522,6 +19522,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2856,
       "zh": 4917
+    }
+  },
+  {
+    "slug": "frost-in-the-glasshouse",
+    "fileNo": "A-450",
+    "cover": "assets/covers/A-450-frost-in-the-glasshouse.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Frost in the Glasshouse",
+        "zh": "玻璃温室之霜"
+      },
+      "description": {
+        "en": "A timberland surveyor fights to protect his vulnerable younger brother after discovering a sinister betrayal at their family orchard estate.",
+        "zh": "一名林业测量师在发现家族果园庄园中的冷酷背叛后，誓死守护脆弱的弟弟。"
+      }
+    },
+    "title": {
+      "en": "Frost in the Glasshouse",
+      "zh": "玻璃温室之霜"
+    },
+    "category": {
+      "en": "Dramatic Fiction",
+      "zh": "戏剧小说"
+    },
+    "summary": {
+      "en": "When a midnight storm strikes the Pacific Northwest, surveyor Marcus Vance receives an urgent call revealing his vulnerable younger brother has been locked inside an unheated greenhouse. Racing against time and family deception, Marcus must gather undeniable proof to save his brother and secure their future.",
+      "zh": "当一场午夜暴风雨席卷太平洋西北部时，测量师马克思·凡斯接到急电，得知自己脆弱的弟弟被锁在了无暖气的玻璃温室中。面对时间与家族欺瞒，马克思必须收集不可抵赖的证据以救出弟弟并守住他们的未来。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of family betrayal, child exposure and neglect, and legal disputes. Contains no graphic violence or medical instruction.",
+      "zh": "虚构故事。包含家庭背叛、儿童冷落遗弃及法律纠纷等主题。无图形化暴力或医疗指导。"
+    },
+    "tone": "Frost",
+    "glyph": "FG",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 1965,
+      "zh": 3445
     }
   }
 ];
