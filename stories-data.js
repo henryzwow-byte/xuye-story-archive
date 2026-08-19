@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a452-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a453-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19654,6 +19654,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2207,
       "zh": 3922
+    }
+  },
+  {
+    "slug": "sentinel-cove-timber",
+    "fileNo": "A-453",
+    "cover": "assets/covers/A-453-sentinel-cove-timber.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silent Timber",
+        "zh": "静默的林地"
+      },
+      "description": {
+        "en": "A mother uncovers dark secrets when her daughter falls ill on an isolated Oregon timber estate.",
+        "zh": "一位母亲在俄勒冈州偏远林场中揭开女儿患病背后的阴暗秘密。"
+      }
+    },
+    "title": {
+      "en": "The Silent Timber",
+      "zh": "静默的林地"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When eleven-year-old Nora develops mysterious tremors on an isolated Oregon timber estate, her mother Clara must confront family coercion and hidden environmental sabotage to save her daughter.",
+      "zh": "当十一岁的诺拉在俄勒冈州偏远林场落患原因不明的震颤时，母亲克拉拉必须面对家庭胁迫与隐藏的环境篡改，以挽救女儿的生命。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of domestic coercion, child illness, and environmental tampering.",
+      "zh": "虚构故事。包含家庭胁迫、儿童疾病及环境篡改情节。"
+    },
+    "tone": "amber",
+    "glyph": "ST",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2801,
+      "zh": 4958
     }
   }
 ];
