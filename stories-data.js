@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260818-a447-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a448-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19434,6 +19434,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2783,
       "zh": 4674
+    }
+  },
+  {
+    "slug": "shadows-over-silver-creek",
+    "fileNo": "A-448",
+    "cover": "assets/covers/A-448-shadows-over-silver-creek.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "Shadows over Silver Creek",
+        "zh": "银溪镇的阴影"
+      },
+      "description": {
+        "en": "A former smokejumper and his nephew stand against corporate environmental timber fraud in a mountain logging town.",
+        "zh": "一位前空降消防员与他的侄子在采伐小镇中挺身而出，对抗企业的违规采伐与环境欺诈。"
+      }
+    },
+    "title": {
+      "en": "Shadows over Silver Creek",
+      "zh": "银溪镇的阴影"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "虚构小说"
+    },
+    "summary": {
+      "en": "When a hydrologist is intimidated at a mountain train depot, a retired wildland smokejumper and his teenage nephew step in to expose corporate timber fraud and protect their home.",
+      "zh": "当一名水文学家在山区火车站台遭受威胁时，隐居的前空降消防员与他的侄子挺身而出，揭露采伐公司的环境欺诈并守护家园。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains depictions of environmental fraud, corporate intimidation, and physical confrontation.",
+      "zh": "虚构故事。包含环境欺诈、企业胁迫及肢体冲突的描写。"
+    },
+    "tone": "Timber",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2384,
+      "zh": 4853
     }
   }
 ];
