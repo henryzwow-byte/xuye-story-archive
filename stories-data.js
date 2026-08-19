@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a457-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a458-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19874,6 +19874,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2901,
       "zh": 5154
+    }
+  },
+  {
+    "slug": "the-harbor-brass-cylinder",
+    "fileNo": "A-458",
+    "cover": "assets/covers/A-458-the-harbor-brass-cylinder.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Timber Line",
+        "zh": "木梁界线"
+      },
+      "description": {
+        "en": "A timber restorer in a coastal town fights to uncover the truth when her daughter is coerced into a painful custody decision.",
+        "zh": "沿海小镇的一位木构修复师在女儿迫于胁迫作出痛苦的监护决定后，极力揭开背后的真相。"
+      }
+    },
+    "title": {
+      "en": "The Timber Line",
+      "zh": "木梁界线"
+    },
+    "category": {
+      "en": "Fictional Drama",
+      "zh": "虚构戏剧"
+    },
+    "summary": {
+      "en": "When her daughter unexpectedly chooses her wealthy father in a county guardianship hearing, a coastal wood restorer discovers a hidden message that reveals a dangerous plot of municipal extortion.",
+      "zh": "当女儿在县监护权听证会上出人意料地选择富有的父亲时，一位沿海木构修复师发现了藏在旧探具中的信件，揭露了一场针对她的市政胁迫阴谋。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild themes of family conflict, emotional distress, and legal dispute.",
+      "zh": "虚构故事。包含轻度家庭冲突、情感困扰与法律纠纷情节。"
+    },
+    "tone": "slate",
+    "glyph": "TL",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2131,
+      "zh": 3675
     }
   }
 ];
