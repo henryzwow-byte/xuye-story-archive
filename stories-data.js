@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a453-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a454-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19698,6 +19698,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2801,
       "zh": 4958
+    }
+  },
+  {
+    "slug": "salt-and-timber",
+    "fileNo": "A-454",
+    "cover": "assets/covers/A-454-salt-and-timber.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Salt and Timber Ledger",
+        "zh": "盐与木的账簿"
+      },
+      "description": {
+        "en": "A coastal Maine conservator trapped in her boatyard loft uses an emergency marine radio to expose a fraudulent land takeover.",
+        "zh": "一名被困在船厂阁楼上的缅因州沿海修复师，利用应急海洋无线电揭穿了一场诈骗夺地的阴谋。"
+      }
+    },
+    "title": {
+      "en": "The Salt and Timber Ledger",
+      "zh": "盐与木的账簿"
+    },
+    "category": {
+      "en": "Suspense Fiction",
+      "zh": "悬疑小说"
+    },
+    "summary": {
+      "en": "Recovering from a severe workshop injury at her coastal Maine boatyard, antique conservator Nora Vance realizes her business partner isn't trying to protect her recovery—he is isolating her to seize her family's historic timberland.",
+      "zh": "在缅因州沿海船厂因重伤修养的古董修复师诺拉·凡斯察觉到，合伙人并非在照料她的伤势，而是企图将她与外界隔绝，以夺取她家族传承的历史木材保护地。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of emotional manipulation, unlawful confinement, and medical neglect.",
+      "zh": "虚构故事。包含情感操控、非法禁锢及医疗忽视相关主题。"
+    },
+    "tone": "Frost",
+    "glyph": "ST",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2569,
+      "zh": 4308
     }
   }
 ];
