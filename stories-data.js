@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a450-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a451-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19566,6 +19566,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 1965,
       "zh": 3445
+    }
+  },
+  {
+    "slug": "the-broken-vault",
+    "fileNo": "A-451",
+    "cover": "assets/covers/A-451-the-broken-vault.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Broken Vault",
+        "zh": "毁坏的保险柜"
+      },
+      "description": {
+        "en": "When her husband and father-in-law force open her private safe to seize her inheritance and demand her career resignation, a structural engineer quietly builds an unassailable financial exit.",
+        "zh": "当丈夫和公公强行撬开她的私人保险柜以掠夺其继承财产并逼迫她辞职时，一位结构工程师静默地构建了一套无法撼动的财务切割方案。"
+      }
+    },
+    "title": {
+      "en": "The Broken Vault",
+      "zh": "毁坏的保险柜"
+    },
+    "category": {
+      "en": "Fiction",
+      "zh": "小说"
+    },
+    "summary": {
+      "en": "A senior infrastructure engineer responds to her family's covert financial ambush with razor-sharp legal precision, transforming a moment of forced submission into a masterclass in autonomy.",
+      "zh": "面对夫家精心策划的暗中财务围剿，一位高级基础设施工程师以极其精确的法律手段予以回击，将一场被动的屈辱蜕变为重获自主权的决绝行动。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of marital conflict, financial coercion, privacy violation, and legal separation.",
+      "zh": "虚构故事。包含婚姻冲突、财务胁迫、隐私侵犯及法律解离等主题。"
+    },
+    "tone": "Steely",
+    "glyph": "BV",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2705,
+      "zh": 4821
     }
   }
 ];
