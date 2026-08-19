@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a464-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a465-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -20182,6 +20182,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2592,
       "zh": 4681
+    }
+  },
+  {
+    "slug": "the-silver-cipher",
+    "fileNo": "A-465",
+    "cover": "assets/covers/A-465-the-silver-cipher.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Silver Cipher",
+        "zh": "银纹密码"
+      },
+      "description": {
+        "en": "A father and daughter discover a buried truth behind a mysterious disappearance in high-desert Oregon.",
+        "zh": "一对父女在俄勒冈州的高原沙漠镇中，解开了一起失踪案背后的隐秘真相。"
+      }
+    },
+    "title": {
+      "en": "The Silver Cipher",
+      "zh": "银纹密码"
+    },
+    "category": {
+      "en": "Fictional Drama & Mystery",
+      "zh": "虚构戏剧与悬疑"
+    },
+    "summary": {
+      "en": "Seven years after environmental chemist Dr. Valerie Sterling disappeared, her husband Marcus and daughter Tess encounter a woodworking artisan wearing a familiar silver pendant, leading to a dangerous unraveling of high-desert secrets.",
+      "zh": "在环境化学家瓦莱丽·斯特林博士失踪七年后，她的丈夫马克思与女儿泰丝在一场古董集会上偶遇了一位佩戴着熟悉银坠饰的木艺匠人，进而揭开了一段隐藏在高原沙漠中的危险秘密。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains mild thematic elements of grief, memory loss, and corporate cover-ups.",
+      "zh": "虚构故事。包含有关悲伤、记忆丧失及企业阴谋的轻度主题元素。"
+    },
+    "tone": "Ochre",
+    "glyph": "SC",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2163,
+      "zh": 3644
     }
   }
 ];
