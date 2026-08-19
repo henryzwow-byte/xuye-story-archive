@@ -1,4 +1,4 @@
-window.STORY_ARCHIVE_VERSION = "20260819-a458-v1";
+window.STORY_ARCHIVE_VERSION = "20260819-a459-v1";
 window.STORY_ARCHIVE = [
   {
     "slug": "the-broken-home",
@@ -19918,6 +19918,50 @@ window.STORY_ARCHIVE = [
     "readingUnits": {
       "en": 2131,
       "zh": 3675
+    }
+  },
+  {
+    "slug": "the-granite-sentinel",
+    "fileNo": "A-459",
+    "cover": "assets/covers/A-459-the-granite-sentinel.png",
+    "published": "2026-08-19",
+    "modified": "2026-08-19",
+    "isNew": true,
+    "share": {
+      "title": {
+        "en": "The Granite Sentinel",
+        "zh": "花岗岩哨兵"
+      },
+      "description": {
+        "en": "At a remote 1902 Colorado quarry, a young apprentice risks everything to expose the corruption behind her sister's death and calm a frantic draft horse.",
+        "zh": "1902年科罗拉多州一座偏远的花岗岩采石场，一名年轻的学徒冒着生命危险揭露姐姐死因背后的腐败，并安抚了一匹惊慌的重型役马。"
+      }
+    },
+    "title": {
+      "en": "The Granite Sentinel",
+      "zh": "花岗岩哨兵"
+    },
+    "category": {
+      "en": "Historical Drama",
+      "zh": "历史戏剧"
+    },
+    "summary": {
+      "en": "At an isolated Colorado quarry in 1902, a young apprentice confronts a ruthless superintendent and a frantic draft horse to expose the deadly truth behind her sister's workplace tragedy.",
+      "zh": "1902年，在科罗拉多州一座偏远的花岗岩采石场，一名年轻的学徒勇敢面对残酷的监工与一匹惊慌的重型役马，揭开姐姐工作意外背后致命的真相。"
+    },
+    "warning": {
+      "en": "Fictional story. Contains themes of industrial accidents, workplace grief, and confrontation over corporate negligence.",
+      "zh": "虚构故事。包含工伤事故、职场悲痛以及针对企业疏忽的对质主题。"
+    },
+    "tone": "Copper",
+    "glyph": "GS",
+    "chapterCount": {
+      "en": 6,
+      "zh": 6
+    },
+    "readingUnits": {
+      "en": 2462,
+      "zh": 4192
     }
   }
 ];
